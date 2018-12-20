@@ -1,0 +1,15 @@
+{
+  "name": "snipcart-i18n",
+  "version": "1.0.0",
+  "description": "Localization files for Snipcart cart",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Snipcart",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-polyglot": "^0.4.32",
+    "node-polyglot": "^2.3.0"
+  }
+}
