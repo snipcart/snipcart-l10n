@@ -1,5 +1,21 @@
 {
     "header": {
-        "cart_summary": "Cart summary"
+        "title_cart_summary": "Cart summary",
+        "loading": "Loading..."
+    },
+    "item": {
+        "quantity": "Quantity"
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Shipping, taxes, and discounts calculated at checkout.",
+        "loading": "Loading...",
+        "secured_by": "Secured by Snipcart"
+    },
+    "discount_box": {
+        "promo_code": "Promo code?",
+        "apply": "Apply",
+        "cancel": "Cancel",
+        "promo_code_placeholder": "Promo code"
     }
 }
