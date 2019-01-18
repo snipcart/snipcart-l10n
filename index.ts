@@ -1,8 +1,13 @@
 import Polyglot from "node-polyglot";
 import en from "./locales/en.json";
 
+export interface LocalizationService {
+    language: string;
+    localize: (phrase: string, opts?: any) => string;
+}
+
 // tslint:disable-next-line:class-name
-export default class i18n {
+export default class i18n implements LocalizationService {
     public language: string;
     private polyglot: Polyglot;
 
