@@ -1,6 +1,7 @@
 {
     "actions": {
-        "edit": "Edit"
+        "edit": "Edit",
+        "continue_shopping": "Continue shopping"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -32,14 +33,15 @@
         "postalCode": "Postal/ZIP code",
         "province": "Province/State"
     },
-    "billing_address_form": {
-        "header_title": "Billing"
+    "billing": {
+        "title": "Billing"
     },
     "shipping": {
-        "shipping_methods": "Shipping",
+        "title": "Shipping",
         "shipping_to": "Shipping to:"
     },
     "payment": {
+        "title": "Payment",
         "continue_to_payment": "Continue to payment"
     }
 }
