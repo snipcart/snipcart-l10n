@@ -1,7 +1,9 @@
 {
     "actions": {
         "edit": "Edit",
-        "continue_shopping": "Continue shopping"
+        "continue_shopping": "Continue shopping",
+        "back_to_checkout": "Back to checkout",
+        "checkout": "Checkout"
     },
     "header": {
         "title_cart_summary": "Cart summary",
