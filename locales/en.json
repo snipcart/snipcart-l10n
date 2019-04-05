@@ -1,9 +1,11 @@
 {
     "actions": {
         "edit": "Edit",
+        "cancel": "Cancel",
         "continue_shopping": "Continue shopping",
         "back_to_checkout": "Back to checkout",
-        "checkout": "Checkout"
+        "checkout": "Checkout",
+        "apply": "Apply"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -14,16 +16,15 @@
     },
     "cart": {
         "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping, taxes, and discounts calculated at checkout.",
+        "shipping_taxes_calculated_at_checkout": "Shipping and taxes calculated at checkout.",
         "loading": "Loading...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary"
     },
     "discount_box": {
         "promo_code": "Promo code?",
-        "apply": "Apply",
-        "cancel": "Cancel",
-        "promo_code_placeholder": "Promo code"
+        "promo_code_placeholder": "Promo code",
+        "promocode_applied": "Promotion applied"
     },
     "address_form": {
         "name": "Full name",
@@ -45,5 +46,22 @@
     "payment": {
         "title": "Payment",
         "continue_to_payment": "Continue to payment"
+    },
+    "discounts": {
+      "title": "Discounts"
+    },
+    "cart_summary": {
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "discount": "Discount"
+    },
+    "errors": {
+      "promo_code_is_invalid": "This promocode isn't valid",
+      "promocode_already_in_cart": "This promocode is already applied",
+      "promocode_isnt_applicable": "This promocode isn't applicable",
+      "promo_code_is_expired": "This promotion has expired",
+      "stringEmpty": "This field is required",
+      "required": "This field is required"
     }
 }
