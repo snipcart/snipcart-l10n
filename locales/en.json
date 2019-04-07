@@ -19,7 +19,8 @@
         "shipping_taxes_calculated_at_checkout": "Shipping and taxes calculated at checkout.",
         "loading": "Loading...",
         "secured_by": "Secured by Snipcart",
-        "summary": "Order summary"
+        "summary": "Order summary",
+        "empty": "Your cart is empty, add items before checking out."
     },
     "discount_box": {
         "promo_code": "Promo code?",
