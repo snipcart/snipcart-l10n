@@ -64,5 +64,8 @@
       "promo_code_is_expired": "This promotion has expired",
       "stringEmpty": "This field is required",
       "required": "This field is required"
+    },
+    "customer_orders": {
+        "loading": "Loading..."
     }
 }
