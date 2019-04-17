@@ -20,7 +20,8 @@
         "loading": "Loading...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
-        "empty": "Your cart is empty, add items before checking out."
+        "empty": "Your cart is empty, add items before checking out.",
+        "invoice_number": "Invoice number"
     },
     "discount_box": {
         "promo_code": "Promo code?",
@@ -67,5 +68,8 @@
     },
     "customer_orders": {
         "loading": "Loading..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Thank you for your order"
     }
 }
