@@ -39,15 +39,22 @@
         "province": "Province/State"
     },
     "billing": {
-        "title": "Billing"
+        "title": "Billing",
+        "address": "Billing address"
+    },
+    "customer": {
+        "information": "Customer information"
     },
     "shipping": {
         "title": "Shipping",
-        "shipping_to": "Shipping to:"
+        "shipping_to": "Shipping to:",
+        "address": "Shipping address",
+        "method": "Shipping method"
     },
     "payment": {
         "title": "Payment",
-        "continue_to_payment": "Continue to payment"
+        "continue_to_payment": "Continue to payment",
+        "credit_card": "Credit card"
     },
     "discounts": {
       "title": "Discounts"
