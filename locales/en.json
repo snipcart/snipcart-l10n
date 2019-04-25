@@ -5,7 +5,8 @@
         "continue_shopping": "Continue shopping",
         "back_to_checkout": "Back to checkout",
         "checkout": "Checkout",
-        "apply": "Apply"
+        "apply": "Apply",
+        "type_address": "Type your address"
     },
     "header": {
         "title_cart_summary": "Cart summary",
