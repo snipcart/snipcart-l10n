@@ -42,7 +42,9 @@
     },
     "billing": {
         "title": "Billing",
-        "address": "Billing address"
+        "address": "Billing address",
+        "continue_to_shipping": "Continue to shipping",
+        "use_different_shipping_address": "Use different shipping address"
     },
     "customer": {
         "information": "Customer information"
