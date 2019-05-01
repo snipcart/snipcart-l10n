@@ -6,7 +6,8 @@
         "back_to_checkout": "Back to checkout",
         "checkout": "Checkout",
         "apply": "Apply",
-        "type_address": "Type your address"
+        "type_address": "Type your address",
+        "use_this_address": "Use this address"
     },
     "header": {
         "title_cart_summary": "Cart summary",
