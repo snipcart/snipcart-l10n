@@ -38,7 +38,8 @@
         "city": "City",
         "country": "Country",
         "postalCode": "Postal/ZIP code",
-        "province": "Province/State"
+        "province": "Province/State",
+        "dont_see_address": "I don't see my address"
     },
     "billing": {
         "title": "Billing",
