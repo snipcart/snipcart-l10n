@@ -7,7 +7,8 @@
         "checkout": "Checkout",
         "apply": "Apply",
         "type_address": "Type your address",
-        "use_this_address": "Use this address"
+        "use_this_address": "Use this address",
+        "back_to_store": "Back to store"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -22,7 +23,7 @@
         "loading": "Loading...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
-        "empty": "Your cart is empty, add items before checking out.",
+        "empty": "Your cart is empty.",
         "invoice_number": "Invoice number"
     },
     "discount_box": {
