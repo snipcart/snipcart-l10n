@@ -20,7 +20,7 @@
     "cart": {
         "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "Shipping and taxes calculated at checkout.",
-        "loading": "We're getting your cart details.",
+        "loading": "We're getting your cart ready...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
         "empty": "Your cart is empty.",
