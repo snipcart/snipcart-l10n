@@ -15,7 +15,10 @@
         "loading": "Loading..."
     },
     "item": {
-        "quantity": "Quantity"
+        "quantity": "Quantity",
+        "decrement_quantity": "Decrement quantity",
+        "increment_quantity": "Increment quantity",
+        "remove_item": "Remove item"
     },
     "cart": {
         "subtotal": "Subtotal",
