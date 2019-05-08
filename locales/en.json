@@ -30,6 +30,9 @@
         "empty": "Your cart is empty.",
         "invoice_number": "Invoice number"
     },
+    "order": {
+        "loading": "We're getting your order details..."
+    },
     "discount_box": {
         "promo_code": "Promo code?",
         "promo_code_placeholder": "Promo code",
