@@ -23,7 +23,7 @@
     },
     "cart": {
         "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping and taxes calculated at checkout.",
+        "shipping_taxes_calculated_at_checkout": "Shipping, and taxes will be calculated at checkout.",
         "loading": "We're getting your cart ready...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
@@ -91,5 +91,8 @@
     },
     "confirmation": {
         "thank_you_for_your_order": "Thank you for your order"
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Shipping, and taxes will be calculated when an address will be provided."
     }
 }
