@@ -67,7 +67,8 @@
     "payment": {
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
-        "credit_card": "Credit card"
+        "credit_card": "Credit card",
+        "place_order": "Place Order"
     },
     "discounts": {
       "title": "Discounts"
