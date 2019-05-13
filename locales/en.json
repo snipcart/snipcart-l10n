@@ -68,7 +68,8 @@
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
         "credit_card": "Credit card",
-        "place_order": "Place Order"
+        "place_order": "Place Order",
+        "preparing_payment_session": "Preparing payment session..."
     },
     "discounts": {
       "title": "Discounts"
