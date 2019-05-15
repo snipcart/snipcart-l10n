@@ -87,7 +87,8 @@
       "promocode_isnt_applicable": "This promocode isn't applicable",
       "promo_code_is_expired": "This promotion has expired",
       "stringEmpty": "This field is required",
-      "required": "This field is required"
+      "required": "This field is required",
+      "invalid_expiry_year_past": "Card is expired"
     },
     "customer_orders": {
         "loading": "Loading..."
