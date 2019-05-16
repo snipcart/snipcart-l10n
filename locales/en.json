@@ -79,7 +79,8 @@
       "total": "Total",
       "subtotal": "Subtotal",
       "shipping": "Shipping",
-      "discount": "Discounts"
+      "discount": "Discounts",
+      "quantity": "x"
     },
     "errors": {
       "promo_code_is_invalid": "This promocode isn't valid",
