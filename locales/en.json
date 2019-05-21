@@ -89,7 +89,8 @@
       "promo_code_is_expired": "This promotion has expired",
       "stringEmpty": "This field is required",
       "required": "This field is required",
-      "invalid_expiry_year_past": "Card is expired"
+      "invalid_expiry_year_past": "Card is expired",
+      "email": "Please provide a valid email address"
     },
     "customer_orders": {
         "loading": "Loading..."
