@@ -70,7 +70,8 @@
         "credit_card": "Credit card",
         "place_order": "Place order",
         "preparing_payment_session": "Preparing payment...",
-        "processing_payment": "Processing payment..."
+        "processing_payment": "Processing payment...",
+        "checkout_with": "Checkout with"
     },
     "discounts": {
       "title": "Discounts"
