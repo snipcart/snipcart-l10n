@@ -71,7 +71,13 @@
         "place_order": "Place order",
         "preparing_payment_session": "Preparing payment...",
         "processing_payment": "Processing payment...",
-        "checkout_with": "Checkout with"
+        "checkout_with": "Checkout with",
+        "checkout_with_method": "Checkout with %{method}",
+        "method_icon": "%{method} icon",
+        "methods":{
+            "card": "Credit card",
+            "paypal": "PayPal"
+        }
     },
     "discounts": {
       "title": "Discounts"
