@@ -58,6 +58,26 @@
     "customer": {
         "information": "Customer information"
     },
+    "login_form": {
+        "login": "Log In",
+        "dont_have_an_account": "Don't have an account?",
+        "signup": "Sign Up",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Forgot your password?"
+    },
+    "signup_form": {
+        "signup": "Sign Up",
+        "already_have_an_account": "Already have an account?",
+        "login": "Log In",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirm Password"
+    },
+    "alternative": {
+        "or": "Or",
+        "continue_as_a_guest": "Continue as a guest"
+    },
     "shipping": {
         "title": "Shipping",
         "shipping_to": "Shipping to:",
