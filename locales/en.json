@@ -117,7 +117,9 @@
       "stringEmpty": "This field is required",
       "required": "This field is required",
       "invalid_expiry_year_past": "Card is expired",
-      "email": "Please provide a valid email address"
+      "email": "Please provide a valid email address",
+      "payment_failed_title": "Unable to process your payment",
+      "payment_failed_description": "Please review your card details, or try again later."
     },
     "customer_orders": {
         "loading": "Loading..."
