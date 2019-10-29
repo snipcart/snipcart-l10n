@@ -41,7 +41,7 @@
     "address_form": {
         "name": "Full name",
         "email": "Email",
-        "address1": "Address",
+        "address1": "Street address",
         "address2": "Apt/Suite",
         "city": "City",
         "country": "Country",
