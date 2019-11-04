@@ -110,6 +110,8 @@
       "quantity": "x"
     },
     "errors": {
+      "default": "An error occured",
+
       "promo_code_is_invalid": "This promocode isn't valid",
       "promocode_already_in_cart": "This promocode is already applied",
       "promocode_isnt_applicable": "This promocode isn't applicable",
@@ -118,8 +120,17 @@
       "required": "This field is required",
       "invalid_expiry_year_past": "Card is expired",
       "email": "Please provide a valid email address",
+      
       "payment_failed_title": "Unable to process your payment",
-      "payment_failed_description": "Please review your card details, or try again later."
+      "payment_failed_description": "Please review your card details, or try again later.",
+      
+      "payment_authorization": {
+          "title":"Unable to process your payment",
+          
+          "default": "Please review the information you provided, or try again later.",
+          "some_descriptor_code": "This is a sample"
+      }
+      
     },
     "customer_orders": {
         "loading": "Loading..."
