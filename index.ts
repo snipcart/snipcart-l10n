@@ -54,8 +54,6 @@ class LocalizedError implements ErrorMessage{
         this.title = '';
         this.description = '';
 
-        console.log(parts);
-
         if(parts.length <= 2
             || parts[0] != 'snipcart' 
             || parts[1] != 'errors'){
