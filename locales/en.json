@@ -131,6 +131,9 @@
           "some_descriptor_code": "This is a sample"
       }
       
+      "customer_exists": "This email is already used.",
+      "customer_password_missmatch": "The two passwords must match.",
+      "invalid_credentials": "Invalid email or password."
     },
     "customer_orders": {
         "loading": "Loading..."
