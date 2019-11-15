@@ -4,8 +4,13 @@
   "description": "Localization files for Snipcart cart",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
   },
   "author": "Snipcart",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^8.1.0"
+  }
 }
