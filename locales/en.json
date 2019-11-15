@@ -74,7 +74,7 @@
         "password": "Password",
         "confirm_password": "Confirm Password"
     },
-    "alternative": {
+    "guest_checkout": {
         "or": "Or",
         "continue_as_a_guest": "Continue as a guest"
     },
