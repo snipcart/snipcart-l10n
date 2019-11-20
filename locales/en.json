@@ -142,6 +142,6 @@
         "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping, and taxes will be calculated when an address will be provided."
+        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated when an address will be provided."
     }
 }
