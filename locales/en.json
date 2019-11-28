@@ -74,7 +74,7 @@
         "password": "Password",
         "confirm_password": "Confirm Password"
     },
-    "alternative": {
+    "guest_checkout": {
         "or": "Or",
         "continue_as_a_guest": "Continue as a guest"
     },
@@ -96,7 +96,20 @@
         "method_icon": "%{method} icon",
         "methods":{
             "card": "Credit card",
-            "paypal": "PayPal"
+            "paypal": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer"
         }
     },
     "discounts": {
@@ -142,6 +155,6 @@
         "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping, and taxes will be calculated when an address will be provided."
+        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated when an address will be provided."
     }
 }
