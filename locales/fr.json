@@ -86,9 +86,9 @@
     },
     "payment": {
         "title": "Paiement",
-        "continue_to_payment": "Procéder au paiement",
+        "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
-        "place_order": "Placer la commane",
+        "place_order": "Placer la commande",
         "preparing_payment_session": "Pépration du paiement...",
         "processing_payment": "Paiement en cours...",
         "checkout_with": "Payer avec",
