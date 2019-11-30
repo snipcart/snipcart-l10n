@@ -52,7 +52,7 @@
     "billing": {
         "title": "Facturation",
         "address": "Addresse de facturation",
-        "continue_to_shipping": "Continuer à magasiner",
+        "continue_to_shipping": "Continuer à la livraison",
         "use_different_shipping_address": "Utiliser une addresse de livraison différente"
     },
     "customer": {
