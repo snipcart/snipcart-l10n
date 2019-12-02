@@ -1,8 +1,10 @@
-# snipcart-i18n
+# 🧾 Snipcart localization files
 
-This repository contains localization files for Snipcart v3.0.
+This repository contains localization files for Snipcart v3.0. Our team officially maintains the `en.json` file, this is the one that should be used as a starting point if you want to add a new language.
 
-# How to contribute
+Each file name should be the language ISO code, we also support regional locales (`en-US`, `fr-FR`, etc.).
+
+# 👷‍♀️ How to contribute 
 
 To submit a new translation, you'll need to open a pull request. To do this, you'll need to start by forking our repository. Open the repository on Github, then click on Fork. This will create a copy of the repository under your Github account.
 
