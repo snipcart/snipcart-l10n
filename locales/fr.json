@@ -58,18 +58,16 @@
     "customer": {
         "information": "Information sur le client"
     },
-    "login_form": {
-        "login": "Connexion",
+    "signin_form": {
+        "signin": "Connexion",
         "dont_have_an_account": "Pas de compte?",
-        "signup": "Inscription",
         "email": "Courriel",
         "password": "Mot de passe",
         "forgot_your_password": "Oublié votre mot de passe?"
     },
-    "signup_form": {
-        "signup": "Inscription",
+    "register_form": {
+        "register": "Inscription",
         "already_have_an_account": "Déjà un compte?",
-        "login": "Connexion",
         "email": "Courriel",
         "password": "Mot de passe",
         "confirm_password": "Confirmation du mot de passe"
