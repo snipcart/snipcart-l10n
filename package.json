@@ -1,5 +1,5 @@
 {
-  "name": "snipcart-i18n",
+  "name": "snipcart-l10n",
   "version": "1.0.0",
   "description": "Localization files for Snipcart cart",
   "main": "index.ts",
