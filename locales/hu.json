@@ -103,11 +103,11 @@
           "ideal": "iDEAL",
           "ing_home_pay": "ING Home Pay",
           "kbc": "KBC",
-          "klarna_pay_later": "Klarna pay later",
-          "klarna_slice_it": "Klarna monthly financing",
+          "klarna_pay_later": "Klarna Pay later",
+          "klarna_slice_it": "Klarna Monthly financing",
           "p24": "Przelewy24",
-          "sepa_debit": "SEPA bank transfer",
-          "sofort": "Sofort bank transfer"
+          "sepa_debit": "SEPA utalás",
+          "sofort": "Sofort utalás"
       }
   },
   "discounts": {
