@@ -84,13 +84,13 @@
     },
     "payment": {
         "title": "Zahlungsmethode",
-        "continue_to_payment": "Weiter zur zahlungsmethode",
+        "continue_to_payment": "Weiter zur Zahlungsmethode",
         "credit_card": "Kreditkarte",
         "place_order": "Zahlungspflichtig bestellen",
         "preparing_payment_session": "Zahlung vorbereiten...",
         "processing_payment": "Zahlung verarbeiten...",
-        "checkout_with": "Zahlen mit",
-        "checkout_with_method": "Zahlen mit %{method}",
+        "checkout_with": "Bezahle mit",
+        "checkout_with_method": "Bezahle mit %{method}",
         "method_icon": "%{method} icon",
         "methods":{
             "card": "Kreditkarte",
@@ -153,6 +153,6 @@
         "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungsmail"
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten werden nach Eingabe der Versandadresse berechent"
+        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten werden nach Eingabe der Versandadresse berechnet"
     }
 }
