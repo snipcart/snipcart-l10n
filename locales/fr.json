@@ -2,13 +2,13 @@
     "actions": {
         "edit": "Modifier",
         "cancel": "Annuler",
-        "continue_shopping": "Continuer à magasiner",
+        "continue_shopping": "Continuer les achats",
         "back_to_checkout": "Retour au paiement",
         "checkout": "Paiement",
         "apply": "Appliquer",
         "type_address": "Saisissez votre adresse",
-        "use_this_address": "Utiliser cette addresse",
-        "back_to_store": "Retour au magain",
+        "use_this_address": "Utiliser cette adresse",
+        "back_to_store": "Retour sur la boutique",
         "close_cart": "Fermer le panier"
     },
     "header": {
@@ -40,35 +40,35 @@
     },
     "address_form": {
         "name": "Nom complet",
-        "email": "Courriel",
-        "address1": "Addresse civique",
+        "email": "Email",
+        "address1": "Adresse civique",
         "address2": "Appartement",
         "city": "Ville",
         "country": "Pays",
         "postalCode": "Code postal",
         "province": "Province",
-        "dont_see_address": "Je ne trouve pas mon addresse"
+        "dont_see_address": "Je ne trouve pas mon adresse"
     },
     "billing": {
         "title": "Facturation",
-        "address": "Addresse de facturation",
+        "address": "Adresse de facturation",
         "continue_to_shipping": "Continuer à la livraison",
-        "use_different_shipping_address": "Utiliser une addresse de livraison différente"
+        "use_different_shipping_address": "Utiliser une adresse de livraison différente"
     },
     "customer": {
         "information": "Information sur le client"
     },
     "signin_form": {
         "signin": "Connexion",
-        "dont_have_an_account": "Pas de compte?",
-        "email": "Courriel",
+        "dont_have_an_account": "Pas de compte ?",
+        "email": "Email",
         "password": "Mot de passe",
-        "forgot_your_password": "Oublié votre mot de passe?"
+        "forgot_your_password": "Oublié votre mot de passe ?"
     },
     "register_form": {
         "register": "Inscription",
-        "already_have_an_account": "Déjà un compte?",
-        "email": "Courriel",
+        "already_have_an_account": "Déjà un compte ?",
+        "email": "Email",
         "password": "Mot de passe",
         "confirm_password": "Confirmation du mot de passe"
     },
@@ -78,58 +78,57 @@
     },
     "shipping": {
         "title": "Livraison",
-        "shipping_to": "Livré à:",
-        "address": "Addresse de livraison",
+        "shipping_to": "Livré à :",
+        "address": "Adresse de livraison",
         "method": "Méthode de livraison"
     },
     "payment": {
         "title": "Paiement",
         "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
-        "place_order": "Placer la commande",
-        "preparing_payment_session": "Pépration du paiement...",
+        "place_order": "Payer la commande",
+        "preparing_payment_session": "Prépration du paiement...",
         "processing_payment": "Paiement en cours...",
         "checkout_with": "Payer avec",
         "checkout_with_method": "Payer avec %{method}",
         "method_icon": "%{method} icon",
-        "methods":{
+        "methods": {
             "card": "Carte de crédit",
             "paypal": "PayPal"
         }
     },
     "discounts": {
-      "title": "Promotions"
+        "title": "Promotions"
     },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Sous-total",
-      "shipping": "Livraison",
-      "discount": "Promotions",
-      "quantity": "x"
+        "total": "Total",
+        "subtotal": "Sous-total",
+        "shipping": "Livraison",
+        "discount": "Promotions",
+        "quantity": "x"
     },
     "errors": {
-      "default": "Une erreur est survenue",
+        "default": "Une erreur est survenue",
+        "promo_code_is_invalid": "Cette promotion n'est pas valide",
+        "promocode_already_in_cart": "Cette promotion est déjà appliquée",
+        "promocode_isnt_applicable": "Cette promotion n'est pas applicable",
+        "promo_code_is_expired": "Cette promotion a expirée",
+        "stringEmpty": "Ce champ est requis",
+        "required": "Ce champ est requis",
+        "invalid_expiry_year_past": "La carte est expirée",
+        "email": "Veuillez spécifier une adresse email valide",
 
-      "promo_code_is_invalid": "Cette promotion n'est pas valide",
-      "promocode_already_in_cart": "Cette promotion est déjà appliquée",
-      "promocode_isnt_applicable": "Cette promotion n'est pas applicable",
-      "promo_code_is_expired": "Cette promotion a expirée",
-      "stringEmpty": "Ce champ est requis",
-      "required": "Ce champ est requis",
-      "invalid_expiry_year_past": "La carte est expirée",
-      "email": "Veuillez spécifier une addresse courriel valide",
-      
-      "payment_failed_title": "Impossible de compléter votre paiement",
-      "payment_failed_description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
-      
-      "payment_authorization": {
-          "title":"Impossible de compléter votre paiement",
-          "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
-          "some_descriptor_code": "Ceci est une exemple"
-      },
-      "customer_exists": "Ce courriel est déjà utilisé.",
-      "customer_password_missmatch": "Les mots de passe sont différents.",
-      "invalid_credentials": "Courriel ou mot de passe invalide"
+        "payment_failed_title": "Impossible de compléter votre paiement",
+        "payment_failed_description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
+
+        "payment_authorization": {
+            "title": "Impossible de compléter votre paiement",
+            "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
+            "some_descriptor_code": "Ceci est une exemple"
+        },
+        "customer_exists": "Ce email est déjà utilisé.",
+        "customer_password_missmatch": "Les mots de passe sont différents.",
+        "invalid_credentials": "Email ou mot de passe invalide"
     },
     "customer_orders": {
         "loading": "Chargement..."
