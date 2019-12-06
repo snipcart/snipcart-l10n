@@ -23,7 +23,7 @@
     },
     "cart": {
         "subtotal": "Zwischensumme",
-        "shipping_taxes_calculated_at_checkout": "Versankosten werden an der Kasse berechnet",
+        "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
         "loading": "Wir erstellen deinen Warenkorb...",
         "secured_by": "Verschlüsselt von Snipcart",
         "summary": "Bestellübersicht",
