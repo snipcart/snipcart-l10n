@@ -4,5 +4,14 @@
     },
     "billing": {
         "continue_to_shopping": "Continuer les achats"
+    },
+    "signin_form": {
+        "email": "Email"
+    },
+    "register_form": {
+        "email": "Email"
+    },
+    "address_form": {
+        "email": "Email"
     }
 }
