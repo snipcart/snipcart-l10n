@@ -22,78 +22,78 @@
         "remove_item": "カートから出す"
     },
     "cart": {
-        "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping, and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
+        "subtotal": "小計",
+        "shipping_taxes_calculated_at_checkout": "送料と消費税は会計後に加算されます。",
+        "loading": "ロードしています...",
         "secured_by": "Secured by Snipcart",
-        "summary": "Order summary",
-        "empty": "Your cart is empty.",
-        "invoice_number": "Invoice number"
+        "summary": "ご注文",
+        "empty": "カートに商品が入っていません",
+        "invoice_number": "請求書番号"
     },
     "order": {
-        "loading": "We're getting your order details..."
+        "loading": "ロードしています..."
     },
     "discount_box": {
-        "promo_code": "Promo code?",
-        "promo_code_placeholder": "Promo code",
-        "promocode_applied": "Promotion applied"
+        "promo_code": "プロモーションコード",
+        "promo_code_placeholder": "プロモーションコード",
+        "promocode_applied": "プロモーションコードが入力されています"
     },
     "address_form": {
-        "name": "Full name",
-        "email": "Email",
-        "address1": "Street address",
-        "address2": "Apt/Suite",
-        "city": "City",
-        "country": "Country",
-        "postalCode": "Postal/ZIP code",
-        "province": "Province/State",
+        "name": "お名前",
+        "email": "メール",
+        "address1": "番地",
+        "address2": "建物名",
+        "city": "市",
+        "country": "国",
+        "postalCode": "郵便番号",
+        "province": "県",
         "dont_see_address": "I don't see my address"
     },
     "billing": {
-        "title": "Billing",
-        "address": "Billing address",
-        "continue_to_shipping": "Continue to shipping",
-        "use_different_shipping_address": "Use different shipping address"
+        "title": "請求先",
+        "address": "請求先住所",
+        "continue_to_shipping": "配送を続ける",
+        "use_different_shipping_address": "異なる宛先を使う"
     },
     "customer": {
-        "information": "Customer information"
+        "information": "お客様情報"
     },
     "signin_form": {
-        "signin": "Sign In",
-        "dont_have_an_account": "Don't have an account?",
-        "email": "Email",
-        "password": "Password",
-        "forgot_your_password": "Forgot your password?"
+        "signin": "会員ログイン",
+        "dont_have_an_account": "会員ではありませんか？",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "forgot_your_password": "パスワードをお忘れの方"
     },
     "register_form": {
-        "register": "Register",
-        "already_have_an_account": "Already have an account?",
-        "email": "Email",
-        "password": "Password",
-        "confirm_password": "Confirm Password"
+        "register": "登録",
+        "already_have_an_account": "既に会員登録していますか？",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "confirm_password": "パスワードをもう一度入力する"
     },
     "guest_checkout": {
-        "or": "Or",
-        "continue_as_a_guest": "Continue as a guest"
+        "or": "または",
+        "continue_as_a_guest": "ベスト購入（会員登録せずに購入）"
     },
     "shipping": {
-        "title": "Shipping",
-        "shipping_to": "Shipping to:",
-        "address": "Shipping address",
-        "method": "Shipping method"
+        "title": "配送",
+        "shipping_to": "配送先:",
+        "address": "配送先住所",
+        "method": "配送方法"
     },
     "payment": {
-        "title": "Payment",
-        "continue_to_payment": "Continue to payment",
-        "credit_card": "Credit card",
-        "place_order": "Place order",
-        "preparing_payment_session": "Preparing payment...",
-        "processing_payment": "Processing payment...",
-        "checkout_with": "Checkout with",
-        "checkout_with_method": "Checkout with %{method}",
-        "method_icon": "%{method} icon",
+        "title": "お支払い",
+        "continue_to_payment": "お支払いを続ける",
+        "credit_card": "クレジットカード",
+        "place_order": "注文を確定する",
+        "preparing_payment_session": "しばらくお待ちください...",
+        "processing_payment": "お支払い中...",
+        "checkout_with": "お支払い方法",
+        "checkout_with_method": "%{method}でお支払い",
+        "method_icon": "%{method} アイコン",
         "methods":{
-            "card": "Credit card",
+            "card": "クレジットカード",
             "paypal": "PayPal",
             "apple_pay": "Apple Pay",
             "bancontact": "Bancontact",
@@ -111,48 +111,48 @@
         }
     },
     "discounts": {
-      "title": "Discounts"
+      "title": "ディスカウント"
     },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Subtotal",
-      "shipping": "Shipping",
-      "discount": "Discounts",
-      "quantity": "x"
+      "total": "合計",
+      "subtotal": "合計金額",
+      "shipping": "送料",
+      "discount": "お値引き",
+      "quantity": "数量"
     },
     "errors": {
-      "default": "An error occured",
+      "default": "エラーが発生しました",
 
-      "promo_code_is_invalid": "This promocode isn't valid",
-      "promocode_already_in_cart": "This promocode is already applied",
-      "promocode_isnt_applicable": "This promocode isn't applicable",
-      "promo_code_is_expired": "This promotion has expired",
-      "stringEmpty": "This field is required",
-      "required": "This field is required",
-      "invalid_expiry_year_past": "Card is expired",
-      "email": "Please provide a valid email address",
+      "promo_code_is_invalid": "プロモーションコードが正しくありません",
+      "promocode_already_in_cart": "プロモーションコードは既に使用されています",
+      "promocode_isnt_applicable": "プロモーションコードが不正です",
+      "promo_code_is_expired": "プロモーションコードの有効期限が切れています",
+      "stringEmpty": "この項目は入力必須です",
+      "required": "入力必須項目",
+      "invalid_expiry_year_past": "カードの有効期限が切れています",
+      "email": "正しいメールアドレスを入力してください",
       
-      "payment_failed_title": "Unable to process your payment",
-      "payment_failed_description": "Please review your card details, or try again later.",
+      "payment_failed_title": "お支払い手続きが完了しません",
+      "payment_failed_description": "カード情報を確認し、再度お試し下さい",
       
       "payment_authorization": {
-          "title":"Unable to process your payment",
+          "title":"お支払い手続きが完了しません",
           
-          "default": "Please review the information you provided, or try again later.",
-          "some_descriptor_code": "This is a sample"
+          "default": "入力情報を確認し、再度お試し下さい.",
+          "some_descriptor_code": "これはサンプルです"
       },
-      "customer_exists": "This email is already used.",
-      "customer_password_missmatch": "The two passwords must match.",
-      "invalid_credentials": "Invalid email or password."
+      "customer_exists": "このメールアドレスは登録済です",
+      "customer_password_missmatch": "二つのパスワードが一致しません",
+      "invalid_credentials": "メールアドレスかパスワードが正しくありません"
     },
     "customer_orders": {
-        "loading": "Loading..."
+        "loading": "ロードしています..."
     },
     "confirmation": {
-        "thank_you_for_your_order": "Thank you for your order",
-        "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
+        "thank_you_for_your_order": "ご注文、有難うございます",
+        "async_confirmation_notice": "ご注文が確定し、配送準備に入ります。ご登録のメールアドレスにご確認のメールをお送り致しました。"
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated when an address will be provided."
+        "shipping_taxes_calculated_when_address_provided": "配送先住所が確定後、送料と消費税が計算されます。"
     }
 }
