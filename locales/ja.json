@@ -1,11 +1,11 @@
 {
     "actions": {
-        "edit": "Edit",
-        "cancel": "Cancel",
-        "continue_shopping": "Continue shopping",
-        "back_to_checkout": "Back to checkout",
-        "checkout": "Checkout",
-        "apply": "Apply",
+        "edit": "編集",
+        "cancel": "キャンセル",
+        "continue_shopping": "買い物を続ける",
+        "back_to_checkout": "お会計に戻る",
+        "checkout": "お会計",
+        "apply": "申し込む",
         "type_address": "Type your address",
         "use_this_address": "Use this address",
         "back_to_store": "Back to store",
