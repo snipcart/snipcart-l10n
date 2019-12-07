@@ -6,20 +6,20 @@
         "back_to_checkout": "お会計に戻る",
         "checkout": "お会計",
         "apply": "申し込む",
-        "type_address": "Type your address",
-        "use_this_address": "Use this address",
-        "back_to_store": "Back to store",
-        "close_cart": "Close cart"
+        "type_address": "アドレス",
+        "use_this_address": "この住所を使う",
+        "back_to_store": "ストアに戻る",
+        "close_cart": "カートを閉じる"
     },
     "header": {
-        "title_cart_summary": "Cart summary",
-        "loading": "Loading..."
+        "title_cart_summary": "カートの内容",
+        "loading": "ロードしています..."
     },
     "item": {
-        "quantity": "Quantity",
-        "decrement_quantity": "Decrement quantity",
-        "increment_quantity": "Increment quantity",
-        "remove_item": "Remove item"
+        "quantity": "数量",
+        "decrement_quantity": "減らす",
+        "increment_quantity": "増やす",
+        "remove_item": "カートから出す"
     },
     "cart": {
         "subtotal": "Subtotal",
