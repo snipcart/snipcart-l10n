@@ -129,7 +129,7 @@
     "promo_code_is_expired": "Ez a kupon lejárt",
     "stringEmpty": "Ennek a mezőnek a kitöltése kötelező",
     "required": "Ez kötelező mező",
-    "invalid_expiry_year_past": "A káety lejárt",
+    "invalid_expiry_year_past": "A kártya lejárt",
     "email": "Kérjük, valós email címet adj meg",
     
     "payment_failed_title": "Nem sikerült feldolgozni a fizetést",
