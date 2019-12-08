@@ -87,7 +87,7 @@
         "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
         "place_order": "Payer la commande",
-        "preparing_payment_session": "Prépration du paiement...",
+        "preparing_payment_session": "Préparation du paiement...",
         "processing_payment": "Paiement en cours...",
         "checkout_with": "Payer avec",
         "checkout_with_method": "Payer avec %{method}",
