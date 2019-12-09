@@ -13,5 +13,8 @@
     },
     "address_form": {
         "email": "Email"
+    },
+    "payment": {
+        "place_order": "Payer la commande"
     }
 }
