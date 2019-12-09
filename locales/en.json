@@ -83,6 +83,11 @@
         "method": "Shipping method"
     },
     "payment": {
+        "form":{
+            "card_number": "TODO CARD",
+            "card_expiration": "TODO EXP",
+            "card_cvv": "TODO CVV"
+        },
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
         "credit_card": "Credit card",
