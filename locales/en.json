@@ -84,9 +84,11 @@
     },
     "payment": {
         "form":{
-            "card_number": "TODO CARD",
-            "card_expiration": "TODO EXP",
-            "card_cvv": "TODO CVV"
+            "card_label": "Credit card",
+            "card_number": "Card number",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postal code"
         },
         "title": "Payment",
         "continue_to_payment": "Continue to payment",

@@ -83,6 +83,13 @@
         "method": "Méthode de livraison"
     },
     "payment": {
+        "form":{
+            "card_label": "Carte de crédit",
+            "card_number": "Numéro de carte",
+            "card_expiration": "MM/AA",
+            "card_cvv": "CVV",
+            "card_postal_code": "Code postal"
+        },
         "title": "Paiement",
         "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
