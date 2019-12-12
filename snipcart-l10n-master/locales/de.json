@@ -1,0 +1,158 @@
+{
+    "actions": {
+        "edit": "Bearbeiten",
+        "cancel": "Abbrechen",
+        "continue_shopping": "Weiter einkaufen",
+        "back_to_checkout": "Zurück zum Warenkorb",
+        "checkout": "Zur Kasse",
+        "apply": "Anwenden",
+        "type_address": "Eingabe deiner",
+        "use_this_address": "Benutze diese Adresse",
+        "back_to_store": "Zurück zum Shop",
+        "close_cart": "Schließe Warenkorb"
+    },
+    "header": {
+        "title_cart_summary": "Warenkorb",
+        "loading": "laden..."
+    },
+    "item": {
+        "quantity": "Anzahl",
+        "decrement_quantity": "Anzahl erhöhen",
+        "increment_quantity": "Anzahl reduzieren",
+        "remove_item": "Artikel löschen"
+    },
+    "cart": {
+        "subtotal": "Zwischensumme",
+        "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
+        "loading": "Wir erstellen deinen Warenkorb...",
+        "secured_by": "Verschlüsselt von Snipcart",
+        "summary": "Bestellübersicht",
+        "empty": "Dein Warenkorb ist leer",
+        "invoice_number": "Rechnungsnummer"
+    },
+    "order": {
+        "loading": "Wir laden deine Bestelldaten"
+    },
+    "discount_box": {
+        "promo_code": "Gutschein ?",
+        "promo_code_placeholder": "Gutscheincode",
+        "promocode_applied": "Gutschein angenommen"
+    },
+    "address_form": {
+        "name": "Name",
+        "email": "Email",
+        "address1": "Straße",
+        "address2": "Adresse 2 (optional)",
+        "city": "Stadt",
+        "country": "Land",
+        "postalCode": "Postleitzahl",
+        "province": "Bundesland",
+        "dont_see_address": "Ich kann meine Adresse nicht sehen"
+    },
+    "billing": {
+        "title": "Persönliche Daten",
+        "address": "Rechnungsadresse",
+        "continue_to_shipping": "Weiter zum Versand",
+        "use_different_shipping_address": "Abweichende Versandadresse"
+    },
+    "customer": {
+        "information": "Kundeninformationen"
+    },
+    "signin_form": {
+        "signin": "Einloggen",
+        "dont_have_an_account": "Noch kein Account?",
+        "email": "Email",
+        "password": "Passwort",
+        "forgot_your_password": "Passwort vergessen?"
+    },
+    "register_form": {
+        "register": "Registrieren",
+        "already_have_an_account": "Sie haben bereits einen Account?",
+        "email": "Email",
+        "password": "Passwort",
+        "confirm_password": "Passwort bestätigen"
+    },
+    "guest_checkout": {
+        "or": "oder",
+        "continue_as_a_guest": "Weiter als Gast"
+    },
+    "shipping": {
+        "title": "Versand",
+        "shipping_to": "Versand zur:",
+        "address": "Versandadresse",
+        "method": "Versandmethode"
+    },
+    "payment": {
+        "title": "Zahlungsmethode",
+        "continue_to_payment": "Weiter zur Zahlungsmethode",
+        "credit_card": "Kreditkarte",
+        "place_order": "Zahlungspflichtig bestellen",
+        "preparing_payment_session": "Zahlung vorbereiten...",
+        "processing_payment": "Zahlung verarbeiten...",
+        "checkout_with": "Bezahle mit",
+        "checkout_with_method": "Bezahle mit %{method}",
+        "method_icon": "%{method} icon",
+        "methods":{
+            "card": "Kreditkarte",
+            "paypal": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Auf Rechnung",
+            "klarna_slice_it": "Ratenzahlung",
+            "p24": "Przelewy24",
+            "sepa_debit": "Lastschrift",
+            "sofort": "Sofortüberweisung"
+        }
+    },
+    "discounts": {
+      "title": "Rabatte"
+    },
+    "cart_summary": {
+      "total": "Gesamtsumme",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versand",
+      "discount": "Rabatt",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Es ist ein Fehler aufgetreten",
+
+      "promo_code_is_invalid": "Dieser Gutscheincode ist nicht gültig",
+      "promocode_already_in_cart": "Dieser Gutscheincode wurde bereits angewandt",
+      "promocode_isnt_applicable": "Dieser Gutscheincode ist für diese Artikel nicht gültig",
+      "promo_code_is_expired": "Diese Aktion ist ausgelaufen",
+      "stringEmpty": "Dieses Feld darf nicht leer sein",
+      "required": "Dies ist ein Pflichtfeld",
+      "invalid_expiry_year_past": "Diese Karte ist bereits abgelaufen",
+      "email": "Diese Email ist ungültig",
+      
+      "payment_failed_title": "Ihre Zahlung konnte nicht verarbeitet werden",
+      "payment_failed_description": "Bitte überprüfen Sie Ihre Angaben",
+      
+      "payment_authorization": {
+          "title":"Ihre Zahlung konnte nicht verarbeitet werden",
+          
+          "default": "Bitte überprüfen Sie Ihre Angaben",
+          "some_descriptor_code": "Das ist ein Beispiel"
+      },
+      "customer_exists": "Diese Email wird bereits verwendet",
+      "customer_password_missmatch": "Die Passwörter stimmen nicht überein",
+      "invalid_credentials": "Ungültige Email oder Passwort"
+    },
+    "customer_orders": {
+        "loading": "laden..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Vielen Dank für Ihre Bestellung",
+        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungsmail"
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten werden nach Eingabe der Versandadresse berechnet"
+    }
+}

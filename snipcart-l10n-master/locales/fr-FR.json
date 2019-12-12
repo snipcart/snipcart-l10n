@@ -1,0 +1,20 @@
+{
+    "actions": {
+        "continue_shopping": "Continuer les achats"
+    },
+    "billing": {
+        "continue_to_shopping": "Continuer les achats"
+    },
+    "signin_form": {
+        "email": "Email"
+    },
+    "register_form": {
+        "email": "Email"
+    },
+    "address_form": {
+        "email": "Email"
+    },
+    "payment": {
+        "place_order": "Payer la commande"
+    }
+}
