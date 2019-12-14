@@ -1,0 +1,158 @@
+{
+    "actions": {
+        "edit": "編集",
+        "cancel": "キャンセル",
+        "continue_shopping": "買い物を続ける",
+        "back_to_checkout": "お会計に戻る",
+        "checkout": "お会計",
+        "apply": "申し込む",
+        "type_address": "アドレス",
+        "use_this_address": "この住所を使う",
+        "back_to_store": "ストアに戻る",
+        "close_cart": "カートを閉じる"
+    },
+    "header": {
+        "title_cart_summary": "カートの中身",
+        "loading": "ロードしています..."
+    },
+    "item": {
+        "quantity": "数量",
+        "decrement_quantity": "減らす",
+        "increment_quantity": "増やす",
+        "remove_item": "カートから出す"
+    },
+    "cart": {
+        "subtotal": "小計",
+        "shipping_taxes_calculated_at_checkout": "送料と消費税は会計後に加算されます。",
+        "loading": "ロードしています...",
+        "secured_by": "Secured by Snipcart",
+        "summary": "ご注文",
+        "empty": "カートに商品が入っていません",
+        "invoice_number": "請求書番号"
+    },
+    "order": {
+        "loading": "ロードしています..."
+    },
+    "discount_box": {
+        "promo_code": "プロモーションコード",
+        "promo_code_placeholder": "プロモーションコード",
+        "promocode_applied": "プロモーションコードが入力されています"
+    },
+    "address_form": {
+        "name": "お名前",
+        "email": "メール",
+        "address1": "番地",
+        "address2": "建物名",
+        "city": "市",
+        "country": "国",
+        "postalCode": "郵便番号",
+        "province": "県",
+        "dont_see_address": "I don't see my address"
+    },
+    "billing": {
+        "title": "請求先",
+        "address": "請求先住所",
+        "continue_to_shipping": "配送を続ける",
+        "use_different_shipping_address": "異なる宛先を使う"
+    },
+    "customer": {
+        "information": "お客様情報"
+    },
+    "signin_form": {
+        "signin": "会員ログイン",
+        "dont_have_an_account": "会員ではありませんか？",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "forgot_your_password": "パスワードをお忘れの方"
+    },
+    "register_form": {
+        "register": "登録",
+        "already_have_an_account": "既に会員登録していますか？",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "confirm_password": "パスワードをもう一度入力する"
+    },
+    "guest_checkout": {
+        "or": "または",
+        "continue_as_a_guest": "ベスト購入（会員登録せずに購入）"
+    },
+    "shipping": {
+        "title": "配送",
+        "shipping_to": "配送先:",
+        "address": "配送先ご住所",
+        "method": "配送方法"
+    },
+    "payment": {
+        "title": "お支払い",
+        "continue_to_payment": "お支払いを続ける",
+        "credit_card": "クレジットカード",
+        "place_order": "注文を確定する",
+        "preparing_payment_session": "しばらくお待ちください...",
+        "processing_payment": "お支払い中...",
+        "checkout_with": "お支払い方法",
+        "checkout_with_method": "%{method}でお支払い",
+        "method_icon": "%{method} アイコン",
+        "methods": {
+            "card": "クレジットカード",
+            "paypal": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer"
+        }
+    },
+    "discounts": {
+        "title": "ディスカウント"
+    },
+    "cart_summary": {
+        "total": "合計",
+        "subtotal": "合計金額",
+        "shipping": "送料",
+        "discount": "お値引き",
+        "quantity": "数量"
+    },
+    "errors": {
+        "default": "エラーが発生しました",
+
+        "promo_code_is_invalid": "プロモーションコードが正しくありません",
+        "promocode_already_in_cart": "プロモーションコードは既に使用されています",
+        "promocode_isnt_applicable": "プロモーションコードが不正です",
+        "promo_code_is_expired": "プロモーションコードの有効期限が切れています",
+        "stringEmpty": "この項目は入力必須です",
+        "required": "入力必須項目",
+        "invalid_expiry_year_past": "カードの有効期限が切れています",
+        "email": "正しいメールアドレスを入力してください",
+
+        "payment_failed_title": "お支払い手続きが完了しません",
+        "payment_failed_description": "カード情報を確認し、再度お試し下さい",
+
+        "payment_authorization": {
+            "title": "お支払い手続きが完了しません",
+
+            "default": "入力情報を確認し、再度お試し下さい.",
+            "some_descriptor_code": "これはサンプルです"
+        },
+        "customer_exists": "このメールアドレスは登録済です",
+        "customer_password_missmatch": "二つのパスワードが一致しません",
+        "invalid_credentials": "メールアドレスかパスワードが正しくありません"
+    },
+    "customer_orders": {
+        "loading": "ロードしています..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "ご注文、有難うございます",
+        "async_confirmation_notice": "ご注文が確定し、配送準備に入ります。ご登録のメールアドレスにご確認のメールをお送り致しました。"
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "配送先住所が確定後、送料と消費税が計算されます。"
+    }
+}
