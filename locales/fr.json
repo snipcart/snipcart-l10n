@@ -58,6 +58,15 @@
     "customer": {
         "information": "Information sur le client"
     },
+    "customer_dashboard": {
+        "ordered_on": "Commandé le",
+        "total": "Total",
+        "status": "Statut",
+        "order": "Commande %{invoice_number}",
+        "order_details": "Détails de la commande",
+        "loading": "Chargement...",
+        "no_orders": "Aucune commande trouvée."
+    },
     "signin_form": {
         "signin": "Connexion",
         "dont_have_an_account": "Pas de compte ?",
