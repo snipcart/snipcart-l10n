@@ -102,6 +102,7 @@
         "methods":{
             "card": "Credit card",
             "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
             "apple_pay": "Apple Pay",
             "bancontact": "Bancontact",
             "belfius": "Belfius",
