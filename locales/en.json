@@ -88,7 +88,9 @@
             "card_number": "Card number",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Postal code"
+            "card_postal_code": "Postal code",
+            "img_brand_credit_card_icon": "{brand} credit card icon",
+            "img_cvv_position_on_credit_card": "CVV position on credit card"
         },
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
