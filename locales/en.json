@@ -17,6 +17,7 @@
     },
     "item": {
         "quantity": "Quantity",
+        "quantity_short": "Qty",
         "decrement_quantity": "Decrement quantity",
         "increment_quantity": "Increment quantity",
         "remove_item": "Remove item"

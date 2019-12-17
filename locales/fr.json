@@ -17,6 +17,7 @@
     },
     "item": {
         "quantity": "Quantité",
+        "quantity_short": "Qté",
         "decrement_quantity": "Décrémenter la quantité",
         "increment_quantity": "Incrémenter la quantité",
         "remove_item": "Supprimer le produit"
@@ -56,7 +57,7 @@
         "use_different_shipping_address": "Utiliser une adresse de livraison différente"
     },
     "customer": {
-        "information": "Information sur le client"
+        "information": "Information client"
     },
     "customer_dashboard": {
         "ordered_on": "Commandé le",
@@ -150,7 +151,7 @@
         "loading": "Chargement..."
     },
     "confirmation": {
-        "thank_you_for_your_order": "Merci de votre commande",
+        "thank_you_for_your_order": "Merci pour votre commande",
         "async_confirmation_notice": "Votre commande est en cours de traitement. Vous recevrez une confirmation sous peu."
     },
     "checkout": {
