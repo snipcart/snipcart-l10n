@@ -2,6 +2,12 @@
     "actions": {
         "continue_shopping": "Continuer les achats"
     },
+    "header": {
+        "title_cart_summary": "Mon panier"
+    },
+    "cart": {
+        "summary": "Mon panier"
+    },
     "billing": {
         "continue_to_shopping": "Continuer les achats"
     },
@@ -12,7 +18,9 @@
         "email": "Email"
     },
     "address_form": {
-        "email": "Email"
+        "email": "Email",
+        "address1": "Adresse postale",
+        "province": "Région"
     },
     "payment": {
         "place_order": "Payer la commande"
