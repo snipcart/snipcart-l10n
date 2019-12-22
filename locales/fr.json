@@ -2,7 +2,7 @@
     "actions": {
         "edit": "Modifier",
         "cancel": "Annuler",
-        "continue_shopping": "Continuer à magasiner",
+        "continue_shopping": "Continuer vos achats",
         "back_to_checkout": "Retour au paiement",
         "checkout": "Paiement",
         "apply": "Appliquer",
@@ -12,7 +12,7 @@
         "close_cart": "Fermer le panier"
     },
     "header": {
-        "title_cart_summary": "Sommaire du panier",
+        "title_cart_summary": "Mon panier",
         "loading": "Chargement..."
     },
     "item": {
@@ -27,7 +27,7 @@
         "shipping_taxes_calculated_at_checkout": "Les frais de livraison et les taxes seront calculés au moment du paiement.",
         "loading": "Nous préparons votre panier...",
         "secured_by": "Sécurisé par Snipcart",
-        "summary": "Sommaire",
+        "summary": "Panier",
         "empty": "Votre panier est vide",
         "invoice_number": "Numéro de la facture"
     },
@@ -40,9 +40,9 @@
         "promocode_applied": "Promotion appliquée"
     },
     "address_form": {
-        "name": "Nom complet",
-        "email": "Courriel",
-        "address1": "Adresse civique",
+        "name": "Nom et Prénom",
+        "email": "Email",
+        "address1": "Adresse",
         "address2": "Appartement",
         "city": "Ville",
         "country": "Pays",
@@ -53,7 +53,7 @@
     "billing": {
         "title": "Facturation",
         "address": "Adresse de facturation",
-        "continue_to_shipping": "Continuer à la livraison",
+        "continue_to_shipping": "Continuer vers livraison",
         "use_different_shipping_address": "Utiliser une adresse de livraison différente"
     },
     "customer": {
@@ -71,14 +71,14 @@
     "signin_form": {
         "signin": "Connexion",
         "dont_have_an_account": "Pas de compte ?",
-        "email": "Courriel",
+        "email": "Email",
         "password": "Mot de passe",
         "forgot_your_password": "Oublié votre mot de passe ?"
     },
     "register_form": {
         "register": "Inscription",
         "already_have_an_account": "Déjà un compte ?",
-        "email": "Courriel",
+        "email": "Email",
         "password": "Mot de passe",
         "confirm_password": "Confirmation du mot de passe"
     },
@@ -143,7 +143,7 @@
             "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
             "some_descriptor_code": "Ceci est une exemple"
         },
-        "customer_exists": "Ce email est déjà utilisé.",
+        "customer_exists": "Cette email est déjà utilisé.",
         "customer_password_missmatch": "Les mots de passe sont différents.",
         "invalid_credentials": "Email ou mot de passe invalide"
     },
