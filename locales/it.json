@@ -1,0 +1,176 @@
+{
+  "actions": {
+      "edit": "Modifica",
+      "cancel": "Cancella",
+      "continue_shopping": "Continua gli acquisti",
+      "back_to_checkout": "Torna al carrello",
+      "checkout": "Carrello",
+      "apply": "Applica",
+      "type_address": "Digita l'indirizzo",
+      "use_this_address": "Usa questo indirizzo",
+      "back_to_store": "Torna al negozio",
+      "close_cart": "Chiudi il carrello"
+  },
+  "header": {
+      "title_cart_summary": "Riepilogo carrello",
+      "loading": "Caricamento..."
+  },
+  "item": {
+      "quantity": "Quantità",
+      "quantity_short": "Qtà",
+      "decrement_quantity": "Diminuisci il numero",
+      "increment_quantity": "Aumenta il numero",
+      "remove_item": "Rimuovi l'oggetto"
+  },
+  "cart": {
+      "subtotal": "Subtotale",
+      "shipping_taxes_calculated_at_checkout": "La spedizione e le tasse saranno calcolate alla cassa.",
+      "loading": "Stiamo preparando il tuo carrello...",
+      "secured_by": "Protetto da Snipcart",
+      "summary": "Riepilogo dell'ordine",
+      "empty": "Il tuo carrello è vuoto.",
+      "invoice_number": "Numero della fattura"
+  },
+  "order": {
+      "loading": "Stiamo ricevendo i dettagli del tuo ordine..."
+  },
+  "discount_box": {
+      "promo_code": "Hai un codice promozionale?",
+      "promo_code_placeholder": "Codice promozionale",
+      "promocode_applied": "Promozione applicata"
+  },
+  "address_form": {
+      "name": "Nome completo",
+      "email": "Email",
+      "address1": "Indirizzo",
+      "address2": "Appartamento, suite, unità",
+      "city": "Città",
+      "country": "Nazione",
+      "postalCode": "Codice postale",
+      "province": "Provincia",
+      "dont_see_address": "Non vedo il mio indirizzo"
+  },
+  "billing": {
+      "title": "Fatturazione",
+      "address": "Indirizzo di fatturazione",
+      "continue_to_shipping": "Continua con la spedizione",
+      "use_different_shipping_address": "Usa un altro indirizzo per la spedizione"
+  },
+  "customer": {
+      "information": "Informazioni per il cliente"
+  },
+  "customer_dashboard": {
+      "ordered_on": "Ordinato il",
+      "total": "Totale",
+      "status": "Stato",
+      "order": "Ordine %{invoice_number}",
+      "order_details": "Dettagli dell'ordine",
+      "loading": "Caricamento...",
+      "no_orders": "Nessun ordine trovato."
+  },
+  "signin_form": {
+      "signin": "Accedi",
+      "dont_have_an_account": "Non hai un account?",
+      "email": "Email",
+      "password": "Password",
+      "forgot_your_password": "Hai dimenticato la password?"
+  },
+  "register_form": {
+      "register": "Registrati",
+      "already_have_an_account": "Hai già un account?",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Conferma la password"
+  },
+  "guest_checkout": {
+      "or": "O",
+      "continue_as_a_guest": "Continua come ospite"
+  },
+  "shipping": {
+      "title": "Spedizione",
+      "shipping_to": "Spedizione a:",
+      "address": "Indirizzo di spedizione",
+      "method": "Metodi di spezione"
+  },
+  "payment": {
+      "form":{
+          "card_label": "Carta di credito",
+          "card_number": "Numero della carta",
+          "card_expiration": "MM/AA",
+          "card_cvv": "CVV",
+          "card_postal_code": "Codice postale"
+      },
+      "title": "Pagamento",
+      "continue_to_payment": "Continua con il pagamento",
+      "credit_card": "Carta di credito",
+      "place_order": "Effettua l'ordine",
+      "preparing_payment_session": "Preparazione del pagamento...",
+      "processing_payment": "Elaborazione del pagamento...",
+      "checkout_with": "Paga con",
+      "checkout_with_method": "Paga con %{method}",
+      "method_icon": "%{method} icona",
+      "methods":{
+          "card": "Carta di credito",
+          "paypal": "PayPal",
+          "paypal_express_checkout": "PayPal",
+          "apple_pay": "Apple Pay",
+          "bancontact": "Bancontact",
+          "belfius": "Belfius",
+          "eps": "Electronic Payment Standard",
+          "giropay": "Giropay",
+          "ideal": "iDEAL",
+          "ing_home_pay": "ING Home Pay",
+          "kbc": "KBC",
+          "klarna_pay_later": "Klarna pay later",
+          "klarna_slice_it": "Klarna monthly financing",
+          "p24": "Przelewy24",
+          "sepa_debit": "Addebito SEPA",
+          "sofort": "Sofort bank transfer"
+      }
+  },
+  "discounts": {
+    "title": "Sconti"
+  },
+  "cart_summary": {
+    "total": "Totale",
+    "subtotal": "Subtotale",
+    "shipping": "Spedizione",
+    "discount": "Sconti",
+    "quantity": "x"
+  },
+  "errors": {
+    "default": "Si è verificato un errore",
+
+    "promo_code_is_invalid": "Questo codice promozionale non è valido",
+    "promocode_already_in_cart": "Questo codice promozionale è già stato utilizzato",
+    "promocode_isnt_applicable": "Questo codice promozionale non è applicabile",
+    "promo_code_is_expired": "Questa promozione è scaduta",
+    "stringEmpty": "Questo campo è obbligatorio",
+    "required": "Questo campo è obbligatorio",
+    "invalid_expiry_year_past": "La carta è scaduta",
+    "email": "Si prega di fornire un indirizzo email valido",
+    
+    "payment_failed_title": "Impossibile elaborare il pagamento",
+    "payment_failed_description": "Si prega di rivedere i dati della carta o di riprovare più tardi.",
+    
+    "payment_authorization": {
+        "title":"Impossibile elaborare il pagamento",
+        
+        "default": "Si prega di rivedere le informazioni fornite o di riprovare più tardi.",
+        "some_descriptor_code": "Questo è un campione"
+    },
+    "customer_exists": "Questa email è già stata utilizzata.",
+    "customer_password_missmatch": "Le due password devono corrispondere.",
+    "invalid_credentials": "Email o password non valide."
+  },
+  "customer_orders": {
+      "loading": "Caricamento..."
+  },
+  "confirmation": {
+      "thank_you_for_your_order": "Grazie per il tuo ordine",
+      "async_confirmation_notice": "Il tuo ordine è stato effettuato ed è in fase di elaborazione. A breve riceverai una conferma."
+  },
+  "checkout": {
+      "shipping_taxes_calculated_when_address_provided": "Le spese di spedizione e le tasse verranno calcolate quando verrà fornito un indirizzo."
+  }
+}
