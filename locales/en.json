@@ -73,7 +73,8 @@
         "dont_have_an_account": "Don't have an account?",
         "email": "Email",
         "password": "Password",
-        "forgot_your_password": "Forgot your password?"
+        "forgot_your_password": "Forgot your password?",
+        "close_form": "Go back"
     },
     "register_form": {
         "register": "Register",
