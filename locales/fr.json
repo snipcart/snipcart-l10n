@@ -60,6 +60,7 @@
         "information": "Information client"
     },
     "customer_dashboard": {
+        "my_account": "Mon compte",
         "ordered_on": "Commandé le",
         "total": "Total",
         "status": "Statut",
