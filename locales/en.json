@@ -111,6 +111,7 @@
         "checkout_with": "Checkout with",
         "checkout_with_method": "Checkout with %{method}",
         "method_icon": "%{method} icon",
+        "no_payment": "No payment is required for this order.",
         "methods":{
             "card": "Credit card",
             "paypal": "PayPal",
