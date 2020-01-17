@@ -9,7 +9,9 @@
         "type_address": "Type your address",
         "use_this_address": "Use this address",
         "back_to_store": "Back to store",
-        "close_cart": "Close cart"
+        "close_cart": "Close cart",
+        "show": "Show",
+        "hide": "Hide"
     },
     "header": {
         "title_cart_summary": "Cart summary",
