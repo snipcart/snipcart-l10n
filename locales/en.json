@@ -154,6 +154,14 @@
       "required": "This field is required",
       "invalid_expiry_year_past": "Card is expired",
       "email": "Please provide a valid email address",
+      "error_payment_items_are_invalid": {
+          "title": "Some items in your cart are invalid",
+          "description": "Please review your order, or try again later."
+      },
+      "payment_failed": {
+          "title": "Unable to process payment",
+          "description": "Please review card details, or try again later."
+      },
       "payment_failed_title": "Unable to process payment",
       "payment_failed_description": "Please review card details, or try again later.",
       
