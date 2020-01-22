@@ -1,0 +1,176 @@
+{
+  "actions": {
+    "edit": "Rediger",
+    "cancel": "Annuller",
+    "continue_shopping": "Fortsæt med at handle",
+    "back_to_checkout": "Tilbage til kassen",
+    "checkout": "Til kassen",
+    "apply": "Anvend",
+    "type_address": "Indtast din adresse",
+    "use_this_address": "Brug denne adresse",
+    "back_to_store": "Tilbage til shoppen",
+    "close_cart": "Luk kurv"
+  },
+  "header": {
+    "title_cart_summary": "Kurv",
+    "loading": "Henter..."
+  },
+  "item": {
+    "quantity": "Antal",
+    "quantity_short": "Ant.",
+    "decrement_quantity": "Ændre antal",
+    "increment_quantity": "Ændre antal",
+    "remove_item": "Fjern vare"
+  },
+  "cart": {
+    "subtotal": "Subtotal",
+    "shipping_taxes_calculated_at_checkout": "Forsendelse og moms udregnes i kassen",
+    "loading": "Vi er ved at gøre din kurv klar",
+    "secured_by": "Secured by Snipcart",
+    "summary": "Ordreoverblik",
+    "empty": "Din kurv er tom.",
+    "invoice_number": "Faktura nummer"
+  },
+  "order": {
+    "loading": "Vi henter din ordre..."
+  },
+  "discount_box": {
+    "promo_code": "Rabatkode?",
+    "promo_code_placeholder": "Rabatkode",
+    "promocode_applied": "Rabatkode anvendt"
+  },
+  "address_form": {
+    "name": "Fulde navn",
+    "email": "Email",
+    "address1": "Adresse",
+    "address2": "Lejlighed, Etage ol.",
+    "city": "By",
+    "country": "Land",
+    "postalCode": "Postnummer",
+    "province": "Region",
+    "dont_see_address": "Jeg kan ikke finde min adresse"
+  },
+  "billing": {
+    "title": "Faktura",
+    "address": "Faktura adresse",
+    "continue_to_shipping": "Fortsæt med at shoppe",
+    "use_different_shipping_address": "Brug anden leveringsadresse"
+  },
+  "customer": {
+    "information": "Kundeinformationer"
+  },
+  "customer_dashboard": {
+    "ordered_on": "Bestilt",
+    "total": "Total",
+    "status": "Status",
+    "order": "Ordre %{invoice_number}",
+    "order_details": "Ordredetaljer",
+    "loading": "Henter...",
+    "no_orders": "Ingen ordrer fundet."
+  },
+  "signin_form": {
+    "signin": "Log på",
+    "dont_have_an_account": "Har du ikke en konto?",
+    "email": "Email",
+    "password": "Kode",
+    "forgot_your_password": "Glemt kode?"
+  },
+  "register_form": {
+    "register": "Opret",
+    "already_have_an_account": "Har du allerede en konto?",
+    "email": "Email",
+    "password": "Kode",
+    "confirm_password": "Gentag kode"
+  },
+  "guest_checkout": {
+    "or": "Eller",
+    "continue_as_a_guest": "Fortsæt som gæst"
+  },
+  "shipping": {
+    "title": "Levering",
+    "shipping_to": "Leveres til:",
+    "address": "Leveringsadresse",
+    "method": "Leveringsmetode"
+  },
+  "payment": {
+    "form": {
+      "card_label": "Kreditkort",
+      "card_number": "Kortnummer",
+      "card_expiration": "MM/YY",
+      "card_cvv": "CVV",
+      "card_postal_code": "Postnummer"
+    },
+    "title": "Betaling",
+    "continue_to_payment": "Fortsæt til betaling",
+    "credit_card": "Kreditkort",
+    "place_order": "Afgiv ordre",
+    "preparing_payment_session": "Forbereder betaling...",
+    "processing_payment": "Processere betaling...",
+    "checkout_with": "Checkout med",
+    "checkout_with_method": "Checkout med %{method}",
+    "method_icon": "%{method} icon",
+    "methods": {
+      "card": "Kreditkort",
+      "paypal": "PayPal",
+      "paypal_express_checkout": "PayPal",
+      "apple_pay": "Apple Pay",
+      "bancontact": "Bancontact",
+      "belfius": "Belfius",
+      "eps": "Electronic Payment Standard",
+      "giropay": "Giropay",
+      "ideal": "iDEAL",
+      "ing_home_pay": "ING Home Pay",
+      "kbc": "KBC",
+      "klarna_pay_later": "Klarna pay later",
+      "klarna_slice_it": "Klarna monthly financing",
+      "p24": "Przelewy24",
+      "sepa_debit": "SEPA bank transfer",
+      "sofort": "Sofort bank transfer"
+    }
+  },
+  "discounts": {
+    "title": "Rabat"
+  },
+  "cart_summary": {
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Levering",
+    "discount": "Rabat",
+    "quantity": "x"
+  },
+  "errors": {
+    "default": "Der er sket en fejl",
+
+    "promo_code_is_invalid": "Rabatkodet er ikke gyldig",
+    "promocode_already_in_cart": "Rabatkoden er allerede anvendt",
+    "promocode_isnt_applicable": "Rabatkoden kan ikke anvendes",
+    "promo_code_is_expired": "Rabatkoden er udløbet",
+    "stringEmpty": "Feltet er krævet",
+    "required": "Feltet er krævet",
+    "invalid_expiry_year_past": "Kreditkortet er udløbet",
+    "email": "Brug en gyldig email",
+
+    "payment_failed_title": "Kan ikke processere transaktionen",
+    "payment_failed_description": "Tjek dine betalingsoplysninger og prøv igen.",
+
+    "payment_authorization": {
+      "title": "Kan ikke processere transaktionen",
+
+      "default": "Tjek dine betalingsoplysninger og prøv igen.",
+      "some_descriptor_code": "This is a sample"
+    },
+    "customer_exists": "Denne email er allerede brugt.",
+    "customer_password_missmatch": "Koderne skal være ens.",
+    "invalid_credentials": "Ugylding email eller kode."
+  },
+  "customer_orders": {
+    "loading": "Henter..."
+  },
+  "confirmation": {
+    "thank_you_for_your_order": "Tak for din bestilling",
+    "async_confirmation_notice": "Tak for din bestilling. Der vil blive sendt en ordrebekræftelse til din email."
+  },
+  "checkout": {
+    "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
+  }
+}
