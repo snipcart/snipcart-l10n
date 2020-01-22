@@ -167,7 +167,12 @@
       },
       "customer_exists": "This email is already used.",
       "customer_password_missmatch": "The two passwords must match.",
-      "invalid_credentials": "Invalid email or password."
+      "invalid_credentials": "Invalid email or password.",
+
+      "no_shipping_rates_found": {
+          "title": "No shipping method is available for your order",
+          "description": "Make sure your shipping address is valid"
+      }
     },
     "customer_orders": {
         "loading": "Loading..."
