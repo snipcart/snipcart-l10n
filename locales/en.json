@@ -145,33 +145,29 @@
       "quantity": "x"
     },
     "errors": {
-      "default": "An error occured",
-
-      "promo_code_is_invalid": "This promocode isn't valid",
-      "promocode_already_in_cart": "This promocode is already applied",
-      "promocode_isnt_applicable": "This promocode isn't applicable",
-      "promo_code_is_expired": "This promotion has expired",
+      "default": "An error occured, try again later or contact us.",
+      "promo_code_is_invalid": "This promo code isn't valid",
+      "promocode_already_in_cart": "This promo code is already applied",
+      "promocode_isnt_applicable": "This promo code isn't valid",
+      "promo_code_is_expired": "This promo code has expired",
       "stringEmpty": "This field is required",
       "required": "This field is required",
       "invalid_expiry_year_past": "Card is expired",
       "email": "Please provide a valid email address",
-      
-      "payment_failed_title": "Unable to process your payment",
-      "payment_failed_description": "Please review your card details, or try again later.",
+      "payment_failed_title": "Unable to process payment",
+      "payment_failed_description": "Please review card details, or try again later.",
       
       "payment_authorization": {
-          "title":"Unable to process your payment",
-
-          "default": "Please review the information you provided, or try again later.",
+          "title":"Unable to process payment",
+          "default": "Please review billing and payment information.",
           "some_descriptor_code": "This is a sample"
       },
       "customer_exists": "This email is already used.",
       "customer_password_missmatch": "The two passwords must match.",
       "invalid_credentials": "Invalid email or password.",
-
       "no_shipping_rates_found": {
           "title": "No shipping method available for your order",
-          "description": "Make sure your shipping address is valid"
+          "description": "Please review shipping address or contact us."
       }
     },
     "customer_orders": {
