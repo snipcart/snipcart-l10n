@@ -1,0 +1,176 @@
+{
+    "actions": {
+        "edit": "Ändra",
+        "cancel": "Avbryt",
+        "continue_shopping": "Fortsätt handla",
+        "back_to_checkout": "Tillbaks till kassan",
+        "checkout": "Kassa",
+        "apply": "Använd",
+        "type_address": "Ange din adress",
+        "use_this_address": "Använd den här adressen",
+        "back_to_store": "Tillbaks till butiken",
+        "close_cart": "Stäng varukorg"
+    },
+    "header": {
+        "title_cart_summary": "Din varukorg",
+        "loading": "Laddar..."
+    },
+    "item": {
+        "quantity": "Antal",
+        "quantity_short": "st",
+        "decrement_quantity": "Minska antal",
+        "increment_quantity": "Öka antal",
+        "remove_item": "Ta bort"
+    },
+    "cart": {
+        "subtotal": "Delsumma",
+        "shipping_taxes_calculated_at_checkout": "Frakt och moms räknas ut i kassan.",
+        "loading": "Vi gör i ordning din varukorg...",
+        "secured_by": "Säkrat av Snipcart",
+        "summary": "Ordersammanfattning",
+        "empty": "Din varukorg är tom.",
+        "invoice_number": "Fakturanummer"
+    },
+    "order": {
+        "loading": "Vi hämtar dina orderdetaljer..."
+    },
+    "discount_box": {
+        "promo_code": "Kampanjkod?",
+        "promo_code_placeholder": "Kampanjkod",
+        "promocode_applied": "Kampanjkod tillämpad"
+    },
+    "address_form": {
+        "name": "Ditt namn",
+        "email": "E-postadress",
+        "address1": "Gatuadress",
+        "address2": "Lägenhetsnummer",
+        "city": "Stad",
+        "country": "Land",
+        "postalCode": "Postkod",
+        "province": "Län",
+        "dont_see_address": "Jag ser inte min adress"
+    },
+    "billing": {
+        "title": "Fakturering",
+        "address": "Fakturaadress",
+        "continue_to_shipping": "Fortsätt till frakt",
+        "use_different_shipping_address": "Använd en annan leveransadress"
+    },
+    "customer": {
+        "information": "Kundinformation"
+    },
+    "customer_dashboard": {
+        "ordered_on": "Beställd på",
+        "total": "Totalt",
+        "status": "Status",
+        "order": "Order %{invoice_number}",
+        "order_details": "Orderdetaljer",
+        "loading": "Laddar...",
+        "no_orders": "Hittade inga ordrar"
+    },
+    "signin_form": {
+        "signin": "Logga in",
+        "dont_have_an_account": "Har du inget konto?",
+        "email": "E-postadress",
+        "password": "Lösenord",
+        "forgot_your_password": "har du glömt ditt lösenord?"
+    },
+    "register_form": {
+        "register": "Registrera dig",
+        "already_have_an_account": "Har du redan ett konto?",
+        "email": "E-postadress",
+        "password": "Lösenrod",
+        "confirm_password": "Bekräfta lösenord"
+    },
+    "guest_checkout": {
+        "or": "Eller",
+        "continue_as_a_guest": "Fortsätt som gäst"
+    },
+    "shipping": {
+        "title": "Frakt",
+        "shipping_to": "Leverera till:",
+        "address": "Leveransadress",
+        "method": "Fraktmetod"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Kredirkort",
+            "card_number": "Kortnummer",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postkod"
+        },
+        "title": "Betalning",
+        "continue_to_payment": "Fortsätt till betalning",
+        "credit_card": "Kreditkort",
+        "place_order": "Lägg order",
+        "preparing_payment_session": "Förbereder betalning...",
+        "processing_payment": "Bearbetar betalning...",
+        "checkout_with": "Betalningsmetod",
+        "checkout_with_method": "Betalningsmetod: %{method}",
+        "method_icon": "%{method} icon",
+        "methods":{
+            "card": "Kreditkort",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna betala senare",
+            "klarna_slice_it": "Klarna delbetalning",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer"
+        }
+    },
+    "discounts": {
+      "title": "Rabatter"
+    },
+    "cart_summary": {
+      "total": "Total",
+      "subtotal": "Delsumma",
+      "shipping": "Frakt",
+      "discount": "Rabatter",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Ett fel uppstod",
+
+      "promo_code_is_invalid": "Kampanjkoden är inte giltlig",
+      "promocode_already_in_cart": "Kampanjkoden har redan använts",
+      "promocode_isnt_applicable": "Den här kampanjkoden kan inte användas",
+      "promo_code_is_expired": "Kampanjkoden har gått ut",
+      "stringEmpty": "Det här fältet är obligatoriskt",
+      "required": "Det här fältet är obligatoriskt",
+      "invalid_expiry_year_past": "Kortet har gått ut",
+      "email": "Ange en giltlig e-postadress",
+      
+      "payment_failed_title": "Kunde inte genomföra betalningen.",
+      "payment_failed_description": "Kontrollera dina kortdetaljer och försök igen.",
+      
+      "payment_authorization": {
+          "title":"Vi kunde inte genomföra betalningen.",
+          
+          "default": "Kontrollera informationen du angav och försök igen.",
+          "some_descriptor_code": "Det här är ett exempel."
+      },
+      "customer_exists": "Den här e-postadressen har redan använts.",
+      "customer_password_missmatch": "Lösenorden stämmer inte överens.",
+      "invalid_credentials": "Felaktig e-postaadress eller lösenord."
+    },
+    "customer_orders": {
+        "loading": "Laddar..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Tack för din beställning!",
+        "async_confirmation_notice": "Din beställningen är lagd och behandlas just nu. Vi återkommer snart med en uppdatering."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett adress."
+    }
+}
