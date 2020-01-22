@@ -1,0 +1,176 @@
+{
+    "actions": {
+        "edit": "Editar",
+        "cancel": "Cancelar",
+        "continue_shopping": "Continuar a comprar",
+        "back_to_checkout": "Voltar ao checkout",
+        "checkout": "Checkout",
+        "apply": "Aplicar",
+        "type_address": "Insira a sua morada",
+        "use_this_address": "Use esta morada",
+        "back_to_store": "Voltar à loja",
+        "close_cart": "Fechar carrinho"
+    },
+    "header": {
+        "title_cart_summary": "Sumário do carrinho",
+        "loading": "A carregar..."
+    },
+    "item": {
+        "quantity": "Quantidade",
+        "quantity_short": "Qt.",
+        "decrement_quantity": "Diminuir quantidade",
+        "increment_quantity": "Aumentar quantidade",
+        "remove_item": "Remover item"
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Portes de envio serão calculados durante o checkout.",
+        "loading": "Estamos a preparar o seu carrinho...",
+        "secured_by": "Plataforma segura por Snipcart",
+        "summary": "A sua ordem",
+        "empty": "O seu carrinho de compras está vazio.",
+        "invoice_number": "Número da fatura"
+    },
+    "order": {
+        "loading": "Estamos a obter os detalhes da sua encomenda..."
+    },
+    "discount_box": {
+        "promo_code": "Código promocional?",
+        "promo_code_placeholder": "Código promocional",
+        "promocode_applied": "Promoção aplicada"
+    },
+    "address_form": {
+        "name": "Nome",
+        "email": "Email",
+        "address1": "Morada",
+        "address2": "Número",
+        "city": "Cidade",
+        "country": "País",
+        "postalCode": "Código Postal",
+        "province": "Distrito",
+        "dont_see_address": "Não encontro a minha morada..."
+    },
+    "billing": {
+        "title": "Facturação",
+        "address": "Morada de facturação",
+        "continue_to_shipping": "Continuar para envio",
+        "use_different_shipping_address": "Usar uma morada de envio diferente da facturação"
+    },
+    "customer": {
+        "information": "Informação de cliente"
+    },
+    "customer_dashboard": {
+        "ordered_on": "Pedido em",
+        "total": "Total",
+        "status": "Estado",
+        "order": "Encomenda %{invoice_number}",
+        "order_details": "Detalhes da encomenda",
+        "loading": "A carregar...",
+        "no_orders": "Sem encomendas no registo."
+    },
+    "signin_form": {
+        "signin": "Log in",
+        "dont_have_an_account": "Não tenho conta",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Esqueceu a sua password?"
+    },
+    "register_form": {
+        "register": "Registrar",
+        "already_have_an_account": "Já tem uma conta connosco?",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirmar password"
+    },
+    "guest_checkout": {
+        "or": "Ou",
+        "continue_as_a_guest": "Continue a comprar como convidado"
+    },
+    "shipping": {
+        "title": "Portes de envio",
+        "shipping_to": "Enviar para:",
+        "address": "Morada de envio",
+        "method": "Método de envio"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Cartão de crédito",
+            "card_number": "Número do cartão",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Código postal"
+        },
+        "title": "Pagamento",
+        "continue_to_payment": "Continuar para pagamento",
+        "credit_card": "Cartão de crédito",
+        "place_order": "Comprar",
+        "preparing_payment_session": "A preparar...",
+        "processing_payment": "A processar o pagamento...",
+        "checkout_with": "Checkout com",
+        "checkout_with_method": "Checkout com %{method}",
+        "method_icon": "%{method} icon",
+        "methods":{
+            "card": "Cartão de crédito",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer"
+        }
+    },
+    "discounts": {
+      "title": "Descontos"
+    },
+    "cart_summary": {
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "shipping": "Portes",
+      "discount": "Descontos",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Ocorreu um erro",
+
+      "promo_code_is_invalid": "O código promocional não é válido.",
+      "promocode_already_in_cart": "Este código promocional já está aplicado",
+      "promocode_isnt_applicable": "Este código promocional não é aplicável a esta encomenda",
+      "promo_code_is_expired": "Esta promoção já expirou",
+      "stringEmpty": "Campo de preenchimento obrigatório",
+      "required": "Campo de preenchimento obrigatório",
+      "invalid_expiry_year_past": "Cartão de crédito expirado",
+      "email": "Por favor insira um endereço de email válido",
+      
+      "payment_failed_title": "Não foi possível processar o pagamento.",
+      "payment_failed_description": "Por favor reveja os dados inseridos ou tente mais tarde novamente.",
+      
+      "payment_authorization": {
+          "title":"Não foi possível processar o pagamento",
+          
+          "default": "Por favor reveja os dados inseridos ou tente mais tarde novamente.",
+          "some_descriptor_code": "This is a sample"
+      },
+      "customer_exists": "Já foi criada uma conta com este email.",
+      "customer_password_missmatch": "As duas passwords inseridas não coincidem.",
+      "invalid_credentials": "Email ou password inválidas."
+    },
+    "customer_orders": {
+        "loading": "A carregar..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Muito obrigado pela sua encomenda.",
+        "async_confirmation_notice": "A sua encomenda foi feita com sucesso, muito obrigado. Receberá um email de confirmação dentro de momentos."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Portes de envio serão calculados quando inserir uma morada de envio."
+    }
+}
