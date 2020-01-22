@@ -161,7 +161,7 @@
       
       "payment_authorization": {
           "title":"Unable to process your payment",
-          
+
           "default": "Please review the information you provided, or try again later.",
           "some_descriptor_code": "This is a sample"
       },
@@ -170,7 +170,7 @@
       "invalid_credentials": "Invalid email or password.",
 
       "no_shipping_rates_found": {
-          "title": "No shipping method is available for your order",
+          "title": "No shipping method available for your order",
           "description": "Make sure your shipping address is valid"
       }
     },
