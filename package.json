@@ -4,20 +4,13 @@
   "description": "Localization files for Snipcart cart",
   "main": "index.ts",
   "scripts": {
-    "test": "jsonlint -q locales/*.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
   },
   "author": "Snipcart",
   "license": "ISC",
   "devDependencies": {
     "deepmerge": "^4.2.2",
-    "fs-extra": "^8.1.0",
-    "husky": "^3.1.0",
-    "jsonlint": "^1.6.3"
+    "fs-extra": "^8.1.0"
   }
 }

@@ -16,7 +16,7 @@ Translate all the values in this file, then commit and push your changes to your
 
 Please refer to this article about how forks and pull requests work on Github.
 
-## Regional locales
+Regional locales
 Sometimes, depending on where you're located, some wording might change. For example, some english words and expressions are different in the UK than in the US, so you might want to use a regional location file: en-GB for instance.
 
 When you create a regional locale, you can override only necessary locales, you don't need to rewrite the whole file. Our building process will make sure to merge everything together. Here's an example of what we did for the fr-FR regional locale:
