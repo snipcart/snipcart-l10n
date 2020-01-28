@@ -150,14 +150,15 @@
       "invalid_expiry_year_past": "Cartão de crédito expirado",
       "email": "Por favor insira um endereço de email válido",
       
-      "payment_failed_title": "Não foi possível processar o pagamento.",
-      "payment_failed_description": "Por favor reveja os dados inseridos ou tente mais tarde novamente.",
+      "payment_failed": {
+          "title": "Não foi possível processar o pagamento.",
+          "description": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
+      },
       
       "payment_authorization": {
           "title":"Não foi possível processar o pagamento",
           
-          "default": "Por favor reveja os dados inseridos ou tente mais tarde novamente.",
-          "some_descriptor_code": "This is a sample"
+          "default": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
       },
       "customer_exists": "Já foi criada uma conta com este email.",
       "customer_password_missmatch": "As duas passwords inseridas não coincidem.",

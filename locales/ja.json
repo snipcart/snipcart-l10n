@@ -132,14 +132,15 @@
         "invalid_expiry_year_past": "カードの有効期限が切れています",
         "email": "正しいメールアドレスを入力してください",
 
-        "payment_failed_title": "お支払い手続きが完了しません",
-        "payment_failed_description": "カード情報を確認し、再度お試し下さい",
+        "payment_failed": {
+            "title": "お支払い手続きが完了しません",
+            "description": "カード情報を確認し、再度お試し下さい"
+        },
 
         "payment_authorization": {
             "title": "お支払い手続きが完了しません",
 
-            "default": "入力情報を確認し、再度お試し下さい.",
-            "some_descriptor_code": "これはサンプルです"
+            "default": "入力情報を確認し、再度お試し下さい."
         },
         "customer_exists": "このメールアドレスは登録済です",
         "customer_password_missmatch": "二つのパスワードが一致しません",

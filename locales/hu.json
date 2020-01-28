@@ -132,14 +132,15 @@
     "invalid_expiry_year_past": "A kártya lejárt",
     "email": "Kérjük, valós email címet adj meg",
     
-    "payment_failed_title": "Nem sikerült feldolgozni a fizetést",
-    "payment_failed_description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra.",
+    "payment_failed": {
+        "title": "Nem sikerült feldolgozni a fizetést",
+        "description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra."
+    },
     
     "payment_authorization": {
         "title":"Nem sikerült feldolgozni a fizetést",
         
-        "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra.",
-        "some_descriptor_code": "Ez egy példa"
+        "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra."
     },
     "customer_exists": "Ez az email cím már regisztrálva van.",
     "customer_password_missmatch": "A jelszavak nem egyeznek.",

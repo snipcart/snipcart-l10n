@@ -139,14 +139,15 @@
       "invalid_expiry_year_past": "Kaart is verlopen",
       "email": "Vul een valide emailadres in",
       
-      "payment_failed_title": "We kunnen uw betaling niet uitvoeren",
-      "payment_failed_description": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals.",
+      "payment_failed": {
+          "title": "We kunnen uw betaling niet uitvoeren",
+          "description": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
+      },
       
       "payment_authorization": {
           "title":"We kunnen uw betaling niet uitvoeren",
           
-          "default": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals.",
-          "some_descriptor_code": "Dit is een voorbeeld"
+          "default": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
       },
       "customer_exists": "Dit emailadres is al in gebruik.",
       "customer_password_missmatch": "De twee wachtwoorden moeten hetzelfde zijn.",

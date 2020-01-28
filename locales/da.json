@@ -150,14 +150,15 @@
     "invalid_expiry_year_past": "Kreditkortet er udløbet",
     "email": "Brug en gyldig email",
 
-    "payment_failed_title": "Kan ikke processere transaktionen",
-    "payment_failed_description": "Tjek dine betalingsoplysninger og prøv igen.",
+    "payment_failed":{
+      "title": "Kan ikke processere transaktionen",
+      "description": "Tjek dine betalingsoplysninger og prøv igen."
+    },
 
     "payment_authorization": {
       "title": "Kan ikke processere transaktionen",
 
-      "default": "Tjek dine betalingsoplysninger og prøv igen.",
-      "some_descriptor_code": "This is a sample"
+      "default": "Tjek dine betalingsoplysninger og prøv igen."
     },
     "customer_exists": "Denne email er allerede brugt.",
     "customer_password_missmatch": "Koderne skal være ens.",
