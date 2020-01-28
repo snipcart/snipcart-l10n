@@ -158,6 +158,12 @@
           "title": "Some items in your cart are invalid",
           "description": "Please review your order, or try again later."
       },
+      "order_validation":{
+        "crawling_failed":{
+            "title":"The order could not be completed.",
+            "description":"Please try again later. If the error persists, contact us."
+        }
+      },
       "payment_failed": {
           "title": "Unable to process payment",
           "description": "Please review card details, or try again later."
