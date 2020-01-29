@@ -5,6 +5,10 @@
     "header": {
         "title_cart_summary": "Mon panier"
     },
+    "item": {
+        "decrement_quantity": "Diminuer la quantité",
+        "increment_quantity": "Augmenter la quantité"
+    },
     "cart": {
         "summary": "Mon panier"
     },
