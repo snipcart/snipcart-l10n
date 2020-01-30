@@ -70,7 +70,8 @@
         "order_details": "Order details",
         "loading": "Loading...",
         "no_orders": "No orders found.",
-        "sign_out": "Sign out"
+        "sign_out": "Sign out",
+        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders"
     },
     "signin_form": {
         "signin": "Sign In",
