@@ -9,7 +9,9 @@
         "type_address": "Saisissez votre adresse",
         "use_this_address": "Utiliser cette adresse",
         "back_to_store": "Retour sur la boutique",
-        "close_cart": "Fermer le panier"
+        "close_cart": "Fermer le panier",
+        "show": "Afficher",
+        "hide": "Cacher"
     },
     "header": {
         "title_cart_summary": "Sommaire du panier",
@@ -67,7 +69,8 @@
         "order": "Commande %{invoice_number}",
         "order_details": "Détails de la commande",
         "loading": "Chargement...",
-        "no_orders": "Aucune commande trouvée."
+        "no_orders": "Aucune commande trouvée.",
+        "sign_out": "Déconnexion"
     },
     "signin_form": {
         "signin": "Connexion",
