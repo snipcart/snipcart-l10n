@@ -150,14 +150,15 @@
       "invalid_expiry_year_past": "Tarjeta expirada",
       "email": "Por favor indique una dirección de correo válida",
       
-      "payment_failed_title": "No se pudo procesar el pago",
-      "payment_failed_description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde.",
+      "payment_failed": {
+          "title": "No se pudo procesar el pago",
+          "description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde."
+      },
       
       "payment_authorization": {
           "title":"No se pudo procesar el pago",
           
-          "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde.",
-          "some_descriptor_code": "This is a sample"
+          "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde."
       },
       "customer_exists": "Este email ya esta en uso.",
       "customer_password_missmatch": "Las dos claves deben coincidir.",

@@ -132,14 +132,15 @@
       "invalid_expiry_year_past": "Diese Karte ist bereits abgelaufen",
       "email": "Diese Email ist ungültig",
       
-      "payment_failed_title": "Ihre Zahlung konnte nicht verarbeitet werden",
-      "payment_failed_description": "Bitte überprüfen Sie Ihre Angaben",
+      "payment_failed": {
+          "title": "Ihre Zahlung konnte nicht verarbeitet werden",
+          "description": "Bitte überprüfen Sie Ihre Angaben"
+      },
       
       "payment_authorization": {
           "title":"Ihre Zahlung konnte nicht verarbeitet werden",
           
-          "default": "Bitte überprüfen Sie Ihre Angaben",
-          "some_descriptor_code": "Das ist ein Beispiel"
+          "default": "Bitte überprüfen Sie Ihre Angaben"
       },
       "customer_exists": "Diese Email wird bereits verwendet",
       "customer_password_missmatch": "Die Passwörter stimmen nicht überein",

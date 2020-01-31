@@ -150,14 +150,15 @@
       "invalid_expiry_year_past": "La carta è scaduta",
       "email": "Inserisci un email valido",
       
-      "payment_failed_title": "Impossibile completare il pagamento",
-      "payment_failed_description": "Controlla i dettagli della carta, oppure prova più tardi.",
+      "payment_failed": {
+          "title": "Impossibile completare il pagamento",
+          "description": "Controlla i dettagli della carta, oppure prova più tardi."
+      },
       
       "payment_authorization": {
           "title":"Impossibile completare il pagamento",
           
-          "default": "Controlla le informazioni inserite, oppure prova più tardi.",
-          "some_descriptor_code": "Questo è un esempio"
+          "default": "Controlla le informazioni inserite, oppure prova più tardi."
       },
       "customer_exists": "Questa email è già adoperata.",
       "customer_password_missmatch": "Le due passwords sono diverse.",

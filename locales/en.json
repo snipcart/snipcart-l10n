@@ -70,7 +70,8 @@
         "order_details": "Order details",
         "loading": "Loading...",
         "no_orders": "No orders found.",
-        "sign_out": "Sign out"
+        "sign_out": "Sign out",
+        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders"
     },
     "signin_form": {
         "signin": "Sign In",
@@ -168,17 +169,17 @@
             "description": "Try removing and adding them to your cart. Please contact store owner for details."
         }
       },
+      "shipping": {
+          "title": "Unable to calculate shipping",
+          "description": "Try again later, or contact us for support."
+      },
       "payment_failed": {
           "title": "Unable to process payment",
-          "description": "Please review card details, or try again later."
+          "description": "Try again later, or contact us for support."
       },
-      "payment_failed_title": "Unable to process payment",
-      "payment_failed_description": "Please review card details, or try again later.",
-      
       "payment_authorization": {
-          "title":"Unable to process payment",
-          "default": "Please review billing and payment information.",
-          "some_descriptor_code": "This is a sample"
+          "title": "Unable to process payment",
+          "default": "Please review billing and payment information."
       },
       "customer_exists": "This email is already used.",
       "customer_password_missmatch": "The two passwords must match.",

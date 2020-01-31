@@ -9,7 +9,9 @@
         "type_address": "Saisissez votre adresse",
         "use_this_address": "Utiliser cette adresse",
         "back_to_store": "Retour sur la boutique",
-        "close_cart": "Fermer le panier"
+        "close_cart": "Fermer le panier",
+        "show": "Afficher",
+        "hide": "Cacher"
     },
     "header": {
         "title_cart_summary": "Sommaire du panier",
@@ -67,7 +69,8 @@
         "order": "Commande %{invoice_number}",
         "order_details": "Détails de la commande",
         "loading": "Chargement...",
-        "no_orders": "Aucune commande trouvée."
+        "no_orders": "Aucune commande trouvée.",
+        "sign_out": "Déconnexion"
     },
     "signin_form": {
         "signin": "Connexion",
@@ -138,13 +141,14 @@
         "invalid_expiry_year_past": "La carte est expirée",
         "email": "Veuillez spécifier une adresse email valide",
 
-        "payment_failed_title": "Impossible de compléter votre paiement",
-        "payment_failed_description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
+        "payment_failed": {
+            "title": "Impossible de compléter votre paiement",
+            "description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
+        },
 
         "payment_authorization": {
             "title": "Impossible de compléter votre paiement",
-            "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard.",
-            "some_descriptor_code": "Ceci est une exemple"
+            "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
         "customer_exists": "Ce email est déjà utilisé.",
         "customer_password_missmatch": "Les mots de passe sont différents.",

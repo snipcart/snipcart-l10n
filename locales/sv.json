@@ -150,14 +150,15 @@
       "invalid_expiry_year_past": "Kortet har gått ut",
       "email": "Ange en giltlig e-postadress",
       
-      "payment_failed_title": "Kunde inte genomföra betalningen.",
-      "payment_failed_description": "Kontrollera dina kortdetaljer och försök igen.",
+      "payment_failed": {
+          "title": "Kunde inte genomföra betalningen.",
+          "description": "Kontrollera dina kortdetaljer och försök igen."
+      },
       
       "payment_authorization": {
           "title":"Vi kunde inte genomföra betalningen.",
           
-          "default": "Kontrollera informationen du angav och försök igen.",
-          "some_descriptor_code": "Det här är ett exempel."
+          "default": "Kontrollera informationen du angav och försök igen."
       },
       "customer_exists": "Den här e-postadressen har redan använts.",
       "customer_password_missmatch": "Lösenorden stämmer inte överens.",
