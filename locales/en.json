@@ -160,8 +160,12 @@
       },
       "order_validation":{
         "crawling_failed":{
-            "title":"The order could not be completed.",
-            "description":"Please try again later. If the error persists, contact us."
+            "title":"Your order couldn't be processed.",
+            "description":"No payment has been processed. Please contact store owner for details."
+        },
+        "invalid_items":{
+            "title":"The price of some products in your cart may have changed.",
+            "description": "Try removing and adding them to your cart. Please contact store owner for details."
         }
       },
       "payment_failed": {
