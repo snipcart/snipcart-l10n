@@ -167,6 +167,10 @@
         "invalid_items":{
             "title":"The price of some products in your cart may have changed.",
             "description": "Try removing and adding them to your cart. Please contact store owner for details."
+        },
+        "out_of_stock":{
+            "title":"Some products in your cart are now out of stock for the desired quantity.",
+            "description": "Try revise the quantity added to the cart. Please contact store owner for details."
         }
       },
       "shipping": {
