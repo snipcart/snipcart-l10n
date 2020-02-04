@@ -160,8 +160,8 @@
           
           "default": "Controlla le informazioni inserite, oppure prova più tardi."
       },
-      "customer_exists": "Questa email è già adoperata.",
-      "customer_password_missmatch": "Le due passwords sono diverse.",
+      "customer_exists": "Questa email è già in uso.",
+      "customer_password_missmatch": "Le due password sono diverse.",
       "invalid_credentials": "Email or password non valide."
     },
     "customer_orders": {
