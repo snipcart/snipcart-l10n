@@ -93,7 +93,7 @@
     },
     "shipping": {
         "title": "Livraison",
-        "shipping_to": "Livré à :",
+        "shipping_to": "Livrer à :",
         "address": "Adresse de livraison",
         "method": "Méthode de livraison"
     },
