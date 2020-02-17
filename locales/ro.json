@@ -1,0 +1,216 @@
+      actions: {
+        edit: "Modifică",
+        cancel: "Anulează",
+        continue_shopping: "Înapoi la magazin",
+        back_to_checkout: "înapoi la comanda",
+        checkout: "Finalizează comanda",
+        apply: "Aplică modificările",
+        type_address: "Introdu adresa",
+        use_this_address: "Folosește aceiași adresă",
+        back_to_store: "Înapoi la magazin",
+        close_cart: "Inchide coșul",
+        show: "Afișează",
+        hide: "Ascunde"
+      },
+      header: {
+        title_cart_summary: "Detalii coș",
+        loading: "Se încarcă..."
+      },
+      item: {
+        quantity: "Cantitate",
+        quantity_short: "Buc.",
+        decrement_quantity: "Mai puțin",
+        increment_quantity: "Mai mult",
+        remove_item: "Șterge produsul"
+      },
+      cart: {
+        subtotal: "Subtotal",
+        shipping_taxes_calculated_at_checkout:
+          "Costul livrării si alte taxe vor fi calculate în momentul plasării comenzii",
+        loading: "Încărcam coșul...",
+        secured_by: "Securizat de către Snipcart",
+        summary: "Detalii comandă",
+        empty: "Coșul este gol.",
+        invoice_number: "Număr factură"
+      },
+      order: {
+        loading: "Încarcăm detaliile comenzii tale..."
+      },
+      discount_box: {
+        promo_code: "Cupon reducere?",
+        promo_code_placeholder: "Cupon reducere",
+        promocode_applied: "Cupon de reducere aplicat"
+      },
+      address_form: {
+        name: "Numele complet",
+        email: "Email",
+        address1: "Adresa (strada și numărul)",
+        address2: "Adresa (bloc, scara, apt.)",
+        city: "Oraș",
+        country: "Tară",
+        postalCode: "Cod poștal",
+        province: "Județ",
+        dont_see_address: "Nu gășesc adresa mea!"
+      },
+      billing: {
+        title: "Facturare",
+        address: "Adresa de facturare",
+        continue_to_shipping: "Continuă cu livrarea",
+        use_different_shipping_address: "Folosește o altă adresă de livrare"
+      },
+      customer: {
+        information: "Informații client"
+      },
+      customer_dashboard: {
+        my_account: "Contul meu",
+        ordered_on: "Comandat pe data de",
+        total: "Total",
+        status: "Status",
+        order: "Comanda %{invoice_number}",
+        order_details: "Detalii comandă",
+        loading: "Se încarcă...",
+        no_orders: "Nici o comandă găsită.",
+        sign_out: "Ieși din cont",
+        show_more_orders:
+          "Afișează %{smart_count} mai multe comenzi |||| Afișeaza %{smart_count} mai multe comenzi"
+      },
+      signin_form: {
+        signin: "Autentificăte",
+        dont_have_an_account: "Nu ai cont?",
+        email: "Email",
+        password: "Parola",
+        forgot_your_password: "Ti-ai uitat parola?",
+        close_form: "Înapoi"
+      },
+      register_form: {
+        register: "Crează cont",
+        already_have_an_account: "Ai un cont deja?",
+        email: "Email",
+        password: "Parola",
+        confirm_password: "Confirmă parola"
+      },
+      guest_checkout: {
+        or: "Sau",
+        continue_as_a_guest: "Continuă fără cont"
+      },
+      shipping: {
+        title: "Livrare",
+        shipping_to: "Livrare către:",
+        address: "Adresa de livrare",
+        method: "Metoda de livrare"
+      },
+      payment: {
+        form: {
+          card_label: "Card bancar",
+          card_number: "Număr card",
+          card_expiration: "LL/AA",
+          card_cvv: "CVV",
+          card_postal_code: "Cod poștal"
+        },
+        title: "Payment",
+        continue_to_payment: "Către plată",
+        credit_card: "Card bancar",
+        place_order: "Plasează comanda",
+        preparing_payment_session: "Pregătire plată...",
+        processing_payment: "Procesare plată...",
+        checkout_with: "Metoda de plată",
+        checkout_with_method: "Plătește cu %{method}",
+        method_icon: "%{method} icon",
+        no_payment: "Nici o plată nu este necesară pentru acestă comandă.",
+        methods: {
+          card: "Card bancar",
+          paypal: "PayPal",
+          paypal_express_checkout: "PayPal",
+          apple_pay: "Apple Pay",
+          bancontact: "Bancontact",
+          belfius: "Belfius",
+          eps: "Electronic Payment Standard",
+          giropay: "Giropay",
+          ideal: "iDEAL",
+          ing_home_pay: "ING Home Pay",
+          kbc: "KBC",
+          klarna_pay_later: "Klarna pay later",
+          klarna_slice_it: "Klarna monthly financing",
+          p24: "Przelewy24",
+          sepa_debit: "Transfer bancar",
+          sofort: "Sofort bank transfer"
+        }
+      },
+      discounts: {
+        title: "Reduceri"
+      },
+      cart_summary: {
+        total: "Total",
+        subtotal: "Subtotal",
+        shipping: "Livrare",
+        discount: "Reduceri",
+        quantity: "x"
+      },
+      errors: {
+        default:
+          "A apărut o eroare. Vă rugăm încercați mai târziu sau contactaține",
+        promo_code_is_invalid: "Acest cupon de reducere nu este valid",
+        promocode_already_in_cart:
+          "Acest cupon de reducere a fost folosit deja",
+        promocode_isnt_applicable: "Acest cupon de reducere nu este valid",
+        promo_code_is_expired: "Acest cupon de reducere a expirat",
+        stringEmpty: "Acest câmp este obligatoriu",
+        required: "Acest câmp este obligatoriu",
+        invalid_expiry_year_past: "Cardul a expirat",
+        email: "Te rugăm introdu o adresa de email validă",
+        error_payment_items_are_invalid: {
+          title: "Anumite produse din coșul tau sunt invalide",
+          description: "Te rugăm verifică coșul sau încearcă mai târziu."
+        },
+        order_validation: {
+          domain_crawling: {
+            title: "Comanda nu a putut fi procesată",
+            description: "Te rugăm să încerci mai târziu sau contactaține."
+          },
+          product_crawling: {
+            title: "Prețul produselor din coșul tău s-au schimbat.",
+            description:
+              "Te rugăm să ștergi produsele și să le adaugi din nou în coș. Ne cerem scuze pentru neplăcerile cauzare."
+          },
+          stock_validation: {
+            title: "Stocul produselor nu este disponibil.",
+            description:
+              "Unele produse sunt indisponibile pentru cantitatea selectată. Te rugăm să selectezi o contitate mai mică."
+          }
+        },
+        shipping: {
+          title: "Imposibil de calculat costul livrării",
+          description: "Te rugăm să încerci mai târziu sau contactaține."
+        },
+        payment_failed: {
+          title: "Nu am putut procesa plata",
+          description: "Te rugăm să încerci mai târziu sau contactaține."
+        },
+        payment_authorization: {
+          title: "Nu am putut procesa plata",
+          default: "Te rugăm să verifici datele cardului."
+        },
+        customer_exists: "Acest email există deja.",
+        customer_password_missmatch: "Parolele trebue să fie identice.",
+        invalid_credentials: "Adresa de email sau parola este incorectă.",
+        no_shipping_rates_found: {
+          title:
+            "Nici o metodă de livrare nu este disponibilă pentru adresa dvs.",
+          description: "Vă rugăm verificați adresa de livrare sau contactaține."
+        }
+      },
+      customer_orders: {
+        loading: "Se încarcă..."
+      },
+      confirmation: {
+        thank_you_for_your_order: "Mulțumim pentru comanda",
+        async_confirmation_notice:
+          "Comanda ta a fost plasată și este în stadiul de procesare. Vei primi un email de confirmare în cateva momente."
+      },
+      checkout: {
+        shipping_taxes_calculated_when_address_provided:
+          "Costurile de livrare si taxele vor fi calculate în momentul în care introduci adresa de livrare."
+      }
+    });
+  });
+});
