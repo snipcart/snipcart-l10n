@@ -99,7 +99,7 @@
         "method": "Teslimat yolu"
     },
     "payment": {
-        "form":{
+        "form": {
             "card_label": "Kredi kartı",
             "card_number": "Kart numarası",
             "card_expiration": "AA/YY",
@@ -116,7 +116,7 @@
         "checkout_with_method": "Bu yöntemle öde %{method}",
         "method_icon": "%{method} ikonu",
         "no_payment": "Bu sipariş için ödeme gerekmiyor.",
-        "methods":{
+        "methods": {
             "card": "Kredi kartı",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -136,62 +136,62 @@
         }
     },
     "discounts": {
-      "title": "İndirimler"
+        "title": "İndirimler"
     },
     "cart_summary": {
-      "total": "Toplam",
-      "subtotal": "Aratoplam",
-      "shipping": "Teslimat",
-      "discount": "İndirim",
-      "quantity": "x"
+        "total": "Toplam",
+        "subtotal": "Aratoplam",
+        "shipping": "Teslimat",
+        "discount": "İndirim",
+        "quantity": "x"
     },
     "errors": {
-      "default": "Bir hata oluştu, lütfen tekrar deneyin veya bize ulaşın",
-      "promo_code_is_invalid": "Bu promosyon kodu geçerli değil",
-      "promocode_already_in_cart": "Bu promosyon zaten sepetinize uygulandı",
-      "promocode_isnt_applicable": "Bu promosyon bu siparişe geçerli değil",
-      "promo_code_is_expired": "Bu promosyon kodu artık geçerli değil",
-      "stringEmpty": "Bu alan gereklidir",
-      "required": "Bu alan gereklidir",
-      "invalid_expiry_year_past": "Kart artık kullanılabilir değil",
-      "email": "Lütfen geçerli bir mail adresi giriniz",
-      "error_payment_items_are_invalid": {
-          "title": "Sepetinizdeki bazı ürünler geçersiz",
-          "description": "Lütfen siparişinizi kontrol edin ve tekrar edeyin."
-      },
-      "order_validation":{
-        "domain_crawling":{
-            "title":"Siparişiniz işleme alınamadı.",
-            "description":"Tarafınızdan herhangi bir ödeme alınmamıştır. Lütfen mağazayla iletişime geçin."
+        "default": "Bir hata oluştu, lütfen tekrar deneyin veya bize ulaşın",
+        "promo_code_is_invalid": "Bu promosyon kodu geçerli değil",
+        "promocode_already_in_cart": "Bu promosyon zaten sepetinize uygulandı",
+        "promocode_isnt_applicable": "Bu promosyon bu siparişe geçerli değil",
+        "promo_code_is_expired": "Bu promosyon kodu artık geçerli değil",
+        "stringEmpty": "Bu alan gereklidir",
+        "required": "Bu alan gereklidir",
+        "invalid_expiry_year_past": "Kart artık kullanılabilir değil",
+        "email": "Lütfen geçerli bir mail adresi giriniz",
+        "error_payment_items_are_invalid": {
+            "title": "Sepetinizdeki bazı ürünler geçersiz",
+            "description": "Lütfen siparişinizi kontrol edin ve tekrar edeyin."
         },
-        "product_crawling":{
-            "title":"Sepetinizdeki ürünlerden fiyatı değişenler oldu.",
-            "description": "Ürünleri çıkarıp tekrar eklemeyi deneyin. Daha detaylı bilgi için lütfen mağazayla iletişime geçin."
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Siparişiniz işleme alınamadı.",
+                "description": "Tarafınızdan herhangi bir ödeme alınmamıştır. Lütfen mağazayla iletişime geçin."
+            },
+            "product_crawling": {
+                "title": "Sepetinizdeki ürünlerden fiyatı değişenler oldu.",
+                "description": "Ürünleri çıkarıp tekrar eklemeyi deneyin. Daha detaylı bilgi için lütfen mağazayla iletişime geçin."
+            },
+            "stock_validation": {
+                "title": "Ürün stoğu yeterli değil.",
+                "description": "Bazı ürünlerin stoğu yeterli değil. Lütfen miktarı gözden geçirin veya mağazayla iletişime geçin."
+            }
         },
-        "stock_validation":{
-            "title":"Ürün stoğu yeterli değil.",
-            "description": "Bazı ürünlerin stoğu yeterli değil. Lütfen miktarı gözden geçirin veya mağazayla iletişime geçin."
+        "shipping": {
+            "title": "Teslimat tutarı hesaplanamadı.",
+            "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
+        },
+        "payment_failed": {
+            "title": "Ödeme alınamadı.",
+            "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
+        },
+        "payment_authorization": {
+            "title": "Ödeme alınamadı.",
+            "default": "Lütfen ödeme ve fatura bilgilerinizi kontrol edin."
+        },
+        "customer_exists": "Bu mail adresi kullanımda.",
+        "customer_password_missmatch": "Şifreler eşleşmeli.",
+        "invalid_credentials": "Geçersiz mail veya şifre.",
+        "no_shipping_rates_found": {
+            "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
+            "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
         }
-      },
-      "shipping": {
-          "title": "Teslimat tutarı hesaplanamadı.",
-          "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
-      },
-      "payment_failed": {
-          "title": "Ödeme alınamadı.",
-          "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
-      },
-      "payment_authorization": {
-          "title": "Ödeme alınamadı.",
-          "default": "Lütfen ödeme ve fatura bilgilerinizi kontrol edin."
-      },
-      "customer_exists": "Bu mail adresi kullanımda.",
-      "customer_password_missmatch": "Şifreler eşleşmeli.",
-      "invalid_credentials": "Geçersiz mail veya şifre.",
-      "no_shipping_rates_found": {
-          "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
-          "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
-      }
     },
     "customer_orders": {
         "loading": "Yükleniyor..."
