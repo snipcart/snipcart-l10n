@@ -1,0 +1,206 @@
+{
+    "actions": {
+        "edit": "Düzenle",
+        "cancel": "İptal",
+        "continue_shopping": "Alışverişe devam et",
+        "back_to_checkout": "Ödemeye geri dön",
+        "checkout": "Ödeme",
+        "apply": "Uygula",
+        "type_address": "Adresinizi giriniz",
+        "use_this_address": "Bu adresi kullan",
+        "back_to_store": "Mağazaya geri dön",
+        "close_cart": "Sepeti kapat",
+        "show": "Göster",
+        "hide": "Gizle"
+    },
+    "header": {
+        "title_cart_summary": "Sepet özeti",
+        "loading": "Yükleniyor..."
+    },
+    "item": {
+        "quantity": "Miktar",
+        "quantity_short": "miktar",
+        "decrement_quantity": "Miktarı arttır",
+        "increment_quantity": "Miktarı azalt",
+        "remove_item": "Ürünü kaldır"
+    },
+    "cart": {
+        "subtotal": "Aratoplam",
+        "shipping_taxes_calculated_at_checkout": "Teslimat ve vergi ödemede hesaplanacaktır.",
+        "loading": "Sepetinizi hazırlıyoruz.",
+        "secured_by": "Snipcart altyapısıyla güvenli alışveriş.",
+        "summary": "Sipariş özeti",
+        "empty": "Sepetiniz boş",
+        "invoice_number": "Fatura numarası"
+    },
+    "order": {
+        "loading": "Sipariş detayınızı hazırlıyoruz."
+    },
+    "discount_box": {
+        "promo_code": "Promosyon kodu?",
+        "promo_code_placeholder": "Promosyon kodu",
+        "promocode_applied": "Promosyon kullanıldı"
+    },
+    "address_form": {
+        "name": "Tam isim",
+        "email": "Email",
+        "address1": "Adres",
+        "address2": "Apt/No",
+        "city": "Şehir",
+        "country": "Ülke",
+        "postalCode": "Posta kodu",
+        "province": "Bölge/Vilayet",
+        "dont_see_address": "Adres gözükmüyor"
+    },
+    "billing": {
+        "title": "Fatura",
+        "address": "Fatura adresi",
+        "continue_to_shipping": "Alışverişe devam et",
+        "use_different_shipping_address": "Başka bir teslimat adresi kullan"
+    },
+    "customer": {
+        "information": "Müşteri bilgileri"
+    },
+    "customer_dashboard": {
+        "my_account": "Hesabım",
+        "ordered_on": "Sipariş tarihi",
+        "total": "Toplam",
+        "status": "Durum",
+        "order": "Sipariş %{invoice_number}",
+        "order_details": "Sipariş detayları",
+        "loading": "Yükleniyor...",
+        "no_orders": "Sipariş bulunamadı",
+        "sign_out": "Çıkış yap",
+        "show_more_orders": "%{smart_count} sipariş daha göster |||| %{smart_count} sipariş daha göster"
+    },
+    "signin_form": {
+        "signin": "Giriş yap",
+        "dont_have_an_account": "Hesabınız yok mu?",
+        "email": "Email",
+        "password": "Şifre",
+        "forgot_your_password": "Şİfrenizi mi unuttunuz?",
+        "close_form": "Geri dön"
+    },
+    "register_form": {
+        "register": "Kayıt ol",
+        "already_have_an_account": "Hesabınız var mı?",
+        "email": "Email",
+        "password": "Şifre",
+        "confirm_password": "Şifreyi doğrulayın"
+    },
+    "guest_checkout": {
+        "or": "veya",
+        "continue_as_a_guest": "Misafir olarak devam et"
+    },
+    "shipping": {
+        "title": "Teslimat",
+        "shipping_to": "Şuraya teslimat:",
+        "address": "Teslimat adresi",
+        "method": "Teslimat yolu"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Kredi kartı",
+            "card_number": "Kart numarası",
+            "card_expiration": "AA/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Posta kodu"
+        },
+        "title": "Ödeme",
+        "continue_to_payment": "Ödemeye devam et",
+        "credit_card": "Kredi kartı",
+        "place_order": "Siparişi ver",
+        "preparing_payment_session": "Ödeme hazırlanıyor...",
+        "processing_payment": "Ödeme alınıyor...",
+        "checkout_with": "Bu yöntemle öde",
+        "checkout_with_method": "Bu yöntemle öde %{method}",
+        "method_icon": "%{method} ikonu",
+        "no_payment": "Bu sipariş için ödeme gerekmiyor.",
+        "methods":{
+            "card": "Kredi kartı",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA banka transferi",
+            "sofort": "Sofort banka transferi"
+        }
+    },
+    "discounts": {
+      "title": "İndirimler"
+    },
+    "cart_summary": {
+      "total": "Toplam",
+      "subtotal": "Aratoplam",
+      "shipping": "Teslimat",
+      "discount": "İndirim",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Bir hata oluştu, lütfen tekrar deneyin veya bize ulaşın",
+      "promo_code_is_invalid": "Bu promosyon kodu geçerli değil",
+      "promocode_already_in_cart": "Bu promosyon zaten sepetinize uygulandı",
+      "promocode_isnt_applicable": "Bu promosyon bu siparişe geçerli değil",
+      "promo_code_is_expired": "Bu promosyon kodu artık geçerli değil",
+      "stringEmpty": "Bu alan gereklidir",
+      "required": "Bu alan gereklidir",
+      "invalid_expiry_year_past": "Kart artık kullanılabilir değil",
+      "email": "Lütfen geçerli bir mail adresi giriniz",
+      "error_payment_items_are_invalid": {
+          "title": "Sepetinizdeki bazı ürünler geçersiz",
+          "description": "Lütfen siparişinizi kontrol edin ve tekrar edeyin."
+      },
+      "order_validation":{
+        "domain_crawling":{
+            "title":"Siparişiniz işleme alınamadı.",
+            "description":"Tarafınızdan herhangi bir ödeme alınmamıştır. Lütfen mağazayla iletişime geçin."
+        },
+        "product_crawling":{
+            "title":"Sepetinizdeki ürünlerden fiyatı değişenler oldu.",
+            "description": "Ürünleri çıkarıp tekrar eklemeyi deneyin. Daha detaylı bilgi için lütfen mağazayla iletişime geçin."
+        },
+        "stock_validation":{
+            "title":"Ürün stoğu yeterli değil.",
+            "description": "Bazı ürünlerin stoğu yeterli değil. Lütfen miktarı gözden geçirin veya mağazayla iletişime geçin."
+        }
+      },
+      "shipping": {
+          "title": "Teslimat tutarı hesaplanamadı.",
+          "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
+      },
+      "payment_failed": {
+          "title": "Ödeme alınamadı.",
+          "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
+      },
+      "payment_authorization": {
+          "title": "Ödeme alınamadı.",
+          "default": "Lütfen ödeme ve fatura bilgilerinizi kontrol edin."
+      },
+      "customer_exists": "Bu mail adresi kullanımda.",
+      "customer_password_missmatch": "Şifreler eşleşmeli.",
+      "invalid_credentials": "Geçersiz mail veya şifre.",
+      "no_shipping_rates_found": {
+          "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
+          "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
+      }
+    },
+    "customer_orders": {
+        "loading": "Yükleniyor..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Siparişiniz için teşekkürler",
+        "async_confirmation_notice": "Siparişiniz alındı ve hazırlanıyor. Kısa bir zaman içinde tarafınıza bilgilendirme yapılacaktır."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Teslimat ve vergiler adresinizi girdikten sonra hesaplanacaktır."
+    }
+}
