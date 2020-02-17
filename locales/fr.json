@@ -37,7 +37,7 @@
         "loading": "Chargement des détails de votre commande..."
     },
     "discount_box": {
-        "promo_code": "Code promo?",
+        "promo_code": "Code promo ?",
         "promo_code_placeholder": "Code promo",
         "promocode_applied": "Promotion appliquée"
     },
@@ -98,7 +98,7 @@
         "method": "Méthode de livraison"
     },
     "payment": {
-        "form":{
+        "form": {
             "card_label": "Carte de crédit",
             "card_number": "Numéro de carte",
             "card_expiration": "MM/AA",
@@ -145,12 +145,12 @@
             "title": "Impossible de compléter votre paiement",
             "description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
-
+        
         "payment_authorization": {
             "title": "Impossible de compléter votre paiement",
             "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
-        "customer_exists": "Ce email est déjà utilisé.",
+        "customer_exists": "Cet email est déjà utilisé.",
         "customer_password_missmatch": "Les mots de passe sont différents.",
         "invalid_credentials": "Email ou mot de passe invalide"
     },
