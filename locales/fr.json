@@ -2,13 +2,13 @@
     "actions": {
         "edit": "Modifier",
         "cancel": "Annuler",
-        "continue_shopping": "Continuer à magasiner",
+        "continue_shopping": "Continuer les achats",
         "back_to_checkout": "Retour au paiement",
         "checkout": "Paiement",
         "apply": "Appliquer",
         "type_address": "Saisissez votre adresse",
         "use_this_address": "Utiliser cette adresse",
-        "back_to_store": "Retour sur la boutique",
+        "back_to_store": "Retourner sur la boutique",
         "close_cart": "Fermer le panier",
         "show": "Afficher",
         "hide": "Cacher"
@@ -20,8 +20,8 @@
     "item": {
         "quantity": "Quantité",
         "quantity_short": "Qté",
-        "decrement_quantity": "Décrémenter la quantité",
-        "increment_quantity": "Incrémenter la quantité",
+        "decrement_quantity": "Diminuer la quantité",
+        "increment_quantity": "Augmenter la quantité",
         "remove_item": "Supprimer le produit"
     },
     "cart": {
@@ -37,7 +37,7 @@
         "loading": "Chargement des détails de votre commande..."
     },
     "discount_box": {
-        "promo_code": "Code promo?",
+        "promo_code": "Code promo ?",
         "promo_code_placeholder": "Code promo",
         "promocode_applied": "Promotion appliquée"
     },
@@ -59,7 +59,7 @@
         "use_different_shipping_address": "Utiliser une adresse de livraison différente"
     },
     "customer": {
-        "information": "Information client"
+        "information": "Informations client"
     },
     "customer_dashboard": {
         "my_account": "Mon compte",
@@ -70,7 +70,8 @@
         "order_details": "Détails de la commande",
         "loading": "Chargement...",
         "no_orders": "Aucune commande trouvée.",
-        "sign_out": "Déconnexion"
+        "sign_out": "Déconnexion",
+        "show_more_orders": "Afficher une commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires"
     },
     "signin_form": {
         "signin": "Connexion",
@@ -93,7 +94,7 @@
     },
     "shipping": {
         "title": "Livraison",
-        "shipping_to": "Livré à :",
+        "shipping_to": "Livrer à :",
         "address": "Adresse de livraison",
         "method": "Méthode de livraison"
     },
@@ -116,8 +117,7 @@
         "method_icon": "%{method} icon",
         "no_payment": "Aucun paiement est requis pour cette commande.",
         "methods": {
-            "card": "Carte de crédit",
-            "paypal": "PayPal"
+            "card": "Carte de crédit"
         }
     },
     "discounts": {
@@ -139,26 +139,50 @@
         "stringEmpty": "Ce champ est requis",
         "required": "Ce champ est requis",
         "invalid_expiry_year_past": "La carte est expirée",
-        "email": "Veuillez spécifier une adresse email valide",
-
+        "email": "Veuillez spécifier une adresse courriel valide",
+        "error_payment_items_are_invalid": {
+            "title": "Certains produits dans votre panier sont invalides",
+            "description": "Veuillez réviser votre commande, ou réessayer plus tard."
+        },
+        "order_validation":{
+          "domain_crawling":{
+              "title":"Votre commande n'a pas pu être complétée.",
+              "description":"Vous n'avez pas été chargé. Veuillez contacter le marchant pour plus de détails."
+          },
+          "product_crawling":{
+              "title":"Le prix de produits dans votre panier semble avoir changé.",
+              "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchant pour plus de détails."
+          },
+          "stock_validation":{
+              "title":"Produit en rupture de stock.",
+              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantitées ou contacter le marchant pour plus de détails."
+          }
+        },
+        "shipping": {
+            "title": "Impossible de calculer les frais de livraison.",
+            "description": "Veuillez réessayer plus tard, ou nous contacter pour assitance."
+        },
         "payment_failed": {
-            "title": "Impossible de compléter votre paiement",
+            "title": "Impossible de compléter votre paiement.",
             "description": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
-
         "payment_authorization": {
             "title": "Impossible de compléter votre paiement",
             "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
-        "customer_exists": "Ce email est déjà utilisé.",
+        "customer_exists": "Ce courriel est déjà utilisé.",
         "customer_password_missmatch": "Les mots de passe sont différents.",
-        "invalid_credentials": "Email ou mot de passe invalide"
+        "invalid_credentials": "Courriel ou mot de passe invalide",
+        "no_shipping_rates_found": {
+            "title": "Pas de méthode de livraison disponible pour votre commande",
+            "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
+        }
     },
     "customer_orders": {
         "loading": "Chargement..."
     },
     "confirmation": {
-        "thank_you_for_your_order": "Merci pour votre commande",
+        "thank_you_for_your_order": "Merci pour votre commande.",
         "async_confirmation_notice": "Votre commande est en cours de traitement. Vous recevrez une confirmation sous peu."
     },
     "checkout": {

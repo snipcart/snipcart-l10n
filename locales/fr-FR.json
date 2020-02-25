@@ -28,5 +28,10 @@
     },
     "payment": {
         "place_order": "Payer la commande"
+    },
+    "errors": {
+        "email": "Veuillez spécifier une adresse email valide",
+        "customer_exists": "Cet email est déjà utilisé.",
+        "invalid_credentials": "Email ou mot de passe invalide"
     }
 }
