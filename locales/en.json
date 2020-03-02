@@ -106,6 +106,7 @@
             "card_cvv": "CVV",
             "card_postal_code": "Postal code"
         },
+        "still_pending_notice": "Your payment is still being processed.",
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
         "credit_card": "Credit card",
