@@ -1,0 +1,206 @@
+{
+    "actions": {
+        "edit": "Επεξεργασία",
+        "cancel": "Ακύρωση",
+        "continue_shopping": "Συνέχεια αγορών",
+        "back_to_checkout": "Πίσω στο καλάθι αγορών",
+        "checkout": "Ολοκλήρωση παραγγελίας",
+        "apply": "Εφαρμογή",
+        "type_address": "Πληκτρολογήστε τη διεύθυνση σας",
+        "use_this_address": "Χρησιμοποιήστε αυτή τη διεύθυνση",
+        "back_to_store": "Επιστροφή στο κατάστημα",
+        "close_cart": "Κλείστε το καλάθι",
+        "show": "Εμφάνιση",
+        "hide": "Απόκρυψη"
+    },
+    "header": {
+        "title_cart_summary": "Καλάθι αγορών",
+        "loading": "Φόρτωση..."
+    },
+    "item": {
+        "quantity": "Ποσότητα",
+        "quantity_short": "Ποσότητα",
+        "decrement_quantity": "Μείωση της ποσότητας",
+        "increment_quantity": "Αύξηση της ποσότητας",
+        "remove_item": "Αφαίρεση προϊόντος"
+    },
+    "cart": {
+        "subtotal": "Μερικό σύνολο",
+        "shipping_taxes_calculated_at_checkout": "Το κόστος αποστολής και οι φόροι θα υπολογιστούν στο ταμείο.",
+        "loading": "Ετοιμάζουμε το καλάθι σας...",
+        "secured_by": "Secured by Snipcart",
+        "summary": "Σύνοψη Παραγγελίας",
+        "empty": "Το καλάθι σας είναι άδειο.",
+        "invoice_number": "Αριθμός απόδειξης"
+    },
+    "order": {
+        "loading": "Επεξεργαζόμαστε τα στοιχεία της παραγγελίας σας..."
+    },
+    "discount_box": {
+        "promo_code": "Κωδικός προσφοράς;",
+        "promo_code_placeholder": "Κωδικός προσφοράς",
+        "promocode_applied": "Ο κωδικός προσφοράς εφαρμόστηκε"
+    },
+    "address_form": {
+        "name": "Ονοματεπώνυμο",
+        "email": "Email",
+        "address1": "Διεύθυνση",
+        "address2": "Όροφος",
+        "city": "Πόλη",
+        "country": "Χώρα",
+        "postalCode": "Ταχυδρομικός κώδικας",
+        "province": "Περιοχή",
+        "dont_see_address": "Δεν βλέπω τη διεύθυνση μου"
+    },
+    "billing": {
+        "title": "Διεύθυνση χρέωσης",
+        "address": "Διεύθυνση χρέωσης",
+        "continue_to_shipping": "Συνεχίστε στην αποστολή",
+        "use_different_shipping_address": "Χρησιμοποιήστε διαφορετική διεύθυνση αποστολής"
+    },
+    "customer": {
+        "information": "Πληροφορίες πελάτη"
+    },
+    "customer_dashboard": {
+        "my_account": "Ο λογαριασμός μου",
+        "ordered_on": "Παραγγελία στην",
+        "total": "Σύνολο",
+        "status": "Κατάσταση",
+        "order": "Παραγγελία %{invoice_number}",
+        "order_details": "Πληροφορίες Παραγγελίας",
+        "loading": "Φόρτωση...",
+        "no_orders": "Δεν βρέθηκαν παραγγελίες.",
+        "sign_out": "Αποσύνδεση",
+        "show_more_orders": "Εμφάνιση %{smart_count} παραγγελία |||| Εμφάνιση %{smart_count} περισσότερες παραγγελίες"
+    },
+    "signin_form": {
+        "signin": "Σύνδεση",
+        "dont_have_an_account": "Δεν έχετε λογαριασμό;",
+        "email": "Email",
+        "password": "Κωδικός",
+        "forgot_your_password": "Ξεχάσατε τον κωδικό σας;",
+        "close_form": "Πηγαίνετε πίσω"
+    },
+    "register_form": {
+        "register": "Εγγραφή",
+        "already_have_an_account": "Έχετε ήδη λογαριασμό;",
+        "email": "Email",
+        "password": "Κωδικός",
+        "confirm_password": "Επιβεβαίωση Κωδικού"
+    },
+    "guest_checkout": {
+        "or": "Η",
+        "continue_as_a_guest": "Συνεχίστε ως επισκέπτης"
+    },
+    "shipping": {
+        "title": "Αποστολή",
+        "shipping_to": "Αποστολή σε:",
+        "address": "Διεύθυνση αποστολής",
+        "method": "Μέθοδος αποστολής"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Πιστωτική κάρτα",
+            "card_number": "Αριθμός κάρτας",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Ταχυδρομικός Κώδικας"
+        },
+        "title": "Πληρωμή",
+        "continue_to_payment": "Συνεχίστε στην πληρωμή",
+        "credit_card": "Πιστωτική κάρτα",
+        "place_order": "Τοποθετήστε την παραγγελία σας",
+        "preparing_payment_session": "Προετοιμασία πληρωμής...",
+        "processing_payment": "Επεξεργασία πληρωμής...",
+        "checkout_with": "Πληρωμή με",
+        "checkout_with_method": "Πληρωμή με %{method}",
+        "method_icon": "%{method} icon",
+        "no_payment": "Δεν απαιτείται πληρωμή για αυτήν την παραγγελία.",
+        "methods":{
+            "card": "Πιστωτική κάρτα",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA τραπεζική κατάθεση",
+            "sofort": "Sofort τραπεζική κατάθεση"
+        }
+    },
+    "discounts": {
+      "title": "Εκπτώσεις"
+    },
+    "cart_summary": {
+      "total": "Σύνολο",
+      "subtotal": "Μερικό σύνολο",
+      "shipping": "Αποστολή",
+      "discount": "Εκπτώσεις",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Παρουσιάστηκε σφάλμα, δοκιμάστε ξανά αργότερα ή επικοινωνήστε μαζί μας.",
+      "promo_code_is_invalid": "Ο κωδικός προσφοράς δεν είναι έγκυρος",
+      "promocode_already_in_cart": "Αυτός ο κωδικός προσφοράς έχει ήδη εφαρμοστεί",
+      "promocode_isnt_applicable": "Ο κωδικός προσφοράς δεν είναι έγκυρος",
+      "promo_code_is_expired": "Αυτός ο κωδικός προσφοράς έχει λήξει",
+      "stringEmpty": "Αυτό το πεδίο απαιτείται",
+      "required": "Αυτό το πεδίο απαιτείται",
+      "invalid_expiry_year_past": "Η κάρτα έχει λήξει",
+      "email": "Καταχωρίστε ένα έγκυρο email",
+      "error_payment_items_are_invalid": {
+          "title": "Ορισμένα προϊόντα στο καλάθι σας δεν είναι έγκυρα",
+          "description": "Παρακαλώ ελέγξτε την παραγγελία σας ή δοκιμάστε ξανά αργότερα."
+      },
+      "order_validation":{
+        "domain_crawling":{
+            "title":"Δεν ήταν δυνατή η επεξεργασία της παραγγελίας σας.",
+            "description":"Δεν έχετε χρεωθεί. Επικοινωνήστε μαζί μας για λεπτομέρειες."
+        },
+        "product_crawling":{
+            "title":"Η τιμή των προϊόντων στο καλάθι μπορεί να έχει αλλάξει.",
+            "description": "Προσπαθήστε να τα αφαιρέσετε και να τα προσθέσετε στο καλάθι σας. Επικοινωνήστε μαζί μας για λεπτομέρειες."
+        },
+        "stock_validation":{
+            "title":"Το απόθεμα του προϊόντος δεν είναι διαθέσιμο.",
+            "description": "Ορισμένα προϊόντα ενδέχεται να είναι εκτός αποθέματος για την επιλεγμένη ποσότητα. Αναθεωρήστε την ποσότητα ή επικοινωνήστε μαζί μας για λεπτομέρειες."
+        }
+      },
+      "shipping": {
+          "title": "Το κόστος αποστολής δεν μπορεί να υπολογιστεί",
+          "description": "Δοκιμάστε ξανά αργότερα ή επικοινωνήστε μαζί μας για υποστήριξη."
+      },
+      "payment_failed": {
+          "title": "Δεν είναι δυνατή η επεξεργασία της πληρωμής",
+          "description": "Δοκιμάστε ξανά αργότερα ή επικοινωνήστε μαζί μας για υποστήριξη."
+      },
+      "payment_authorization": {
+          "title": "Δεν είναι δυνατή η επεξεργασία της πληρωμής",
+          "default": "Παρακαλώ ελέγξτε τα στοιχεία χρέωσης και πληρωμής."
+      },
+      "customer_exists": "Αυτό το email χρησιμοποιείται ήδη.",
+      "customer_password_missmatch": "Οι δύο κωδικοί πρόσβασης πρέπει να ταιριάζουν.",
+      "invalid_credentials": "Λάθος email ή κωδικός πρόσβασης.",
+      "no_shipping_rates_found": {
+          "title": "Δεν υπάρχει διαθέσιμη μέθοδος αποστολής για την παραγγελία σας",
+          "description": "Παρακαλώ ελέγξτε τη διεύθυνση αποστολής ή επικοινωνήστε μαζί μας."
+      }
+    },
+    "customer_orders": {
+        "loading": "Φόρτωση..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Ευχαριστούμε για την παραγγελία σας",
+        "async_confirmation_notice": "Η παραγγελία σας έχει τοποθετηθεί και αυτή τη στιγμή επεξεργάζεται. Θα λάβετε σύντομα μια επιβεβαίωση."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Το κόστος των μεταφορικών και οι φόροι θα υπολογιστούν όταν θα συμπληρώσετε τη διεύθυνση σας."
+    }
+}
