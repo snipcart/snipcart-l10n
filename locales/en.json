@@ -11,7 +11,8 @@
         "back_to_store": "Back to store",
         "close_cart": "Close cart",
         "show": "Show",
-        "hide": "Hide"
+        "hide": "Hide",
+        "adjust_quantities": "Adjust quantities"
     },
     "header": {
         "title_cart_summary": "Cart summary",
