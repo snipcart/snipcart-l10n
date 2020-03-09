@@ -186,6 +186,12 @@
           "title": "Unable to process payment",
           "default": "Please review billing and payment information."
       },
+      "authentication_challenge": {
+        "failed": {
+            "title": "Unable to process payment",
+            "description": "We have not been able to authenticate your payment information. Please try again"
+        }
+      },
       "customer_exists": "This email is already used.",
       "customer_password_missmatch": "The two passwords must match.",
       "invalid_credentials": "Invalid email or password.",
