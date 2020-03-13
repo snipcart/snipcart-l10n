@@ -12,7 +12,7 @@
         "close_cart": "Close cart",
         "show": "Show",
         "hide": "Hide",
-        "adjust_quantities": "Adjust quantities"
+        "apply_changes": "Apply changes"
     },
     "header": {
         "title_cart_summary": "Cart summary",
