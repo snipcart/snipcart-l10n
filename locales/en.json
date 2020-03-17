@@ -158,6 +158,7 @@
       "invalid_expiry_year_past": "Card is expired",
       "email": "Please provide a valid email address",
       "quantity_revised": "Quantity has been revised due to stock limitations.",
+      "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the cart to continue.",
       "error_payment_items_are_invalid": {
           "title": "Some items in your cart are invalid",
           "description": "Please review your order, or try again later."
