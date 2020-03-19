@@ -58,7 +58,6 @@
         "address": "Διεύθυνση χρέωσης",
         "continue_to_shipping": "Συνεχίστε στην αποστολή",
         "use_different_shipping_address": "Χρησιμοποιήστε διαφορετική διεύθυνση αποστολής"
-
     },
     "customer": {
         "information": "Πληροφορίες πελάτη"
@@ -91,7 +90,7 @@
         "confirm_password": "Επιβεβαίωση Κωδικού"
     },
     "guest_checkout": {
-       "or": "Η",
+        "or": "Η",
         "continue_as_a_guest": "Συνεχίστε ως επισκέπτης"
     },
     "shipping": {
@@ -102,7 +101,7 @@
     },
     "payment": {
         "form":{
-           "card_label": "Πιστωτική κάρτα",
+            "card_label": "Πιστωτική κάρτα",
             "card_number": "Αριθμός κάρτας",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
