@@ -4,7 +4,7 @@
     "cancel": "Отменить",
     "continue_shopping": "Продолжить покупки",
     "back_to_checkout": "Вернуться к оформлению заказа",
-    "checkout": "Оформление заказа",
+    "checkout": "Оформить заказ",
     "apply": "Применить",
     "type_address": "Введите свой адрес",
     "use_this_address": "Использовать этот адрес",
@@ -54,7 +54,7 @@
     "dont_see_address": "Я не вижу мой адрес"
   },
   "billing": {
-    "title": "Оплата",
+    "title": "Платёжные данные",
     "address": "Платёжный адрес",
     "continue_to_shipping": "Перейти к доставке",
     "use_different_shipping_address": "Использовать другой адрес для доставки"
