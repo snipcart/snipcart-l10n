@@ -1,166 +1,216 @@
 {
-    "actions": {
-        "edit": "Wijzig",
-        "cancel": "Annuleer",
-        "continue_shopping": "Ga verder met winkelen",
-        "back_to_checkout": "Terug naar afrekenen",
-        "checkout": "Afrekenen",
-        "apply": "Toepassen",
-        "type_address": "Typ uw adres",
-        "use_this_address": "Gebruik dit adres",
-        "back_to_store": "Terug naar winkel",
-        "close_cart": "Sluit winkelwagen"
+    "actions":{
+        "edit":"Wijzig",
+        "cancel":"Annuleer",
+        "continue_shopping":"Ga verder met winkelen",
+        "back_to_checkout":"Terug naar afrekenen",
+        "checkout":"Afrekenen",
+        "apply":"Toepassen",
+        "type_address":"Voer uw adres in",
+        "use_this_address":"Gebruik dit adres",
+        "back_to_store":"Terug naar winkel",
+        "close_cart":"Sluit winkelwagen",
+        "show":"Weergeven",
+        "hide":"Verbergen",
+        "apply_changes":"Wijzigingen opslaan"
     },
-    "header": {
-        "title_cart_summary": "Overzicht winkelwagen",
-        "loading": "Laden..."
+    "header":{
+        "title_cart_summary":"Overzicht winkelwagen",
+        "loading":"Laden..."
     },
-    "item": {
-        "quantity": "Aantal",
-        "decrement_quantity": "Verlaag aantal",
-        "increment_quantity": "Verhoog aantal",
-        "remove_item": "Verwijder product"
+    "item":{
+        "quantity":"Aantal",
+        "quantity_short":"Aantal",
+        "decrement_quantity":"Verlaag aantal",
+        "increment_quantity":"Verhoog aantal",
+        "remove_item":"Verwijder product"
     },
-    "cart": {
-        "subtotal": "Subtotaal",
-        "shipping_taxes_calculated_at_checkout": "Verzendkosten en BTW worden bij afrekenen berekend.",
-        "loading": "We maken uw winkelwagen klaar...",
-        "secured_by": "Beveiligd door Snipcart",
-        "summary": "Overzicht bestelling",
-        "empty": "Uw winkelwagen is leeg.",
-        "invoice_number": "Factuurnummer"
+    "cart":{
+        "subtotal":"Subtotaal",
+        "shipping_taxes_calculated_at_checkout":"Verzendkosten en BTW worden bij afrekenen berekend.",
+        "loading":"We maken uw winkelwagen klaar...",
+        "secured_by":"Beveiligd door Snipcart",
+        "summary":"Overzicht bestelling",
+        "empty":"Uw winkelwagen is leeg.",
+        "invoice_number":"Factuurnummer"
     },
-    "order": {
-        "loading": "We laden de details van de bestelling..."
+    "order":{
+        "loading":"Details van de bestelling worden opgehaald..."
     },
-    "discount_box": {
-        "promo_code": "Kortingscode?",
-        "promo_code_placeholder": "Kortingscode",
-        "promocode_applied": "Kortingscode toegepast"
+    "discount_box":{
+        "promo_code":"Kortingscode?",
+        "promo_code_placeholder":"Kortingscode",
+        "promocode_applied":"Kortingscode toegepast"
     },
-    "address_form": {
-        "name": "Volledige naam",
-        "email": "Email",
-        "address1": "Straat en huisnummer",
-        "address2": "Adres toevoeging",
-        "city": "Plaats",
-        "country": "Land",
-        "postalCode": "Postcode",
-        "province": "Provincie",
-        "dont_see_address": "Ik zie mijn adres niet in de lijst"
+    "address_form":{
+        "name":"Volledige naam",
+        "email":"Email",
+        "address1":"Straat en huisnummer",
+        "address2":"Adres toevoeging",
+        "city":"Plaats",
+        "country":"Land",
+        "postalCode":"Postcode",
+        "province":"Provincie",
+        "dont_see_address":"Ik zie mijn adres niet in de lijst"
     },
-    "billing": {
-        "title": "Factuur",
-        "address": "Factuuradres",
-        "continue_to_shipping": "Ga door naar verzending",
-        "use_different_shipping_address": "Gebruik een afwijkend afleveradres"
+    "billing":{
+        "title":"Factuur",
+        "address":"Factuuradres",
+        "continue_to_shipping":"Ga door naar verzending",
+        "use_different_shipping_address":"Gebruik een afwijkend afleveradres"
     },
-    "customer": {
-        "information": "Klantinformatie"
+    "customer":{
+        "information":"Klantinformatie"
     },
-    "signin_form": {
-        "signin": "Log in",
-        "dont_have_an_account": "Nog geen account?",
-        "email": "Email",
-        "password": "Wachtwoord",
-        "forgot_your_password": "Wachtwoord vergeten?"
+    "customer_dashboard":{
+        "my_account":"Mijn account",
+        "ordered_on":"Besteld op",
+        "total":"Totaal",
+        "status":"Status",
+        "order":"Bestelling %{invoice_number}",
+        "order_details":"Bestelling details",
+        "loading":"Laden...",
+        "no_orders":"Geen bestellingen gevonden.",
+        "sign_out":"Uitloggen",
+        "show_more_orders":"Toon nog %{smart_count} bestelling |||| Toon nog %{smart_count} bestellingen"
     },
-    "register_form": {
-        "register": "Aanmelden",
-        "already_have_an_account": "Heeft u al een account?",
-        "email": "Email",
-        "password": "Password",
-        "confirm_password": "Wachtwoord bevestigen"
+    "signin_form":{
+        "signin":"Inloggen",
+        "dont_have_an_account":"Nog geen account?",
+        "email":"Email",
+        "password":"Wachtwoord",
+        "forgot_your_password":"Wachtwoord vergeten?",
+        "close_form":"Ga terug"
     },
-    "guest_checkout": {
-        "or": "Of",
-        "continue_as_a_guest": "Ga door als gast"
+    "register_form":{
+        "register":"Account aanmaken",
+        "already_have_an_account":"Heeft u al een account?",
+        "email":"Email",
+        "password":"Password",
+        "confirm_password":"Wachtwoord bevestigen"
     },
-    "shipping": {
-        "title": "Verzending",
-        "shipping_to": "Verzenden naar:",
-        "address": "Verzendadres",
-        "method": "Verzendmethode"
+    "guest_checkout":{
+        "or":"Of",
+        "continue_as_a_guest":"Ga door als gast"
     },
-    "payment": {
+    "shipping":{
+        "title":"Verzending",
+        "shipping_to":"Verzenden naar:",
+        "address":"Verzendadres",
+        "method":"Verzendmethode"
+    },
+    "payment":{
         "form":{
-            "card_label": "Creditcard",
-            "card_number": "Creditcardnummer",
-            "card_expiration": "MM/YY",
-            "card_cvv": "CVV",
-            "card_postal_code": "Postcode"
+            "card_label":"Creditcard",
+            "card_number":"Creditcardnummer",
+            "card_expiration":"MM/JJ",
+            "card_cvv":"CVV",
+            "card_postal_code":"Postcode"
         },
-        "title": "Betaling",
-        "continue_to_payment": "Ga door naar betaling",
-        "credit_card": "Creditcard",
-        "place_order": "Bestelling plaatsen",
-        "preparing_payment_session": "Betaling voorbereiden...",
-        "processing_payment": "Betaling uitvoeren...",
-        "checkout_with": "Betaling met",
-        "checkout_with_method": "Betaling met %{method}",
-        "method_icon": "%{method} icon",
+        "still_pending_notice":"Uw betaling is nog in behandeling.",
+        "title":"Betaling",
+        "continue_to_payment":"Ga door naar betaling",
+        "credit_card":"Creditcard",
+        "place_order":"Bestelling plaatsen",
+        "preparing_payment_session":"Betaling voorbereiden...",
+        "processing_payment":"Betaling uitvoeren...",
+        "checkout_with":"Betaling met",
+        "checkout_with_method":"Betaling met %{method}",
+        "method_icon":"%{method} icoon",
+        "no_payment":"Voor deze bestelling is geen betaling vereist.",
         "methods":{
-            "card": "Creditcard",
-            "paypal": "PayPal",
-            "apple_pay": "Apple Pay",
-            "bancontact": "Bancontact",
-            "belfius": "Belfius",
-            "eps": "Electronic Payment Standard",
-            "giropay": "Giropay",
-            "ideal": "iDEAL",
-            "ing_home_pay": "ING Home Pay",
-            "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
-            "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "card":"Creditcard",
+            "paypal":"PayPal",
+            "paypal_express_checkout":"PayPal",
+            "apple_pay":"Apple Pay",
+            "bancontact":"Bancontact",
+            "belfius":"Belfius",
+            "eps":"EPS",
+            "giropay":"Giropay",
+            "ideal":"iDEAL",
+            "ing_home_pay":"ING Home Pay",
+            "kbc":"KBC",
+            "klarna_pay_later":"Klarna achteraf betalen",
+            "klarna_slice_it":"Klarna gespreid betalen",
+            "p24":"Przelewy24",
+            "sepa_debit":"SEPA overschrijving",
+            "sofort":"Sofort banking"
         }
     },
-    "discounts": {
-      "title": "Korting"
+    "discounts":{
+        "title":"Korting"
     },
-    "cart_summary": {
-      "total": "Totaal",
-      "subtotal": "Subtotaal",
-      "shipping": "Verzending",
-      "discount": "Korting",
-      "quantity": "x"
+    "cart_summary":{
+        "total":"Totaal",
+        "subtotal":"Subtotaal",
+        "shipping":"Verzending",
+        "discount":"Korting",
+        "quantity":"x"
     },
-    "errors": {
-      "default": "Er is iets fout gegeaan",
-
-      "promo_code_is_invalid": "De kortingscode is ongeldig.",
-      "promocode_already_in_cart": "De kortingscode is al eerder gebruikt.",
-      "promocode_isnt_applicable": "De kortingscode kan niet worden toegepast.",
-      "promo_code_is_expired": "De kortingscode is verlopen.",
-      "stringEmpty": "Dit veld is verpicht",
-      "required": "Dit veld is verplicht",
-      "invalid_expiry_year_past": "Kaart is verlopen",
-      "email": "Vul een valide emailadres in",
-      
-      "payment_failed": {
-          "title": "We kunnen uw betaling niet uitvoeren",
-          "description": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
-      },
-      
-      "payment_authorization": {
-          "title":"We kunnen uw betaling niet uitvoeren",
-          
-          "default": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
-      },
-      "customer_exists": "Dit emailadres is al in gebruik.",
-      "customer_password_missmatch": "De twee wachtwoorden moeten hetzelfde zijn.",
-      "invalid_credentials": "Incorrect email of wachtwoord."
+    "errors":{
+        "default":"Er is iets fout gegaan",
+        "promo_code_is_invalid":"De kortingscode is ongeldig.",
+        "promocode_already_in_cart":"De kortingscode is al eerder gebruikt.",
+        "promocode_isnt_applicable":"De kortingscode kan niet worden toegepast.",
+        "promo_code_is_expired":"De kortingscode is verlopen.",
+        "stringEmpty":"Dit veld is verplicht",
+        "required":"Dit veld is verplicht",
+        "invalid_expiry_year_past":"Kaart is verlopen",
+        "email":"Vul een geldig e-mailadres in",
+        "quantity_revised":"Aantal is bijgesteld wegens voorraad beperkingen.",
+        "quantity_out_of_stock":"Helaas, dit item is uit voorraad. Verwijder het uit uw winkelwagen om door te gaan.",
+        "error_payment_items_are_invalid":{
+            "title":"Sommige items in uw winkelwagen zijn ongeldig",
+            "description":"Controleer uw bestelling of probeer het later opnieuw."
+        },
+        "order_validation":{
+            "domain_crawling":{
+                "title":"Bestelling kon niet verwerkt worden.",
+                "description":"Er is geen betaling verwerkt. Neem contact op voor meer informatie."
+            },
+            "product_crawling":{
+                "title":"Prijzen van producten in uw winkelwagen zijn mogelijk gewijzigd.",
+                "description":"Probeer ze te verwijderen en opnieuw toe te voegen aan uw winkelwagen. Neem contact op voor meer informatie."
+            },
+            "stock_validation":{
+                "title":"Product voorraad niet beschikbaar.",
+                "description":"Sommige producten zijn mogelijk niet op voorraad voor de geselecteerde hoeveelheid. Wijzig de hoeveelheid of neem contact met ons op voor meer informatie."
+            }
+        },
+        "shipping":{
+            "title":"Kan verzendkosten niet berekenen",
+            "description":"Probeer het later nogmaals of neem contact met ons op voor hulp bij bestellen."
+        },
+        "payment_failed":{
+            "title":"We kunnen uw betaling niet uitvoeren",
+            "description":"Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
+        },
+        "payment_authorization":{
+            "title":"We kunnen uw betaling niet uitvoeren",
+            "default":"Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
+        },
+        "authentication_challenge":{
+            "failed":{
+                "title":"Kan betaling niet verwerken",
+                "description":"We hebben uw betalingsgegevens niet kunnen verifiëren. Probeer het alstublieft opnieuw"
+            }
+        },
+        "customer_exists":"Dit e-mailadres is al in gebruik.",
+        "customer_password_missmatch":"De twee wachtwoorden moeten hetzelfde zijn.",
+        "invalid_credentials":"Incorrect e-mail of wachtwoord.",
+        "no_shipping_rates_found":{
+            "title":"Geen verzendmethode beschikbaar voor uw bestelling",
+            "description":"Controleer het verzendadres of neem contact met ons op."
+        }
     },
-    "customer_orders": {
-        "loading": "Laden..."
+    "customer_orders":{
+        "loading":"Laden..."
     },
-    "confirmation": {
-        "thank_you_for_your_order": "Bedankt voor uw bestelling",
-        "async_confirmation_notice": "Uw bestelling is geplaatst en wordt nu verwerkt. U krijgt zo snel mogelijk de bevestiging van de order."
+    "confirmation":{
+        "thank_you_for_your_order":"Bedankt voor uw bestelling",
+        "async_confirmation_notice":"Uw bestelling is geplaatst en wordt nu verwerkt. U ontvangt zo snel mogelijk een orderbevestiging per e-mail."
     },
-    "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Verzendkosten en BTW worden berekend na het ingeven van het adres."
+    "checkout":{
+        "shipping_taxes_calculated_when_address_provided":"Verzendkosten en BTW worden berekend na het ingeven van het adres."
     }
 }
