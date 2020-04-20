@@ -1,0 +1,216 @@
+{
+  "actions": {
+      "edit": "Updaviť",
+      "cancel": "Zrušiť",
+      "continue_shopping": "Späť na stránku",
+      "back_to_checkout": "Vrátiť sa do pokladne",
+      "checkout": "Pokladňa",
+      "apply": "Použiť",
+      "type_address": "Napíšte Vašu adresu",
+      "use_this_address": "Použiť túto adresu",
+      "back_to_store": "Späť na stránku",
+      "close_cart": "Zatvoriť košík",
+      "show": "Zobraziť",
+      "hide": "Skryť",
+      "apply_changes": "Použiť zmeny"
+  },
+  "header": {
+      "title_cart_summary": "Sumár košíka",
+      "loading": "Načítavanie..."
+  },
+  "item": {
+      "quantity": "Počet",
+      "quantity_short": "Pčt",
+      "decrement_quantity": "Znížiť počet",
+      "increment_quantity": "Zvýšiť počet",
+      "remove_item": "Odstrániť položku"
+  },
+  "cart": {
+      "subtotal": "Medziúčet",
+      "shipping_taxes_calculated_at_checkout": "Výška poštovného a dane bude vypočítaná až v pokladni.",
+      "loading": "Načítavame Vás košík...",
+      "secured_by": "Zabezpečuje Snipcart",
+      "summary": "Prehľad objednávky",
+      "empty": "Váš košík je prázdny.",
+      "invoice_number": "Číslo faktúry"
+  },
+  "order": {
+      "loading": "Prebieha načítavanie detailov Vašej objednávky..."
+  },
+  "discount_box": {
+      "promo_code": "Máte zľavový kód?",
+      "promo_code_placeholder": "Zľavový kód",
+      "promocode_applied": "Zľava uplatnená"
+  },
+  "address_form": {
+      "name": "Meno a priezvisko",
+      "email": "Email",
+      "address1": "Ulica",
+      "address2": "Číslo",
+      "city": "Mesto",
+      "country": "Krajina",
+      "postalCode": "PSČ",
+      "province": "Okres",
+      "dont_see_address": "Nevidím svoju adresu"
+  },
+  "billing": {
+      "title": "Fakturačné údaje",
+      "address": "Fakturačná adressa",
+      "continue_to_shipping": "Pokračovať na poštovné",
+      "use_different_shipping_address": "Použiť inú adresu na dodanie"
+  },
+  "customer": {
+      "information": "Informácie o zákazníkovi"
+  },
+  "customer_dashboard": {
+      "my_account": "Môj účet",
+      "ordered_on": "Objednané dňa",
+      "total": "Spolu",
+      "status": "Stav",
+      "order": "Objednávka %{invoice_number}",
+      "order_details": "Detaily objednávky",
+      "loading": "Načítavanie...",
+      "no_orders": "Nenašli sa žiadne objednávky.",
+      "sign_out": "Odhlásiť",
+      "show_more_orders": "Zobraziť %{smart_count} ďalšiu objednávku |||| Zobraziť %{smart_count} ďalších objednávok"
+  },
+  "signin_form": {
+      "signin": "Prihlásiť sa",
+      "dont_have_an_account": "Ešte nemáte vytvorený účet?",
+      "email": "Email",
+      "password": "Heslo",
+      "forgot_your_password": "Zabudli ste heslo?",
+      "close_form": "Späť"
+  },
+  "register_form": {
+      "register": "Registrovať sa",
+      "already_have_an_account": "Už máte vytvorený účet?",
+      "email": "Email",
+      "password": "Heslo",
+      "confirm_password": "Potvrdiť heslo"
+  },
+  "guest_checkout": {
+      "or": "Alebo",
+      "continue_as_a_guest": "Pokračovať ako hosť"
+  },
+  "shipping": {
+      "title": "Poštovné",
+      "shipping_to": "Adresa doručenia:",
+      "address": "Dodacia adresa",
+      "method": "Spôsob dopravy"
+  },
+  "payment": {
+      "form":{
+          "card_label": "Kreditná karta",
+          "card_number": "Číslo karty",
+          "card_expiration": "MM/RR",
+          "card_cvv": "CVV",
+          "card_postal_code": "Poštovné číslo"
+      },
+      "still_pending_notice": "Vaša objednávka je v procese spracovania.",
+      "title": "Platba",
+      "continue_to_payment": "Pokračovať na platbu",
+      "credit_card": "Kreditná karta",
+      "place_order": "Objednať",
+      "preparing_payment_session": "Prebieha načítavanie platby...",
+      "processing_payment": "Spracovávanie platby...",
+      "checkout_with": "Zaplatiť pomocou",
+      "checkout_with_method": "Zaplatiť pomocou %{method}",
+      "method_icon": "%{method} obrázok",
+      "no_payment": "Nie je potrebná platba pre túto objednávku.",
+      "methods":{
+          "card": "Kreditná karta",
+          "paypal": "PayPal",
+          "paypal_express_checkout": "PayPal",
+          "apple_pay": "Apple Pay",
+          "bancontact": "Bancontact",
+          "belfius": "Belfius",
+          "eps": "Electronic Payment Standard",
+          "giropay": "Giropay",
+          "ideal": "iDEAL",
+          "ing_home_pay": "ING Home’Pay",
+          "kbc": "KBC",
+          "klarna_pay_later": "Klarna zaplatiť neskôr",
+          "klarna_slice_it": "Klarna mesačné splátky",
+          "p24": "Przelewy24",
+          "sepa_debit": "SEPA bankový prevod",
+          "sofort": "Sofort bankový prevod"
+      }
+  },
+  "discounts": {
+    "title": "Zľavy"
+  },
+  "cart_summary": {
+    "total": "Spolu",
+    "subtotal": "Medziúčet",
+    "shipping": "Poštovné",
+    "discount": "Zľavy",
+    "quantity": "x"
+  },
+  "errors": {
+    "default": "Vyskytla sa neočakávaná chyba, vyskúšajte to neskôr alebo nás kontaktuje.",
+    "promo_code_is_invalid": "Tento zľavový kupón nie je platný",
+    "promocode_already_in_cart": "Tento zľavový kupón už bol použitý",
+    "promocode_isnt_applicable": "Tento zľavový kupón nie je platný",
+    "promo_code_is_expired": "Vypršala platnosť tohto zľavového kupónu",
+    "stringEmpty": "Toto pole je povinné",
+    "required": "Toto pole je povinné",
+    "invalid_expiry_year_past": "Vypršala platnosť karty",
+    "email": "Vyplnte platnú emailovú adresu",
+    "quantity_revised": "Počet bol pozmenený kvôli akuálnemu skladu zásob.",
+    "quantity_out_of_stock": "Ospravedlňujeme sa ale tento produkt je momentálne vypradaný, odstránte ho z košíka pre pokračovanie v nákupe.",
+    "error_payment_items_are_invalid": {
+        "title": "Niektoré položky v Košíku su neplatné",
+        "description": "Prosíme skontrolujte Vašu objednávku alebo to skúste opäť neskôr."
+    },
+    "order_validation":{
+      "domain_crawling":{
+          "title":"Objednávka nemohla byť spracovaná.",
+          "description":"Ešte neprebehla platba. Kontaktujte prevádzkovateľa pre ďalšie detaily."
+      },
+      "product_crawling":{
+          "title":"Cena produktu mohla byť modifikovaná.",
+          "description": "Skúste odstrániť a znova pridať produkt do košíka. Prosíme kontaktujte prevádkovateľa pre ďalšie informácie."
+      },
+      "stock_validation":{
+          "title":"Produkt nie je na sklade.",
+          "description": "Skladové zásoby môžu byť nedostatočné pre zvolené množstvo. Skontrolujte množstvo alebo kontaktujte prevádkovateľa pre ďalšie informácie."
+      }
+    },
+    "shipping": {
+        "title": "Vyskytol sa problém pri vypočítavaní výšky poštovného",
+        "description": "Skúste to opäť neskôr alebo nás kontaktujte."
+    },
+    "payment_failed": {
+        "title": "Vyskytol sa problém pri spracovaní platby",
+        "description": "Skúste to opäť neskôr alebo nás kontaktujte."
+    },
+    "payment_authorization": {
+        "title": "Vyskytol sa problém pri spracovaní platby",
+        "default": "Prosíme skontrolujte fakturačné a platobné údaje."
+    },
+    "authentication_challenge": {
+      "failed": {
+          "title": "Vyskytol sa problém pri spracovaní platby",
+          "description": "Neboli sme schopný overiť Vaše platobné údaje. Prosíme skúste to opäť neskôr"
+      }
+    },
+    "customer_exists": "Tento email už je registrovaný.",
+    "customer_password_missmatch": "Heslá sa musia zhodovať.",
+    "invalid_credentials": "Nesprávny email alebo heslo.",
+    "no_shipping_rates_found": {
+        "title": "Nie je dostupný spôsob dodania pre Vašu objednávku",
+        "description": "Prosíme skontrolujte Vašu dodaciu adresu alebo nás kontaktujte."
+    }
+  },
+  "customer_orders": {
+      "loading": "Načítavanie..."
+  },
+  "confirmation": {
+      "thank_you_for_your_order": "Ďakujeme za Vašu objednávku",
+      "async_confirmation_notice": "Vaša objednávka bola úspešná a práve prebieha spracovanie. Potvrdenie Vám bude doručené čoskoro."
+  },
+  "checkout": {
+      "shipping_taxes_calculated_when_address_provided": "Výška poštovného a dane bude vypočítaná až po vyplnení dodacej adresy."
+  }
+}
