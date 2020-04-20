@@ -1,6 +1,6 @@
 {
   "actions": {
-      "edit": "Updaviť",
+      "edit": "Upraviť",
       "cancel": "Zrušiť",
       "continue_shopping": "Späť na stránku",
       "back_to_checkout": "Vrátiť sa do pokladne",
@@ -56,7 +56,7 @@
   "billing": {
       "title": "Fakturačné údaje",
       "address": "Fakturačná adressa",
-      "continue_to_shipping": "Pokračovať na poštovné",
+      "continue_to_shipping": "Pokračovať na doručenie",
       "use_different_shipping_address": "Použiť inú adresu na dodanie"
   },
   "customer": {
