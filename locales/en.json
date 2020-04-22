@@ -101,6 +101,8 @@
     },
     "payment": {
         "form":{
+            "deferred_payment_title": "Deferred Payment",
+            "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
             "card_label": "Credit card",
             "card_number": "Card number",
             "card_expiration": "MM/YY",
@@ -134,7 +136,8 @@
             "klarna_slice_it": "Klarna monthly financing",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Pay later"
         }
     },
     "discounts": {
