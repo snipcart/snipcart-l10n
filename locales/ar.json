@@ -56,8 +56,8 @@
     "billing": {
         "title": "الفاتورة",
         "address": "عنوان الفاتورة",
-        "continue_to_shipping": "الإستمرار الى التوصيل",
-        "use_different_shipping_address": "استخدام عنوان توصيل مختلف"
+        "continue_to_shipping": "الإستمرار الى الشحن",
+        "use_different_shipping_address": "استخدام عنوان شحن مختلف"
     },
     "customer": {
         "information": "معلومات العميل"
@@ -119,7 +119,7 @@
         "method_icon": "%{method} أيقونة",
         "no_payment": "لا يلزم الدفع لهذا الطلب.",
         "methods":{
-            "card": "Credit card",
+            "card": "بطاقة الائتمان",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
             "apple_pay": "Apple Pay",
@@ -144,7 +144,7 @@
       "total": "الإجمالي",
       "subtotal": "المبلغ الإجمالي",
       "shipping": "الشحن",
-      "discount": "الخصومات",
+      "discount": "الخصم",
       "quantity": "x"
     },
     "errors": {
@@ -170,7 +170,7 @@
         },
         "product_crawling":{
             "title":"أسعار المنتجات في العربة قد تغيرت.",
-            "description": "حاول إزالة وإضافة المنتجات إلى عربة التسوق. يرجى الاتصال بمالك المتجر للحصول على التفاصيل."
+            "description": "حاول إزالة وإضافة المنتجات إلى عربة التسوق. أو الاتصال بمالك المتجر للحصول على التفاصيل."
         },
         "stock_validation":{
             "title":"المنتج غير متوفر",
@@ -186,7 +186,7 @@
           "description": "حاول مرة أخرى لاحقًا ، أو اتصل بنا للحصول على الدعم."
       },
       "payment_authorization": {
-          "title": "غير قادر على معالجة الدفعt",
+          "title": "غير قادر على معالجة الدفع",
           "default": "يرجى مراجعة معلومات الفاتورة والدفع."
       },
       "authentication_challenge": {
@@ -211,6 +211,6 @@
         "async_confirmation_notice": "تم تقديم طلبك وهو قيد المعالجة حاليًا. سوف تتلقى تأكيدا قريبا."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "سيتم احتساب الشحن والضرائب عند توفير عنوان."
+        "shipping_taxes_calculated_when_address_provided": "سيتم احتساب الشحن والضرائب عند توفير العنوان."
     }
 }
