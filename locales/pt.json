@@ -1,0 +1,65 @@
+{
+    "actions": {
+        "edit": "Editar",
+        "cancel": "Cancelar",
+        "back_to_checkout": "Voltar ao checkout",
+        "apply": "Aplicar"
+    },
+    "header": {
+    },
+    "item": {
+        "quantity": "Quantidade"
+    },
+    "cart": {
+        "invoice_number": "Número da fatura"
+    },
+    "order": {
+    },
+    "discount_box": {
+        "promo_code": "Código promocional?",
+        "promo_code_placeholder": "Código promocional",
+        "promocode_applied": "Promoção aplicada"
+    },
+    "address_form": {
+        "city": "Cidade"
+    },
+    "billing": {
+    },
+    "customer": {
+    },
+    "customer_dashboard": {
+        "ordered_on": "Pedido em"
+    },
+    "signin_form": {
+        "email": "Email"
+    },
+    "register_form": {
+        "register": "Registrar"
+    },
+    "guest_checkout": {
+        "or": "Ou",
+        "method": "Método de envio"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Cartão de crédito",
+            "card_number": "Número do cartão",
+            "card_postal_code": "Código postal"
+        },
+        "credit_card": "Cartão de crédito",
+        "checkout_with": "Checkout com",
+        "checkout_with_method": "Checkout com %{method}",
+        "methods":{
+            "card": "Cartão de crédito"
+        }
+    },
+    "discounts": {
+      "title": "Descontos"
+    },
+    "cart_summary": {
+      "discount": "Descontos"
+    },
+    "errors": {
+        "promocode_already_in_cart": "Este código promocional já está aplicado"
+    }
+}

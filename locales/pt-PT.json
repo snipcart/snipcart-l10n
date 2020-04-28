@@ -1,10 +1,6 @@
 {
     "actions": {
-        "edit": "Editar",
-        "cancel": "Cancelar",
         "continue_shopping": "Continuar a comprar",
-        "back_to_checkout": "Voltar ao checkout",
-        "checkout": "Checkout",
         "apply": "Aplicar",
         "type_address": "Insira a sua morada",
         "use_this_address": "Use esta morada",
@@ -16,32 +12,23 @@
         "loading": "A carregar..."
     },
     "item": {
-        "quantity": "Quantidade",
         "quantity_short": "Qt.",
         "decrement_quantity": "Diminuir quantidade",
         "increment_quantity": "Aumentar quantidade",
         "remove_item": "Remover item"
     },
     "cart": {
-        "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "Portes de envio serão calculados durante o checkout.",
         "loading": "Estamos a preparar o seu carrinho...",
         "secured_by": "Plataforma segura por Snipcart",
         "summary": "A sua ordem",
-        "empty": "O seu carrinho de compras está vazio.",
-        "invoice_number": "Número da fatura"
+        "empty": "O seu carrinho de compras está vazio."
     },
     "order": {
         "loading": "Estamos a obter os detalhes da sua encomenda..."
     },
-    "discount_box": {
-        "promo_code": "Código promocional?",
-        "promo_code_placeholder": "Código promocional",
-        "promocode_applied": "Promoção aplicada"
-    },
     "address_form": {
         "name": "Nome",
-        "email": "Email",
         "address1": "Morada",
         "address2": "Número",
         "city": "Cidade",
@@ -61,7 +48,6 @@
     },
     "customer_dashboard": {
         "ordered_on": "Pedido em",
-        "total": "Total",
         "status": "Estado",
         "order": "Encomenda %{invoice_number}",
         "order_details": "Detalhes da encomenda",
@@ -71,72 +57,34 @@
     "signin_form": {
         "signin": "Log in",
         "dont_have_an_account": "Não tenho conta",
-        "email": "Email",
-        "password": "Password",
         "forgot_your_password": "Esqueceu a sua password?"
     },
     "register_form": {
         "register": "Registrar",
         "already_have_an_account": "Já tem uma conta connosco?",
-        "email": "Email",
-        "password": "Password",
         "confirm_password": "Confirmar password"
     },
     "guest_checkout": {
-        "or": "Ou",
         "continue_as_a_guest": "Continue a comprar como convidado"
     },
     "shipping": {
         "title": "Portes de envio",
         "shipping_to": "Enviar para:",
-        "address": "Morada de envio",
-        "method": "Método de envio"
+        "address": "Morada de envio"
     },
     "payment": {
-        "form":{
-            "card_label": "Cartão de crédito",
-            "card_number": "Número do cartão",
-            "card_expiration": "MM/YY",
-            "card_cvv": "CVV",
-            "card_postal_code": "Código postal"
-        },
         "title": "Pagamento",
         "continue_to_payment": "Continuar para pagamento",
-        "credit_card": "Cartão de crédito",
         "place_order": "Comprar",
         "preparing_payment_session": "A preparar...",
         "processing_payment": "A processar o pagamento...",
-        "checkout_with": "Checkout com",
-        "checkout_with_method": "Checkout com %{method}",
-        "method_icon": "%{method} icon",
         "methods":{
-            "card": "Cartão de crédito",
-            "paypal": "PayPal",
-            "paypal_express_checkout": "PayPal",
-            "apple_pay": "Apple Pay",
-            "bancontact": "Bancontact",
-            "belfius": "Belfius",
-            "eps": "Electronic Payment Standard",
-            "giropay": "Giropay",
-            "ideal": "iDEAL",
-            "ing_home_pay": "ING Home Pay",
-            "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
-            "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "card": "Cartão de crédito"
         }
     },
-    "discounts": {
-      "title": "Descontos"
-    },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Subtotal",
       "shipping": "Portes",
-      "discount": "Descontos",
-      "quantity": "x"
+      "discount": "Descontos"
     },
     "errors": {
       "default": "Ocorreu um erro",

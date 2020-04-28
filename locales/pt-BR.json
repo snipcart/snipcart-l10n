@@ -1,10 +1,6 @@
 {
     "actions": {
-        "edit": "Editar",
-        "cancel": "Cancelar",
         "continue_shopping": "Continuar comprando",
-        "back_to_checkout": "Voltar ao checkout",
-        "checkout": "Checkout",
         "apply": "Aplicar",
         "type_address": "Digite seu endereço",
         "use_this_address": "Usar esse endereço",
@@ -26,28 +22,19 @@
         "remove_item": "Remover Item"
     },
     "cart": {
-        "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "O envio e os impostos serão calculados na finalização da compra.",
         "loading": "Estamos preparando seu carrinho ...",
         "secured_by": "Protegido por Snipcart",
         "summary": "Resumo do pedido",
-        "empty": "Seu carrinho está vazio.",
-        "invoice_number": "Número da fatura"
+        "empty": "Seu carrinho está vazio."
     },
     "order": {
         "loading": "Estamos recebendo os detalhes do pedido ..."
     },
-    "discount_box": {
-        "promo_code": "Código promocional?",
-        "promo_code_placeholder": "Código promocional",
-        "promocode_applied": "Promoção aplicada"
-    },
     "address_form": {
         "name": "Nome completo",
-        "email": "Email",
         "address1": "Endereço",
         "address2": "Complemento",
-        "city": "Cidade",
         "country": "country",
         "postalCode": "CEP",
         "province": "Estado",
@@ -65,8 +52,6 @@
     "customer_dashboard": {
         "my_account": "Minha conta",
         "ordered_on": "Pedido em",
-        "total": "Total",
-        "status": "Status",
         "order": "Pedido %{invoice_number}",
         "order_details": "Detalhes do pedido",
         "loading": "Carregando...",
@@ -77,7 +62,6 @@
     "signin_form": {
         "signin": "Entrar",
         "dont_have_an_account": "Não possui uma conta?",
-        "email": "Email",
         "password": "Senha",
         "forgot_your_password": "Esqueceu sua senha?",
         "close_form": "Voltar"
@@ -85,67 +69,36 @@
     "register_form": {
         "register": "Registrar",
         "already_have_an_account": "já tem uma conta?",
-        "email": "Email",
         "password": "Senha",
         "confirm_password": "Confirme a Senha"
     },
     "guest_checkout": {
-        "or": "Ou",
         "continue_as_a_guest": "Continuar como convidado"
     },
     "shipping": {
         "title": "Envio",
         "shipping_to": "Envio para:",
-        "address": "Endereço de entrega",
-        "method": "Método de envio"
+        "address": "Endereço de entrega"
     },
     "payment": {
         "form":{
-            "card_label": "Cartão de crédito",
-            "card_number": "Número do cartão",
             "card_expiration": "MM/AA",
-            "card_cvv": "CVV",
-            "card_postal_code": "Código postal"
+            "card_cvv": "CVV"
         },
         "still_pending_notice": "Seu pagamento ainda está sendo processado.",
         "title": "Forma de pagamento",
         "continue_to_payment": "Continuar para o pagamento",
-        "credit_card": "Cartão de crédito",
         "place_order": "Fazer pedido",
         "preparing_payment_session": "Preparando o pagamento...",
         "processing_payment": "Processando o pagamento...",
-        "checkout_with": "Checkout com",
-        "checkout_with_method": "Checkout com %{method}",
         "method_icon": "%{method} ícone",
         "no_payment": "Nenhum pagamento é necessário para este pedido.",
         "methods":{
-            "card": "Cartão de crédito",
-            "paypal": "PayPal",
-            "paypal_express_checkout": "PayPal",
-            "apple_pay": "Apple Pay",
-            "bancontact": "Bancontact",
-            "belfius": "Belfius",
-            "eps": "Electronic Payment Standard",
-            "giropay": "Giropay",
-            "ideal": "iDEAL",
-            "ing_home_pay": "ING Home’Pay",
-            "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
-            "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "card": "Cartão de crédito"
         }
     },
-    "discounts": {
-      "title": "Descontos"
-    },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Subtotal",
-      "shipping": "Envio",
-      "discount": "Descontos",
-      "quantity": "x"
+      "shipping": "Envio"
     },
     "errors": {
       "default": "Ocorreu um erro, tente novamente mais tarde ou entre em contato.",
