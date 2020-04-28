@@ -147,20 +147,20 @@
         "order_validation":{
           "domain_crawling":{
               "title":"Votre commande n'a pas pu être complétée.",
-              "description":"Vous n'avez pas été chargé. Veuillez contacter le marchant pour plus de détails."
+              "description":"Vous n'avez pas été chargé. Veuillez contacter le marchand pour plus de détails."
           },
           "product_crawling":{
               "title":"Le prix de produits dans votre panier semble avoir changé.",
-              "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchant pour plus de détails."
+              "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchand pour plus de détails."
           },
           "stock_validation":{
               "title":"Produit en rupture de stock.",
-              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantitées ou contacter le marchant pour plus de détails."
+              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantitées ou contacter le marchand pour plus de détails."
           }
         },
         "shipping": {
             "title": "Impossible de calculer les frais de livraison.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour assitance."
+            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance."
         },
         "payment_failed": {
             "title": "Impossible de compléter votre paiement.",
