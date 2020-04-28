@@ -1,0 +1,216 @@
+{
+    "actions": {
+        "edit": "تعديل",
+        "cancel": "إالغاء",
+        "continue_shopping": "مواصلة التسوق",
+        "back_to_checkout": "العودة الى الدفع",
+        "checkout": "الدفع",
+        "apply": "تنفيذ",
+        "type_address": "اكتب عنوانك",
+        "use_this_address": "استخدم هذا العنوان",
+        "back_to_store": "العودة إلى المتجر",
+        "close_cart": "أغلق السلة",
+        "show": "إظهار",
+        "hide": "إخفاء",
+        "apply_changes": "تطبيق التغييرات"
+    },
+    "header": {
+        "title_cart_summary": "ملخص سلة التسوق",
+        "loading": "جار التحميل"
+    },
+    "item": {
+        "quantity": "الكمية",
+        "quantity_short": "الكمية",
+        "decrement_quantity": "إنقاص الكمية",
+        "increment_quantity": "زيادة الكمية",
+        "remove_item": "إزالة العنصر"
+    },
+    "cart": {
+        "subtotal": "المبلغ الإجمالي",
+        "shipping_taxes_calculated_at_checkout": "سيتم احتساب الشحن والضرائب عند الدفع",
+        "loading": "جارٍ تجهيز عربة التسوق",
+        "secured_by": "محمي بواسطة Snipcart",
+        "summary": "ملخص الطلب",
+        "empty": "عربة التسوق الخاصة بك فارغة.",
+        "invoice_number": "رقم الفاتورة"
+    },
+    "order": {
+        "loading": "نحن نجهز تفاصيل طلبك ..."
+    },
+    "discount_box": {
+        "promo_code": "رمز ترويجي؟",
+        "promo_code_placeholder": "رمز ترويجي",
+        "promocode_applied": "تم تطبيق العرض"
+    },
+    "address_form": {
+        "name": "الاسم الكامل",
+        "email": "البريد الإلكتروني",
+        "address1": "عنوان الشارع",
+        "address2": "شقة / جناح",
+        "city": "المدينة",
+        "country": "الدولة",
+        "postalCode": "الرمز البريدي",
+        "province": "المحافظة / الولاية",
+        "dont_see_address": "لا أرى عنواني"
+    },
+    "billing": {
+        "title": "الفاتورة",
+        "address": "عنوان الفاتورة",
+        "continue_to_shipping": "الإستمرار الى الشحن",
+        "use_different_shipping_address": "استخدام عنوان شحن مختلف"
+    },
+    "customer": {
+        "information": "معلومات العميل"
+    },
+    "customer_dashboard": {
+        "my_account": "حسابي",
+        "ordered_on": "تم الطلب في",
+        "total": "الإجمالي",
+        "status": "الحالة",
+        "order": "طلب رقم %{invoice_number}",
+        "order_details": "تفاصيل الطلب",
+        "loading": "جار التحميل",
+        "no_orders": "لم يتم العثور على أية طلبات.",
+        "sign_out": "تسجيل الخروج",
+        "show_more_orders": "Show %{smart_count} more order |||| إظهار %{smart_count} المزيد من الطلبات"
+    },
+    "signin_form": {
+        "signin": "تسجيل الدخول",
+        "dont_have_an_account": "لا تملك حساب؟",
+        "email": "البريد الإلكتروني",
+        "password": "كلمه المرور",
+        "forgot_your_password": "نسيت كلمة المرور؟",
+        "close_form": "العودة للخلف"
+    },
+    "register_form": {
+        "register": "التسجيل",
+        "already_have_an_account": "لديك حساب بالفعل؟",
+        "email": "البريد الإلكتروني",
+        "password": "كلمه المرور",
+        "confirm_password": "تأكيد كلمة المرور"
+    },
+    "guest_checkout": {
+        "or": "أو",
+        "continue_as_a_guest": "المتابعة كضيف"
+    },
+    "shipping": {
+        "title": "الشحن",
+        "shipping_to": "الشحن إلى:",
+        "address": "عنوان الشحن",
+        "method": "طريقة الشحن"
+    },
+    "payment": {
+        "form":{
+            "card_label": "بطاقة الائتمان",
+            "card_number": "رقم البطاقة",
+            "card_expiration": "شهر / سنة",
+            "card_cvv": "CVV",
+            "card_postal_code": "الرمز البريدي"
+        },
+        "still_pending_notice": "دفعتك لا تزال قيد المعالجة.",
+        "title": "الدفع",
+        "continue_to_payment": "الاستمرار الى الدفع",
+        "credit_card": "بطاقة الائتمان",
+        "place_order": "تقديم الطلب",
+        "preparing_payment_session": "جارٍ التحضير للدفع ...",
+        "processing_payment": "جارٍ معالجة الدفع ...",
+        "checkout_with": "إكمال الدفع بـ",
+        "checkout_with_method": "إكمال الدفع بـ %{method}",
+        "method_icon": "%{method} أيقونة",
+        "no_payment": "لا يلزم الدفع لهذا الطلب.",
+        "methods":{
+            "card": "بطاقة الائتمان",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer"
+        }
+    },
+    "discounts": {
+      "title": "الخصومات"
+    },
+    "cart_summary": {
+      "total": "الإجمالي",
+      "subtotal": "المبلغ الإجمالي",
+      "shipping": "الشحن",
+      "discount": "الخصم",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "حدث خطأ ، حاول مرة أخرى في وقت لاحق أو اتصل بنا.",
+      "promo_code_is_invalid": "هذا الرمز الترويجي غير صالح",
+      "promocode_already_in_cart": "تم تطبيق هذا الرمز الترويجي بالفعل",
+      "promocode_isnt_applicable": "هذا الرمز الترويجي غير صالح",
+      "promo_code_is_expired": "انتهت صلاحية هذا الرمز الترويجي",
+      "stringEmpty": "هذا الحقل مطلوب",
+      "required": "هذا الحقل مطلوب",
+      "invalid_expiry_year_past": "البطاقة منتهية الصلاحية",
+      "email": "يرجى تقديم عنوان بريد إلكتروني صالح",
+      "quantity_revised": "تم تعديل الكمية بسبب قيود المخزون.",
+      "quantity_out_of_stock": "للأسف ، هذا المنتج غير متوفر ، قم بإزالته من سلة التسوق للمتابعة.",
+      "error_payment_items_are_invalid": {
+          "title": "بعض العناصر الموجودة في سلة التسوق الخاصة بك غير صالحة",
+          "description": "يرجى مراجعة طلبك ، أو حاول مرة أخرى في وقت لاحق."
+      },
+      "order_validation":{
+        "domain_crawling":{
+            "title":"تعذر معالجة الطلب.",
+            "description":"لم يتم سحب المبلغ منك. يرجى الاتصال بمالك المتجر للحصول على التفاصيل."
+        },
+        "product_crawling":{
+            "title":"أسعار المنتجات في العربة قد تغيرت.",
+            "description": "حاول إزالة وإضافة المنتجات إلى عربة التسوق. أو الاتصال بمالك المتجر للحصول على التفاصيل."
+        },
+        "stock_validation":{
+            "title":"المنتج غير متوفر",
+            "description": "قد تكون بعض المنتجات غير متوفرة للكمية المحددة. راجع الكمية أو اتصل بمالك المتجر للحصول على التفاصيل."
+        }
+      },
+      "shipping": {
+          "title": "غير قادر على حساب الشحن",
+          "description": "حاول مرة أخرى لاحقًا ، أو اتصل بنا للحصول على الدعم."
+      },
+      "payment_failed": {
+          "title": "غير قادر على معالجة الدفع",
+          "description": "حاول مرة أخرى لاحقًا ، أو اتصل بنا للحصول على الدعم."
+      },
+      "payment_authorization": {
+          "title": "غير قادر على معالجة الدفع",
+          "default": "يرجى مراجعة معلومات الفاتورة والدفع."
+      },
+      "authentication_challenge": {
+        "failed": {
+            "title": "غير قادر على معالجة الدفع",
+            "description": "لم نتمكن من مصادقة معلومات الدفع الخاصة بك. حاول مرة اخرى"
+        }
+      },
+      "customer_exists": "هذا البريد الإلكتروني مستخدم بالفعل.",
+      "customer_password_missmatch": "يجب أن تتطابق كلمتا المرور.",
+      "invalid_credentials": "البريد الإلكتروني أو كلمة السر خاطئة.",
+      "no_shipping_rates_found": {
+          "title": "لا توجد طريقة شحن متاحة لطلبك",
+          "description": "يرجى مراجعة عنوان الشحن أو الاتصال بنا."
+      }
+    },
+    "customer_orders": {
+        "loading": "الرجاء الانتظار..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "شكرا لطلبك",
+        "async_confirmation_notice": "تم تقديم طلبك وهو قيد المعالجة حاليًا. سوف تتلقى تأكيدا قريبا."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "سيتم احتساب الشحن والضرائب عند توفير العنوان."
+    }
+}
