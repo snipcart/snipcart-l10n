@@ -2,7 +2,7 @@
     "actions": {
         "edit": "編輯",
         "cancel": "取消",
-        "continue_shopping": "去購物",
+        "continue_shopping": "繼續購物",
         "back_to_checkout": "結帳去",
         "checkout": "結帳",
         "apply": "確認",
@@ -15,7 +15,7 @@
         "apply_changes": "更新"
     },
     "header": {
-        "title_cart_summary": "購物車總結",
+        "title_cart_summary": "購物車",
         "loading": "載入中..."
     },
     "item": {
@@ -30,7 +30,7 @@
         "shipping_taxes_calculated_at_checkout": "運費、稅金將於結帳時計算",
         "loading": "我們正在更新您的購物車內容...",
         "secured_by": "Secured by Snipcart",
-        "summary": "定單內容",
+        "summary": "訂單內容",
         "empty": "您的購物車中沒有商品",
         "invoice_number": "收據編號"
     },
@@ -50,21 +50,21 @@
         "city": "城市",
         "country": "國家",
         "postalCode": "郵遞區號",
-        "province": "省/周",
+        "province": "州/省/行政區",
         "dont_see_address": "沒有看到我的地址"
     },
     "billing": {
-        "title": "帳單",
+        "title": "帳單地址",
         "address": "帳單地址",
-        "continue_to_shipping": "去購物",
-        "use_different_shipping_address": "使用另一個寄送地址"
+        "continue_to_shipping": "確認",
+        "use_different_shipping_address": "勾選此項如果你的帳單地址與收件地址不同"
     },
     "customer": {
         "information": "客戶資訊"
     },
     "customer_dashboard": {
         "my_account": "我的帳號",
-        "ordered_on": "定單成立於",
+        "ordered_on": "訂單成立於",
         "total": "總計",
         "status": "狀態",
         "order": "訂單編號 %{invoice_number}",
@@ -94,7 +94,7 @@
         "continue_as_a_guest": "以訪客身份繼續"
     },
     "shipping": {
-        "title": "運送方式",
+        "title": "寄送方式",
         "shipping_to": "寄送至:",
         "address": "寄送地址",
         "method": "寄送方法"
@@ -111,7 +111,7 @@
         "title": "付款方式",
         "continue_to_payment": "前往付款方式",
         "credit_card": "信用卡到期日",
-        "place_order": "建立訂單",
+        "place_order": "送出",
         "preparing_payment_session": "付款中...",
         "processing_payment": "付款中...",
         "checkout_with": "結帳方式",
@@ -143,7 +143,7 @@
     "cart_summary": {
       "total": "總計",
       "subtotal": "小記",
-      "shipping": "折扣",
+      "shipping": "運費",
       "discount": "數量",
       "quantity": "x"
     },
@@ -211,6 +211,6 @@
         "async_confirmation_notice": "您的訂單已建立，系統正在處理中，訂單確認信將於不久後寄出"
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "系統將於輸入收件地址計算出運費及稅金"
+        "shipping_taxes_calculated_when_address_provided": "系統將於輸入收件地址後計算出運費及稅金"
     }
 }
