@@ -9,13 +9,13 @@
         "type_address": "Ihre Adresse eingeben",
         "use_this_address": "Diese Adresse verwenden",
         "back_to_store": "Zurück zum Shop",
-        "close_cart": "Wahrenkorb schliessen",
+        "close_cart": "Warenkorb schliessen",
         "show": "Einblenden",
         "hide": "Ausblenden",
         "apply_changes": "Übernehmen"
     },
     "header": {
-        "title_cart_summary": "Wahrenkorb",
+        "title_cart_summary": "Warenkorb",
         "loading": "Laden..."
     },
     "item": {
@@ -173,7 +173,7 @@
         },
         "product_crawling":{
             "title":"Einzelne Produktpreise ev. geändert.",
-            "description": "Versuchen Sie, Produkte aus dem Wahrenkorb zu entfernen und wieder hinein zu legen. Oder kontaktieren Sie den Shopbesitzer für Details."
+            "description": "Versuchen Sie, Produkte aus dem Warenkorb zu entfernen und wieder hinein zu legen. Oder kontaktieren Sie den Shopbesitzer für Details."
         },
         "stock_validation":{
             "title":"Produktbestand nicht verfügbar.",
