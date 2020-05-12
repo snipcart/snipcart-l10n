@@ -1,0 +1,132 @@
+{
+    "actions": {
+        "type_address": "Ihre Adresse eingeben",
+        "use_this_address": "Diese Adresse verwenden",
+        "close_cart": "Warenkorb schliessen",
+        "show": "Einblenden",
+        "hide": "Ausblenden",
+        "apply_changes": "Übernehmen"
+    },
+    "cart": {
+        "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
+        "loading": "Wir erstellen Ihren Warenkorb...",
+        "secured_by": "Gesichert durch Snipcart",
+        "empty": "Ihr Warenkorb ist leer"
+    },
+    "order": {
+        "loading": "Wir laden Ihre Bestelldaten..."
+    },
+    "discount_box": {
+        "promo_code": "Gutscheincode?"
+    },
+    "address_form": {
+        "email": "Email",
+        "address2": "Adresszusatz",
+        "province": "Kanton"
+    },
+    "billing": {
+        "title": "Rechnung",
+        "continue_to_shipping": "Weiter zu Versand",
+        "use_different_shipping_address": "Abweichende Versandadresse verwenden"
+    },
+    "customer_dashboard": {
+        "ordered_on": "Bestelldatum",
+        "total": "Total",
+        "no_orders": "Keine Bestellungen gefunden.",
+        "show_more_orders": "Weitere %{smart_count} Bestellungen anzeigen |||| %{smart_count} weitere Bestellungen"
+    },
+    "signin_form": {
+        "email": "Email"
+    },
+    "register_form": {
+        "already_have_an_account": "Bereits ein Konto?",
+        "email": "Email"
+    },
+    "guest_checkout": {
+        "continue_as_a_guest": "Als Gast fortfahren"
+    },
+    "payment": {
+        "form":{
+            "deferred_payment_title": "Später bezahlen",
+            "deferred_payment_instructions": "Mit dieser Bestellung erklären Sie, später, über die vom Händler angegebene Zahlungsmethode, zu zahlen."
+        },
+        "still_pending_notice": "Ihre Zahlung wird noch bearbeitet.",
+        "title": "Bezahlung",
+        "continue_to_payment": "Weiter zu Bezahlung",
+        "place_order": "Kostenpflichtig bestellen",
+        "processing_payment": "Zahlung bearbeiten...",
+        "checkout_with": "Auschecken mit",
+        "checkout_with_method": "Mit %{method} auschecken",
+        "no_payment": "Für diese Bestellung ist keine Zahlung erforderlich.",
+        "methods":{
+            "ing_home_pay": "ING Home’Pay",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Später bezahlen"
+        }
+    },
+    "discounts": {
+      "title": "Discounts"
+    },
+    "cart_summary": {
+      "total": "Total",
+      "subtotal": "Zwischentotal",
+      "discount": "Discounts"
+    },
+    "errors": {
+      "default": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut oder kontaktieren Sie uns.",
+      "promo_code_is_invalid": "Dieser Gutscheincode ist ungültig",
+      "promocode_already_in_cart": "Dieser Gutscheincode ist bereits angewendet",
+      "promocode_isnt_applicable": "Dieser Gutscheincode ist nicht verwendbar",
+      "promo_code_is_expired": "Dieser Gutscheincode ist abgelaufen",
+      "email": "Bitte geben Sie eine gültige E-Mail Adresse an",
+      "quantity_revised": "Die Menge wurde aufgrund von Lagerbeschränkungen überarbeitet.",
+      "quantity_out_of_stock": "Leider ist dieser Artikel nicht vorrätig. Nehmen Sie ihn aus dem Warenkorb, um fortzufahren.",
+      "order_validation":{
+        "domain_crawling":{
+            "title":"Bestellung nicht bearbeitbar.",
+            "description":"Sie wurden nicht belastet. Bitte kontaktieren Sie den Shopbesitzer für Details."
+        },
+        "product_crawling":{
+            "title":"Einzelne Produktpreise ev. geändert.",
+            "description": "Versuchen Sie, Produkte aus dem Warenkorb zu entfernen und wieder hinein zu legen. Oder kontaktieren Sie den Shopbesitzer für Details."
+        },
+        "stock_validation":{
+            "title":"Produktbestand nicht verfügbar.",
+            "description": "Einige Produkte sind möglicherweise für die ausgewählte Menge nicht vorrätig. Überarbeiten Sie die Menge oder wenden Sie sich an den Shopbesitzer, um weitere Informationen zu erhalten."
+        }
+      },
+      "shipping": {
+          "title": "Versand kann nicht berechnet werden",
+          "description": "Versuchen Sie es später noch einmal oder kontaktieren Sie uns für Unterstützung."
+      },
+      "payment_failed": {
+          "title": "Zahlung kann nicht verarbeitet werden",
+          "description": "Versuchen Sie es später noch einmal oder kontaktieren Sie uns für Unterstützung."
+      },
+      "payment_authorization": {
+          "title": "Zahlung kann nicht verarbeitet werden",
+          "default": "Bitte überprüfen Sie die Rechnungs- und Zahlungsinformationen."
+      },
+      "authentication_challenge": {
+        "failed": {
+            "title": "Zahlung kann nicht verarbeitet werden"
+        }
+      },
+      "customer_exists": "Diese E-Mail wird bereits verwendet.",
+      "customer_password_missmatch": "Die beiden Kennworte müssen übereinstimmen.",
+      "invalid_credentials": "Ungültige Email oder Kennwort.",
+      "no_shipping_rates_found": {
+          "title": "Keine Versandart für Ihre Bestellung verfügbar",
+          "description": "Bitte überprüfen Sie die Lieferadresse oder kontaktieren Sie uns."
+      }
+    },
+    "confirmation": {
+        "async_confirmation_notice": "Ihre Bestellung wurde aufgegeben und ist in Bearbeitung. Sie erhalten in Kürze eine Bestätigung."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Versand und Steuern werden berechnet, sobald eine Adresse angegeben ist."
+    }
+}
