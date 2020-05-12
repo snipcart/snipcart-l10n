@@ -1,140 +1,67 @@
 {
     "actions": {
-        "edit": "Bearbeiten",
-        "cancel": "Abbrechen",
-        "continue_shopping": "Weiter einkaufen",
-        "back_to_checkout": "Zurück zum Warenkorb",
-        "checkout": "Zur Kasse",
-        "apply": "Anwenden",
         "type_address": "Ihre Adresse eingeben",
         "use_this_address": "Diese Adresse verwenden",
-        "back_to_store": "Zurück zum Shop",
         "close_cart": "Warenkorb schliessen",
         "show": "Einblenden",
         "hide": "Ausblenden",
         "apply_changes": "Übernehmen"
     },
-    "header": {
-        "title_cart_summary": "Warenkorb",
-        "loading": "Laden..."
-    },
-    "item": {
-        "quantity": "Anzahl",
-        "quantity_short": "Anz.",
-        "decrement_quantity": "Anzahl erhöhen",
-        "increment_quantity": "Anzahl reduzieren",
-        "remove_item": "Artikel löschen"
-    },
     "cart": {
-        "subtotal": "Zwischensumme",
         "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
         "loading": "Wir erstellen Ihren Warenkorb...",
         "secured_by": "Gesichert durch Snipcart",
-        "summary": "Bestellübersicht",
-        "empty": "Ihr Warenkorb ist leer",
-        "invoice_number": "Rechnungsnummer"
+        "empty": "Ihr Warenkorb ist leer"
     },
     "order": {
         "loading": "Wir laden Ihre Bestelldaten..."
     },
     "discount_box": {
-        "promo_code": "Gutscheincode?",
-        "promo_code_placeholder": "Gutscheincode",
-        "promocode_applied": "Gutschein angenommen"
+        "promo_code": "Gutscheincode?"
     },
     "address_form": {
-        "name": "Name",
         "email": "Email",
-        "address1": "Straße",
         "address2": "Adresszusatz",
-        "city": "Stadt",
-        "country": "Land",
-        "postalCode": "Postleitzahl",
-        "province": "Kanton",
-        "dont_see_address": "Ich kann meine Adresse nicht sehen"
+        "province": "Kanton"
     },
     "billing": {
         "title": "Rechnung",
-        "address": "Rechnungsadresse",
         "continue_to_shipping": "Weiter zu Versand",
         "use_different_shipping_address": "Abweichende Versandadresse verwenden"
     },
-    "customer": {
-        "information": "Kundeninformationen"
-    },
     "customer_dashboard": {
-        "my_account": "Mein Konto",
         "ordered_on": "Bestelldatum",
         "total": "Total",
-        "status": "Status",
-        "order": "Bestellung %{invoice_number}",
-        "order_details": "Bestelldetails",
-        "loading": "Laden...",
         "no_orders": "Keine Bestellungen gefunden.",
-        "sign_out": "Abmelden",
         "show_more_orders": "Weitere %{smart_count} Bestellungen anzeigen |||| %{smart_count} weitere Bestellungen"
     },
     "signin_form": {
-        "signin": "Anmelden",
-        "dont_have_an_account": "Noch kein Konto?",
-        "email": "Email",
-        "password": "Kennwort",
-        "forgot_your_password": "Kennwort vergessen?",
-        "close_form": "Zurück"
+        "email": "Email"
     },
     "register_form": {
-        "register": "Registrieren",
         "already_have_an_account": "Bereits ein Konto?",
-        "email": "Email",
-        "password": "Kennwort",
-        "confirm_password": "Kennwort bestätigen"
+        "email": "Email"
     },
     "guest_checkout": {
-        "or": "oder",
         "continue_as_a_guest": "Als Gast fortfahren"
-    },
-    "shipping": {
-        "title": "Versand",
-        "shipping_to": "Versand nach:",
-        "address": "Versandadresse",
-        "method": "Versandmethode"
     },
     "payment": {
         "form":{
             "deferred_payment_title": "Später bezahlen",
-            "deferred_payment_instructions": "Mit dieser Bestellung erklären Sie, später, über die vom Händler angegebene Zahlungsmethode, zu zahlen.",
-            "card_label": "Credit card",
-            "card_number": "Card number",
-            "card_expiration": "MM/YY",
-            "card_cvv": "CVV",
-            "card_postal_code": "Postal code"
+            "deferred_payment_instructions": "Mit dieser Bestellung erklären Sie, später, über die vom Händler angegebene Zahlungsmethode, zu zahlen."
         },
         "still_pending_notice": "Ihre Zahlung wird noch bearbeitet.",
         "title": "Bezahlung",
         "continue_to_payment": "Weiter zu Bezahlung",
-        "credit_card": "Kreditkarte",
         "place_order": "Kostenpflichtig bestellen",
-        "preparing_payment_session": "Zahlung vorbereiten...",
         "processing_payment": "Zahlung bearbeiten...",
         "checkout_with": "Auschecken mit",
         "checkout_with_method": "Mit %{method} auschecken",
-        "method_icon": "%{method} icon",
         "no_payment": "Für diese Bestellung ist keine Zahlung erforderlich.",
         "methods":{
-            "card": "Kreditkarte",
-            "paypal": "PayPal",
-            "paypal_express_checkout": "PayPal",
-            "apple_pay": "Apple Pay",
-            "bancontact": "Bancontact",
-            "belfius": "Belfius",
-            "eps": "Electronic Payment Standard",
-            "giropay": "Giropay",
-            "ideal": "iDEAL",
             "ing_home_pay": "ING Home’Pay",
-            "kbc": "KBC",
             "klarna_pay_later": "Klarna pay later",
             "klarna_slice_it": "Klarna monthly financing",
-            "p24": "Przelewy24",
             "sepa_debit": "SEPA bank transfer",
             "sofort": "Sofort bank transfer",
             "deferred_payment": "Später bezahlen"
@@ -146,9 +73,7 @@
     "cart_summary": {
       "total": "Total",
       "subtotal": "Zwischentotal",
-      "shipping": "Versand",
-      "discount": "Discounts",
-      "quantity": "x"
+      "discount": "Discounts"
     },
     "errors": {
       "default": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut oder kontaktieren Sie uns.",
@@ -156,16 +81,9 @@
       "promocode_already_in_cart": "Dieser Gutscheincode ist bereits angewendet",
       "promocode_isnt_applicable": "Dieser Gutscheincode ist nicht verwendbar",
       "promo_code_is_expired": "Dieser Gutscheincode ist abgelaufen",
-      "stringEmpty": "Dieses Feld darf nicht leer sein",
-      "required": "Dies ist ein Pflichtfeld",
-      "invalid_expiry_year_past": "Diese Karte ist bereits abgelaufen",
       "email": "Bitte geben Sie eine gültige E-Mail Adresse an",
       "quantity_revised": "Die Menge wurde aufgrund von Lagerbeschränkungen überarbeitet.",
       "quantity_out_of_stock": "Leider ist dieser Artikel nicht vorrätig. Nehmen Sie ihn aus dem Warenkorb, um fortzufahren.",
-      "error_payment_items_are_invalid": {
-          "title": "Einige Artikel in Ihrem Warenkorb sind ungültig",
-          "description": "Bitte überprüfen Sie Ihre Bestellung oder versuchen Sie es später erneut."
-      },
       "order_validation":{
         "domain_crawling":{
             "title":"Bestellung nicht bearbeitbar.",
@@ -194,8 +112,7 @@
       },
       "authentication_challenge": {
         "failed": {
-            "title": "Zahlung kann nicht verarbeitet werden",
-            "description": "Wir konnten Ihre Zahlungsinformationen nicht authentifizieren. Bitte versuchen Sie es erneut."
+            "title": "Zahlung kann nicht verarbeitet werden"
         }
       },
       "customer_exists": "Diese E-Mail wird bereits verwendet.",
@@ -206,11 +123,7 @@
           "description": "Bitte überprüfen Sie die Lieferadresse oder kontaktieren Sie uns."
       }
     },
-    "customer_orders": {
-        "loading": "Laden..."
-    },
     "confirmation": {
-        "thank_you_for_your_order": "Vielen Dank für Ihre Bestellung",
         "async_confirmation_notice": "Ihre Bestellung wurde aufgegeben und ist in Bearbeitung. Sie erhalten in Kürze eine Bestätigung."
     },
     "checkout": {
