@@ -9,23 +9,27 @@
         "type_address": "Eingabe deiner",
         "use_this_address": "Benutze diese Adresse",
         "back_to_store": "Zurück zum Shop",
-        "close_cart": "Schließe Warenkorb"
+        "close_cart": "Warenkorb schließen",
+        "show": "Anzeigen",
+        "hide": "Verbergen",
+        "apply_changes": "Änderungen übernehmen"
     },
     "header": {
         "title_cart_summary": "Warenkorb",
-        "loading": "laden..."
+        "loading": "Laden..."
     },
     "item": {
         "quantity": "Anzahl",
+        "quantity_short": "Anz",
         "decrement_quantity": "Anzahl erhöhen",
         "increment_quantity": "Anzahl reduzieren",
         "remove_item": "Artikel löschen"
     },
     "cart": {
         "subtotal": "Zwischensumme",
-        "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
+        "shipping_taxes_calculated_at_checkout": "Versandkosten und Steuern werden an der Kasse berechnet",
         "loading": "Wir erstellen deinen Warenkorb...",
-        "secured_by": "Verschlüsselt von Snipcart",
+        "secured_by": "Verschlüsselt durch Snipcart",
         "summary": "Bestellübersicht",
         "empty": "Dein Warenkorb ist leer",
         "invoice_number": "Rechnungsnummer"
@@ -40,7 +44,7 @@
     },
     "address_form": {
         "name": "Name",
-        "email": "Email",
+        "email": "E-Mail",
         "address1": "Straße",
         "address2": "Adresse 2 (optional)",
         "city": "Stadt",
@@ -58,19 +62,32 @@
     "customer": {
         "information": "Kundeninformationen"
     },
+    "customer_dashboard": {
+        "my_account": "Mein Konto",
+        "ordered_on": "Bestellt am",
+        "total": "Summe",
+        "status": "Status",
+        "order": "Bestellung %{invoice_number}",
+        "order_details": "Bestelldetails",
+        "loading": "Laden...",
+        "no_orders": "Keine Bestellungen vorhanden.",
+        "sign_out": "Abmelden",
+        "show_more_orders": "%{smart_count} Bestellung mehr anzeigen |||| %{smart_count} Bestellungen mehr anzeigen"
+    },
     "signin_form": {
-        "signin": "Einloggen",
-        "dont_have_an_account": "Noch kein Account?",
-        "email": "Email",
-        "password": "Passwort",
-        "forgot_your_password": "Passwort vergessen?"
+        "signin": "Anmelden",
+        "dont_have_an_account": "Noch kein Konto?",
+        "email": "E-Mail",
+        "password": "Kennwort",
+        "forgot_your_password": "Kennwort vergessen?",
+        "close_form": "Zurück"
     },
     "register_form": {
         "register": "Registrieren",
-        "already_have_an_account": "Sie haben bereits einen Account?",
-        "email": "Email",
-        "password": "Passwort",
-        "confirm_password": "Passwort bestätigen"
+        "already_have_an_account": "Sie haben bereits ein Konto?",
+        "email": "E-Mail",
+        "password": "Kennwort",
+        "confirm_password": "Kennwort bestätigen"
     },
     "guest_checkout": {
         "or": "oder",
@@ -78,11 +95,21 @@
     },
     "shipping": {
         "title": "Versand",
-        "shipping_to": "Versand zur:",
+        "shipping_to": "Versand nach:",
         "address": "Versandadresse",
         "method": "Versandmethode"
     },
     "payment": {
+        "form":{
+            "deferred_payment_title": "Später zahlen",
+            "deferred_payment_instructions": "Mit dieser Bestellung erklären Sie sich damit einverstanden, später über die vom Händler angegebene Zahlungsmethode zu zahlen.",
+            "card_label": "Kreditkarte",
+            "card_number": "Kartennummer",
+            "card_expiration": "MM/JJ",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postleitzahl"
+        },
+        "still_pending_notice": "Ihre Zahlung ist noch in der Bearbeitung.",	
         "title": "Zahlungsmethode",
         "continue_to_payment": "Weiter zur Zahlungsmethode",
         "credit_card": "Kreditkarte",
@@ -92,9 +119,11 @@
         "checkout_with": "Bezahle mit",
         "checkout_with_method": "Bezahle mit %{method}",
         "method_icon": "%{method} icon",
+        "no_payment": "Für diese Bestellung ist keine Bezahlung erforderlich.",
         "methods":{
             "card": "Kreditkarte",
             "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
             "apple_pay": "Apple Pay",
             "bancontact": "Bancontact",
             "belfius": "Belfius",
@@ -107,7 +136,8 @@
             "klarna_slice_it": "Ratenzahlung",
             "p24": "Przelewy24",
             "sepa_debit": "Lastschrift",
-            "sofort": "Sofortüberweisung"
+            "sofort": "Sofortüberweisung",
+            "deferred_payment": "Später zahlen"
         }
     },
     "discounts": {
@@ -121,8 +151,7 @@
       "quantity": "x"
     },
     "errors": {
-      "default": "Es ist ein Fehler aufgetreten",
-
+      "default": "Es ist ein Fehler aufgetreten, versuchen Sie es später erneut oder kontaktieren Sie uns.",
       "promo_code_is_invalid": "Dieser Gutscheincode ist nicht gültig",
       "promocode_already_in_cart": "Dieser Gutscheincode wurde bereits angewandt",
       "promocode_isnt_applicable": "Dieser Gutscheincode ist für diese Artikel nicht gültig",
@@ -130,30 +159,61 @@
       "stringEmpty": "Dieses Feld darf nicht leer sein",
       "required": "Dies ist ein Pflichtfeld",
       "invalid_expiry_year_past": "Diese Karte ist bereits abgelaufen",
-      "email": "Diese Email ist ungültig",
-      
-      "payment_failed": {
-          "title": "Ihre Zahlung konnte nicht verarbeitet werden",
-          "description": "Bitte überprüfen Sie Ihre Angaben"
+      "email": "Diese E-Mail-Adresse ist ungültig",
+      "quantity_revised": "Die Anzahl wurde aufgrund von Lagerbeschränkungen überarbeitet.",
+      "quantity_out_of_stock": "Leider ist dieser Artikel nicht mehr vorrätig. Nehmen Sie ihn aus dem Warenkorb, um fortzufahren.",
+      "error_payment_items_are_invalid": {
+          "title": "Einige Artikel in Ihrem Warenkorb sind ungültig",
+          "description": "Bitte überprüfen Sie Ihre Bestellung oder versuchen Sie es später erneut."
       },
-      
+      "order_validation":{
+        "domain_crawling":{
+            "title": "Bestellung konnte nicht bearbeitet werden.",
+            "description":"Sie wurden nicht belastet. Bitte kontaktieren Sie den Shop-Besitzer für Details."
+        },
+        "product_crawling":{
+            "title": "Der Preis der Produkte im Warenkorb hat sich möglicherweise geändert.",
+            "description": "Versuchen Sie, die Produkte zu entfernen und dann erneut in Ihren Warenkorb zu legen. Bitte kontaktieren Sie den Shop-Besitzer für Details."
+        },
+        "stock_validation":{
+            "title": "Produktbestand nicht verfügbar.",
+            "description": "Einige Produkte sind in der ausgewählte Anzahl möglicherweise nicht vorrätig. Überarbeiten Sie die Anzahl oder wenden Sie sich an den Shop-Besitzer, um weitere Informationen zu erhalten."
+        }
+      },
+      "shipping": {
+          "title": "Die Versandkosten konnten nicht berechnet werden",
+          "description": "Versuchen Sie es später erneut oder kontaktieren Sie unseren Support."
+      },
+      "payment_failed": {
+          "title": "Die Zahlung konnte nicht duchgeführt werden",
+          "description": "Versuchen Sie es später erneut oder kontaktieren Sie unseren Support."
+      },
       "payment_authorization": {
-          "title":"Ihre Zahlung konnte nicht verarbeitet werden",
-          
+          "title": "Ihre Zahlung konnte nicht verarbeitet werden",
           "default": "Bitte überprüfen Sie Ihre Angaben"
       },
-      "customer_exists": "Diese Email wird bereits verwendet",
-      "customer_password_missmatch": "Die Passwörter stimmen nicht überein",
-      "invalid_credentials": "Ungültige Email oder Passwort"
+      "authentication_challenge": {
+        "failed": {
+            "title": "Die Zahlung konnte nicht duchgeführt werden",
+            "description": "Wir konnten Ihre Zahlungsinformationen nicht authentifizieren. Bitte versuchen Sie es erneut."
+        }
+      },
+      "customer_exists": "Diese E-Mail-Adresse wird bereits verwendet.",
+      "customer_password_missmatch": "Die beiden Kennwörter müssen übereinstimmen.",
+      "invalid_credentials": "Ungültige E-Mail-Adresse oder Kennwort.",
+      "no_shipping_rates_found": {
+          "title": "Keine Versandmethode für Bestellung verfügbar",
+          "description": "Bitte überprüfen Sie Ihre Lieferadressse oder kontaktieren Sie uns."
+      }
     },
     "customer_orders": {
-        "loading": "laden..."
+        "loading": "Laden..."
     },
     "confirmation": {
         "thank_you_for_your_order": "Vielen Dank für Ihre Bestellung",
-        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungsmail"
+        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungs-E-Mail."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten werden nach Eingabe der Versandadresse berechnet"
+        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet"
     }
 }
