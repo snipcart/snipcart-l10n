@@ -178,6 +178,10 @@
         "stock_validation":{
             "title":"Product stock unavailable.",
             "description": "Some products may be out of stock for selected quantity. Revise quantity or contact store owner for details."
+        },
+        "custom_fields_validation": {
+            "title": "Missing required information.",
+            "description": "Some products in the cart are missing mandatory attributes. Please edit the cart to continue."
         }
       },
       "shipping": {
