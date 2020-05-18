@@ -101,6 +101,8 @@
   },
   "payment": {
     "form": {
+      "deferred_payment_title": "Отложенный платёж",
+      "deferred_payment_instructions": "Размещая этот заказ, вы соглашаетесь оплатить позже, используя способ оплаты, указанный продавцом.",
       "card_label": "Банковская карта",
       "card_number": "Номер карты",
       "card_expiration": "ММ/ГГ",
@@ -134,7 +136,8 @@
       "klarna_slice_it": "Klarna monthly financing",
       "p24": "Przelewy24",
       "sepa_debit": "SEPA bank transfer",
-      "sofort": "Sofort bank transfer"
+      "sofort": "Sofort bank transfer",
+      "deferred_payment": "Оплатить позже"
     }
   },
   "discounts": {
