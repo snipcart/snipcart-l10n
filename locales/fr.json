@@ -15,7 +15,7 @@
     },
     "header": {
         "title_cart_summary": "Sommaire du panier",
-        "loading": "Chargement..."
+        "loading": "Chargement…"
     },
     "item": {
         "quantity": "Quantité",
@@ -27,14 +27,14 @@
     "cart": {
         "subtotal": "Sous-total",
         "shipping_taxes_calculated_at_checkout": "Les frais de livraison et les taxes seront calculés au moment du paiement.",
-        "loading": "Nous préparons votre panier...",
+        "loading": "Nous préparons votre panier…",
         "secured_by": "Sécurisé par Snipcart",
         "summary": "Sommaire",
         "empty": "Votre panier est vide",
         "invoice_number": "Numéro de la facture"
     },
     "order": {
-        "loading": "Chargement des détails de votre commande..."
+        "loading": "Chargement des détails de votre commande…"
     },
     "discount_box": {
         "promo_code": "Code promo ?",
@@ -68,7 +68,7 @@
         "status": "Statut",
         "order": "Commande %{invoice_number}",
         "order_details": "Détails de la commande",
-        "loading": "Chargement...",
+        "loading": "Chargement…",
         "no_orders": "Aucune commande trouvée.",
         "sign_out": "Déconnexion",
         "show_more_orders": "Afficher une commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires"
@@ -110,12 +110,12 @@
         "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
         "place_order": "Placer la commande",
-        "preparing_payment_session": "Préparation du paiement...",
-        "processing_payment": "Paiement en cours...",
+        "preparing_payment_session": "Préparation du paiement…",
+        "processing_payment": "Paiement en cours…",
         "checkout_with": "Payer avec",
         "checkout_with_method": "Payer avec %{method}",
         "method_icon": "%{method} icon",
-        "no_payment": "Aucun paiement est requis pour cette commande.",
+        "no_payment": "Aucun paiement n'est requis pour cette commande.",
         "methods": {
             "card": "Carte de crédit"
         }
@@ -135,7 +135,7 @@
         "promo_code_is_invalid": "Cette promotion n'est pas valide",
         "promocode_already_in_cart": "Cette promotion est déjà appliquée",
         "promocode_isnt_applicable": "Cette promotion n'est pas applicable",
-        "promo_code_is_expired": "Cette promotion a expirée",
+        "promo_code_is_expired": "Cette promotion a expiré",
         "stringEmpty": "Ce champ est requis",
         "required": "Ce champ est requis",
         "invalid_expiry_year_past": "La carte est expirée",
@@ -155,7 +155,7 @@
           },
           "stock_validation":{
               "title":"Produit en rupture de stock.",
-              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantitées ou contacter le marchand pour plus de détails."
+              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantités ou contacter le marchand pour plus de détails."
           }
         },
         "shipping": {
@@ -179,7 +179,7 @@
         }
     },
     "customer_orders": {
-        "loading": "Chargement..."
+        "loading": "Chargement…"
     },
     "confirmation": {
         "thank_you_for_your_order": "Merci pour votre commande.",
