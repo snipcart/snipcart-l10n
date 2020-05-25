@@ -181,7 +181,7 @@
         },
         "custom_fields_validation": {
             "title": "Missing required information.",
-            "description": "Some products in the cart are missing mandatory attributes. Please edit the cart to continue."
+            "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
         }
       },
       "shipping": {
