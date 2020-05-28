@@ -185,12 +185,12 @@
             },
             "shipping_validation": {
                 "title": "Shipping method couldn't be validated.",
-                "description": "The selected shipping rate might of changed or is unavailable. Please contact store owner for details."
+                "description": "The selected shipping rate might have changed or is unavailable. Please contact store owner for details."
             }
         },
         "shipping": {
             "account_configuration": {
-                "title": "No shipping methods are currently available",
+                "title": "No shipping method is currently available",
                 "description": "Try again later, or contact us for support."
             },
             "rates_calculation": {
