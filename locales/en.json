@@ -182,11 +182,25 @@
             "custom_fields_validation": {
                 "title": "Missing required information.",
                 "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
+            },
+            "shipping_validation": {
+                "title": "Shipping method couldn't be validated.",
+                "description": "The selected shipping rate might of changed or is unavailable. Please contact store owner for details."
             }
         },
         "shipping": {
-            "title": "Unable to calculate shipping",
-            "description": "Try again later, or contact us for support."
+            "account_configuration": {
+                "title": "No shipping methods are currently available",
+                "description": "Try again later, or contact us for support."
+            },
+            "rates_calculation": {
+                "title": "Unable to calculate shipping for your order",
+                "description": "Try again later, or contact us for support."
+            },
+            "no_rates_found": {
+                "title": "No shipping methods are available for your order",
+                "description": "Please review shipping address or contact us."
+            }
         },
         "payment_failed": {
             "title": "Unable to process payment",
@@ -204,11 +218,7 @@
         },
         "customer_exists": "This email is already used.",
         "customer_password_missmatch": "The two passwords must match.",
-        "invalid_credentials": "Invalid email or password.",
-        "no_shipping_rates_found": {
-            "title": "No shipping method available for your order",
-            "description": "Please review shipping address or contact us."
-        }
+        "invalid_credentials": "Invalid email or password."
     },
     "customer_orders": {
         "loading": "Loading..."
