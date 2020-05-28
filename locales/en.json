@@ -100,7 +100,7 @@
         "method": "Shipping method"
     },
     "payment": {
-        "form":{
+        "form": {
             "deferred_payment_title": "Deferred Payment",
             "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
             "card_label": "Credit card",
@@ -120,7 +120,7 @@
         "checkout_with_method": "Checkout with %{method}",
         "method_icon": "%{method} icon",
         "no_payment": "No payment is required for this order.",
-        "methods":{
+        "methods": {
             "card": "Credit card",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -141,74 +141,74 @@
         }
     },
     "discounts": {
-      "title": "Discounts"
+        "title": "Discounts"
     },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Subtotal",
-      "shipping": "Shipping",
-      "discount": "Discounts",
-      "quantity": "x"
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "discount": "Discounts",
+        "quantity": "x"
     },
     "errors": {
-      "default": "An error occured, try again later or contact us.",
-      "promo_code_is_invalid": "This promo code isn't valid",
-      "promocode_already_in_cart": "This promo code is already applied",
-      "promocode_isnt_applicable": "This promo code isn't valid",
-      "promo_code_is_expired": "This promo code has expired",
-      "stringEmpty": "This field is required",
-      "required": "This field is required",
-      "invalid_expiry_year_past": "Card is expired",
-      "email": "Please provide a valid email address",
-      "quantity_revised": "Quantity has been revised due to stock limitations.",
-      "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the cart to continue.",
-      "error_payment_items_are_invalid": {
-          "title": "Some items in your cart are invalid",
-          "description": "Please review your order, or try again later."
-      },
-      "order_validation":{
-        "domain_crawling":{
-            "title":"Order couldn’t be processed.",
-            "description":"You have not been charged. Please contact store owner for details."
+        "default": "An error occured, try again later or contact us.",
+        "promo_code_is_invalid": "This promo code isn't valid",
+        "promocode_already_in_cart": "This promo code is already applied",
+        "promocode_isnt_applicable": "This promo code isn't valid",
+        "promo_code_is_expired": "This promo code has expired",
+        "stringEmpty": "This field is required",
+        "required": "This field is required",
+        "invalid_expiry_year_past": "Card is expired",
+        "email": "Please provide a valid email address",
+        "quantity_revised": "Quantity has been revised due to stock limitations.",
+        "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the cart to continue.",
+        "error_payment_items_are_invalid": {
+            "title": "Some items in your cart are invalid",
+            "description": "Please review your order, or try again later."
         },
-        "product_crawling":{
-            "title":"Price of products in cart may have changed.",
-            "description": "Try removing and adding them to your cart. Please contact store owner for details."
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Order couldn’t be processed.",
+                "description": "You have not been charged. Please contact store owner for details."
+            },
+            "product_crawling": {
+                "title": "Price of products in cart may have changed.",
+                "description": "Try removing and adding them to your cart. Please contact store owner for details."
+            },
+            "stock_validation": {
+                "title": "Product stock unavailable.",
+                "description": "Some products may be out of stock for selected quantity. Revise quantity or contact store owner for details."
+            },
+            "custom_fields_validation": {
+                "title": "Missing required information.",
+                "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
+            }
         },
-        "stock_validation":{
-            "title":"Product stock unavailable.",
-            "description": "Some products may be out of stock for selected quantity. Revise quantity or contact store owner for details."
+        "shipping": {
+            "title": "Unable to calculate shipping",
+            "description": "Try again later, or contact us for support."
         },
-        "custom_fields_validation": {
-            "title": "Missing required information.",
-            "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
-        }
-      },
-      "shipping": {
-          "title": "Unable to calculate shipping",
-          "description": "Try again later, or contact us for support."
-      },
-      "payment_failed": {
-          "title": "Unable to process payment",
-          "description": "Try again later, or contact us for support."
-      },
-      "payment_authorization": {
-          "title": "Unable to process payment",
-          "default": "Please review billing and payment information."
-      },
-      "authentication_challenge": {
-        "failed": {
+        "payment_failed": {
             "title": "Unable to process payment",
-            "description": "We have not been able to authenticate your payment information. Please try again"
+            "description": "Try again later, or contact us for support."
+        },
+        "payment_authorization": {
+            "title": "Unable to process payment",
+            "default": "Please review billing and payment information."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Unable to process payment",
+                "description": "We have not been able to authenticate your payment information. Please try again"
+            }
+        },
+        "customer_exists": "This email is already used.",
+        "customer_password_missmatch": "The two passwords must match.",
+        "invalid_credentials": "Invalid email or password.",
+        "no_shipping_rates_found": {
+            "title": "No shipping method available for your order",
+            "description": "Please review shipping address or contact us."
         }
-      },
-      "customer_exists": "This email is already used.",
-      "customer_password_missmatch": "The two passwords must match.",
-      "invalid_credentials": "Invalid email or password.",
-      "no_shipping_rates_found": {
-          "title": "No shipping method available for your order",
-          "description": "Please review shipping address or contact us."
-      }
     },
     "customer_orders": {
         "loading": "Loading..."
