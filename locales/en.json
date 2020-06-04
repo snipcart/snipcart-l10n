@@ -27,7 +27,7 @@
     },
     "cart": {
         "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping, and taxes will be calculated at checkout.",
+        "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
         "loading": "We're getting your cart ready...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
@@ -218,6 +218,6 @@
         "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated when an address will be provided."
+        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
     }
 }
