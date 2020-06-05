@@ -1,0 +1,191 @@
+{
+    "actions": {
+        "edit": "Kemmañ",
+        "cancel": "Nullañ",
+        "continue_shopping": "Kenderc'hel gant ar prenadennoù",
+        "back_to_checkout": "Distreiñ d'ar paeañ",
+        "checkout": "Paeañ",
+        "apply": "Lakaat da dalvezout",
+        "type_address": "Biskrivit ho chomlec'h",
+        "use_this_address": "Implijout ar chomlec'h-mañ",
+        "back_to_store": "Distreiñ d'ar stal",
+        "close_cart": "Serriñ ar baner",
+        "show": "Diskwel",
+        "hide": "Kuzhat"
+    },
+    "header": {
+        "title_cart_summary": "Taolenn ar baner",
+        "loading": "O kargañ..."
+    },
+    "item": {
+        "quantity": "Kementad",
+        "quantity_short": "Kmd",
+        "decrement_quantity": "Digreskiñ ar c'hementad",
+        "increment_quantity": "Kreskiñ ar c'hementad",
+        "remove_item": "Dilemel ar produ"
+    },
+    "cart": {
+        "subtotal": "Ishollad",
+        "shipping_taxes_calculated_at_checkout": "Jedet e vo ar mizoù-kas hag an taosoù da vare ar paeamant.",
+        "loading": "Emaomp oc'h aozañ ho panerad...",
+        "secured_by": "Suraet gant Snipcart",
+        "summary": "Taolenn",
+        "empty": "Goullo eo ho paner",
+        "invoice_number": "Niverenn ar fakturenn"
+    },
+    "order": {
+        "loading": "O kargañ munudoù hoc'h urzhiad..."
+    },
+    "discount_box": {
+        "promo_code": "Kod brudwerzh ?",
+        "promo_code_placeholder": "Kod brudwerzh",
+        "promocode_applied": "Brudwerzh lakaet da dalvezout"
+    },
+    "address_form": {
+        "name": "Anv klok",
+        "email": "Postel",
+        "address1": "Chomlec'h kas",
+        "address2": "Ranndi",
+        "city": "Kêr",
+        "country": "Bro",
+        "postalCode": "Kod-post",
+        "province": "Rannvro",
+        "dont_see_address": "Ne gavan ket ma chomlec'h"
+    },
+    "billing": {
+        "title": "Fakturenniñ",
+        "address": "Chomlec'h fakturenniñ",
+        "continue_to_shipping": "Kenderc'hel d'an degasadenn",
+        "use_different_shipping_address": "Implijout ur chomlec'h degas disheñvel"
+    },
+    "customer": {
+        "information": "Titouroù arval"
+    },
+    "customer_dashboard": {
+        "my_account": "Ma c'hont",
+        "ordered_on": "Urzhiet d'an",
+        "total": "Hollad",
+        "status": "Statud",
+        "order": "Urzhiad %{invoice_number}",
+        "order_details": "Munudoù an urzhiad",
+        "loading": "O kargañ...",
+        "no_orders": "Urzhiad ebet kavet.",
+        "sign_out": "Digevreañ",
+        "show_more_orders": "Diskwel un urzhiad ouzhpenn |||| Diskwel %{smart_count} urzhiad ouzhpenn"
+    },
+    "signin_form": {
+        "signin": "En em gevreañ",
+        "dont_have_an_account": "Kont ebet ?",
+        "email": "Postel",
+        "password": "Ger kuzh",
+        "forgot_your_password": "Disoñjet ho peus ho ker kuzh ?",
+        "close_form": "Distreiñ"
+    },
+    "register_form": {
+        "register": "En em enskrivañ",
+        "already_have_an_account": "Ur gont ho peus dija ?",
+        "email": "Postel",
+        "password": "Ger kuzh",
+        "confirm_password": "Kadarnaat ar ger kuzh"
+    },
+    "alternative": {
+        "or": "Ou",
+        "continue_as_a_guest": "Kenderc'hel evel ur c'houviad"
+    },
+    "shipping": {
+        "title": "Degasadenn",
+        "shipping_to": "Degas da :",
+        "address": "Chomlec'h degas",
+        "method": "Doare degas"
+    },
+    "payment": {
+        "form":{
+            "card_label": "Kartenn-gred",
+            "card_number": "Niverenn ar gartenn",
+            "card_expiration": "MM/BB",
+            "card_cvv": "CVV",
+            "card_postal_code": "Kod-post"
+        },
+        "title": "Paeamant",
+        "continue_to_payment": "Kenderc'hel d'ar paeamant",
+        "credit_card": "Kartenn-gred",
+        "place_order": "Lakaat an urzhiad",
+        "preparing_payment_session": "Aozañ ar paeamant...",
+        "processing_payment": "O paeañ...",
+        "checkout_with": "Paeañ gant",
+        "checkout_with_method": "Paeañ gant %{method}",
+        "method_icon": "%{method} arlun",
+        "no_payment": "N'eus paeamant ebet evit an urzhiad-mañ.",
+        "methods": {
+            "card": "Kartenn-gred"
+        }
+    },
+    "discounts": {
+        "title": "Brudwerzhioù"
+    },
+    "cart_summary": {
+        "total": "Hollad",
+        "subtotal": "Ishollad",
+        "shipping": "Degasadenn",
+        "discount": "Brudwerzhioù",
+        "quantity": "k"
+    },
+    "errors": {
+        "default": "C'hoarvezet ez eus bet ur fazi",
+        "promo_code_is_invalid": "N’eo ket reizh ar c’hod brudwerzh-mañ.",
+        "promocode_already_in_cart": "Lakaet eo bet ar c’hod brudwerzh-mañ da dalvezout dija",
+        "promocode_isnt_applicable": "Ne c’hall ket ar c’hod brudwerzh-mañ bezañ lakaet da dalvezout",
+        "promo_code_is_expired": "Ne dalvez ket mui ar c’hod brudwerzh-mañ",
+        "stringEmpty": "Maezienn da leuniañ dre ret",
+        "required": "Maezienn da leuniañ dre ret",
+        "invalid_expiry_year_past": "Kartenn aet d’he zermen",
+        "email": "Bizskrivit ur chomlec’h postel e talvoud",
+        "error_payment_items_are_invalid": {
+            "title": "Produioù zo en ho paner zo direizh",
+            "description": "Adwelit hoc'h urzhiad pe klaskit en-dro diwezhatoc'h."
+        },
+        "order_validation":{
+          "domain_crawling":{
+              "title":"N'hon eus ket gallet kadarnaat hoc'h urzhiad.",
+              "description":"N'eus ket bet lamet arc'hant diwar ho kont. Kit e darempred gant ar gwerzher evit gouzout hiroc'h, mar plij."
+          },
+          "product_crawling":{
+              "title":"Priz produioù zo en ho paner a seblant bezañ cheñchet.",
+              "description": "Klaskit o zennañ hag o adlakaat en ho paner. Kit e darempred gant ar gwerzher evit gouzout hiroc'h."
+          },
+          "stock_validation":{
+              "title":"Produ diviet.",
+              "description": "Un nebeud produioù a seblant bezañ diviet. Adwelit ar c'hementadoù pe kit e darempred gant ar gwerzher evit gouzout hiroc'h."
+          }
+        },
+        "shipping": {
+            "title": "Ne c'haller ket jediñ ar mizoù-kas.",
+            "description": "Klaskit en-dro diwezhatoc'h, pe deuit e darempred ganeomp."
+        },
+        "payment_failed": {
+            "title": "Ne c'haller ket klokaat ho paeamant.",
+            "description": "Gwiriit titouroù ho kartenn-gred pe klaskit en-dro diwezhatoc'h."
+        },
+        "payment_authorization": {
+            "title": "Ne c'haller ket klokaat ho paeamant",
+            "default": "Gwiriit titouroù ho kartenn-gred pe klaskit en-dro diwezhatoc'h."
+        },
+        "customer_exists": "Implijet eo ar postel-mañ dija.",
+        "customer_password_missmatch": "Disheñvel eo ar gerioù kuzh.",
+        "invalid_credentials": "Postel pe ger kuzh direizh",
+        "no_shipping_rates_found": {
+            "title": "Doare ebet evit an degas evit hoc'h urzhiad",
+            "description": "Adwelit ho chomlec'h post pe kit e darempred ganeomp."
+        }
+    },
+    "customer_orders": {
+        "loading": "O kargañ..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Trugarez deoc'h evit hoc'h urzhiad.",
+        "async_confirmation_notice": "Emaomp oc'h ober war-dro hoc'h urzhiad. Kadarnaet e vo deoc'h dre bostel dizale."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Jedet e vo ar mizoù-kas hag an taosoù da vare ar paeamant."
+    }
+}
