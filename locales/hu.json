@@ -9,7 +9,10 @@
       "type_address": "Írd be a címed",
       "use_this_address": "Cím használata",
       "back_to_store": "Vissza a boltba",
-      "close_cart": "Kosár bezárása"
+      "close_cart": "Kosár bezárása",
+      "show": "Show",
+      "hide": "Hide",
+      "apply_changes": "Apply changes"
   },
   "header": {
       "title_cart_summary": "Kosár áttekintés",
@@ -17,6 +20,7 @@
   },
   "item": {
       "quantity": "Mennyiség",
+      "quantity_short": "Menny.",
       "decrement_quantity": "Mennyiség csökkentése",
       "increment_quantity": "Mennyiség növelése",
       "remove_item": "Elem eltávolítása"
@@ -58,12 +62,25 @@
   "customer": {
       "information": "A vásárló adatai"
   },
+  "customer_dashboard": {
+      "my_account": "Profilom",
+      "ordered_on": "Rendelés időpontja",
+      "total": "Végösszeg",
+      "status": "Státusz",
+      "order": "Rendelés %{invoice_number}",
+      "order_details": "Rendelés részletei",
+      "loading": "Betöltés...",
+      "no_orders": "Nincsenek rendelései.",
+      "sign_out": "Kijelentkezés",
+      "show_more_orders": "Mutass még %{smart_count} rendelést |||| Mutass még %{smart_count} rendelést"
+  },
   "signin_form": {
       "signin": "Bejelentkezés",
       "dont_have_an_account": "Még nem regisztráltál?",
       "email": "Email cím",
       "password": "Jelszó",
-      "forgot_your_password": "Elfelejtetted a jelszavad?"
+      "forgot_your_password": "Elfelejtetted a jelszavad?",
+      "close_form": "Vissza"
   },
   "register_form": {
       "register": "Regisztráció",
@@ -83,6 +100,16 @@
       "method": "Szállítási mód"
   },
   "payment": {
+      "form":{
+          "deferred_payment_title": "Fizetés utánvéttel",
+          "deferred_payment_instructions": "A megrendelés elküldésével vállalom, hogy a rendelés átvitelekor az áru ellenértékét megfizetem.",
+          "card_label": "Bankkártya",
+          "card_number": "Bankkártya szám",
+          "card_expiration": "HH/ÉÉ",
+          "card_cvv": "CVV",
+          "card_postal_code": "Irányítószám"
+      },
+      "still_pending_notice": "A fizetés feldolgozás alatt...",
       "title": "Fizetés",
       "continue_to_payment": "Tovább a fizetéshez",
       "credit_card": "Bankkártya",
@@ -92,9 +119,11 @@
       "checkout_with": "Fizetési mód",
       "checkout_with_method": "Fizetési mód: %{method}",
       "method_icon": "%{method} ikon",
+      "no_payment": "A rendelés leadásához nem szükséges fizetni.",
       "methods":{
           "card": "Bankkártya",
           "paypal": "PayPal",
+          "paypal_express_checkout": "PayPal",
           "apple_pay": "Apple Pay",
           "bancontact": "Bancontact",
           "belfius": "Belfius",
@@ -107,7 +136,8 @@
           "klarna_slice_it": "Klarna Monthly financing",
           "p24": "Przelewy24",
           "sepa_debit": "SEPA utalás",
-          "sofort": "Sofort utalás"
+          "sofort": "Sofort utalás",
+          "deferred_payment": "Fizetés utánvéttel"
       }
   },
   "discounts": {
@@ -122,7 +152,6 @@
   },
   "errors": {
     "default": "Hiba történt",
-
     "promo_code_is_invalid": "Ez a kupon nem érvényes",
     "promocode_already_in_cart": "Ezt a kupont már levontuk",
     "promocode_isnt_applicable": "Ez a kupon nem alkalmazható",
@@ -131,20 +160,55 @@
     "required": "Ez kötelező mező",
     "invalid_expiry_year_past": "A kártya lejárt",
     "email": "Kérjük, valós email címet adj meg",
-    
+    "quantity_revised": "A mennyiség mennyiségi korlátozás miatt felülbírálva.",
+    "quantity_out_of_stock": "Sajnos a termék jelenleg nincs raktáron, kérlek a folytatáshoz távolítsa el a terméket a kosarából.",
+    "error_payment_items_are_invalid": {
+        "title": "Néhány termék a kosárban érvénytelen.",
+        "description": "Tekintse át a rendelését, vagy próbálkozzon később."
+    },
+    "order_validation":{
+      "domain_crawling":{
+          "title":"A megrendelést nem sikerült feldolgozni.",
+          "description":"A rendelés végösszegét nem vontuk le. Kérjük, vegye fel a kapcsolatot az áruház tulajdonosával."
+      },
+      "product_crawling":{
+          "title":"A termékek ára a kosaradban változhatott",
+          "description": "Próbálja meg eltávolítani majd újra hozzáadni a megvásárolni kívánt termékeket a kosárhoz."
+      },
+      "stock_validation":{
+          "title":"Termékkészlet nem érhető el.",
+          "description": "Néhány termék nem elérhető a kiválasztott mennyiségben. Módosítsa a kívánt mennyiségeket."
+      },
+      "custom_fields_validation": {
+          "title": "Hiányzó információk",
+          "description": "Néhány a kosárban található termékről hiányoznak a kötelezően kitöltendő információk. Kérjük, módosítsa a kosarat a folytatáshoz."
+      }
+    },
+    "shipping": {
+        "title": "Szállítási költség számítása nem sikerült",
+        "description": "Próbálkozzon később, vagy vegye fel a kapcsolatot az áruházzal."
+    },
     "payment_failed": {
         "title": "Nem sikerült feldolgozni a fizetést",
         "description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra."
     },
-    
     "payment_authorization": {
-        "title":"Nem sikerült feldolgozni a fizetést",
-        
+        "title": "Nem sikerült feldolgozni a fizetést",
         "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra."
+    },
+    "authentication_challenge": {
+      "failed": {
+          "title": "Nem sikerült feldolgozni a fizetést",
+          "description": "Nem sikerült hitelesíteni fizetési adatait. Próbálkozzon újra"
+      }
     },
     "customer_exists": "Ez az email cím már regisztrálva van.",
     "customer_password_missmatch": "A jelszavak nem egyeznek.",
-    "invalid_credentials": "Rossz email cím vagy jelszó."
+    "invalid_credentials": "Rossz email cím vagy jelszó.",
+    "no_shipping_rates_found": {
+        "title": "Nincs elérhető szállítási mód a rendeléséhez",
+        "description": "Ellenőrizze a szállítási címet, vagy vegye fel velünk a kapcsolatot."
+    }
   },
   "customer_orders": {
       "loading": "Betöltés..."
