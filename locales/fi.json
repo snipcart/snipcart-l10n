@@ -1,0 +1,223 @@
+{
+    "actions": {
+        "edit": "Muokkaa",
+        "cancel": "Peruuta",
+        "continue_shopping": "Jatka ostoksia",
+        "back_to_checkout": "Takaisin kassalle",
+        "checkout": "Kassalle",
+        "apply": "Käytä",
+        "type_address": "Syötä osoitteesi",
+        "use_this_address": "Käytä tätä osoitetta",
+        "back_to_store": "Takaisin kauppaan",
+        "close_cart": "Sulje ostoskori",
+        "show": "Näytä",
+        "hide": "Piilota",
+        "apply_changes": "Päivitä muutokset"
+    },
+    "header": {
+        "title_cart_summary": "Ostoskorisi",
+        "loading": "Ladataan..."
+    },
+    "item": {
+        "quantity": "Määrä",
+        "quantity_short": "Kpl",
+        "decrement_quantity": "Vähennä kappaleita",
+        "increment_quantity": "Lisää kappaleita",
+        "remove_item": "Poista tuote"
+    },
+    "cart": {
+        "subtotal": "Välisumma",
+        "shipping_taxes_calculated_at_checkout": "Toimitus- ja verokulut lasketaan kassalla.",
+        "loading": "Valmistelemme ostoskoriasi...",
+        "secured_by": "Snipcartin turvaama ostotapahtuma",
+        "summary": "Tilauksesi",
+        "empty": "Ostoskorisi on tyhjä.",
+        "invoice_number": "Viitteesi"
+    },
+    "order": {
+        "loading": "Valmistelemme tilaustasi..."
+    },
+    "discount_box": {
+        "promo_code": "Alennuskoodi?",
+        "promo_code_placeholder": "Syötä alennuskoodi",
+        "promocode_applied": "Alennuskoodi käytetty"
+    },
+    "address_form": {
+        "name": "Koko nimi",
+        "email": "Sähköposti",
+        "address1": "Kotiosoite",
+        "address2": "Osoitten lisäkenttä",
+        "city": "Kaupunki",
+        "country": "Maa",
+        "postalCode": "Postinumero",
+        "province": "Lääni",
+        "dont_see_address": "En näe osoitettani"
+    },
+    "billing": {
+        "title": "Toimitus",
+        "address": "Toimitusosoite",
+        "continue_to_shipping": "Jatka toimitukseen",
+        "use_different_shipping_address": "Käytä erillistä toimitusosoitetta"
+    },
+    "customer": {
+        "information": "Asiakkaan tiedot"
+    },
+    "customer_dashboard": {
+        "my_account": "Tilini",
+        "ordered_on": "Tilattu",
+        "total": "Summa",
+        "status": "Tila",
+        "order": "Tilaus %{invoice_number}",
+        "order_details": "Tilauksen tiedot",
+        "loading": "Ladataan...",
+        "no_orders": "Ei tilauksia.",
+        "sign_out": "Kirjaudu ulos",
+        "show_more_orders": "Näytä vielä %{smart_count} tilaus |||| Näytä vielä %{smart_count} tilausta"
+    },
+    "signin_form": {
+        "signin": "Kirjaudu sisään",
+        "dont_have_an_account": "Eikö sinulla ole tiliä?",
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "forgot_your_password": "Unohdito salasanasi?",
+        "close_form": "Takaisin"
+    },
+    "register_form": {
+        "register": "Rekisteröidy",
+        "already_have_an_account": "Onko sinulla jo tili?",
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "confirm_password": "Vahvista salasana"
+    },
+    "guest_checkout": {
+        "or": "Tai",
+        "continue_as_a_guest": "Jatka kirjautumatta"
+    },
+    "shipping": {
+        "title": "Toimitus",
+        "shipping_to": "Toimitetaan:",
+        "address": "Toimitusosoite",
+        "method": "Toimitustapa"
+    },
+    "payment": {
+        "form":{
+            "deferred_payment_title": "Maksa myöhemmin",
+            "deferred_payment_instructions": "Sitoudut maksamaan tämän tilauksen myöhemmin kauppiaan määrittämällä tavalla.",
+            "card_label": "Luottokortti",
+            "card_number": "Luottokortin numero",
+            "card_expiration": "KK/VV",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postinumero"
+        },
+        "still_pending_notice": "Maksuasi käsitellään.",
+        "title": "Maksu",
+        "continue_to_payment": "Jatka maksamaan",
+        "credit_card": "Luottokortti",
+        "place_order": "Vahvista tilaus",
+        "preparing_payment_session": "Valmistellaan maksua...",
+        "processing_payment": "Käsitellään maksua...",
+        "checkout_with": "Maksa:",
+        "checkout_with_method": "Maksa: %{method}",
+        "method_icon": "%{method} ikoni",
+        "no_payment": "Tätä tilausta ei tarvitse maksaa.",
+        "methods":{
+            "card": "Luottokortti",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna maksuaika",
+            "klarna_slice_it": "Klarna osamaksu",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA tilisiirto",
+            "sofort": "Sofort tilisiirto",
+            "deferred_payment": "Maksa myöhemmin"
+        }
+    },
+    "discounts": {
+      "title": "Alennukset"
+    },
+    "cart_summary": {
+      "total": "Summa",
+      "subtotal": "Välisumma",
+      "shipping": "Toimituskulut",
+      "discount": "Alennukset",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Tapahtui käsittelemätön virhe. Yritä uudestaan tai ota yhteyttä.",
+      "promo_code_is_invalid": "Alennuskoodia ei tunnistettu",
+      "promocode_already_in_cart": "Alennuskoodi on jo käytetty",
+      "promocode_isnt_applicable": "Alennuskoodi ei sovi tähän ostoskoriin",
+      "promo_code_is_expired": "Alennuskoodi ei ole enää voimassa",
+      "stringEmpty": "Pakollinen kenttä",
+      "required": "Pakollinen kenttä",
+      "invalid_expiry_year_past": "Luottokortti on vanhentunut",
+      "email": "Syötä oikea sähköpostiosoite",
+      "quantity_revised": "Kappalemäärää on rajoitettu varastosaldon perusteella.",
+      "quantity_out_of_stock": "Ikävä kyllä tätä tuotetta ei ole enää varastossa. Poista se ostoskorista jatkaaksesi.",
+      "error_payment_items_are_invalid": {
+          "title": "Jotkut tuotteet ostoskorissasi eivät ole oikein.",
+          "description": "Tarkista ostoskorisi tai yritä myöhemmin uudelleen."
+      },
+      "order_validation":{
+        "domain_crawling":{
+            "title":"Tilausta ei voitu käsitellä.",
+            "description":"Maksua ei käsitelty. Ota yhteyttä kauppiaaseen saadaksesi lisätietoja."
+        },
+        "product_crawling":{
+            "title":"Joidenkin tuotteiden hinta on muuttunut.",
+            "description": "Poista ja lisää tuotteet uudelleen. Ota yhteyttä kauppiaaseen saadaksesi lisätietoja."
+        },
+        "stock_validation":{
+            "title":"Tuote loppu.",
+            "description": "Jotkut tuotteet voivat olla loppuneet. Tarkista määrät. Ota yhteyttä kauppiaaseen saadaksesi lisätietoja."
+        },
+        "custom_fields_validation": {
+            "title": "Pakollisia tietoja puuttuu.",
+            "description": "Joissain tuotteissa ei ole kaikkia pakollisia tietoja. Tarkista tuotteiden tiedot ostoskorista."
+        }
+      },
+      "shipping": {
+          "title": "Toimituskuluja ei voitu laskea",
+          "description": "Yritä myöhemmin uudelleen tai ota yhteyttä."
+      },
+      "payment_failed": {
+          "title": "Maksua ei voitu käsitellä",
+          "description": "Yritä myöhemmin uudelleen tai ota yhteyttä."
+      },
+      "payment_authorization": {
+          "title": "Maksua ei voitu käsitellä",
+          "default": "Tarkista maksutiedot"
+      },
+      "authentication_challenge": {
+        "failed": {
+            "title": "Maksua ei voitu käsitellä",
+            "description": "Emme pystyneet varmistamaan maksuasi. Yritä uudelleen."
+        }
+      },
+      "customer_exists": "Tämä sähköposti on jo käytössä.",
+      "customer_password_missmatch": "Salasanojen pitää olla samat.",
+      "invalid_credentials": "Virheellinen sähköposti tai salasana.",
+      "no_shipping_rates_found": {
+          "title": "Tilauksellesi ei löytynyt sopivaa toimitustapaa",
+          "description": "Tarkista osoitetietosi tai ota yhteyttä."
+      }
+    },
+    "customer_orders": {
+        "loading": "Ladataan..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Kiitos tilauksestasi",
+        "async_confirmation_notice": "Tilauksesi on otettu vastaan ja sitä käsitellään. Saat piakkoin vahvistusviestin."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Toimitus- ja verokulut lasketaan syötettyäsi osoitteesi."
+    }
+}
