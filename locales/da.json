@@ -26,7 +26,7 @@
     "subtotal": "Subtotal",
     "shipping_taxes_calculated_at_checkout": "Forsendelse og moms udregnes i kassen",
     "loading": "Vi er ved at gøre din kurv klar",
-    "secured_by": "Secured by Snipcart",
+    "secured_by": "Sikret af Snipcart",
     "summary": "Ordreoverblik",
     "empty": "Din kurv er tom.",
     "invoice_number": "Faktura nummer"
@@ -53,7 +53,7 @@
   "billing": {
     "title": "Faktura",
     "address": "Faktura adresse",
-    "continue_to_shipping": "Fortsæt med at shoppe",
+    "continue_to_shipping": "Fortsæt til levering",
     "use_different_shipping_address": "Brug anden leveringsadresse"
   },
   "customer": {
@@ -105,7 +105,7 @@
     "credit_card": "Kreditkort",
     "place_order": "Afgiv ordre",
     "preparing_payment_session": "Forbereder betaling...",
-    "processing_payment": "Processere betaling...",
+    "processing_payment": "Behandler betaling...",
     "checkout_with": "Checkout med",
     "checkout_with_method": "Checkout med %{method}",
     "method_icon": "%{method} icon",
