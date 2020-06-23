@@ -140,6 +140,8 @@
         "required": "Ce champ est requis",
         "invalid_expiry_year_past": "La carte est expirée",
         "email": "Veuillez spécifier une adresse courriel valide",
+        "quantity_revised": "La quantité a été modifiée en raison d'un stock limité.",
+        "quantity_out_of_stock": "Malheureusement, cet produit n'est plus en stock, supprimez-le du panier pour continuer.",
         "error_payment_items_are_invalid": {
             "title": "Certains produits dans votre panier sont invalides",
             "description": "Veuillez réviser votre commande, ou réessayer plus tard."
@@ -156,6 +158,14 @@
           "stock_validation":{
               "title":"Produit en rupture de stock.",
               "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantités ou contacter le marchand pour plus de détails."
+          },
+          "custom_fields_validation": {
+              "title": "Information requise manquante.",
+              "description": "Il manque des informations obligatoires pour certains produits du panier. Veuillez corriger le panier pour continuer."
+          },
+          "shipping_validation": {
+              "title": "La méthode de livraison n'est pas valide.",
+              "description": "La méthode de livraison sélectionnée semble avoir été modifiée ou n'est plus disponible. Veuillez contacter le marchand pour plus de détails."
           }
         },
         "shipping": {
