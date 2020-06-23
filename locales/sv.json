@@ -94,7 +94,7 @@
     },
     "payment": {
         "form":{
-            "card_label": "Kredirkort",
+            "card_label": "Kreditkort",
             "card_number": "Kortnummer",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
