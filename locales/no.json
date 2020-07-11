@@ -1,0 +1,219 @@
+{
+    "actions": {
+        "edit": "Rediger",
+        "cancel": "Avbryt",
+        "continue_shopping": "Fortsett å handle",
+        "back_to_checkout": "Tilbake til kassen",
+        "checkout": "Kasse",
+        "apply": "Lagre",
+        "type_address": "Skriv inn din adresse",
+        "use_this_address": "Bruk denne adressen",
+        "back_to_store": "Tilbake til butikken",
+        "close_cart": "Lukk handlekurven",
+        "show": "Vis",
+        "hide": "Skjul",
+        "apply_changes": "Lagre endringer"
+    },
+    "header": {
+        "title_cart_summary": "Oppsummering av handlekurven",
+        "loading": "Laster..."
+    },
+    "item": {
+        "quantity": "Antall",
+        "quantity_short": "Ant",
+        "decrement_quantity": "Reduser antall",
+        "increment_quantity": "Øk antall",
+        "remove_item": "Fjern vare"
+    },
+    "cart": {
+        "subtotal": "Delsum",
+        "shipping_taxes_calculated_at_checkout": "Frakt beregenes ved utsjekk.",
+        "loading": "Vi gjør klar handlekurven din...",
+        "secured_by": "Sikret av Snipcart",
+        "summary": "Ordreoppsummering",
+        "empty": "Handlekurven er tom.",
+        "invoice_number": "Ordrenummer"
+    },
+    "order": {
+        "loading": "Vi henter ordredetaljene dine..."
+    },
+    "discount_box": {
+        "promo_code": "Rabattkode?",
+        "promo_code_placeholder": "Rabattkode",
+        "promocode_applied": "Rabattkoden er lagt til"
+    },
+    "address_form": {
+        "name": "Navn",
+        "email": "E-post",
+        "address1": "Gateadresse",
+        "address2": "Leilighet",
+        "city": "Sted",
+        "country": "Land",
+        "postalCode": "Postnummer",
+        "province": "Fylke",
+        "dont_see_address": "Jeg ser ikke adressen min"
+    },
+    "billing": {
+        "title": "Betaling",
+        "address": "Betalingsadresse",
+        "continue_to_shipping": "Fortsett til frakt",
+        "use_different_shipping_address": "Bruk en annen leveringsadresse"
+    },
+    "customer": {
+        "information": "Kundeinformasjon"
+    },
+    "customer_dashboard": {
+        "my_account": "Min konto",
+        "ordered_on": "Bestilt den",
+        "total": "Totalt",
+        "status": "Status",
+        "order": "Ordre %{invoice_number}",
+        "order_details": "Ordredetaljer",
+        "loading": "Laster...",
+        "no_orders": "Ingen ordre funnet.",
+        "sign_out": "Logg ut",
+        "show_more_orders": "Vis %{smart_count} ordre til |||| Vis %{smart_count} ordre til"
+    },
+    "signin_form": {
+        "signin": "Logg inn",
+        "dont_have_an_account": "Har du ikke en konto?",
+        "email": "E-post",
+        "password": "Passord",
+        "forgot_your_password": "Glemt passord?",
+        "close_form": "Gå tilbake"
+    },
+    "register_form": {
+        "register": "Registrer deg",
+        "already_have_an_account": "Har du allerede en konto?",
+        "email": "E-post",
+        "password": "Passord",
+        "confirm_password": "Bekreft passord"
+    },
+    "guest_checkout": {
+        "or": "Eller",
+        "continue_as_a_guest": "Fortsett som gjest"
+    },
+    "shipping": {
+        "title": "Levering",
+        "shipping_to": "Levering til:",
+        "address": "Leveringsadresse",
+        "method": "Leveringsmetode"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Utsatt Betaling",
+            "deferred_payment_instructions": "Ved å bekrefte denne ordren forplikter du deg til å gjennomføre betaling på et senere tidspunkt gjennom betalingsmetode spesifisert av selger.",
+            "card_label": "Kort",
+            "card_number": "Kortnummer",
+            "card_expiration": "MM/ÅÅ",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postnummer"
+        },
+        "still_pending_notice": "Betalingen er fremdeles under behandling.",
+        "title": "Betaling",
+        "continue_to_payment": "Fortsett til betaling",
+        "credit_card": "Kort",
+        "place_order": "Bekreft ordre",
+        "preparing_payment_session": "Forbereder betaling...",
+        "processing_payment": "Behandler betaling...",
+        "checkout_with": "Betal med",
+        "checkout_with_method": "Betal med %{method}",
+        "method_icon": "%{method} ikon",
+        "no_payment": "Ingen betaling kreves for denne ordren.",
+        "methods": {
+            "card": "Kort",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna Betal senere",
+            "klarna_slice_it": "Klarna Finansiering",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Betal senere"
+        }
+    },
+    "discounts": {
+        "title": "Rabatter"
+    },
+    "cart_summary": {
+        "total": "Totalt",
+        "subtotal": "Delsum",
+        "shipping": "Levering",
+        "discount": "Rabatter",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "En feil har inntruffet. Prøv igjen senere, eller ta kontakt med oss.",
+        "promo_code_is_invalid": "Denne koden er ikke gyldig",
+        "promocode_already_in_cart": "Denne koden har allerede blitt brukt",
+        "promocode_isnt_applicable": "Denne koden er ikke gyldig",
+        "promo_code_is_expired": "Denne koden har utløpt",
+        "stringEmpty": "Dette feltet er påkrevd",
+        "required": "Dette feltet er påkrevd",
+        "invalid_expiry_year_past": "Dette kortet har utløpt",
+        "email": "Vennligst oppgi en gyldig epost-adresse",
+        "quantity_revised": "Antallet har blitt redusert i henhold til lagerbeholdning.",
+        "quantity_out_of_stock": "Varen er dessverre ikke på lager, fjern det fra handlekurven for å fortsette.",
+        "error_payment_items_are_invalid": {
+            "title": "Et eller flere produkter i handlekurven er ugyldige",
+            "description": "Vennligst gjennomgå ordren din, eller prøv igjen senere."
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Ordren kunne ikke behandles.",
+                "description": "Ditt kort har ikke blitt belastet. Vennligst kontakt butikkeier for detaljer."
+            },
+            "product_crawling": {
+                "title": "Prisen på produktene i handlekurven kan ha blitt endret.",
+                "description": "Prøv å fjern og legg til produktene i handlekurven din. Vennligst kontakt butikkeier for detaljer."
+            },
+            "stock_validation": {
+                "title": "Lagerbeholdning ikke tilgjengelig.",
+                "description": "Lageret kan være tomt for noen produkter. Endre antallet, eller kontakt butikkeier for detaljer."
+            }
+        },
+        "shipping": {
+            "title": "Kunne ikke kalkulere frakt",
+            "description": "Prøv igjen senere, eller kontakt oss for support."
+        },
+        "payment_failed": {
+            "title": "Kunne ikke behandle betaling",
+            "description": "Prøv igjen senere, eller kontakt oss for support."
+        },
+        "payment_authorization": {
+            "title": "Kunne ikke behandle betaling",
+            "default": "Vennligst gå gjennom betalingsdetaljene dine."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Kunne ikke behandle betaling",
+                "description": "Vi kunne ikke verifisere betalingsdetaljene dine, vennligst prøv igjen."
+            }
+        },
+        "customer_exists": "Denne epost-adressen finnes allerede.",
+        "customer_password_missmatch": "Passordene må samsvare.",
+        "invalid_credentials": "Ugyldig e-post eller passord.",
+        "no_shipping_rates_found": {
+            "title": "Ingen fraktmetoder funnet for din ordre",
+            "description": "Vennligst gå gjennom fraktdetaljene dine, eller kontakt oss."
+        }
+    },
+    "customer_orders": {
+        "loading": "Laster..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Takk for din ordre",
+        "async_confirmation_notice": "Din ordre har blitt lagt inn og er for øyeblikket under behandling. Du vil straks motta en bekreftelse på e-post."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Frakt beregnes når adresse oppgis."
+    }
+}
