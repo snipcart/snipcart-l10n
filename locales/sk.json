@@ -101,6 +101,8 @@
     },
     "payment": {
         "form":{
+            "deferred_payment_title": "Platba na dobierku",
+            "deferred_payment_instructions": "Zadaním tejto objednávky súhlasíte s platbou na dobierku, ďalej špecifikovanú predajcom.",
             "card_label": "Kreditná karta",
             "card_number": "Číslo karty",
             "card_expiration": "MM/RR",
@@ -134,7 +136,8 @@
             "klarna_slice_it": "Klarna mesačné splátky",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bankový prevod",
-            "sofort": "Sofort bankový prevod"
+            "sofort": "Sofort bankový prevod",
+            "deferred_payment": "Platba na dobierku"
         }
     },
     "discounts": {
