@@ -103,7 +103,7 @@
         "form": {
             "card_label": "信用卡",
             "card_number": "信用卡卡號",
-            "card_expiration": "信用卡到期：月份/年份",
+            "card_expiration": "MM/YY",
             "card_cvv": "CVV",
             "card_postal_code": "郵遞區號"
         },
