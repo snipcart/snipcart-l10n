@@ -82,6 +82,19 @@
         "forgot_your_password": "Forgot your password?",
         "close_form": "Go back"
     },
+    "forgot_password_form": {
+        "title": "Recover your password",
+        "instructions": "Enter your account's email address and we will send you a password reset link.",
+        "email": "Email",
+        "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
+        "action": "Send password reset email"
+    },
+    "reset_password_form": {
+        "title": "Reset your password",
+        "password": "New password",
+        "confirmation_password": "Re-enter your new password",
+        "action": "Reset password"
+    },
     "register_form": {
         "register": "Register",
         "already_have_an_account": "Already have an account?",
@@ -151,7 +164,7 @@
         "quantity": "x"
     },
     "errors": {
-        "default": "An error occured, try again later or contact us.",
+        "default": "An error occurred, try again later or contact us.",
         "promo_code_is_invalid": "This promo code isn't valid",
         "promocode_already_in_cart": "This promo code is already applied",
         "promocode_isnt_applicable": "This promo code isn't valid",
@@ -177,15 +190,15 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Order couldn’t be processed.",
-                "description": "You have not been charged. Please contact store owner for details."
+                "description": "You have not been charged. Please contact the store owner for details."
             },
             "product_crawling": {
-                "title": "Price of products in cart may have changed.",
-                "description": "Try removing and adding them to your cart. Please contact store owner for details."
+                "title": "Price of products in the cart may have changed.",
+                "description": "Try removing and adding them to your cart. Please contact the store owner for details."
             },
             "stock_validation": {
                 "title": "Product stock unavailable.",
-                "description": "Some products may be out of stock for selected quantity. Revise quantity or contact store owner for details."
+                "description": "Some products may be out of stock for selected quantity. Revise the quantity or contact the store owner for details."
             },
             "custom_fields_validation": {
                 "title": "Missing required information.",
@@ -193,7 +206,7 @@
             },
             "shipping_validation": {
                 "title": "Shipping method couldn't be validated.",
-                "description": "The selected shipping rate might have changed or is unavailable. Please contact store owner for details."
+                "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
             }
         },
         "shipping": {
@@ -207,7 +220,7 @@
             },
             "no_rates_found": {
                 "title": "No shipping methods are available for your order",
-                "description": "Please review shipping address or contact us."
+                "description": "Please review your shipping address or contact us."
             }
         },
         "payment_failed": {
@@ -226,6 +239,9 @@
         },
         "customer_exists": "This email is already used.",
         "customer_password_missmatch": "The two passwords must match.",
+        "customer_password_token_expired": "Your password recovery token has expired.",
+        "customer_password_token_invalid": "Your password recovery token is invalid.",
+        "customer_not_found": "The email address is not associated with any account.",
         "invalid_credentials": "Invalid email or password."
     },
     "customer_orders": {
