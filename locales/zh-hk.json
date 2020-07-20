@@ -3,8 +3,8 @@
         "edit": "編輯",
         "cancel": "取消",
         "continue_shopping": "繼續購物",
-        "back_to_checkout": "結帳去",
-        "checkout": "結帳",
+        "back_to_checkout": "前往付款",
+        "checkout": "付款",
         "apply": "確認",
         "type_address": "輸入地址",
         "use_this_address": "使用此地址",
@@ -21,21 +21,21 @@
     "item": {
         "quantity": "數量",
         "quantity_short": "數量",
-        "decrement_quantity": "增加數量",
-        "increment_quantity": "減少數量",
+        "decrement_quantity": "減少數量",
+        "increment_quantity": "增加數量",
         "remove_item": "移除此項目"
     },
     "cart": {
         "subtotal": "小計",
-        "shipping_taxes_calculated_at_checkout": "運費、稅金將於結帳時計算",
+        "shipping_taxes_calculated_at_checkout": "運費將於付款時計算",
         "loading": "我們正在更新您的購物車內容...",
         "secured_by": "Secured by Snipcart",
         "summary": "訂單內容",
         "empty": "您的購物車中沒有商品",
-        "invoice_number": "收據編號"
+        "invoice_number": "訂單編號"
     },
     "order": {
-        "loading": "我們正在取得您的訂單內容..."
+        "loading": "載入中..."
     },
     "discount_box": {
         "promo_code": "優惠代碼?",
@@ -43,14 +43,14 @@
         "promocode_applied": "優惠代碼已使用"
     },
     "address_form": {
-        "name": "姓名",
-        "email": "Email",
-        "address1": "地址",
-        "address2": "地址(選填)",
+        "name": "全名",
+        "email": "電郵",
+        "address1": "地址1",
+        "address2": "地址2",
         "city": "城市",
-        "country": "國家",
+        "country": "國家/地區",
         "postalCode": "郵遞區號",
-        "province": "行政區",
+        "province": "地區",
         "dont_see_address": "沒有看到我的地址"
     },
     "billing": {
@@ -101,8 +101,6 @@
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "延遲付款",
-            "deferred_payment_instructions": "如果您要下訂，表示您同意您將會在之後透過商家指定的付款方式付款。",
             "card_label": "信用卡",
             "card_number": "信用卡卡號",
             "card_expiration": "MM/YY",
@@ -136,8 +134,7 @@
             "klarna_slice_it": "Klarna monthly financing",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer",
-            "deferred_payment": "晚點結帳"
+            "sofort": "Sofort bank transfer"
         }
     },
     "discounts": {
@@ -145,7 +142,7 @@
     },
     "cart_summary": {
         "total": "總計",
-        "subtotal": "小計",
+        "subtotal": "小記",
         "shipping": "運費",
         "discount": "數量",
         "quantity": "x"
@@ -166,14 +163,6 @@
             "title": "您購物車中的部分商品已無販售",
             "description": "請查看您的訂單後再嘗試一次"
         },
-        "card": {
-            "invalid_number": "信用卡號碼無效",
-            "invalid_date": "信用卡過期日期無效",
-            "invalid_year": "信用卡過期年份無效",
-            "invalid_month": "信用卡過期月份無效",
-            "invalid_cvv": "信用卡背後三碼驗證無效",
-            "expired": "信用卡有效日期已過期"
-        },
         "order_validation": {
             "domain_crawling": {
                 "title": "訂單無法處理",
@@ -186,29 +175,11 @@
             "stock_validation": {
                 "title": "此商品無足夠的庫存",
                 "description": "部分商品已無足夠的庫存，請修改訂購量後，如有問題麻煩請聯絡客服人員"
-            },
-            "custom_fields_validation": {
-                "title": "缺少部分必須資訊",
-                "description": "購物車內的部分商品缺少了必要資訊，請確認填寫完畢後再送出"
-            },
-            "shipping_validation": {
-                "title": "寄送方法有誤",
-                "description": "你選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
             }
         },
         "shipping": {
-            "account_configuration": {
-                "title": "目前沒有可用的運送方式",
-                "description": "請稍候重試，如有問題麻煩請聯絡客服人員"
-            },
-            "rates_calculation": {
-                "title": "無法計算運費",
-                "description": "請稍候重試，如有問題麻煩請聯絡客服人員"
-            },
-            "no_rates_found": {
-                "title": "目前沒有可用的運送方式適合您的訂單",
-                "description": "請確認您的收件地址，如有問題麻煩請聯絡客服人員"
-            }
+            "title": "無法計算運費",
+            "description": "請稍候重試，如有問題麻煩請聯絡客服人員"
         },
         "payment_failed": {
             "title": "無法付款",
@@ -226,7 +197,11 @@
         },
         "customer_exists": "此 Email 已經被使用過了",
         "customer_password_missmatch": "密碼不相符",
-        "invalid_credentials": "Email 或是密碼有誤"
+        "invalid_credentials": "Email 或是密碼有誤",
+        "no_shipping_rates_found": {
+            "title": "無可用的寄送方式",
+            "description": "請確認您的地址，如有問題麻煩請聯絡客服人員"
+        }
     },
     "customer_orders": {
         "loading": "載入中..."

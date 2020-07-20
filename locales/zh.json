@@ -105,7 +105,7 @@
             "deferred_payment_instructions": "如果您要下訂，表示您同意您將會在之後透過商家指定的付款方式付款。",
             "card_label": "信用卡",
             "card_number": "信用卡卡號",
-            "card_expiration": "MM/YY",
+            "card_expiration": "信用卡到期：月份/年份",
             "card_cvv": "CVV",
             "card_postal_code": "郵遞區號"
         },

@@ -1,0 +1,241 @@
+{
+    "actions": {
+        "edit": "编辑",
+        "cancel": "取消",
+        "continue_shopping": "继续购物",
+        "back_to_checkout": "结帐去",
+        "checkout": "结帐",
+        "apply": "确认",
+        "type_address": "输入地址",
+        "use_this_address": "使用此地址",
+        "back_to_store": "返回商店",
+        "close_cart": "关闭购物车",
+        "show": "显示",
+        "hide": "隐藏",
+        "apply_changes": "更新"
+    },
+    "header": {
+        "title_cart_summary": "购物车",
+        "loading": "载入中..."
+    },
+    "item": {
+        "quantity": "数量",
+        "quantity_short": "数量",
+        "decrement_quantity": "增加数量",
+        "increment_quantity": "减少数量",
+        "remove_item": "移除此项目"
+    },
+    "cart": {
+        "subtotal": "小计",
+        "shipping_taxes_calculated_at_checkout": "运费、税金将于结帐时计算",
+        "loading": "我们正在更新您的购物车内容...",
+        "secured_by": "Secured by Snipcart",
+        "summary": "订单内容",
+        "empty": "您的购物车中没有商品",
+        "invoice_number": "收据编号"
+    },
+    "order": {
+        "loading": "我们正在取得您的订单内容..."
+    },
+    "discount_box": {
+        "promo_code": "优惠代码?",
+        "promo_code_placeholder": "优惠代码",
+        "promocode_applied": "优惠代码已使用"
+    },
+    "address_form": {
+        "name": "姓名",
+        "email": "Email",
+        "address1": "地址",
+        "address2": "地址(选填)",
+        "city": "城市",
+        "country": "国家",
+        "postalCode": "邮递区号",
+        "province": "行政区",
+        "dont_see_address": "没有看到我的地址"
+    },
+    "billing": {
+        "title": "帐单地址",
+        "address": "帐单地址",
+        "continue_to_shipping": "确认",
+        "use_different_shipping_address": "如果你的帐单地址与收件地址不同﹐请选择此项"
+    },
+    "customer": {
+        "information": "客户资讯"
+    },
+    "customer_dashboard": {
+        "my_account": "我的帐号",
+        "ordered_on": "订单成立于",
+        "total": "总计",
+        "status": "状态",
+        "order": "订单编号 %{invoice_number}",
+        "order_details": "订单资讯",
+        "loading": "载入中...",
+        "no_orders": "尚无订单",
+        "sign_out": "登出",
+        "show_more_orders": "再显示 %{smart_count} 笔订单 |||| 再显示 %{smart_count} 笔订单"
+    },
+    "signin_form": {
+        "signin": "登入",
+        "dont_have_an_account": "尚未成为会员?",
+        "email": "Email",
+        "password": "密码",
+        "forgot_your_password": "忘记密码?",
+        "close_form": "返回"
+    },
+    "register_form": {
+        "register": "注册",
+        "already_have_an_account": "已经是会员?",
+        "email": "Email",
+        "password": "密码",
+        "confirm_password": "确认密码"
+    },
+    "guest_checkout": {
+        "or": "或",
+        "continue_as_a_guest": "以访客身份继续"
+    },
+    "shipping": {
+        "title": "寄送方式",
+        "shipping_to": "寄送至:",
+        "address": "寄送地址",
+        "method": "寄送方法"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "延迟付款",
+            "deferred_payment_instructions": "如果您要下订，表示您同意您将会在之后透过商家指定的付款方式付款。",
+            "card_label": "信用卡",
+            "card_number": "信用卡卡号",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "邮递区号"
+        },
+        "still_pending_notice": "您的付款正在处理中",
+        "title": "付款方式",
+        "continue_to_payment": "前往付款方式",
+        "credit_card": "信用卡到期日",
+        "place_order": "送出",
+        "preparing_payment_session": "付款中...",
+        "processing_payment": "付款中...",
+        "checkout_with": "结帐方式",
+        "checkout_with_method": "以 %{method} 做为结帐方式",
+        "method_icon": "%{method} 图示",
+        "no_payment": "此笔订单不需要付款",
+        "methods": {
+            "card": "结帐方式",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "晚点结帐"
+        }
+    },
+    "discounts": {
+        "title": "折扣"
+    },
+    "cart_summary": {
+        "total": "总计",
+        "subtotal": "小计",
+        "shipping": "运费",
+        "discount": "数量",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "发生错误，请稍等后再试一次或联络我们的客服人员",
+        "promo_code_is_invalid": "此优惠代码无法使用",
+        "promocode_already_in_cart": "此优惠代码已经被使用过了",
+        "promocode_isnt_applicable": "此优惠代码无法使用",
+        "promo_code_is_expired": "此优惠代码过期了",
+        "stringEmpty": "此项不得为空白",
+        "required": "此项为必填",
+        "invalid_expiry_year_past": "信用卡已过期",
+        "email": "请使用正确的 Email",
+        "quantity_revised": "由于库存数目的关系，此笔订单已被更新",
+        "quantity_out_of_stock": "很抱歉，此商品已无库存，请从购物车移除后再继续购物",
+        "error_payment_items_are_invalid": {
+            "title": "您购物车中的部分商品已无贩售",
+            "description": "请查看您的订单后再尝试一次"
+        },
+        "card": {
+            "invalid_number": "信用卡号码无效",
+            "invalid_date": "信用卡过期日期无效",
+            "invalid_year": "信用卡过期年份无效",
+            "invalid_month": "信用卡过期月份无效",
+            "invalid_cvv": "信用卡背后三码验证无效",
+            "expired": "信用卡有效日期已过期"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "订单无法处理",
+                "description": "您没有被收款，如有问题麻烦请联络客服人员"
+            },
+            "product_crawling": {
+                "title": "您购物车内部分商品的价格已更新",
+                "description": "请试着移除此商品再重新加入购物车，如有问题麻烦请联络客服人员"
+            },
+            "stock_validation": {
+                "title": "此商品无足够的库存",
+                "description": "部分商品已无足够的库存，请修改订购量后，如有问题麻烦请联络客服人员"
+            },
+            "custom_fields_validation": {
+                "title": "缺少部分必须资讯",
+                "description": "购物车内的部分商品缺少了必要资讯，请确认填写完毕后再送出"
+            },
+            "shipping_validation": {
+                "title": "寄送方法有误",
+                "description": "你选择的寄送方法可能已经不再提供，或是运费计算的方式已经失效，麻烦请联络客服人员"
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "目前没有可用的运送方式",
+                "description": "请稍候重试，如有问题麻烦请联络客服人员"
+            },
+            "rates_calculation": {
+                "title": "无法计算运费",
+                "description": "请稍候重试，如有问题麻烦请联络客服人员"
+            },
+            "no_rates_found": {
+                "title": "目前没有可用的运送方式适合您的订单",
+                "description": "请确认您的收件地址，如有问题麻烦请联络客服人员"
+            }
+        },
+        "payment_failed": {
+            "title": "无法付款",
+            "description": "请稍候重试，如有问题麻烦请联络客服人员"
+        },
+        "payment_authorization": {
+            "title": "付款失败",
+            "default": "请确认您的付款资讯，如有问题麻烦请联络客服人员"
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "无法法处理付款",
+                "description": "我们无法处理您的付款，请您重试一次"
+            }
+        },
+        "customer_exists": "此 Email 已经被使用过了",
+        "customer_password_missmatch": "密码不相符",
+        "invalid_credentials": "Email 或是密码有误"
+    },
+    "customer_orders": {
+        "loading": "载入中..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "感谢您的订购",
+        "async_confirmation_notice": "您的订单已建立，系统正在处理中，订单确认信将于不久后寄出"
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "系统将于输入收件地址后计算出运费及税金"
+    }
+}
