@@ -12,7 +12,8 @@
         "close_cart": "Close cart",
         "show": "Show",
         "hide": "Hide",
-        "apply_changes": "Apply changes"
+        "apply_changes": "Apply changes",
+        "apply_discount":  "Apply discount"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -154,7 +155,8 @@
         }
     },
     "discounts": {
-        "title": "Discounts"
+        "title": "Discounts",
+        "conflict_notice": "Applying this discount will remove some discounts that are already in effect as they cannot be combined."
     },
     "cart_summary": {
         "total": "Total",
@@ -178,10 +180,6 @@
         "error_payment_items_are_invalid": {
             "title": "Some items in your cart are invalid",
             "description": "Please review your order, or try again later."
-        },
-        "discounts": {
-            "conflict": "Applying this discount will remove some discounts that are already in effect as they cannot be combined.",
-            "apply_action": "Apply discount"
         },
         "card": {
             "invalid_number": "The card's number is invalid.",
