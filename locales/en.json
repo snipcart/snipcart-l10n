@@ -13,7 +13,7 @@
         "show": "Show",
         "hide": "Hide",
         "apply_changes": "Apply changes",
-        "apply_discount":  "Apply discount"
+        "yes_use_it":  "Yes, use it"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -156,7 +156,7 @@
     },
     "discounts": {
         "title": "Discounts",
-        "conflict_notice": "Applying this discount will remove some discounts that are already in effect as they cannot be combined."
+        "conflict_notice": "Some discounts cannot be combined. Use this discount instead?"
     },
     "cart_summary": {
         "total": "Total",
