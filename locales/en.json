@@ -155,8 +155,7 @@
         }
     },
     "discounts": {
-        "title": "Discounts",
-        "conflict_notice": "Some discounts cannot be combined. Use this discount instead?"
+        "title": "Discounts"
     },
     "cart_summary": {
         "total": "Total",
@@ -188,6 +187,9 @@
             "invalid_month": "The card's expiration month is invalid.",
             "invalid_cvv": "The card's CVV is invalid.",
             "expired": "The card's expiration date is passed"
+        },
+        "discounts": {
+            "conflict": "Some discounts cannot be combined. Use this discount instead?"
         },
         "order_validation": {
             "domain_crawling": {
