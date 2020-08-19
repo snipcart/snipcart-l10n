@@ -21,6 +21,7 @@
     },
     "address_form": {
         "email": "Email",
+        "address1": "Strasse",
         "address2": "Adresszusatz",
         "province": "Kanton"
     },
