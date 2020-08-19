@@ -82,6 +82,19 @@
         "forgot_your_password": "忘記密碼?",
         "close_form": "返回"
     },
+    "forgot_password_form": {
+        "title": "忘記密碼",
+        "instructions": "請輸入註冊時使用的 Email ，您將會收到一封重新設定密碼的信件至此信箱",
+        "email": "Email",
+        "email_instructions": "重新設定密碼的連結已經寄送到此信箱，請透過該連結重新設定密碼",
+        "action": "寄送密碼重設 Email"
+    },
+    "reset_password_form": {
+        "title": "重新設定密碼",
+        "password": "新密碼",
+        "confirmation_password": "再輸入一次新密碼",
+        "action": "重新設定密碼"
+    },
     "register_form": {
         "register": "註冊",
         "already_have_an_account": "已經是會員?",
@@ -226,6 +239,9 @@
         },
         "customer_exists": "此 Email 已經被使用過了",
         "customer_password_missmatch": "密碼不相符",
+        "customer_password_token_expired": "重設密碼連結已經過期",
+        "customer_password_token_invalid": "重設密碼連結無效",
+        "customer_not_found": "該 Email 尚未建立過帳號",
         "invalid_credentials": "Email 或是密碼有誤"
     },
     "customer_orders": {
