@@ -100,16 +100,19 @@
     },
     "payment": {
         "form":{
+            "deferred_payment_title": "Paiement differé",
+            "deferred_payment_instructions": "En passant cette commande, vous acceptez de payer plus tard via le moyen de paiement identifié par le commerçant.",
             "card_label": "Carte de crédit",
             "card_number": "Numéro de carte",
             "card_expiration": "MM/AA",
             "card_cvv": "CVV",
             "card_postal_code": "Code postal"
         },
+        "still_pending_notice": "Votre paiement est en cours de traitement.",
         "title": "Paiement",
         "continue_to_payment": "Continuer au paiement",
         "credit_card": "Carte de crédit",
-        "place_order": "Placer la commande",
+        "place_order": "Passer la commande",
         "preparing_payment_session": "Préparation du paiement…",
         "processing_payment": "Paiement en cours…",
         "checkout_with": "Payer avec",
@@ -117,7 +120,23 @@
         "method_icon": "%{method} icon",
         "no_payment": "Aucun paiement n'est requis pour cette commande.",
         "methods": {
-            "card": "Carte de crédit"
+            "card": "Carte de crédit",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna Pay later",
+            "klarna_slice_it": "Klarna Slice it",
+            "p24": "Przelewy24",
+            "sepa_debit": "Virement SEPA",
+            "sofort": "Virement Sofort",
+            "deferred_payment": "Paiement différé"
         }
     },
     "discounts": {
