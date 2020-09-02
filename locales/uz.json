@@ -1,0 +1,261 @@
+{
+    "actions": {
+        "edit": "O'zgartirish",
+        "cancel": "Bekor qilish",
+        "continue_shopping": "Xaridni davom ettirish",
+        "back_to_checkout": "Buyurtmani rasmiylashtirishga qaytish",
+        "checkout": "Buyurtmani rasmiylashtirish",
+        "apply": "Qo'llash",
+        "type_address": "Manzilingizni kiriting",
+        "use_this_address": "Shu manzildan foydalanish",
+        "back_to_store": "Do'konga qaytish",
+        "close_cart": "Xarid savatini yopish",
+        "show": "Ko'rsatish",
+        "hide": "Yashirish",
+        "apply_changes": "O'zgarishlarni qo'llash",
+        "yes_use_it":  "Ha, bundan foydalanish"
+    },
+    "header": {
+        "title_cart_summary": "Savatdagi mahsulotlar",
+        "loading": "Yuklanmoqda..."
+    },
+    "item": {
+        "quantity": "Soni",
+        "quantity_short": "Adadi",
+        "decrement_quantity": "Ayirib hisoblash",
+        "increment_quantity": "Qo'shib hisoblash",
+        "remove_item": "Mahsulotni o'lib tashlash"
+    },
+    "cart": {
+        "subtotal": "Summa",
+        "shipping_taxes_calculated_at_checkout": "Yetkazib berish va QQS buyurtmani rasmiylashtirish vaqtida hisoblanadi.",
+        "loading": "Savatni yuklayapmiz...",
+        "secured_by": "Snipcart himoyasi",
+        "summary": "Jami",
+        "empty": "Sizning savatingiz bo'sh.",
+        "invoice_number": "Hisob raqami"
+    },
+    "order": {
+        "loading": "Buyurtmangiz ma'lumotlarini yig'ayapmiz..."
+    },
+    "discount_box": {
+        "promo_code": "Chegirma?",
+        "promo_code_placeholder": "Promokod",
+        "promocode_applied": "Narx chegirib tashlandi"
+    },
+    "address_form": {
+        "name": "Ism, Familiya",
+        "email": "Elektron pochta",
+        "address1": "Ko'cha, uy",
+        "address2": "Xonadon",
+        "city": "Shahar",
+        "country": "Davlat",
+        "postalCode": "Pochta indeksi",
+        "province": "Viloyat",
+        "dont_see_address": "Vu yerda manzilinmi ko'rmayapman"
+    },
+    "billing": {
+        "title": "To'lov ma'lumotlari",
+        "address": "To'lov manzili",
+        "continue_to_shipping": "Yetkazib berishga o'tish",
+        "use_different_shipping_address": "Yetkazib berish uchun boshqa manzil ko'rsatish"
+    },
+    "customer": {
+        "information": "Xaridorning ma'lumotlari"
+    },
+    "customer_dashboard": {
+        "my_account": "Mening kabinetim",
+        "ordered_on": "Buyurtma sanasi",
+        "total": "Summa",
+        "status": "Holati",
+        "order": "Buyurtma %{invoice_number}",
+        "order_details": "Buyurtmaning tafsilotlari",
+        "loading": "Yuklanmoqda...",
+        "no_orders": "Buyurtmalar yo'q.",
+        "sign_out": "Chiqish",
+        "show_more_orders": "Yana %{smart_count} buyurtmani ko'rsatish |||| Yana %{smart_count} buyurtmalarni ko'rsatish"
+    },
+    "signin_form": {
+        "signin": "Kirish",
+        "dont_have_an_account": "Ro'yxatdan o'tmaganmisiz?",
+        "email": "Elektron pochta",
+        "password": "parol",
+        "forgot_your_password": "Parolni unutdingizmi?",
+        "close_form": "Orqaga"
+    },
+    "forgot_password_form": {
+        "title": "Parolni tiklash",
+        "instructions": "Elektron pochts msnzilingizni kiriting? va biz sizga parolni tiklash uchun yo'riqnomani yuboramiz.",
+        "email": "Elektron pochta",
+        "email_instructions": "Sizga xat orqali manzil yuborildi. Parolni tiklash uchun xatdagi havolaga o'ting.",
+        "action": "Parolni tiklash uchun xatni jo'natish"
+    },
+    "reset_password_form": {
+        "title": "Parolni yangilash",
+        "password": "Yangi parol",
+        "confirmation_password": "Yangi parolni yana bir bor qaytaring",
+        "action": "Parolni yangilash"
+    },
+    "register_form": {
+        "register": "Ro'yxatdan o'tish",
+        "already_have_an_account": "Ro'yxatdan o'tganmisiz?",
+        "email": "Elektron pochta",
+        "password": "Parol",
+        "confirm_password": "Parolni tasdiqlash"
+    },
+    "guest_checkout": {
+        "or": "Yoki",
+        "continue_as_a_guest": "Ro'yxatdan o'tmasdan davom etish"
+    },
+    "shipping": {
+        "title": "Yetkazib bersih",
+        "shipping_to": "Yetkazib berish manzili",
+        "address": "Manzil",
+        "method": "Yetkazib berish usuli"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Keyinga qoldirilgan to'lov",
+            "deferred_payment_instructions": "Buyurtma berayotib siz mahsulot uchun keyinchalik, sotuvchi ko'rsatgan uslubda pul to'lashga roziligingizni tasdiqlaysiz.",
+            "card_label": "Bank kartasi",
+            "card_number": "Karta raqami",
+            "card_expiration": "Oy/Yil",
+            "card_cvv": "CVV",
+            "card_postal_code": "Poochta indeksi"
+        },
+        "still_pending_notice": "To'lov o'tmoqda.",
+        "title": "To'lov",
+        "continue_to_payment": "To'lashga",
+        "credit_card": "Bank kartasi",
+        "place_order": "Buyurtmani rasmiylashtirish",
+        "preparing_payment_session": "To'lovga tayyorlanish...",
+        "processing_payment": "To'lov ustida ishlanmoqda...",
+        "checkout_with": "... yordamida buyurtma berish",
+        "checkout_with_method": "%{method} uslubida buyurtma berish",
+        "method_icon": "%{method} icon",
+        "no_payment": "Ushbu buyurtma uchun to'lash talab qilinmaydi.",
+        "methods": {
+            "card": "Bank kartasi",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Оплатить позже"
+        }
+    },
+    "discounts": {
+        "title": "Chegirmalar"
+    },
+    "cart_summary": {
+        "total": "Summa",
+        "subtotal": "Jami",
+        "shipping": "Yetklazib berish",
+        "discount": "Chegirmalar",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Xato yuz berdi. Qaytadan urinib ko'ring yoki biz bilan bog'laning.",
+        "promo_code_is_invalid": "Xato promokod",
+        "promocode_already_in_cart": "Promokod oldin ishlatilgan",
+        "promocode_isnt_applicable": "Promokod amal qilmaydi",
+        "promo_code_is_expired": "Promokod muddati tugagan",
+        "stringEmpty": "To'ldirish talab qilinadi",
+        "required": "Talab qilinadi",
+        "invalid_expiry_year_past": "Kartaning amal qilish muddati tugagan.",
+        "email": "Iltimos, to'g'ri e-mail manzilingizni ko'rsating.",
+        "quantity_revised": "Ombordagi cheklovlar tufayli mahsulot soni o'zgartirildi.",
+        "quantity_out_of_stock": "Afsuski, bu mahsulot omborda yo'q. Davom etish uchun uni xarid savatidan o'chirib tashlang.",
+        "error_payment_items_are_invalid": {
+            "title": "Xarid savatingizdagi ayrim mahsulotlarda xato bor.",
+            "description": "Iltimos, buyurtmangizni tekshiring va qaytadan urinib ko'ring."
+        },
+        "card": {
+            "invalid_number": "Karta raqami xato kiritildi.",
+            "invalid_date": "Kartaning amal qilish muddati xato kiritildi.",
+            "invalid_year": "Kartaning amal qilish yili xato ko'rsatilgan.",
+            "invalid_month": "Kartaning amal qilish oyi xato ko'rsatilgan.",
+            "invalid_cvv": "CVV xato yozildi.",
+            "expired": "Kartaning amal qilish muddati tugagan."
+        },
+        "discounts": {
+            "conflict": "Ayrim chegirmalar birgalikda ishlamaydi. Faqat shu chegirma bilan olasizmi?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Buyurtmani rasmiylashtirishning imkoni yo'q.",
+                "description": "Pul yechib olinmadi. Iltimos, tafsilotlarni bilish uchun do'kon ma'muriyati bilan bog'laning."
+            },
+            "product_crawling": {
+                "title": "Savatdagi mahsulotlarning narxi o'zgarishi mumkin.",
+                "description": "Savatdan o'chirib tashlang va qaytadan qo'shing. Iltimos, tafsilotlarni bilish uchun do'kon ma'muriyati bilan bog'laning."
+            },
+            "stock_validation": {
+                "title": "Bu sondagi mahsulot sotuvda yo'q.",
+                "description": "Omborda ko'rsatilgan miqdorda mahsulot yo'q. Mahsulot sonini o'zgartiring yoki do'kkon bilan bog'laning."
+            },
+            "custom_fields_validation": {
+                "title": "Kerakli ma'lumotni bermadingiz.",
+                "description": "Savatdagi ayrim mahsulotlarda muhim axborot ko'rsatilmagan. Iltimos, ularni ko'rsating va qaytadan urinib ko'ring."
+            },
+            "shipping_validation": {
+                "title": "Yetkazib berish usuli xato.",
+                "description": "Tanlangan yetkazib berish tariflari eskirgan yoki hozir ishlamaydi. Do'kon bilan bog'laning."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Hozirgi vaqtda yetkazib berilmaydi",
+                "description": "Keyinroq urinib ko'ring yoki biz bilan bog'laning."
+            },
+            "rates_calculation": {
+                "title": "Buyurtmangiz uchun yetkazib berish xarajatlarini hisoblay olmadik.",
+                "description": "Keyinroq urinib ko'ring yoki ma'lumot uchun biz bilan bog'laning."
+            },
+            "no_rates_found": {
+                "title": "Buyurtmangiz uchun yetkazib berishning biror turi mavjud emas.",
+                "description": "Iltimos, yetkazib berish manzilingiz bilan tanishing yoki ma'lumot uchun bizga bog'laning."
+            }
+        },
+        "payment_failed": {
+            "title": "To'lovni amalga oshira olmayapmiz",
+            "description": "Keyinroq urinib ko'ring yoki biz bilan bog'laning."
+        },
+        "payment_authorization": {
+            "title": "Pulni yechib olishda xatolik",
+            "default": "Iltimos, to'lov haqidagi ma'lumotlarni yangilang."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "To'lovni amalga oshira olmayapmiz",
+                "description": "To'lash ma'lumotlaringiz to'g'riligini tekshiring. Keyinroq urinib ko'ring."
+            }
+        },
+        "customer_exists": "Bu elektron manzil boshqa profil tomonidan ishlatilyalpti.",
+        "customer_password_missmatch": "Parollar mos kelishi kerak.",
+        "customer_password_token_expired": "Parolni yangilash tokeni uchun ajratilgan vaqt o'tib bo'lgan.",
+        "customer_password_token_invalid": "Sizdagi parolni yangilash tokeni amal qilmaydi.",
+        "customer_not_found": "Bu e-mail hech qanday akkaunt bilan bog'liq emas.",
+        "invalid_credentials": "Noto'g'ri elektron pochta yoki parol."
+    },
+    "customer_orders": {
+        "loading": "Yuklanmoqda..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Buyurtma uchun rahmat!",
+        "async_confirmation_notice": "Вuyurtmangiz qabul qilindi va ishlab chiqilmoqda. Tez orada sizga xabar beriladi."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Yetkazib berish harajatlari manzilni kiritganingizdan so'ng hisoblanadi."
+    }
+}
