@@ -233,7 +233,7 @@
         },
         "payment_authorization": {
             "title": "Nie udało się przetworzyć płatności",
-            "default": "Sprawdź ponownie dane dostawy oraz metodę płatności.",
+            "default": "Sprawdź ponownie dane dostawy oraz metodę płatności."
         },
         "authentication_challenge": {
             "failed": {
