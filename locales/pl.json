@@ -1,0 +1,261 @@
+{
+    "actions": {
+        "edit": "Edytuj",
+        "cancel": "Anuluj",
+        "continue_shopping": "Kontynuuj zakupy",
+        "back_to_checkout": "Wróć do kasy",
+        "checkout": "Do kasy",
+        "apply": "Zastosuj",
+        "type_address": "Wpisz swój adres",
+        "use_this_address": "Użyj tego adresu",
+        "back_to_store": "Powrót do sklepu",
+        "close_cart": "Zamknij koszyk",
+        "show": "Pokaż",
+        "hide": "Ukryj",
+        "apply_changes": "Zastosuj zmiany",
+        "yes_use_it":  "Tak, użyj tego"
+    },
+    "header": {
+        "title_cart_summary": "Podsumowanie koszyka",
+        "loading": "Ładowanie..."
+    },
+    "item": {
+        "quantity": "Ilość",
+        "quantity_short": "Szt.",
+        "decrement_quantity": "Zmniejsz ilość",
+        "increment_quantity": "Zwiększ ilość",
+        "remove_item": "Usuń przedmiot"
+    },
+    "cart": {
+        "subtotal": "Suma częściowa",
+        "shipping_taxes_calculated_at_checkout": "Koszty dostawy i podatki będą doliczone przy podsumowaniu.",
+        "loading": "Tworzymy Twój koszyk...",
+        "secured_by": "Zabezpieczone przez Snipcart",
+        "summary": "Podsumowanie zamówienia",
+        "empty": "Twój koszyk jest pusty.",
+        "invoice_number": "Numer faktury."
+    },
+    "order": {
+        "loading": "Dane Twojego zamówienia ładują się..."
+    },
+    "discount_box": {
+        "promo_code": "Masz kod promocyjny?",
+        "promo_code_placeholder": "Kod promocyjny",
+        "promocode_applied": "Kod promocyjny dodany"
+    },
+    "address_form": {
+        "name": "Imię i nazwisko",
+        "email": "Email",
+        "address1": "Ulica",
+        "address2": "nr lokalu",
+        "city": "Miasto",
+        "country": "Kraj",
+        "postalCode": "Kod pocztowy",
+        "province": "Województwo",
+        "dont_see_address": "Nie widzę swojego adresu"
+    },
+    "billing": {
+        "title": "Dane osobowe",
+        "address": "Adres wysyłki",
+        "continue_to_shipping": "Przejdź do dostawy",
+        "use_different_shipping_address": "Użyj innego adresu dostawy"
+    },
+    "customer": {
+        "information": "Informacje o kupującym"
+    },
+    "customer_dashboard": {
+        "my_account": "Moje konto",
+        "ordered_on": "Zamówione",
+        "total": "W sumie",
+        "status": "Status",
+        "order": "Zamówienie nr %{invoice_number}",
+        "order_details": "Szczegóły zamówienia",
+        "loading": "Ładowanie...",
+        "no_orders": "Brak zamówień.",
+        "sign_out": "Wyloguj się",
+        "show_more_orders": "Pokaż %{smart_count} więcej zamówień |||| Pokaź %{smart_count} więcej zamówień"
+    },
+    "signin_form": {
+        "signin": "Zaloguj się",
+        "dont_have_an_account": "Nie posiadasz konta?",
+        "email": "Email",
+        "password": "Hasło",
+        "forgot_your_password": "Zapomniałeś hasła?",
+        "close_form": "Wróć"
+    },
+    "forgot_password_form": {
+        "title": "Odzyskaj hasło",
+        "instructions": "Podaj adres email połączony ze swoim kontem, a my wyślemy Ci link do zresetowania hasłą.",
+        "email": "Email",
+        "email_instructions": "Email zawierający link do zmiany hasła został do Ciebie wysłany. Kliknij na niego, aby zresetować hasło.",
+        "action": "Wyślij email resetujący hasło"
+    },
+    "reset_password_form": {
+        "title": "Zresetuj hasło",
+        "password": "Nowe hasło",
+        "confirmation_password": "Powtórz nowe hasło",
+        "action": "Resetuj hasło"
+    },
+    "register_form": {
+        "register": "Rejestracja",
+        "already_have_an_account": "Masz już konto?",
+        "email": "Email",
+        "password": "Hasło",
+        "confirm_password": "Potwierdź hasło"
+    },
+    "guest_checkout": {
+        "or": "lub",
+        "continue_as_a_guest": "Kontynuuj jako gość"
+    },
+    "shipping": {
+        "title": "Dostawa",
+        "shipping_to": "Dostawa do:",
+        "address": "Adres dostawy",
+        "method": "Metoda dostawy"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Odroczenie płatności",
+            "deferred_payment_instructions": "Składając zamówienie, zobowiązujesz się do późniejszej zapłaty poprzez wybraną metodę płatności.",
+            "card_label": "Karta kredytowa",
+            "card_number": "Numer karty",
+            "card_expiration": "MM/RR",
+            "card_cvv": "CVV",
+            "card_postal_code": "Kod pocztowy"
+        },
+        "still_pending_notice": "Twoje zamówienie jest przetwarzane.",
+        "title": "Płatnośc",
+        "continue_to_payment": "Kontynuuj do płatności",
+        "credit_card": "Karta kredytowa",
+        "place_order": "Złóż zamówienie",
+        "preparing_payment_session": "Przygotowywanie płatności...",
+        "processing_payment": "Przetwarzanie płatności...",
+        "checkout_with": "Wybrana płatność:",
+        "checkout_with_method": "Płatnośc: %{method}",
+        "method_icon": "%{method} ikona",
+        "no_payment": "Do tego zamówienia nie potrzeba płatności.",
+        "methods": {
+            "card": "Karta kredytowa",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Pay later"
+        }
+    },
+    "discounts": {
+        "title": "Zniżki"
+    },
+    "cart_summary": {
+        "total": "Razem",
+        "subtotal": "Częściowo",
+        "shipping": "Dostawa",
+        "discount": "Zniżki",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Wystąpił błąd, spróbuj ponownie lub skontaktuj się z nami.",
+        "promo_code_is_invalid": "Kod promocyjny nieprawidłowy",
+        "promocode_already_in_cart": "Kod promocyjny został już dodany",
+        "promocode_isnt_applicable": "Kod promocyjny nieprawidłowy",
+        "promo_code_is_expired": "Kod promocyjny nieaktualny",
+        "stringEmpty": "To pole jest wymagane",
+        "required": "To pole jest wymagane",
+        "invalid_expiry_year_past": "Karta jest nieważna",
+        "email": "Proszę podać poprawny adres email",
+        "quantity_revised": "Ilość została poprawiona ze względu na ilości magazynowe.",
+        "quantity_out_of_stock": "Niestety, tego przedmiotu nie ma na magazynie, usuń go z koszyka aby kontynuować zakupy.",
+        "error_payment_items_are_invalid": {
+            "title": "Niektóre przedmioty w Twoim koszyku są nieprawidłowe.",
+            "description": "Proszę sprawdź jeszcze raz swoje zamówienie, lub spróbuj ponownie."
+        },
+        "card": {
+            "invalid_number": "Numer karty jest nieprawidłowy,",
+            "invalid_date": "Data ważności karty (dzień) jest nieprawidłowa.",
+            "invalid_year": "Data ważności karty (rok) jest nieprawidłowa.",
+            "invalid_month": "Data ważności karty (miesiąc) jest nieprawidłowa.",
+            "invalid_cvv": "Kod CVV podanej karty jest nieprawidłowy.",
+            "expired": "Data ważności karty jest przedawniona"
+        },
+        "discounts": {
+            "conflict": "Niektóre zniżki nie mogą być łączone. Zastosować tę zniżkę?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Zamówienie nie mogło zostać przetworzone.",
+                "description": "Nie zostałeś obciążony płątnością. Proszę skontaktuj się z nami."
+            },
+            "product_crawling": {
+                "title": "Cena produktu w koszyku mogła się zmienić.",
+                "description": "Spróbuj usunąc przedmiot z koszyka i dodać go ponownie. Skontaktuj się z nami w razie pytań."
+            },
+            "stock_validation": {
+                "title": "Produkt niedostępny w takiej ilości.",
+                "description": "Niektóre produkty mogą być w mniejszej ilości magazynowej niż wybrane. Zmniejsz ilość w koszyku lub skontaktuj się z nami."
+            },
+            "custom_fields_validation": {
+                "title": "Nie wypełniono wszystkich pól.",
+                "description": "Niektóre produkty w koszyku nie mają wypełnionych obowiązkowych pól. Uzupełnij pola, aby kontynuować."
+            },
+            "shipping_validation": {
+                "title": "Metoda dostawy niepoprawna.",
+                "description": "Wybrana metoda płatności mogła się zmienić albo jest już niedostępna. Skontaktuj się z nami, aby uzyskać szczegóły."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Żadna metoda dostawy nie jest obecnie dostępna",
+                "description": "Spróbuj ponownie później lub skontaktuj się z nami, aby otrzymać pomoc."
+            },
+            "rates_calculation": {
+                "title": "Nie możemy obliczyć kosztów dostawy dla Twojego zamówienia",
+                "description": "Spróbuj ponownie później lub skontaktuj się z nami, aby otrzymać pomoc."
+            },
+            "no_rates_found": {
+                "title": "Żadna metoda płatności nie jest dostępna dla Twojego zamówienia",
+                "description": "Zmień swój adres dostawy lub skontaktuj się z nami, aby otrzymać pomoc."
+            }
+        },
+        "payment_failed": {
+            "title": "Nie udało się przetworzyć płatności",
+            "description": "Spróbuj ponownie później lub skontaktuj się z nami, aby otrzymać pomoc."
+        },
+        "payment_authorization": {
+            "title": "Nie udało się przetworzyć płatności",
+            "default": "Sprawdź ponownie dane dostawy oraz metodę płatności.",
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Nie udało się przetworzyć płatności",
+                "description": "Nie byliśmy w stanie uwierzytelnić informacji o płatności. Prosimy spróbować ponownie później."
+            }
+        },
+        "customer_exists": "Ten adres email jest już używany.",
+        "customer_password_missmatch": "Hasła muszą być takie same.",
+        "customer_password_token_expired": "Link do odzyskiwania hasła jest już nieważny.",
+        "customer_password_token_invalid": "Link do odzyskiwania hasła jest już nieprawidłowy.",
+        "customer_not_found": "Ten adres email nie jest powiązany z żadnym kontem.",
+        "invalid_credentials": "Nieprawidłowy email lub hasło."
+    },
+    "customer_orders": {
+        "loading": "Ładowanie..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Dziękujemy za złożenie zamówienia",
+        "async_confirmation_notice": "Twoje zamówienie zostało złożone i jest w tej chwili przetwarzane. Wkrótce otrzymasz potwierdzenie."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Koszty dostawy i podatki będą obliczone, gdy podasz adres dostawy."
+    }
+}
