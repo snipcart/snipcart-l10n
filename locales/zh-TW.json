@@ -12,7 +12,8 @@
         "close_cart": "關閉購物車",
         "show": "顯示",
         "hide": "隱藏",
-        "apply_changes": "更新"
+        "apply_changes": "更新",
+        "yes_use_it":  "確定使用"
     },
     "header": {
         "title_cart_summary": "購物車",
@@ -81,6 +82,19 @@
         "password": "密碼",
         "forgot_your_password": "忘記密碼?",
         "close_form": "返回"
+    },
+    "forgot_password_form": {
+        "title": "重置您的密碼",
+        "instructions": "請輸入您的 Email 我們會寄送一封含有重新設定密碼連結的信給您",
+        "email": "Email",
+        "email_instructions": "一封含有重新設定密碼連結的信已經寄給您了，請點該連結重新設定密碼",
+        "action": "寄送重新設定密碼的 Email"
+    },
+    "reset_password_form": {
+        "title": "重設密碼",
+        "password": "新密碼",
+        "confirmation_password": "再次輸入新密碼",
+        "action": "設定新密碼"
     },
     "register_form": {
         "register": "註冊",
@@ -174,6 +188,9 @@
             "invalid_cvv": "信用卡背後三碼驗證無效",
             "expired": "信用卡有效日期已過期"
         },
+        "discounts": {
+            "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
+        },
         "order_validation": {
             "domain_crawling": {
                 "title": "訂單無法處理",
@@ -226,6 +243,9 @@
         },
         "customer_exists": "此 Email 已經被使用過了",
         "customer_password_missmatch": "密碼不相符",
+        "customer_password_token_expired": "您的重設密碼連結已失效",
+        "customer_password_token_invalid": "您的重設密碼連結已失效",
+        "customer_not_found": "此 Email 尚未建立帳號",
         "invalid_credentials": "Email 或是密碼有誤"
     },
     "customer_orders": {
