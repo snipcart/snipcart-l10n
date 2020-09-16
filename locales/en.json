@@ -66,12 +66,16 @@
     "customer_dashboard": {
         "my_account": "My account",
         "ordered_on": "Ordered on",
+        "next_billing_date": "Next billing date",
+        "price": "Price",
         "total": "Total",
         "status": "Status",
         "order": "Order %{invoice_number}",
         "order_details": "Order details",
         "loading": "Loading...",
         "no_orders": "No orders found.",
+        "no_subscriptions": "No subscriptions found.",
+        "view_invoice": "View invoice",
         "sign_out": "Sign out",
         "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders"
     },
