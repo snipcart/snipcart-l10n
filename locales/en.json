@@ -185,12 +185,21 @@
             "description": "Please review your order, or try again later."
         },
         "card": {
-            "invalid_number": "The card's number is invalid.",
+            "invalid_number": "The card's number is invalidThe card's number is invalid..",
             "invalid_date": "The card's expiration date is invalid.",
             "invalid_year": "The card's expiration year is invalid.",
             "invalid_month": "The card's expiration month is invalid.",
             "invalid_cvv": "The card's CVV is invalid.",
-            "expired": "The card's expiration date is passed"
+            "expired": "The card's expiration date is passed.",
+            "declined": "The card has been declined.",
+            "address_invalid": "The card’s address is incorrect. Check the card’s address or use a different card.",
+            "insufficient_funds": "The account did not have sufficient funds to cover the transaction amount.",
+            "square": {
+                "card_not_supported": ""
+            }
+        },
+        "transaction": {
+            "declined": "An error occurred while processing the card. Try again later or with a different payment method."
         },
         "discounts": {
             "conflict": "Some discounts cannot be combined. Use this discount instead?"
