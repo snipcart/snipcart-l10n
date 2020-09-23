@@ -190,7 +190,15 @@
             "invalid_year": "The card's expiration year is invalid.",
             "invalid_month": "The card's expiration month is invalid.",
             "invalid_cvv": "The card's CVV is invalid.",
-            "expired": "The card's expiration date is passed"
+            "invalid_expiration": "The card's expiration date is invalid.",
+            "declined": "The card has been declined. Please call your card issuer for more information.",
+            "invalid_address": "The card’s address is incorrect.",
+            "insufficient_funds": "The account did not have sufficient funds to cover the transaction amount.",
+            "card_not_supported": "The card is not supported in the geographic region.",
+            "currency_not_supported": "The currency is not currently supported."
+        },
+        "transaction": {
+            "declined": "An error occurred while processing the card. Try again later or with a different payment method."
         },
         "discounts": {
             "conflict": "Some discounts cannot be combined. Use this discount instead?"
