@@ -185,8 +185,7 @@
             "invalid_date": "Data ważności karty (dzień) jest nieprawidłowa.",
             "invalid_year": "Data ważności karty (rok) jest nieprawidłowa.",
             "invalid_month": "Data ważności karty (miesiąc) jest nieprawidłowa.",
-            "invalid_cvv": "Kod CVV podanej karty jest nieprawidłowy.",
-            "expired": "Data ważności karty jest przedawniona"
+            "invalid_cvv": "Kod CVV podanej karty jest nieprawidłowy."
         },
         "discounts": {
             "conflict": "Niektóre zniżki nie mogą być łączone. Zastosować tę zniżkę?"

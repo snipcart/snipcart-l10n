@@ -185,8 +185,7 @@
             "invalid_date": "Kartaning amal qilish muddati xato kiritildi.",
             "invalid_year": "Kartaning amal qilish yili xato ko'rsatilgan.",
             "invalid_month": "Kartaning amal qilish oyi xato ko'rsatilgan.",
-            "invalid_cvv": "CVV xato yozildi.",
-            "expired": "Kartaning amal qilish muddati tugagan."
+            "invalid_cvv": "CVV xato yozildi."
         },
         "discounts": {
             "conflict": "Ayrim chegirmalar birgalikda ishlamaydi. Faqat shu chegirma bilan olasizmi?"

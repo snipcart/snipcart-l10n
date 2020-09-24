@@ -185,8 +185,7 @@
             "invalid_date": "Das Ablaufdatum der Karte ist ungültig.",
             "invalid_year": "Das Ablaufjahr der Karte ist ungültig.",
             "invalid_month": "Der Verfallmonat der Karte ist ungültig.",
-            "invalid_cvv": "Der CVV der Karte ist ungültig.",
-            "expired": "Das Ablaufdatum der Karte ist überschritten"
+            "invalid_cvv": "Der CVV der Karte ist ungültig."
         },
         "discounts": {
             "conflict": "Einige Rabatte können nicht kombiniert werden. Nutzen Sie stattdessen diesen Rabatt?"
