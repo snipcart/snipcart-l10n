@@ -171,7 +171,8 @@
             "invalid_date": "信用卡过期日期无效",
             "invalid_year": "信用卡过期年份无效",
             "invalid_month": "信用卡过期月份无效",
-            "invalid_cvv": "信用卡背后三码验证无效"
+            "invalid_cvv": "信用卡背后三码验证无效",
+            "expired": "信用卡有效日期已过期"
         },
         "order_validation": {
             "domain_crawling": {

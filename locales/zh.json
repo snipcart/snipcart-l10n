@@ -185,7 +185,8 @@
             "invalid_date": "信用卡過期日期無效",
             "invalid_year": "信用卡過期年份無效",
             "invalid_month": "信用卡過期月份無效",
-            "invalid_cvv": "信用卡背後三碼驗證無效"
+            "invalid_cvv": "信用卡背後三碼驗證無效",
+            "expired": "信用卡有效日期已過期"
         },
         "discounts": {
             "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
