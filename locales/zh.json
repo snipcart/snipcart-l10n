@@ -66,12 +66,16 @@
     "customer_dashboard": {
         "my_account": "我的帳號",
         "ordered_on": "訂單成立於",
+        "next_billing_date": "下次出帳日",
+        "price": "價格",
         "total": "總計",
         "status": "狀態",
         "order": "訂單編號 %{invoice_number}",
         "order_details": "訂單資訊",
         "loading": "載入中...",
         "no_orders": "尚無訂單",
+        "no_subscriptions": "無訂閱制項目",
+        "view_invoice": "查看訂單",
         "sign_out": "登出",
         "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單"
     },

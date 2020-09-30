@@ -82,3 +82,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 \.DS_Store
+
+
+# IDE Settings
+.idea
