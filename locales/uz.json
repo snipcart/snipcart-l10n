@@ -52,7 +52,7 @@
         "country": "Davlat",
         "postalCode": "Pochta indeksi",
         "province": "Viloyat",
-        "dont_see_address": "Vu yerda manzilinmi ko'rmayapman"
+        "dont_see_address": "To'liq manzilni ko'rsatmoqchiman"
     },
     "billing": {
         "title": "To'lov ma'lumotlari",
