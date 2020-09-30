@@ -191,6 +191,7 @@
             "invalid_month": "The card's expiration month is invalid.",
             "invalid_cvv": "The card's CVV is invalid.",
             "invalid_expiration": "The card's expiration date is invalid.",
+            "expired": "The credit card is expired",
             "declined": "The card has been declined. Please call your card issuer for more information.",
             "invalid_address": "The card’s address is incorrect.",
             "insufficient_funds": "The account did not have sufficient funds to cover the transaction amount.",
