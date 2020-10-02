@@ -124,14 +124,14 @@
             "card_postal_code": "Kod pocztowy"
         },
         "still_pending_notice": "Twoje zamówienie jest przetwarzane.",
-        "title": "Płatnośc",
+        "title": "Płatność",
         "continue_to_payment": "Kontynuuj do płatności",
         "credit_card": "Karta kredytowa",
         "place_order": "Złóż zamówienie",
         "preparing_payment_session": "Przygotowywanie płatności...",
         "processing_payment": "Przetwarzanie płatności...",
         "checkout_with": "Wybrana płatność:",
-        "checkout_with_method": "Płatnośc: %{method}",
+        "checkout_with_method": "Płatność: %{method}",
         "method_icon": "%{method} ikona",
         "no_payment": "Do tego zamówienia nie potrzeba płatności.",
         "methods": {
