@@ -70,6 +70,8 @@
         "order_details": "Détails de la commande",
         "loading": "Chargement…",
         "no_orders": "Aucune commande trouvée.",
+        "no_subscriptions": "Aucun abonnement trouvé.",
+        "view_invoice": "Voir la facture",
         "sign_out": "Déconnexion",
         "show_more_orders": "Afficher une commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires"
     },
