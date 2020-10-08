@@ -13,7 +13,7 @@
         "show": "Show",
         "hide": "Hide",
         "apply_changes": "Apply changes",
-        "yes_use_it":  "Yes, use it"
+        "yes_use_it": "Yes, use it"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -24,7 +24,18 @@
         "quantity_short": "Qty",
         "decrement_quantity": "Decrement quantity",
         "increment_quantity": "Increment quantity",
-        "remove_item": "Remove item"
+        "remove_item": "Remove item",
+        "recurrence": {
+            "daily": "day |||| %{smart_count} days",
+            "weekly": "week |||| %{smart_count} weeks",
+            "monthly": "month |||| %{smart_count} months",
+            "yearly": "year |||| %{smart_count} years"
+        }
+    },
+    "subscription": {
+        "plan": "Plan",
+        "billed_on": "Billed on",
+        "payment_amount": "Payment amount"
     },
     "cart": {
         "subtotal": "Subtotal",
