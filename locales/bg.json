@@ -1,0 +1,287 @@
+{
+    "actions": {
+        "edit": "Промени",
+        "cancel": "Отмяна",
+        "continue_shopping": "Продължи с пазаруването",
+        "back_to_checkout": "Обратно към плащането",
+        "checkout": "Поръчка",
+        "apply": "Приложи",
+        "type_address": "Въведи своя адрес",
+        "use_this_address": "Използвай този адрес",
+        "back_to_store": "Обратно към магазина",
+        "close_cart": "Затвори количката",
+        "show": "Покажи",
+        "hide": "Скрий",
+        "apply_changes": "Приложи промените",
+        "yes_use_it": "Да, използвай го"
+    },
+    "header": {
+        "title_cart_summary": "Обобщение на количката",
+        "loading": "Зарежда..."
+    },
+    "item": {
+        "quantity": "Количество",
+        "quantity_short": "Кол.",
+        "decrement_quantity": "Намали количеството",
+        "increment_quantity": "Увеличи количеството",
+        "remove_item": "Премахни артикула",
+        "recurrence": {
+            "daily": "ден |||| %{smart_count} дни",
+            "weekly": "седмица |||| %{smart_count} седмици",
+            "monthly": "месец |||| %{smart_count} месеци",
+            "yearly": "година |||| %{smart_count} години"
+        }
+    },
+    "subscription": {
+        "plan": "План",
+        "billed_on": "Таксуван на",
+        "payment_amount": "Платена сума"
+    },
+    "cart": {
+        "subtotal": "Субтотал",
+        "shipping_taxes_calculated_at_checkout": "Доставката и таксите ще бъдат изчислени при плащането.",
+        "loading": "Ние подготвяме твоята количка...",
+        "secured_by": "Подсигурено от Snipcart",
+        "summary": "Обобщение на поръчката",
+        "empty": "Твоята количка е празна.",
+        "invoice_number": "Номер на фактура"
+    },
+    "order": {
+        "loading": "Ние подготвяме детайлите за твоята поръчка..."
+    },
+    "discount_box": {
+        "promo_code": "Имаш промо код?",
+        "promo_code_placeholder": "Промо код",
+        "promocode_applied": "Промоцията е приложена"
+    },
+    "address_form": {
+        "name": "Пълно име",
+        "email": "Е-мейл",
+        "address1": "Адрес",
+        "address2": "Етаж/Апт",
+        "city": "Град",
+        "country": "Държава",
+        "postalCode": "Пощенски код",
+        "province": "Област",
+        "dont_see_address": "Не виждам моя адрес"
+    },
+    "billing": {
+        "title": "Информация за фактура",
+        "address": "Адрес за фактуриране",
+        "continue_to_shipping": "Продължи с пазаруването",
+        "use_different_shipping_address": "Използвай различен адрес за доставка"
+    },
+    "customer": {
+        "information": "Информация за клиента"
+    },
+    "customer_dashboard": {
+        "my_account": "Моят Профил",
+        "ordered_on": "Поръчано на",
+        "next_billing_date": "Следваща дата за фактуриране",
+        "price": "Цена",
+        "total": "Тотал",
+        "status": "Статус",
+        "order": "Поръчка %{invoice_number}",
+        "order_details": "Детайли за поръчка",
+        "loading": "Зарежда...",
+        "no_orders": "Няма намерени поръчки.",
+        "no_subscriptions": "Няма намерени абонаменти.",
+        "view_invoice": "Виж ф-ра",
+        "sign_out": "Изход",
+        "show_more_orders": "Покажи %{smart_count} повече |||| Покажи %{smart_count} повече поръчки"
+    },
+    "signin_form": {
+        "signin": "Влез",
+        "dont_have_an_account": "Нямаш профил?",
+        "email": "Е-мейл",
+        "password": "Парола",
+        "forgot_your_password": "Забравена парола?",
+        "close_form": "Назад"
+    },
+    "forgot_password_form": {
+        "title": "Възстановяване на парола",
+        "instructions": "Въведи твоя е-мейл и ние ще ти изпратим линк за възстановяване на паролата.",
+        "email": "Е-мейл",
+        "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
+        "email_instructions": "Е-мейл съдържащ линк беше изпратен до вас. Кликнете на линка, за да възстановите своята парола.",
+        "action": "Изпрати е-мейл"
+    },
+    "reset_password_form": {
+        "title": "Промени своята парола",
+        "password": "Нова парола",
+        "confirmation_password": "Потвърди нова парола",
+        "action": "Възстанови парола"
+    },
+    "register_form": {
+        "register": "Регистрация",
+        "already_have_an_account": "Вече имаш профил?",
+        "email": "Е-мейл",
+        "password": "Парола",
+        "confirm_password": "Потвърди парола"
+    },
+    "guest_checkout": {
+        "or": "Или",
+        "continue_as_a_guest": "Продължи като гост"
+    },
+    "shipping": {
+        "title": "Доставка",
+        "shipping_to": "Доставка до:",
+        "address": "Адрес за доставка",
+        "method": "Метод на доставка"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "С наложен платеж",
+            "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
+            "deferred_payment_instructions": "Потвърждавайки тази поръчка, вие се съгласявате да платите по-късно чрез метода за плащане обозначен от търговеца.",
+            "card_label": "Кредитна / Дебитна карта",
+            "card_number": "Номер на картата",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Пощенски код"
+        },
+        "still_pending_notice": "Вашето плащане се обработва.",
+        "title": "Плащане",
+        "continue_to_payment": "Продължи към плащането",
+        "credit_card": "Кредитна / Дебитна карта",
+        "place_order": "Завърши поръчката",
+        "preparing_payment_session": "Подготвяме плащането...",
+        "processing_payment": "Обработваме плащането...",
+        "checkout_with": "Плати с",
+        "checkout_with_method": "Плати с %{method}",
+        "method_icon": "%{method} икона",
+        "no_payment": "Не е необходимо плащане за тази поръчка.",
+        "methods": {
+            "card": "Кредитна / Дебитна карта",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA банков трансфер",
+            "sofort": "Sofort банков трансфер",
+            "deferred_payment": "Плати по-късно"
+        }
+    },
+    "discounts": {
+        "title": "Отстъпки"
+    },
+    "cart_summary": {
+        "total": "Тотал",
+        "subtotal": "Субтотал",
+        "shipping": "Доставка",
+        "discount": "Отстъпки",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Възникна грешла. Моля опитай отново или се свържи с нас.",
+        "promo_code_is_invalid": "Този промо код не е валиден",
+        "promocode_already_in_cart": "Този промо код е вече приложен",
+        "promocode_isnt_applicable": "Този промо код не е приложим",
+        "promo_code_is_expired": "Този промо код е изтекъл",
+        "stringEmpty": "Това поле е задължително",
+        "required": "Това поле е задължително",
+        "invalid_expiry_year_past": "Картата е изтекла",
+        "email": "Моля въведете валиден е-мейл адрес",
+        "quantity_revised": "Количеството беше променено поради ограничение в наличностите.",
+        "quantity_out_of_stock": "За съжаление този артикул не е наличен. Моля премахнете го, за да продължите!",
+        "error_payment_items_are_invalid": {
+            "title": "Някои от вашите артикули са невалидни",
+            "description": "Моля прегледайте вашата поръчка или опитайте отново по-късно."
+        },
+        "card": {
+            "invalid_number": "Номера на картата е невалиден.",
+            "invalid_date": "Датата на валидност за вашата карта е невалидна.",
+            "invalid_year": "Годината на валидност за вашата карта е невалидна.",
+            "invalid_month": "Месеца на валидност за вашата карта е невалиден.",
+            "invalid_cvv": "CVV кода за вашата карта е невалиден.",
+            "invalid_expiration": "Срока на валидност за вашата карта е невалиден.",
+            "expired": "Картата ви е изтекла",
+            "declined": "Картата ви е отказана. Моля свържете се с издателя на картата ви!",
+            "invalid_address": "Адреса на картата ви е невалиден.",
+            "insufficient_funds": "Недостатъчна наличност.",
+            "card_not_supported": "Картата не се подържа за този географски район.",
+            "currency_not_supported": "Тази валута не се подържа в момента."
+        },
+        "transaction": {
+            "declined": "Възникна грешка при обработването на картата. Опитайте отново по-късно или изберете друг метод на плащане."
+        },
+        "discounts": {
+            "conflict": "Някои отстъпки не могат да бъдат комбинирани. Използвай тази отстъпка?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Поръчката не беше обработена.",
+                "description": "Не сте таксувани. Моля свържете се със собственика на онлайн магазина."
+            },
+            "product_crawling": {
+                "title": "Цената на продуктите в количката вероятно е променена.",
+                "description": "Пробвайте да премахнете продуктите и да ги добавите отново. Моля свържете се със собственика за детайли."
+            },
+            "stock_validation": {
+                "title": "Няма наличност.",
+                "description": "Недостатъчна наличност за някои от продуктите. Моля прегледайте количествата отново или се свържете със собственика за детайли."
+            },
+            "custom_fields_validation": {
+                "title": "Липсваща задължителна информация.",
+                "description": "Липсва задължителна информация за някои от продуктите в количката. Моля променете количката, за да продължите."
+            },
+            "shipping_validation": {
+                "title": "Метода за доставка не може да бъде валидиран.",
+                "description": "Избрания тарифен план за доставка е променен или невалиден. Моля свържете се със собственика за детайли."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Няма налични методи за доставка",
+                "description": "Моля опитайте по-късно или се свържете с нас за подръжка."
+            },
+            "rates_calculation": {
+                "title": "Не успяхме да изчислим цената за доставка за вашата поръчка",
+                "description": "Опитайте по-късно се свържете с нас за подръжка."
+            },
+            "no_rates_found": {
+                "title": "Няма налични методи за доставка за вашата поръчка",
+                "description": "Моля прегледайте вашия адрес или се свържете с нас."
+            }
+        },
+        "payment_failed": {
+            "title": "Не можем да обработим плащането",
+            "description": "TОпитайте по-късно или се свържете с нас."
+        },
+        "payment_authorization": {
+            "title": "Не можем да обработим плащането",
+            "default": "Моля прегледайте информацията за фактуриране и плащане!"
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Не можем да обработим плащането",
+                "description": "Не успяхме да авторизираме информацията за вашето плащане. Моля опитайте отново!"
+            }
+        },
+        "customer_exists": "Потребител с този е-мейл вече съществува.",
+        "customer_password_missmatch": "Паролите трябва да съвпадат.",
+        "customer_password_token_expired": "Кода за възстановяване на вашата парола е изтекъл.",
+        "customer_password_token_invalid": "Кода за възстановяване на вашата парола е невалиден.",
+        "customer_not_found": "Е-мейла не е асоцииран с потребителски профил.",
+        "invalid_credentials": "Невалиден е-мейл или адрес."
+    },
+    "customer_orders": {
+        "loading": "Зарежда..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Благодарим ви за вашата поръчка!",
+        "async_confirmation_notice": "Вашата поръчка е направена и в момента се обработва. Скоро ще получите потвърждение."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Доставката и таксите ще бъдат изчислени след предоставяне на адрес."
+    }
+}
