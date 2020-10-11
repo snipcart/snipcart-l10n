@@ -24,7 +24,18 @@
         "quantity_short": "數量",
         "decrement_quantity": "增加數量",
         "increment_quantity": "減少數量",
-        "remove_item": "移除此項目"
+        "remove_item": "移除此項目",
+        "recurrence": {
+            "daily": "每日 |||| %{smart_count} 日",
+            "weekly": "每週 |||| %{smart_count} 週",
+            "monthly": "每月 |||| %{smart_count} 月",
+            "yearly": "每年 |||| %{smart_count} 年s"
+        },
+        "subscription": {
+            "plan": "計畫",
+            "billed_on": "下次出帳日",
+            "payment_amount": "帳單金額"
+        }
     },
     "cart": {
         "subtotal": "小計",
