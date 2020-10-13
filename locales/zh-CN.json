@@ -12,7 +12,8 @@
         "close_cart": "关闭购物车",
         "show": "显示",
         "hide": "隐藏",
-        "apply_changes": "更新"
+        "apply_changes": "更新",
+        "yes_use_it":  "确定使用"
     },
     "header": {
         "title_cart_summary": "购物车",
@@ -23,7 +24,18 @@
         "quantity_short": "数量",
         "decrement_quantity": "增加数量",
         "increment_quantity": "减少数量",
-        "remove_item": "移除此项目"
+        "remove_item": "移除此项目",
+        "recurrence": {
+            "daily": "每日 |||| %{smart_count} 日",
+            "weekly": "每周 |||| %{smart_count} 周",
+            "monthly": "每月 |||| %{smart_count} 月",
+            "yearly": "每年 |||| %{smart_count} 年s"
+        },
+        "subscription": {
+            "plan": "计划",
+            "billed_on": "下次出帐日",
+            "payment_amount": "帐单金额"
+        }
     },
     "cart": {
         "subtotal": "小计",
@@ -65,12 +77,16 @@
     "customer_dashboard": {
         "my_account": "我的帐号",
         "ordered_on": "订单成立于",
+        "next_billing_date": "下次出帐日",
+        "price": "价格",
         "total": "总计",
         "status": "状态",
         "order": "订单编号 %{invoice_number}",
         "order_details": "订单资讯",
         "loading": "载入中...",
         "no_orders": "尚无订单",
+        "no_subscriptions": "无订阅制项目",
+        "view_invoice": "查看订单",
         "sign_out": "登出",
         "show_more_orders": "再显示 %{smart_count} 笔订单 |||| 再显示 %{smart_count} 笔订单"
     },
@@ -81,6 +97,19 @@
         "password": "密码",
         "forgot_your_password": "忘记密码?",
         "close_form": "返回"
+    },
+    "forgot_password_form": {
+        "title": "重置您的密码",
+        "instructions": "请输入您的 Email 我们会寄送一封含有重新设定密码连结的信给您",
+        "email": "Email",
+        "email_instructions": "一封含有重新设定密码连结的信已经寄给您了，请点该连结重新设定密码",
+        "action": "寄送重新设定密码的 Email"
+    },
+    "reset_password_form": {
+        "title": "重设密码",
+        "password": "新密码",
+        "confirmation_password": "再次输入新密码",
+        "action": "设定新密码"
     },
     "register_form": {
         "register": "注册",
@@ -174,6 +203,9 @@
             "invalid_cvv": "信用卡背后三码验证无效",
             "expired": "信用卡有效日期已过期"
         },
+        "discounts": {
+            "conflict": "部分折扣无法一起使用，你要改使用新的折扣吗？"
+        },
         "order_validation": {
             "domain_crawling": {
                 "title": "订单无法处理",
@@ -226,6 +258,9 @@
         },
         "customer_exists": "此 Email 已经被使用过了",
         "customer_password_missmatch": "密码不相符",
+        "customer_password_token_expired": "您的重设密码连结已失效",
+        "customer_password_token_invalid": "您的重设密码连结已失效",
+        "customer_not_found": "此 Email 尚未建立帐号",
         "invalid_credentials": "Email 或是密码有误"
     },
     "customer_orders": {
