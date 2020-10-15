@@ -9,7 +9,11 @@
         "type_address": "Inserisci l'indirizzo",
         "use_this_address": "Usa questo indirizzo",
         "back_to_store": "Torna al negozio",
-        "close_cart": "Chiudi il carrello"
+        "close_cart": "Chiudi il carrello",
+        "show": "Mostra",
+        "hide": "Nascondi",
+        "apply_changes": "Applica le modifiche",
+        "yes_use_it": "Si, usalo"
     },
     "header": {
         "title_cart_summary": "Carrello",
@@ -20,7 +24,18 @@
         "quantity_short": "Qtà",
         "decrement_quantity": "Riduci la quantità",
         "increment_quantity": "Aumenta la quantità",
-        "remove_item": "Elimina l'articolo"
+        "remove_item": "Elimina l'articolo",
+        "recurrence": {
+            "daily": "giorno |||| %{smart_count} giorni",
+            "weekly": "settimana |||| %{smart_count} settimane",
+            "monthly": "mese |||| %{smart_count} mesi",
+            "yearly": "anno |||| %{smart_count} anni"
+        }
+    },
+    "subscription": {
+        "plan": "Piano",
+        "billed_on": "Fatturato il",
+        "payment_amount": "Importo del pagamento"
     },
     "cart": {
         "subtotal": "Subtotale",
@@ -60,20 +75,41 @@
         "information": "Informazioni cliente"
     },
     "customer_dashboard": {
+        "my_account": "Il mio account",
         "ordered_on": "Ordinato il",
+        "next_billing_date": "Prossima data di fatturazione",
+        "price": "Prezzo",
         "total": "Totale",
         "status": "Stato",
         "order": "Ordine %{invoice_number}",
         "order_details": "Dettagli dell'ordine",
         "loading": "Caricamento...",
-        "no_orders": "Nessun ordine trovato."
+        "no_orders": "Nessun ordine trovato.",
+        "no_subscriptions": "Nessun abbonamento trovato.",
+        "view_invoice": "Visualizza la fattura",
+        "sign_out": "Esci",
+        "show_more_orders": "Mostra %{smart_count} ordine |||| Mostra altri %{smart_count} ordini"
     },
     "signin_form": {
         "signin": "Accedi",
         "dont_have_an_account": "Non sei registrato?",
         "email": "Email",
         "password": "Password",
-        "forgot_your_password": "Password dimenticata?"
+        "forgot_your_password": "Password dimenticata?",
+        "close_form": "Torna indietro"
+    },
+    "forgot_password_form": {
+        "title": "Recupera la password",
+        "instructions": "Inserisci l'indirizzo email del tuo account e ti invieremo un link per reimpostare la tua password.",
+        "email": "Email",
+        "email_instructions": "Ti è stata inviata un'email contenente un link. Cliccalo per reimpostare la tua password.",
+        "action": "Invia un'email di reimpostazione della password"
+    },
+    "reset_password_form": {
+        "title": "Reimposta la password",
+        "password": "Nuova password",
+        "confirmation_password": "Reinserisci la tua nuova password",
+        "action": "Resetta la password"
     },
     "register_form": {
         "register": "Registrati",
@@ -94,12 +130,15 @@
     },
     "payment": {
         "form":{
+            "deferred_payment_title": "Pagamento differito",
+            "deferred_payment_instructions": "Effettuando questo ordine, l'utente accetta di pagare in seguito attraverso il metodo di pagamento selezionato dal commerciante.",
             "card_label": "Carta di credito",
             "card_number": "Numero carta",
             "card_expiration": "MM/AA",
             "card_cvv": "CVV",
             "card_postal_code": "Codice postale"
         },
+        "still_pending_notice": "Il pagamento è ancora in fase di elaborazione.",
         "title": "Pagamento",
         "continue_to_payment": "Vai al pagamento",
         "credit_card": "Carta di credito",
@@ -109,6 +148,7 @@
         "checkout_with": "Paga con",
         "checkout_with_method": "Paga con %{method}",
         "method_icon": "%{method} icon",
+        "no_payment": "Per questo ordine non è richiesto alcun pagamento.",
         "methods":{
             "card": "Carta di credito",
             "paypal": "PayPal",
@@ -125,7 +165,8 @@
             "klarna_slice_it": "Klarna monthly financing",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Paga in seguito"
         }
     },
     "discounts": {
@@ -140,7 +181,6 @@
     },
     "errors": {
       "default": "C'è stato un errore",
-
       "promo_code_is_invalid": "Questo codice sconto non è valido",
       "promocode_already_in_cart": "Questo codice sconto è già stato usato",
       "promocode_isnt_applicable": "Questo codice sconto non è utilizzabile",
@@ -148,22 +188,93 @@
       "stringEmpty": "Questo campo è obbligatorio",
       "required": "Questo campo è obbligatorio",
       "invalid_expiry_year_past": "La carta è scaduta",
-      "email": "Inserisci un email valido",
-      
+      "email": "Inserisci un'email valida",
+      "quantity_revised": "La quantità ha subito variazioni a causa della disponibilità limitata.",
+      "quantity_out_of_stock": "Purtroppo questo articolo è esaurito, rimuovilo dal carrello per continuare.",
+      "error_payment_items_are_invalid": {
+        "title": "Alcuni articoli nel carrello non sono validi",
+        "description": "Per favore, rivedi il tuo ordine, o riprova più tardi."
+      },
+      "card": {
+        "invalid_number": "Il numero della carta non è valido.",
+        "invalid_date": "La data di scadenza della carta non è valida.",
+        "invalid_year": "L'anno di scadenza della carta non è valido.",
+        "invalid_month": "Il mese di scadenza della carta non è valido.",
+        "invalid_cvv": "Il CVV della carta non è valido.",
+        "invalid_expiration": "La data di scadenza della carta non è valida.",
+        "expired": "La carta di credito è scaduta",
+        "declined": "La carta è stata rifiutata. Per favore contatta l'emittente della carta per ulteriori informazioni.",
+        "invalid_address": "L'indirizzo della carta non è corretto.",
+        "insufficient_funds": "Il conto non aveva fondi sufficienti per coprire l'importo della transazione.",
+        "card_not_supported": "La carta non è supportata nell'area geografica.",
+        "currency_not_supported": "La valuta non è attualmente supportata."
+      },
+      "transaction": {
+        "declined": "Si è verificato un errore durante l'elaborazione della carta. Riprova più tardi o con un metodo di pagamento differente."
+      },
+      "discounts": {
+        "conflict": "Alcuni sconti non sono cumulabili. Vuoi utilizzare invece questo sconto?"
+      },
+      "order_validation": {
+        "domain_crawling": {
+            "title": "L'ordine non puo' essere evaso.",
+            "description": "Non è stato addebitato alcun costo. Si prega di contattare il proprietario del negozio per maggiori informazioni."
+        },
+        "product_crawling": {
+            "title": "Il prezzo dei prodotti nel carrello potrebbe essere cambiato.",
+            "description": "Prova a toglierli e aggiungerli al carrello. Si prega di contattare il proprietario del negozio per maggiori informazioni."
+        },
+        "stock_validation": {
+            "title": "Prodotto non disponibile a magazzino.",
+            "description": "Alcuni prodotti potrebbero non essere disponibili per le quantità selezionate. Rivedere la quantità o contattare il proprietario del negozio per maggiori informazioni."
+        },
+        "custom_fields_validation": {
+            "title": "Informazioni mancanti.",
+            "description": "Alcuni prodotti nel carrello non contengono le informazioni necessarie. Si prega di modificare il carrello per continuare."
+        },
+        "shipping_validation": {
+            "title": "Il metodo di spedizione non e' stato convalidato.",
+            "description": "I costi di spedizione selezionati potrebbero essere cambiati o non essere disponibili. Si prega di contattare il proprietario del negozio per maggiori informazioni."
+        }
+      },
+      "shipping": {
+        "account_configuration": {
+            "title": "Metodo di spedizione non disponibile",
+            "description": "Riprova più tardi, oppure contattaci per assistenza."
+        },
+        "rates_calculation": {
+            "title": "Impossibile calcolare la spedizione per il tuo ordine",
+            "description": "Riprova più tardi, oppure contattaci per assistenza."
+        },
+        "no_rates_found": {
+            "title": "Non sono disponibili metodi di spedizione per il tuo ordine",
+            "description": "Per favore controlla il tuo indirizzo di spedizione o contattaci."
+        }
+      },
       "payment_failed": {
           "title": "Impossibile completare il pagamento",
           "description": "Controlla i dettagli della carta, oppure prova più tardi."
-      },
-      
+      }, 
       "payment_authorization": {
           "title":"Impossibile completare il pagamento",
-          
           "default": "Controlla le informazioni inserite, oppure prova più tardi."
       },
       "customer_exists": "Questa email è già in uso.",
       "customer_password_missmatch": "Le due password sono diverse.",
-      "invalid_credentials": "Email or password non valide."
+      "invalid_credentials": "Email o password non valide."
     },
+    "authentication_challenge": {
+        "failed": {
+            "title": "Impossibile elaborare il pagamento",
+            "description": "Non siamo stati in grado di autenticare i tuoi dati di pagamento. Si prega di riprovare"
+        }
+    },
+    "customer_exists": "Questa email è già in uso.",
+    "customer_password_missmatch": "Le due password devono corrispondere.",
+    "customer_password_token_expired": "Il tuo token di recupero password è scaduto.",
+    "customer_password_token_invalid": "Il tuo token di recupero password non è valido.",
+    "customer_not_found": "L'indirizzo email non è associato ad alcun account.",
+    "invalid_credentials": "Email o password non valida.",
     "customer_orders": {
         "loading": "Caricamento..."
     },
