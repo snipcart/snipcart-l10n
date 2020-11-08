@@ -57,7 +57,8 @@
     "signin_form": {
         "signin": "Log in",
         "dont_have_an_account": "Não tenho conta",
-        "forgot_your_password": "Esqueceu a sua password?"
+        "forgot_your_password": "Esqueceu a sua password?",
+        "close_form": "Voltar"
     },
     "register_form": {
         "register": "Registrar",
