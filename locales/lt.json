@@ -1,0 +1,285 @@
+{
+    "actions": {
+        "edit": "Redaguoti",
+        "cancel": "Atšaukti",
+        "continue_shopping": "Tęsti apsipirkinėjimą",
+        "back_to_checkout": "Atgal į apmokėjimą",
+        "checkout": "Apmokėjimas",
+        "apply": "Pritaikyti",
+        "type_address": "Įvęskite savo adresą",
+        "use_this_address": "Naudoti šitą adresą",
+        "back_to_store": "Atgal į parduotuvę",
+        "close_cart": "Uždaryti krepšelį",
+        "show": "Rodyti",
+        "hide": "Slėpti",
+        "apply_changes": "Pritaikyti pakeitimus",
+        "yes_use_it": "Taip, naudoti"
+    },
+    "header": {
+        "title_cart_summary": "Krepšelio turinys",
+        "loading": "Kraunasi..."
+    },
+    "item": {
+        "quantity": "Kiekis",
+        "quantity_short": "Kiek.",
+        "decrement_quantity": "Sumažinti kiekį",
+        "increment_quantity": "Padidinti kiekį",
+        "remove_item": "Išimti prekę",
+        "recurrence": {
+            "daily": "dieną |||| %{smart_count} dienas",
+            "weekly": "savaitę |||| %{smart_count} savaites",
+            "monthly": "mėnesį |||| %{smart_count} mėnesius",
+            "yearly": "metais |||| %{smart_count} metais"
+        }
+    },
+    "subscription": {
+        "plan": "Planas",
+        "billed_on": "Atsiskaitoma",
+        "payment_amount": "Mokėjimo suma"
+    },
+    "cart": {
+        "subtotal": "Tarpinė suma",
+        "shipping_taxes_calculated_at_checkout": "Siuntimo ir kiti mokesčiai bus paskaičiuoti mokėjimo metu.",
+        "loading": "Ruošiame jūsų krepšelį...",
+        "secured_by": "Apsaugota Snipcart",
+        "summary": "Užsakymo santrauka",
+        "empty": "Jūsų krepšelis tuščias.",
+        "invoice_number": "Sąskaitos numeris"
+    },
+    "order": {
+        "loading": "Ruošiame jūsų užsakymo duomenis..."
+    },
+    "discount_box": {
+        "promo_code": "Nuolaidos kodas?",
+        "promo_code_placeholder": "Nuolaidos kodas",
+        "promocode_applied": "Nuolaida pritaikyta"
+    },
+    "address_form": {
+        "name": "Vardas ir pavardė",
+        "email": "El. paštas",
+        "address1": "Gatvė",
+        "address2": "Buto/namo numeris",
+        "city": "Mietas",
+        "country": "Valstybė",
+        "postalCode": "Pašto kodas",
+        "province": "Apskritis",
+        "dont_see_address": "Nematau savo adreso"
+    },
+    "billing": {
+        "title": "Atsiskaitymas",
+        "address": "Atsiskaitymo adresas",
+        "continue_to_shipping": "Pereiti prie siuntimo",
+        "use_different_shipping_address": "Naudoti kitą adresą siuntimui"
+    },
+    "customer": {
+        "information": "Vartotojo informacija"
+    },
+    "customer_dashboard": {
+        "my_account": "Mano paskyra",
+        "ordered_on": "Užsakyta",
+        "next_billing_date": "Kita mokėjimo data",
+        "price": "Kaina",
+        "total": "Pilna kaina",
+        "status": "Būsena",
+        "order": "Užsakymas %{invoice_number}",
+        "order_details": "Užsakymo informacija",
+        "loading": "Kraunasi...",
+        "no_orders": "Užsakymų nerasta.",
+        "no_subscriptions": "Prenumeratų nerasta.",
+        "view_invoice": "Peržiūrėti sąskaitą",
+        "sign_out": "Atsijungti",
+        "show_more_orders": "Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų"
+    },
+    "signin_form": {
+        "signin": "Prisijungti",
+        "dont_have_an_account": "Neturite paskyros?",
+        "email": "El. paštas",
+        "password": "Slaptažodis",
+        "forgot_your_password": "Pamiršote slaptažodį?",
+        "close_form": "Atgal"
+    },
+    "forgot_password_form": {
+        "title": "Atkurti slaptažodį",
+        "instructions": "Įveskite jūsų paskyros el. paštą ir mes jums atsiųsime slaptažodžio atkūrimo nuorodą.",
+        "email": "El. paštas",
+        "email_instructions": "Išsiuntėme jums el. laišką su nuoroda. Paspauskite ant jos, kad akurtumėte slaptažodį.",
+        "action": "Siųsti slaptažodžio atkūrimo laišką"
+    },
+    "reset_password_form": {
+        "title": "Atkurti slaptažodį",
+        "password": "Naujas slaptažodis",
+        "confirmation_password": "Įveskite savo naują slaptažodį dar kartą",
+        "action": "Atkurti slaptažodį"
+    },
+    "register_form": {
+        "register": "Užsiregistruoti",
+        "already_have_an_account": "Jau turite paskyrą?",
+        "email": "El. paštas",
+        "password": "Slaptažodis",
+        "confirm_password": "Patvirtinkite slaptažodį"
+    },
+    "guest_checkout": {
+        "or": "Arba",
+        "continue_as_a_guest": "Tęsti kaip svečiui"
+    },
+    "shipping": {
+        "title": "Siuntimas",
+        "shipping_to": "Siųsti į:",
+        "address": "Siuntimo adresas",
+        "method": "Siuntimo būdas"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Atidėtas mokėjimas",
+            "deferred_payment_instructions": "Darydami šį užsakymą, jūs sutinkate atlikti mokėjimą vėliau pardavėjo nurodytu būdu.",
+            "card_label": "Kreditinė kortelė",
+            "card_number": "Kortelės numeris",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVC",
+            "card_postal_code": "Pašto kodas"
+        },
+        "still_pending_notice": "Jūsų apmokėjimas vis dar apdorojamas.",
+        "title": "Apmokėjimas",
+        "continue_to_payment": "Pereiti prie apmokėjimo",
+        "credit_card": "Kreditinė kortelė",
+        "place_order": "Pateikti užsakymą",
+        "preparing_payment_session": "Ruošiamas apmokėjimas...",
+        "processing_payment": "Apdorojamas apmokėjimas...",
+        "checkout_with": "Apmokėti naudojant",
+        "checkout_with_method": "Apmokėti naudojant %{method}",
+        "method_icon": "%{method} ženklas",
+        "no_payment": "Šio užsakymo apmokėti nereikia.",
+        "methods": {
+            "card": "Kreditinė kortelė",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA banko pavedimas",
+            "sofort": "Sofort banko pavedimas",
+            "deferred_payment": "Apmokėti vėliau"
+        }
+    },
+    "discounts": {
+        "title": "Nuolaidos"
+    },
+    "cart_summary": {
+        "total": "Pilna suma",
+        "subtotal": "Tarpinė suma",
+        "shipping": "Siuntimas",
+        "discount": "Nuolaidos",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Įvyko klaida, bandykite vėliau arba susisiekite su mumis.",
+        "promo_code_is_invalid": "Šis nuolaidos kodas negalioja",
+        "promocode_already_in_cart": "Šis nuolaidos kodas jau panaudotas",
+        "promocode_isnt_applicable": "Šis nuolaidos kodas negali būti pritaikytas",
+        "promo_code_is_expired": "Šis nuolaidos kodas nebegalioja",
+        "stringEmpty": "Šis laukas privalomas",
+        "required": "Šis laukas privalomas",
+        "invalid_expiry_year_past": "Kortelės galiojimo laikas yra pasibaigęs",
+        "email": "Prašome įvesti galiojantį el. pašto adresą",
+        "quantity_revised": "Kiekis buvo pakoreguotas dėl nepakankamo atsargų likučio.",
+        "quantity_out_of_stock": "Deja, šios prekės nebeturime, prašome išimkite ją iš krepšelio norėdami tęsti.",
+        "error_payment_items_are_invalid": {
+            "title": "Kai kurios prekės jūsų krepšelyje yra negaliojančios",
+            "description": "Prašome peržiūrėkite savo užsakymą arba pabandykite vėliau."
+        },
+        "card": {
+            "invalid_number": "Neteisingas kortelės numeris.",
+            "invalid_date": "Neteisinga kortelės galiojimo data.",
+            "invalid_year": "Neteisingi kortelėss galiojimo metai.",
+            "invalid_month": "Neteisingas kortelės galiojimo mėnuo.",
+            "invalid_cvv": "Neteisingas kortelės CVC kodas.",
+            "invalid_expiration": "Neteisinga kortelės galiojimo data.",
+            "expired": "Pasibaigęs kortelės galiojimo laikas",
+            "declined": "Jūsų kortelė buvo atmesta. Susisiekite su savo mokėjimo kortelės tiekėju dėl papildomos informacijos.",
+            "invalid_address": "Neteisingas kortelės adresas",
+            "insufficient_funds": "Jūsų sąskaitos likutis nepakankamas mokėjimui atlikti.",
+            "card_not_supported": "Kortelė nepalaikoma geografiniame regione.",
+            "currency_not_supported": "Valiuta šiuo metu nepalaikoma."
+        },
+        "transaction": {
+            "declined": "Įvyko klaida apdorojant kortelę. Pabandykite vėliau naudodami kitą mokėjimo būdą."
+        },
+        "discounts": {
+            "conflict": "Kai kurios nuolaidos negali būti sumuojamos. Naudoti šią nuolaidą vietoje to?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Nepavyko apdoroti užsakymo.",
+                "description": "Pinigai iš jūsų nebuvo nuskaičiuoti. Susisiekite su parduotuvės savininkais dėl papildomos informacijos."
+            },
+            "product_crawling": {
+                "title": "Prekių kaina krepšelyje galėjo pasikeisti.",
+                "description": "Pabandykite išimti ir pridėti jas į savo krepšelį. Susisiekite su parduotuvės savininkais dėl papildomos informacijos."
+            },
+            "stock_validation": {
+                "title": "Prekės atsargos nepasiekiamos.",
+                "description": "Kai kurių prekių atsargų likutis gali būti nepakankamas. Peržiūrėkite kiekį arba susisiekite su parduotuvės savininkais dėl papildomos informacijos."
+            },
+            "custom_fields_validation": {
+                "title": "Nepateikta reikalinga informacija.",
+                "description": "Kai kurioms prekėms krepšelyje nepateikta reikalinga informacija. Norėdami tęsti peržiūrėkite prekes krepšelyje."
+            },
+            "shipping_validation": {
+                "title": "Nepavyko patvirtinti siuntimo būdo.",
+                "description": "Pasirinkto siuntimo būdi kaina galėjo pasikeisti arba būdas šiuo metu negali būti panaudotas. Susisiekite su parduotuvės savininkais dėl papildomos informacijos."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Šiuo metu nėra galiojančio siuntimo būdo",
+                "description": "Pabandykite vėliau arba susisiekite su mumis."
+            },
+            "rates_calculation": {
+                "title": "Nepavyko paskaičiuoti siuntimo mokečio jūsų užsakymui",
+                "description": "Pabandykite vėliau arba susisiekite su mumis."
+            },
+            "no_rates_found": {
+                "title": "Jūsų užsakymui nėra galiojančių siuntimo būdų",
+                "description": "Prašome peržiūrėti jūsų siuntimo adresą arba susisiekti su mumis."
+            }
+        },
+        "payment_failed": {
+            "title": "Nepavyko apdoroti apmokėjimo",
+            "description": "Pabandykite vėliau arba susisiekite su mumis."
+        },
+        "payment_authorization": {
+            "title": "Nepavyko apdoroti apmokėjimo",
+            "default": "Prašome peržiūrėti jūsų mokėjimo informaciją."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Nepavyko atlikti mokėjimo",
+                "description": "Mums nepavyko patvirtinti jūsų mokėjimo informacijos. Bandykite dar kartą"
+            }
+        },
+        "customer_exists": "Šis el. paštas jau naudojamas.",
+        "customer_password_missmatch": "Slaptažodžiai turi sutapti.",
+        "customer_password_token_expired": "Jūsų slaptažodžio atstatymo nuorodos galiojimo laikas pasibaigė.",
+        "customer_password_token_invalid": "Jūsų slaptažodžio atstatymo nuoroda negalioja.",
+        "customer_not_found": "Šis el. paštas nesusietas su jokia paskyra.",
+        "invalid_credentials": "Neteisingas el. paštas arba slaptažodis."
+    },
+    "customer_orders": {
+        "loading": "Kraunasi..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Ačiū už jūsų užsakymą",
+        "async_confirmation_notice": "Jūsų užsakymas priimtas ir šiuo metu apdorojamas. Netrukus gausite patvirtinimą."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
+    }
+}
