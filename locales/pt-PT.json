@@ -21,7 +21,7 @@
         "shipping_taxes_calculated_at_checkout": "Portes de envio serão calculados durante o checkout.",
         "loading": "Estamos a preparar o seu carrinho...",
         "secured_by": "Plataforma segura por Snipcart",
-        "summary": "A sua ordem",
+        "summary": "A sua compra",
         "empty": "O seu carrinho de compras está vazio."
     },
     "order": {
@@ -61,7 +61,7 @@
         "close_form": "Voltar"
     },
     "register_form": {
-        "register": "Registrar",
+        "register": "Registar",
         "already_have_an_account": "Já tem uma conta connosco?",
         "confirm_password": "Confirmar password"
     },
