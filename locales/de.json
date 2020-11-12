@@ -52,7 +52,7 @@
         "country": "Land",
         "postalCode": "Postleitzahl",
         "province": "Bundesland",
-        "dont_see_address": "Ich kann meine Adresse nicht sehen"
+        "dont_see_address": "Ich kann meine Adresse nicht finden"
     },
     "billing": {
         "title": "Persönliche Daten",
