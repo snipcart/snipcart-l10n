@@ -40,14 +40,14 @@
     "cart": {
         "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
+        "loading": "We’re getting your cart ready...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
         "empty": "Your cart is empty.",
         "invoice_number": "Invoice number"
     },
     "order": {
-        "loading": "We're getting your order details..."
+        "loading": "We’re getting your order details..."
     },
     "discount_box": {
         "promo_code": "Promo code?",
@@ -92,7 +92,7 @@
     },
     "signin_form": {
         "signin": "Sign In",
-        "dont_have_an_account": "Don't have an account?",
+        "dont_have_an_account": "Don’t have an account?",
         "email": "Email",
         "password": "Password",
         "forgot_your_password": "Forgot your password?",
@@ -100,7 +100,7 @@
     },
     "forgot_password_form": {
         "title": "Recover your password",
-        "instructions": "Enter your account's email address and we will send you a password reset link.",
+        "instructions": "Enter your account’s email address and we will send you a password reset link.",
         "email": "Email",
         "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
         "action": "Send password reset email"
@@ -181,9 +181,9 @@
     },
     "errors": {
         "default": "An error occurred, try again later or contact us.",
-        "promo_code_is_invalid": "This promo code isn't valid",
+        "promo_code_is_invalid": "This promo code isn’t valid",
         "promocode_already_in_cart": "This promo code is already applied",
-        "promocode_isnt_applicable": "This promo code isn't valid",
+        "promocode_isnt_applicable": "This promo code isn’t valid",
         "promo_code_is_expired": "This promo code has expired",
         "stringEmpty": "This field is required",
         "required": "This field is required",
@@ -196,12 +196,12 @@
             "description": "Please review your order, or try again later."
         },
         "card": {
-            "invalid_number": "The card's number is invalid.",
-            "invalid_date": "The card's expiration date is invalid.",
-            "invalid_year": "The card's expiration year is invalid.",
-            "invalid_month": "The card's expiration month is invalid.",
-            "invalid_cvv": "The card's CVV is invalid.",
-            "invalid_expiration": "The card's expiration date is invalid.",
+            "invalid_number": "The card’s number is invalid.",
+            "invalid_date": "The card’s expiration date is invalid.",
+            "invalid_year": "The card’s expiration year is invalid.",
+            "invalid_month": "The card’s expiration month is invalid.",
+            "invalid_cvv": "The card’s CVV is invalid.",
+            "invalid_expiration": "The card’s expiration date is invalid.",
             "expired": "The credit card is expired",
             "declined": "The card has been declined. Please call your card issuer for more information.",
             "invalid_address": "The card’s address is incorrect.",
@@ -233,7 +233,7 @@
                 "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
             },
             "shipping_validation": {
-                "title": "Shipping method couldn't be validated.",
+                "title": "Shipping method couldn’t be validated.",
                 "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
             }
         },
