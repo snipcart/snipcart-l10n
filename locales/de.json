@@ -46,7 +46,7 @@
     "address_form": {
         "name": "Name",
         "email": "E-Mail",
-        "address1": "Straße",
+        "address1": "Straße und Hausnummer",
         "address2": "Adresse 2 (optional)",
         "city": "Stadt",
         "country": "Land",
