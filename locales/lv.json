@@ -1,0 +1,285 @@
+{
+    "actions": {
+        "edit": "Labot",
+        "cancel": "Atcelt",
+        "continue_shopping": "Turpināt iepirkšanos",
+        "back_to_checkout": "Atgriezties uz apmaksu",
+        "checkout": "Maksājums",
+        "apply": "Apstiprināt",
+        "type_address": "Ievadiet savu adresi",
+        "use_this_address": "Izmantot šo adresi",
+        "back_to_store": "Atgriezties veikalā",
+        "close_cart": "Aizvērt grozu",
+        "show": "Rādīt",
+        "hide": "Slēpt",
+        "apply_changes": "Apstiprināt izmaiņas",
+        "yes_use_it": "Jā, izmantot to"
+    },
+    "header": {
+        "title_cart_summary": "Groza kopsavilkums",
+        "loading": "Ielādē..."
+    },
+    "item": {
+        "quantity": "Daudzums",
+        "quantity_short": "Daudz.",
+        "decrement_quantity": "Samazināt daudzumu",
+        "increment_quantity": "Palielināt daudzumu",
+        "remove_item": "Noņemt produktu",
+        "recurrence": {
+            "daily": "diena |||| %{smart_count} dienas",
+            "weekly": "nedēļa |||| %{smart_count} nedēļas",
+            "monthly": "mēnesis |||| %{smart_count} mēneši",
+            "yearly": "gads |||| %{smart_count} gadi"
+        }
+    },
+    "subscription": {
+        "plan": "Plāns",
+        "billed_on": "Maksājuma datums",
+        "payment_amount": "Maksājuma apmērs"
+    },
+    "cart": {
+        "subtotal": "Starpsumma",
+        "shipping_taxes_calculated_at_checkout": "Piegādes izmaksas un nodokļi tiks aprēķināti pie apmaksas.",
+        "loading": "Gatavojam jūsu iepirkumu grozu...",
+        "secured_by": "Nodrošina Snipcart",
+        "summary": "Pasūtījuma kopsavilkums",
+        "empty": "Jūsu grozs ir tukšs.",
+        "invoice_number": "Rēķina numurs"
+    },
+    "order": {
+        "loading": "Iegūstam pasūtījuma detaļas..."
+    },
+    "discount_box": {
+        "promo_code": "Atlaides kods?",
+        "promo_code_placeholder": "Atlaides kods",
+        "promocode_applied": "Atlaide piemērota"
+    },
+    "address_form": {
+        "name": "Pilnais vārds",
+        "email": "E-pasts",
+        "address1": "Ielas adrese",
+        "address2": "Dzīvoklis/māja",
+        "city": "Pilsēta",
+        "country": "Valsts",
+        "postalCode": "Pasta indekss",
+        "province": "Reģions/apgabals",
+        "dont_see_address": "Es neredzu savu adresi"
+    },
+    "billing": {
+        "title": "Norēķini",
+        "address": "Norēķinu adrese",
+        "continue_to_shipping": "Turpināt ar piegādi",
+        "use_different_shipping_address": "Izmantot citu piegādes adresi"
+    },
+    "customer": {
+        "information": "Pircēja informācija"
+    },
+    "customer_dashboard": {
+        "my_account": "Mants konts",
+        "ordered_on": "Pasūtījuma datums",
+        "next_billing_date": "Nākamā maksājuma datums",
+        "price": "Cena",
+        "total": "Kopā",
+        "status": "Statuss",
+        "order": "Pasūtījums %{invoice_number}",
+        "order_details": "Pasūtījuma detaļas",
+        "loading": "Ielādē...",
+        "no_orders": "Pasūtījumi nav atrasti.",
+        "no_subscriptions": "Abonomenti nav atrasti.",
+        "view_invoice": "Aplūkot rēķinu",
+        "sign_out": "Izrakstīties",
+        "show_more_orders": "Rādīt vēl %{smart_count} pasūtījumu |||| Rādīt vēl %{smart_count} pasūtījumus"
+    },
+    "signin_form": {
+        "signin": "Pieslēgties",
+        "dont_have_an_account": "Nav konta?",
+        "email": "E-pasts",
+        "password": "Parole",
+        "forgot_your_password": "Aizmirsi paroli?",
+        "close_form": "Atgriezties"
+    },
+    "forgot_password_form": {
+        "title": "Paroles atiestatīšana",
+        "instructions": "Ievadi savu e-pastu un mēs nosūtīsim paroles atiestatīšanas saiti.",
+        "email": "E-pasts",
+        "email_instructions": "Jums tika nosūtīts e-pasts ar saiti tajā. Uzklikšķiniet uz tās, lai atiestatītu paroli.",
+        "action": "Nosūtīt paroles atiestatīšanas e-pastu"
+    },
+    "reset_password_form": {
+        "title": "Paroles maiņa",
+        "password": "Jaunā parole",
+        "confirmation_password": "Jaunā parole vēlreiz",
+        "action": "Mainīt paroli"
+    },
+    "register_form": {
+        "register": "Reģistrēties",
+        "already_have_an_account": "Jums jau ir konts?",
+        "email": "E-pasts",
+        "password": "Parole",
+        "confirm_password": "Apstiprināt paroli"
+    },
+    "guest_checkout": {
+        "or": "Vai",
+        "continue_as_a_guest": "Turpināt kā viesim"
+    },
+    "shipping": {
+        "title": "Piegāde",
+        "shipping_to": "Piegādāt uz:",
+        "address": "Piegādes adrese",
+        "method": "Piegādes veids"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Atliktais maksājums",
+            "deferred_payment_instructions": "Veicot šo pasūtījumu, jūs piekrītat maksāt vēlāk ar pārdevēja norādīto maksājuma metodi.",
+            "card_label": "Kredītkarte",
+            "card_number": "Kartes numurs",
+            "card_expiration": "MM/GG",
+            "card_cvv": "CVV",
+            "card_postal_code": "Pasta indekss"
+        },
+        "still_pending_notice": "Jūsu maksājums joprojām tiek apstrādāts.",
+        "title": "Maksājums",
+        "continue_to_payment": "Turpināt ar apmaksu",
+        "credit_card": "Kredītkarte",
+        "place_order": "Veikt pasūtījumu",
+        "preparing_payment_session": "Sagatavo maksājumu...",
+        "processing_payment": "Apstrādā maksājumu...",
+        "checkout_with": "Maksāt ar",
+        "checkout_with_method": "Maksāt ar %{method}",
+        "method_icon": "%{method} ikona",
+        "no_payment": "Šim pasūtījumam nav nepieciešams maksājums.",
+        "methods": {
+            "card": "Kredītkarte",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna maksā vēlāk",
+            "klarna_slice_it": "Klarna ikmēneša finansējums",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bankas pārskaitījums",
+            "sofort": "Sofort bankas pārskaitījums",
+            "deferred_payment": "Maksāt vēlāk"
+        }
+    },
+    "discounts": {
+        "title": "Atlaides"
+    },
+    "cart_summary": {
+        "total": "Kopā",
+        "subtotal": "Starpsumma",
+        "shipping": "Piegāde",
+        "discount": "Atlaides",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Notika kļūda. Mēģiniet vēlreiz nedaudz vēlāk vai sazinieties ar mums.",
+        "promo_code_is_invalid": "Šis atlaides kods nav derīgs",
+        "promocode_already_in_cart": "Šis atlaides kods jau ir pievienots",
+        "promocode_isnt_applicable": "Šis atlaides kods nav izmantojams",
+        "promo_code_is_expired": "Šis atlaides kods ir iztecējis",
+        "stringEmpty": "Šis lauks ir obligāts",
+        "required": "Šis lauks ir obligāts",
+        "invalid_expiry_year_past": "Beidzies kartes derīguma termiņš",
+        "email": "Lūdzu norādiet derīgu e-pasta adresi",
+        "quantity_revised": "Daudzums ticis mainīts pieejamo preču skaita dēļ.",
+        "quantity_out_of_stock": "Diemžēl šis produkts vairs nav pieejams. Lūdzu, izņemiet to no groza, lai turpinātu.",
+        "error_payment_items_are_invalid": {
+            "title": "Dažas preces jūsu grozā ir nederīgas",
+            "description": "Lūdzu caurskatiet savu pasūtījumu vai mēģiniet vēlāk."
+        },
+        "card": {
+            "invalid_number": "Kartes numurs ir nederīgs.",
+            "invalid_date": "Kartes derīguma termiņš ir nederīgs.",
+            "invalid_year": "Kartes derīguma gads ir nederīgs.",
+            "invalid_month": "Kartes derīguma mēnesis ir nederīgs.",
+            "invalid_cvv": "Kartes CVV kods ir nederīgs.",
+            "invalid_expiration": "Kartes beigu termiņa datums ir nederīgs.",
+            "expired": "Kartes derīguma termiņš ir beidzies",
+            "declined": "Karte tika noraidīta. Lūdzu sazinieties ar kartes izdevēju, lai iegūtu vairāk informāciju.",
+            "invalid_address": "Kartes adrese ir nekorekta.",
+            "insufficient_funds": "Kartē nebija pietiekami daudz līdzekļu, lai veiktu maksājumu.",
+            "card_not_supported": "Šī karte nav atbalstīta jūsu atrašanās vietā.",
+            "currency_not_supported": "Šī valūta pagaidām netiek atbalstīta."
+        },
+        "transaction": {
+            "declined": "Apstrādājot kartes maksājumu, notika kļūda. Lūdzu mēģiniet vēlāk vēlreiz vai izmantojiet citu maksājuma metodi."
+        },
+        "discounts": {
+            "conflict": "Dažas atlaides nevar apvienot. Vai izmantot šo atlaidi tā vietā?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Pasūtījumu nevarēja apstrādāt.",
+                "description": "Maksājums nav ieturēts. Lūdzu sazinieties ar veikala īpašnieku, lai iegūtu sīkāku informāciju."
+            },
+            "product_crawling": {
+                "title": "Grozā esošo preču cena var būt mainījusies.",
+                "description": "Mēģiniet izņemt un pievienot preces grozam no jauna. Lūdzu sazinieties ar veikala īpašnieku, lai iegūtu sīkāku informāciju."
+            },
+            "stock_validation": {
+                "title": "Preces nav pieejamas norādītajā daudzumā.",
+                "description": "Dažas preces var nebūt pieejamas izvēlētājos daudzumos. Mainiet to skaitu vai sazinieties ar veikala īpašnieku."
+            },
+            "custom_fields_validation": {
+                "title": "Trūkst obligātā informācija.",
+                "description": "Dažām precēm jūsu grozā trūkst obligātā informācija. Lūdzu rediģējiet grozu, lai turpinātu."
+            },
+            "shipping_validation": {
+                "title": "Nevarēja apstiprināt piegādes metodi.",
+                "description": "Izvēlētās piegādes izmaksas varētu būt mainījušās vai būt nepieejamas. Lūdzu sazinieties ar veikala īpašnieku, lai iegūtu sīkāku informāciju."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Šobrīd nav pieejams neviens piegādes veids",
+                "description": "Mēģiniet vēlreiz nedaudz vēlāk vai sazinieties ar mums."
+            },
+            "rates_calculation": {
+                "title": "Jūsu pasūtījumam nav iespējams aprēķināt piegādes izmaksas",
+                "description": "Mēģiniet vēlreiz nedaudz vēlāk vai sazinieties ar mums."
+            },
+            "no_rates_found": {
+                "title": "Jūsu pasūtījumam nav piegādes iespējas",
+                "description": "Lūdzu pārskatiet savu piegādes adresi vai sazinieties ar mums."
+            }
+        },
+        "payment_failed": {
+            "title": "Nevarēja apstrādāt maksājumu",
+            "description": "Mēģiniet vēlreiz nedaudz vēlāk vai sazinieties ar mums."
+        },
+        "payment_authorization": {
+            "title": "Nevarēja apstrādāt maksājumu",
+            "default": "Lūdzu pārskatiet norēķinu un maksājumu informāciju."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Nevarēja apstrādāt maksājumu",
+                "description": "Mums neizdevās autentificēt jūsu maksājuma informāciju. Lūdzu mēģiniet vēlreiz"
+            }
+        },
+        "customer_exists": "Šis e-pasts jau tiek liets.",
+        "customer_password_missmatch": "Abām parolēm ir jāsakrīt.",
+        "customer_password_token_expired": "Jūsu paroles atiestatīšanas laiks ir beidzies.",
+        "customer_password_token_invalid": "Jūsu paroles atiestatīšanas kods ir nederīgs.",
+        "customer_not_found": "Šī e-pasta adrese nav saistīta ar nevienu reģistrētu kontu.",
+        "invalid_credentials": "Nepareizs e-pasts vai parole."
+    },
+    "customer_orders": {
+        "loading": "Ielādē..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Paldies par jūsu pasūtījumu",
+        "async_confirmation_notice": "Jūsu pasūtījums ir veikts un tiek apstrādāts. Drīzumā saņemsiet apstiprinājumu."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Piegādes izmaksas un nodokļi tiks aprēķināti pēc tam, kad norādīsiet adresi."
+    }
+}
