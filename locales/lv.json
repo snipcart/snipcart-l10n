@@ -265,7 +265,7 @@
                 "description": "Mums neizdevās autentificēt jūsu maksājuma informāciju. Lūdzu mēģiniet vēlreiz"
             }
         },
-        "customer_exists": "Šis e-pasts jau tiek liets.",
+        "customer_exists": "Šis e-pasts jau tiek izmantots.",
         "customer_password_missmatch": "Abām parolēm ir jāsakrīt.",
         "customer_password_token_expired": "Jūsu paroles atiestatīšanas laiks ir beidzies.",
         "customer_password_token_invalid": "Jūsu paroles atiestatīšanas kods ir nederīgs.",
