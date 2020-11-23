@@ -44,7 +44,8 @@
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
         "empty": "Your cart is empty.",
-        "invoice_number": "Invoice number"
+        "invoice_number": "Invoice number",
+        "view_detailed_cart": "View detailed cart"
     },
     "order": {
         "loading": "We're getting your order details..."
