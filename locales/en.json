@@ -13,7 +13,11 @@
         "show": "Show",
         "hide": "Hide",
         "apply_changes": "Apply changes",
-        "yes_use_it": "Yes, use it"
+        "yes_use_it": "Yes, use it",
+        "save_changes": "Save changes",
+        "back_to_orders": "Back to orders",
+        "change_password": "Change password",
+        "add": "Add"
     },
     "header": {
         "title_cart_summary": "Cart summary",
@@ -74,6 +78,9 @@
     "customer": {
         "information": "Customer information"
     },
+    "customer_details": {
+        "title": "Customer details"
+    },
     "customer_dashboard": {
         "my_account": "My account",
         "ordered_on": "Ordered on",
@@ -88,7 +95,8 @@
         "no_subscriptions": "No subscriptions found.",
         "view_invoice": "View invoice",
         "sign_out": "Sign out",
-        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders"
+        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
+        "orders": "Orders"
     },
     "signin_form": {
         "signin": "Sign In",
@@ -110,6 +118,13 @@
         "password": "New password",
         "confirmation_password": "Re-enter your new password",
         "action": "Reset password"
+    },
+    "change_password_form": {
+        "title": "Change your password",
+        "current_password": "Current password",
+        "password": "New password",
+        "confirmation_password": "Re-enter your new password",
+        "action": "Change password"
     },
     "register_form": {
         "register": "Register",
@@ -270,7 +285,8 @@
         "customer_password_token_expired": "Your password recovery token has expired.",
         "customer_password_token_invalid": "Your password recovery token is invalid.",
         "customer_not_found": "The email address is not associated with any account.",
-        "invalid_credentials": "Invalid email or password."
+        "invalid_credentials": "Invalid email or password.",
+        "customer_current_password_invalid": "Invalid password."
     },
     "customer_orders": {
         "loading": "Loading..."
