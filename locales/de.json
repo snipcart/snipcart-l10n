@@ -47,7 +47,7 @@
         "name": "Name",
         "email": "E-Mail",
         "address1": "Straße und Hausnummer",
-        "address2": "Adresse 2 (optional)",
+        "address2": "Adresszusatz (optional)",
         "city": "Stadt",
         "country": "Land",
         "postalCode": "Postleitzahl",
