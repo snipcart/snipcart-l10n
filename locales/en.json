@@ -68,7 +68,7 @@
         "country": "Country",
         "postalCode": "Postal/ZIP code",
         "province": "Province/State",
-        "dont_see_address": "I cant't find my address"
+        "dont_see_address": "I can't find my address"
     },
     "billing": {
         "title": "Billing",
