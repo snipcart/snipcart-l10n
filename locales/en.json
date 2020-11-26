@@ -189,6 +189,8 @@
         "title": "Discounts"
     },
     "cart_summary": {
+        "taxes": "Taxes",
+        "taxes_included_in_price": "Some items have taxes included.",
         "total": "Total",
         "subtotal": "Subtotal",
         "shipping": "Shipping",
