@@ -13,7 +13,11 @@
         "show": "顯示",
         "hide": "隱藏",
         "apply_changes": "更新",
-        "yes_use_it":  "確定使用"
+        "yes_use_it":  "確定使用",
+        "save_changes": "儲存變更",
+        "back_to_orders": "返回訂單",
+        "change_password": "修改密碼",
+        "add": "加入"
     },
     "header": {
         "title_cart_summary": "購物車",
@@ -44,7 +48,8 @@
         "secured_by": "Secured by Snipcart",
         "summary": "訂單內容",
         "empty": "您的購物車中沒有商品",
-        "invoice_number": "收據編號"
+        "invoice_number": "收據編號",
+        "view_detailed_cart": "購物車詳細內容"
     },
     "order": {
         "loading": "我們正在取得您的訂單內容..."
@@ -74,6 +79,9 @@
     "customer": {
         "information": "客戶資訊"
     },
+    "customer_details": {
+        "title": "客戶資訊"
+    },
     "customer_dashboard": {
         "my_account": "我的帳號",
         "ordered_on": "訂單成立於",
@@ -88,7 +96,8 @@
         "no_subscriptions": "無訂閱制項目",
         "view_invoice": "查看訂單",
         "sign_out": "登出",
-        "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單"
+        "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單",
+        "orders": "訂單"
     },
     "signin_form": {
         "signin": "登入",
@@ -110,6 +119,13 @@
         "password": "新密碼",
         "confirmation_password": "再次輸入新密碼",
         "action": "設定新密碼"
+    },
+    "change_password_form": {
+        "title": "修改你的密碼",
+        "current_password": "目前密碼",
+        "password": "新密碼",
+        "confirmation_password": "確認密碼",
+        "action": "更新密碼"
     },
     "register_form": {
         "register": "註冊",
@@ -181,9 +197,9 @@
     },
     "errors": {
         "default": "發生錯誤，請稍等後再試一次或聯絡我們的客服人員",
-        "promo_code_is_invalid": "此優惠代碼無法使用",
+        "promo_code_is_invalid": "此優惠代碼已經加入、或是已經無法使用了",
         "promocode_already_in_cart": "此優惠代碼已經被使用過了",
-        "promocode_isnt_applicable": "此優惠代碼無法使用",
+        "promocode_isnt_applicable": "此優惠代碼已經加入、或是已經無法使用了",
         "promo_code_is_expired": "此優惠代碼過期了",
         "stringEmpty": "此項不得為空白",
         "required": "此項為必填",
@@ -196,12 +212,21 @@
             "description": "請查看您的訂單後再嘗試一次"
         },
         "card": {
-            "invalid_number": "信用卡號碼無效",
-            "invalid_date": "信用卡過期日期無效",
-            "invalid_year": "信用卡過期年份無效",
-            "invalid_month": "信用卡過期月份無效",
-            "invalid_cvv": "信用卡背後三碼驗證無效",
-            "expired": "信用卡有效日期已過期"
+            "invalid_number": "信用卡號碼無效。",
+            "invalid_date": "信用卡過期日期無效。",
+            "invalid_year": "信用卡過期年份無效。",
+            "invalid_month": "信用卡過期月份無效。",
+            "invalid_cvv": "信用卡背後三碼驗證無效。",
+            "invalid_expiration": "信用卡的過期日無效。",
+            "expired": "信用卡有效日期已過期。",
+            "declined": "此張信用卡的交易已被拒絕，請聯絡您的發卡銀行解鎖此信用卡。",
+            "invalid_address": "信用卡的帳單地址錯誤。",
+            "insufficient_funds": "次帳戶並無足夠之餘額完成交易。",
+            "card_not_supported": "此卡片不支援此商店服務地區之交易。",
+            "currency_not_supported": "此卡片不支援此商店所使用的貨幣。"
+        },
+        "transaction": {
+            "declined": "此卡片於交易時發生錯誤，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
         },
         "discounts": {
             "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
@@ -261,7 +286,8 @@
         "customer_password_token_expired": "您的重設密碼連結已失效",
         "customer_password_token_invalid": "您的重設密碼連結已失效",
         "customer_not_found": "此 Email 尚未建立帳號",
-        "invalid_credentials": "Email 或是密碼有誤"
+        "invalid_credentials": "Email 或是密碼有誤",
+        "customer_current_password_invalid": "密碼錯誤"
     },
     "customer_orders": {
         "loading": "載入中..."
