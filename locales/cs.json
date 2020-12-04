@@ -30,10 +30,10 @@
         "increment_quantity": "Zvýšit počet",
         "remove_item": "Odstranit položku",
         "recurrence": {
-            "daily": "den |||| %{smart_count} dnů",
-            "weekly": "týden |||| %{smart_count} týdnů",
-            "monthly": "měsíc |||| %{smart_count} měsíců",
-            "yearly": "rok |||| %{smart_count} let"
+            "daily": "den |||| %{smart_count} dny |||| %{smart_count} dnů",
+            "weekly": "týden |||| %{smart_count} týdny |||| %{smart_count} týdnů",
+            "monthly": "měsíc |||| %{smart_count} měsíce |||| %{smart_count} měsíců",
+            "yearly": "rok |||| %{smart_count} roky |||| %{smart_count} let"
         }
     },
     "subscription": {
@@ -96,7 +96,7 @@
         "no_subscriptions": "Nebyly nalezeny žádné přeplatné.",
         "view_invoice": "Zobrazit fakturu",
         "sign_out": "Odhlásit",
-        "show_more_orders": "Zobrazit %{smart_count} další objednávku |||| Zobrazit %{smart_count} dalších objednávek",
+        "show_more_orders": "Zobrazit %{smart_count} další objednávku |||| Zobrazit %{smart_count} další objednávky |||| Zobrazit %{smart_count} dalších objednávek",
         "orders": "Objednávky"
     },
     "signin_form": {
