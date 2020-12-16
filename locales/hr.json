@@ -173,6 +173,7 @@
         "title": "Popusti"
     },
     "cart_summary": {
+        "taxes": "PDV",
         "total": "Ukupno",
         "subtotal": "Međuzbroj",
         "shipping": "Dostava",
