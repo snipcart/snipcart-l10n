@@ -39,7 +39,7 @@
     },
     "cart": {
         "subtotal": "Međuzbroj",
-        "shipping_taxes_calculated_at_checkout": "Dostava i porezi će se obračunati na blagajni.",
+        "shipping_taxes_calculated_at_checkout": "Dostava i porezi će se obračunati na blagajni, nakon unosa svih podataka.",
         "loading": "Pripremamo vašu košaricu ...",
         "secured_by": "Secured by Snipcart",
         "summary": "Pregled narudžbe",
@@ -130,8 +130,8 @@
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Odgođeno plaćanje",
-            "deferred_payment_instructions": "Ovom Narudžbom potvrđujete odgođeno plaćanje bankovnom transakcijom ili drugom metodom plaćanja koju odredi trgovac.",
+            "deferred_payment_title": "Kasnije plaćanje",
+            "deferred_payment_instructions": "Ovom Narudžbom potvrđujete kasnije plaćanje bankovnom transakcijom ili drugom metodom plaćanja koju odredi trgovac.",
             "card_label": "Kartica",
             "card_number": "Broj kartice",
             "card_expiration": "MM/YY",
@@ -166,7 +166,7 @@
             "p24": "Przelewy24",
             "sepa_debit": "SEPA izravno terećenje",
             "sofort": "Sofort bankovni račun",
-            "deferred_payment": "Kasnije plaćanje (npr. po izdavanju ponude)"
+            "deferred_payment": "Kasnije plaćanje (po izdanoj Ponudi i sl.)"
         }
     },
     "discounts": {
