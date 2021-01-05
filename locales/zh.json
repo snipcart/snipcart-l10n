@@ -189,6 +189,8 @@
         "title": "折扣"
     },
     "cart_summary": {
+        "taxes": "稅金",
+        "taxes_included_in_price": "購物車內有部分商品已含稅",
         "total": "總計",
         "subtotal": "小計",
         "shipping": "運費",
