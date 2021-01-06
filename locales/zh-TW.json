@@ -21,7 +21,7 @@
     },
     "header": {
         "title_cart_summary": "購物車",
-        "loading": "載入中..."
+        "loading": "載入中，請稍候..."
     },
     "item": {
         "quantity": "數量",
@@ -55,7 +55,7 @@
         "loading": "我們正在取得您的訂單內容..."
     },
     "discount_box": {
-        "promo_code": "優惠代碼?",
+        "promo_code": "使用優惠代碼?",
         "promo_code_placeholder": "優惠代碼",
         "promocode_applied": "優惠代碼已使用"
     },
@@ -64,17 +64,17 @@
         "email": "Email",
         "address1": "地址",
         "address2": "地址(選填)",
-        "city": "城市",
+        "city": "縣市",
         "country": "國家",
         "postalCode": "郵遞區號",
-        "province": "行政區",
+        "province": "鄉鎮市區",
         "dont_see_address": "沒有看到我的地址"
     },
     "billing": {
         "title": "帳單地址",
         "address": "帳單地址",
         "continue_to_shipping": "確認",
-        "use_different_shipping_address": "如果你的帳單地址與收件地址不同﹐請選擇此項"
+        "use_different_shipping_address": "如果帳單地址與收件地址不同﹐請勾選此項"
     },
     "customer": {
         "information": "客戶資訊"
@@ -89,11 +89,11 @@
         "price": "價格",
         "total": "總計",
         "status": "狀態",
-        "order": "訂單編號 %{invoice_number}",
+        "order": "訂單編號:%{invoice_number}",
         "order_details": "訂單資訊",
-        "loading": "載入中...",
+        "loading": "載入中，請稍候...",
         "no_orders": "尚無訂單",
-        "no_subscriptions": "無訂閱制項目",
+        "no_subscriptions": "無訂閱制商品",
         "view_invoice": "查看訂單",
         "sign_out": "登出",
         "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單",
@@ -141,7 +141,7 @@
     "shipping": {
         "title": "寄送方式",
         "shipping_to": "寄送至:",
-        "address": "寄送地址",
+        "address": "收件地址",
         "method": "寄送方法"
     },
     "payment": {
@@ -159,10 +159,10 @@
         "continue_to_payment": "前往付款方式",
         "credit_card": "信用卡到期日",
         "place_order": "送出",
-        "preparing_payment_session": "付款中...",
-        "processing_payment": "付款中...",
+        "preparing_payment_session": "與銀行連線中...",
+        "processing_payment": "付款中，請稍候...",
         "checkout_with": "結帳方式",
-        "checkout_with_method": "以 %{method} 做為結帳方式",
+        "checkout_with_method": "以%{method}做為結帳方式",
         "method_icon": "%{method} 圖示",
         "no_payment": "此筆訂單不需要付款",
         "methods": {
@@ -189,6 +189,8 @@
         "title": "折扣"
     },
     "cart_summary": {
+        "taxes": "稅金",
+        "taxes_included_in_price": "購物車內有部分商品已含稅",
         "total": "總計",
         "subtotal": "小計",
         "shipping": "運費",
@@ -226,19 +228,19 @@
             "currency_not_supported": "此卡片不支援此商店所使用的貨幣。"
         },
         "transaction": {
-            "declined": "此卡片於交易時發生錯誤，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
+            "declined": "此卡片被發卡銀行拒絕交易，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
         },
         "discounts": {
             "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
         },
         "order_validation": {
             "domain_crawling": {
-                "title": "訂單無法處理",
-                "description": "您沒有被收款，如有問題麻煩請聯絡客服人員"
+                "title": "訂單驗證失敗",
+                "description": "訂單內容驗證失敗，請清除購物車後重新選購商品。"
             },
             "product_crawling": {
                 "title": "您購物車內部分商品的價格已更新",
-                "description": "請試著移除此商品再重新加入購物車，如有問題麻煩請聯絡客服人員"
+                "description": "請試著移除此商品再重新加入購物車。"
             },
             "stock_validation": {
                 "title": "此商品無足夠的庫存",
@@ -268,17 +270,17 @@
             }
         },
         "payment_failed": {
-            "title": "無法付款",
-            "description": "請稍候重試，如有問題麻煩請聯絡客服人員"
+            "title": "信用卡交易失敗",
+            "description": "信用卡交易失敗，請聯絡信用卡發卡銀行確認交易失敗原因。"
         },
         "payment_authorization": {
-            "title": "付款失敗",
-            "default": "請確認您的付款資訊，如有問題麻煩請聯絡客服人員"
+            "title": "交易授權失敗",
+            "default": "刷卡授權失敗，請聯絡發卡銀行幫您解鎖。"
         },
         "authentication_challenge": {
             "failed": {
-                "title": "無法法處理付款",
-                "description": "我們無法處理您的付款，請您重試一次"
+                "title": "交易授權失敗",
+                "description": "刷卡授權失敗，請再試一次，如仍失敗請先聯絡發卡銀行幫您解鎖。"
             }
         },
         "customer_exists": "此 Email 已經被使用過了",
@@ -290,13 +292,13 @@
         "customer_current_password_invalid": "密碼錯誤"
     },
     "customer_orders": {
-        "loading": "載入中..."
+        "loading": "載入中，請稍候..."
     },
     "confirmation": {
         "thank_you_for_your_order": "感謝您的訂購",
-        "async_confirmation_notice": "您的訂單已建立，系統正在處理中，訂單確認信將於不久後寄出"
+        "async_confirmation_notice": "您的訂單已建立，我們正在處理中，訂單確認信將於不久後寄出"
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "系統將於輸入收件地址後計算出運費及稅金"
+        "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
     }
 }
