@@ -13,7 +13,11 @@
         "show": "Pokaż",
         "hide": "Ukryj",
         "apply_changes": "Zastosuj zmiany",
-        "yes_use_it":  "Tak, użyj tego"
+        "yes_use_it":  "Tak, użyj tego",
+        "save_changes": "Zapisz zmiany",
+        "back_to_orders": "Powrót do zamówień",
+        "change_password": "Zmień hasło", 
+        "add": "Dodaj"
     },
     "header": {
         "title_cart_summary": "Podsumowanie koszyka",
@@ -24,7 +28,18 @@
         "quantity_short": "Szt.",
         "decrement_quantity": "Zmniejsz ilość",
         "increment_quantity": "Zwiększ ilość",
-        "remove_item": "Usuń przedmiot"
+        "remove_item": "Usuń przedmiot",
+        "recurrence": {
+            "daily": "dzień |||| %{smart_count} days",
+            "weekly": "tydzień |||| %{smart_count} weeks",
+            "monthly": "miesiąc |||| %{smart_count} months",
+            "yearly": "rok |||| %{smart_count} years"
+        }
+    },
+    "subscription": {
+        "plan": "Abonament",
+        "billed_on": "Płatne dnia",
+        "payment_amount": "Kwota do zapłaty"
     },
     "cart": {
         "subtotal": "Suma częściowa",
@@ -33,7 +48,8 @@
         "secured_by": "Zabezpieczone przez Snipcart",
         "summary": "Podsumowanie zamówienia",
         "empty": "Twój koszyk jest pusty.",
-        "invoice_number": "Numer faktury."
+        "invoice_number": "Numer faktury.",
+        "view_detailed_cart": "Zobacz szczegóły koszyka"
     },
     "order": {
         "loading": "Dane Twojego zamówienia ładują się..."
@@ -63,17 +79,25 @@
     "customer": {
         "information": "Informacje o kupującym"
     },
+    "customer_details": {
+        "title": "Moje dane"
+    },
     "customer_dashboard": {
         "my_account": "Moje konto",
         "ordered_on": "Zamówione",
+        "next_billing_date": "Następne obciążenie konta nastąpi",
+        "price": "Cena",
         "total": "W sumie",
         "status": "Status",
         "order": "Zamówienie nr %{invoice_number}",
         "order_details": "Szczegóły zamówienia",
         "loading": "Ładowanie...",
         "no_orders": "Brak zamówień.",
+        "no_subscriptions": "Nie znaleziono subskrypcji.",
+        "view_invoice": "Zobacz fakturę",
         "sign_out": "Wyloguj się",
-        "show_more_orders": "Pokaż %{smart_count} więcej zamówień |||| Pokaź %{smart_count} więcej zamówień"
+        "show_more_orders": "Pokaż %{smart_count} więcej zamówień |||| Pokaź %{smart_count} więcej zamówień",
+        "orders": "Zamówienia"
     },
     "signin_form": {
         "signin": "Zaloguj się",
@@ -95,6 +119,13 @@
         "password": "Nowe hasło",
         "confirmation_password": "Powtórz nowe hasło",
         "action": "Resetuj hasło"
+    },
+    "change_password_form": {
+        "title": "Zmień hasło",
+        "current_password": "Obecne hasło",
+        "password": "Nowe hasło",
+        "confirmation_password": "Wprowadź ponownie nowe hasło",
+        "action": "Zmień hasło"
     },
     "register_form": {
         "register": "Rejestracja",
@@ -158,6 +189,8 @@
         "title": "Zniżki"
     },
     "cart_summary": {
+        "taxes": "Podatek",
+        "taxes_included_in_price": "Niektóre produkty zawierają podatek.",
         "total": "Razem",
         "subtotal": "Częściowo",
         "shipping": "Dostawa",
@@ -186,7 +219,16 @@
             "invalid_year": "Data ważności karty (rok) jest nieprawidłowa.",
             "invalid_month": "Data ważności karty (miesiąc) jest nieprawidłowa.",
             "invalid_cvv": "Kod CVV podanej karty jest nieprawidłowy.",
-            "expired": "Data ważności karty jest przedawniona"
+            "invalid_expiration": "Data ważności karty jest nieprawidłowa.",
+            "expired": "Upłynął termin ważności kary",
+            "declined": "Transakcja kartą została odrzucona. Skontaktuj się z wystawcą karty w celu uzyskania dodatkowych informacji.",
+            "invalid_address": "Adres jest nieprawidłowy.",
+            "insufficient_funds": "Nie masz wystarczających środków na pokrycie tej transakcji.",
+            "card_not_supported": "Karta nie jest obsługiwana w tym regionie geograficznym.",
+            "currency_not_supported": "Waluta nie jest obecnie obsługiwana."
+        },
+        "transaction": {
+            "declined": "Wystąpił błąd. Spórbuj za chwilę lub wybierz inną metodę płatności."
         },
         "discounts": {
             "conflict": "Niektóre zniżki nie mogą być łączone. Zastosować tę zniżkę?"
@@ -194,7 +236,7 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Zamówienie nie mogło zostać przetworzone.",
-                "description": "Nie zostałeś obciążony płątnością. Proszę skontaktuj się z nami."
+                "description": "Nie zostałeś obciążony płatnością. Proszę skontaktuj się z nami."
             },
             "product_crawling": {
                 "title": "Cena produktu w koszyku mogła się zmienić.",
@@ -246,7 +288,8 @@
         "customer_password_token_expired": "Link do odzyskiwania hasła jest już nieważny.",
         "customer_password_token_invalid": "Link do odzyskiwania hasła jest już nieprawidłowy.",
         "customer_not_found": "Ten adres email nie jest powiązany z żadnym kontem.",
-        "invalid_credentials": "Nieprawidłowy email lub hasło."
+        "invalid_credentials": "Nieprawidłowy email lub hasło.",
+        "customer_current_password_invalid": "Nieprawidłowe hasło."
     },
     "customer_orders": {
         "loading": "Ładowanie..."
