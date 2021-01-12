@@ -3,13 +3,21 @@
         "edit": "Ändra",
         "cancel": "Avbryt",
         "continue_shopping": "Fortsätt handla",
-        "back_to_checkout": "Tillbaks till kassan",
+        "back_to_checkout": "Tillbaka till kassan",
         "checkout": "Kassa",
         "apply": "Använd",
         "type_address": "Ange din adress",
         "use_this_address": "Använd den här adressen",
-        "back_to_store": "Tillbaks till butiken",
-        "close_cart": "Stäng varukorg"
+        "back_to_store": "Tillbaka till butiken",
+        "close_cart": "Stäng varukorg",
+        "show": "Visa",
+        "hide": "Dölj",
+        "apply_changes": "Använd ändringar",
+        "yes_use_it": "Ja, använd",
+        "save_changes": "Spara ändringar",
+        "back_to_orders": "Tillbaka till beställningar",
+        "change_password": "Ändra lösenord",
+        "add": "Lägg till"
     },
     "header": {
         "title_cart_summary": "Din varukorg",
@@ -20,7 +28,18 @@
         "quantity_short": "st",
         "decrement_quantity": "Minska antal",
         "increment_quantity": "Öka antal",
-        "remove_item": "Ta bort"
+        "remove_item": "Ta bort artikel",
+        "recurrence": {
+            "daily": "dag |||| %{smart_count} dagar",
+            "weekly": "vecka |||| %{smart_count} veckor",
+            "monthly": "månad |||| %{smart_count} månader",
+            "yearly": "år |||| %{smart_count} år"
+        }
+    },
+    "subscription": {
+        "plan": "Plan",
+        "billed_on": "Faktureras",
+        "payment_amount": "Betalningsbelopp"
     },
     "cart": {
         "subtotal": "Delsumma",
@@ -29,7 +48,8 @@
         "secured_by": "Säkrat av Snipcart",
         "summary": "Ordersammanfattning",
         "empty": "Din varukorg är tom.",
-        "invoice_number": "Fakturanummer"
+        "invoice_number": "Fakturanummer",
+        "view_detailed_cart": "Visa detaljerad varukorg"
     },
     "order": {
         "loading": "Vi hämtar dina orderdetaljer..."
@@ -59,27 +79,59 @@
     "customer": {
         "information": "Kundinformation"
     },
+    "customer_details": {
+        "title": "Kunduppgifter"
+    },
     "customer_dashboard": {
+        "my_account": "Mitt konto",
         "ordered_on": "Beställd på",
+        "next_billing_date": "Nästa fakturadatum",
+        "price": "Pris",
         "total": "Totalt",
         "status": "Status",
         "order": "Order %{invoice_number}",
         "order_details": "Orderdetaljer",
         "loading": "Laddar...",
-        "no_orders": "Hittade inga ordrar"
+        "no_orders": "Hittade inga beställningar.",
+        "no_subscriptions": "Hittade inga prenumerationer.",
+        "view_invoice": "Visa faktura",
+        "sign_out": "Logga ut",
+        "show_more_orders": "Visa %{smart_count} beställningar till |||| Visa %{smart_count} beställningar till",
+        "orders": "Beställningar"
     },
     "signin_form": {
         "signin": "Logga in",
         "dont_have_an_account": "Har du inget konto?",
         "email": "E-postadress",
         "password": "Lösenord",
-        "forgot_your_password": "har du glömt ditt lösenord?"
+        "forgot_your_password": "Har du glömt ditt lösenord?",
+        "close_form": "Tillbaka"
+    },
+    "forgot_password_form": {
+        "title": "Återställ ditt lösenord",
+        "instructions": "Ange kontots e-postadress så skickar vi en länk för att återställa lösenordet.",
+        "email": "E-postadress",
+        "email_instructions": "Ett e-post med en länk har skickats till dig. Klicka på länken för att återställa ditt lösenord.",
+        "action": "Skicka e-post för återställning av lösenord"
+    },
+    "reset_password_form": {
+        "title": "Återställ ditt lösenord",
+        "password": "Nytt lösenord",
+        "confirmation_password": "Ange ditt nya lösenord igen",
+        "action": "Återställ lösenord"
+    },
+    "change_password_form": {
+        "title": "Ändra ditt lösenord",
+        "current_password": "Nuvarande lösenord",
+        "password": "Nytt lösenord",
+        "confirmation_password": "Ange ditt nya lösenord igen",
+        "action": "Ändra lösenord"
     },
     "register_form": {
         "register": "Registrera dig",
         "already_have_an_account": "Har du redan ett konto?",
         "email": "E-postadress",
-        "password": "Lösenrod",
+        "password": "Lösenord",
         "confirm_password": "Bekräfta lösenord"
     },
     "guest_checkout": {
@@ -93,23 +145,27 @@
         "method": "Fraktmetod"
     },
     "payment": {
-        "form":{
+        "form": {
+            "deferred_payment_title": "Uppskjuten betalning",
+            "deferred_payment_instructions": "Genom att lägga denna beställning godkänner du att betala senare via en betalmetod som säljaren valt.",
             "card_label": "Kreditkort",
             "card_number": "Kortnummer",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
             "card_postal_code": "Postkod"
         },
+        "still_pending_notice": "Din betalning bearbetas fortfarande.",
         "title": "Betalning",
         "continue_to_payment": "Fortsätt till betalning",
         "credit_card": "Kreditkort",
-        "place_order": "Lägg order",
+        "place_order": "Lägg beställning",
         "preparing_payment_session": "Förbereder betalning...",
         "processing_payment": "Bearbetar betalning...",
         "checkout_with": "Betalningsmetod",
         "checkout_with_method": "Betalningsmetod: %{method}",
-        "method_icon": "%{method} icon",
-        "methods":{
+        "method_icon": "%{method} ikon",
+        "no_payment": "Det krävs ingen betalning för denna beställning.",
+        "methods": {
             "card": "Kreditkort",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -125,53 +181,125 @@
             "klarna_slice_it": "Klarna delbetalning",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Betala senare"
         }
     },
     "discounts": {
-      "title": "Rabatter"
+        "title": "Rabatter"
     },
     "cart_summary": {
-      "total": "Total",
-      "subtotal": "Delsumma",
-      "shipping": "Frakt",
-      "discount": "Rabatter",
-      "quantity": "x"
+        "taxes": "Skatter",
+        "taxes_included_in_price": "Vissa artiklar har skatt inkluderat.",
+        "total": "Total",
+        "subtotal": "Delsumma",
+        "shipping": "Frakt",
+        "discount": "Rabatter",
+        "quantity": "x"
     },
     "errors": {
-      "default": "Ett fel uppstod",
+        "default": "Ett fel uppstod, försök igen eller kontakta oss.",
+        "promo_code_is_invalid": "Kampanjkoden är inte giltig.",
+        "promocode_already_in_cart": "Kampanjkoden har redan använts",
+        "promocode_isnt_applicable": "Den här kampanjkoden kan inte användas",
+        "promo_code_is_expired": "Kampanjkoden har gått ut",
+        "stringEmpty": "Det här fältet är obligatoriskt",
+        "required": "Det här fältet är obligatoriskt",
+        "invalid_expiry_year_past": "Kortet har gått ut",
+        "email": "Ange en giltig e-postadress",
+        "quantity_revised": "Antalet har uppdaterats på grund av lagerbegränsningar.",
+        "quantity_out_of_stock": "Tyvärr finns inte denna artikel i lager, ta bort den från varukorgen för att fortsätta.",
+        "error_payment_items_are_invalid": {
+            "title": "Vissa artiklar i din varukorg är ogiltiga.",
+            "description": "Vänligen granska din beställning eller försök igen senare."
+        },
+        "card": {
+            "invalid_number": "Kortets nummer är ogiltigt.",
+            "invalid_date": "Kortets utgångsdatum är ogiltigt.",
+            "invalid_year": "Kortets utgångsår är ogiltigt.",
+            "invalid_month": "Kortets utgångsmånad är ogiltigt.",
+            "invalid_cvv": "Kortets CVV är ogiltigt.",
+            "invalid_expiration": "Kortets utgångsdatum är ogiltigt.",
+            "expired": "Kreditkortet har löpt ut",
+            "declined": "Kortet har blivit nekat. Var vänlig kontakta din kortutgivare för mer information.",
+            "invalid_address": "Kortets adress är ogiltigt.",
+            "insufficient_funds": "Kontot hade inte tillräckliga medel för att täcka transaktionsbeloppet.",
+            "card_not_supported": "Kortet stöds inte i detta geografiska område.",
+            "currency_not_supported": "Valutan stöds för närvarande inte."
+        },
+        "transaction": {
+            "declined": "Ett fel inträffade när vi bearbetade kortet. Försök igen senare eller med en annan betalmetod."
+        },
+        "discounts": {
+            "conflict": "Vissa rabatter kunde inte kombineras. Vill du använda denna rabatt istället?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Beställning kunde inte hanteras.",
+                "description": "Du har inte debiterats. Vänligen kontakta butiksägaren för mer information."
+            },
+            "product_crawling": {
+                "title": "Priset på produkterna i varukorgen kan ha ändrats.",
+                "description": "Försök att ta bort och lägga till dem i varukorgen. Vänligen kontakta butiksägaren för mer information."
+            },
+            "stock_validation": {
+                "title": "Produktlagret är inte tillgängligt.",
+                "description": "Vissa produkter kan vara slut i lager för den valda mängden. Ändra antalet eller kontakta butiksägaren för mer information."
+            },
+            "custom_fields_validation": {
+                "title": "Saknar nödvändig information.",
+                "description": "Vissa produkter i varukorgen saknar nödvändig information. Vänligen ändra i varukorgen för att fortsätta."
+            },
+            "shipping_validation": {
+                "title": "Kunde inte bekräfta fraktmetod.",
+                "description": "Den valda fraktkostnaden kan ha ändrats eller är inte tillgänglig. Vänligen kontakta butiksägaren för mer information."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Ingen fraktmetod är för närvarande tillgänglig",
+                "description": "Försök igen senare eller kontakta oss för hjälp."
+            },
+            "rates_calculation": {
+                "title": "Kunde inte beräkna frakt för din beställning",
+                "description": "Försök igen senare eller kontakta oss för hjälp."
+            },
+            "no_rates_found": {
+                "title": "Ingen fraktmetod är tillgänglig för din beställning",
+                "description": "Vänligen granska din leveransadress eller kontakta oss."
+            }
+        },
+        "payment_failed": {
+            "title": "Kunde inte genomföra betalningen",
+            "description": "Försök igen senare eller kontakta oss för hjälp."
+        },
 
-      "promo_code_is_invalid": "Kampanjkoden är inte giltlig",
-      "promocode_already_in_cart": "Kampanjkoden har redan använts",
-      "promocode_isnt_applicable": "Den här kampanjkoden kan inte användas",
-      "promo_code_is_expired": "Kampanjkoden har gått ut",
-      "stringEmpty": "Det här fältet är obligatoriskt",
-      "required": "Det här fältet är obligatoriskt",
-      "invalid_expiry_year_past": "Kortet har gått ut",
-      "email": "Ange en giltlig e-postadress",
-      
-      "payment_failed": {
-          "title": "Kunde inte genomföra betalningen.",
-          "description": "Kontrollera dina kortdetaljer och försök igen."
-      },
-      
-      "payment_authorization": {
-          "title":"Vi kunde inte genomföra betalningen.",
-          
-          "default": "Kontrollera informationen du angav och försök igen."
-      },
-      "customer_exists": "Den här e-postadressen har redan använts.",
-      "customer_password_missmatch": "Lösenorden stämmer inte överens.",
-      "invalid_credentials": "Felaktig e-postaadress eller lösenord."
+        "payment_authorization": {
+            "title": "Vi kunde inte genomföra betalningen",
+            "default": "Kontrollera fakturerings- och betalningsinformationen."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Kunde inte genomföra betalning",
+                "description": "Vi kunde inte verifiera din betalningsinformation. Vänligen försök igen"
+            }
+        },
+        "customer_exists": "Den här e-postadressen har redan använts.",
+        "customer_password_missmatch": "Lösenorden stämmer inte överens.",
+        "customer_password_token_expired": "Din token för lösenordsåterställning har utgått.",
+        "customer_password_token_invalid": "Din token för lösenordsåterställning är felaktig.",
+        "customer_not_found": "E-postadressen är inte kopplad till något konto.",
+        "invalid_credentials": "Felaktig e-postaadress eller lösenord.",
+        "customer_current_password_invalid": "Felaktigt lösenord."
     },
     "customer_orders": {
         "loading": "Laddar..."
     },
     "confirmation": {
-        "thank_you_for_your_order": "Tack för din beställning!",
-        "async_confirmation_notice": "Din beställningen är lagd och behandlas just nu. Vi återkommer snart med en uppdatering."
+        "thank_you_for_your_order": "Tack för din beställning",
+        "async_confirmation_notice": "Din beställning är lagd och behandlas just nu. Du kommer snart att få en bekräftelse."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett adress."
+        "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett en adress."
     }
 }
