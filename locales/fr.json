@@ -109,7 +109,7 @@
     },
     "forgot_password_form": {
         "title": "Récupérer votre mot de passe",
-        "instructions": "Saisissez l’adresse de courriel associé à votre compte afin que nous vous envoyons un lien de réinitilaisatioon de votre mot de passe.",
+        "instructions": "Saisissez l’adresse de courriel associée à votre compte afin que nous vous envoyons un lien de réinitialisatioon de votre mot de passe.",
         "email": "Courriel",
         "email_instructions": "Un courriel contenant un lien vous a été envoyé. Cliquez dessus afin de réinitialiser votre mot de passe.",
         "action": "Envoyer le courriel de réinitialisation"
@@ -203,14 +203,14 @@
         "promocode_already_in_cart": "Cette promotion a déjà été appliquée",
         "promocode_isnt_applicable": "Cette promotion n’est pas applicable",
         "promo_code_is_expired": "Cette promotion est expirée",
-        "stringEmpty": "Ce champ est requis",
-        "required": "Ce champ est requis",
+        "stringEmpty": "Ce champ est obligatoire",
+        "required": "Ce champ est obligatoire",
         "invalid_expiry_year_past": "La carte est expirée",
         "email": "Veuillez spécifier une adresse de courriel valide",
         "quantity_revised": "La quantité a été modifiée en raison d’un stock limité.",
-        "quantity_out_of_stock": "Malheureusement, cet produit n’est plus disponible, supprimez-le du panier pour continuer.",
+        "quantity_out_of_stock": "Malheureusement, cet article n’est plus disponible, supprimez-le du panier pour continuer.",
         "error_payment_items_are_invalid": {
-            "title": "Certains produits de votre panier ne sont pas valides",
+            "title": "Certains articles de votre panier ne sont pas valides",
             "description": "Veuillez vérifier votre commande, ou réessayer plus tard."
         },
         "card": {
@@ -224,26 +224,26 @@
             "declined": "La carte a été refusée. Veuillez contacter votre banque pour plus d’informations.",
             "invalid_address": "L’adresse de la carte n’est pas correcte.",
             "insufficient_funds": "Le compte n’est pas suffisamment crédité pour couvrir le montant de la transaction.",
-            "card_not_supported": "La carte n’est pas pris en charge dans zone géographique.",
-            "currency_not_supported": "La devise n’est pas supportée pour le moment."
+            "card_not_supported": "La carte n’est pas pris en charge dans la zone géographique.",
+            "currency_not_supported": "La devise n’est pas prise en charge pour le moment."
         },
         "transaction": {
-            "declined": "Une erreur est survenue lors du traitement de la carte. Veuillez réessayer plus tard ou avec une autre méthode de paiement."
+            "declined": "Une erreur est survenue lors du traitement de la carte. Veuillez réessayer plus tard ou avec un autre moyen de paiement."
         },
         "discounts": {
             "conflict": "Certaines promotions ne peuvent pas être appliquées en même temps. Utiliser uniquement cette promotion ?"
         },
         "order_validation": {
             "domain_crawling": {
-                "title":"Votre commande n’a pas pu être traitée.",
-                "description":"Vous n’avez pas été débité. Veuillez contacter le commerçant pour plus de détails."
+                "title": "Votre commande n’a pas pu être traitée.",
+                "description": "Vous n’avez pas été débité. Veuillez contacter le commerçant pour plus de détails."
             },
             "product_crawling": {
-                "title":"Le prix de certains produits de votre panier semble avoir changé.",
+                "title": "Le prix de certains articles de votre panier semble avoir changé.",
                 "description": "Essayez de les supprimer et de les ajouter à nouveau à votre panier. Veuillez contacter le commerçant pour plus de détails."
             },
             "stock_validation": {
-                "title":"Article non disponible.",
+                "title": "Article non disponible.",
                 "description": "Certains articles semblent être en rupture de stock. Veuillez ajuster les quantités ou contacter le commerçant pour plus de détails."
             },
             "custom_fields_validation": {
@@ -280,11 +280,11 @@
         "authentication_challenge": {
             "failed": {
                 "title": "Impossible de traiter votre paiement",
-                "description": "Nous n’avons pas pu confirmer vos informations de paiement. Veuillez réessayer"
+                "description": "Nous n’avons pas pu confirmer vos informations de paiement. Veuillez réessayer."
             }
         },
         "customer_exists": "Cette adresse de courriel est déjà utilisée.",
-        "customer_password_missmatch": "Les deux mot de passe doivent être identiques.",
+        "customer_password_missmatch": "Les deux mots de passe doivent être identiques.",
         "customer_password_token_expired": "Votre code de récupération de mot de passe est expiré.",
         "customer_password_token_invalid": "Votre code de récupération de mot de passe n’est pas valide.",
         "customer_not_found": "L’adresse de courriel n’est associée à aucun compte.",
