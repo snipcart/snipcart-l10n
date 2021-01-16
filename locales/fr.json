@@ -48,7 +48,7 @@
         "secured_by": "Sécurisé par Snipcart",
         "summary": "Récapitulatif",
         "empty": "Votre panier est vide",
-        "invoice_number": "Numéro de la facture"
+        "invoice_number": "Numéro de la facture",
         "view_detailed_cart": "Consulter le panier détaillé"
     },
     "order": {
@@ -96,7 +96,7 @@
         "no_subscriptions": "Aucun abonnement trouvé.",
         "view_invoice": "Consulter la facture",
         "sign_out": "Se déconnecter",
-        "show_more_orders": "Afficher %{smart_count} commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires"
+        "show_more_orders": "Afficher %{smart_count} commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires",
         "orders": "Commandes"
     },
     "signin_form": {
