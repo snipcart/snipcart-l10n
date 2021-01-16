@@ -271,7 +271,7 @@
         },
         "payment_failed": {
             "title": "Impossible de traiter votre paiement.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour ontenir de l’assistance."
+            "description": "Veuillez réessayer plus tard, ou nous contacter pour obtenir de l’assistance."
         },
         "payment_authorization": {
             "title": "Impossible de traiter votre paiement",
@@ -299,6 +299,6 @@
         "async_confirmation_notice": "Votre commande est en cours de traitement. Vous recevrez une confirmation sous peu."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés uen fopis l’adresse fournie."
+        "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés une fois l’adresse fournie."
     }
 }
