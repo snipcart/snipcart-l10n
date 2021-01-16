@@ -28,7 +28,7 @@
         "quantity_short": "Qté",
         "decrement_quantity": "Diminuer la quantité",
         "increment_quantity": "Augmenter la quantité",
-        "remove_item": "Supprimer le produit"
+        "remove_item": "Supprimer le produit",
         "recurrence": {
             "daily": "jour |||| %{smart_count} jours",
             "weekly": "semaine |||| %{smart_count} semaines",
