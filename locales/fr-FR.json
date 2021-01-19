@@ -1,2 +1,304 @@
 {
+  "actions": {
+    "edit": "Modifier",
+    "cancel": "Annuler",
+    "continue_shopping": "Continuer les achats",
+    "back_to_checkout": "Revenir au paiement",
+    "checkout": "Paiement",
+    "apply": "Appliquer",
+    "type_address": "Saisissez votre adresse",
+    "use_this_address": "Utiliser cette adresse",
+    "back_to_store": "Revenir à la boutique",
+    "close_cart": "Fermer le panier",
+    "show": "Afficher",
+    "hide": "Cacher",
+    "apply_changes": "Appliquer les modifications",
+    "yes_use_it": "Oui, l’utiliser",
+    "save_changes": "Enregistrer les modifications",
+    "back_to_orders": "Revenir aux commandes",
+    "change_password": "Modifier le mot de passe",
+    "add": "Ajouter"
+  },
+  "header": {
+    "title_cart_summary": "Récapitulatif du panier",
+    "loading": "Chargement…"
+  },
+  "item": {
+    "quantity": "Quantité",
+    "quantity_short": "Qté",
+    "decrement_quantity": "Diminuer la quantité",
+    "increment_quantity": "Augmenter la quantité",
+    "remove_item": "Supprimer l’article",
+    "recurrence": {
+      "daily": "jour |||| %{smart_count} jours",
+      "weekly": "semaine |||| %{smart_count} semaines",
+      "monthly": "mois |||| %{smart_count} mois",
+      "yearly": "année |||| %{smart_count} années"
+    }
+  },
+  "subscription": {
+    "plan": "Formule",
+    "billed_on": "Facturé le",
+    "payment_amount": "Montant à payer"
+  },
+  "cart": {
+    "subtotal": "Sous-total",
+    "shipping_taxes_calculated_at_checkout": "Les frais de livraison et les taxes seront calculés au moment du paiement.",
+    "loading": "Nous préparons votre panier…",
+    "secured_by": "Sécurisé par Snipcart",
+    "summary": "Récapitulatif de la commande",
+    "empty": "Votre panier est vide",
+    "invoice_number": "Numéro de la facture",
+    "view_detailed_cart": "Consulter le panier détaillé"
+  },
+  "order": {
+    "loading": "Chargement des détails de votre commande…"
+  },
+  "discount_box": {
+    "promo_code": "Code promo ?",
+    "promo_code_placeholder": "Code promo",
+    "promocode_applied": "Promotion appliquée"
+  },
+  "address_form": {
+    "name": "Nom complet",
+    "email": "Courriel",
+    "address1": "Adresse postale",
+    "address2": "Complément d’Adresse",
+    "city": "Ville",
+    "country": "Pays",
+    "postalCode": "Code postal",
+    "province": "Région",
+    "dont_see_address": "Je ne trouve pas mon adresse"
+  },
+  "billing": {
+    "title": "Facturation",
+    "address": "Adresse de facturation",
+    "continue_to_shipping": "Continuer vers la livraison",
+    "use_different_shipping_address": "Utiliser une adresse de livraison différente"
+  },
+  "customer": {
+    "information": "Informations client"
+  },
+  "customer_details": {
+    "title": "Détails client"
+  },
+  "customer_dashboard": {
+    "my_account": "Mon compte",
+    "ordered_on": "Commandé le",
+    "next_billing_date": "Date de la prochaine facture",
+    "price": "Prix",
+    "total": "Total",
+    "status": "Statut",
+    "order": "Commande %{invoice_number}",
+    "order_details": "Détails de la commande",
+    "loading": "Chargement…",
+    "no_orders": "Aucune commande trouvée.",
+    "no_subscriptions": "Aucun abonnement trouvé.",
+    "view_invoice": "Consulter la facture",
+    "sign_out": "Se déconnecter",
+    "show_more_orders": "Afficher %{smart_count} commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires",
+    "orders": "Commandes"
+  },
+  "signin_form": {
+    "signin": "Se connecter",
+    "dont_have_an_account": "Pas de compte ?",
+    "email": "Courriel",
+    "password": "Mot de passe",
+    "forgot_your_password": "Mot de passe oublié ?",
+    "close_form": "Retour"
+  },
+  "forgot_password_form": {
+    "title": "Récupérer votre mot de passe",
+    "instructions": "Saisissez l’adresse de courriel associée à votre compte afin que nous vous envoyons un lien de réinitialisatioon de votre mot de passe.",
+    "email": "Courriel",
+    "email_instructions": "Un courriel contenant un lien vous a été envoyé. Cliquez dessus afin de réinitialiser votre mot de passe.",
+    "action": "Envoyer le courriel de réinitialisation"
+  },
+  "reset_password_form": {
+    "title": "Réinitialiser votre mot de passe",
+    "password": "Nouveau mot de passe",
+    "confirmation_password": "Confirmation du mot de passe",
+    "action": "Réinitialiser le mot de passe"
+  },
+  "change_password_form": {
+    "title": "Modifier votre mot de passe",
+    "current_password": "Mot de passe actuel",
+    "password": "Nouveau mot de passe",
+    "confirmation_password": "Confirmation du mot de passe",
+    "action": "Modifier le mot de passe"
+  },
+  "register_form": {
+    "register": "Créer un compte",
+    "already_have_an_account": "Vous avez déjà un compte ?",
+    "email": "Courriel",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmation du mot de passe"
+  },
+  "alternative": {
+    "or": "Ou",
+    "continue_as_a_guest": "Continuer en tant qu’invité"
+  },
+  "shipping": {
+    "title": "Livraison",
+    "shipping_to": "Livrer à :",
+    "address": "Adresse de livraison",
+    "method": "Méthode de livraison"
+  },
+  "payment": {
+    "form": {
+      "deferred_payment_title": "Paiement differé",
+      "deferred_payment_instructions": "En passant cette commande, vous acceptez de payer plus tard via le moyen de paiement identifié par le commerçant.",
+      "card_label": "Carte de crédit",
+      "card_number": "Numéro de carte",
+      "card_expiration": "MM/AA",
+      "card_cvv": "Code de sécurité",
+      "card_postal_code": "Code postal"
+    },
+    "still_pending_notice": "Votre paiement est en cours de traitement.",
+    "title": "Paiement",
+    "continue_to_payment": "Continuer vers le paiement",
+    "credit_card": "Carte de crédit",
+    "place_order": "Confirmer la commande",
+    "preparing_payment_session": "Préparation du paiement…",
+    "processing_payment": "Paiement en cours…",
+    "checkout_with": "Payer avec",
+    "checkout_with_method": "Payer avec %{method}",
+    "method_icon": "Icône de %{method}",
+    "no_payment": "Aucun paiement n’est requis pour cette commande.",
+    "methods": {
+      "card": "Carte de crédit",
+      "paypal": "PayPal",
+      "paypal_express_checkout": "PayPal",
+      "apple_pay": "Apple Pay",
+      "bancontact": "Bancontact",
+      "belfius": "Belfius",
+      "eps": "Electronic Payment Standard",
+      "giropay": "Giropay",
+      "ideal": "iDEAL",
+      "ing_home_pay": "ING Home’Pay",
+      "kbc": "KBC",
+      "klarna_pay_later": "Klarna pay later",
+      "klarna_slice_it": "Klarna monthly financing",
+      "p24": "Przelewy24",
+      "sepa_debit": "Virement SEPA",
+      "sofort": "Virement Sofort",
+      "deferred_payment": "Paiement différé"
+    }
+  },
+  "discounts": {
+    "title": "Promotions"
+  },
+  "cart_summary": {
+    "taxes": "Taxes",
+    "taxes_included_in_price": "Certains articles comprennent des taxes.",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "discount": "Promotions",
+    "quantity": "x"
+  },
+  "errors": {
+    "default": "Une erreur est survenue",
+    "promo_code_is_invalid": "Cette promotion n’est pas valide",
+    "promocode_already_in_cart": "Cette promotion a déjà été appliquée",
+    "promocode_isnt_applicable": "Cette promotion n’est pas applicable",
+    "promo_code_is_expired": "Cette promotion est expirée",
+    "stringEmpty": "Ce champ est obligatoire",
+    "required": "Ce champ est obligatoire",
+    "invalid_expiry_year_past": "La carte est expirée",
+    "email": "Veuillez spécifier une adresse de courriel valide",
+    "quantity_revised": "La quantité a été modifiée en raison d’un stock limité.",
+    "quantity_out_of_stock": "Malheureusement, cet article n’est plus disponible, supprimez-le du panier pour continuer.",
+    "error_payment_items_are_invalid": {
+      "title": "Certains articles de votre panier ne sont pas valides",
+      "description": "Veuillez vérifier votre commande, ou réessayer plus tard."
+    },
+    "card": {
+      "invalid_number": "Le numéro de la carte n’est pas valide.",
+      "invalid_date": "La date d’expiration de la carte n’est pas valide.",
+      "invalid_year": "L’année d’expiration de la carte n’est pas valide.",
+      "invalid_month": "Le mois d’expiration de la carte n’est pas valide.",
+      "invalid_cvv": "Le code de sécurité de la carte n’est pas valide.",
+      "invalid_expiration": "La date d’expiration de la carte n’est pas valide.",
+      "expired": "La carte est expirée",
+      "declined": "La carte a été refusée. Veuillez contacter votre banque pour plus d’informations.",
+      "invalid_address": "L’adresse de la carte n’est pas correcte.",
+      "insufficient_funds": "Le compte n’est pas suffisamment crédité pour couvrir le montant de la transaction.",
+      "card_not_supported": "La carte n’est pas pris en charge dans la zone géographique.",
+      "currency_not_supported": "La devise n’est pas prise en charge pour le moment."
+    },
+    "transaction": {
+      "declined": "Une erreur est survenue lors du traitement de la carte. Veuillez réessayer plus tard ou avec un autre moyen de paiement."
+    },
+    "discounts": {
+      "conflict": "Certaines promotions ne peuvent pas être appliquées en même temps. Utiliser uniquement cette promotion ?"
+    },
+    "order_validation": {
+      "domain_crawling": {
+        "title": "Votre commande n’a pas pu être traitée.",
+        "description": "Vous n’avez pas été débité. Veuillez contacter le commerçant pour plus de détails."
+      },
+      "product_crawling": {
+        "title": "Le prix de certains articles de votre panier semble avoir changé.",
+        "description": "Essayez de les supprimer et de les ajouter à nouveau à votre panier. Veuillez contacter le commerçant pour plus de détails."
+      },
+      "stock_validation": {
+        "title": "Article non disponible.",
+        "description": "Certains articles semblent être en rupture de stock. Veuillez ajuster les quantités ou contacter le commerçant pour plus de détails."
+      },
+      "custom_fields_validation": {
+        "title": "Information obligatoire manquante.",
+        "description": "Des informations obligatoires pour certains articles du panier sont manquantes. Veuillez modifier le panier pour continuer."
+      },
+      "shipping_validation": {
+        "title": "La méthode de livraison n’est pas valide.",
+        "description": "La méthode de livraison sélectionnée semble avoir été modifiée ou n’est plus disponible. Veuillez contacter le commerçant pour plus de détails."
+      }
+    },
+    "shipping": {
+      "account_configuration": {
+        "title": "Aucune méthode de livraison n’est disponible pour le moment",
+        "description": "Veuillez réessayer plus tard, ou contactez le commerçant pour ontenir de l’assistance."
+      },
+      "rates_calculation": {
+        "title": "Impossible de déterminer les frais de livraison pour votre commande",
+        "description": "Veuillez réessayer plus tard, ou contactez le commerçant pour ontenir de l’assistance."
+      },
+      "no_rates_found": {
+        "title": "Acune méthode de livraison n’est disponible pour votre commande",
+        "description": "Veuillez vérifier votre adresse de livraison ou nous contacter."
+      }
+    },
+    "payment_failed": {
+      "title": "Impossible de traiter votre paiement.",
+      "description": "Veuillez réessayer plus tard, ou nous contacter pour obtenir de l’assistance."
+    },
+    "payment_authorization": {
+      "title": "Impossible de traiter votre paiement",
+      "default": "Veuillez vérifier vos informations de facturation et de paiement."
+    },
+    "authentication_challenge": {
+      "failed": {
+        "title": "Impossible de traiter votre paiement",
+        "description": "Nous n’avons pas pu confirmer vos informations de paiement. Veuillez réessayer."
+      }
+    },
+    "customer_exists": "Cette adresse de courriel est déjà utilisée.",
+    "customer_password_missmatch": "Les deux mots de passe doivent être identiques.",
+    "customer_password_token_expired": "Votre code de récupération de mot de passe est expiré.",
+    "customer_password_token_invalid": "Votre code de récupération de mot de passe n’est pas valide.",
+    "customer_not_found": "L’adresse de courriel n’est associée à aucun compte.",
+    "invalid_credentials": "Adresse de courriel ou mot de passe non valide.",
+    "customer_current_password_invalid": "Mot de passe non valide."
+  },
+  "customer_orders": {
+    "loading": "Chargement…"
+  },
+  "confirmation": {
+    "thank_you_for_your_order": "Merci pour votre commande.",
+    "async_confirmation_notice": "Votre commande est en cours de traitement. Vous recevrez une confirmation sous peu."
+  },
+  "checkout": {
+    "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés une fois l’adresse fournie."
+  }
 }
