@@ -1,0 +1,304 @@
+{
+    "actions": {
+        "edit": "Chỉnh sửa",
+        "cancel": "Thoát",
+        "continue_shopping": "Tiếp tục mua sắm",
+        "back_to_checkout": "Quay lại thanh toán",
+        "checkout": "Thanh toán",
+        "apply": "Nhập",
+        "type_address": "Điền địa chỉ của bạn",
+        "use_this_address": "Hãy dùng địa chỉ này",
+        "back_to_store": "Quay lại cửa hàng",
+        "close_cart": "Đóng giỏ hàng",
+        "show": "Hiện",
+        "hide": "Ẩn",
+        "apply_changes": "Xác nhận thay đổi",
+        "yes_use_it": "Vâng, hãy dùng",
+        "save_changes": "Lưu thay đổi",
+        "back_to_orders": "Quay lại đơn hàng",
+        "change_password": "Thay đổi mật khẩu",
+        "add": "Thêm"
+    },
+    "header": {
+        "title_cart_summary": "Thông tin giỏ hàng",
+        "loading": "Loading..."
+    },
+    "item": {
+        "quantity": "Số lượng",
+        "quantity_short": "Qty",
+        "decrement_quantity": "Giảm số lượng",
+        "increment_quantity": "Tăng số lượng",
+        "remove_item": "Bỏ sản phẩm",
+        "recurrence": {
+            "daily": "ngày |||| %{smart_count} ngày",
+            "weekly": "tuần |||| %{smart_count} tuần",
+            "monthly": "tháng |||| %{smart_count} tháng",
+            "yearly": "năm |||| %{smart_count} năm"
+        }
+    },
+    "subscription": {
+        "plan": "Dạng",
+        "billed_on": "Thanh toán vaiò",
+        "payment_amount": "Lượng cần trả"
+    },
+    "cart": {
+        "subtotal": "Tổng",
+        "shipping_taxes_calculated_at_checkout": "Giao hàng và thuế sẽ được tính ở mục thanh toán",
+        "loading": "Chúng tôi đang chuẩn bị giỏ hàng cho bạn",
+        "secured_by": "Bảo mật bởi SNIPCART",
+        "summary": "Thông tin đơn hàng",
+        "empty": "Giỏ hàng bạn đang trống",
+        "invoice_number": "Số Invoice",
+        "view_detailed_cart": "Chi tiết giỏ hàng"
+    },
+    "order": {
+        "loading": "Chúng tôi đang lấy chi tiết đơn hàng của bạn"
+    },
+    "discount_box": {
+        "promo_code": "Mã khuyến mãi?",
+        "promo_code_placeholder": "Mã khuyến mãi",
+        "promocode_applied": "Mã khuyến mãi nhập thành công"
+    },
+    "address_form": {
+        "name": "Họ và Tên",
+        "email": "Email",
+        "address1": "Đia chỉ",
+        "address2": "Số nhà",
+        "city": "Thành phố",
+        "country": "Quốc gia",
+        "postalCode": "Mã ZIP",
+        "province": "Quận/Phường",
+        "dont_see_address": "Tôi không thấy địa chỉ của tôi"
+    },
+    "billing": {
+        "title": "Hoá đơn",
+        "address": "Địa chỉ gửi hoá đơn",
+        "continue_to_shipping": "Tiếp tục qua Giao hàng",
+        "use_different_shipping_address": "Dùng địa chỉ khác cho Giao hàng"
+    },
+    "customer": {
+        "information": "Thông tin khách hàng"
+    },
+    "customer_details": {
+        "title": "Thông tin chi tiết khách hàng"
+    },
+    "customer_dashboard": {
+        "my_account": "Tài khoản của tôi",
+        "ordered_on": "Đặt vào",
+        "next_billing_date": "Ngày thanh toán tiếp theo",
+        "price": "Giá",
+        "total": "Tổng",
+        "status": "Tình trạng",
+        "order": "Đơn hàng %{invoice_number}",
+        "order_details": "Thông tin đơn hàng",
+        "loading": "Loading...",
+        "no_orders": "Không có đơn hàng",
+        "no_subscriptions": "Không tìm thấy dịch vụ đăng ký",
+        "view_invoice": "Xem hoá đơn",
+        "sign_out": "Đăng xuất",
+        "show_more_orders": "Hiện %{smart_count} thêm đơn hàng |||| hiện %{smart_count} thêm đơn hàng",
+        "orders": "Đơn hàng"
+    },
+    "signin_form": {
+        "signin": "Đăng nhập",
+        "dont_have_an_account": "Không có tài khoản?",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Quên mật khẩu?",
+        "close_form": "Quay lại"
+    },
+    "forgot_password_form": {
+        "title": "Khôi phục mật khẩu",
+        "instructions": "Nhập email của bạn và chúng tôi sẽ gửi bạn một link đường dẫn làm lại mật khẩu.",
+        "email": "Email",
+        "email_instructions": "Một email chứa đựng link đường dẫn đã được gửi đến bạn. Click vào link đường dẫn để thay đổi mật khẩu.",
+        "action": "Gửi email Khôi phục mật khẩu"
+    },
+    "reset_password_form": {
+        "title": "Thay đổi mật khẩu",
+        "password": "Mật khẩu mới",
+        "confirmation_password": "Hãy nhập lại mật khẩu mới",
+        "action": "Thay đổi mật khẩu"
+    },
+    "change_password_form": {
+        "title": "Thay đổi mật khẩu hiện tại",
+        "current_password": "Mật khẩu hiện tại",
+        "password": "Mật khẩu mới",
+        "confirmation_password": "Hãy nhập lại mật khẩu mới",
+        "action": "Thay đổi mật khẩu hiện tại"
+    },
+    "register_form": {
+        "register": "Đăng ký",
+        "already_have_an_account": "Đã có tài khoản?",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "confirm_password": "Xác nhận mật khẩu"
+    },
+    "guest_checkout": {
+        "or": "Hoặc",
+        "continue_as_a_guest": "Tiếp tục dưới dạng khách hàng"
+    },
+    "shipping": {
+        "title": "Giao hàng",
+        "shipping_to": "Giao hàng tới:",
+        "address": "Địa chỉ giao hàng",
+        "method": "Hình thức giao hàng"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Chuyển khoản Ngân hàng",
+            "deferred_payment_instructions": "Khi chọn hình thức này, bạn chấp nhận rằng sẽ thanh toán thông qua hình thức chuyển khoản được hiện sau khi xác nhận đơn hàng.",
+            "card_label": "Thanh toán Credit Card VISA/MASTERCARD",
+            "card_number": "Số thẻ",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Mã ZIP"
+        },
+        "still_pending_notice": "Thanh toán đang được xác nhận.",
+        "title": "Thanh toán",
+        "continue_to_payment": "Tiếp tục tới thanh toán",
+        "credit_card": "Thanh toán Credit Card VISA/MASTERCARD",
+        "place_order": "Đặt hàng",
+        "preparing_payment_session": "Chuẩn bị thanh toán",
+        "processing_payment": "Đang chạy thanh toán",
+        "checkout_with": "Thanh toán với hình thức",
+        "checkout_with_method": "Thanh toán với hình thức %{method}",
+        "method_icon": "%{method} icon",
+        "no_payment": "Đơn hàng không cần thanh toán.",
+        "methods": {
+            "card": "Thanh toán Credit Card VISA/MASTERCARD",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Pay later"
+        }
+    },
+    "discounts": {
+        "title": "Giảm Giá"
+    },
+    "cart_summary": {
+        "taxes": "Thuế",
+        "taxes_included_in_price": "Một số sản phẩm có thuế đính kèm",
+        "total": "Tổng",
+        "subtotal": "Tổng cộng",
+        "shipping": "Giao hàng",
+        "discount": "Giảm giá",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Đã có lỗi xảy ra, xin vui lòng thử lại hoặc liên lạc với chúng tôi.",
+        "promo_code_is_invalid": "Mã khuyến mãi không hợp lệ",
+        "promocode_already_in_cart": "Mã khuyến mãi đã được nhập",
+        "promocode_isnt_applicable": "Mã khuyến mãi không phù hợp",
+        "promo_code_is_expired": "Mã khuyến mãi đã hết hạn",
+        "stringEmpty": "Khu vực cần điền",
+        "required": "Khu vực cần điền",
+        "invalid_expiry_year_past": "Thẻ hết hạn",
+        "email": "Hãy cung cấp một email phù hợp",
+        "quantity_revised": "Số lượng đã được thay đổi vì hàng có giới hạn",
+        "quantity_out_of_stock": "Rất tiếc, số lượng của sản phẩm này đã hết hàng, hãy bỏ khỏi giỏ hàng để tiếp tục.",
+        "error_payment_items_are_invalid": {
+            "title": "Một số sản phẩm trong giỏ hàng không hợp lệ",
+            "description": "Hãy coi lại giỏ hàng hoặc thử lại trong giây lát."
+        },
+        "card": {
+            "invalid_number": "Số thẻ không hợp lệ.",
+            "invalid_date": "Ngày hết hạn trên thẻ không hợp lệ.",
+            "invalid_year": "Năm hết hạn trên thẻ không hợp lệ.",
+            "invalid_month": "Tháng hết hạn trên thẻ không hợp lệ.",
+            "invalid_cvv": "Mã CVV trên thẻ không hợp lệ.",
+            "invalid_expiration": "Ngày hết hạn trên thẻ không hợp lệ.",
+            "expired": "Thẻ đã hết hạn",
+            "declined": "Thẻ của bạn đã bị từ chối. Hãy liên lạc với ngân hàng cung cấp thẻ để biết thêm thông tin.",
+            "invalid_address": "Địa chỉ trên thẻ không hợp lệ.",
+            "insufficient_funds": "Thẻ của bạn không đủ ngân lượng để thanh toán.",
+            "card_not_supported": "Thẻ của bạn không hỗ trợ cho vùng của bạn.",
+            "currency_not_supported": "Đơn vị tiền tệ không hỗ trợ"
+        },
+        "transaction": {
+            "declined": "Đã có lỗi xảy ra khi thanh toán, hãy thử lại hoặc chọn phương thức thanh toán khác."
+        },
+        "discounts": {
+            "conflict": "Một số mã khuyến mãi không thể kết hợp với nhau. Hãy dùng mã này thay thế?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Đơn hàng không thể xác nhận.",
+                "description": "Bạn vẫn chưa bị trừ tiền. Hãy liên lạc với cửa hàng để biết thêm thông tin."
+            },
+            "product_crawling": {
+                "title": "Giá của sản phẩm có thể đã được thay đổi.",
+                "description": "Hãy thử bỏ và thêm lại sản phẩm vào giỏ hàng. Hãy liên lạc với cửa hàng để biết thêm thông tin."
+            },
+            "stock_validation": {
+                "title": "Lượng sản phẩm không tòn tại",
+                "description": "Một số sản phẩm đã hết hàng. Hãy điều chỉnh số lượng hoặc Hãy liên lạc với cửa hàng để biết thêm thông tin."
+            },
+            "custom_fields_validation": {
+                "title": "Thông tin không đầy đủ.",
+                "description": "Một số sản phẩm đã thiếu một số thông tin quan trọng. Hãy điều chỉnh giỏ hàng để tiếp tục."
+            },
+            "shipping_validation": {
+                "title": "Hình thức giao hàng không hợp lệ.",
+                "description": "Hình thức giao hàng có thể đã được thay đổi. Hãy liên lạc với cửa hàng để biết thêm thông tin."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Không có hình thức giao hàng đang tòn tại.",
+                "description": "Hãy thử lại trong giây lát hoặc liên lạc với cửa hàng để được hỗ trợ."
+            },
+            "rates_calculation": {
+                "title": "Không thể tính tiền giao hàng cho hoá đơn của bạn.",
+                "description": "Hãy thử lại trong giây lát hoặc liên lạc với cửa hàng để được hỗ trợ."
+            },
+            "no_rates_found": {
+                "title": "Không có hình thức giao hàng đang tòn tại cho hoá đơn của bạn.",
+                "description": "Hãy coi lại địa chỉ giao hàng của bạn hoặc liên lạc với cửa hàng để được hỗ trợ."
+            }
+        },
+        "payment_failed": {
+            "title": "Không thể thanh toán đơn hàng",
+            "description": "Hãy thử lại trong giây lát hoặc liên lạc với cửa hàng để được hỗ trợ."
+        },
+        "payment_authorization": {
+            "title": "Không thể thanh toán đơn hàng",
+            "default": "Hãy coi lại thông tin thanh toán."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Không thể thanh toán đơn hàng",
+                "description": "Chúng tôi không thể xác nhận thanh toán của bạn. Hãy thử lại trong giây lát."
+            }
+        },
+        "customer_exists": "Email đã được sử dụng.",
+        "customer_password_missmatch": "Hai mật khẩu phải trùng khớp.",
+        "customer_password_token_expired": "Mã khôi phục mật khẩu đã hết hạn.",
+        "customer_password_token_invalid": "Mã khôi phục mật khẩu không hợp lệ.",
+        "customer_not_found": "Không có tài khoản chứa đựng email này.",
+        "invalid_credentials": "Sai email hoặc mật khẩu.",
+        "customer_current_password_invalid": "Sai mật khẩu."
+    },
+    "customer_orders": {
+        "loading": "Loading..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Cám ơn quý khách! Đơn hàng được đặt thành công",
+        "async_confirmation_notice": "Đơn hàng được đặt thành công và đang được tiếp nhận. Quý khách sẽ nhận được xác nhận trong thời gian ngắn."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Hình thức giao hàng và thuế sẽ được tính sau khi địa chỉ được nhập."
+    }
+}
