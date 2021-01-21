@@ -13,7 +13,11 @@
         "show": "Anzeigen",
         "hide": "Verbergen",
         "apply_changes": "Änderungen übernehmen",
-        "yes_use_it": "Ja, verwenden"
+        "yes_use_it": "Ja, verwenden",
+        "save_changes": "Änderungen speichern",
+        "back_to_orders": "Zurück zu Aufträgen",
+        "change_password": "Kennwort ändern",
+        "add": "Hinzufügen"
     },
     "header": {
         "title_cart_summary": "Warenkorb",
@@ -24,7 +28,18 @@
         "quantity_short": "Anz",
         "decrement_quantity": "Anzahl erhöhen",
         "increment_quantity": "Anzahl reduzieren",
-        "remove_item": "Artikel löschen"
+        "remove_item": "Artikel löschen",
+        "recurrence": {
+            "daily": "Tag |||| %{smart_count} Tage",
+            "weekly": "Woche |||| %{smart_count} Wochen",
+            "monthly": "Monat |||| %{smart_count} Monate",
+            "yearly": "Jahr |||| %{smart_count} Jahre"
+        }
+    },
+    "subscription": {
+        "plan": "Plan",
+        "billed_on": "Berechnet am",
+        "payment_amount": "Zahlbetrag"
     },
     "cart": {
         "subtotal": "Zwischensumme",
@@ -33,7 +48,8 @@
         "secured_by": "Verschlüsselt durch Snipcart",
         "summary": "Bestellübersicht",
         "empty": "Dein Warenkorb ist leer",
-        "invoice_number": "Rechnungsnummer"
+        "invoice_number": "Rechnungsnummer",
+        "view_detailed_cart": "Warenkorb-Details anzeigen"
     },
     "order": {
         "loading": "Wir laden deine Bestelldaten"
@@ -63,17 +79,25 @@
     "customer": {
         "information": "Kundeninformationen"
     },
+    "customer_details": {
+        "title": "Kunde Details"
+    },
     "customer_dashboard": {
         "my_account": "Mein Konto",
         "ordered_on": "Bestellt am",
+        "next_billing_date": "Nächste Rechnungstellung",
+        "price": "Preis",
         "total": "Summe",
         "status": "Status",
         "order": "Bestellung %{invoice_number}",
         "order_details": "Bestelldetails",
         "loading": "Laden...",
         "no_orders": "Keine Bestellungen vorhanden.",
+        "no_subscriptions": "Keine Abonnements gefunden.",
+        "view_invoice": "Rechnung anzeigen",
         "sign_out": "Abmelden",
-        "show_more_orders": "%{smart_count} Bestellung mehr anzeigen |||| %{smart_count} Bestellungen mehr anzeigen"
+        "show_more_orders": "%{smart_count} Bestellung mehr anzeigen |||| %{smart_count} Bestellungen mehr anzeigen",
+        "orders": "Bestellungen"
     },
     "signin_form": {
         "signin": "Anmelden",
@@ -84,17 +108,24 @@
         "close_form": "Zurück"
     },
     "forgot_password_form": {
-        "title": "Passwort zurücksetzen",
-        "instructions": "Geben Sie die E-Mail-Adresse Ihres Kontos ein, und wir senden Ihnen einen Link zum Zurücksetzen des Passworts.",
+        "title": "Kennwort zurücksetzen",
+        "instructions": "Geben Sie die E-Mail-Adresse Ihres Kontos ein und wir senden Ihnen einen Link zum Zurücksetzen des Kennworts.",
         "email": "E-Mail",
-        "email_instructions": "Eine E-Mail mit einem Link wurde an Sie geschickt. Klicken Sie darauf, um Ihr Passwort zurückzusetzen.",
+        "email_instructions": "Eine E-Mail mit einem Link wurde an Sie geschickt. Klicken Sie darauf, um Ihr Kennwort zurückzusetzen.",
         "action": "E-Mail zum Zurücksetzen senden"
     },
     "reset_password_form": {
-        "title": "Passwort zurücksetzen",
-        "password": "Neues Passwort",
-        "confirmation_password": "Neues Passwort wiederholen",
-        "action": "Passwort zurücksetzen"
+        "title": "Kennwort zurücksetzen",
+        "password": "Neues Kennwort",
+        "confirmation_password": "Neues Kennwort wiederholen",
+        "action": "Kennwort zurücksetzen"
+    },
+    "change_password_form": {
+        "title": "Kennwort ändern",
+        "current_password": "Aktuelles Kennwort",
+        "password": "Neues Kennwort",
+        "confirmation_password": "Kennwort erneut eingeben",
+        "action": "Kennwort ändern"
     },
     "register_form": {
         "register": "Registrieren",
@@ -158,6 +189,8 @@
         "title": "Rabatte"
     },
     "cart_summary": {
+        "taxes": "Mehrwertsteuer",
+        "taxes_included_in_price": "Einige Artikel enthalten Steuern.",
         "total": "Gesamtsumme",
         "subtotal": "Zwischensumme",
         "shipping": "Versand",
@@ -181,12 +214,21 @@
             "description": "Bitte überprüfen Sie Ihre Bestellung oder versuchen Sie es später erneut."
         },
         "card": {
-            "invalid_number": "Die Nummer der Karte ist ungültig.",
+            "invalid_number": "Die Kartenummer ist ungültig.",
             "invalid_date": "Das Ablaufdatum der Karte ist ungültig.",
             "invalid_year": "Das Ablaufjahr der Karte ist ungültig.",
-            "invalid_month": "Der Verfallmonat der Karte ist ungültig.",
+            "invalid_month": "Der Ablaufmonat der Karte ist ungültig.",
             "invalid_cvv": "Der CVV der Karte ist ungültig.",
-            "expired": "Das Ablaufdatum der Karte ist überschritten"
+            "invalid_expiration": "Das Ablaufdatum der Karte ist ungültig.",
+            "expired": "Die Kreditkarte ist abgelaufen",
+            "declined": "Die Karte wurde abgelehnt. Bitte rufen Sie Ihren Kartenaussteller an, um weitere Informationen zu erhalten.",
+            "invalid_address": "Die Adresse der Karte ist falsch.",
+            "insufficient_funds": "Das Konto verfügt nicht über ausreichende Mittel, um den Transaktionsbetrag zu decken.",
+            "card_not_supported": "Die Karte wird in der Region nicht unterstützt.",
+            "currency_not_supported": "The currency is not currently supported."
+        },
+        "transaction": {
+            "declined": "Bei der Verarbeitung der Karte ist ein Fehler aufgetreten. Versuchen Sie es später noch einmal oder mit einer anderen Zahlungsmethode."
         },
         "discounts": {
             "conflict": "Einige Rabatte können nicht kombiniert werden. Nutzen Sie stattdessen diesen Rabatt?"
@@ -243,8 +285,8 @@
         },
         "customer_exists": "Diese E-Mail-Adresse wird bereits verwendet.",
         "customer_password_missmatch": "Die beiden Kennwörter müssen übereinstimmen.",
-        "customer_password_token_expired": "Ihr Passwort Wiederherstellungs-Token ist abgelaufen.",
-        "customer_password_token_invalid": "Ihr Passwort Wiederherstellungs-Token ist ungültig.",
+        "customer_password_token_expired": "Der Wiederherstellungs-Token für Ihr Kennwort ist abgelaufen.",
+        "customer_password_token_invalid": "Der Wiederherstellungs-Token für Ihr Kennwort ist ungültig.",
         "customer_not_found": "Die E-Mail-Adresse konnte keinem Konto zugeordnet werden.",
         "invalid_credentials": "Ungültige E-Mail-Adresse oder Kennwort."
     },
@@ -253,7 +295,7 @@
     },
     "confirmation": {
         "thank_you_for_your_order": "Vielen Dank für Ihre Bestellung",
-        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungs-E-Mail."
+        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigung per E-Mail."
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Die Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet"
