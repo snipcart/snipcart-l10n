@@ -8,8 +8,8 @@
         "apply": "Apply",
         "type_address": "Type your address",
         "use_this_address": "Use this address",
-        "back_to_store": "Back to store",
-        "close_cart": "Close cart",
+        "back_to_store": "Back to shop",
+        "close_cart": "Close basket",
         "show": "Show",
         "hide": "Hide",
         "apply_changes": "Apply changes",
@@ -20,7 +20,7 @@
         "add": "Add"
     },
     "header": {
-        "title_cart_summary": "Cart summary",
+        "title_cart_summary": "Basket summary",
         "loading": "Loading..."
     },
     "item": {
@@ -43,13 +43,13 @@
     },
     "cart": {
         "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
+        "shipping_taxes_calculated_at_checkout": "Delivery and taxes will be calculated at checkout.",
+        "loading": "We're getting your basket ready...",
         "secured_by": "Secured by Snipcart",
         "summary": "Order summary",
-        "empty": "Your cart is empty.",
+        "empty": "Your basket is empty.",
         "invoice_number": "Invoice number",
-        "view_detailed_cart": "View detailed cart"
+        "view_detailed_cart": "View detailed basket"
     },
     "order": {
         "loading": "We're getting your order details..."
@@ -63,18 +63,18 @@
         "name": "Full name",
         "email": "Email",
         "address1": "Street address",
-        "address2": "Apt/Suite",
-        "city": "City",
+        "address2": "Apt/Unit",
+        "city": "Town/City",
         "country": "Country",
-        "postalCode": "Postal/ZIP code",
-        "province": "Province/State",
+        "postalCode": "Postcode",
+        "province": "County",
         "dont_see_address": "I can't find my address"
     },
     "billing": {
         "title": "Billing",
         "address": "Billing address",
-        "continue_to_shipping": "Continue to shipping",
-        "use_different_shipping_address": "Use different shipping address"
+        "continue_to_shipping": "Continue to delivery",
+        "use_different_shipping_address": "Use different delivery address"
     },
     "customer": {
         "information": "Customer information"
@@ -139,10 +139,10 @@
         "continue_as_a_guest": "Continue as a guest"
     },
     "shipping": {
-        "title": "Shipping",
-        "shipping_to": "Shipping to:",
-        "address": "Shipping address",
-        "method": "Shipping method"
+        "title": "Delivery",
+        "shipping_to": "Deliver to:",
+        "address": "Delivery address",
+        "method": "Delivery method"
     },
     "payment": {
         "form": {
@@ -152,7 +152,7 @@
             "card_number": "Card number",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Postal code"
+            "card_postal_code": "Postcode"
         },
         "still_pending_notice": "Your payment is still being processed.",
         "title": "Payment",
@@ -193,7 +193,7 @@
         "taxes_included_in_price": "Some items have taxes included.",
         "total": "Total",
         "subtotal": "Subtotal",
-        "shipping": "Shipping",
+        "shipping": "Delivery",
         "discount": "Discounts",
         "quantity": "x"
     },
@@ -208,9 +208,9 @@
         "invalid_expiry_year_past": "Card is expired",
         "email": "Please provide a valid email address",
         "quantity_revised": "Quantity has been revised due to stock limitations.",
-        "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the cart to continue.",
+        "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the basket to continue.",
         "error_payment_items_are_invalid": {
-            "title": "Some items in your cart are invalid",
+            "title": "Some items in your basket are invalid",
             "description": "Please review your order, or try again later."
         },
         "card": {
@@ -236,37 +236,37 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Order couldn’t be processed.",
-                "description": "You have not been charged. Please contact the store owner for details."
+                "description": "You have not been charged. Please contact the shop owner for details."
             },
             "product_crawling": {
-                "title": "Price of products in the cart may have changed.",
-                "description": "Try removing and adding them to your cart. Please contact the store owner for details."
+                "title": "Price of products in the basket may have changed.",
+                "description": "Try removing and adding them to your basket. Please contact the shop owner for details."
             },
             "stock_validation": {
                 "title": "Product stock unavailable.",
-                "description": "Some products may be out of stock for selected quantity. Revise the quantity or contact the store owner for details."
+                "description": "Some products may be out of stock for selected quantity. Revise the quantity or contact the shop owner for details."
             },
             "custom_fields_validation": {
                 "title": "Missing required information.",
-                "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
+                "description": "Some products in the basket are missing mandatory information. Please edit the basket to continue."
             },
             "shipping_validation": {
-                "title": "Shipping method couldn't be validated.",
-                "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
+                "title": "Delivery method couldn't be validated.",
+                "description": "The selected delivery rate might have changed or is unavailable. Please contact the shop owner for details."
             }
         },
         "shipping": {
             "account_configuration": {
-                "title": "No shipping method is currently available",
+                "title": "No delivery method is currently available",
                 "description": "Try again later, or contact us for support."
             },
             "rates_calculation": {
-                "title": "Unable to calculate shipping for your order",
+                "title": "Unable to calculate delivery for your order",
                 "description": "Try again later, or contact us for support."
             },
             "no_rates_found": {
-                "title": "No shipping methods are available for your order",
-                "description": "Please review your shipping address or contact us."
+                "title": "No delivery methods are available for your order",
+                "description": "Please review your delivery address or contact us."
             }
         },
         "payment_failed": {
@@ -299,6 +299,6 @@
         "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
+        "shipping_taxes_calculated_when_address_provided": "Delivery and taxes will be calculated after an address is provided."
     }
 }
