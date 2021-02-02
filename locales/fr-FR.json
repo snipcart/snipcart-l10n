@@ -151,7 +151,7 @@
       "card_label": "Carte de crédit",
       "card_number": "Numéro de carte",
       "card_expiration": "MM/AA",
-      "card_cvv": "CVC",
+      "card_cvv": "CVV",
       "card_postal_code": "Code postal"
     },
     "still_pending_notice": "Votre paiement est en cours de traitement.",
