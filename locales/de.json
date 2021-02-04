@@ -28,12 +28,13 @@
     },
     "cart": {
         "subtotal": "Zwischensumme",
-        "shipping_taxes_calculated_at_checkout": "Versandkosten und Steuern werden an der Kasse berechnet",
+        "shipping_taxes_calculated_at_checkout": "Versandkosten und MwSt. werden an der Kasse berechnet",
         "loading": "Wir erstellen deinen Warenkorb...",
         "secured_by": "Verschlüsselt durch Snipcart",
         "summary": "Bestellübersicht",
         "empty": "Dein Warenkorb ist leer",
-        "invoice_number": "Rechnungsnummer"
+        "invoice_number": "Rechnungsnummer",
+        "view_detailed_cart": "Detaillierten Warenkorb anzeigen"
     },
     "order": {
         "loading": "Wir laden deine Bestelldaten"
@@ -158,6 +159,8 @@
         "title": "Rabatte"
     },
     "cart_summary": {
+        "taxes": "MwSt.",
+        "taxes_included_in_price": "Einige Artikel haben die Mehrwertsteuer bereits inbegriffen.",
         "total": "Gesamtsumme",
         "subtotal": "Zwischensumme",
         "shipping": "Versand",
@@ -256,6 +259,6 @@
         "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigungs-E-Mail."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet"
+        "shipping_taxes_calculated_when_address_provided": "Die Versandkosten und MwSt. werden nach Eingabe der Versandadresse berechnet"
     }
 }
