@@ -59,7 +59,8 @@
         "use_different_shipping_address": "Utiliser une adresse de livraison différente"
     },
     "customer": {
-        "information": "Informations client"
+        "information": "Informations client",
+        "payment_info": "Mes infos de paiement"
     },
     "customer_dashboard": {
         "my_account": "Mon compte",

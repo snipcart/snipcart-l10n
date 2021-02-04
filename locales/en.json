@@ -77,7 +77,8 @@
         "use_different_shipping_address": "Use different shipping address"
     },
     "customer": {
-        "information": "Customer information"
+        "information": "Customer information",
+        "payment_info": "My payment info"
     },
     "customer_details": {
         "title": "Customer details"
