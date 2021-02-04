@@ -160,7 +160,7 @@
     },
     "cart_summary": {
         "taxes": "MwSt.",
-        "taxes_included_in_price": "Einige Artikel haben die Mehrwertsteuer bereits inbegriffen.",
+        "taxes_included_in_price": "Einige Artikel haben die MwSt. bereits inbegriffen.",
         "total": "Gesamtsumme",
         "subtotal": "Zwischensumme",
         "shipping": "Versand",
