@@ -1,0 +1,304 @@
+{
+    "actions": {
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "continue_shopping": "Continue shopping",
+        "back_to_checkout": "Back to checkout",
+        "checkout": "Checkout",
+        "apply": "Apply",
+        "type_address": "Type your address",
+        "use_this_address": "Use this address",
+        "back_to_store": "Back to shop",
+        "close_cart": "Close basket",
+        "show": "Show",
+        "hide": "Hide",
+        "apply_changes": "Apply changes",
+        "yes_use_it": "Yes, use it",
+        "save_changes": "Save changes",
+        "back_to_orders": "Back to orders",
+        "change_password": "Change password",
+        "add": "Add"
+    },
+    "header": {
+        "title_cart_summary": "Basket summary",
+        "loading": "Loading..."
+    },
+    "item": {
+        "quantity": "Quantity",
+        "quantity_short": "Qty",
+        "decrement_quantity": "Decrement quantity",
+        "increment_quantity": "Increment quantity",
+        "remove_item": "Remove item",
+        "recurrence": {
+            "daily": "day |||| %{smart_count} days",
+            "weekly": "week |||| %{smart_count} weeks",
+            "monthly": "month |||| %{smart_count} months",
+            "yearly": "year |||| %{smart_count} years"
+        }
+    },
+    "subscription": {
+        "plan": "Plan",
+        "billed_on": "Billed on",
+        "payment_amount": "Payment amount"
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Delivery and taxes will be calculated at checkout.",
+        "loading": "We're getting your basket ready...",
+        "secured_by": "Secured by Snipcart",
+        "summary": "Order summary",
+        "empty": "Your basket is empty.",
+        "invoice_number": "Invoice number",
+        "view_detailed_cart": "View detailed basket"
+    },
+    "order": {
+        "loading": "We're getting your order details..."
+    },
+    "discount_box": {
+        "promo_code": "Promo code?",
+        "promo_code_placeholder": "Promo code",
+        "promocode_applied": "Promotion applied"
+    },
+    "address_form": {
+        "name": "Full name",
+        "email": "Email",
+        "address1": "Street address",
+        "address2": "Apt/Unit",
+        "city": "Town/City",
+        "country": "Country",
+        "postalCode": "Postcode",
+        "province": "County",
+        "dont_see_address": "I can't find my address"
+    },
+    "billing": {
+        "title": "Billing",
+        "address": "Billing address",
+        "continue_to_shipping": "Continue to delivery",
+        "use_different_shipping_address": "Use different delivery address"
+    },
+    "customer": {
+        "information": "Customer information"
+    },
+    "customer_details": {
+        "title": "Customer details"
+    },
+    "customer_dashboard": {
+        "my_account": "My account",
+        "ordered_on": "Ordered on",
+        "next_billing_date": "Next billing date",
+        "price": "Price",
+        "total": "Total",
+        "status": "Status",
+        "order": "Order %{invoice_number}",
+        "order_details": "Order details",
+        "loading": "Loading...",
+        "no_orders": "No orders found.",
+        "no_subscriptions": "No subscriptions found.",
+        "view_invoice": "View invoice",
+        "sign_out": "Sign out",
+        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
+        "orders": "Orders"
+    },
+    "signin_form": {
+        "signin": "Sign In",
+        "dont_have_an_account": "Don't have an account?",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Forgot your password?",
+        "close_form": "Go back"
+    },
+    "forgot_password_form": {
+        "title": "Recover your password",
+        "instructions": "Enter your account's email address and we will send you a password reset link.",
+        "email": "Email",
+        "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
+        "action": "Send password reset email"
+    },
+    "reset_password_form": {
+        "title": "Reset your password",
+        "password": "New password",
+        "confirmation_password": "Re-enter your new password",
+        "action": "Reset password"
+    },
+    "change_password_form": {
+        "title": "Change your password",
+        "current_password": "Current password",
+        "password": "New password",
+        "confirmation_password": "Re-enter your new password",
+        "action": "Change password"
+    },
+    "register_form": {
+        "register": "Register",
+        "already_have_an_account": "Already have an account?",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirm Password"
+    },
+    "guest_checkout": {
+        "or": "Or",
+        "continue_as_a_guest": "Continue as a guest"
+    },
+    "shipping": {
+        "title": "Delivery",
+        "shipping_to": "Deliver to:",
+        "address": "Delivery address",
+        "method": "Delivery method"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Deferred Payment",
+            "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
+            "card_label": "Credit card",
+            "card_number": "Card number",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postcode"
+        },
+        "still_pending_notice": "Your payment is still being processed.",
+        "title": "Payment",
+        "continue_to_payment": "Continue to payment",
+        "credit_card": "Credit card",
+        "place_order": "Place order",
+        "preparing_payment_session": "Preparing payment...",
+        "processing_payment": "Processing payment...",
+        "checkout_with": "Checkout with",
+        "checkout_with_method": "Checkout with %{method}",
+        "method_icon": "%{method} icon",
+        "no_payment": "No payment is required for this order.",
+        "methods": {
+            "card": "Credit card",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Pay later"
+        }
+    },
+    "discounts": {
+        "title": "Discounts"
+    },
+    "cart_summary": {
+        "taxes": "Taxes",
+        "taxes_included_in_price": "Some items have taxes included.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Delivery",
+        "discount": "Discounts",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "An error occurred, try again later or contact us.",
+        "promo_code_is_invalid": "This promo code isn't valid",
+        "promocode_already_in_cart": "This promo code is already applied",
+        "promocode_isnt_applicable": "This promo code isn't valid",
+        "promo_code_is_expired": "This promo code has expired",
+        "stringEmpty": "This field is required",
+        "required": "This field is required",
+        "invalid_expiry_year_past": "Card is expired",
+        "email": "Please provide a valid email address",
+        "quantity_revised": "Quantity has been revised due to stock limitations.",
+        "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the basket to continue.",
+        "error_payment_items_are_invalid": {
+            "title": "Some items in your basket are invalid",
+            "description": "Please review your order, or try again later."
+        },
+        "card": {
+            "invalid_number": "The card's number is invalid.",
+            "invalid_date": "The card's expiration date is invalid.",
+            "invalid_year": "The card's expiration year is invalid.",
+            "invalid_month": "The card's expiration month is invalid.",
+            "invalid_cvv": "The card's CVV is invalid.",
+            "invalid_expiration": "The card's expiration date is invalid.",
+            "expired": "The credit card is expired",
+            "declined": "The card has been declined. Please call your card issuer for more information.",
+            "invalid_address": "The card’s address is incorrect.",
+            "insufficient_funds": "The account did not have sufficient funds to cover the transaction amount.",
+            "card_not_supported": "The card is not supported in the geographic region.",
+            "currency_not_supported": "The currency is not currently supported."
+        },
+        "transaction": {
+            "declined": "An error occurred while processing the card. Try again later or with a different payment method."
+        },
+        "discounts": {
+            "conflict": "Some discounts cannot be combined. Use this discount instead?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Order couldn’t be processed.",
+                "description": "You have not been charged. Please contact the shop owner for details."
+            },
+            "product_crawling": {
+                "title": "Price of products in the basket may have changed.",
+                "description": "Try removing and adding them to your basket. Please contact the shop owner for details."
+            },
+            "stock_validation": {
+                "title": "Product stock unavailable.",
+                "description": "Some products may be out of stock for selected quantity. Revise the quantity or contact the shop owner for details."
+            },
+            "custom_fields_validation": {
+                "title": "Missing required information.",
+                "description": "Some products in the basket are missing mandatory information. Please edit the basket to continue."
+            },
+            "shipping_validation": {
+                "title": "Delivery method couldn't be validated.",
+                "description": "The selected delivery rate might have changed or is unavailable. Please contact the shop owner for details."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "No delivery method is currently available",
+                "description": "Try again later, or contact us for support."
+            },
+            "rates_calculation": {
+                "title": "Unable to calculate delivery for your order",
+                "description": "Try again later, or contact us for support."
+            },
+            "no_rates_found": {
+                "title": "No delivery methods are available for your order",
+                "description": "Please review your delivery address or contact us."
+            }
+        },
+        "payment_failed": {
+            "title": "Unable to process payment",
+            "description": "Try again later, or contact us for support."
+        },
+        "payment_authorization": {
+            "title": "Unable to process payment",
+            "default": "Please review billing and payment information."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Unable to process payment",
+                "description": "We have not been able to authenticate your payment information. Please try again"
+            }
+        },
+        "customer_exists": "This email is already used.",
+        "customer_password_missmatch": "The two passwords must match.",
+        "customer_password_token_expired": "Your password recovery token has expired.",
+        "customer_password_token_invalid": "Your password recovery token is invalid.",
+        "customer_not_found": "The email address is not associated with any account.",
+        "invalid_credentials": "Invalid email or password.",
+        "customer_current_password_invalid": "Invalid password."
+    },
+    "customer_orders": {
+        "loading": "Loading..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Thank you for your order",
+        "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Delivery and taxes will be calculated after an address is provided."
+    }
+}
