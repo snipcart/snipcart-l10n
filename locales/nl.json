@@ -97,7 +97,9 @@
         "view_invoice": "Bekijk factuur",        
         "sign_out": "Uitloggen",
         "show_more_orders": "Toon nog %{smart_count} bestelling |||| Toon nog %{smart_count} bestellingen",
-		"orders": "Bestellingen"
+		"show_more_subscriptions": "Toon nog %{smart_count} abonnement |||| Toon nog %{smart_count} abonnementen",
+		"orders": "Bestellingen",
+		"subscriptions": "Abonnementen"
     },
     "signin_form": {
         "signin": "Inloggen",
@@ -189,6 +191,8 @@
         "title": "Korting"
     },
     "cart_summary": {
+		"taxes": "BTW",
+        "taxes_included_in_price": "Sommige producten bevatten BTW",
         "total": "Totaal",
         "subtotal": "Subtotaal",
         "shipping": "Verzending",
