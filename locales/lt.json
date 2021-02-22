@@ -2,7 +2,7 @@
     "actions": {
         "edit": "Redaguoti",
         "cancel": "Atšaukti",
-        "continue_shopping": "Tęsti apsipirkinėjimą",
+        "continue_shopping": "Tęsti apsipirkimą",
         "back_to_checkout": "Atgal į apmokėjimą",
         "checkout": "Apmokėjimas",
         "apply": "Pritaikyti",
@@ -16,7 +16,7 @@
         "yes_use_it": "Taip, naudoti"
     },
     "header": {
-        "title_cart_summary": "Krepšelio turinys",
+        "title_cart_summary": "Krepšelis",
         "loading": "Kraunasi..."
     },
     "item": {
@@ -44,7 +44,8 @@
         "secured_by": "Apsaugota Snipcart",
         "summary": "Užsakymo santrauka",
         "empty": "Jūsų krepšelis tuščias.",
-        "invoice_number": "Sąskaitos numeris"
+        "invoice_number": "Sąskaitos numeris",
+        "view_detailed_cart": "Peržiūrėti pilną krepšelį"
     },
     "order": {
         "loading": "Ruošiame jūsų užsakymo duomenis..."
@@ -282,4 +283,4 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
     }
-}
+  }
