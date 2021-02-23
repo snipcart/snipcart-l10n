@@ -3,8 +3,8 @@
         "edit": "Uređivanje",
         "cancel": "Prekid",
         "continue_shopping": "Nastavak kupovine",
-        "back_to_checkout": "Povratak na blagajnu",
-        "checkout": "Blagajna",
+        "back_to_checkout": "Povratak na dovršetak narudžbe",
+        "checkout": "Dovršetak narudžbe",
         "apply": "Primjena",
         "type_address": "Unos adrese",
         "use_this_address": "Koristiti ovu adresu",
@@ -12,12 +12,8 @@
         "close_cart": "Zatvoriti košaricu",
         "show": "Prikazivanje",
         "hide": "Skrivanje",
-        "apply_changes": "Primjena svih izmjena",
-        "yes_use_it": "Da, koristiti",
-        "save_changes": "Spremi izmjene",
-        "back_to_orders": "Povratak na Narudžbe",
-        "change_password": "Izmjena lozinke",
-        "add": "Dodaj"
+        "apply_changes": "Primjena izmjena",
+        "yes_use_it": "Da, koristiti"
     },
     "header": {
         "title_cart_summary": "Pregled košarice",
@@ -42,28 +38,27 @@
         "payment_amount": "Iznos plaćanja"
     },
     "cart": {
-        "subtotal": "Međuzbroj",
-        "shipping_taxes_calculated_at_checkout": "Dostava i porezi će se obračunati na blagajni, nakon unosa svih podataka.",
+        "subtotal": "Neto iznos",
+        "shipping_taxes_calculated_at_checkout": "PDV i eventualni troškovi dostave obračunat će se nakon unosa svih podataka.",
         "loading": "Pripremamo vašu košaricu ...",
         "secured_by": "Secured by Snipcart",
-        "summary": "Pregled Narudžbe",
+        "summary": "Pregled narudžbe",
         "empty": "Vaša košarica je prazna.",
-        "invoice_number": "Broj Ponude",
-        "view_detailed_cart": "Detalji košarice"
+        "invoice_number": "Ponuda br."
     },
     "order": {
         "loading": "Pripremamo vašu narudžbu..."
     },
     "discount_box": {
         "promo_code": "Promocijski kod?",
-        "promo_code_placeholder": "Promocijski kod",
+        "promo_code_placeholder": "Unesite promocijski kod",
         "promocode_applied": "Promocijski kod je prihvaćen"
     },
     "address_form": {
         "name": "Ime i prezime",
         "email": "Email adresa",
-        "address1": "Ulica i broj",
-        "address2": "Kućni broj, kat, apartman, broj ureda, ...",
+        "address1": "Ulica i br.",
+        "address2": "Kat, ured ...",
         "city": "Grad",
         "country": "Država",
         "postalCode": "Poštanski broj",
@@ -71,35 +66,29 @@
         "dont_see_address": "Ne nalazim svoju adresu"
     },
     "billing": {
-        "title": "Izdavanje računa",
+        "title": "Podaci o primatelju računa",
         "address": "Adresa na računu",
         "continue_to_shipping": "Nastaviti na dostavu",
         "use_different_shipping_address": "Koristiti drugu adresu za dostavu"
     },
     "customer": {
-        "information": "Podaci o kupcu"
-    },
-    "customer_details": {
-        "title": "Detalji o kupcu"
+        "information": "Informacije o kupcu"
     },
     "customer_dashboard": {
         "my_account": "Moj račun",
         "ordered_on": "Naručeno dana",
-        "next_billing_date": "Datum izdavanja sljedećeg Računa",
+        "next_billing_date": "Datum izdavanja sljedećeg računa",
         "price": "Cijena",
         "total": "Ukupno",
         "status": "Status",
         "order": "Ponuda %{invoice_number}",
-        "order_details": "Detalji Ponude",
+        "order_details": "Detalji narudžbe",
         "loading": "Učitavam...",
-        "no_orders": "Nema Ponuda.",
-        "no_subscriptions": "Nema pretplata.",
-        "view_invoice": "Pregled Računa",
+        "no_orders": "Narudžbe nisu pronađene.",
+        "no_subscriptions": "Pretplate nisu pronađene.",
+        "view_invoice": "Pogledati račun",
         "sign_out": "Odjava",
-        "show_more_orders": "Više %{smart_count} Narudžbi |||| Više %{smart_count} Narudžbi",
-        "show_more_subscriptions": "Više %{smart_count} Pretplata |||| Više %{smart_count} Pretplata",
-        "orders": "Narudžbe",
-        "subscriptions": "Pretplate"
+        "show_more_orders": "Sljedećih %{smart_count} narudžbi |||| Show %{smart_count} više Narudžbi"
     },
     "signin_form": {
         "signin": "Prijava",
@@ -117,17 +106,10 @@
         "action": "Poslati email poruku za ponovno postavljanje lozinke"
     },
     "reset_password_form": {
-        "title": "Resetiranje lozinke",
+        "title": "Ponovno postavljanje lozinke",
         "password": "Nova lozinka",
-        "confirmation_password": "Ponovo unesite novu lozinku",
-        "action": "Resetirajte lozinku"
-    },
-    "change_password_form": {
-        "title": "Izmjena lozinke",
-        "current_password": "Trenutna lozinka",
-        "password": "Nova lozinka",
-        "confirmation_password": "Ponovo unesite novu lozinku",
-        "action": "Izmijenite lozinku"
+        "confirmation_password": "Ponavljanje lozinke",
+        "action": "Postavljanje nove lozinke"
     },
     "register_form": {
         "register": "Registracija",
@@ -138,7 +120,7 @@
     },
     "guest_checkout": {
         "or": "ili",
-        "continue_as_a_guest": "Nastavite kao Gost"
+        "continue_as_a_guest": "Nastavite kao gost"
     },
     "shipping": {
         "title": "Dostava",
@@ -148,8 +130,8 @@
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Kasnije plaćanje",
-            "deferred_payment_instructions": "Ovom Narudžbom potvrđujete kasnije plaćanje bankovnom transakcijom ili drugom metodom plaćanja koju odredi trgovac.",
+            "deferred_payment_title": "Plaćanje po ponudi",
+            "deferred_payment_instructions": "Ovom narudžbom potvrđujete plaćanje po izdanoj ponudi bankovnom transakcijom ili drugom metodom plaćanja u dogovoru s trgovcem.",
             "card_label": "Kartica",
             "card_number": "Broj kartice",
             "card_expiration": "MM/YY",
@@ -157,16 +139,16 @@
             "card_postal_code": "Vaš poštanski broj"
         },
         "still_pending_notice": "Vaše plaćanje se još obrađuje.",
-        "title": "Plaćanje",
+        "title": "Odaberite način plaćanja",
         "continue_to_payment": "Nastaviti na plaćanje",
         "credit_card": "Bankovna kartica",
-        "place_order": "Potvrda Narudžbe",
+        "place_order": "Potvrda narudžbe",
         "preparing_payment_session": "Pripremam plaćanje...",
         "processing_payment": "Obrađujem plaćanje...",
         "checkout_with": "Način naplate",
         "checkout_with_method": "Način naplate: %{method}",
         "method_icon": "%{method} ikona",
-        "no_payment": "Za ovu Narudžbu nije potrebno plaćanje.",
+        "no_payment": "Za ovu narudžbu nije potrebno plaćanje.",
         "methods": {
             "card": "Bankovna kartica",
             "paypal": "PayPal",
@@ -184,7 +166,7 @@
             "p24": "Przelewy24",
             "sepa_debit": "SEPA izravno terećenje",
             "sofort": "Sofort bankovni račun",
-            "deferred_payment": "Kasnije plaćanje (po izdanoj Ponudi i sl.)"
+            "deferred_payment": "Plaćanje po ponudi"
         }
     },
     "discounts": {
@@ -192,11 +174,10 @@
     },
     "cart_summary": {
         "taxes": "PDV",
-        "taxes_included_in_price": "Neke stavke imaju uključen PDV.",
         "total": "Ukupno",
-        "subtotal": "Međuzbroj",
+        "subtotal": "Neto iznos",
         "shipping": "Dostava",
-        "discount": "Popusti",
+        "discount": "Popust",
         "quantity": "x"
     },
     "errors": {
@@ -285,22 +266,21 @@
                 "description": "Nije bilo moguće autorizirati vaše plaćanje. Molimo pokušajte kasnije."
             }
         },
-        "customer_exists": "Ova se email adresa već koristi.",
-        "customer_password_missmatch": "Obje lozinke moraju biti jednake.",
-        "customer_password_token_expired": "Token za resetiranje lozinke je istekao.",
-        "customer_password_token_invalid": "Token za resetiranje lozinke nije valjan.",
-        "customer_not_found": "Email adresa nije registrirana u sustavu.",
-        "invalid_credentials": "Neispravna email adresa ili lozinka.",
-        "customer_current_password_invalid": "Neispravna lozinka."
+        "customer_exists": "Ova email adresa se već koristi.",
+        "customer_password_missmatch": "Dvije lozinke moraju biti jednake.",
+        "customer_password_token_expired": "Token za obnavaljanje vaše lozinke je istekao.",
+        "customer_password_token_invalid": "Token za obnavljanje vaše lozinke nije valjan.",
+        "customer_not_found": "Ova email adresa nije vezana niti za jedan postojeći račun.",
+        "invalid_credentials": "Email adresa ili lozinka nije valjana."
     },
     "customer_orders": {
         "loading": "Učitavam..."
     },
     "confirmation": {
-        "thank_you_for_your_order": "Zahvaljujemo vam na Narudžbi",
-        "async_confirmation_notice": "Vaša Narudžba je zaprimljena i nalazi se u obradi. Uskoro ćete dobiti email s potvrdom statusa."
+        "thank_you_for_your_order": "Zahvaljujemo vam na narudžbi",
+        "async_confirmation_notice": "Vaša narudžba je zaprimljena i nalazi se u obradi. Uskoro ćete dobiti email s potvrdom statusa."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Troškovi dostave i porez će se obračunati nakon unosa adrese."
+        "shipping_taxes_calculated_when_address_provided": "PDV i eventualni troškovi dostave obračunat će se nakon unosa svih podataka.."
     }
 }
