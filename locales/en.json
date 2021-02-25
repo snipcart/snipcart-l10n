@@ -37,6 +37,16 @@
         }
     },
     "subscription": {
+        "title": "Subscription",
+        "state": {
+            "title": "State",
+            "active": "Active",
+            "paused": "Paused",
+            "finished": "Finished",
+            "stopped": "Stopped"
+        },
+        "placed_on": "Placed on",
+        "items": "Items",
         "plan": "Plan",
         "billed_on": "Billed on",
         "payment_amount": "Payment amount"
@@ -52,7 +62,8 @@
         "view_detailed_cart": "View detailed cart"
     },
     "order": {
-        "loading": "We're getting your order details..."
+        "loading": "We're getting your order details...",
+        "title": "Order"
     },
     "discount_box": {
         "promo_code": "Promo code?",
