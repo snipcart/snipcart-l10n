@@ -9,10 +9,18 @@
         "type_address": "Escribe tu dirección",
         "use_this_address": "Usar esta dirección",
         "back_to_store": "Volver a la tienda",
-        "close_cart": "Cerrar carro"
+        "close_cart": "Cerrar carrito",
+        "show": "Mostrar",
+        "hide": "Ocultar",
+        "apply_changes": "Aplicar cambios",
+        "yes_use_it": "Sí, úsalo",
+        "save_changes": "Guardar cambios",
+        "back_to_orders": "Volver a pedidos",
+        "change_password": "Cambiar contraseña",
+        "add": "Añadir"
     },
     "header": {
-        "title_cart_summary": "Resumen carro",
+        "title_cart_summary": "Resumen carrito",
         "loading": "Cargando..."
     },
     "item": {
@@ -20,16 +28,28 @@
         "quantity_short": "Cant.",
         "decrement_quantity": "Reducir cantidad",
         "increment_quantity": "Subir cantidad",
-        "remove_item": "Quitar artículo"
+        "remove_item": "Quitar artículo",
+        "recurrence": {
+            "daily": "día |||| %{smart_count} días",
+            "weekly": "semana |||| %{smart_count} semanas",
+            "monthly": "mes |||| %{smart_count} meses",
+            "yearly": "año |||| %{smart_count} años"
+        }
+    },
+    "subscription": {
+        "plan": "Plan",
+        "billed_on": "Se cobrará en",
+        "payment_amount": "Total del pago"
     },
     "cart": {
         "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "Gastos de envío e impuestos se calcularán antes del pago.",
-        "loading": "Estamos preparando tu carro...",
+        "loading": "Estamos preparando tu carrito...",
         "secured_by": "Asegurado por Snipcart",
         "summary": "Resumen del pedido",
-        "empty": "Tu carro esta vacío.",
-        "invoice_number": "Factura número"
+        "empty": "Tu carrito esta vacío.",
+        "invoice_number": "Factura número",
+        "view_detailed_cart": "Ver detalle del carrito"
     },
     "order": {
         "loading": "Estamos recuperando los detalles de tu pedido..."
@@ -57,23 +77,58 @@
         "use_different_shipping_address": "Usar una dirección de envío diferente"
     },
     "customer": {
-        "information": "Información de cliente"
+        "information": "Información de cliente",
+        "payment_info": "Mi información de pago"
+    },
+    "customer_details": {
+        "title": "Detalles del cliente"
     },
     "customer_dashboard": {
+        "my_account": "Mi cuenta",
         "ordered_on": "Comprado el",
+        "next_billing_date": "Próxima fecha de cobro",
+        "price": "Precio",
         "total": "Total",
         "status": "Estado",
         "order": "Pedido %{invoice_number}",
         "order_details": "Detalles Pedido",
         "loading": "Cargando...",
-        "no_orders": "No se encontraron pedidos."
+        "no_orders": "No se encontraron pedidos.",
+        "no_subscriptions": "No se encontraron suscripciones.",
+        "view_invoice": "Ver factura",
+        "sign_out": "Salir",
+        "show_more_orders": "Muestra %{smart_count} pedido más |||| Muestra %{smart_count} pedidos más",
+        "show_more_subscriptions": "Muestra %{smart_count} suscripción más |||| Muestra %{smart_count} suscripciones más",
+        "orders": "Pedidos",
+        "subscriptions": "Suscripciones"
     },
     "signin_form": {
         "signin": "Identificarte",
         "dont_have_an_account": "¿No tienes una cuenta?",
         "email": "Email",
         "password": "Contraseña",
-        "forgot_your_password": "¿Olvidaste tu contraseña?"
+        "forgot_your_password": "¿Olvidaste tu contraseña?",
+        "close_form": "Volver"
+    },
+    "forgot_password_form": {
+        "title": "Recupera tu contraseña",
+        "instructions": "Introduce la dirección email de tu cuenta y te enviaremos un link para reiniciar tu contraseña.",
+        "email": "Email",
+        "email_instructions": "Se te ha enviado un email que contiene un link. Haz click en él para reiniciar tu contraseña.",
+        "action": "Enviar email de reinicio de contraseña"
+    },
+    "reset_password_form": {
+        "title": "Reiniciar tu contraseña",
+        "password": "Nueva contraseña",
+        "confirmation_password": "Vuelve a introducir la contraseña",
+        "action": "Reiniciar contraseña"
+    },
+    "change_password_form": {
+        "title": "Cambiar tu contraseña",
+        "current_password": "Contraseña actual",
+        "password": "Nueva contraseña",
+        "confirmation_password": "Vuelve a introducir la contraseña",
+        "action": "Cambiar contraseña"
     },
     "register_form": {
         "register": "Registrate",
@@ -94,12 +149,15 @@
     },
     "payment": {
         "form":{
+            "deferred_payment_title": "Pago aplazado",
+            "deferred_payment_instructions": "Al hacer este pedido, aceptas pagar más tarde usando el método de pago identificado por el comerciante.",
             "card_label": "Tarjeta de Crédito",
             "card_number": "Número de Tarjeta",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
             "card_postal_code": "Código Postal"
         },
+        "still_pending_notice": "Tu pago está siendo procesado aún.",
         "title": "Pago",
         "continue_to_payment": "Continuar a pago",
         "credit_card": "Tarjeta de Crédito",
@@ -109,6 +167,7 @@
         "checkout_with": "Pagar mediante",
         "checkout_with_method": "Pagar mediante %{method}",
         "method_icon": "%{method} icono",
+        "no_payment": "Este pedido no requiere ningún pago.",
         "methods":{
             "card": "Tarjeta de Crédito",
             "paypal": "PayPal",
@@ -125,13 +184,16 @@
             "klarna_slice_it": "Klarna monthly financing",
             "p24": "Przelewy24",
             "sepa_debit": "Transferencia Bancaria SEPA",
-            "sofort": "Transferencia Bancaria Sofort"
+            "sofort": "Transferencia Bancaria Sofort",
+            "deferred_payment": "Pagar luego"
         }
     },
     "discounts": {
       "title": "Descuentos"
     },
     "cart_summary": {
+      "taxes": "Impuestos",
+      "taxes_included_in_price": "Algunos artículos tienen los impuestos incluidos.",
       "total": "Total",
       "subtotal": "Subtotal",
       "shipping": "Envío",
@@ -149,20 +211,90 @@
       "required": "Este campo es obligatorio",
       "invalid_expiry_year_past": "Tarjeta expirada",
       "email": "Por favor indique una dirección de correo válida",
-      
+      "quantity_revised": "La cantidad ha cambiado debido a limitaciones de stock.",
+      "quantity_out_of_stock": "Desafortunadamente este artículo está fuera de stock, elimínalo del carrito para continuar.",
+      "disabled_country": "El país seleccionado no está disponible para el pago.",
+      "error_payment_items_are_invalid": {
+        "title": "Algunos artículos de tu carrito no son válidos",
+        "description": "Por favor revisa tu pedido, o inténtalo de nuevo más tarde."
+      },
+      "card": {
+          "invalid_number": "El número de tarjeta no es válido.",
+          "invalid_date": "La fecha de caducidad de la tarjeta no es válida.",
+          "invalid_year": "El año de caducidad de la tarjeta no es válido.",
+          "invalid_month": "El mes de caducidad de la tarjeta no es válido.",
+          "invalid_cvv": "El CVV de la tarjeta no es válido.",
+          "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
+          "expired": "La tarjeta está caducada.",
+          "declined": "La tarjeta ha sido rechazada. Por favor llame a la entidad responsable de su tarjeta para más informacíon.",
+          "invalid_address": "La dirección de la tarjeta no es válida.",
+          "insufficient_funds": "La cuenta no tenía suficientes fondos para cubrir el pago de la transacción.",
+          "card_not_supported": "La tarjeta no es aceptada en esta zona geográfica.",
+          "currency_not_supported": "La divisa no esta soportada actualmente."
+      },
+      "transaction": {
+          "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtelo de nuevo más tarde o utilice un método de pago distinto."
+      },
+      "discounts": {
+          "conflict": "Algunos descuentos no pueden combinarse. ¿Utilice este descuento en su lugar?"
+      },
+      "order_validation": {
+          "domain_crawling": {
+              "title": "El pedido no pudo ser procesado.",
+              "description": "No se ha realizado ningún cargo. Por favor contacte con el dueño de la tienda para más información."
+          },
+          "product_crawling": {
+              "title": "El precio de los artículos del carrito ha podido cambiar.",
+              "description": "Intente quitarlos y añadirlos de nuevo al carrito. Por favor contacte al dueño de la tienda para más detalles."
+          },
+          "stock_validation": {
+              "title": "Artículo fuera de stock.",
+              "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte al dueño de la tienda para más detalles."
+          },
+          "custom_fields_validation": {
+              "title": "Falta información necesaria.",
+              "description": "Algunos artículos del carrito requieren información de carácter obligatorio. Por favor edite el carrito para continuar."
+          },
+          "shipping_validation": {
+              "title": "El método de envío no pudo ser validado.",
+              "description": "La tasa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
+          }
+      },
+      "shipping": {
+          "account_configuration": {
+              "title": "No hay ningún método de envío disponible actualmente",
+              "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+          },
+          "rates_calculation": {
+              "title": "No se pudo calcular el envío para tu pedido",
+              "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+          },
+          "no_rates_found": {
+              "title": "No hay ningún método de envío disponible para tu pedido",
+              "description": "Por favor revisa tu dirección de envío o contáctanos."
+          }
+      },
       "payment_failed": {
           "title": "No se pudo procesar el pago",
           "description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde."
       },
-      
       "payment_authorization": {
           "title":"No se pudo procesar el pago",
-          
           "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde."
+      },
+      "authentication_challenge": {
+          "failed": {
+              "title": "No se pudo procesar el pago",
+              "description": "No hemos podido autentificar tu información de pago. Por favor inténtelo de nuevo"
+          }
       },
       "customer_exists": "Este email ya esta en uso.",
       "customer_password_missmatch": "Las dos claves deben coincidir.",
-      "invalid_credentials": "Correo o clave inválidos."
+      "customer_password_token_expired": "Tu token de recuperación de contraseña ha caducado.",
+      "customer_password_token_invalid": "Tu token de recuperación de contraseña no es válido.",
+      "customer_not_found": "La dirección de email no está asociada a ninguna cuenta.",
+      "invalid_credentials": "Correo o clave inválidos.",
+      "customer_current_password_invalid": "Contraseña incorrecta."
     },
     "customer_orders": {
         "loading": "Cargando..."
@@ -172,6 +304,6 @@
         "async_confirmation_notice": "Hemos recibido tu pedido y actualmente se está preparando. Recibirás una confirmación en breve."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "En envío y los impuestos se calcularán cuando se indice una dirección."
+        "shipping_taxes_calculated_when_address_provided": "En envío y los impuestos se calcularán cuando se indique una dirección."
     }
 }
