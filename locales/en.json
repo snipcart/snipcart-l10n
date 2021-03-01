@@ -166,7 +166,11 @@
             "card_number": "Card number",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Postal code"
+            "card_postal_code": "Postal code",
+            "invalid_number": "Card number is invalid",
+            "invalid_expiration": "Expiration date is invalid",
+            "invalid_cvv": "CVV is invalid",
+            "invalid_postal_code": "Postal code is invalid"
         },
         "still_pending_notice": "Your payment is still being processed.",
         "title": "Payment",
