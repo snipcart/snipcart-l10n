@@ -81,12 +81,12 @@
     },
     "customer_details": {
         "title": "Klantgegevens"
-    },    
+    },
     "customer_dashboard": {
         "my_account": "Mijn account",
         "ordered_on": "Besteld op",
         "next_billing_date": "Volgende facturatie datum",
-        "price": "Prijs",        
+        "price": "Prijs",
         "total": "Totaal",
         "status": "Status",
         "order": "Bestelling %{invoice_number}",
@@ -94,10 +94,12 @@
         "loading": "Laden...",
         "no_orders": "Geen bestellingen gevonden.",
         "no_subscriptions": "Geen abonnement gevonden.",
-        "view_invoice": "Bekijk factuur",        
+        "view_invoice": "Bekijk factuur",
         "sign_out": "Uitloggen",
         "show_more_orders": "Toon nog %{smart_count} bestelling |||| Toon nog %{smart_count} bestellingen",
-		"orders": "Bestellingen"
+        "show_more_subscriptions": "Toon nog %{smart_count} abonnement |||| Toon nog %{smart_count} abonnementen",
+        "orders": "Bestellingen",
+        "subscriptions": "Abonnementen"
     },
     "signin_form": {
         "signin": "Inloggen",
@@ -126,7 +128,7 @@
         "password": "Nieuw wachtwoord",
         "confirmation_password": "Bevestig wachtwoord",
         "action": "Wijzig wachtwoord"
-    },    
+    },
     "register_form": {
         "register": "Account aanmaken",
         "already_have_an_account": "Heeft u al een account?",
@@ -189,6 +191,8 @@
         "title": "Korting"
     },
     "cart_summary": {
+        "taxes": "Belastingen",
+        "taxes_included_in_price": "Sommige producten bevatten BTW",
         "total": "Totaal",
         "subtotal": "Subtotaal",
         "shipping": "Verzending",
@@ -266,7 +270,7 @@
                 "title": "Er zijn geen verzendmethoden beschikbaar voor uw bestelling",
                 "description": "Controleer uw verzendadres of neem contact met ons op voor hulp bij bestellen."
             }
-        },        
+        },
         "payment_failed": {
             "title": "We kunnen uw betaling niet uitvoeren",
             "description": "Controleer uw ingegeven betalingsgegevens, of probeer het later nogmaals."
@@ -286,7 +290,7 @@
         "customer_password_token_expired": "Uw token voor wachtwoordherstel is verlopen.",
         "customer_password_token_invalid": "Uw token voor wachtwoordherstel is ongeldig.",
         "customer_not_found": "Het e-mailadres is niet aan een account gekoppeld.",
-        "invalid_credentials":"Incorrect e-mail of wachtwoord.",
+        "invalid_credentials": "Incorrect e-mail of wachtwoord.",
         "customer_current_password_invalid": "Ongeldig wachtwoord."
     },
     "customer_orders": {
