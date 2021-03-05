@@ -27,7 +27,7 @@
         "quantity": "Cantidad",
         "quantity_short": "Cant.",
         "decrement_quantity": "Reducir cantidad",
-        "increment_quantity": "Subir cantidad",
+        "increment_quantity": "Aumentar cantidad",
         "remove_item": "Quitar artículo",
         "recurrence": {
             "daily": "día |||| %{smart_count} días",
@@ -37,6 +37,16 @@
         }
     },
     "subscription": {
+        "title": "Suscripciones",
+        "state": {
+            "title": "Estado",
+            "active": "Activo",
+            "paused": "Pausado",
+            "finished": "Finalizado",
+            "stopped": "Detenido"
+        },
+        "placed_on": "Situado en",
+        "items": "Artículos",		
         "plan": "Plan",
         "billed_on": "Se cobrará en",
         "payment_amount": "Total del pago"
@@ -52,7 +62,8 @@
         "view_detailed_cart": "Ver detalle del carrito"
     },
     "order": {
-        "loading": "Estamos recuperando los detalles de tu pedido..."
+        "loading": "Estamos recuperando los detalles de tu pedido...",
+		"title": "Pedido"
     },
     "discount_box": {
         "promo_code": "¿Código promocional?",
@@ -68,7 +79,7 @@
         "country": "País",
         "postalCode": "Código Postal",
         "province": "Provincia",
-        "dont_see_address": "No veo mi dirección"
+        "dont_see_address": "No encuentro mi dirección"
     },
     "billing": {
         "title": "Facturación",
@@ -155,7 +166,11 @@
             "card_number": "Número de Tarjeta",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Código Postal"
+            "card_postal_code": "Código Postal",
+            "invalid_number": "El número de tarjeta no es válido.",
+            "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
+            "invalid_cvv": "El CVV de la tarjeta no es válido.",
+            "invalid_postal_code": "Código postal no válido"			
         },
         "still_pending_notice": "Tu pago está siendo procesado aún.",
         "title": "Pago",
@@ -201,8 +216,7 @@
       "quantity": "x"
     },
     "errors": {
-      "default": "Ocurrió un error",
-
+      "default": "Ocurrió un error, inténtelo de nuevo más tarde o contacte con nosotros.",
       "promo_code_is_invalid": "Este código promocional no es válido",
       "promocode_already_in_cart": "Este código promocional ya se ha aplicado",
       "promocode_isnt_applicable": "Este código promocional no es aplicable",
@@ -236,7 +250,7 @@
           "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtelo de nuevo más tarde o utilice un método de pago distinto."
       },
       "discounts": {
-          "conflict": "Algunos descuentos no pueden combinarse. ¿Utilice este descuento en su lugar?"
+          "conflict": "Algunos descuentos no pueden combinarse. ¿Utilizar este descuento en su lugar?"
       },
       "order_validation": {
           "domain_crawling": {
@@ -249,7 +263,7 @@
           },
           "stock_validation": {
               "title": "Artículo fuera de stock.",
-              "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte al dueño de la tienda para más detalles."
+              "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte con el dueño de la tienda para más detalles."
           },
           "custom_fields_validation": {
               "title": "Falta información necesaria.",
@@ -257,7 +271,7 @@
           },
           "shipping_validation": {
               "title": "El método de envío no pudo ser validado.",
-              "description": "La tasa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
+              "description": "La tarifa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
           }
       },
       "shipping": {
@@ -304,6 +318,6 @@
         "async_confirmation_notice": "Hemos recibido tu pedido y actualmente se está preparando. Recibirás una confirmación en breve."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "En envío y los impuestos se calcularán cuando se indique una dirección."
+        "shipping_taxes_calculated_when_address_provided": "Los gastos de envío y los impuestos se calcularán cuando se indique una dirección."
     }
 }
