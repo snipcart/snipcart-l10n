@@ -13,7 +13,11 @@
         "show": "Mostra",
         "hide": "Nascondi",
         "apply_changes": "Applica le modifiche",
-        "yes_use_it": "Si, usalo"
+        "yes_use_it": "Si, usalo",
+        "save_changes": "Salva i cambiamenti",
+        "back_to_orders": "Torna agli ordini",
+        "change_password": "Cambia password",
+        "add": "Aggiungi"
     },
     "header": {
         "title_cart_summary": "Carrello",
@@ -33,6 +37,15 @@
         }
     },
     "subscription": {
+        "title": "Abbonamento",
+        "state": {
+            "title": "Stato",
+            "active": "Attivo",
+            "paused": "In pausa",
+            "finished": "Finito",
+            "stopped": "Fermato"
+        },
+        "items": "Articoli",
         "plan": "Piano",
         "billed_on": "Fatturato il",
         "payment_amount": "Importo del pagamento"
@@ -44,10 +57,12 @@
         "secured_by": "Garantito da Snipcart",
         "summary": "Riepilogo dell'ordine",
         "empty": "Il tuo carrello è vuoto.",
-        "invoice_number": "Numero fattura"
+        "invoice_number": "Numero fattura",
+        "view_detailed_cart": "Visualizza il carrello in dettaglio"
     },
     "order": {
-        "loading": "Stiamo caricando i dettagli del tuo ordine..."
+        "loading": "Stiamo caricando i dettagli del tuo ordine...",
+        "title": "Ordine"
     },
     "discount_box": {
         "promo_code": "Codice sconto?",
@@ -72,7 +87,11 @@
         "use_different_shipping_address": "Usa un indirizzo di consegna diverso"
     },
     "customer": {
-        "information": "Informazioni cliente"
+        "information": "Informazioni cliente",
+        "payment_info": "Le mie informazioni di pagamento"
+    },
+    "customer_details": {
+        "title": "Dettagli del cliente"
     },
     "customer_dashboard": {
         "my_account": "Il mio account",
@@ -88,7 +107,10 @@
         "no_subscriptions": "Nessun abbonamento trovato.",
         "view_invoice": "Visualizza la fattura",
         "sign_out": "Esci",
-        "show_more_orders": "Mostra %{smart_count} ordine |||| Mostra altri %{smart_count} ordini"
+        "show_more_orders": "Mostra %{smart_count} ordine |||| Mostra altri %{smart_count} ordini",
+        "show_more_subscriptions": "Mostra %{smart_count} più abbonamenti |||| Mostra altri %{smart_count} abbonamenti",
+        "orders": "Ordini",
+        "subscriptions": "Abbonamenti"
     },
     "signin_form": {
         "signin": "Accedi",
@@ -111,12 +133,19 @@
         "confirmation_password": "Reinserisci la tua nuova password",
         "action": "Resetta la password"
     },
+    "change_password_form": {
+        "title": "Cambia la tua password",
+        "current_password": "La password attuale",
+        "password": "Nuova password",
+        "confirmation_password": "Inserisci nuovamente la tua nuova password",
+        "action": "Cambia password"
+    },
     "register_form": {
         "register": "Registrati",
         "already_have_an_account": "Sei già registrato?",
         "email": "Email",
         "password": "Password",
-        "confirm_password": "Conferma la password"
+        "confirm_password": "Conferma la password",
     },
     "guest_checkout": {
         "or": "oppure",
@@ -136,7 +165,11 @@
             "card_number": "Numero carta",
             "card_expiration": "MM/AA",
             "card_cvv": "CVV",
-            "card_postal_code": "Codice postale"
+            "card_postal_code": "Codice postale",
+            "invalid_number": "Il numero della carta non è valido",
+            "invalid_expiration": "La data di scadenza non è valida",
+            "invalid_cvv": "Il CVV non è valido",
+            "invalid_postal_code": "Il codice postale non è valido"
         },
         "still_pending_notice": "Il pagamento è ancora in fase di elaborazione.",
         "title": "Pagamento",
@@ -173,6 +206,8 @@
       "title": "Sconti"
     },
     "cart_summary": {
+      "taxes": "Tasse",
+      "taxes_included_in_price": "Alcuni articoli hanno le tasse incluse.",
       "total": "Totale",
       "subtotal": "Subtotale",
       "shipping": "Consegna",
@@ -259,22 +294,20 @@
           "title":"Impossibile completare il pagamento",
           "default": "Controlla le informazioni inserite, oppure prova più tardi."
       },
-      "customer_exists": "Questa email è già in uso.",
-      "customer_password_missmatch": "Le due password sono diverse.",
-      "invalid_credentials": "Email o password non valide."
-    },
-    "authentication_challenge": {
+      "authentication_challenge": {
         "failed": {
             "title": "Impossibile elaborare il pagamento",
-            "description": "Non siamo stati in grado di autenticare i tuoi dati di pagamento. Si prega di riprovare"
+            "description": "Non siamo stati in grado di autenticare le sue informazioni di pagamento. Si prega di riprovare"
         }
+      },
+      "customer_exists": "Questa email è già in uso.",
+      "customer_password_missmatch": "Le due password sono diverse.",
+      "customer_password_token_expired": "Il tuo token per il recupero della password è scaduto.",
+      "customer_password_token_invalid": "Il tuo token di recupero password non è valido.",
+      "customer_not_found": "L'indirizzo e-mail non è associato a nessun account.",
+      "invalid_credentials": "Email o password non valide.",
+      "customer_current_password_invalid": "Password non valida."
     },
-    "customer_exists": "Questa email è già in uso.",
-    "customer_password_missmatch": "Le due password devono corrispondere.",
-    "customer_password_token_expired": "Il tuo token di recupero password è scaduto.",
-    "customer_password_token_invalid": "Il tuo token di recupero password non è valido.",
-    "customer_not_found": "L'indirizzo email non è associato ad alcun account.",
-    "invalid_credentials": "Email o password non valida.",
     "customer_orders": {
         "loading": "Caricamento..."
     },
