@@ -297,7 +297,7 @@
       "authentication_challenge": {
         "failed": {
             "title": "Impossibile elaborare il pagamento",
-            "description": "Non siamo stati in grado di autenticare le sue informazioni di pagamento. Si prega di riprovare"
+            "description": "Non siamo stati in grado di autenticare le tue informazioni di pagamento. Ti preghiamo di riprovare"
         }
       },
       "customer_exists": "Questa email è già in uso.",
