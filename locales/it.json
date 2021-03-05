@@ -145,7 +145,7 @@
         "already_have_an_account": "Sei già registrato?",
         "email": "Email",
         "password": "Password",
-        "confirm_password": "Conferma la password"
+        "confirm_password": "Conferma la password",
     },
     "guest_checkout": {
         "or": "oppure",
