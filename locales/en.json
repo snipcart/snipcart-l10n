@@ -43,9 +43,11 @@
             "active": "Active",
             "paused": "Paused",
             "finished": "Finished",
-            "stopped": "Stopped"
+            "stopped": "Stopped",
+            "cancellationrequested": "Subscription will stop at the end of the billing cycle."
         },
         "placed_on": "Placed on",
+        "final_billing_date": "Final billing date",
         "items": "Items",
         "plan": "Plan",
         "billed_on": "Billed on",
