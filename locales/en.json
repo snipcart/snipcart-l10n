@@ -112,7 +112,8 @@
         "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
         "show_more_subscriptions": "Show %{smart_count} more subscription |||| Show %{smart_count} more subscriptions",
         "orders": "Orders",
-        "subscriptions": "Subscriptions"
+        "subscriptions": "Subscriptions",
+        "subscription": "Subscription"
     },
     "signin_form": {
         "signin": "Sign In",
