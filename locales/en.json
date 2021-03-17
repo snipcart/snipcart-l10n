@@ -50,7 +50,8 @@
         "plan": "Plan",
         "billed_on": "Billed on",
         "payment_amount": "Payment amount",
-        "processing": "Subscription is still processing. Come back later to see details."
+        "processing": "Subscription is still processing. Come back later to see details.",
+        "loading": "Loading subscriptions"
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -289,6 +290,9 @@
                 "title": "No shipping methods are available for your order",
                 "description": "Please review your shipping address or contact us."
             }
+        },
+        "shippingRates": {
+            "loading": "Loading shipping rates"
         },
         "payment_failed": {
             "title": "Unable to process payment",
