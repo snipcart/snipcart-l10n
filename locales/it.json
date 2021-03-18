@@ -45,6 +45,7 @@
             "finished": "Finito",
             "stopped": "Fermato"
         },
+        "placed_on": "Effettuato il",
         "items": "Articoli",
         "plan": "Piano",
         "billed_on": "Fatturato il",
