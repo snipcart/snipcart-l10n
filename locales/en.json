@@ -78,7 +78,8 @@
     },
     "customer": {
         "information": "Customer information",
-        "payment_info": "My payment info"
+        "payment_info": "My payment info",
+        "update_payment_method": "Update"
     },
     "customer_details": {
         "title": "Customer details"
