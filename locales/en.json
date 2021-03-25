@@ -317,7 +317,7 @@
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "Product couldn't be added to the cart",
-                "description": "The cart can only contain either products or a subscription."
+                "description": "The cart can only contain either items or a subscription."
             }
         },
         "customer_exists": "This email is already used.",
