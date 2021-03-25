@@ -53,7 +53,16 @@
         "billed_on": "Billed on",
         "payment_amount": "Payment amount",
         "processing": "Subscription is still processing. Come back later to see details.",
-        "loading": "Loading subscriptions"
+        "loading": "Loading subscriptions", 
+        "cancel": "Cancel", 
+        "pause": "Pause", 
+        "unpause": "Resume", 
+        "billing_recurrence": { 
+            "daily": "Billed every day |||| Billed every %{smart_count} days", 
+            "weekly": "Billed every every week |||| Billed every %{smart_count} weeks", 
+            "monthly": "Billed every month |||| Billed every %{smart_count} months", 
+            "yearly": "Billed every year |||| Billed every %{smart_count} years" 
+        } 
     },
     "cart": {
         "subtotal": "Subtotal",
