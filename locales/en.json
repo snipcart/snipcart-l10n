@@ -6,6 +6,7 @@
         "back_to_checkout": "Back to checkout",
         "checkout": "Checkout",
         "apply": "Apply",
+        "dismiss": "Dismiss",
         "type_address": "Type your address",
         "use_this_address": "Use this address",
         "back_to_store": "Back to store",
@@ -17,6 +18,7 @@
         "save_changes": "Save changes",
         "back_to_orders": "Back to orders",
         "change_password": "Change password",
+        "clear_cart": "Clear cart",
         "add": "Add"
     },
     "header": {
@@ -306,6 +308,16 @@
             "failed": {
                 "title": "Unable to process payment",
                 "description": "We have not been able to authenticate your payment information. Please try again"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Subscription couldn't be added to the cart",
+                "description": "A cart can only contain one subscription at a time."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Product couldn't be added to the cart",
+                "description": "The cart can only contain either products or a subscription."
             }
         },
         "customer_exists": "This email is already used.",
