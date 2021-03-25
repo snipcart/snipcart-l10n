@@ -152,7 +152,7 @@
         "confirm_password": "Confirm Password",
         "requires_action": {
             "title": "Check your emails",
-            "description": "We detected an account with this email, please check your email to reset your password."
+            "description": "This email address has already been used to complete an order. Please complete the registration process by using the link sent to you by email."
         }
     },
     "guest_checkout": {
