@@ -149,7 +149,11 @@
         "already_have_an_account": "Already have an account?",
         "email": "Email",
         "password": "Password",
-        "confirm_password": "Confirm Password"
+        "confirm_password": "Confirm Password",
+        "requires_action": {
+            "title": "Check your emails",
+            "description": "We detected an account with this email, please check your email to reset your password."
+        }
     },
     "guest_checkout": {
         "or": "Or",
