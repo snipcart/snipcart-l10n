@@ -102,7 +102,10 @@
     },
     "customer": {
         "information": "Customer information",
-        "payment_info": "My payment info"
+        "payment_info": "My payment info",
+        "payment_method_update":{
+            "title": "Payment method update"
+        }
     },
     "customer_details": {
         "title": "Customer details"
