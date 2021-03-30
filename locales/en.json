@@ -43,14 +43,26 @@
             "active": "Active",
             "paused": "Paused",
             "finished": "Finished",
-            "stopped": "Stopped"
+            "stopped": "Stopped",
+            "cancellationrequested": "Subscription will stop at the end of the billing cycle."
         },
         "placed_on": "Placed on",
+        "final_billing_date": "Final billing date",
         "items": "Items",
         "plan": "Plan",
         "billed_on": "Billed on",
         "payment_amount": "Payment amount",
-        "processing": "Subscription is still processing. Come back later to see details."
+        "processing": "Subscription is still processing. Come back later to see details.",
+        "loading": "Loading subscriptions", 
+        "cancel": "Cancel", 
+        "pause": "Pause", 
+        "unpause": "Resume", 
+        "billing_recurrence": { 
+            "daily": "Billed every day |||| Billed every %{smart_count} days", 
+            "weekly": "Billed every every week |||| Billed every %{smart_count} weeks", 
+            "monthly": "Billed every month |||| Billed every %{smart_count} months", 
+            "yearly": "Billed every year |||| Billed every %{smart_count} years" 
+        } 
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -90,7 +102,10 @@
     },
     "customer": {
         "information": "Customer information",
-        "payment_info": "My payment info"
+        "payment_info": "My payment info",
+        "payment_method_update":{
+            "title": "Payment method update"
+        }
     },
     "customer_details": {
         "title": "Customer details"
@@ -112,7 +127,8 @@
         "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
         "show_more_subscriptions": "Show %{smart_count} more subscription |||| Show %{smart_count} more subscriptions",
         "orders": "Orders",
-        "subscriptions": "Subscriptions"
+        "subscriptions": "Subscriptions",
+        "subscription": "Subscription"
     },
     "customer_notifications": {
         "subscription": {
@@ -297,6 +313,9 @@
                 "title": "No shipping methods are available for your order",
                 "description": "Please review your shipping address or contact us."
             }
+        },
+        "shippingRates": {
+            "loading": "Loading shipping rates"
         },
         "payment_failed": {
             "title": "Unable to process payment",
