@@ -134,6 +134,15 @@
         "subscriptions": "Subscriptions",
         "subscription": "Subscription"
     },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "A payment is due for a subscription",
+                "description": "You currently have a subscription with an overdue payment. Please update your payment method.",
+                "action": "Update payment method"
+            }
+        }
+    },
     "signin_form": {
         "signin": "Sign In",
         "dont_have_an_account": "Don't have an account?",
@@ -167,7 +176,11 @@
         "already_have_an_account": "Already have an account?",
         "email": "Email",
         "password": "Password",
-        "confirm_password": "Confirm Password"
+        "confirm_password": "Confirm Password",
+        "requires_action": {
+            "title": "Check your emails",
+            "description": "This email address has already been used to complete an order. Please complete the registration process by using the link sent to you by email."
+        }
     },
     "guest_checkout": {
         "or": "Or",
