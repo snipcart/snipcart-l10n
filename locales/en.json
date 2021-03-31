@@ -106,7 +106,11 @@
         "information": "Customer information",
         "payment_info": "My payment info",
         "payment_method_update":{
-            "title": "Payment method update"
+            "title": "Payment method update",
+            "outstanding_payment_failed": {
+                "title": "Payment failed",
+                "description": "Your payment method was updated, however, we were unable to charge the outstanding balance. Please use another payment method."
+            }
         }
     },
     "customer_details": {
