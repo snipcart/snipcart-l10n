@@ -134,8 +134,7 @@
         "subscription": {
             "outstanding_payment": {
                 "title": "A payment is due for a subscription",
-                "description": "You currently have a subscription with an overdue payment. Please update your payment method.",
-                "action": "Update payment method"
+                "description": "You currently have a subscription with an overdue payment. Please update your payment method by clicking on Edit beside it in your details."
             }
         }
     },
