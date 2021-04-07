@@ -13,7 +13,12 @@
         "show": "Prikazivanje",
         "hide": "Skrivanje",
         "apply_changes": "Primjena izmjena",
-        "yes_use_it": "Da, koristiti"
+        "save_changes": "Spremanje izmjena",
+        "yes_use_it": "Da, koristiti",
+        "back_to_orders": "Povratak na narudžbe",
+        "change_password": "Promjena lozinke",
+        "clear_cart": "Clear cart",
+        "add": "Dodaj"
     },
     "header": {
         "title_cart_summary": "Pregled košarice",
@@ -44,7 +49,8 @@
         "secured_by": "Secured by Snipcart",
         "summary": "Pregled narudžbe",
         "empty": "Vaša košarica je prazna.",
-        "invoice_number": "Ponuda br."
+        "invoice_number": "Ponuda br.",
+        "view_detailed_cart": "Detalji košarice"
     },
     "order": {
         "loading": "Pripremamo vašu narudžbu..."
@@ -74,6 +80,9 @@
     "customer": {
         "information": "Informacije o kupcu"
     },
+    "customer_details": {
+        "title": "Detalji o kupcu"
+    },
     "customer_dashboard": {
         "my_account": "Moj račun",
         "ordered_on": "Naručeno dana",
@@ -88,7 +97,11 @@
         "no_subscriptions": "Pretplate nisu pronađene.",
         "view_invoice": "Pogledati račun",
         "sign_out": "Odjava",
-        "show_more_orders": "Sljedećih %{smart_count} narudžbi |||| Show %{smart_count} više Narudžbi"
+        "show_more_orders": "Sljedećih %{smart_count} narudžbi |||| Show %{smart_count} više Narudžbi",
+        "show_more_subscriptions": "Više %{smart_count} Pretplata |||| Više %{smart_count} Pretplata",
+        "orders": "Narudžbe",
+        "subscriptions": "Pretplate",
+        "subscription": "Pretplata"
     },
     "signin_form": {
         "signin": "Prijava",
@@ -110,6 +123,13 @@
         "password": "Nova lozinka",
         "confirmation_password": "Ponavljanje lozinke",
         "action": "Postavljanje nove lozinke"
+    },
+    "change_password_form": {
+      "title": "Promjena lozinka",
+      "current_password": "Trenutna lozinka",
+      "password": "Nova lozinka",
+      "confirmation_password": "Ponavljanje lozinke",
+      "action": "Promjena lozinke"
     },
     "register_form": {
         "register": "Registracija",
@@ -174,6 +194,7 @@
     },
     "cart_summary": {
         "taxes": "PDV",
+        "taxes_included_in_price": "Neke stavke imaju uključen PDV.",
         "total": "Ukupno",
         "subtotal": "Neto iznos",
         "shipping": "Dostava",
@@ -271,7 +292,8 @@
         "customer_password_token_expired": "Token za obnavaljanje vaše lozinke je istekao.",
         "customer_password_token_invalid": "Token za obnavljanje vaše lozinke nije valjan.",
         "customer_not_found": "Ova email adresa nije vezana niti za jedan postojeći račun.",
-        "invalid_credentials": "Email adresa ili lozinka nije valjana."
+        "invalid_credentials": "Email adresa ili lozinka nije valjana.",
+        "customer_current_password_invalid": "Neispravna lozinka."
     },
     "customer_orders": {
         "loading": "Učitavam..."
