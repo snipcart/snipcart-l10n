@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Loading...",
+        "error": "An error occured.",
+        "success": "Success!"
+    },
     "actions": {
         "edit": "Edit",
         "cancel": "Cancel",
