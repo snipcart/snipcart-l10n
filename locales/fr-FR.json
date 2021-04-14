@@ -60,7 +60,7 @@
     "promocode_applied": "Promotion appliquée"
   },
   "address_form": {
-    "name": "Nom complet",
+    "name": "Nom et prénom",
     "email": "Courriel",
     "address1": "Adresse postale",
     "address2": "Complément d’Adresse",
