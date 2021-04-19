@@ -209,6 +209,7 @@
         "email": "Diese E-Mail-Adresse ist ungültig",
         "quantity_revised": "Die Anzahl wurde aufgrund von Lagerbeschränkungen überarbeitet.",
         "quantity_out_of_stock": "Leider ist dieser Artikel nicht mehr vorrätig. Nehmen Sie ihn aus dem Warenkorb, um fortzufahren.",
+        "disabled_country": "Leider ist eine Bestellung für das gewählte Land nicht möglich.",
         "error_payment_items_are_invalid": {
             "title": "Einige Artikel in Ihrem Warenkorb sind ungültig",
             "description": "Bitte überprüfen Sie Ihre Bestellung oder versuchen Sie es später erneut."
