@@ -257,6 +257,7 @@
         "promocode_isnt_applicable": "This promo code isn't valid",
         "promo_code_is_expired": "This promo code has expired",
         "stringEmpty": "This field is required",
+        "emailEmpty": "This field is required",
         "required": "This field is required",
         "invalid_expiry_year_past": "Card is expired",
         "email": "Please provide a valid email address",
