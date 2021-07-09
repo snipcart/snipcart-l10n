@@ -1,0 +1,67 @@
+{
+  "item": {
+      "decrement_quantity": "Decrease quantity",
+      "increment_quantity": "Increase quantity"
+  },
+  "cart": {
+      "shipping_taxes_calculated_at_checkout": "Postage and tax will be calculated at checkout."
+  },
+  "address_form": {
+      "address1": "Unit Number",
+      "address2": "Street number and name",
+      "city": "Suburb",
+      "country": "Country",
+      "postalCode": "Postcode",
+      "province": "State",
+      "dont_see_address": "I can't find my address"
+  },
+  "billing": {
+      "continue_to_shipping": "Continue to postage",
+      "use_different_shipping_address": "Use different postal address"
+  },
+  "shipping": {
+      "title": "Postage",
+      "shipping_to": "Sending to:",
+      "address": "Postal address",
+      "method": "Postage method"
+  },
+  "payment": {
+      "form": {
+          "deferred_payment_title": "Deferred Payment/Pay later",
+          "card_postal_code": "Post code",
+          "invalid_postal_code": "Post code is invalid"
+      },
+      "methods": {
+          "card": "Credit/Debit card"
+      }
+  },
+  "discounts": {
+      "title": "Discounts"
+  },
+  "cart_summary": {
+      "taxes": "Tax",
+      "taxes_included_in_price": "Some items have tax included.",
+  },
+  "errors": {
+      "shipping": {
+          "account_configuration": {
+              "title": "No postage method is currently available",
+              "description": "Try again later, or contact us for support."
+          },
+          "rates_calculation": {
+              "title": "Unable to calculate postage for your order",
+              "description": "Try again later, or contact us for support."
+          },
+          "no_rates_found": {
+              "title": "No postage methods are available for your order",
+              "description": "Please review your shipping address or contact us."
+          }
+      },
+      "shippingRates": {
+          "loading": "Loading postage rates"
+      }
+  },
+  "checkout": {
+      "shipping_taxes_calculated_when_address_provided": "Postage and tax will be calculated after an address is provided."
+  }
+}
