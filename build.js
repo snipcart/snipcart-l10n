@@ -13,6 +13,7 @@ const defaults = JSON.parse(fs.readFileSync('./locales/en.json'));
 
 files.forEach((file) => {
     const lang = path.parse(file).name;
+    console.log(`Parsing lang ${lang}`)
     const fullPath = path.resolve(__dirname, 'locales', file);
 
     let json = JSON.parse(fs.readFileSync(fullPath));
