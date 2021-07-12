@@ -12,7 +12,7 @@
         "close_cart": "Închide coșul",
         "show": "Afișează",
         "hide": "Ascunde",
-          "apply_changes": "Aplică modificările",
+        "apply_changes": "Aplică modificările",
         "yes_use_it": "Da, folosește-o",
         "save_changes": "Salvați modificările",
         "back_to_orders": "Înapoi la comenzi",
@@ -29,14 +29,14 @@
         "decrement_quantity": "Mai puțin",
         "increment_quantity": "Mai mult",
         "remove_item": "Șterge produsul",
-         "recurrence": {
+        "recurrence": {
             "daily": "zi |||| %{smart_count} zile",
             "weekly": "săptămână |||| %{smart_count} săptămâni",
             "monthly": "lună |||| %{smart_count} luni",
             "yearly": "an |||| %{smart_count} ani"
         }
     },
-       "subscription": {
+    "subscription": {
         "plan": "Plan",
         "billed_on": "Facturat la data de",
         "payment_amount": "Suma de plată"
@@ -49,7 +49,7 @@
         "summary": "Detalii comandă",
         "empty": "Coșul este gol.",
         "invoice_number": "Număr factură",
-            "view_detailed_cart": "Vezi cos detaliat"
+        "view_detailed_cart": "Vezi cos detaliat"
     },
     "order": {
         "loading": "Se încarcă detaliile comenzii Dvs..."
@@ -79,25 +79,25 @@
     "customer": {
         "information": "Informații client"
     },
-        "customer_details": {
+    "customer_details": {
         "title": "Detalii client"
     },
     "customer_dashboard": {
         "my_account": "Contul meu",
         "ordered_on": "Comandat pe data de",
-          "next_billing_date": "Următoarea dată de facturare",
-           "price": "Preț",
+        "next_billing_date": "Următoarea dată de facturare",
+        "price": "Preț",
         "total": "Total",
         "status": "Status",
         "order": "Comanda %{invoice_number}",
         "order_details": "Detalii comandă",
         "loading": "Se încarcă...",
         "no_orders": "Nici o comandă găsită.",
-            "no_subscriptions": "Nu au fost găsite subscripții.",
+        "no_subscriptions": "Nu au fost găsite subscripții.",
         "view_invoice": "Vizualizează factura",
         "sign_out": "Ieșiți din cont",
         "show_more_orders": "Afișează %{smart_count} mai multe comenzi |||| Afișează %{smart_count} mai multe comenzi",
-          "orders": "Comenzi"
+        "orders": "Comenzi"
     },
     "signin_form": {
         "signin": "Autentificare",
@@ -107,14 +107,14 @@
         "forgot_your_password": "Ți-ai uitat parola?",
         "close_form": "Închide formular"
     },
-       "forgot_password_form": {
+    "forgot_password_form": {
         "title": "Recuperați parola Dvs",
         "instructions": "Introduce-ți adresa de email a contului și vă vom trimite un link pentru resetarea parolei.",
         "email": "Email",
         "email_instructions": "Un email cu informațiile necesare a fost trimis. Apăsați pe link-ul din email pentru a vă reseta parola.",
         "action": "Trimite email pentru resetarea parolei"
     },
-        "reset_password_form": {
+    "reset_password_form": {
         "title": "Resetați parola Dvs.",
         "password": "Parola nouă",
         "confirmation_password": "Reintroduceți parola nouă",
@@ -146,7 +146,7 @@
     },
     "payment": {
         "form": {
-               "deferred_payment_title": "Plată ulterioară",
+            "deferred_payment_title": "Plată ulterioară",
             "deferred_payment_instructions": "Prin plasarea acestei comenzi suntți de acord ca plata să fie efectuată la o dată ulterioară prin metoda indicată de comerciant.",
             "card_label": "Card bancar",
             "card_number": "Număr card",
@@ -154,7 +154,7 @@
             "card_cvv": "CVV",
             "card_postal_code": "Cod poștal"
         },
-            "still_pending_notice": "Plata Dvs este în curs de procesare.",
+        "still_pending_notice": "Plata Dvs este în curs de procesare.",
         "title": "Plată",
         "continue_to_payment": "Continuă către plată",
         "credit_card": "Card bancar",
@@ -182,14 +182,14 @@
             "p24": "Przelewy24",
             "sepa_debit": "Transfer bancar SEPA",
             "sofort": "Transfer bancar Sofort",
-             "deferred_payment": "Plată ulterioară"
+            "deferred_payment": "Plată ulterioară"
         }
     },
     "discounts": {
         "title": "Reduceri"
     },
     "cart_summary": {
-           "taxes": "Taxe",
+        "taxes": "Taxe",
         "taxes_included_in_price": "Unele prețuri au taxele incluse.",
         "total": "Total",
         "subtotal": "Subtotal",
@@ -207,7 +207,7 @@
         "required": "Acest câmp este obligatoriu",
         "invalid_expiry_year_past": "Card expirat",
         "email": "Vă rugăm introduceți o adresă de email validă",
-          "quantity_revised": "Cantitatea a fost modificată datorită limitărilor de stoc.",
+        "quantity_revised": "Cantitatea a fost modificată datorită limitărilor de stoc.",
         "quantity_out_of_stock": "Din păcate acest produs nu mai este disponibil. Vă rugăm să-l eliminați din coș pentru a continua.",
         "error_payment_items_are_invalid": {
             "title": "Anumite produse din coșul Dvs nu sunt valide.",
@@ -227,7 +227,7 @@
             "card_not_supported": "Cardul nu este acceptat în această regiune geografică.",
             "currency_not_supported": "Moneda cardului nu este acceptată momentan."
         },
-             "transaction": {
+        "transaction": {
             "declined": "A apărut o eroare în timpul procesării cardului. Încercați mai târziu sau folosiți un alt card bancar."
         },
         "discounts": {
@@ -246,7 +246,7 @@
                 "title": "Stocul produselor nu este disponibil.",
                 "description": "Unele produse sunt indisponibile pentru cantitatea selectată. Vă rugăm selectați o contitate mai mică."
             },
-              "custom_fields_validation": {
+            "custom_fields_validation": {
                 "title": "Acest câmp este obligatoriu.",
                 "description": "Unele produse din coș au cîmpuri obligatorii necompletate. Vă rugăm modificați coșul pentru a continua."
             },
@@ -256,8 +256,7 @@
             }
         },
         "shipping": {
-          
-               "account_configuration": {
+            "account_configuration": {
                 "title": "Nico o metodă de livrare nu este disponibilă momentan",
                 "description": "Vă rugăm încercați mai târziu sau contactați-ne pentru mai multe detalii."
             },
@@ -278,7 +277,7 @@
             "title": "Nu am putut procesa plata",
             "default": "Vă rugăm verificați datele cardului și adresa de livrare."
         },
-         "authentication_challenge": {
+        "authentication_challenge": {
             "failed": {
                 "title": "Plata nu putut fi procesată",
                 "description": "Nu am putut autentifica datele introduse pentru plată. Vă rugăm încercați mai târziu."
@@ -286,12 +285,11 @@
         },
         "customer_exists": "Acest email există deja.",
         "customer_password_missmatch": "Parolele trebue să fie identice.",
-        "invalid_credentials": "Adresa de email sau parola este incorectă.",
-           "customer_password_token_expired": "Token-ul pentru recuperarea parolei a expirat.",
+        "customer_password_token_expired": "Token-ul pentru recuperarea parolei a expirat.",
         "customer_password_token_invalid": "Token-ul pentru recuperarea parolei nu este valid.",
         "customer_not_found": "Adresa de email introdusă nu este asociată nici unui cont.",
         "invalid_credentials": "Adresa de email sau Parola nu sunt valide.",
-        "customer_current_password_invalid": "Parola nu este validă."
+        "customer_current_password_invalid": "Parola nu este validă.",
         "no_shipping_rates_found": {
             "title": "Nici o metodă de livrare nu este disponibilă pentru adresa dvs.",
             "description": "Vă rugăm verificați adresa de livrare sau contactați-ne pentru mai multe detalii."
