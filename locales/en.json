@@ -367,6 +367,9 @@
     "customer_orders": {
         "loading": "Loading..."
     },
+    "digital_goods": {
+        "download": "Download file"
+    },
     "confirmation": {
         "thank_you_for_your_order": "Thank you for your order",
         "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
