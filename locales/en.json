@@ -329,9 +329,6 @@
                 "description": "Please review your shipping address or contact us."
             }
         },
-        "shippingRates": {
-            "loading": "Loading shipping rates"
-        },
         "payment_failed": {
             "title": "Unable to process payment",
             "description": "Try again later, or contact us for support."
@@ -363,6 +360,9 @@
         "customer_not_found": "The email address is not associated with any account.",
         "invalid_credentials": "Invalid email or password.",
         "customer_current_password_invalid": "Invalid password."
+    },
+    "shippingRates": {
+        "loading": "Loading shipping rates"
     },
     "customer_orders": {
         "loading": "Loading..."

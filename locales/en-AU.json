@@ -56,10 +56,10 @@
                 "title": "No postage methods are available for your order",
                 "description": "Please review your shipping address or contact us."
             }
-        },
-        "shippingRates": {
-            "loading": "Loading postage rates"
         }
+    },
+    "shippingRates": {
+        "loading": "Loading postage rates"
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Postage and tax will be calculated after an address is provided."
