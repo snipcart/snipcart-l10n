@@ -1,0 +1,376 @@
+{
+    "default": {
+        "loading": "Nalaganje...",
+        "error": "Napaka.",
+        "success": "Uspešno!"
+    },
+    "actions": {
+        "edit": "Uredi",
+        "cancel": "Prekliči",
+        "continue_shopping": "Nadaljuj z nakupovanjem",
+        "back_to_checkout": "Nazaj v košarico",
+        "checkout": "Košarica",
+        "apply": "Shrani",
+        "dismiss": "Prekliči",
+        "type_address": "Vnesite svoj naslov",
+        "use_this_address": "Uporabi ta naslov",
+        "back_to_store": "Nazaj v trgovino",
+        "close_cart": "Zapri košarico",
+        "show": "Prikaži",
+        "hide": "Skrij",
+        "apply_changes": "Shrani spremembe",
+        "yes_use_it": "Da",
+        "save_changes": "Shrani spremembe",
+        "back_to_orders": "Nazaj na naročila",
+        "change_password": "Spremeni geslo",
+        "clear_cart": "Izprazni košarico",
+        "add": "Dodaj"
+    },
+    "header": {
+        "title_cart_summary": "Pregled košarice",
+        "loading": "Nalaganje..."
+    },
+    "item": {
+        "quantity": "Količina",
+        "quantity_short": "Kol",
+        "decrement_quantity": "Zmanjšaj količino",
+        "increment_quantity": "Povečaj količino",
+        "remove_item": "Odstrani produkt",
+        "recurrence": {
+            "daily": "dan |||| %{smart_count} dni",
+            "weekly": "teden |||| %{smart_count} tednov",
+            "monthly": "mesec |||| %{smart_count} mesecev",
+            "yearly": "leto |||| %{smart_count} let"
+        }
+    },
+    "subscription": {
+        "title": "Naročnina",
+        "state": {
+            "title": "Status",
+            "active": "Aktivna",
+            "paused": "Premor",
+            "finished": "Dokončana",
+            "stopped": "Prekinjena",
+            "cancellationrequested": "Naročnina bo prekinjena ob koncu obračunskega obdobja."
+        },
+        "placed_on": "Sklenjeno",
+        "final_billing_date": "Končni obračunski datum",
+        "items": "Produkti",
+        "plan": "Plan",
+        "billed_on": "Obračunano na",
+        "payment_amount": "Znesek",
+        "processing": "Naročnina je v obdelavi. Poskusite kasneje.",
+        "loading": "Nalaganje naročnin", 
+        "cancel": "Prekliči", 
+        "pause": "Premor", 
+        "unpause": "Nadaljuj", 
+        "billing_recurrence": { 
+            "daily": "Zaračunano vsak dan |||| Zaračunano na vsakih %{smart_count} dni", 
+            "weekly": "Zaračunano vsak teden |||| Zaračunano na vsakih %{smart_count} tednov", 
+            "monthly": "Zaračunano vsak mesec |||| Zaračunano na vsakih %{smart_count} mesecev", 
+            "yearly": "Zaračunano vsako leto |||| Zaračunano na vsakih %{smart_count} let" 
+        } 
+    },
+    "cart": {
+        "subtotal": "Vmesni znesek",
+        "shipping_taxes_calculated_at_checkout": "Poštnina in davek bosta obračunana pri plačilu.",
+        "loading": "Pripravljamo vašo košarico...",
+        "secured_by": "Varen nakup omogoča Snipcart",
+        "summary": "Pregled naročila",
+        "empty": "Vaša košarica je prazna.",
+        "invoice_number": "Številka računa",
+        "view_detailed_cart": "Podroben pregled košarice"
+    },
+    "order": {
+        "loading": "Procesiramo vaše naročilo...",
+        "title": "Naročilo"
+    },
+    "discount_box": {
+        "promo_code": "Promocijska koda?",
+        "promo_code_placeholder": "Promocijska koda",
+        "promocode_applied": "Promocijska koda sprejeta"
+    },
+    "address_form": {
+        "name": "Polno ime",
+        "email": "E-naslov",
+        "address1": "Ulica",
+        "address2": "Hišna številka",
+        "city": "Mesto",
+        "country": "Država",
+        "postalCode": "Poštna številka",
+        "province": "Regija",
+        "dont_see_address": "Ne vidim svojega naslova"
+    },
+    "billing": {
+        "title": "Plačilo",
+        "address": "Naslov za plačilo",
+        "continue_to_shipping": "Nadaljuj na dostavo",
+        "use_different_shipping_address": "Uporabi drug naslov za dostavo"
+    },
+    "customer": {
+        "information": "Podatki o kupcu",
+        "payment_info": "Plačilni podatki",
+        "payment_method_update":{
+            "title": "Zamenjaj način plačila",
+            "outstanding_payment_failed": {
+                "title": "Plačilo ni uspelo",
+                "description": "Način plačila je bil zamenjan, toda zneska ni bilo mogoče zaračunati. Poskusite ponovno ali pa zamenjajte način plačila."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Podatki o kupcu"
+    },
+    "customer_dashboard": {
+        "my_account": "Moj račun",
+        "ordered_on": "Naročeno na",
+        "next_billing_date": "Naslednji obračunski datum",
+        "price": "Cena",
+        "total": "Končni znesek",
+        "status": "Status",
+        "order": "Naročilo %{invoice_number}",
+        "order_details": "Podatki o naročilu",
+        "loading": "Nalaganje...",
+        "no_orders": "Ni naročil.",
+        "no_subscriptions": "Ni naročnin.",
+        "view_invoice": "Poglej račun",
+        "sign_out": "Odjava",
+        "show_more_orders": "Prikaži %{smart_count} naročil |||| Prikaži %{smart_count} naročil",
+        "show_more_subscriptions": "Prikaži %{smart_count} naročnin |||| Prikaži %{smart_count} naročnin",
+        "orders": "Naročila",
+        "subscriptions": "Naročnine",
+        "subscription": "Naročnina"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Plačilo za naročnino je zapadlo",
+                "description": "Plačilni rok za trenutno naročnino je zapadel. Prosimo, posodobite vaš način plačila s klikom na Uredi v vaših podatkih."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Prijava",
+        "dont_have_an_account": "Še nimate računa?",
+        "email": "E-naslov",
+        "password": "Geslo",
+        "forgot_your_password": "Ste pozabili geslo?",
+        "close_form": "Pojdi nazaj"
+    },
+    "forgot_password_form": {
+        "title": "Obnovite svoje geslo",
+        "instructions": "Vnesite svoj e-naslov in poslali vam bomo povezavo za ponovno nastavitev gesla.",
+        "email": "E-naslov",
+        "email_instructions": "Email je bil poslan na vaš e-naslov. Kliknite nanj za ponovno nastavitev gesla.",
+        "action": "Pošlji email za ponovno nastavitev gesla"
+    },
+    "reset_password_form": {
+        "title": "Ponovna nastavitev gesla",
+        "password": "Novo geslo",
+        "confirmation_password": "Ponovno vnesite novo geslo",
+        "action": "Posodobi geslo"
+    },
+    "change_password_form": {
+        "title": "Zamenjajte geslo",
+        "current_password": "Trenutno geslo",
+        "password": "Novo geslo",
+        "confirmation_password": "Ponovno vnesite novo geslo",
+        "action": "Posodobi geslo"
+    },
+    "register_form": {
+        "register": "Registracija",
+        "already_have_an_account": "Že imate račun?",
+        "email": "E-naslov",
+        "password": "Geslo",
+        "confirm_password": "Ponovno vnesite geslo",
+        "requires_action": {
+            "title": "Preverite vaš e-naslov",
+            "description": "Ta e-naslov je bil že uporabljen pri naročilu. Prosimo, dokončajte registracijo s klikom na povezavo, ki je bila poslana na vaš e-naslov."
+        }
+    },
+    "guest_checkout": {
+        "or": "Ali",
+        "continue_as_a_guest": "Nadaljujte kot gost"
+    },
+    "shipping": {
+        "title": "Dostava",
+        "shipping_to": "Dostavi na:",
+        "address": "Naslov za dostavo",
+        "method": "Način dostave"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Odloženo plačilo",
+            "deferred_payment_instructions": "Z oddajo tega naročila se strinjate s plačilom z izbranim načinom plačila.",
+            "card_label": "Kreditna kartica",
+            "card_number": "Številka kreditne kartice",
+            "card_expiration": "MM/LL",
+            "card_cvv": "CVV",
+            "card_postal_code": "Poštna številka",
+            "invalid_number": "Številka kartice je neveljavna",
+            "invalid_expiration": "Datum poteka kartice je neveljaven",
+            "invalid_cvv": "CVV ni pravilen",
+            "invalid_postal_code": "Poštna številka je neveljavna"
+        },
+        "still_pending_notice": "Vaše plačilo je v obdelavi.",
+        "title": "Plačilo",
+        "continue_to_payment": "Nadaljuj na plačilo",
+        "credit_card": "Kreditna kartica",
+        "place_order": "Zakjuči plačilo",
+        "preparing_payment_session": "Priprava plačila...",
+        "processing_payment": "Obdelava plačila...",
+        "checkout_with": "Način plačila",
+        "checkout_with_method": "Plačaj z %{method}",
+        "method_icon": "%{method} ikona",
+        "no_payment": "Za to naročilo ni potrebno plačilo.",
+        "methods": {
+            "card": "Kreditna kartica",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Odloženo plačilo"
+        }
+    },
+    "discounts": {
+        "title": "Popusti"
+    },
+    "cart_summary": {
+        "taxes": "Davek",
+        "taxes_included_in_price": "Nekateri produkti imajo davek vključen v ceno.",
+        "total": "Total",
+        "subtotal": "Vmesni znesek",
+        "shipping": "Dostava",
+        "discount": "Popusti",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Napaka, poskusite kasneje ali pa nas kontaktirajte.",
+        "promo_code_is_invalid": "Promocijska koda ni veljavna",
+        "promocode_already_in_cart": "Promocijska koda je že dodana",
+        "promocode_isnt_applicable": "Promocijska koda ni veljavna",
+        "promo_code_is_expired": "Promocijska koda je potekla",
+        "stringEmpty": "To polje je obvezno",
+        "emailEmpty": "To polje je obvezno",
+        "required": "To polje je obvezno",
+        "invalid_expiry_year_past": "Kartica je pretekla",
+        "email": "Vnesite pravilen e-naslov",
+        "quantity_revised": "Količina je bila posodobljena glede na zalogo.",
+        "quantity_out_of_stock": "Tega izdelka trenutno ni na zalogi, odstranite ga iz košarice.",
+        "disabled_country": "Izbrana država ni na voljo.",
+        "error_payment_items_are_invalid": {
+            "title": "Nekateri izdelki v vaši košarici so neveljavni",
+            "description": "Preglejte naročilo ali poskusite kasneje."
+        },
+        "card": {
+            "invalid_number": "Številka kartice je neveljavna.",
+            "invalid_date": "Datum poteka kartice je neveljaven.",
+            "invalid_year": "Leto poteka kartice je neveljavno.",
+            "invalid_month": "Mesec poteka kartice je neveljaven.",
+            "invalid_cvv": "CVV je neveljaven.",
+            "invalid_expiration": "Datum poteka kartice je neveljaven",
+            "expired": "Kartica je potekla",
+            "declined": "Kartica je zavrnjena, obrnite se na svojega bančnih storitev.",
+            "invalid_address": "Naslov je neveljaven.",
+            "insufficient_funds": "Na vašem računu ni dovolj denarja za plačilo.",
+            "card_not_supported": "Kartica ni podprta v vaši regiji.",
+            "currency_not_supported": "Valuta ni podprta."
+        },
+        "transaction": {
+            "declined": "Napaka pri obdelavi kartice. Poskusite kasneje ali pa izberite drug način plačila."
+        },
+        "discounts": {
+            "conflict": "Nekateri popusti se ne morejo sešteti. Boste uporabili ta popust?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Napaka pri obdelavi naročila.",
+                "description": "Znesek naročila ni bil zaračunan. Za več informacij nas kontaktirajte."
+            },
+            "product_crawling": {
+                "title": "Cene izdelkov v košarici so se morda spremenile.",
+                "description": "Poskusite jih odstraniti in ponovno dodati v košarico."
+            },
+            "stock_validation": {
+                "title": "Podatki o zalogi niso na voljo.",
+                "description": "Nekateri izdelki morda niso na zalogi. Posodobite količino."
+            },
+            "custom_fields_validation": {
+                "title": "Nekateri izdelki nimajo vseh obveznih informacij.",
+                "description": "Nekateri izdelki nimajo vseh obveznih informacij. Izpolnite podatke."
+            },
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Trenutno ni načina dostave",
+                "description": "Poskusite kasneje."
+            },
+            "rates_calculation": {
+                "title": "Izračun stroška dostave ni bil možen",
+                "description": "Poskusite kasneje."
+            },
+            "no_rates_found": {
+                "title": "Za vaše naročilo ni načinov dostava",
+                "description": "Preverite vaš naslov za dostavo."
+            }
+        },
+        "payment_failed": {
+            "title": "Plačilo ni bilo obdelano",
+            "description": "Poskusite kasneje."
+        },
+        "payment_authorization": {
+            "title": "Plačilo ni bilo obdelano",
+            "default": "Preglejte podatke o plačilu."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Plačilo ni bilo obdelano",
+                "description": "Ni bilo mogoče preveriti pristnosti vaših podatkov za plačilo."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Naročnina ni bila dodana v košarico",
+                "description": "Košarica lahko vsebuje le eno naročnino."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Izdelek ni bil dodan v košarico",
+                "description": "Košarica ima lahko le izdelke ali naročnino."
+            }
+        },
+        "customer_exists": "Ta e-naslov je že uporabljen.",
+        "customer_password_missmatch": "Gesli se morata ujemati.",
+        "customer_password_token_expired": "Vaša povezava za ponovno nastavitev gesla je potekla.",
+        "customer_password_token_invalid": "Vaša povezava za ponovno nastavitev gesla je neveljavna.",
+        "customer_not_found": "Ta e-naslov ni uporabljen.",
+        "invalid_credentials": "Neveljaven e-naslov ali geslo.",
+        "customer_current_password_invalid": "Neveljavno geslo."
+    },
+    "shippingRates": {
+        "loading": "Nalagam ceno dostave"
+    },
+    "customer_orders": {
+        "loading": "Nalagam..."
+    },
+    "digital_goods": {
+        "download": "Prenesi datoteko"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Hvala za vaše naročilo",
+        "async_confirmation_notice": "Vaše naročilo je sprejeto in je v obdelavi. V kratkem boste dobili potrditev."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Poštnina in davek bosta obračunana po vnosu naslova."
+    }
+}
