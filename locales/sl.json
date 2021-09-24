@@ -310,7 +310,7 @@
                 "title": "Nekateri izdelki nimajo vseh obveznih informacij.",
                 "description": "Nekateri izdelki nimajo vseh obveznih informacij. Izpolnite podatke."
             },
-        },
+        }
         "shipping": {
             "account_configuration": {
                 "title": "Trenutno ni načina dostave",
