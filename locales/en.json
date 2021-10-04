@@ -313,6 +313,10 @@
             "shipping_validation": {
                 "title": "Shipping method couldn't be validated.",
                 "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
+            },
+            "invalid_discounts": {
+                "title": "A discount was invalid",
+                "description": "A discount was invalid. It was removed from the cart."
             }
         },
         "shipping": {
