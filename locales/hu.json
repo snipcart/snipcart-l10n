@@ -1,223 +1,1302 @@
 {
-  "actions": {
-      "edit": "Szerkesztés",
-      "cancel": "Mégsem",
-      "continue_shopping": "Vásárlás folytatása",
-      "back_to_checkout": "Vissza a fizetéshez",
-      "checkout": "Fizetés",
-      "apply": "Alkalmaz",
-      "type_address": "Írd be a címed",
-      "use_this_address": "Cím használata",
-      "back_to_store": "Vissza a boltba",
-      "close_cart": "Kosár bezárása",
-      "show": "Show",
-      "hide": "Hide",
-      "apply_changes": "Apply changes"
-  },
-  "header": {
-      "title_cart_summary": "Kosár áttekintés",
-      "loading": "Betöltés..."
-  },
-  "item": {
-      "quantity": "Mennyiség",
-      "quantity_short": "Menny.",
-      "decrement_quantity": "Mennyiség csökkentése",
-      "increment_quantity": "Mennyiség növelése",
-      "remove_item": "Elem eltávolítása"
-  },
-  "cart": {
-      "subtotal": "Részösszeg",
-      "shipping_taxes_calculated_at_checkout": "A szállítási díjat és az áfát a pénztárnál adjuk hozzá.",
-      "loading": "Előkészítjük a kosarad...",
-      "secured_by": "Snipcart által biztosítva",
-      "summary": "Rendelés áttekintés",
-      "empty": "A kosarad üres.",
-      "invoice_number": "Számlaszám"
-  },
-  "order": {
-      "loading": "Érkeznek rendelésed részletei..."
-  },
-  "discount_box": {
-      "promo_code": "Van kuponod?",
-      "promo_code_placeholder": "Kupon kód",
-      "promocode_applied": "Kupon érvényesítve"
-  },
-  "address_form": {
-      "name": "Teljes név",
-      "email": "Email cím",
-      "address1": "Utca, házszám",
-      "address2": "Házszám/Emelet/Ajtó",
-      "city": "Város",
-      "country": "Ország",
-      "postalCode": "Irányítószám",
-      "province": "Megye",
-      "dont_see_address": "Nem találom a címemet"
-  },
-  "billing": {
-      "title": "Számlázás",
-      "address": "Számlázási cím",
-      "continue_to_shipping": "Tovább a szállításhoz",
-      "use_different_shipping_address": "Másik szállítási cím használata"
-  },
-  "customer": {
-      "information": "A vásárló adatai"
-  },
-  "customer_dashboard": {
-      "my_account": "Profilom",
-      "ordered_on": "Rendelés időpontja",
-      "total": "Végösszeg",
-      "status": "Státusz",
-      "order": "Rendelés %{invoice_number}",
-      "order_details": "Rendelés részletei",
-      "loading": "Betöltés...",
-      "no_orders": "Nincsenek rendelései.",
-      "sign_out": "Kijelentkezés",
-      "show_more_orders": "Mutass még %{smart_count} rendelést |||| Mutass még %{smart_count} rendelést"
-  },
-  "signin_form": {
-      "signin": "Bejelentkezés",
-      "dont_have_an_account": "Még nem regisztráltál?",
-      "email": "Email cím",
-      "password": "Jelszó",
-      "forgot_your_password": "Elfelejtetted a jelszavad?",
-      "close_form": "Vissza"
-  },
-  "register_form": {
-      "register": "Regisztráció",
-      "already_have_an_account": "Már regisztráltál?",
-      "email": "Email cím",
-      "password": "Jelszó",
-      "confirm_password": "Jelszó megerősítése"
-  },
-  "guest_checkout": {
-      "or": "Vagy",
-      "continue_as_a_guest": "Folytatás regisztráció nélkül"
-  },
-  "shipping": {
-      "title": "Szállítás",
-      "shipping_to": "Szállítás ide:",
-      "address": "Szállítási cím",
-      "method": "Szállítási mód"
-  },
-  "payment": {
-      "form":{
-          "deferred_payment_title": "Fizetés utánvéttel",
-          "deferred_payment_instructions": "A megrendelés elküldésével vállalom, hogy a rendelés átvitelekor az áru ellenértékét megfizetem.",
-          "card_label": "Bankkártya",
-          "card_number": "Bankkártya szám",
-          "card_expiration": "HH/ÉÉ",
-          "card_cvv": "CVV",
-          "card_postal_code": "Irányítószám"
-      },
-      "still_pending_notice": "A fizetés feldolgozás alatt...",
-      "title": "Fizetés",
-      "continue_to_payment": "Tovább a fizetéshez",
-      "credit_card": "Bankkártya",
-      "place_order": "Megrendelés",
-      "preparing_payment_session": "Fizetés előkészítése...",
-      "processing_payment": "Fizetés feldolgozása...",
-      "checkout_with": "Fizetési mód",
-      "checkout_with_method": "Fizetési mód: %{method}",
-      "method_icon": "%{method} ikon",
-      "no_payment": "A rendelés leadásához nem szükséges fizetni.",
-      "methods":{
-          "card": "Bankkártya",
-          "paypal": "PayPal",
-          "paypal_express_checkout": "PayPal",
-          "apple_pay": "Apple Pay",
-          "bancontact": "Bancontact",
-          "belfius": "Belfius",
-          "eps": "Electronic Payment Standard",
-          "giropay": "Giropay",
-          "ideal": "iDEAL",
-          "ing_home_pay": "ING Home Pay",
-          "kbc": "KBC",
-          "klarna_pay_later": "Klarna Pay later",
-          "klarna_slice_it": "Klarna Monthly financing",
-          "p24": "Przelewy24",
-          "sepa_debit": "SEPA utalás",
-          "sofort": "Sofort utalás",
-          "deferred_payment": "Fizetés utánvéttel"
-      }
-  },
-  "discounts": {
-    "title": "Kedvezmények"
-  },
-  "cart_summary": {
-    "total": "végösszeg",
-    "subtotal": "Részösszeg",
-    "shipping": "Szállítás",
-    "discount": "Kedvezmények",
-    "quantity": "x"
-  },
-  "errors": {
-    "default": "Hiba történt",
-    "promo_code_is_invalid": "Ez a kupon nem érvényes",
-    "promocode_already_in_cart": "Ezt a kupont már levontuk",
-    "promocode_isnt_applicable": "Ez a kupon nem alkalmazható",
-    "promo_code_is_expired": "Ez a kupon lejárt",
-    "stringEmpty": "Ennek a mezőnek a kitöltése kötelező",
-    "required": "Ez kötelező mező",
-    "invalid_expiry_year_past": "A kártya lejárt",
-    "email": "Kérjük, valós email címet adj meg",
-    "quantity_revised": "A mennyiség mennyiségi korlátozás miatt felülbírálva.",
-    "quantity_out_of_stock": "Sajnos a termék jelenleg nincs raktáron, kérlek a folytatáshoz távolítsa el a terméket a kosarából.",
-    "error_payment_items_are_invalid": {
-        "title": "Néhány termék a kosárban érvénytelen.",
-        "description": "Tekintse át a rendelését, vagy próbálkozzon később."
+    "default": {
+        "loading": "Betöltés...",
+        "error": "Hiba történt.",
+        "success": "Siker!"
     },
-    "order_validation":{
-      "domain_crawling":{
-          "title":"A megrendelést nem sikerült feldolgozni.",
-          "description":"A rendelés végösszegét nem vontuk le. Kérjük, vegye fel a kapcsolatot az áruház tulajdonosával."
-      },
-      "product_crawling":{
-          "title":"A termékek ára a kosaradban változhatott",
-          "description": "Próbálja meg eltávolítani majd újra hozzáadni a megvásárolni kívánt termékeket a kosárhoz."
-      },
-      "stock_validation":{
-          "title":"Termékkészlet nem érhető el.",
-          "description": "Néhány termék nem elérhető a kiválasztott mennyiségben. Módosítsa a kívánt mennyiségeket."
-      },
-      "custom_fields_validation": {
-          "title": "Hiányzó információk",
-          "description": "Néhány a kosárban található termékről hiányoznak a kötelezően kitöltendő információk. Kérjük, módosítsa a kosarat a folytatáshoz."
-      }
+    "actions": {
+        "edit": "Szerkesztés",
+        "cancel": "Mégsem",
+        "continue_shopping": "Vásárlás folytatása",
+        "back_to_checkout": "Vissza a fizetéshez",
+        "checkout": "Fizetés",
+        "apply": "Alkalmaz",
+        "dismiss": "Elvet",
+        "type_address": "Írd be a címed",
+        "use_this_address": "Cím használata",
+        "back_to_store": "Vissza a boltba",
+        "close_cart": "Kosár bezárása",
+        "show": "Mutat",
+        "hide": "Elrejt",
+        "apply_changes": "Változtatások alkalmazása",
+        "yes_use_it": "Igen, használom",
+        "save_changes": "Változtatások mentése",
+        "back_to_orders": "Vissza a rendelésekhez",
+        "change_password": "Jelszó megváltoztatása",
+        "clear_cart": "Kosár kiürítése",
+        "add": "Hozzáad"
+    },
+    "header": {
+        "title_cart_summary": "Kosár áttekintés",
+        "loading": "Betöltés..."
+    },
+    "item": {
+        "quantity": "Mennyiség",
+        "quantity_short": "Menny.",
+        "decrement_quantity": "Mennyiség csökkentése",
+        "increment_quantity": "Mennyiség növelése",
+        "remove_item": "Elem eltávolítása",
+        "recurrence": {
+            "daily": "nap |||| %{smart_count} nap",
+            "weekly": "hét |||| %{smart_count} hét",
+            "monthly": "hónap |||| %{smart_count} hónap",
+            "yearly": "év |||| %{smart_count} év"
+        }
+    },
+    "subscription": {
+        "title": "Előfizetés",
+        "state": {
+            "title": "Állapot",
+            "active": "Aktív",
+            "paused": "Szünetel",
+            "finished": "Befejezve",
+            "stopped": "Leállítva",
+            "cancellationrequested": "Az előfizetés véget ér a számlázási időszak végeztével."
+        },
+        "placed_on": "Kezdete:",
+        "final_billing_date": "Utolsó számlázási időpont",
+        "items": "Elemek",
+        "plan": "Terv",
+        "billed_on": "Számlázva:",
+        "payment_amount": "Összeg",
+        "processing": "Előfizetés feldolgozás alatt. Gyere vissza később a részletekért.",
+        "loading": "Előfizetések betöltése",
+        "cancel": "Megszüntet",
+        "pause": "Szüneteltet",
+        "unpause": "Folytat",
+        "billing_recurrence": {
+            "daily": "Számlázás naponta |||| Számlázás %{smart_count} naponta",
+            "weekly": "Számlázás hetente |||| Számlázás %{smart_count} hetente",
+            "monthly": "Számlázás havonta |||| Számlázás %{smart_count} havonta",
+            "yearly": "Számlázás évente |||| Számlázás %{smart_count} évente"
+        }
+    },
+    "cart": {
+        "subtotal": "Részösszeg",
+        "shipping_taxes_calculated_at_checkout": "A szállítási díjat és az áfát a pénztárnál adjuk hozzá.",
+        "loading": "Előkészítjük a kosarad...",
+        "secured_by": "Snipcart által biztosítva",
+        "summary": "Rendelés áttekintés",
+        "empty": "A kosarad üres.",
+        "invoice_number": "Számlaszám",
+        "view_detailed_cart": "Kosár részletes megtekintése"
+    },
+    "order": {
+        "loading": "Érkeznek rendelésed részletei...",
+        "title": "Rendelés"
+    },
+    "discount_box": {
+        "promo_code": "Van kuponod?",
+        "promo_code_placeholder": "Kupon kód",
+        "promocode_applied": "Kupon érvényesítve"
+    },
+    "address_form": {
+        "name": "Teljes név",
+        "email": "Email cím",
+        "address1": "Utca, házszám",
+        "address2": "Házszám/Emelet/Ajtó",
+        "city": "Város",
+        "country": "Ország",
+        "postalCode": "Irányítószám",
+        "province": "Megye",
+        "dont_see_address": "Nem találom a címemet"
+    },
+    "billing": {
+        "title": "Számlázás",
+        "address": "Számlázási cím",
+        "continue_to_shipping": "Tovább a szállításhoz",
+        "use_different_shipping_address": "Másik szállítási cím használata"
+    },
+    "customer": {
+        "information": "Vásárló adatai",
+        "payment_info": "Fizetési adataim",
+        "payment_method_update": {
+            "title": "Fizetési mód frissítése",
+            "outstanding_payment_failed": {
+                "title": "Sikertelen fizetés",
+                "description": "A fizetési mód frissítve lett, azonban nem tudtuk levonni a fennmaradó összeget. Kérjük, használj másik fizetési módot."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Vásárló adatai"
+    },
+    "customer_dashboard": {
+        "my_account": "Profilom",
+        "ordered_on": "Rendelés időpontja",
+        "next_billing_date": "Következő számlázási időpont",
+        "price": "Ár",
+        "total": "Végösszeg",
+        "status": "Státusz",
+        "order": "Rendelés %{invoice_number}",
+        "order_details": "Rendelés részletei",
+        "loading": "Betöltés...",
+        "no_orders": "Nincsenek rendeléseid.",
+        "no_subscriptions": "Nincsenek előfizetéseid.",
+        "view_invoice": "Számla megtekintése",
+        "sign_out": "Kijelentkezés",
+        "show_more_orders": "Mutass még %{smart_count} rendelést |||| Mutass még %{smart_count} rendelést",
+        "show_more_subscriptions": "Mutass még %{smart_count} előfizetést |||| Mutass még %{smart_count} előfizetést",
+        "orders": "Rendelések",
+        "subscriptions": "Előfizetések",
+        "subscription": "Előfizetés"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Előfizetésed összege esedékes",
+                "description": "Egy előfizetésednek lejárt a fizetési határideje. Kérjük, frissítsd a fizetési módot az adataidnál a Szerkesztés gombra kattintva."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Bejelentkezés",
+        "dont_have_an_account": "Még nem regisztráltál?",
+        "email": "Email cím",
+        "password": "Jelszó",
+        "forgot_your_password": "Elfelejtetted a jelszavad?",
+        "close_form": "Vissza"
+    },
+    "forgot_password_form": {
+        "title": "Állítsd vissza a jelszavad",
+        "instructions": "Kérjük, írd be a fiókodhoz tartozó email címet és küldünk egy jelszóvisszaállító linket.",
+        "email": "Email cím",
+        "email_instructions": "Küldtünk egy emailt a jelszóvisszaállító linkkel. A linkre kattintva állítsd vissza jelszavad.",
+        "action": "Jelszóvisszaállító email küldése"
+    },
+    "reset_password_form": {
+        "title": "Add meg az új jelszavad",
+        "password": "Új jelszó",
+        "confirmation_password": "Új jelszó megerősítése",
+        "action": "Megváltoztatom"
+    },
+    "change_password_form": {
+        "title": "Változtasd meg a jelszavad",
+        "current_password": "Jelenlegi jelszó",
+        "password": "Új jelszó",
+        "confirmation_password": "Új jelszó megerősítése",
+        "action": "Megváltoztatom"
+    },
+    "register_form": {
+        "register": "Regisztráció",
+        "already_have_an_account": "Már regisztráltál?",
+        "email": "Email cím",
+        "password": "Jelszó",
+        "confirm_password": "Jelszó megerősítése",
+        "requires_action": {
+            "title": "Nézd meg az email fiókodat",
+            "description": "Ez az email cím már szerepel egy korábbi rendelésnél. Kérjük, fejezd be a regisztrációt a linkre kattintva, melyet emailben küldtünk."
+        }
+    },
+    "guest_checkout": {
+        "or": "Vagy",
+        "continue_as_a_guest": "Folytatás regisztráció nélkül"
     },
     "shipping": {
-        "title": "Szállítási költség számítása nem sikerült",
-        "description": "Próbálkozzon később, vagy vegye fel a kapcsolatot az áruházzal."
+        "title": "Szállítás",
+        "shipping_to": "Szállítás ide:",
+        "address": "Szállítási cím",
+        "method": "Szállítási mód"
     },
-    "payment_failed": {
-        "title": "Nem sikerült feldolgozni a fizetést",
-        "description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra."
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Fizetés utánvéttel",
+            "deferred_payment_instructions": "A megrendelés elküldésével vállalom, hogy a rendelés átvitelekor az áru ellenértékét megfizetem.",
+            "card_label": "Bankkártya",
+            "card_number": "Bankkártya szám",
+            "card_expiration": "HH/ÉÉ",
+            "card_cvv": "CVV",
+            "card_postal_code": "Irányítószám",
+            "invalid_number": "Érvénytelen kártyaszám",
+            "invalid_expiration": "Érvénytelen lejárati dátum",
+            "invalid_cvv": "Érvénytelen CVV",
+            "invalid_postal_code": "Érvénytelen irányítószám"
+        },
+        "still_pending_notice": "A fizetés feldolgozás alatt...",
+        "title": "Fizetés",
+        "continue_to_payment": "Tovább a fizetéshez",
+        "credit_card": "Bankkártya",
+        "place_order": "Megrendelés",
+        "preparing_payment_session": "Fizetés előkészítése...",
+        "processing_payment": "Fizetés feldolgozása...",
+        "checkout_with": "Fizetési mód",
+        "checkout_with_method": "Fizetési mód: %{method}",
+        "method_icon": "%{method} ikon",
+        "no_payment": "A rendelés leadásához nem szükséges fizetni.",
+        "methods": {
+            "card": "Bankkártya",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna Pay later",
+            "klarna_slice_it": "Klarna Monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA utalás",
+            "sofort": "Sofort utalás",
+            "deferred_payment": "Fizetés utánvéttel"
+        }
     },
-    "payment_authorization": {
-        "title": "Nem sikerült feldolgozni a fizetést",
-        "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra."
+    "discounts": {
+        "title": "Kedvezmények"
     },
-    "authentication_challenge": {
-      "failed": {
-          "title": "Nem sikerült feldolgozni a fizetést",
-          "description": "Nem sikerült hitelesíteni fizetési adatait. Próbálkozzon újra"
-      }
+    "cart_summary": {
+        "taxes": "Adók",
+        "taxes_included_in_price": "Egyes elemek ára tartalmazza az adót.",
+        "total": "Végösszeg",
+        "subtotal": "Részösszeg",
+        "shipping": "Szállítás",
+        "discount": "Kedvezmények",
+        "quantity": "x"
     },
-    "customer_exists": "Ez az email cím már regisztrálva van.",
-    "customer_password_missmatch": "A jelszavak nem egyeznek.",
-    "invalid_credentials": "Rossz email cím vagy jelszó.",
-    "no_shipping_rates_found": {
-        "title": "Nincs elérhető szállítási mód a rendeléséhez",
-        "description": "Ellenőrizze a szállítási címet, vagy vegye fel velünk a kapcsolatot."
+    "errors": {
+        "default": "Hiba történt, próbáld később vagy vedd fel a kapcsolatot az áruház tulajdonosával.",
+        "promo_code_is_invalid": "Ez a kupon nem érvényes",
+        "promocode_already_in_cart": "Ezt a kupont már levontuk",
+        "promocode_isnt_applicable": "Ez a kupon nem alkalmazható",
+        "promo_code_is_expired": "Ez a kupon lejárt",
+        "stringEmpty": "Mező kitöltése kötelező",
+        "emailEmpty": "Mező kitöltése kötelező",
+        "required": "Mező kitöltése kötelező",
+        "invalid_expiry_year_past": "A kártya lejárt",
+        "email": "Kérjük, valós email címet adj meg",
+        "quantity_revised": "A mennyiség mennyiségi korlátozás miatt felülbírálva.",
+        "quantity_out_of_stock": "Sajnos a termék jelenleg nincs raktáron, kérjük, a folytatáshoz távolítsd el a terméket a kosárból.",
+        "disabled_country": "A kiválasztott ország nem elérhető a rendeléshez.",
+        "error_payment_items_are_invalid": {
+            "title": "Néhány termék a kosárban érvénytelen.",
+            "description": "Tekintsd át a rendelést, vagy próbálkozz később."
+        },
+        "card": {
+            "invalid_number": "A kártya száma érvénytelen.",
+            "invalid_date": "A kártya lejárati dátuma érvénytelen.",
+            "invalid_year": "A kártya lejárati éve érvénytelen.",
+            "invalid_month": "A kártya lejárati hónapja érvénytelen.",
+            "invalid_cvv": "A kártya CVV száma érvénytelen.",
+            "invalid_expiration": "A kártya lejárati dátuma érvénytelen.",
+            "expired": "A kártya lejárt",
+            "declined": "A kártya vissza lett utasítva. Kérjük, keresd fel a kártya kibocsájtóját.",
+            "invalid_address": "A kártyához tartozó cím érvénytelen.",
+            "insufficient_funds": "A kártyán lévő összeg nem elegendő a fizetés végrehajtásához.",
+            "card_not_supported": "A kártya típusa nem támogatott ebben a régióban.",
+            "currency_not_supported": "Ez a pénznem jelenleg nem támogatott."
+        },
+        "transaction": {
+            "declined": "Hiba történt a fizetés feldolgozása alatt. Kérjük, próbáld meg később vagy egy másik fizetési móddal."
+        },
+        "discounts": {
+            "conflict": "Egyes kedvezmények nem érvényesíthetőek együtt. Inkább ezt a kedvezményt használod?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "A megrendelést nem sikerült feldolgozni.",
+                "description": "A rendelés végösszegét nem vontuk le. Kérjük, vedd fel a kapcsolatot az áruház tulajdonosával."
+            },
+            "product_crawling": {
+                "title": "A termékek ára a kosaradban változhatott",
+                "description": "Próbáld meg eltávolítani majd újra hozzáadni a megvásárolni kívánt termékeket a kosárhoz."
+            },
+            "stock_validation": {
+                "title": "Termékkészlet nem érhető el.",
+                "description": "Néhány termék nem elérhető a kiválasztott mennyiségben. Módosítsd a kívánt mennyiségeket."
+            },
+            "custom_fields_validation": {
+                "title": "Hiányzó információk.",
+                "description": "Néhány a kosárban található termékről hiányoznak a kötelezően kitöltendő információk. Kérjük, módosítsd a kosarat a folytatáshoz."
+            },
+            "shipping_validation": {
+                "title": "Szállítási mód nem érhető el.",
+                "description": "A kiválasztott szállítási díj megváltozott vagy nem elérhető. Kérjük, vedd fel a kapcsolatot az áruház tulajdonosával."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Jelenleg egyik szállítási mód sem elérhető",
+                "description": "Próbálkozz később, vagy vedd fel a kapcsolatot az áruházzal."
+            },
+            "rates_calculation": {
+                "title": "Szállítási költség számítása nem sikerült",
+                "description": "Próbálkozz később, vagy vedd fel a kapcsolatot az áruházzal."
+            },
+            "no_rates_found": {
+                "title": "Nincs elérhető szállítási mód a rendeléshez",
+                "description": "Kérjük, ellenőrizd a szállítási címet, vagy vedd fel a kapcsolatot az áruházzal."
+            }
+        },
+        "payment_failed": {
+            "title": "Nem sikerült feldolgozni a fizetést",
+            "description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra."
+        },
+        "payment_authorization": {
+            "title": "Nem sikerült feldolgozni a fizetést",
+            "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Nem sikerült feldolgozni a fizetést",
+                "description": "Nem sikerült hitelesíteni fizetési adataid. Próbálkozz újra."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Az előfizetést nem sikerült a kosárhoz adni",
+                "description": "A kosár csak egy előfizetést tartalmazhat egyszerre."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "A terméket nem sikerült a kosárhoz adni",
+                "description": "A kosár csak termékeket vagy csak előfizetést tartalmazhat."
+            }
+        },
+        "customer_exists": "Ez az email cím már regisztrálva van.",
+        "customer_password_missmatch": "A jelszavak nem egyeznek.",
+        "customer_password_token_expired": "A jelszóvisszaállító tokened lejárt.",
+        "customer_password_token_invalid": "A jelszóvisszaállító tokened érvénytelen.",
+        "customer_not_found": "Ez az email cím nem tartozik egy fiókhoz sem.",
+        "invalid_credentials": "Rossz email cím vagy jelszó.",
+        "customer_current_password_invalid": "Helytelen jelszó."
+    },
+    "shippingRates": {
+        "loading": "Szállítási díjak betöltése"
+    },
+    "customer_orders": {
+        "loading": "Betöltés..."
+    },
+    "digital_goods": {
+        "download": "Fájl letöltése"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Köszönjük a rendelést",
+        "async_confirmation_notice": "Megrendelésed megérkezett, és jelenleg feldolgozás alatt áll. Hamarosan megkapod a visszaigazolást."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "A szállítási díjat és az áfát a cím megadásakor adjuk hozzá."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Egyesült Arab Emírségek"
+        },
+        "AF": {
+            "name": "Afganisztán"
+        },
+        "AG": {
+            "name": "Antigua és Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albánia"
+        },
+        "AM": {
+            "name": "Örményország"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktisz"
+        },
+        "AR": {
+            "name": "Argentína"
+        },
+        "AS": {
+            "name": "Amerikai Szamoa"
+        },
+        "AT": {
+            "name": "Ausztia"
+        },
+        "AU": {
+            "name": "Ausztrália"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Åland"
+        },
+        "AZ": {
+            "name": "Azerbajdzsán"
+        },
+        "BA": {
+            "name": "Bosznia-Hercegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Banglades"
+        },
+        "BE": {
+            "name": "Belgium"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgária"
+        },
+        "BH": {
+            "name": "Bahrein"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolívia"
+        },
+        "BQ": {
+            "name": "Bonaire"
+        },
+        "BR": {
+            "name": "Brazília"
+        },
+        "BS": {
+            "name": "Bahamai Közösség"
+        },
+        "BT": {
+            "name": "Bhután"
+        },
+        "BV": {
+            "name": "Bouvet-sziget"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarusz"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada",
+            "states": {
+                "AB": "Alberta",
+                "BC": "Brit Columbia",
+                "MB": "Manitoba",
+                "NB": "Új-Brunswick",
+                "NL": "Új-Fundland és Labrador",
+                "NS": "Új-Skócia",
+                "NT": "Északnyugati területek",
+                "NU": "Nunavut",
+                "ON": "Ontario",
+                "PE": "Prince Edward-sziget",
+                "QC": "Québec",
+                "SK": "Saskatchewan",
+                "YT": "Yukon"
+            }
+        },
+        "CC": {
+            "name": "Kókusz-szigetek"
+        },
+        "CD": {
+            "name": "Kongói Demokratikus Köztársaság"
+        },
+        "CF": {
+            "name": "Közép-afrikai Köztársaság"
+        },
+        "CG": {
+            "name": "Kongó"
+        },
+        "CH": {
+            "name": "Svájc"
+        },
+        "CI": {
+            "name": "Elefántcsontpart"
+        },
+        "CK": {
+            "name": "Cook-szigetek"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Kína"
+        },
+        "CO": {
+            "name": "Kolumbia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Zöld-foki Köztársaság"
+        },
+        "CW": {
+            "name": "Curacao"
+        },
+        "CX": {
+            "name": "Karácsony-sziget"
+        },
+        "CY": {
+            "name": "Ciprus"
+        },
+        "CZ": {
+            "name": "Csehország"
+        },
+        "DE": {
+            "name": "Németország"
+        },
+        "DJ": {
+            "name": "Dzsibuti"
+        },
+        "DK": {
+            "name": "Dánia"
+        },
+        "DM": {
+            "name": "Dominikai Közösség"
+        },
+        "DO": {
+            "name": "Dominikai Köztársaság"
+        },
+        "DZ": {
+            "name": "Algéria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Észtország"
+        },
+        "EG": {
+            "name": "Egyiptom"
+        },
+        "EH": {
+            "name": "Nyugat-Szahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Spanyolország",
+            "states": {
+                "A": "Alicante",
+                "AB": "Albacete",
+                "AL": "Almeria",
+                "AV": "Ávila",
+                "B": "Barcelona",
+                "BA": "Badajoz",
+                "BI": "Vizcaya",
+                "BU": "Burgos",
+                "C": "La Coruña",
+                "CA": "Cádiz",
+                "CC": "Cáceres",
+                "CE": "Ceuta",
+                "CO": "Córdoba",
+                "CR": "Ciudad Real",
+                "CS": "Castellón",
+                "CU": "Cuenca",
+                "GC": "Las Palmas",
+                "GI": "Gerona",
+                "GR": "Granada",
+                "GU": "Guadalajara",
+                "H": "Huelva",
+                "HU": "Huesca",
+                "J": "Jaén",
+                "L": "Lérida",
+                "LE": "León",
+                "LO": "La Rioja",
+                "LU": "Lugo",
+                "M": "Madrid",
+                "MA": "Málaga",
+                "ML": "Melilla",
+                "MU": "Murcia",
+                "NA": "Navarra",
+                "O": "Asturias",
+                "OU": "Orense",
+                "P": "Palencia",
+                "PM": "Baleares",
+                "PO": "Pontevedra",
+                "S": "Cantabria",
+                "SA": "Salamanca",
+                "SE": "Sevilla",
+                "SG": "Segovia",
+                "SO": "Soria",
+                "SS": "Guipúzcoa",
+                "T": "Tarragona",
+                "TE": "Teruel",
+                "TF": "Tenerife",
+                "TO": "Toledo",
+                "V": "Valencia",
+                "VA": "Valladolid",
+                "VI": "Álava",
+                "Z": "Zaragoza",
+                "ZA": "Zamora"
+            }
+        },
+        "ES-CN": {
+            "name": "Kanári-szigetek"
+        },
+        "ET": {
+            "name": "Etiópia"
+        },
+        "FI": {
+            "name": "Finnország"
+        },
+        "FJ": {
+            "name": "Fidzsi-szigetek"
+        },
+        "FK": {
+            "name": "Falkland-szigetek"
+        },
+        "FM": {
+            "name": "Mikronéziai Szövetségi Államok"
+        },
+        "FO": {
+            "name": "Feröer-szigetek"
+        },
+        "FR": {
+            "name": "Franciaország"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Egyesült Királyság"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "Francia Guyana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghána"
+        },
+        "GI": {
+            "name": "Gibraltár"
+        },
+        "GL": {
+            "name": "Grönland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Egyenlítői-Guinea"
+        },
+        "GR": {
+            "name": "Görögország"
+        },
+        "GS": {
+            "name": "Dél-Georgia és Déli-Sandwich-szigetek"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Bissau-Guinea"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hongkong"
+        },
+        "HM": {
+            "name": "Heard-sziget és McDonald-szigetek"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Horvátország"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Magyarország"
+        },
+        "ID": {
+            "name": "Indonézia"
+        },
+        "IE": {
+            "name": "Írország"
+        },
+        "IL": {
+            "name": "Izrael"
+        },
+        "IM": {
+            "name": "Man-sziget"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Brit Indiai-óceáni Terület"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Irán"
+        },
+        "IS": {
+            "name": "Izland"
+        },
+        "IT": {
+            "name": "Olaszország"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordánia"
+        },
+        "JP": {
+            "name": "Japán"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kirgizisztán"
+        },
+        "KH": {
+            "name": "Kambodzsa"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comore-szigetek"
+        },
+        "KN": {
+            "name": "Saint Kitts és Nevis"
+        },
+        "KP": {
+            "name": "Észak-Korea"
+        },
+        "KR": {
+            "name": "Dél-Korea"
+        },
+        "KW": {
+            "name": "Kuvait"
+        },
+        "KY": {
+            "name": "Kajmán-szigetek"
+        },
+        "KZ": {
+            "name": "Kazahsztán"
+        },
+        "LA": {
+            "name": "Laosz"
+        },
+        "LB": {
+            "name": "Libanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Srí Lanka"
+        },
+        "LR": {
+            "name": "Libéria"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Litvánia"
+        },
+        "LU": {
+            "name": "Luxemburg"
+        },
+        "LV": {
+            "name": "Lettország"
+        },
+        "LY": {
+            "name": "Líbia"
+        },
+        "MA": {
+            "name": "Marokkó"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegró"
+        },
+        "MF": {
+            "name": "Szent Márton-sziget"
+        },
+        "MG": {
+            "name": "Madagaszkár"
+        },
+        "MH": {
+            "name": "Marshall-szigetek"
+        },
+        "MK": {
+            "name": "Észak-Macedónia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Mianmar (Burma)"
+        },
+        "MN": {
+            "name": "Mongólia"
+        },
+        "MO": {
+            "name": "Makaó"
+        },
+        "MP": {
+            "name": "Észak-Mariana-szigetek"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritánia"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Málta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldív-szigetek"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexikó",
+            "states": {
+                "AGU": "Aguascalientes",
+                "BCN": "Baja California",
+                "BCS": "Baja California Sur",
+                "CAM": "Campeche",
+                "CHH": "Chihuahua",
+                "CHP": "Chiapas",
+                "COA": "Coahuila",
+                "COL": "Colima",
+                "DIF": "Ciudad de México",
+                "DUR": "Durango",
+                "GRO": "Guerrero",
+                "GUA": "Guanajuato",
+                "HID": "Hidalgo",
+                "JAL": "Jalisco",
+                "MEX": "México",
+                "MIC": "Michoacán",
+                "MOR": "Morelos",
+                "NAY": "Nayarit",
+                "NLE": "Nuevo León",
+                "OAX": "Oaxaca",
+                "PUE": "Puebla",
+                "QUE": "Querétaro",
+                "ROO": "Quintana Roo",
+                "SIN": "Sinaloa",
+                "SLP": "San Luis Potosí",
+                "SON": "Sonora",
+                "TAB": "Tabasco",
+                "TAM": "Tamaulipas",
+                "TLA": "Tlaxcala",
+                "VER": "Veracruz",
+                "YUC": "Yucatán",
+                "ZAC": "Zacatecas"
+            }
+        },
+        "MY": {
+            "name": "Malajzia"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namíbia"
+        },
+        "NC": {
+            "name": "Új-Kaledónia"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolk-sziget"
+        },
+        "NG": {
+            "name": "Nigéria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Hollandia"
+        },
+        "NO": {
+            "name": "Norvégia"
+        },
+        "NP": {
+            "name": "Nepál"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Új-Zéland"
+        },
+        "OM": {
+            "name": "Omán"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Francia Polinézia"
+        },
+        "PG": {
+            "name": "Pápua Új-Guinea"
+        },
+        "PH": {
+            "name": "Fülöp-szigetek"
+        },
+        "PK": {
+            "name": "Pakisztán"
+        },
+        "PL": {
+            "name": "Lengyelország"
+        },
+        "PM": {
+            "name": "Saint Pierre és Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairn-szigetek"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palesztina"
+        },
+        "PT": {
+            "name": "Portugália"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Románia"
+        },
+        "RS": {
+            "name": "Szerbia"
+        },
+        "RU": {
+            "name": "Oroszország"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Szaúd-Arábia"
+        },
+        "SB": {
+            "name": "Salamon-szigetek"
+        },
+        "SC": {
+            "name": "Seychelle-szigetek"
+        },
+        "SD": {
+            "name": "Szudán"
+        },
+        "SE": {
+            "name": "Svédország"
+        },
+        "SG": {
+            "name": "Szingapúr"
+        },
+        "SH": {
+            "name": "Szent Ilona"
+        },
+        "SI": {
+            "name": "Szlovénia"
+        },
+        "SJ": {
+            "name": "Svalbard és Jan Mayen"
+        },
+        "SK": {
+            "name": "Szlovákia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Szenegál"
+        },
+        "SO": {
+            "name": "Szomália"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Dél-Szudán"
+        },
+        "ST": {
+            "name": "São Tomé és Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Szíria"
+        },
+        "SZ": {
+            "name": "Szváziföld"
+        },
+        "TC": {
+            "name": "Turks- és Caicos-szigetek"
+        },
+        "TD": {
+            "name": "Csád"
+        },
+        "TF": {
+            "name": "Francia Déli- és Antarktiszi-területek"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thaiföld"
+        },
+        "TJ": {
+            "name": "Tádzsikisztán"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Kelet-Timor"
+        },
+        "TM": {
+            "name": "Türkmenisztán"
+        },
+        "TN": {
+            "name": "Tunézia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Törökország"
+        },
+        "TT": {
+            "name": "Trinidad és Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tajvan"
+        },
+        "TZ": {
+            "name": "Tanzánia"
+        },
+        "UA": {
+            "name": "Ukrajna"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Az Amerikai Egyesült Államok lakatlan külbirtokai"
+        },
+        "US": {
+            "name": "Egyesült Államok",
+            "states": {
+                "AA": "Armed Forces Americas",
+                "AE": "Armed Forces Europe",
+                "AK": "Alaska",
+                "AL": "Alabama",
+                "AP": "Armed Forces Pacific",
+                "AR": "Arkansas",
+                "AS": "American Samoa",
+                "AZ": "Arizona",
+                "CA": "California",
+                "CO": "Colorado",
+                "CT": "Connecticut",
+                "DC": "District Of Columbia",
+                "DE": "Delaware",
+                "FL": "Florida",
+                "FM": "Federated States Of Micronesia",
+                "GA": "Georgia",
+                "GU": "Guam",
+                "HI": "Hawaii",
+                "IA": "Iowa",
+                "ID": "Idaho",
+                "IL": "Illinois",
+                "IN": "Indiana",
+                "KS": "Kansas",
+                "KY": "Kentucky",
+                "LA": "Louisiana",
+                "MA": "Massachusetts",
+                "MD": "Maryland",
+                "ME": "Maine",
+                "MH": "Marshall Islands",
+                "MI": "Michigan",
+                "MN": "Minnesota",
+                "MO": "Missouri",
+                "MP": "Northern Mariana Islands",
+                "MS": "Mississippi",
+                "MT": "Montana",
+                "NC": "North Carolina",
+                "ND": "North Dakota",
+                "NE": "Nebraska",
+                "NH": "New Hampshire",
+                "NJ": "New Jersey",
+                "NM": "New Mexico",
+                "NV": "Nevada",
+                "NY": "New York",
+                "OH": "Ohio",
+                "OK": "Oklahoma",
+                "OR": "Oregon",
+                "PA": "Pennsylvania",
+                "PR": "Puerto Rico",
+                "PW": "Palau",
+                "RI": "Rhode Island",
+                "SC": "South Carolina",
+                "SD": "South Dakota",
+                "TN": "Tennessee",
+                "TX": "Texas",
+                "UT": "Utah",
+                "VA": "Virginia",
+                "VI": "Virgin Islands",
+                "VT": "Vermont",
+                "WA": "Washington",
+                "WI": "Wisconsin",
+                "WV": "West Virginia",
+                "WY": "Wyoming"
+            }
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Üzbegisztán"
+        },
+        "VA": {
+            "name": "Vatikán"
+        },
+        "VC": {
+            "name": "Saint Vincent és a Grenadine-szigetek"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Brit Virgin-szigetek"
+        },
+        "VI": {
+            "name": "Amerikai Virgin-szigetek"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis and Futuna"
+        },
+        "WS": {
+            "name": "Szamoa"
+        },
+        "XK": {
+            "name": "Koszovó"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Dél-afrikai Köztársaság"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
-  },
-  "customer_orders": {
-      "loading": "Betöltés..."
-  },
-  "confirmation": {
-      "thank_you_for_your_order": "Köszönjük a rendelést",
-      "async_confirmation_notice": "Megrendelésed megérkezett, és jelenleg feldolgozás alatt áll. Hamarosan megkapod a visszaigazolást."
-  },
-  "checkout": {
-      "shipping_taxes_calculated_when_address_provided": "A szállítási díjat és az áfát a cím megadásakor adjuk hozzá."
-  }
 }
