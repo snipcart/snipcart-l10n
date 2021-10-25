@@ -198,6 +198,9 @@
         "address": "Shipping address",
         "method": "Shipping method"
     },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Guaranteed to be delivered in %{guaranteedDaysToDelivery} day(s)."
+    },
     "payment": {
         "form": {
             "deferred_payment_title": "Deferred Payment",
