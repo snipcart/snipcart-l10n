@@ -196,7 +196,10 @@
         "title": "Shipping",
         "shipping_to": "Shipping to:",
         "address": "Shipping address",
-        "method": "Shipping method"
+        "method": "Shipping method",
+        "methods": {
+            "example-localization-id" : "this is an example of a localized shipping method"
+        }
     },
     "shipping_rates": {
         "guaranteed_delivery_days": "Guaranteed to be delivered in %{guaranteedDaysToDelivery} day(s)."
