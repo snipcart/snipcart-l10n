@@ -198,7 +198,7 @@
         "address": "Shipping address",
         "method": "Shipping method",
         "methods": {
-            "example-localization-id" : "this is an example of a localized shipping method"
+            "example_localization_id" : "This is an example of a localized shipping method"
         }
     },
     "shipping_rates": {
