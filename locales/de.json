@@ -12,8 +12,8 @@
         "checkout": "Zur Kasse",
         "apply": "Anwenden",
         "dismiss": "Verwerfen",
-        "type_address": "Eingabe deiner",
-        "use_this_address": "Benutze diese Adresse",
+        "type_address": "Geben Sie Ihre Adresse ein",
+        "use_this_address": "Diese Adresse verwenden",
         "back_to_store": "Zurück zum Shop",
         "close_cart": "Warenkorb schließen",
         "show": "Anzeigen",
@@ -35,7 +35,7 @@
         "quantity_short": "Anz",
         "decrement_quantity": "Anzahl reduzieren",
         "increment_quantity": "Anzahl erhöhen",
-        "remove_item": "Artikel löschen",
+        "remove_item": "Artikel entfernen",
         "recurrence": {
             "daily": "Tag |||| %{smart_count} Tage",
             "weekly": "Woche |||| %{smart_count} Wochen",
@@ -59,7 +59,7 @@
         "plan": "Plan",
         "billed_on": "Berechnet am",
         "payment_amount": "Zahlbetrag",
-        "processing": "Das Abonnement wird noch bearbeitet. Komm später wieder, um Details zu sehen.",
+        "processing": "Das Abonnement wird noch verarbeitet. Kommen Sie später wieder, um Details zu sehen.",
         "loading": "Abonnements werden geladen",
         "cancel": "Kündigen",
         "pause": "Pausieren",
@@ -74,15 +74,15 @@
     "cart": {
         "subtotal": "Zwischensumme",
         "shipping_taxes_calculated_at_checkout": "Versandkosten und Steuern werden an der Kasse berechnet.",
-        "loading": "Wir erstellen deinen Warenkorb...",
+        "loading": "Wir erstellen Ihren Warenkorb...",
         "secured_by": "Verschlüsselt durch Snipcart",
         "summary": "Bestellübersicht",
-        "empty": "Dein Warenkorb ist leer.",
+        "empty": "Ihr Warenkorb ist leer.",
         "invoice_number": "Rechnungsnummer",
         "view_detailed_cart": "Warenkorb-Details anzeigen"
     },
     "order": {
-        "loading": "Wir laden deine Bestelldaten...",
+        "loading": "Wir laden Ihre Bestelldaten...",
         "title": "Bestellung"
     },
     "discount_box": {
@@ -105,7 +105,7 @@
         "title": "Persönliche Daten",
         "address": "Rechnungsadresse",
         "continue_to_shipping": "Weiter zum Versand",
-        "use_different_shipping_address": "Abweichende Versandadresse"
+        "use_different_shipping_address": "Abweichende Versandadresse verwenden"
     },
     "customer": {
         "information": "Kundeninformationen",
@@ -114,7 +114,7 @@
             "title": "Aktualisierung der Zahlungsmethode",
             "outstanding_payment_failed": {
                 "title": "Zahlung fehlgeschlagen",
-                "description": "Deine Zahlungsmethode wurde aktualisiert, wir konnten den ausstehenden Betrag jedoch nicht abbuchen. Bitte verwende eine andere Zahlungsmethode."
+                "description": "Ihre Zahlungsmethode wurde aktualisiert; wir konnten den ausstehenden Betrag jedoch nicht abbuchen. Bitte verwenden Sie eine andere Zahlungsmethode."
             }
         }
     },
@@ -145,7 +145,7 @@
         "subscription": {
             "outstanding_payment": {
                 "title": "Für ein Abonnement ist eine Zahlung fällig",
-                "description": "Du hast derzeit ein Abonnement mit einer überfälligen Zahlung. Bitte aktualisiere deine Zahlungsmethode."
+                "description": "Sie haben derzeit ein Abonnement mit einer überfälligen Zahlung. Bitte aktualisieren Sie Ihre Zahlungsmethode."
             }
         }
     },
@@ -159,9 +159,9 @@
     },
     "forgot_password_form": {
         "title": "Passwort zurücksetzen",
-        "instructions": "Gib die E-Mail-Adresse deines Kontos ein, und wir senden dir einen Link zum Zurücksetzen des Passworts.",
+        "instructions": "Geben Sie die E-Mail-Adresse Ihres Kontos ein, und wir senden Ihnen einen Link zum Zurücksetzen des Passworts.",
         "email": "E-Mail",
-        "email_instructions": "Du hast eine E-Mail mit einem Link erhalten. Klicke auf diesen Link, um dein Passwort zurückzusetzen.",
+        "email_instructions": "Sie haben eine E-Mail mit einem Link erhalten. Klicken Sie auf diesen Link, um Ihr Passwort zurückzusetzen.",
         "action": "E-Mail zum Zurücksetzen senden"
     },
     "reset_password_form": {
@@ -179,18 +179,18 @@
     },
     "register_form": {
         "register": "Registrieren",
-        "already_have_an_account": "Du hast bereits ein Konto?",
+        "already_have_an_account": "Sie haben bereits ein Konto?",
         "email": "E-Mail",
         "password": "Passwort",
         "confirm_password": "Passwort bestätigen",
         "requires_action": {
-            "title": "Überprüfe deine E-Mails",
-            "description": "Diese E-Mail-Adresse wurde bereits für eine Bestellung verwendet. Bitte schließe den Registrierungsprozess ab, indem du den Link verwendest, der dir per E-Mail zugesandt wurde."
+            "title": "Überprüfen Sie Ihre E-Mails",
+            "description": "Diese E-Mail-Adresse wurde bereits für eine Bestellung verwendet. Bitte schließen Sie den Registrierungsprozess ab, indem Sie den Link verwenden, der Ihnen per E-Mail zugesandt wurde."
         }
     },
     "guest_checkout": {
         "or": "oder",
-        "continue_as_a_guest": "Weiter als Gast"
+        "continue_as_a_guest": "Als Gast fortfahren"
     },
     "shipping": {
         "title": "Versand",
@@ -207,7 +207,7 @@
     "payment": {
         "form": {
             "deferred_payment_title": "Später zahlen",
-            "deferred_payment_instructions": "Mit dieser Bestellung erklärst du dich damit einverstanden, später über die vom Händler angegebene Zahlungsmethode zu zahlen.",
+            "deferred_payment_instructions": "Mit dieser Bestellung erklären Sie sich damit einverstanden, später über die vom Händler angegebene Zahlungsmethode zu zahlen.",
             "card_label": "Kreditkarte",
             "card_number": "Kartennummer",
             "card_expiration": "MM/JJ",
@@ -218,17 +218,17 @@
             "invalid_cvv": "CVV ist ungültig",
             "invalid_postal_code": "Postleitzahl ist ungültig"
         },
-        "still_pending_notice": "Deine Zahlung wird noch bearbeitet.",
+        "still_pending_notice": "Ihre Zahlung wird noch verarbeitet.",
         "title": "Zahlungsmethode",
         "continue_to_payment": "Weiter zur Zahlungsmethode",
         "credit_card": "Kreditkarte",
         "place_order": "Zahlungspflichtig bestellen",
         "preparing_payment_session": "Zahlung vorbereiten...",
         "processing_payment": "Zahlung verarbeiten...",
-        "checkout_with": "Bezahle mit",
-        "checkout_with_method": "Bezahle mit %{method}",
+        "checkout_with": "Bezahlen mit",
+        "checkout_with_method": "Bezahlen mit %{method}",
         "method_icon": "%{method} icon",
-        "no_payment": "Für diese Bestellung ist keine Bezahlung erforderlich.",
+        "no_payment": "Für diese Bestellung ist keine Zahlung erforderlich.",
         "methods": {
             "card": "Kreditkarte",
             "paypal": "PayPal",
@@ -262,22 +262,22 @@
         "quantity": "x"
     },
     "errors": {
-        "default": "Es ist ein Fehler aufgetreten, versuche es später erneut oder kontaktiere uns.",
-        "promo_code_is_invalid": "Dieser Gutscheincode ist nicht gültig",
-        "promocode_already_in_cart": "Dieser Gutscheincode wurde bereits angewandt",
-        "promocode_isnt_applicable": "Dieser Gutscheincode ist für diese Artikel nicht gültig",
+        "default": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut oder kontaktieren Sie uns.",
+        "promo_code_is_invalid": "Dieser Gutscheincode ist ungültig",
+        "promocode_already_in_cart": "Dieser Gutscheincode ist bereits angewandt",
+        "promocode_isnt_applicable": "Dieser Gutscheincode ist für diese Artikel nicht verwendbar",
         "promo_code_is_expired": "Dieser Gutscheincode ist abgelaufen",
         "stringEmpty": "Dieses Feld darf nicht leer sein",
         "emailEmpty": "Dieses Feld wird benötigt",
         "required": "Dies ist ein Pflichtfeld",
         "invalid_expiry_year_past": "Karte ist abgelaufen",
-        "email": "Diese E-Mail-Adresse ist ungültig",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse an",
         "quantity_revised": "Die Anzahl wurde aufgrund von Lagerbeschränkungen überarbeitet.",
-        "quantity_out_of_stock": "Leider ist dieser Artikel nicht mehr vorrätig. Entferne ihn aus dem Warenkorb, um fortzufahren.",
+        "quantity_out_of_stock": "Leider ist dieser Artikel nicht mehr vorrätig. Entfernen Sie ihn aus dem Warenkorb, um fortzufahren.",
         "disabled_country": "Leider ist eine Bestellung für das gewählte Land nicht möglich.",
         "error_payment_items_are_invalid": {
-            "title": "Einige Artikel in deinem Warenkorb sind ungültig",
-            "description": "Bitte überprüfe deine Bestellung oder versuche es später erneut."
+            "title": "Einige Artikel in Ihrem Warenkorb sind ungültig",
+            "description": "Bitte überprüfen Sie Ihre Bestellung oder versuchen Sie es später erneut."
         },
         "card": {
             "invalid_number": "Die Kartenummer ist ungültig.",
@@ -287,14 +287,14 @@
             "invalid_cvv": "Der CVV der Karte ist ungültig.",
             "invalid_expiration": "Das Ablaufdatum der Karte ist ungültig.",
             "expired": "Die Kreditkarte ist abgelaufen",
-            "declined": "Die Karte wurde abgelehnt. Bitte wende dich an deinen Kartenaussteller, um weitere Informationen zu erhalten.",
+            "declined": "Die Karte wurde abgelehnt. Bitte wenden Sie sich an Ihren Kartenaussteller, um weitere Informationen zu erhalten.",
             "invalid_address": "Die Adresse der Karte ist falsch.",
             "insufficient_funds": "Das Konto verfügt nicht über ausreichende Mittel, um den Transaktionsbetrag zu decken.",
             "card_not_supported": "Die Karte wird in dieser Region nicht unterstützt.",
             "currency_not_supported": "Die Währung wird derzeit nicht unterstützt."
         },
         "transaction": {
-            "declined": "Bei der Verarbeitung der Karte ist ein Fehler aufgetreten. Versuche es später noch einmal oder mit einer anderen Zahlungsmethode."
+            "declined": "Bei der Verarbeitung der Karte ist ein Fehler aufgetreten. Versuchen Sie es später erneut oder mit einer anderen Zahlungsmethode."
         },
         "discounts": {
             "conflict": "Einige Rabatte können nicht kombiniert werden. Stattdessen diesen Rabatt nutzen?"
@@ -302,57 +302,57 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Bestellung konnte nicht bearbeitet werden.",
-                "description": "Deine Zahlungsmethode wurde nicht belastet. Bitte wende dich an den Shop-Betreiber, um weitere Informationen zu erhalten."
+                "description": "Ihre Zahlungsmethode wurde nicht belastet. Bitte wenden Sie sich an den Shop-Betreiber, um weitere Informationen zu erhalten."
             },
             "product_crawling": {
                 "title": "Der Preis der Produkte im Warenkorb hat sich möglicherweise geändert.",
-                "description": "Versuche, sie zu entfernen und wieder in den Warenkorb zu legen. Bitte wende dich an den Shop-Betreiber, um weitere Informationen zu erhalten."
+                "description": "Versuchen Sie, sie aus dem Warenkorb zu entfernen und wieder hinein zu legen. Bitte wenden Sie sich an den Shop-Betreiber, um weitere Informationen zu erhalten."
             },
             "stock_validation": {
                 "title": "Produktbestand nicht verfügbar.",
-                "description": "Einige Produkte sind in der ausgewählte Anzahl möglicherweise nicht vorrätig. Überarbeite die Anzahl oder wende dich an den Shop-Betreiber, um weitere Informationen zu erhalten."
+                "description": "Einige Produkte sind in der ausgewählte Anzahl möglicherweise nicht vorrätig. Überarbeiten Sie die Anzahl oder wenden Sie sich an den Shop-Betreiber, um weitere Informationen zu erhalten."
             },
             "custom_fields_validation": {
                 "title": "Fehlende erforderliche Informationen.",
-                "description": "Bei einigen Produkten im Warenkorb fehlen Pflichtangaben. Bitte bearbeite den Warenkorb, um fortzufahren."
+                "description": "Bei einigen Produkten im Warenkorb fehlen Pflichtangaben. Bitte bearbeiten Sie den Warenkorb, um fortzufahren."
             },
             "shipping_validation": {
                 "title": "Die Versandmethode konnte nicht validiert werden.",
-                "description": "Der gewählte Versandtarif hat sich möglicherweise geändert oder ist nicht mehr verfügbar. Bitte wende dich an den Shop-Betreiber, um weitere Informationen zu erhalten."
+                "description": "Der gewählte Versandtarif hat sich möglicherweise geändert oder ist nicht mehr verfügbar. Bitte wenden Sie sich an den Shop-Betreiber, um weitere Informationen zu erhalten."
             }
         },
         "shipping": {
             "account_configuration": {
                 "title": "Derzeit ist keine Versandmethode verfügbar",
-                "description": "Versuche es später noch einmal, oder wende dich an unseren Support."
+                "description": "Versuchen Sie es später erneut, oder wenden Sie sich an unseren Support."
             },
             "rates_calculation": {
-                "title": "Versandkosten für deine Bestellung können nicht berechnet werden",
-                "description": "Versuche es später noch einmal, oder wende dich an unseren Support."
+                "title": "Versandkosten für Ihre Bestellung können nicht berechnet werden",
+                "description": "Versuchen Sie es später erneut, oder wenden Sie sich an unseren Support."
             },
             "no_rates_found": {
-                "title": "Für deine Bestellung sind keine Versandmethoden verfügbar.",
-                "description": "Bitte überprüfe deine Lieferadresse oder wende dich an unseren Support."
+                "title": "Für Ihre Bestellung sind keine Versandmethoden verfügbar.",
+                "description": "Bitte überprüfen Sie Ihre Lieferadresse oder wenden Sie sich an unseren Support."
             }
         },
         "payment_failed": {
             "title": "Zahlung konnte nicht duchgeführt werden",
-            "description": "Versuche es später erneut oder wende dich an unseren Support."
+            "description": "Versuchen Sie es später erneut oder wenden Sie sich an unseren Support."
         },
         "payment_authorization": {
             "title": "Zahlung konnte nicht verarbeitet werden",
-            "default": "Bitte überprüfe deine Angaben"
+            "default": "Bitte überprüfen Sie die Rechnungs- und Zahlungsinformationen."
         },
         "authentication_challenge": {
             "failed": {
                 "title": "Zahlung konnte nicht duchgeführt werden",
-                "description": "Wir konnten deine Zahlungsinformationen nicht authentifizieren. Bitte versuche es erneut"
+                "description": "Wir konnten Ihre Zahlungsinformationen nicht authentifizieren. Bitte versuchen Sie es erneut"
             }
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
                 "title": "Abonnement konnte nicht in den Warenkorb gelegt werden",
-                "description": "Ein Warenkorb kann jeweils nur ein Abonnement enthalten."
+                "description": "Der Warenkorb kann jeweils nur ein Abonnement enthalten."
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "Produkt konnte nicht in den Warenkorb gelegt werden",
@@ -360,9 +360,9 @@
             }
         },
         "customer_exists": "Diese E-Mail-Adresse wird bereits verwendet.",
-        "customer_password_missmatch": "Die beiden Kennwörter müssen übereinstimmen.",
-        "customer_password_token_expired": "Der Wiederherstellungs-Token für dein Passwort ist abgelaufen.",
-        "customer_password_token_invalid": "Der Wiederherstellungs-Token für dein Passwort ist ungültig.",
+        "customer_password_missmatch": "Die beiden Passwörter müssen übereinstimmen.",
+        "customer_password_token_expired": "Der Wiederherstellungs-Token für Ihr Passwort ist abgelaufen.",
+        "customer_password_token_invalid": "Der Wiederherstellungs-Token für Ihr Passwort ist ungültig.",
         "customer_not_found": "Die E-Mail-Adresse konnte keinem Konto zugeordnet werden.",
         "invalid_credentials": "Ungültige E-Mail-Adresse oder Passwort.",
         "customer_current_password_invalid": "Ungültiges Passwort."
@@ -377,8 +377,8 @@
         "download": "Datei herunterladen"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Vielen Dank für deine Bestellung",
-        "async_confirmation_notice": "Deine Bestellung wird jetzt bearbeitet. Du erhältst in Kürze eine Bestätigung per E-Mail."
+        "thank_you_for_your_order": "Vielen Dank für Ihre Bestellung",
+        "async_confirmation_notice": "Ihre Bestellung wird jetzt bearbeitet. Sie erhalten in Kürze eine Bestätigung per E-Mail."
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet."
