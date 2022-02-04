@@ -1,7 +1,7 @@
 {
     "default": {
         "loading": "Carregando...",
-        "error": "Um erro occoreu.",
+        "error": "Um erro ocorreu.",
         "success": "Sucesso!"
     },
     "actions": {
@@ -60,16 +60,16 @@
         "billed_on": "Cobrada em",
         "payment_amount": "Montante do pagamento",
         "processing": "A assinatura ainda está sendo processada. Retorne mais tarde para ver os detalhes.",
-        "loading": "Carregando assinaturas", 
-        "cancel": "Cancelar", 
-        "pause": "Pausar", 
-        "unpause": "Resumir", 
-        "billing_recurrence": { 
-            "daily": "Cobrada a cada dia |||| Cobrada a cada %{smart_count} dias", 
-            "weekly": "Cobrada a cada semana |||| Cobrada a cada %{smart_count} semanas", 
-            "monthly": "Cobrada a cada mês |||| Cobrada a cada %{smart_count} meses", 
-            "yearly": "Cobrada a cada ano |||| Cobrada a cada %{smart_count} anos" 
-        } 
+        "loading": "Carregando assinaturas",
+        "cancel": "Cancelar",
+        "pause": "Pausar",
+        "unpause": "Resumir",
+        "billing_recurrence": {
+            "daily": "Cobrada a cada dia |||| Cobrada a cada %{smart_count} dias",
+            "weekly": "Cobrada a cada semana |||| Cobrada a cada %{smart_count} semanas",
+            "monthly": "Cobrada a cada mês |||| Cobrada a cada %{smart_count} meses",
+            "yearly": "Cobrada a cada ano |||| Cobrada a cada %{smart_count} anos"
+        }
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -179,7 +179,7 @@
     },
     "register_form": {
         "register": "Registrar",
-        "already_have_an_account": "já tem uma conta?",
+        "already_have_an_account": "Já tem uma conta?",
         "email": "Email",
         "password": "Senha",
         "confirm_password": "Confirme a senha",
