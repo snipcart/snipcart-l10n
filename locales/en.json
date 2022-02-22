@@ -60,16 +60,16 @@
         "billed_on": "Billed on",
         "payment_amount": "Payment amount",
         "processing": "Subscription is still processing. Come back later to see details.",
-        "loading": "Loading subscriptions", 
-        "cancel": "Cancel", 
-        "pause": "Pause", 
-        "unpause": "Resume", 
-        "billing_recurrence": { 
-            "daily": "Billed every day |||| Billed every %{smart_count} days", 
-            "weekly": "Billed every week |||| Billed every %{smart_count} weeks", 
-            "monthly": "Billed every month |||| Billed every %{smart_count} months", 
-            "yearly": "Billed every year |||| Billed every %{smart_count} years" 
-        } 
+        "loading": "Loading subscriptions",
+        "cancel": "Cancel",
+        "pause": "Pause",
+        "unpause": "Resume",
+        "billing_recurrence": {
+            "daily": "Billed every day |||| Billed every %{smart_count} days",
+            "weekly": "Billed every week |||| Billed every %{smart_count} weeks",
+            "monthly": "Billed every month |||| Billed every %{smart_count} months",
+            "yearly": "Billed every year |||| Billed every %{smart_count} years"
+        }
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -796,7 +796,56 @@
             "name": "Jordan"
         },
         "JP": {
-            "name": "Japan"
+            "name": "Japan",
+            "states": {
+                "JP-01": "Hokkaido",
+                "JP-02": "Aomori",
+                "JP-03": "Iwate",
+                "JP-04": "Miyagi",
+                "JP-05": "Akita",
+                "JP-06": "Yamagata",
+                "JP-07": "Fukushima",
+                "JP-08": "Ibaraki",
+                "JP-09": "Tochigi",
+                "JP-10": "Gunma",
+                "JP-11": "Saitama",
+                "JP-12": "Chiba",
+                "JP-13": "Tokyo",
+                "JP-14": "Kanagawa",
+                "JP-15": "Niigata",
+                "JP-16": "Toyama",
+                "JP-17": "Ishikawa",
+                "JP-18": "Fukui",
+                "JP-19": "Yamanashi",
+                "JP-20": "Nagano",
+                "JP-21": "Gifu",
+                "JP-22": "Shizuoka",
+                "JP-23": "Aichi",
+                "JP-24": "Mie",
+                "JP-25": "Shiga",
+                "JP-26": "Kyoto",
+                "JP-27": "Osaka",
+                "JP-28": "Hyogo",
+                "JP-29": "Nara",
+                "JP-30": "Wakayama",
+                "JP-31": "Tottori",
+                "JP-32": "Shimane",
+                "JP-33": "Okayama",
+                "JP-34": "Hiroshima",
+                "JP-35": "Yamaguchi",
+                "JP-36": "Tokushima",
+                "JP-37": "Kagawa",
+                "JP-38": "Ehime",
+                "JP-39": "Kochi",
+                "JP-40": "Fukuoka",
+                "JP-41": "Saga",
+                "JP-42": "Nagasaki",
+                "JP-43": "Kumamoto",
+                "JP-44": "Oita",
+                "JP-45": "Miyazaki",
+                "JP-46": "Kagoshima",
+                "JP-47": "Okinawa"
+            }
         },
         "KE": {
             "name": "Kenya"

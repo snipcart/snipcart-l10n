@@ -1,159 +1,1357 @@
 {
+    "default": {
+        "loading": "読み込み中...",
+        "error": "エラーが発生しました。",
+        "success": "完了しました！"
+    },
     "actions": {
         "edit": "編集",
         "cancel": "キャンセル",
-        "continue_shopping": "買い物を続ける",
-        "back_to_checkout": "お会計に戻る",
-        "checkout": "お会計",
+        "continue_shopping": "次へ",
+        "back_to_checkout": "お支払いに進む",
+        "checkout": "お支払い",
         "apply": "申し込む",
-        "type_address": "アドレス",
+        "dismiss": "閉じる",
+        "type_address": "住所を入力",
         "use_this_address": "この住所を使う",
         "back_to_store": "ストアに戻る",
-        "close_cart": "カートを閉じる"
+        "close_cart": "カートを閉じる",
+        "show": "表示",
+        "hide": "非表示",
+        "apply_changes": "変更を適用",
+        "yes_use_it": "はい、使用します",
+        "save_changes": "変更を保存",
+        "back_to_orders": "注文に戻る",
+        "change_password": "パスワード変更",
+        "clear_cart": "カートを空にする",
+        "add": "追加"
     },
     "header": {
         "title_cart_summary": "カートの中身",
-        "loading": "ロードしています..."
+        "loading": "読み込み中..."
     },
     "item": {
         "quantity": "数量",
+        "quantity_short": "数量",
         "decrement_quantity": "減らす",
         "increment_quantity": "増やす",
-        "remove_item": "カートから出す"
+        "remove_item": "商品を削除",
+        "recurrence": {
+            "daily": "日 |||| %{smart_count} 日",
+            "weekly": "週 |||| %{smart_count} 週間",
+            "monthly": "月 |||| %{smart_count} ヶ月",
+            "yearly": "年 |||| %{smart_count} 年"
+        }
+    },
+    "subscription": {
+        "title": "サブスクリプション",
+        "state": {
+            "title": "ステータス",
+            "active": "有効",
+            "paused": "一時的に停止",
+            "finished": "完了",
+            "stopped": "非表示",
+            "cancellationrequested": "サブスクリプション登録は、最終支払日に終了します。"
+        },
+        "placed_on": "ご注文日",
+        "final_billing_date": "最終支払日",
+        "items": "商品",
+        "plan": "料金プラン",
+        "billed_on": "請求日",
+        "payment_amount": "お支払い額",
+        "processing": "サブスクリプションは現在処理中です。しばらく時間を置いて再度ご確認ください。",
+        "loading": "サブスクリプション情報を読み込み中",
+        "cancel": "キャンセル",
+        "pause": "停止",
+        "unpause": "再開",
+        "billing_recurrence": {
+            "daily": "毎日支払い |||| %{smart_count} 日毎にお支払い",
+            "weekly": "週支払い |||| %{smart_count} 週毎にお支払い",
+            "monthly": "月間払い |||| %{smart_count} ヶ月毎にお支払い",
+            "yearly": "年間支払い |||| %{smart_count} 年毎にお支払い"
+        }
     },
     "cart": {
         "subtotal": "小計",
-        "shipping_taxes_calculated_at_checkout": "送料と消費税は会計後に加算されます。",
-        "loading": "ロードしています...",
-        "secured_by": "Secured by Snipcart",
-        "summary": "ご注文",
-        "empty": "カートに商品が入っていません",
-        "invoice_number": "請求書番号"
+        "shipping_taxes_calculated_at_checkout": "送料と消費税はお支払い時に計算されます。",
+        "loading": "カートの準備中です。",
+        "secured_by": "Snipcartに保護されています。\n",
+        "summary": "ご注文内容の確認",
+        "empty": "カートが空です。",
+        "invoice_number": "請求書番号",
+        "view_detailed_cart": "カート内容を確認"
     },
     "order": {
-        "loading": "ロードしています..."
+        "loading": "ご注文内容の準備中です。",
+        "title": "ご注文"
     },
     "discount_box": {
-        "promo_code": "プロモーションコード",
+        "promo_code": "プロモーションコードはお持ちですか？",
         "promo_code_placeholder": "プロモーションコード",
-        "promocode_applied": "プロモーションコードが入力されています"
+        "promocode_applied": "プロモーションが適用されました。"
     },
     "address_form": {
         "name": "お名前",
-        "email": "メール",
+        "email": "メールアドレス",
         "address1": "番地",
         "address2": "建物名",
         "city": "市",
         "country": "国",
         "postalCode": "郵便番号",
         "province": "県",
-        "dont_see_address": "I don't see my address"
+        "dont_see_address": "住所が見つかりません。"
     },
     "billing": {
         "title": "請求先",
         "address": "請求先住所",
-        "continue_to_shipping": "配送を続ける",
-        "use_different_shipping_address": "異なる宛先を使う"
+        "continue_to_shipping": "配送先を登録",
+        "use_different_shipping_address": "別の住所を使用"
     },
     "customer": {
-        "information": "お客様情報"
+        "information": "お客様情報",
+        "payment_info": "お支払い情報",
+        "payment_method_update": {
+            "title": "お支払い方法の更新",
+            "outstanding_payment_failed": {
+                "title": "お支払いに失敗しました",
+                "description": "支払い方法が更新されましたが、再度ご請求が成立しませんでした。別のお支払い方法をご利用ください。"
+            }
+        }
+    },
+    "customer_details": {
+        "title": "お客様情報"
+    },
+    "customer_dashboard": {
+        "my_account": "アカウント情報",
+        "ordered_on": "ご注文日",
+        "next_billing_date": "次回お支払い日",
+        "price": "代金",
+        "total": "合計",
+        "status": "ステータス",
+        "order": "ご注文番号 %{invoice_number}",
+        "order_details": "ご注文内容",
+        "loading": "読み込み中...",
+        "no_orders": "ご注文が見つかりませんでした。",
+        "no_subscriptions": "サブスクリプションが見つかりませんでした。",
+        "view_invoice": "請求書を表示",
+        "sign_out": "サインアウト",
+        "show_more_orders": "%{smart_count} 件以上の注文 |||| %{smart_count} 件以上の注文を表示",
+        "show_more_subscriptions": "%{smart_count} 件以上のサブスクリプションを表示 |||| %{smart_count} 件以上のサブスクリプションを表示",
+        "orders": "ご注文",
+        "subscriptions": "サブスクリプション",
+        "subscription": "サブスクリプション"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "サブスクリプションのお支払い期限",
+                "description": "現在、お支払期限切れのサブスクリプションがあります。お支払い方法の更新を行ってください。"
+            }
+        }
     },
     "signin_form": {
-        "signin": "会員ログイン",
-        "dont_have_an_account": "会員ではありませんか？",
+        "signin": "ログイン",
+        "dont_have_an_account": "初めてのご利用ですか？",
         "email": "メールアドレス",
         "password": "パスワード",
-        "forgot_your_password": "パスワードをお忘れの方"
+        "forgot_your_password": "パスワードをお忘れですか？",
+        "close_form": "戻る"
+    },
+    "forgot_password_form": {
+        "title": "パスワードをリセット",
+        "instructions": "アカウント登録時に利用したメールアドレスを入力してください。パスワードリセット用のURLを送信します。",
+        "email": "メールアドレス",
+        "email_instructions": "メールが送信されました。リンクをクリックし、パスワードをリセットしてください。",
+        "action": "パスワードリセット用のメールを送信"
+    },
+    "reset_password_form": {
+        "title": "パスワードをリセット",
+        "password": "新しいパスワード",
+        "confirmation_password": "新しいパスワード（再入力）",
+        "action": "パスワードのリセット"
+    },
+    "change_password_form": {
+        "title": "パスワードを変更",
+        "current_password": "現在のパスワード",
+        "password": "新しいパスワード",
+        "confirmation_password": "新しいパスワード（再入力）",
+        "action": "パスワードを変更"
     },
     "register_form": {
         "register": "登録",
-        "already_have_an_account": "既に会員登録していますか？",
+        "already_have_an_account": "既にアカウントをお持ちですか？",
         "email": "メールアドレス",
         "password": "パスワード",
-        "confirm_password": "パスワードをもう一度入力する"
+        "confirm_password": "パスワードの確認",
+        "requires_action": {
+            "title": "メールを確認してください",
+            "description": "こちらのメールアドレスは、すでに注文をに使用されています。メールで送られたURLから登録手続きを行ってください。"
+        }
     },
     "guest_checkout": {
         "or": "または",
-        "continue_as_a_guest": "ベスト購入（会員登録せずに購入）"
+        "continue_as_a_guest": "ゲストとして進む"
     },
     "shipping": {
         "title": "配送",
         "shipping_to": "配送先:",
         "address": "配送先ご住所",
-        "method": "配送方法"
+        "method": "配送方法",
+        "methods": {
+            "example_localization_id": "こちらは配送方法例です"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} 日以内に配達されることが保証されています。"
     },
     "payment": {
+        "form": {
+            "deferred_payment_title": "後払い",
+            "deferred_payment_instructions": "ご注文を完了することで、ストア指定のお支払い方法にて後払いすることに同意するものとします。",
+            "card_label": "クレジットカード",
+            "card_number": "カード番号",
+            "card_expiration": "MM/YY",
+            "card_cvv": "セキュリティコード",
+            "card_postal_code": "郵便番号",
+            "invalid_number": "カード番号が無効です",
+            "invalid_expiration": "有効期限が無効です",
+            "invalid_cvv": "セキュリティコードが無効です",
+            "invalid_postal_code": "郵便番号が無効です"
+        },
+        "still_pending_notice": "お支払いが現在処理中です。",
         "title": "お支払い",
         "continue_to_payment": "お支払いを続ける",
         "credit_card": "クレジットカード",
-        "place_order": "注文を確定する",
+        "place_order": "ご注文を確定",
         "preparing_payment_session": "しばらくお待ちください...",
         "processing_payment": "お支払い中...",
         "checkout_with": "お支払い方法",
         "checkout_with_method": "%{method}でお支払い",
         "method_icon": "%{method} アイコン",
+        "no_payment": "こちらの注文にお支払いは必要ありません。",
         "methods": {
             "card": "クレジットカード",
             "paypal": "PayPal",
+            "paypal_express_checkout": "ペイパル",
             "apple_pay": "Apple Pay",
             "bancontact": "Bancontact",
             "belfius": "Belfius",
-            "eps": "Electronic Payment Standard",
+            "eps": "EPS",
             "giropay": "Giropay",
             "ideal": "iDEAL",
             "ing_home_pay": "ING Home Pay",
             "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
+            "klarna_pay_later": "Klarnaで後払い",
+            "klarna_slice_it": "Klarnaで毎月お支払い",
             "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer"
+            "sepa_debit": "SEPA（ユーロ決済圏）にて 銀行振込",
+            "sofort": "Sofortにて銀行振込",
+            "deferred_payment": "後払い"
         }
     },
     "discounts": {
-        "title": "ディスカウント"
+        "title": "割引"
     },
     "cart_summary": {
+        "taxes": "税",
+        "taxes_included_in_price": "いくつかの商品は税込です。",
         "total": "合計",
-        "subtotal": "合計金額",
-        "shipping": "送料",
-        "discount": "お値引き",
-        "quantity": "数量"
+        "subtotal": "小計",
+        "shipping": "配送",
+        "discount": "割引",
+        "quantity": "x"
     },
     "errors": {
-        "default": "エラーが発生しました",
-
-        "promo_code_is_invalid": "プロモーションコードが正しくありません",
-        "promocode_already_in_cart": "プロモーションコードは既に使用されています",
-        "promocode_isnt_applicable": "プロモーションコードが不正です",
-        "promo_code_is_expired": "プロモーションコードの有効期限が切れています",
+        "default": "エラーが発生しました。再度お試しいただくか、お問い合わせください。",
+        "promo_code_is_invalid": "プロモーションコードが無効です",
+        "promocode_already_in_cart": "プロモーションコードは使用済みです",
+        "promocode_isnt_applicable": "プロモーションコードが無効です",
+        "promo_code_is_expired": "プロモーションコードは期限切れです",
         "stringEmpty": "この項目は入力必須です",
-        "required": "入力必須項目",
+        "emailEmpty": "この項目は入力必須です",
+        "required": "この項目は入力必須です",
         "invalid_expiry_year_past": "カードの有効期限が切れています",
-        "email": "正しいメールアドレスを入力してください",
-
+        "email": "有効なメールアドレスを入力してください",
+        "quantity_revised": "在庫制限により数量が改訂されました。",
+        "quantity_out_of_stock": "残念ながら、このアイテムは在庫切れです。続行するにはカートから削除してください。",
+        "disabled_country": "選択した国はチェックアウトできません。",
+        "error_payment_items_are_invalid": {
+            "title": "カート内のいくつかの商品が無効です",
+            "description": "注文を確認するか、後でもう一度お試しください。"
+        },
+        "card": {
+            "invalid_number": "カードの番号が無効です。",
+            "invalid_date": "カードの有効期限が無効です。",
+            "invalid_year": "カードの有効期限の年が無効です。",
+            "invalid_month": "カードの有効期限の月が無効です。",
+            "invalid_cvv": "カードのCVVが無効です。",
+            "invalid_expiration": "カードの有効期限が無効です。",
+            "expired": "クレジットカードの期限が切れています",
+            "declined": "カードが拒否されました。詳細についてはカード発行者にお電話ください。",
+            "invalid_address": "カードの住所が正しくありません。",
+            "insufficient_funds": "取引金額をカバーするのに十分な資金がありませんでした。",
+            "card_not_supported": "このカードは地域ではサポートされていません。",
+            "currency_not_supported": "この通貨は現在サポートされていません。"
+        },
+        "transaction": {
+            "declined": "カードの処理中にエラーが発生しました。再度お試しいただくか、別のお支払い方法をご利用ください。"
+        },
+        "discounts": {
+            "conflict": "いくつかの割引を組み合わせることはできません。代わりにこの割引を使用しますか？"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "注文を処理できませんでした。",
+                "description": "課金されていません。詳細については店主にお問い合わせください。"
+            },
+            "product_crawling": {
+                "title": "カート内の商品の価格が変更された場合があります。",
+                "description": "商品を一度カートから取り除き、再度追加してください。詳細はストアオーナーへお問い合わせください。"
+            },
+            "stock_validation": {
+                "title": "商品在庫がありません。",
+                "description": "いくつかの商品が選択された数量の在庫切れになる可能性があります。 数量を修正するか、詳細については店主にお問い合わせください。"
+            },
+            "custom_fields_validation": {
+                "title": "必須情報がありません。",
+                "description": "カート内の一部の製品に必須情報がありません。続行するにはカートを編集してください。"
+            },
+            "shipping_validation": {
+                "title": "配送方法を検証できませんでした。",
+                "description": "選択した配送料金が変更された場合、または利用できない場合があります。詳細については店主にお問い合わせください。"
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "現在利用可能な配送方法がありません",
+                "description": "後でもう一度試すか、サポートにご連絡ください。"
+            },
+            "rates_calculation": {
+                "title": "注文の配送を計算できません",
+                "description": "後でもう一度試すか、サポートにご連絡ください。"
+            },
+            "no_rates_found": {
+                "title": "注文に利用可能な配送方法がありません",
+                "description": "配送先住所を確認するか、お問い合わせください。"
+            }
+        },
         "payment_failed": {
-            "title": "お支払い手続きが完了しません",
+            "title": "お支払いを処理できません",
             "description": "カード情報を確認し、再度お試し下さい"
         },
-
         "payment_authorization": {
-            "title": "お支払い手続きが完了しません",
-
-            "default": "入力情報を確認し、再度お試し下さい."
+            "title": "お支払いを処理できません",
+            "default": "ご入力情報を確認し、再度お試しください。"
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "お支払いを処理できません",
+                "description": "お支払い情報を認証できませんでした。再度お試しください。"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "サブスクリプションをカートに追加できませんでした",
+                "description": "カートには一度に一つのサブスクリプションしか含めることができません。"
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "商品をカートに追加できませんでした",
+                "description": "カートにはアイテムまたはサブスクリプションのみを含めることができます。"
+            }
         },
         "customer_exists": "このメールアドレスは登録済です",
         "customer_password_missmatch": "二つのパスワードが一致しません",
-        "invalid_credentials": "メールアドレスかパスワードが正しくありません"
+        "customer_password_token_expired": "パスワードリカバリートークンの有効期限が切れています。",
+        "customer_password_token_invalid": "パスワードリカバリートークンが無効です。",
+        "customer_not_found": "メールアドレスはどのアカウントにも関連付けられていません。",
+        "invalid_credentials": "メールアドレスかパスワードが正しくありません",
+        "customer_current_password_invalid": "無効なパスワードです。"
+    },
+    "shippingRates": {
+        "loading": "発送料金を読み込み中"
     },
     "customer_orders": {
-        "loading": "ロードしています..."
+        "loading": "読み込み中..."
+    },
+    "digital_goods": {
+        "download": "ファイルをダウンロード"
     },
     "confirmation": {
-        "thank_you_for_your_order": "ご注文、有難うございます",
-        "async_confirmation_notice": "ご注文が確定し、配送準備に入ります。ご登録のメールアドレスにご確認のメールをお送り致しました。"
+        "thank_you_for_your_order": "ご注文ありがとうございます。",
+        "async_confirmation_notice": "ご注文が確定し、現在発送準備中です。ご登録メールアドレス宛に確認メールをお送り致しました。"
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "配送先住所が確定後、送料と消費税が計算されます。"
+        "shipping_taxes_calculated_when_address_provided": "送料と税は、配送先ご入力後に確定します。"
+    },
+    "countries": {
+        "AD": {
+            "name": "アンドラ"
+        },
+        "AE": {
+            "name": "アラブ首長国連邦"
+        },
+        "AF": {
+            "name": "アフガニスタンformat@@0"
+        },
+        "AG": {
+            "name": "アンティグア・バーブーダ"
+        },
+        "AI": {
+            "name": "アンギラ"
+        },
+        "AL": {
+            "name": "アルバニア"
+        },
+        "AM": {
+            "name": "アルメニア"
+        },
+        "AO": {
+            "name": "アンゴラ語"
+        },
+        "AQ": {
+            "name": "南極"
+        },
+        "AR": {
+            "name": "アルゼンチン"
+        },
+        "AS": {
+            "name": "アメリカ領サモア"
+        },
+        "AT": {
+            "name": "オーストリア"
+        },
+        "AU": {
+            "name": "オーストラリア"
+        },
+        "AW": {
+            "name": "アルーバ"
+        },
+        "AX": {
+            "name": "オーランド"
+        },
+        "AZ": {
+            "name": "アゼルバイジャン"
+        },
+        "BA": {
+            "name": "ボスニア・ヘルツェゴビナ"
+        },
+        "BB": {
+            "name": "バルバドス"
+        },
+        "BD": {
+            "name": "バングラデシュ"
+        },
+        "BE": {
+            "name": "ベルギー"
+        },
+        "BF": {
+            "name": "ブルキナファソ"
+        },
+        "BG": {
+            "name": "ブルガリア共和国"
+        },
+        "BH": {
+            "name": "バーレーン"
+        },
+        "BI": {
+            "name": "ブルンジ"
+        },
+        "BJ": {
+            "name": "ベナン"
+        },
+        "BL": {
+            "name": "Saint Barthelemy"
+        },
+        "BM": {
+            "name": "バミューダ"
+        },
+        "BN": {
+            "name": "ブルネイ"
+        },
+        "BO": {
+            "name": "ボリビア"
+        },
+        "BQ": {
+            "name": "ボネール"
+        },
+        "BR": {
+            "name": "ブラジル"
+        },
+        "BS": {
+            "name": "バハマ"
+        },
+        "BT": {
+            "name": "ブータン語"
+        },
+        "BV": {
+            "name": "ブーベ島"
+        },
+        "BW": {
+            "name": "ボツワナ"
+        },
+        "BY": {
+            "name": "ベラルーシ共和国"
+        },
+        "BZ": {
+            "name": "ベリーズ"
+        },
+        "CA": {
+            "name": "カナダ",
+            "states": {
+                "AB": "アルバータ",
+                "BC": "ブリティッシュコロンビア州",
+                "MB": "マニトバ語",
+                "NB": "ニューブランズウィック",
+                "NL": "ニューファンドランド",
+                "NS": "ノバスコシア",
+                "NT": "ノースウェスト・テリトリー",
+                "NU": "ヌナブト",
+                "ON": "オンタリオ",
+                "PE": "プリンスエドワード島",
+                "QC": "ケベック州",
+                "SK": "サスカチュワン",
+                "YT": "ユーコン"
+            }
+        },
+        "CC": {
+            "name": "ココス [Keeling] 諸島"
+        },
+        "CD": {
+            "name": "コンゴ"
+        },
+        "CF": {
+            "name": "中央アフリカ共和国"
+        },
+        "CG": {
+            "name": "コンゴ共和国"
+        },
+        "CH": {
+            "name": "スイス"
+        },
+        "CI": {
+            "name": "象牙海岸"
+        },
+        "CK": {
+            "name": "クック諸島"
+        },
+        "CL": {
+            "name": "チリ"
+        },
+        "CM": {
+            "name": "カメルーンformat@@0"
+        },
+        "CN": {
+            "name": "中国"
+        },
+        "CO": {
+            "name": "コロンビア"
+        },
+        "CR": {
+            "name": "コスタリカ"
+        },
+        "CU": {
+            "name": "キューバ"
+        },
+        "CV": {
+            "name": "カーボベルデ"
+        },
+        "CW": {
+            "name": "キュラソー"
+        },
+        "CX": {
+            "name": "クリスマス島"
+        },
+        "CY": {
+            "name": "キプロス"
+        },
+        "CZ": {
+            "name": "チェコ語"
+        },
+        "DE": {
+            "name": "ドイツ"
+        },
+        "DJ": {
+            "name": "ジブチ"
+        },
+        "DK": {
+            "name": "デンマーク"
+        },
+        "DM": {
+            "name": "ドミニカ"
+        },
+        "DO": {
+            "name": "ドミニカ共和国"
+        },
+        "DZ": {
+            "name": "アルジェリア"
+        },
+        "EC": {
+            "name": "エクアドル"
+        },
+        "EE": {
+            "name": "エストニア共和国"
+        },
+        "EG": {
+            "name": "エジプト"
+        },
+        "EH": {
+            "name": "西サハラ語"
+        },
+        "ER": {
+            "name": "エリトリア"
+        },
+        "ES": {
+            "name": "スペイン",
+            "states": {
+                "A": "アリカンテ",
+                "AB": "アルバセテ",
+                "AL": "アルメリア",
+                "AV": "A'vila",
+                "B": "バルセロナ",
+                "BA": "バダホス",
+                "BI": "ビスカヤ",
+                "BU": "ブルゴス",
+                "C": "La Coruña",
+                "CA": "Caediz",
+                "CC": "Cáceres",
+                "CE": "セウタ",
+                "CO": "Córdoba",
+                "CR": "シウダー・レアル",
+                "CS": "Castellón",
+                "CU": "クエンカ",
+                "GC": "ラス・パルマス",
+                "GI": "ジェローナ",
+                "GR": "グラナダ",
+                "GU": "グアダラハラ",
+                "H": "ウエルバ",
+                "HU": "ウエスカ",
+                "J": "Jaén",
+                "L": "Lérida",
+                "LE": "León",
+                "LO": "ラ・リオハ",
+                "LU": "ルーゴ",
+                "M": "マドリード",
+                "MA": "Málaga",
+                "ML": "メリリャ",
+                "MU": "ムルシア",
+                "NA": "ナバラ",
+                "O": "アストゥリアス語",
+                "OU": "オレンセ",
+                "P": "パレンシア",
+                "PM": "バレアレス",
+                "PO": "ポンテベドラ",
+                "S": "カンタブリア",
+                "SA": "サラマンカ",
+                "SE": "セビリア",
+                "SG": "セゴビア",
+                "SO": "ソリア",
+                "SS": "Guipúzcoa",
+                "T": "タラゴナ",
+                "TE": "テルエル",
+                "TF": "テネリフェ",
+                "TO": "トレド",
+                "V": "バレンシア",
+                "VA": "バリャドリード",
+                "VI": "Ae's lava",
+                "Z": "サラゴサ",
+                "ZA": "サモラ"
+            }
+        },
+        "ES-CN": {
+            "name": "カナリア諸島"
+        },
+        "ET": {
+            "name": "エチオピア"
+        },
+        "FI": {
+            "name": "フィンランド"
+        },
+        "FJ": {
+            "name": "フィジー"
+        },
+        "FK": {
+            "name": "フォークランド諸島"
+        },
+        "FM": {
+            "name": "ミクロネシア"
+        },
+        "FO": {
+            "name": "フェロー諸島"
+        },
+        "FR": {
+            "name": "フランス"
+        },
+        "GA": {
+            "name": "ガボン"
+        },
+        "GB": {
+            "name": "イギリス"
+        },
+        "GD": {
+            "name": "グレナダ"
+        },
+        "GE": {
+            "name": "ジョージア州"
+        },
+        "GF": {
+            "name": "フランス領ギアナ"
+        },
+        "GG": {
+            "name": "ガーンジー"
+        },
+        "GH": {
+            "name": "ガーナ共和国"
+        },
+        "GI": {
+            "name": "ジブラルタル"
+        },
+        "GL": {
+            "name": "グリーンランド"
+        },
+        "GM": {
+            "name": "ガンビア"
+        },
+        "GN": {
+            "name": "ギニア"
+        },
+        "GP": {
+            "name": "グアドループ"
+        },
+        "GQ": {
+            "name": "赤道ギニア"
+        },
+        "GR": {
+            "name": "ギリシャ"
+        },
+        "GS": {
+            "name": "サウスジョージア島と南サンドイッチ諸島"
+        },
+        "GT": {
+            "name": "グアテマラ共和国"
+        },
+        "GU": {
+            "name": "グアム"
+        },
+        "GW": {
+            "name": "ギニアビサウ"
+        },
+        "GY": {
+            "name": "ガイアナ"
+        },
+        "HK": {
+            "name": "香港"
+        },
+        "HM": {
+            "name": "ハード島とマクドナルド諸島"
+        },
+        "HN": {
+            "name": "ホンジュラス"
+        },
+        "HR": {
+            "name": "クロアチア"
+        },
+        "HT": {
+            "name": "ハイチ"
+        },
+        "HU": {
+            "name": "ハンガリー"
+        },
+        "ID": {
+            "name": "インドネシア"
+        },
+        "IE": {
+            "name": "アイルランド"
+        },
+        "IL": {
+            "name": "イスラエル"
+        },
+        "IM": {
+            "name": "マン島"
+        },
+        "IN": {
+            "name": "インド"
+        },
+        "IO": {
+            "name": "イギリス領インド洋地域"
+        },
+        "IQ": {
+            "name": "イラク共和国"
+        },
+        "IR": {
+            "name": "イラン"
+        },
+        "IS": {
+            "name": "アイスランド共和国"
+        },
+        "IT": {
+            "name": "イタリア"
+        },
+        "JE": {
+            "name": "ジャージー"
+        },
+        "JM": {
+            "name": "ジャマイカ"
+        },
+        "JO": {
+            "name": "ヨルダン"
+        },
+        "JP": {
+            "name": "日本",
+            "states": {
+                "JP-01": "北海道",
+                "JP-02": "青森県",
+                "JP-03": "岩手県",
+                "JP-04": "宮城県",
+                "JP-05": "秋田県",
+                "JP-06": "山形県",
+                "JP-07": "福島県",
+                "JP-08": "茨城県",
+                "JP-09": "栃木県",
+                "JP-10": "群馬県",
+                "JP-11": "埼玉県",
+                "JP-12": "千葉県",
+                "JP-13": "東京都",
+                "JP-14": "神奈川県",
+                "JP-15": "新潟県",
+                "JP-16": "富山県",
+                "JP-17": "石川県",
+                "JP-18": "福井県",
+                "JP-19": "山梨県",
+                "JP-20": "長野県",
+                "JP-21": "岐阜県",
+                "JP-22": "静岡県",
+                "JP-23": "愛知県",
+                "JP-24": "三重県",
+                "JP-25": "滋賀県",
+                "JP-26": "京都府",
+                "JP-27": "大阪府",
+                "JP-28": "兵庫県",
+                "JP-29": "奈良県",
+                "JP-30": "和歌山県",
+                "JP-31": "鳥取県",
+                "JP-32": "島根県",
+                "JP-33": "岡山県",
+                "JP-34": "広島県",
+                "JP-35": "山口県",
+                "JP-36": "徳島県",
+                "JP-37": "香川県",
+                "JP-38": "愛媛県",
+                "JP-39": "高知県",
+                "JP-40": "福岡県",
+                "JP-41": "佐賀県",
+                "JP-42": "長崎県",
+                "JP-43": "熊本県",
+                "JP-44": "大分県",
+                "JP-45": "宮崎県",
+                "JP-46": "鹿児島県",
+                "JP-47": "沖縄県"
+            }
+        },
+        "KE": {
+            "name": "ケニア"
+        },
+        "KG": {
+            "name": "キルギスタン"
+        },
+        "KH": {
+            "name": "カンボジア"
+        },
+        "KI": {
+            "name": "キリバス"
+        },
+        "KM": {
+            "name": "コモロ"
+        },
+        "KN": {
+            "name": "セントクリストファー ・ ネイビス"
+        },
+        "KP": {
+            "name": "北朝鮮語"
+        },
+        "KR": {
+            "name": "韓国"
+        },
+        "KW": {
+            "name": "クウェート"
+        },
+        "KY": {
+            "name": "ケイマン諸島"
+        },
+        "KZ": {
+            "name": "カザフスタン共和国"
+        },
+        "LA": {
+            "name": "ラオス"
+        },
+        "LB": {
+            "name": "レバノン"
+        },
+        "LC": {
+            "name": "セントルシア"
+        },
+        "LI": {
+            "name": "リヒテンシュタイン"
+        },
+        "LK": {
+            "name": "スリランカ"
+        },
+        "LR": {
+            "name": "リベリア"
+        },
+        "LS": {
+            "name": "レソト"
+        },
+        "LT": {
+            "name": "リトアニア"
+        },
+        "LU": {
+            "name": "ルクセンブルク"
+        },
+        "LV": {
+            "name": "ラトビア"
+        },
+        "LY": {
+            "name": "リビア"
+        },
+        "MA": {
+            "name": "モロッコ"
+        },
+        "MC": {
+            "name": "モナコ"
+        },
+        "MD": {
+            "name": "モルドバ"
+        },
+        "ME": {
+            "name": "モンテネグロ"
+        },
+        "MF": {
+            "name": "セント・マーチン島"
+        },
+        "MG": {
+            "name": "マダガスカル"
+        },
+        "MH": {
+            "name": "マーシャル諸島"
+        },
+        "MK": {
+            "name": "マケドニア"
+        },
+        "ML": {
+            "name": "マリ"
+        },
+        "MM": {
+            "name": "ミャンマー(ビルマ)"
+        },
+        "MN": {
+            "name": "モンゴル"
+        },
+        "MO": {
+            "name": "マカオ"
+        },
+        "MP": {
+            "name": "北マリアナ諸島"
+        },
+        "MQ": {
+            "name": "マルティニーク"
+        },
+        "MR": {
+            "name": "モーリタニア"
+        },
+        "MS": {
+            "name": "モントセラト"
+        },
+        "MT": {
+            "name": "マルタ"
+        },
+        "MU": {
+            "name": "モーリシャス"
+        },
+        "MV": {
+            "name": "モルディブ共和国"
+        },
+        "MW": {
+            "name": "マラウイ"
+        },
+        "MX": {
+            "name": "メキシコ",
+            "states": {
+                "AGU": "アグアスカリエンテス",
+                "BCN": "バハ",
+                "BCS": "バハ・カリフォルニア・スル州",
+                "CAM": "カンペチェ",
+                "CHH": "チワワ",
+                "CHP": "チアパス",
+                "COA": "コアウイラ",
+                "COL": "コリマ",
+                "DIF": "Ciudad de México",
+                "DUR": "ドゥランゴ",
+                "GRO": "ゲレロ",
+                "GUA": "グアナフアト",
+                "HID": "イダルゴ",
+                "JAL": "ハリスコ",
+                "MEX": "México",
+                "MIC": "Michoacán",
+                "MOR": "モレロス",
+                "NAY": "ナヤリト",
+                "NLE": "Nuevo León",
+                "OAX": "オアハカ",
+                "PUE": "プエブラ",
+                "QUE": "Querétaro",
+                "ROO": "キンターナ・ロー",
+                "SIN": "シナロア",
+                "SLP": "San Luis Potosi’s",
+                "SON": "ソノラ",
+                "TAB": "タバスコ",
+                "TAM": "タマウリパス",
+                "TLA": "トラスカラ",
+                "VER": "ベラクルス",
+                "YUC": "Yucatán",
+                "ZAC": "サカテカス"
+            }
+        },
+        "MY": {
+            "name": "マレーシア"
+        },
+        "MZ": {
+            "name": "モザンビーク"
+        },
+        "NA": {
+            "name": "ナミビア"
+        },
+        "NC": {
+            "name": "ニューカレドニア"
+        },
+        "NE": {
+            "name": "ニジェール"
+        },
+        "NF": {
+            "name": "ノーフォーク島"
+        },
+        "NG": {
+            "name": "ナイジェリア"
+        },
+        "NI": {
+            "name": "ニカラグア"
+        },
+        "NL": {
+            "name": "オランダ"
+        },
+        "NO": {
+            "name": "ノルウェー"
+        },
+        "NP": {
+            "name": "ネパール共和国"
+        },
+        "NR": {
+            "name": "ナウル"
+        },
+        "NU": {
+            "name": "ニウエ"
+        },
+        "NZ": {
+            "name": "ニュージーランド"
+        },
+        "OM": {
+            "name": "オマーン"
+        },
+        "PA": {
+            "name": "パナマ"
+        },
+        "PE": {
+            "name": "ペルー"
+        },
+        "PF": {
+            "name": "フランス領ポリネシア"
+        },
+        "PG": {
+            "name": "パプアニューギニア"
+        },
+        "PH": {
+            "name": "フィリピン"
+        },
+        "PK": {
+            "name": "パキスタン共和国"
+        },
+        "PL": {
+            "name": "ポーランド"
+        },
+        "PM": {
+            "name": "サンピエール島・ミクロン島"
+        },
+        "PN": {
+            "name": "ピトケアン諸島"
+        },
+        "PR": {
+            "name": "プエルトリコ"
+        },
+        "PS": {
+            "name": "パレスチナ"
+        },
+        "PT": {
+            "name": "ポルトガル"
+        },
+        "PW": {
+            "name": "パラオ"
+        },
+        "PY": {
+            "name": "パラグアイ"
+        },
+        "QA": {
+            "name": "カタール"
+        },
+        "RE": {
+            "name": "レユニオンの設定"
+        },
+        "RO": {
+            "name": "ルーマニア"
+        },
+        "RS": {
+            "name": "セルビア共和国"
+        },
+        "RU": {
+            "name": "ロシア"
+        },
+        "RW": {
+            "name": "ルワンダ"
+        },
+        "SA": {
+            "name": "サウジアラビア"
+        },
+        "SB": {
+            "name": "ソロモン諸島"
+        },
+        "SC": {
+            "name": "セイシェル"
+        },
+        "SD": {
+            "name": "スーダン"
+        },
+        "SE": {
+            "name": "スウェーデン"
+        },
+        "SG": {
+            "name": "シンガポール"
+        },
+        "SH": {
+            "name": "セントヘレナ島"
+        },
+        "SI": {
+            "name": "ソロベニア"
+        },
+        "SJ": {
+            "name": "スバールバル諸島とヤンマイエン島"
+        },
+        "SK": {
+            "name": "スロバキア"
+        },
+        "SL": {
+            "name": "シエラレオネ"
+        },
+        "SM": {
+            "name": "サンマリノ"
+        },
+        "SN": {
+            "name": "セネガル"
+        },
+        "SO": {
+            "name": "ソマリア"
+        },
+        "SR": {
+            "name": "スリナム"
+        },
+        "SS": {
+            "name": "南スーダン共和国"
+        },
+        "ST": {
+            "name": "Safingo Tomee'とPrie'cipe"
+        },
+        "SV": {
+            "name": "エルサルバドル"
+        },
+        "SX": {
+            "name": "シントマールテン"
+        },
+        "SY": {
+            "name": "シリア語"
+        },
+        "SZ": {
+            "name": "スワジランド"
+        },
+        "TC": {
+            "name": "タークス・カイコス諸島"
+        },
+        "TD": {
+            "name": "チャド語"
+        },
+        "TF": {
+            "name": "フランス領南方地域"
+        },
+        "TG": {
+            "name": "トーゴ"
+        },
+        "TH": {
+            "name": "タイ"
+        },
+        "TJ": {
+            "name": "タジキスタン"
+        },
+        "TK": {
+            "name": "トケラウ"
+        },
+        "TL": {
+            "name": "東ティモール"
+        },
+        "TM": {
+            "name": "トルクメニスタン"
+        },
+        "TN": {
+            "name": "チュニジア"
+        },
+        "TO": {
+            "name": "トンガ"
+        },
+        "TR": {
+            "name": "トルコ"
+        },
+        "TT": {
+            "name": "トリニダード・トバゴ"
+        },
+        "TV": {
+            "name": "ツバル"
+        },
+        "TW": {
+            "name": "台湾"
+        },
+        "TZ": {
+            "name": "タンザニア"
+        },
+        "UA": {
+            "name": "ウクライナ"
+        },
+        "UG": {
+            "name": "ウガンダ"
+        },
+        "UM": {
+            "name": "アメリカ領小離島"
+        },
+        "US": {
+            "name": "アメリカ",
+            "states": {
+                "AA": "合衆国軍",
+                "AE": "欧州連合",
+                "AK": "アラスカ州",
+                "AL": "アラバマ",
+                "AP": "太平洋軍",
+                "AR": "アーカンソー州",
+                "AS": "アメリカ領サモア",
+                "AZ": "アリゾナ州",
+                "CA": "カリフォルニア州",
+                "CO": "コロラド州",
+                "CT": "コネチカット州",
+                "DC": "コロンビア地区",
+                "DE": "デラウェア州",
+                "FL": "フロリダ州",
+                "FM": "ミクロネシア連盟",
+                "GA": "ジョージア州",
+                "GU": "グアム",
+                "HI": "ハワイ",
+                "IA": "アイオワ州",
+                "ID": "アイダホ州",
+                "IL": "イリノイ州",
+                "IN": "インディアナ",
+                "KS": "カンザス",
+                "KY": "ケンタッキー州",
+                "LA": "ルイジアナ州",
+                "MA": "マサチューセッツ州",
+                "MD": "メリーランド",
+                "ME": "メイン",
+                "MH": "マーシャル諸島",
+                "MI": "ミシガン州",
+                "MN": "ミネソタ",
+                "MO": "ミズーリ州",
+                "MP": "北マリアナ諸島",
+                "MS": "ミシシッピ州",
+                "MT": "モンタナ",
+                "NC": "ノースカロライナ州",
+                "ND": "ノースダコタ",
+                "NE": "ネブラスカ州",
+                "NH": "ニューハンプシャー州",
+                "NJ": "ニュージャージー州",
+                "NM": "ニューメキシコ州",
+                "NV": "ネバダ",
+                "NY": "ニューヨーク",
+                "OH": "オハイオ州",
+                "OK": "オクラホマ州",
+                "OR": "オレゴン",
+                "PA": "ペンシルバニア",
+                "PR": "プエルトリコ",
+                "PW": "パラオ",
+                "RI": "ロードアイランド島",
+                "SC": "サウスカロライナ",
+                "SD": "サウスダコタ",
+                "TN": "テネシー",
+                "TX": "テキサス州",
+                "UT": "ユタ州",
+                "VA": "バージニア",
+                "VI": "ヴァージン諸島",
+                "VT": "バーモント州",
+                "WA": "ワシントン州",
+                "WI": "ウィスコンシン州",
+                "WV": "ウェストバージニア",
+                "WY": "ワイオミング州"
+            }
+        },
+        "UY": {
+            "name": "ウルグアイ"
+        },
+        "UZ": {
+            "name": "ウズベキスタン"
+        },
+        "VA": {
+            "name": "バチカン市国"
+        },
+        "VC": {
+            "name": "セントビンセントおよびグレナディーン諸島"
+        },
+        "VE": {
+            "name": "ベネズエラ"
+        },
+        "VG": {
+            "name": "イギリス領ヴァージン諸島"
+        },
+        "VI": {
+            "name": "米領バージン諸島"
+        },
+        "VN": {
+            "name": "ベトナム"
+        },
+        "VU": {
+            "name": "バヌアツ"
+        },
+        "WF": {
+            "name": "ウォリス・フツナ"
+        },
+        "WS": {
+            "name": "サモア"
+        },
+        "XK": {
+            "name": "コソボ共和国"
+        },
+        "YE": {
+            "name": "イエメン語"
+        },
+        "YT": {
+            "name": "マヨット"
+        },
+        "ZA": {
+            "name": "南アフリカ"
+        },
+        "ZM": {
+            "name": "ザンビア"
+        },
+        "ZW": {
+            "name": "ジンバブエ"
+        }
     }
 }
