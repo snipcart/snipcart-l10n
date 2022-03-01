@@ -354,7 +354,7 @@
             "E.ADDRESS.MULTIPLE": "Multiple addresses were returned with the same zip.",
             "E.ADDRESS.INSUFFICIENT": "Incorrect address. Please try again later or contact us for more details.",
             "E.ADDRESS.DUAL": "Dual address. Please try again later or contact us for more details.",
-            "E.STREET.MAGNET": "Multiple addressf found due to magnet street syndrome. Please try again later or contact us for more details.",
+            "E.STREET.MAGNET": "Multiple addresses found due to magnet street syndrome. Please try again later or contact us for more details.",
             "E.CITY_STATE.INVALID": "Unverifiable city / state.",
             "E.STATE.INVALID": "Invalid State.",
             "E.ADDRESS.DELIVERY.INVALID": "Invalid delivery address.",
