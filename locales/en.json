@@ -110,7 +110,7 @@
     "customer": {
         "information": "Customer information",
         "payment_info": "My payment info",
-        "payment_method_update":{
+        "payment_method_update": {
             "title": "Payment method update",
             "outstanding_payment_failed": {
                 "title": "Payment failed",
@@ -198,7 +198,7 @@
         "address": "Shipping address",
         "method": "Shipping method",
         "methods": {
-            "example_localization_id" : "This is an example of a localized shipping method"
+            "example_localization_id": "This is an example of a localized shipping method"
         }
     },
     "shipping_rates": {
@@ -321,6 +321,7 @@
                 "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
             }
         },
+        "invalid_address": "The address is invalid.",
         "shipping": {
             "account_configuration": {
                 "title": "No shipping method is currently available",
@@ -333,7 +334,33 @@
             "no_rates_found": {
                 "title": "No shipping methods are available for your order",
                 "description": "Please review your shipping address or contact us."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Country is not supported. Please try again later or contact us for more details.",
+            "E.ENGINE.UNAVAILABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
+            "E.QUERY.UNANSWERABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
+            "E.ADDRESS.NOT_FOUND": "Address not found. Please validate your address and try again.",
+            "E.SECONDARY_INFORMATION.INVALID": "Invalid secondary information(Apt/Suite#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Missing secondary information(Apt/Suite#).",
+            "E.HOUSE_NUMBER.MISSING": "House number is missing.",
+            "E.HOUSE_NUMBER.INVALID": "House number is invalid.",
+            "E.STREET.MISSING": "Street is missing.",
+            "E.STREET.INVALID": "Street is invalid.",
+            "E.BOX_NUMBER.MISSING": "Box number is missing.",
+            "E.BOX_NUMBER.INVALID": "Box number is invalid.",
+            "E.ADDRESS.INVALID": "Invalid city/state/ZIP.",
+            "E.ZIP.NOT_FOUND": "Zip not found.",
+            "E.ZIP.INVALID": "Zip invalid.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Zip + 4 not found.",
+            "E.ADDRESS.MULTIPLE": "Multiple addresses were returned with the same zip.",
+            "E.ADDRESS.INSUFFICIENT": "Incorrect address. Please try again later or contact us for more details.",
+            "E.ADDRESS.DUAL": "Dual address. Please try again later or contact us for more details.",
+            "E.STREET.MAGNET": "Multiple addresses found due to magnet street syndrome. Please try again later or contact us for more details.",
+            "E.CITY_STATE.INVALID": "Unverifiable city / state.",
+            "E.STATE.INVALID": "Invalid State.",
+            "E.ADDRESS.DELIVERY.INVALID": "Invalid delivery address.",
+            "E.TIMED_OUT": "An error occurred while validating the address. Please try again later or contact us for more details.",
+            "E.TIME_ZONE.UNAVAILABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
+            "E.PO_BOX.INTERNATIONAL": "Cannot verify international PO Box."
         },
         "payment_failed": {
             "title": "Unable to process payment",
