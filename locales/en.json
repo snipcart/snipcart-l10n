@@ -102,7 +102,7 @@
            "IPA":"IPA",
            "ISAL":"ISAL"
         },
-        "Asendia USA":{
+        "AsendiaUSA":{
            "ADS":"ADS",
            "AirFreightInbound":"Air Freight Inbound",
            "AirFreightOutbound":"Air Freight Outbound",
@@ -188,7 +188,7 @@
            "ePAQStandardISAL":"ePAQ Standard ISAL",
            "ePaqSelectPMEINonPresort":"ePAQ Select PMEI Non Presort"
         },
-        "Australia Post":{
+        "AustraliaPost":{
            "ExpressPost":"Express Post",
            "ExpressPostSignature":"Express Post Signature",
            "ParcelPost":"Parcel Post",
@@ -199,13 +199,13 @@
         "AxlehireV3":{
            "AxleHireDelivery":"Axle Hire Delivery"
         },
-        "Better Trucks":{
+        "BetterTrucks":{
            "NEXT_DAY":"Next Day"
         },
         "Bond":{
            "Standard":"Standard"
         },
-        "Canada Post":{
+        "CanadaPost":{
            "RegularParcel":"Regular Parcel",
            "ExpeditedParcel":"Expedited Parcel",
            "Xpresspost":"Xpresspost",
@@ -244,11 +244,11 @@
            "USA":"USA",
            "International":"International"
         },
-        "CDL Last Mile Solutions":{
+        "CDLLastMileSolutions":{
            "DISTRIBUTION":"Distribution",
            "Same Day":"Same Day"
         },
-        "Courier Express":{
+        "CourierExpress":{
            "BASIC_PARCEL":"Basic Parcel"
         },
         "CouriersPlease":{
@@ -283,16 +283,16 @@
            "InternationalExpressImport":"International Express Import",
            "InternationalExpress":"International Express"
         },
-        "Dai Post":{
+        "DaiPost":{
            "DomesticTracked":"Domestic Tracked",
            "InternationalEconomy":"International Economy",
            "InternationalStandard":"International Standard",
            "InternationalExpress":"International Express"
         },
-        "Deutsche Post":{
+        "DeutschePost":{
            "PacketPlus":"Packet Plus"
         },
-        "Deutsche Post UK":{
+        "DeutschePostUK":{
            "PriorityPacketPlus":"Priority Packet Plus",
            "PriorityPacket":"Priority Packet",
            "PriorityPacketTracked":"Priority Packet Tracked",
@@ -300,13 +300,13 @@
            "StandardPacket":"Standard Packet",
            "BusinessMailStandard":"Business Mail Standard"
         },
-        "DHL eCommerce Asia":{
+        "DHLeCommerceAsia":{
            "Packet":"Packet",
            "PacketPlus":"Packet Plus",
            "ParcelDirect":"Parcel Direct",
            "ParcelDirectExpedited":"Parcel Direct Expedited"
         },
-        "DHL eCommerce Solutions":{
+        "DHLeCommerceSolutions":{
            "DHLParcelExpedited":"DHL Parcel Expedited",
            "DHLParcelExpeditedMax":"DHL Parcel Expedited Max",
            "DHLParcelGround":"DHL Parcel Ground",
@@ -318,7 +318,7 @@
            "DHLParcelInternationalDirectPriority":"DHL Parcel International Direct Priority",
            "DHLParcelInternationalDirectStandard":"DHL Parcel International Direct Standard"
         },
-        "DHL Express":{
+        "DHLExpress":{
            "BreakBulkEconomy":"Break Bulk Economy",
            "BreakBulkExpress":"Break Bulk Express",
            "DomesticEconomySelect":"Domestic Economy Select",
@@ -363,7 +363,7 @@
            "DPDPARCELLETTERPLUS":"DPD PARCEL LETTER PLUS",
            "DPDINTERNATIONALMAIL":"DPD INTERNATIONAL MAIL"
         },
-        "DPD UK":{
+        "DPDUK":{
            "AirExpressInternationalAir":"Air Express International Air",
            "AirClassicInternationalAir":"Air Classic International Air",
            "ParcelSunday":"Parcel Sunday",
@@ -407,7 +407,7 @@
            "FreightParcelSaturday12":"Freight Parcel Saturday 12",
            "FreightParcelSaturday10":"Freight Parcel Saturday 10"
         },
-        "ePost Global":{
+        "ePostGlobal":{
            "CourierServiceDDP":"Courier Service DDP",
            "CourierServiceDDU":"Courier Service DDU",
            "DomesticEconomyParcel":"Domestic Economy Parcel",
@@ -451,18 +451,18 @@
            "GROUND_HOME_DELIVERY":"GROUND HOME DELIVERY",
            "SMART_POST":"SMART POST"
         },
-        "FedEx Cross Border":{
+        "FedExCrossBorder":{
            "CBEC":"CBEC",
            "CBECL":"CBECL",
            "CBECP":"CBECP"
         },
-        "FedEx SameDay City":{
+        "FedExSameDayCity":{
            "EconomyService":"Economy Service",
            "StandardService":"Standard Service",
            "PriorityService":"Priority Service",
            "LastMile":"Last Mile"
         },
-        "FedEx SmartPost":{
+        "FedExSmartPost":{
            "SMART_POST":"SMART POST"
         },
         "Globegistics":{
@@ -498,7 +498,7 @@
            "InternationalDelivery":"International Delivery",
            "InternationalDeliverySigned":"International Delivery Signed"
         },
-        "Interlink Express":{
+        "InterlinkExpress":{
            "InterlinkAirClassicInternationalAir":"Interlink Air Classic International Air",
            "InterlinkAirExpressInternationalAir":"Interlink Air Express International Air",
            "InterlinkExpresspak1By10:30":"Interlink Expresspak 1 By 10:30",
@@ -549,7 +549,7 @@
            "NextDay":"Next Day",
            "Weekend":"Weekend"
         },
-        "Loomis Express":{
+        "LoomisExpress":{
            "LoomisGround":"Loomis Ground",
            "LoomisExpress1800":"Loomis Express 18:00",
            "LoomisExpress1200":"Loomis Express 12:00",
@@ -580,7 +580,7 @@
            "SameDay":"Same Day",
            "PalletizedFreight":"Palletized Freight"
         },
-        "Osm Worldwide":{
+        "OsmWorldwide":{
            "First":"First",
            "Expedited":"Expedited",
            "ParcelSelectLightweight":"Parcel Select Lightweight",
@@ -666,7 +666,7 @@
            "PurolatorGroundRegional":"Purolator Ground Regional",
            "PurolatorGroundUS":"Purolator Ground US"
         },
-        "Royal Mail":{
+        "RoyalMail":{
            "InternationalSigned":"International Signed",
            "InternationalStandard":"International Standard",
            "InternationalTracked":"International Tracked",
@@ -694,13 +694,13 @@
            "Tracked48HighVolumeSignature":"Tracked 48 High Volume Signature",
            "Tracked48Signature":"Tracked 48 Signature"
         },
-        "SEKO OmniParcel":{
+        "SEKOOmniParcel":{
            "eCommerce Standard Tracked":"E Commerce Standard Tracked",
            "eCommerce Express Tracked":"E Commerce Express Tracked",
            "Domestic Express":"Domestic Express",
            "Domestic Standard":"Domestic Standard"
         },
-        "SF Express":{
+        "SFExpress":{
            "International Standard Express - Doc":"International Standard Express - Doc",
            "International Standard Express - Parcel":"International Standard Express - Parcel",
            "International Economy Express - Pilot":"International Economy Express - Pilot",
@@ -737,7 +737,7 @@
            "2ndDayAirAM":"2nd Day Air AM",
            "3DaySelect":"3 Day Select"
         },
-        "UPS Mail Innovations":{
+        "UPSMailInnovations":{
            "First":"First",
            "Priority":"Priority",
            "ExpeditedMailInnovations":"Expedited Mail Innovations",
