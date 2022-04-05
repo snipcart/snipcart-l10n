@@ -94,11 +94,11 @@
         "name": "お名前",
         "email": "メールアドレス",
         "address1": "番地",
-        "address2": "建物名",
-        "city": "市",
+        "address2": "建物名（部屋番号）",
+        "city": "市区町村",
         "country": "国",
         "postalCode": "郵便番号",
-        "province": "県",
+        "province": "都道府県",
         "dont_see_address": "住所が見つかりません。"
     },
     "billing": {
