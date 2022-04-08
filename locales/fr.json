@@ -84,6 +84,13 @@
         "forgot_your_password": "Oublié votre mot de passe ?",
         "close_form": "Retour"
     },
+    "forgot_password_form": {
+        "title": "Récupérer votre mot de passe",
+        "instructions": "Entrez l'adresse courriel de votre compte et nous vous enverrons un lien de réinitialisation de mot de passe.",
+        "email": "Courriel",
+        "email_instructions": "Un courriel contenant un lien vous a été envoyé. Cliquez dessus pour réinitialiser votre mot de passe.",
+        "action": "Envoyer un courriel de réinitialisation du mot de passe"
+    },
     "register_form": {
         "register": "Inscription",
         "already_have_an_account": "Déjà un compte ?",
@@ -100,6 +107,9 @@
         "shipping_to": "Livrer à :",
         "address": "Adresse de livraison",
         "method": "Méthode de livraison"
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garanti d'être livré en %{guaranteedDaysToDelivery} jour(s)."
     },
     "payment": {
         "form":{
