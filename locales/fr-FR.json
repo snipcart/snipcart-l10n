@@ -144,6 +144,9 @@
     "address": "Adresse de livraison",
     "method": "Méthode de livraison"
   },
+  "shipping_rates": {
+    "guaranteed_delivery_days": "Garanti d'être livré en %{guaranteedDaysToDelivery} jour(s)."
+  },
   "payment": {
     "form": {
       "deferred_payment_title": "Paiement differé",
