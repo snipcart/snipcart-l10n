@@ -46,7 +46,7 @@
             "stopped": "Detenido"
         },
         "placed_on": "Situado en",
-        "items": "Artículos",		
+        "items": "Artículos",
         "plan": "Plan",
         "billed_on": "Se cobrará en",
         "payment_amount": "Total del pago"
@@ -158,6 +158,9 @@
         "address": "Dirección de envío",
         "method": "Método de envío"
     },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Se garantiza la entrega en %{guaranteedDaysToDelivery} día(s)."
+    },
     "payment": {
         "form":{
             "deferred_payment_title": "Pago aplazado",
@@ -170,7 +173,7 @@
             "invalid_number": "El número de tarjeta no es válido.",
             "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
             "invalid_cvv": "El CVV de la tarjeta no es válido.",
-            "invalid_postal_code": "Código postal no válido"			
+            "invalid_postal_code": "Código postal no válido"
         },
         "still_pending_notice": "Tu pago está siendo procesado aún.",
         "title": "Pago",
