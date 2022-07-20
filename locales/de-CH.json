@@ -9,18 +9,18 @@
     },
     "cart": {
         "shipping_taxes_calculated_at_checkout": "Versandkosten werden an der Kasse berechnet",
-        "loading": "Wir erstellen Ihren Warenkorb...",
+        "loading": "Wir erstellen Ihren Warenkorb…",
         "secured_by": "Gesichert durch Snipcart",
         "empty": "Ihr Warenkorb ist leer"
     },
     "order": {
-        "loading": "Wir laden Ihre Bestelldaten..."
+        "loading": "Wir laden Ihre Bestelldaten…"
     },
     "discount_box": {
         "promo_code": "Gutscheincode?"
     },
     "address_form": {
-        "email": "Email",
+        "email": "E-Mail",
         "address1": "Strasse",
         "address2": "Adresszusatz",
         "province": "Kanton"
@@ -37,11 +37,14 @@
         "show_more_orders": "Weitere %{smart_count} Bestellungen anzeigen |||| %{smart_count} weitere Bestellungen"
     },
     "signin_form": {
-        "email": "Email"
+        "email": "E-Mail"
     },
     "register_form": {
         "already_have_an_account": "Bereits ein Konto?",
-        "email": "Email"
+        "email": "E-Mail",
+        "requires_action": {
+            "description": "Diese E-Mail-Adresse wurde bereits für eine Bestellung verwendet. Bitte schliessen Sie den Registrierungsprozess ab, indem Sie den Link verwenden, der Ihnen per E-Mail zugesandt wurde."
+        }
     },
     "guest_checkout": {
         "continue_as_a_guest": "Als Gast fortfahren"
@@ -55,7 +58,7 @@
         "title": "Bezahlung",
         "continue_to_payment": "Weiter zu Bezahlung",
         "place_order": "Kostenpflichtig bestellen",
-        "processing_payment": "Zahlung bearbeiten...",
+        "processing_payment": "Zahlung bearbeiten…",
         "checkout_with": "Auschecken mit",
         "checkout_with_method": "Mit %{method} auschecken",
         "no_payment": "Für diese Bestellung ist keine Zahlung erforderlich.",
@@ -88,7 +91,7 @@
       "order_validation":{
         "domain_crawling":{
             "title":"Bestellung nicht bearbeitbar.",
-            "description":"Sie wurden nicht belastet. Bitte kontaktieren Sie den Shopbesitzer für Details."
+            "description":"Ihre Zahlungsmethode wurde nicht belastet. Bitte kontaktieren Sie den Shopbesitzer für Details."
         },
         "product_crawling":{
             "title":"Einzelne Produktpreise ev. geändert.",
@@ -118,7 +121,7 @@
       },
       "customer_exists": "Diese E-Mail wird bereits verwendet.",
       "customer_password_missmatch": "Die beiden Kennworte müssen übereinstimmen.",
-      "invalid_credentials": "Ungültige Email oder Kennwort.",
+      "invalid_credentials": "Ungültige E-Mail oder Kennwort.",
       "no_shipping_rates_found": {
           "title": "Keine Versandart für Ihre Bestellung verfügbar",
           "description": "Bitte überprüfen Sie die Lieferadresse oder kontaktieren Sie uns."
