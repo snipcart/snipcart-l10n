@@ -173,7 +173,7 @@
         "invalid_expiry_year_past": "La carte est expirée",
         "email": "Veuillez spécifier une adresse courriel valide",
         "quantity_revised": "La quantité a été modifiée en raison d'un stock limité.",
-        "quantity_out_of_stock": "Malheureusement, cet produit n'est plus en stock, supprimez-le du panier pour continuer.",
+        "quantity_out_of_stock": "Malheureusement, ce produit n'est plus en stock, supprimez-le du panier pour continuer.",
         "error_payment_items_are_invalid": {
             "title": "Certains produits dans votre panier sont invalides",
             "description": "Veuillez réviser votre commande, ou réessayer plus tard."
