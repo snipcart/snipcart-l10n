@@ -898,7 +898,7 @@
         "form": {
             "deferred_payment_title": "Deferred Payment",
             "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
-            "card_label": "Credit card",
+            "card_label": "Debit/Credit card",
             "card_number": "Card number",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
@@ -911,7 +911,7 @@
         "still_pending_notice": "Your payment is still being processed.",
         "title": "Payment",
         "continue_to_payment": "Continue to payment",
-        "credit_card": "Credit card",
+        "credit_card": "Debit/Credit card",
         "place_order": "Place order",
         "preparing_payment_session": "Preparing payment...",
         "processing_payment": "Processing payment...",
@@ -920,7 +920,7 @@
         "method_icon": "%{method} icon",
         "no_payment": "No payment is required for this order.",
         "methods": {
-            "card": "Credit card",
+            "card": "Debit/Credit card",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
             "apple_pay": "Apple Pay",
