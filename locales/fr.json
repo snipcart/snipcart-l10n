@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Chargement…",
+        "error": "Une erreur s'est produite.",
+        "success": "Succès!"
+    },
     "actions": {
         "edit": "Modifier",
         "cancel": "Annuler",
@@ -6,12 +11,20 @@
         "back_to_checkout": "Retour au paiement",
         "checkout": "Paiement",
         "apply": "Appliquer",
+        "dismiss": "Rejeter",
         "type_address": "Saisissez votre adresse",
         "use_this_address": "Utiliser cette adresse",
         "back_to_store": "Retourner sur la boutique",
         "close_cart": "Fermer le panier",
         "show": "Afficher",
-        "hide": "Cacher"
+        "hide": "Cacher",
+        "apply_changes": "Appliquer les changements",
+        "yes_use_it": "Oui, utilise-le",
+        "save_changes": "Sauvegarder les modifications",
+        "back_to_orders": "Retour aux commandes",
+        "change_password": "Changer le mot de passe",
+        "clear_cart": "Vider le panier",
+        "add": "Ajouter"
     },
     "header": {
         "title_cart_summary": "Sommaire du panier",
@@ -22,7 +35,13 @@
         "quantity_short": "Qté",
         "decrement_quantity": "Diminuer la quantité",
         "increment_quantity": "Augmenter la quantité",
-        "remove_item": "Supprimer le produit"
+        "remove_item": "Supprimer le produit",
+        "recurrence": {
+            "daily": "jour |||| %{smart_count} jours",
+            "weekly": "semaine |||| %{smart_count} semaines",
+            "monthly": "mois |||| %{smart_count} mois",
+            "yearly": "année |||| %{smart_count} années"
+        }
     },
     "cart": {
         "subtotal": "Sous-total",
@@ -31,10 +50,12 @@
         "secured_by": "Sécurisé par Snipcart",
         "summary": "Sommaire",
         "empty": "Votre panier est vide",
-        "invoice_number": "Numéro de la facture"
+        "invoice_number": "Numéro de la facture",
+        "view_detailed_cart": "Voir le panier détaillé"
     },
     "order": {
-        "loading": "Chargement des détails de votre commande…"
+        "loading": "Chargement des détails de votre commande…",
+        "title": "Commande"
     },
     "discount_box": {
         "promo_code": "Code promo ?",
@@ -60,11 +81,23 @@
     },
     "customer": {
         "information": "Informations client",
-        "payment_info": "Mes infos de paiement"
+        "payment_info": "Mes infos de paiement",
+        "payment_method_update": {
+            "title": "Changement du moyen de paiement",
+            "outstanding_payment_failed": {
+                "title": "Échec du paiement",
+                "description": "Votre mode de paiement a été mis à jour, mais nous n'avons pas été en mesure de débiter le solde impayé. Veuillez utiliser un autre moyen de paiement."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Détails du client"
     },
     "customer_dashboard": {
         "my_account": "Mon compte",
         "ordered_on": "Commandé le",
+        "next_billing_date": "Next billing date",
+        "price": "Price",
         "total": "Total",
         "status": "Statut",
         "order": "Commande %{invoice_number}",
@@ -74,7 +107,19 @@
         "no_subscriptions": "Aucun abonnement trouvé.",
         "view_invoice": "Voir la facture",
         "sign_out": "Déconnexion",
-        "show_more_orders": "Afficher une commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires"
+        "show_more_orders": "Afficher une commande supplémentaire |||| Afficher %{smart_count} commandes supplémentaires",
+        "show_more_subscriptions": "Afficher un abonnement supplémentaire |||| Afficher %{smart_count} abonnements de plus",
+        "orders": "Commandes",
+        "subscriptions": "Abonnements",
+        "subscription": "Abonnement"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Un paiement est dû pour un abonnement",
+                "description": "Vous avez actuellement un abonnement avec un retard de paiement. Veuillez mettre à jour votre mode de paiement en cliquant sur Modifier à côté de celui-ci dans vos coordonnées."
+            }
+        }
     },
     "signin_form": {
         "signin": "Connexion",
@@ -91,14 +136,31 @@
         "email_instructions": "Un courriel contenant un lien vous a été envoyé. Cliquez dessus pour réinitialiser votre mot de passe.",
         "action": "Envoyer un courriel de réinitialisation du mot de passe"
     },
+    "reset_password_form": {
+        "title": "Réinitialiser votre mot de passe",
+        "password": "Nouveau mot de passe",
+        "confirmation_password": "Confirmation du mot de passe",
+        "action": "Réinitialiser le mot de passe"
+    },
+    "change_password_form": {
+        "title": "Modifier votre mot de passe",
+        "current_password": "Mot de passe actuel",
+        "password": "Nouveau mot de passe",
+        "confirmation_password": "Confirmation du mot de passe",
+        "action": "Modifier le mot de passe"
+    },
     "register_form": {
         "register": "Inscription",
         "already_have_an_account": "Déjà un compte ?",
         "email": "Courriel",
         "password": "Mot de passe",
-        "confirm_password": "Confirmation du mot de passe"
+        "confirm_password": "Confirmation du mot de passe",
+        "requires_action": {
+            "title": "Vérifier vos courriels",
+            "description": "Cette adresse e-mail a déjà été utilisée pour finaliser une commande. Veuillez compléter le processus d'inscription en utilisant le lien qui vous a été envoyé par courriel."
+        }
     },
-    "alternative": {
+    "guest_checkout": {
         "or": "Ou",
         "continue_as_a_guest": "Continuer en tant qu'invité"
     },
@@ -106,20 +168,27 @@
         "title": "Livraison",
         "shipping_to": "Livrer à :",
         "address": "Adresse de livraison",
-        "method": "Méthode de livraison"
+        "method": "Méthode de livraison",
+        "methods": {
+            "example_localization_id": "Ceci est un exemple de méthode d'expédition localisée"
+        }
     },
     "shipping_rates": {
         "guaranteed_delivery_days": "Garanti d'être livré en %{guaranteedDaysToDelivery} jour(s)."
     },
     "payment": {
-        "form":{
+        "form": {
             "deferred_payment_title": "Paiement differé",
             "deferred_payment_instructions": "En passant cette commande, vous acceptez de payer plus tard via le moyen de paiement identifié par le commerçant.",
             "card_label": "Carte de crédit",
             "card_number": "Numéro de carte",
             "card_expiration": "MM/AA",
             "card_cvv": "CVV",
-            "card_postal_code": "Code postal"
+            "card_postal_code": "Code postal",
+            "invalid_number": "Numéro de carte invalide",
+            "invalid_expiration": "La date d'expiration est invalide",
+            "invalid_cvv": "Le CVV est invalide",
+            "invalid_postal_code": "Le code postal est invalide"
         },
         "still_pending_notice": "Votre paiement est en cours de traitement.",
         "title": "Paiement",
@@ -156,6 +225,8 @@
         "title": "Promotions"
     },
     "cart_summary": {
+        "taxes": "Taxes",
+        "taxes_included_in_price": "Certains articles ont des taxes incluses.",
         "total": "Total",
         "subtotal": "Sous-total",
         "shipping": "Livraison",
@@ -169,40 +240,101 @@
         "promocode_isnt_applicable": "Cette promotion n'est pas applicable",
         "promo_code_is_expired": "Cette promotion a expiré",
         "stringEmpty": "Ce champ est requis",
+        "emailEmpty": "Ce champ est requis",
         "required": "Ce champ est requis",
         "invalid_expiry_year_past": "La carte est expirée",
         "email": "Veuillez spécifier une adresse courriel valide",
         "quantity_revised": "La quantité a été modifiée en raison d'un stock limité.",
         "quantity_out_of_stock": "Malheureusement, ce produit n'est plus en stock, supprimez-le du panier pour continuer.",
+        "disabled_country": "Le pays sélectionné n'est pas disponible pour le paiement.",
         "error_payment_items_are_invalid": {
             "title": "Certains produits dans votre panier sont invalides",
             "description": "Veuillez réviser votre commande, ou réessayer plus tard."
         },
-        "order_validation":{
-          "domain_crawling":{
-              "title":"Votre commande n'a pas pu être complétée.",
-              "description":"Vous n'avez pas été chargé. Veuillez contacter le marchand pour plus de détails."
-          },
-          "product_crawling":{
-              "title":"Le prix de produits dans votre panier semble avoir changé.",
-              "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchand pour plus de détails."
-          },
-          "stock_validation":{
-              "title":"Produit en rupture de stock.",
-              "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantités ou contacter le marchand pour plus de détails."
-          },
-          "custom_fields_validation": {
-              "title": "Information requise manquante.",
-              "description": "Il manque des informations obligatoires pour certains produits du panier. Veuillez corriger le panier pour continuer."
-          },
-          "shipping_validation": {
-              "title": "La méthode de livraison n'est pas valide.",
-              "description": "La méthode de livraison sélectionnée semble avoir été modifiée ou n'est plus disponible. Veuillez contacter le marchand pour plus de détails."
-          }
+        "card": {
+            "invalid_number": "Le numéro de la carte est invalide.",
+            "invalid_date": "La date d'expiration de la carte est invalide.",
+            "invalid_year": "L'année d'expiration de la carte est invalide.",
+            "invalid_month": "Le mois d'expiration de la carte est invalide.",
+            "invalid_cvv": "Le CVV de la carte est invalide.",
+            "invalid_expiration": "La date d'expiration de la carte est invalide.",
+            "expired": "La carte de crédit est expirée",
+            "declined": "La carte a été refusée. Veuillez appeler l'émetteur de votre carte pour plus d'informations.",
+            "invalid_address": "L'adresse de la carte est incorrecte.",
+            "insufficient_funds": "Le compte ne disposait pas de fonds suffisants pour couvrir le montant de la transaction.",
+            "card_not_supported": "La carte n'est pas prise en charge dans la région géographique.",
+            "currency_not_supported": "La devise n'est pas prise en charge actuellement."
         },
+        "transaction": {
+            "declined": "Une erreur s'est produite lors du traitement de la carte. Réessayez plus tard ou avec un autre moyen de paiement."
+        },
+        "discounts": {
+            "conflict": "Certaines promotions ne sont pas cumulables. Utiliser cette promotion à la place ?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title":"Votre commande n'a pas pu être complétée.",
+                "description":"Vous n'avez pas été chargé. Veuillez contacter le marchand pour plus de détails."
+            },
+            "product_crawling": {
+                "title":"Le prix de produits dans votre panier semble avoir changé.",
+                "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchand pour plus de détails."
+            },
+            "stock_validation": {
+                "title":"Produit en rupture de stock.",
+                "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantités ou contacter le marchand pour plus de détails."
+            },
+            "custom_fields_validation": {
+                "title": "Information requise manquante.",
+                "description": "Il manque des informations obligatoires pour certains produits du panier. Veuillez corriger le panier pour continuer."
+            },
+            "shipping_validation": {
+                "title": "La méthode de livraison n'est pas valide.",
+                "description": "La méthode de livraison sélectionnée semble avoir été modifiée ou n'est plus disponible. Veuillez contacter le marchand pour plus de détails."
+            }
+        },
+        "invalid_address": "L'adresse est invalide.",
         "shipping": {
             "title": "Impossible de calculer les frais de livraison.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance."
+            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance.",
+            "account_configuration": {
+                "title": "Aucune méthode d'expédition n'est actuellement disponible",
+                "description": "Réessayez plus tard ou contactez-nous pour obtenir de l'aide."
+            },
+            "rates_calculation": {
+                "title": "Impossible de calculer les frais de livraison pour votre commande.",
+                "description": "Réessayez plus tard ou contactez-nous pour obtenir de l'aide."
+            },
+            "no_rates_found": {
+                "title": "Aucune méthode d'expédition n'est disponible pour votre commande.",
+                "description": "Veuillez vérifier votre adresse de livraison ou nous contacter."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Le pays n'est pas pris en charge. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.ENGINE.UNAVAILABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.QUERY.UNANSWERABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.ADDRESS.NOT_FOUND": "Adresse introuvable. Veuillez valider votre adresse et réessayer.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informations secondaires invalides (Apt/Suite#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Informations secondaires manquantes (Apt/Suite#).",
+            "E.HOUSE_NUMBER.MISSING": "Le numéro de maison est manquant",
+            "E.HOUSE_NUMBER.INVALID": "Le numéro de maison est invalide.",
+            "E.STREET.MISSING": "La rue est manquante.",
+            "E.STREET.INVALID": "La rue n'est pas valide.",
+            "E.BOX_NUMBER.MISSING": "Le numéro de porte est manquant.",
+            "E.BOX_NUMBER.INVALID": "Le numéro de porte est invalide.",
+            "E.ADDRESS.INVALID": "Ville/état/code postal invalide.",
+            "E.ZIP.NOT_FOUND": "Code postal introuvable.",
+            "E.ZIP.INVALID": "Code postal invalide.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Code postal + 4 introuvable.",
+            "E.ADDRESS.MULTIPLE": "Plusieurs adresses ont été renvoyées avec le même code postal.",
+            "E.ADDRESS.INSUFFICIENT": "Adresse incorrecte. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.ADDRESS.DUAL": "Double adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.STREET.MAGNET": "Plusieurs adresses trouvées en raison du syndrome de la rue magnétique. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.CITY_STATE.INVALID": "Ville / état invérifiable.",
+            "E.STATE.INVALID": "État non valide.",
+            "E.ADDRESS.DELIVERY.INVALID": "Adresse de livraison invalide.",
+            "E.TIMED_OUT": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.TIME_ZONE.UNAVAILABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
+            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale."
         },
         "payment_failed": {
             "title": "Impossible de compléter votre paiement.",
@@ -212,16 +344,43 @@
             "title": "Impossible de compléter votre paiement",
             "default": "Veuillez vérifier vos informations de carte de crédit, ou réessayer plus tard."
         },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Impossible de traiter le paiement",
+                "description": "Nous n'avons pas été en mesure d'authentifier vos informations de paiement. Veuillez réessayer"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "L'abonnement n'a pas pu être ajouté au panier",
+                "description": "Un panier ne peut contenir qu'un seul abonnement à la fois."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Le produit n'a pas pu être ajouté au panier",
+                "description": "Le panier ne peut contenir que des articles ou un abonnement."
+            }
+        },
         "customer_exists": "Ce courriel est déjà utilisé.",
         "customer_password_missmatch": "Les mots de passe sont différents.",
+        "customer_password_token_expired": "Votre jeton de récupération de mot de passe a expiré.",
+        "customer_password_token_invalid": "Votre jeton de récupération de mot de passe n'est pas valide.",
+        "customer_not_found": "L'adresse e-mail n'est associée à aucun compte.",
         "invalid_credentials": "Courriel ou mot de passe invalide",
+        "customer_current_password_invalid": "Mot de passe invalide."
         "no_shipping_rates_found": {
             "title": "Pas de méthode de livraison disponible pour votre commande",
             "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
         }
     },
+    
+    "shippingRates": {
+        "loading": "Chargement des frais d'expédition"
+    },
     "customer_orders": {
         "loading": "Chargement…"
+    },
+    "digital_goods": {
+        "download": "Télécharger un fichier"
     },
     "confirmation": {
         "thank_you_for_your_order": "Merci pour votre commande.",
