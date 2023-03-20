@@ -191,7 +191,7 @@
         "title": "Korting"
     },
     "cart_summary": {
-        "taxes": "Belastingen",
+        "taxes": "BTW",
         "taxes_included_in_price": "Sommige producten bevatten BTW",
         "total": "Totaal",
         "subtotal": "Subtotaal",
