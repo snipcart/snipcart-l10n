@@ -366,7 +366,7 @@
         "customer_password_token_invalid": "Votre jeton de récupération de mot de passe n'est pas valide.",
         "customer_not_found": "L'adresse e-mail n'est associée à aucun compte.",
         "invalid_credentials": "Courriel ou mot de passe invalide",
-        "customer_current_password_invalid": "Mot de passe invalide."
+        "customer_current_password_invalid": "Mot de passe invalide.",
         "no_shipping_rates_found": {
             "title": "Pas de méthode de livraison disponible pour votre commande",
             "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
