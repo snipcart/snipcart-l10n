@@ -96,8 +96,8 @@
     "customer_dashboard": {
         "my_account": "Mon compte",
         "ordered_on": "Commandé le",
-        "next_billing_date": "Next billing date",
-        "price": "Price",
+        "next_billing_date": "Prochaine date de facturation",
+        "price": "Prix",
         "total": "Total",
         "status": "Statut",
         "order": "Commande %{invoice_number}",
