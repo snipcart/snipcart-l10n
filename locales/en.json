@@ -783,6 +783,8 @@
     "address_form": {
         "name": "Full name",
         "email": "Email",
+        "firstName": "First name",
+        "lastName": "Last name",
         "address1": "Street address",
         "address2": "Apt/Suite",
         "city": "City",

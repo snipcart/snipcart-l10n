@@ -65,6 +65,8 @@
     "address_form": {
         "name": "Nom complet",
         "email": "Courriel",
+        "firstName": "Prénom",
+        "lastName": "Nom",
         "address1": "Adresse civique",
         "address2": "Appartement",
         "city": "Ville",
