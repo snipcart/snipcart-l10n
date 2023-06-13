@@ -71,6 +71,7 @@
         "address2": "Appartement",
         "city": "Ville",
         "country": "Pays",
+        "phone": "Téléphone",
         "postalCode": "Code postal",
         "province": "Province",
         "dont_see_address": "Je ne trouve pas mon adresse"

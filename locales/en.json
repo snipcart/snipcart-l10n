@@ -789,6 +789,7 @@
         "address2": "Apt/Suite",
         "city": "City",
         "country": "Country",
+        "phone": "Phone",
         "postalCode": "Postal/ZIP code",
         "province": "Province/State",
         "dont_see_address": "I can't find my address"
