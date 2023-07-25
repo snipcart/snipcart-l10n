@@ -235,11 +235,11 @@
             "ideal": "iDEAL",
             "ing_home_pay": "ING Home’Pay",
             "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
+            "klarna_pay_later": "Klarna plačaj kasneje",
+            "klarna_slice_it": "Klarna mesečno financiranje",
             "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer",
+            "sepa_debit": "SEPA bančni prenos",
+            "sofort": "Sofort bančni prenos",
             "deferred_payment": "Odloženo plačilo"
         }
     },
