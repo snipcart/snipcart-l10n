@@ -66,6 +66,7 @@
         "address2": "Adres toevoeging",
         "city": "Plaats",
         "country": "Land",
+        "phone": "Telefoonnummer",
         "postalCode": "Postcode",
         "province": "Provincie",
         "dont_see_address": "Ik zie mijn adres niet in de lijst"
