@@ -93,10 +93,13 @@
     "address_form": {
         "name": "Name",
         "email": "E-Mail",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
         "address1": "Straße und Hausnummer",
         "address2": "Adresszusatz (optional)",
         "city": "Stadt",
         "country": "Land",
+        "phone": "Telefon",
         "postalCode": "Postleitzahl",
         "province": "Bundesland",
         "dont_see_address": "Ich kann meine Adresse nicht finden"
