@@ -73,10 +73,13 @@
     "address_form": {
         "name": "Nombre completo",
         "email": "Email",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
         "address1": "Dirección",
         "address2": "Número/Piso",
         "city": "Ciudad",
         "country": "País",
+        "phone": "Teléfono",
         "postalCode": "Código Postal",
         "province": "Provincia",
         "dont_see_address": "No encuentro mi dirección"
