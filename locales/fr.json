@@ -74,7 +74,8 @@
         "phone": "Téléphone",
         "postalCode": "Code postal",
         "province": "Province",
-        "dont_see_address": "Je ne trouve pas mon adresse"
+        "dont_see_address": "Je ne trouve pas mon adresse",   
+        "phone_number": "Numéro de téléphone"
     },
     "billing": {
         "title": "Facturation",
