@@ -50,7 +50,8 @@
         "country": "Bro",
         "postalCode": "Kod-post",
         "province": "Rannvro",
-        "dont_see_address": "Ne gavan ket ma chomlec'h"
+        "dont_see_address": "Ne gavan ket ma chomlec'h",
+        "phone_number": "Niverenn bellgomz"
     },
     "billing": {
         "title": "Fakturenniñ",
