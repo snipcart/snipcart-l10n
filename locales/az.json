@@ -1,0 +1,304 @@
+{
+    "actions": {
+        "edit": "Düzəliş et",
+        "cancel": "Ləğv et",
+        "continue_shopping": "Alış-verişə davam et",
+        "back_to_checkout": "Ödəməyə geri dön",
+        "checkout": "Ödəmə",
+        "apply": "Tətbiq et",
+        "type_address": "Adresini daxil et",
+        "use_this_address": "Bu adresi istifadə et",
+        "back_to_store": "Mağazaya geri dön",
+        "close_cart": "Səbəti bağla",
+        "show": "Göstər",
+        "hide": "Gizlət",
+        "apply_changes": "Yenilikləri tətbiq et",
+        "yes_use_it": "Bəli, istifadə et",
+        "save_changes": "Yenilikləri təsdiqlə",
+        "back_to_orders": "Sifarişə geri dön",
+        "change_password": "Şifrəni dəyiş",
+        "add": "Əlavə et"
+    },
+    "header": {
+        "title_cart_summary": "Səbətiniz",
+        "loading": "Yüklənir..."
+    },
+    "item": {
+        "quantity": "Miqdar",
+        "quantity_short": "Say",
+        "decrement_quantity": "Miqdarı azalt",
+        "increment_quantity": "Miqdarı artır",
+        "remove_item": "Məhsulu sil",
+        "recurrence": {
+            "daily": "gün |||| %{smart_count} günlər",
+            "weekly": "həftə |||| %{smart_count} həftələr",
+            "monthly": "ay |||| %{smart_count} aylar",
+            "yearly": "il |||| %{smart_count} illər"
+        }
+    },
+    "subscription": {
+        "plan": "Abone planı",
+        "billed_on": "Billed on",
+        "payment_amount": "Abone xərci"
+    },
+    "cart": {
+        "subtotal": "Ara cəmi",
+        "shipping_taxes_calculated_at_checkout": "Çatdırılma xərcləri avtomatik çıxılacaq.",
+        "loading": "Səbətiniz hazırlanır...",
+        "secured_by": "Snipcart tərəfindən qorunur",
+        "summary": "Sifariş məzmunu",
+        "empty": "Səbətiniz boşdur.",
+        "invoice_number": "Faktura nömrəsi",
+        "view_detailed_cart": "Səbətin detallarını göstər"
+    },
+    "order": {
+        "loading": "Sifarişiniz hazırlanır..."
+    },
+    "discount_box": {
+        "promo_code": "Promo kodu",
+        "promo_code_placeholder": "Promo kodu",
+        "promocode_applied": "Promo kodu daxil edildi"
+    },
+    "address_form": {
+        "name": "Tam ad",
+        "email": "Email",
+        "address1": "Adres",
+        "address2": "Mənzil/No",
+        "city": "Rayon/Şəhər",
+        "country": "Ölkə",
+        "postalCode": "Poçt indeksi",
+        "province": "Region",
+        "dont_see_address": "Adresim mövcud deyil"
+    },
+    "billing": {
+        "title": "Ödəmə",
+        "address": "Ödəmə adresi",
+        "continue_to_shipping": "Çatdırılmaya davam edin",
+        "use_different_shipping_address": "Fərqli çatdırılma adresi istifadə olunsun"
+    },
+    "customer": {
+        "information": "Müştəri məlumatı"
+    },
+    "customer_details": {
+        "title": "Müştəri məlumatı"
+    },
+    "customer_dashboard": {
+        "my_account": "Mənim hesabım",
+        "ordered_on": "Sifariş tarixi",
+        "next_billing_date": "Növbəti ödəniş tarixi",
+        "price": "Xərc",
+        "total": "Ümumi",
+        "status": "Status",
+        "order": "Sifariş %{invoice_number}",
+        "order_details": "Sifariş məlumatı",
+        "loading": "Yüklənir...",
+        "no_orders": "Sifariş tapılmadı.",
+        "no_subscriptions": "Abonə məlumatı tapılmadı.",
+        "view_invoice": "Fakturanı göstər",
+        "sign_out": "Hesabdan çıx",
+        "show_more_orders": "%{smart_count} sifariş daha göstər |||| %{smart_count} sifariş daha göstər",
+        "orders": "Sifarişlər"
+    },
+    "signin_form": {
+        "signin": "Daxil ol",
+        "dont_have_an_account": "Hesabınız yoxdur?",
+        "email": "Email",
+        "password": "Şifrə",
+        "forgot_your_password": "Şifrənizi unutdunuz?",
+        "close_form": "Geri dön"
+    },
+    "forgot_password_form": {
+        "title": "Şifrəni yenilə",
+        "instructions": "Hesabınızın email adresini daxil edin və şifrənizi yeniləmək üçün göndərəcəyimiz maili gözləyin.",
+        "email": "Email",
+        "email_instructions": "Şifrənizi dəyişdirmək üçün link göndərilmişdir. Qəbul etdiyiniz maili açın və linkə daxil olun.",
+        "action": "Şifrə göndər və emaili yenilə"
+    },
+    "reset_password_form": {
+        "title": "Şifrəni yenilə",
+        "password": "Yeni şifrə",
+        "confirmation_password": "Yeni şifrəni təkrar edin",
+        "action": "Şifrəni yeniləyin"
+    },
+    "change_password_form": {
+        "title": "Şifrəni dəyiş",
+        "current_password": "İşlətdiyiniz şifrə",
+        "password": "Yeni şifrə",
+        "confirmation_password": "Yeni şifrəni təkrar edin",
+        "action": "Şifrəni dəyişin"
+    },
+    "register_form": {
+        "register": "Qeydiyyatdan keç",
+        "already_have_an_account": "Hesabınız var?",
+        "email": "Email",
+        "password": "Şifrə",
+        "confirm_password": "Şifrəni təsdiqlə"
+    },
+    "guest_checkout": {
+        "or": "və ya",
+        "continue_as_a_guest": "Hesabsız davam et"
+    },
+    "shipping": {
+        "title": "Çatdırılma",
+        "shipping_to": "Çatdırılma ediləcək adres:",
+        "address": "Çatdırılma adresi",
+        "method": "Çatdırılma metodu"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Daha sonra ödəniş et",
+            "deferred_payment_instructions": "Bu metodu seçməklə siz ödənişi kart yolundan fərqli olmaqla nəğd və ya qapıda ödəmə ilə həyata keçirirsiniz.",
+            "card_label": "Kart",
+            "card_number": "Kart nömrəsi",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Kart poçt indeksi"
+        },
+        "still_pending_notice": "Ödənişiniz yüklənir.",
+        "title": "Ödəniş",
+        "continue_to_payment": "Ödənişə davam et",
+        "credit_card": "Kart",
+        "place_order": "Sifarişi təsdiqlə",
+        "preparing_payment_session": "Ödənişiniz qeyd olunur...",
+        "processing_payment": "Ödənişiniz təsdiqlənir...",
+        "checkout_with": "Bu metodla ödəmə et",
+        "checkout_with_method": "Ödəmə ediləcək metod %{method}",
+        "method_icon": "%{method} ikonu",
+        "no_payment": "Bu sifariş ödəmə tələb etmir.",
+        "methods": {
+            "card": "Kart",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home’Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna sonradan ödəmə et",
+            "klarna_slice_it": "Klarna aylıq çıxarış",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA banka transfer",
+            "sofort": "Sofort banka transfer",
+            "deferred_payment": "Ödəməni sonra et"
+        }
+    },
+    "discounts": {
+        "title": "Endirimlər"
+    },
+    "cart_summary": {
+        "taxes": "Vergilər",
+        "taxes_included_in_price": "Bəzi məhsullar vergi tələb edir.",
+        "total": "Cəmi",
+        "subtotal": "Yarı cəmi",
+        "shipping": "Çatdırılma",
+        "discount": "Endirimlər",
+        "quantity": "x"
+    },
+    "errors": {
+        "default": "Xəta baş verdi. Yenidən cəhd edi və ya bizimlə əlaqə saxlayın.",
+        "promo_code_is_invalid": "Bu promo kod aktiv deyil",
+        "promocode_already_in_cart": "Bu promo kod artıq istifadə olunub",
+        "promocode_isnt_applicable": "Bu promo kod əsaslı deyil",
+        "promo_code_is_expired": "Bu promo kodun müddəti bitmişdir",
+        "stringEmpty": "Bu sahə doldurulmalıdır!",
+        "required": "Bu sahə doldurulmalıdır!",
+        "invalid_expiry_year_past": "Kartın müddəti bitmişdir",
+        "email": "Zəhmət olmasa etibarlı email adresi daxil edin",
+        "quantity_revised": "Stokdaki limitlərə görə səbətdəki miqdarda dəyişiklik edilmişdir.",
+        "quantity_out_of_stock": "Təəssüf ki, bu məshulun stoku bitmişdir, davam edəbilmək üçün bu məhsulu səbətdən silməlisiniz.",
+        "error_payment_items_are_invalid": {
+            "title": "Səbətinizdəki bəzi məhsullar etibarsızdır",
+            "description": "Zəhmət olmasa səbətdə düzəliş edin və yenidən cəhd edin."
+        },
+        "card": {
+            "invalid_number": "Kart nömrəsi etibarsızdır.",
+            "invalid_date": "Kartın son istifadə ayı bitib.",
+            "invalid_year": "Kartın son istifadə ili bitib.",
+            "invalid_month": "Kartın son istifadə ayında xəta.",
+            "invalid_cvv": "daxil etdiyiniz CVV xətalıdır.",
+            "invalid_expiration": "Kartın son istifadə müddəti xətalıdır.",
+            "expired": "Kartın son istifadə müddəti bitib",
+            "declined": "Kartdan istifadə ləğv edildi. Zəhmət olmasa kartın təsisçisi bankla əlaqə saxlayın.",
+            "invalid_address": "Kartın adresi xətalıdır.",
+            "insufficient_funds": "Hesabda əməliyyat məbləğini ödəmək üçün kifayət qədər vəsait yox idi.",
+            "card_not_supported": "Daxil etdiyiniz kart dəstəklənmir.",
+            "currency_not_supported": "Daxil etdiyiniz pul vahidi dəstəklənmir."
+        },
+        "transaction": {
+            "declined": "Kartı daxil edərkən xəta baş verdi. Zəhmət olmasa yenidən cəhd edin və ya yeni metod tətbiq edin."
+        },
+        "discounts": {
+            "conflict": "Bəzi endirimlər birləşdirilə bilməz. Əvəzinə bu endirimdən yararlanmaq istəyərdiniz?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Sifariş qeyd edilmədi.",
+                "description": "Tərəfinizdən heç bir ödəmə alınmamışdır. Xaiş olunur mağaza ilə əlaqə saxlayın."
+            },
+            "product_crawling": {
+                "title": "Səbətinizdəki məhsullarda qiymət dəyişikliyi baş vermiş olabilər.",
+                "description": "Məhsulları silib yenidən əlavə edin. Daha detallı dəstək üçün mağaza ilə əlaqə saxlayın."
+            },
+            "stock_validation": {
+                "title": "Qeyd edilən sayda məhsul stokda yoxdur.",
+                "description": "Bəzi məhsullar stokda yoxdur. Səbətinizə nəzərdən keçirin və ya daha detallı dəstək üçün mağaza ilə əlaqə saxlayın."
+            },
+            "custom_fields_validation": {
+                "title": "Yetərsiz məlumat.",
+                "description": "Səbətinizdəki bəzi məhsulların əhəmiyyətli məlumatları yoxdur . Zəhmət olmasa səbətdə düzəliş edin və ya daha detallı dəstək üçün mağaza ilə əlaqə saxlayın."
+            },
+            "shipping_validation": {
+                "title": "Çatdırılma metodu etibarlı deyil.",
+                "description": "Seçdiyiniz çatdırılma metodu dəyişdirilmiş və ya ləğv olunmuş olabilər. Daha detallı dəstək üçün mağaza ilə əlaqə saxlayın."
+            }
+        },
+        "shipping": {
+            "account_configuration": {
+                "title": "Çatdırılma metodu mövcud deyil",
+                "description": "Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+            },
+            "rates_calculation": {
+                "title": "Çatdırılma xərcini hesablamaqda xəta baş verdi",
+                "description": "Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+            },
+            "no_rates_found": {
+                "title": "Sifarişiniz üçün çatdırılma metodu mövcud deyil",
+                "description": "Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+            }
+        },
+        "payment_failed": {
+            "title": "Ödənişi qəbul edərkən xəta baş verdi",
+            "description": "Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+        },
+        "payment_authorization": {
+            "title": "Ödənişin təsdiqlənməsində xəta baş verdi",
+            "default": "Zəhmət olmasa ödəniş məlumatlarınızda düzəliş edin."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Ödənişin təsdiqlənməsində xəta baş verdi",
+                "description": "Ödəniş metodunuzu autentifikasiya etməkdə uğursuzluq yaşandı. Yenidən cəhd edin"
+            }
+        },
+        "customer_exists": "Bu email artıq istifadə olunur.",
+        "customer_password_missmatch": "İki parol uyğun olmalıdır.",
+        "customer_password_token_expired": "Parolun bərpası tokeninin müddəti bitmişdir.",
+        "customer_password_token_invalid": "Parolun bərpası tokeni etibarsızdır.",
+        "customer_not_found": "Bu email istifadə olunmur.",
+        "invalid_credentials": "Etibarsız email və ya şifrə.",
+        "customer_current_password_invalid": "Etibarsız şifrə."
+    },
+    "customer_orders": {
+        "loading": "Yüklənir..."
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Sifarişiniz üçün təşəkkür edirik",
+        "async_confirmation_notice": "Sifarişiniz təsdiqləndi və hazırlanır. Ən qısa müddətdə əlaqə saxlanılacaqdır."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Çatdırılma xərci və vergilər, adres daxil edildiktən sonra hesablanacaqdır."
+    }
+}
