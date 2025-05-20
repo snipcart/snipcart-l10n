@@ -33,7 +33,8 @@
         "secured_by": "Защищено Snipcart",
         "summary": "Итог",
         "empty": "Ваша корзина пуста.",
-        "invoice_number": "Номер счета"
+        "invoice_number": "Номер счета",
+        "view_detailed_cart": "Просмотреть корзину подробно"
     },
     "order": {
         "loading": "Собираем детали вашего заказа..."
