@@ -2,14 +2,14 @@
     "default": {
         "Loading...": "Жүктелуде...",
         "An error occured.": "Қате орын алды.",
-        "Success!": "Сәттілік!"
+        "Success!": "Сәтті өтті!"
     },
     "actions": {
         "edit": "Өзгеру",
         "cancel": "Бас тарту",
         "continue_shopping": "Сатып алуды жалғастыру",
         "back_to_checkout": "Кассаға оралу",
-        "checkout": "Төлем жасау",
+        "checkout": "Кассалық рәсімдеу",
         "apply": "Қолдану",
         "type_address": "Мекенжайыңызды теріңіз",
         "use_this_address": "Осы мекенжайды пайдаланыңыз",
@@ -85,7 +85,7 @@
         "title": "Тапсырыс"
     },
     "discount_box": {
-        "promo_code": "Промокод бар ма?",
+        "promo_code": "Промокод",
         "promo_code_placeholder": "Промокод",
         "promocode_applied": "Жеңілдік қолданылды"
     },
@@ -130,7 +130,7 @@
         "price": "Бағасы",
         "total": "Жалпы",
         "status": "Күйі",
-        "order": "Тапсырыс %{invoice_number",
+        "order": "Тапсырыс %{invoice_number}",
         "order_details": "Тапсырыс мәліметтері",
         "loading": "Жүктелуде...",
         "no_orders": "Тапсырыстар табылмады.",
