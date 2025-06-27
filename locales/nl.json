@@ -62,6 +62,8 @@
     "address_form": {
         "name": "Volledige naam",
         "email": "Email",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
         "address1": "Straat en huisnummer",
         "address2": "Adres toevoeging",
         "city": "Plaats",
