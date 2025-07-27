@@ -291,7 +291,7 @@
             "invalid_expiration": "Das Ablaufdatum der Karte ist ungültig.",
             "expired": "Die Kreditkarte ist abgelaufen",
             "declined": "Die Karte wurde abgelehnt. Bitte wenden Sie sich an Ihren Kartenaussteller, um weitere Informationen zu erhalten.",
-            "invalid_address": "Die Adresse der Karte ist falsch.",
+            "invalid_address": "Die Adresse der Karte ist ungültig.",
             "insufficient_funds": "Das Konto verfügt nicht über ausreichende Mittel, um den Transaktionsbetrag zu decken.",
             "card_not_supported": "Die Karte wird in dieser Region nicht unterstützt.",
             "currency_not_supported": "Die Währung wird derzeit nicht unterstützt."
@@ -324,6 +324,7 @@
                 "description": "Der gewählte Versandtarif hat sich möglicherweise geändert oder ist nicht mehr verfügbar. Bitte wenden Sie sich an den Shop-Betreiber, um weitere Informationen zu erhalten."
             }
         },
+        "invalid_address": "Die Adresse ist ungültig.",
         "shipping": {
             "account_configuration": {
                 "title": "Derzeit ist keine Versandmethode verfügbar",
