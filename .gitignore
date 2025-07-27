@@ -86,3 +86,4 @@ typings/
 
 # IDE Settings
 .idea
+.nova
