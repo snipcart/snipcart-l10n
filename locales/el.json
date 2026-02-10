@@ -62,13 +62,16 @@
     "address_form": {
         "name": "Ονοματεπώνυμο",
         "email": "Email",
+        "firstName": "Όνομα",
+        "lastName": "Επώνυμο",
         "address1": "Διεύθυνση",
         "address2": "Όροφος",
         "city": "Πόλη",
         "country": "Χώρα",
+        "phone": "Τηλέφωνο",
         "postalCode": "Τ.Κ.",
         "province": "Νομός",
-        "dont_see_address": "Δεν βλέπω τη διεύθυνση μου"
+        "dont_see_address": "Δεν βλέπω τη διεύθυνσή μου"
     },
     "billing": {
         "title": "Χρέωση",
@@ -186,6 +189,8 @@
         "title": "Έκπτωση"
     },
     "cart_summary": {
+        "taxes": "ΦΠΑ",
+        "taxes_included_in_price": "Ορισμένα προϊόντα περιλαμβάνουν φόρους.",
         "total": "Σύνολο",
         "subtotal": "Μερικό σύνολο",
         "shipping": "Έξοδα αποστολής",
