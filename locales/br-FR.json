@@ -43,6 +43,8 @@
     },
     "address_form": {
         "name": "Anv ha anv-bihan",
+        "firstName": "Anv-bihan",
+        "lastName": "Anv",
         "email": "Postel",
         "address1": "Chomlec'h kas",
         "address2": "Ranndi",
