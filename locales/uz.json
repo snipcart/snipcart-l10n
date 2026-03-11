@@ -162,7 +162,8 @@
         "subtotal": "Jami",
         "shipping": "Yetklazib berish",
         "discount": "Chegirmalar",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi"
     },
     "errors": {
         "default": "Xato yuz berdi. Qaytadan urinib ko'ring yoki biz bilan bog'laning.",

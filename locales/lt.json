@@ -178,7 +178,8 @@
         "subtotal": "Tarpinė suma",
         "shipping": "Siuntimas",
         "discount": "Nuolaidos",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Paskaičiuota mokėjimo metu"
     },
     "errors": {
         "default": "Įvyko klaida, bandykite vėliau arba susisiekite su mumis.",

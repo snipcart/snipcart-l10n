@@ -199,7 +199,8 @@
         "subtotal": "Neto iznos",
         "shipping": "Dostava",
         "discount": "Popust",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Obračunato nakon unosa podataka"
     },
     "errors": {
         "default": "Došlo je do pogreške, pokušajte ponovo kasnije ili nas kontaktirajte.",

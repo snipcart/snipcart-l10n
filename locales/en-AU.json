@@ -40,7 +40,8 @@
     },
     "cart_summary": {
         "taxes": "Tax",
-        "taxes_included_in_price": "Some items have tax included."
+        "taxes_included_in_price": "Some items have tax included.",
+        "calculated_at_checkout": "Calculated at checkout"
     },
     "errors": {
         "shipping": {

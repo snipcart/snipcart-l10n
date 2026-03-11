@@ -163,7 +163,8 @@
         "subtotal": "Подитог",
         "shipping": "Доставка",
         "discount": "Скидки",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Рассчитано при оформлении заказа"
     },
     "errors": {
         "default": "Произошла ошибка, попробуйте снова или свяжитесь с нами.",

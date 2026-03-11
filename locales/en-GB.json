@@ -195,7 +195,8 @@
         "subtotal": "Subtotal",
         "shipping": "Delivery",
         "discount": "Discounts",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Calculated at checkout"
     },
     "errors": {
         "default": "An error occurred, try again later or contact us.",

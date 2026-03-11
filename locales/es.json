@@ -219,7 +219,8 @@
       "subtotal": "Subtotal",
       "shipping": "Envío",
       "discount": "Descuentos",
-      "quantity": "x"
+      "quantity": "x",
+      "calculated_at_checkout": "Calculado antes del pago"
     },
     "errors": {
       "default": "Ocurrió un error, inténtelo de nuevo más tarde o contacte con nosotros.",

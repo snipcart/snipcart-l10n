@@ -253,7 +253,8 @@
         "subtotal": "Vmesni znesek",
         "shipping": "Dostava",
         "discount": "Popusti",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Obračunano pri plačilu"
     },
     "errors": {
         "default": "Napaka, poskusite kasneje ali pa nas kontaktirajte.",
