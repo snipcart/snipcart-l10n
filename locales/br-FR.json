@@ -132,7 +132,8 @@
         "subtotal": "Ishollad",
         "shipping": "Degasadenn",
         "discount": "Brudwerzhioù",
-        "quantity": "k"
+        "quantity": "k",
+        "calculated_at_checkout": "Jedet da vare ar paeamant"
     },
     "errors": {
         "default": "C'hoarvezet ez eus bet ur fazi",

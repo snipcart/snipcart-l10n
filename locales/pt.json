@@ -57,7 +57,8 @@
       "title": "Descontos"
     },
     "cart_summary": {
-      "discount": "Descontos"
+      "discount": "Descontos",
+      "calculated_at_checkout": "Calculado no checkout"
     },
     "errors": {
         "promocode_already_in_cart": "Este código promocional já está aplicado"

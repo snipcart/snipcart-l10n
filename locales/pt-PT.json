@@ -85,7 +85,8 @@
     },
     "cart_summary": {
       "shipping": "Portes",
-      "discount": "Descontos"
+      "discount": "Descontos",
+      "calculated_at_checkout": "Calculado durante o checkout"
     },
     "errors": {
       "default": "Ocorreu um erro",

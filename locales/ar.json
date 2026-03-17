@@ -145,7 +145,8 @@
       "subtotal": "المبلغ الإجمالي",
       "shipping": "الشحن",
       "discount": "الخصم",
-      "quantity": "x"
+      "quantity": "x",
+      "calculated_at_checkout": "يتم احتسابها عند الدفع"
     },
     "errors": {
       "default": "حدث خطأ ، حاول مرة أخرى في وقت لاحق أو اتصل بنا.",

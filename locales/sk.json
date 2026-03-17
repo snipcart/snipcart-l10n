@@ -148,7 +148,8 @@
         "subtotal": "Medzisúčet",
         "shipping": "Poštovné",
         "discount": "Zľavy",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Vypočítané v pokladni"
     },
     "errors": {
         "default": "Vyskytla sa neočakávaná chyba, vyskúšajte to neskôr alebo nás kontaktujte.",

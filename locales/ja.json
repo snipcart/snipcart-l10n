@@ -259,7 +259,8 @@
         "subtotal": "小計",
         "shipping": "配送",
         "discount": "割引",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "お支払い時に計算されます"
     },
     "errors": {
         "default": "エラーが発生しました。再度お試しいただくか、お問い合わせください。",

@@ -148,7 +148,8 @@
       "subtotal": "Välisumma",
       "shipping": "Toimituskulut",
       "discount": "Alennukset",
-      "quantity": "x"
+      "quantity": "x",
+      "calculated_at_checkout": "Lasketaan kassalla"
     },
     "errors": {
       "default": "Tapahtui käsittelemätön virhe. Yritä uudestaan tai ota yhteyttä.",
