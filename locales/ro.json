@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Se încarcă...",
+        "error": "A apărut o eroare.",
+        "success": "Succes!"
+    },
     "actions": {
         "edit": "Modificați",
         "cancel": "Anulați",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Înapoi la comanda",
         "checkout": "Finalizați comanda",
         "apply": "Aplică modificările",
+        "dismiss": "Respinge",
         "type_address": "Introduceți adresa",
         "use_this_address": "Folosește această adresă",
         "back_to_store": "Înapoi la magazin",
@@ -17,6 +23,7 @@
         "save_changes": "Salvați modificările",
         "back_to_orders": "Înapoi la comenzi",
         "change_password": "Modifică parola",
+        "clear_cart": "Golește coșul",
         "add": "Adaugă"
     },
     "header": {
@@ -37,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Abonament",
+        "state": {
+            "title": "Stare",
+            "active": "Activ",
+            "paused": "Suspendat",
+            "finished": "Finalizat",
+            "stopped": "Oprit",
+            "cancellationrequested": "Abonamentul se va încheia la finalul perioadei de facturare."
+        },
+        "placed_on": "Data comenzii",
+        "final_billing_date": "Ultima dată de facturare",
+        "items": "Articole",
         "plan": "Plan",
         "billed_on": "Facturat la data de",
-        "payment_amount": "Suma de plată"
+        "payment_amount": "Suma de plată",
+        "processing": "Abonamentul este încă în curs de procesare. Reveniți mai târziu.",
+        "loading": "Se încarcă abonamentele",
+        "cancel": "Anulează",
+        "pause": "Suspendă",
+        "unpause": "Reia",
+        "billing_recurrence": {
+            "daily": "Facturat zilnic |||| Facturat la fiecare %{smart_count} zile",
+            "weekly": "Facturat săptămânal |||| Facturat la fiecare %{smart_count} săptămâni",
+            "monthly": "Facturat lunar |||| Facturat la fiecare %{smart_count} luni",
+            "yearly": "Facturat anual |||| Facturat la fiecare %{smart_count} ani"
+        }
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -52,7 +82,8 @@
         "view_detailed_cart": "Vezi cos detaliat"
     },
     "order": {
-        "loading": "Se încarcă detaliile comenzii Dvs..."
+        "loading": "Se încarcă detaliile comenzii Dvs...",
+        "title": "Comandă"
     },
     "discount_box": {
         "promo_code": "Cupon reducere?",
@@ -62,10 +93,13 @@
     "address_form": {
         "name": "Numele complet",
         "email": "Email",
+        "firstName": "Prenume",
+        "lastName": "Nume",
         "address1": "Adresa (strada și numărul)",
         "address2": "Adresa (bloc, scara, apt.)",
         "city": "Oraș",
         "country": "Țară",
+        "phone": "Telefon",
         "postalCode": "Cod poștal",
         "province": "Județ",
         "dont_see_address": "Nu găsesc adresa mea!"
@@ -77,7 +111,15 @@
         "use_different_shipping_address": "Folosește o altă adresă de livrare"
     },
     "customer": {
-        "information": "Informații client"
+        "information": "Informații client",
+        "payment_info": "Informații de plată",
+        "payment_method_update": {
+            "title": "Actualizați metoda de plată",
+            "outstanding_payment_failed": {
+                "title": "Plata a eșuat",
+                "description": "Actualizați metoda de plată pentru a continua."
+            }
+        }
     },
     "customer_details": {
         "title": "Detalii client"
@@ -97,7 +139,18 @@
         "view_invoice": "Vizualizează factura",
         "sign_out": "Ieșiți din cont",
         "show_more_orders": "Afișează %{smart_count} mai multe comenzi |||| Afișează %{smart_count} mai multe comenzi",
-        "orders": "Comenzi"
+        "show_more_subscriptions": "Afișează încă %{smart_count} abonament |||| Afișează încă %{smart_count} abonamente",
+        "orders": "Comenzi",
+        "subscriptions": "Abonamente",
+        "subscription": "Abonament"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Un abonament are o plată restantă",
+                "description": "Aveți un abonament cu o plată restantă. Vă rugăm să actualizați metoda de plată."
+            }
+        }
     },
     "signin_form": {
         "signin": "Autentificare",
@@ -132,7 +185,11 @@
         "already_have_an_account": "Ai un cont deja?",
         "email": "Email",
         "password": "Parolă",
-        "confirm_password": "Confirmă parola"
+        "confirm_password": "Confirmă parola",
+        "requires_action": {
+            "title": "Verificați emailul",
+            "description": "V-am trimis un email. Urmați instrucțiunile pentru a finaliza înregistrarea."
+        }
     },
     "guest_checkout": {
         "or": "Sau",
@@ -142,7 +199,13 @@
         "title": "Livrare",
         "shipping_to": "Livrare către:",
         "address": "Adresa de livrare",
-        "method": "Metoda de livrare"
+        "method": "Metoda de livrare",
+        "methods": {
+            "example_localization_id": "Exemplu de metodă de livrare"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Livrare garantată în %{smart_count} zi |||| Livrare garantată în %{smart_count} zile"
     },
     "payment": {
         "form": {
@@ -152,7 +215,11 @@
             "card_number": "Număr card",
             "card_expiration": "LL/AA",
             "card_cvv": "CVV",
-            "card_postal_code": "Cod poștal"
+            "card_postal_code": "Cod poștal",
+            "invalid_number": "Numărul cardului este invalid",
+            "invalid_expiration": "Data expirării este invalidă",
+            "invalid_cvv": "CVV invalid",
+            "invalid_postal_code": "Codul poștal este invalid"
         },
         "still_pending_notice": "Plata Dvs este în curs de procesare.",
         "title": "Plată",
@@ -205,11 +272,13 @@
         "promocode_isnt_applicable": "Acest cupon de reducere nu poate fi aplicat",
         "promo_code_is_expired": "Acest cupon de reducere a expirat",
         "stringEmpty": "Acest câmp este obligatoriu",
+        "emailEmpty": "Emailul este obligatoriu",
         "required": "Acest câmp este obligatoriu",
         "invalid_expiry_year_past": "Card expirat",
         "email": "Vă rugăm introduceți o adresă de email validă",
         "quantity_revised": "Cantitatea a fost modificată datorită limitărilor de stoc.",
         "quantity_out_of_stock": "Din păcate acest produs nu mai este disponibil. Vă rugăm să-l eliminați din coș pentru a continua.",
+        "disabled_country": "Livrarea în această țară nu este disponibilă.",
         "error_payment_items_are_invalid": {
             "title": "Anumite produse din coșul Dvs nu sunt valide.",
             "description": "Vă rugăm verificați coșul sau încercați mai târziu."
@@ -256,6 +325,7 @@
                 "description": "Costul livrării a fost modificat sau nu este disponibil. Vă rugăm contactați-ne pentru mai multe detalii."
             }
         },
+        "invalid_address": "Adresa este invalidă.",
         "shipping": {
             "account_configuration": {
                 "title": "Nico o metodă de livrare nu este disponibilă momentan",
@@ -268,7 +338,33 @@
             "no_rates_found": {
                 "title": "Nu există metode de livrare pentru comanda Dvs.",
                 "description": "Please review your delivery address or contact us."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Livrarea în această țară nu este acceptată.",
+            "E.ENGINE.UNAVAILABLE": "Serviciul de livrare nu este disponibil. Încercați mai târziu.",
+            "E.QUERY.UNANSWERABLE": "Adresa nu a putut fi verificată. Verificați datele dvs.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nu a fost găsită.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informațiile suplimentare ale adresei sunt invalide.",
+            "E.SECONDARY_INFORMATION.MISSING": "Lipsesc informații suplimentare ale adresei.",
+            "E.HOUSE_NUMBER.MISSING": "Lipsește numărul clădirii.",
+            "E.HOUSE_NUMBER.INVALID": "Numărul clădirii este invalid.",
+            "E.STREET.MISSING": "Lipsește numele străzii.",
+            "E.STREET.INVALID": "Numele străzii este invalid.",
+            "E.BOX_NUMBER.MISSING": "Lipsește numărul căsuței poștale.",
+            "E.BOX_NUMBER.INVALID": "Numărul căsuței poștale este invalid.",
+            "E.ADDRESS.INVALID": "Adresa este invalidă.",
+            "E.ZIP.NOT_FOUND": "Codul poștal nu a fost găsit.",
+            "E.ZIP.INVALID": "Codul poștal este invalid.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Extensia codului poștal nu a fost găsită.",
+            "E.ADDRESS.MULTIPLE": "Au fost găsite mai multe adrese. Furnizați o adresă mai exactă.",
+            "E.ADDRESS.INSUFFICIENT": "Informațiile adresei sunt incomplete.",
+            "E.ADDRESS.DUAL": "Adresa conține informații contradictorii.",
+            "E.STREET.MAGNET": "Numele străzii nu a putut fi verificat.",
+            "E.CITY_STATE.INVALID": "Orașul sau regiunea este invalidă.",
+            "E.STATE.INVALID": "Regiunea este invalidă.",
+            "E.ADDRESS.DELIVERY.INVALID": "Adresa de livrare este invalidă.",
+            "E.TIMED_OUT": "Verificarea adresei a expirat. Încercați din nou.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informațiile despre fusul orar nu sunt disponibile.",
+            "E.PO_BOX.INTERNATIONAL": "Livrarea internațională la o căsuță poștală nu este posibilă."
         },
         "payment_failed": {
             "title": "Nu am putut procesa plata",
@@ -284,6 +380,16 @@
                 "description": "Nu am putut autentifica datele introduse pentru plată. Vă rugăm încercați mai târziu."
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Coșul poate conține un singur abonament.",
+                "description": "Eliminați abonamentul existent înainte de a adăuga unul nou."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Coșul poate conține articole sau abonamente.",
+                "description": "Eliminați articolele existente înainte de a adăuga un abonament, sau invers."
+            }
+        },
         "customer_exists": "Acest email există deja.",
         "customer_password_missmatch": "Parolele trebue să fie identice.",
         "customer_password_token_expired": "Token-ul pentru recuperarea parolei a expirat.",
@@ -296,8 +402,14 @@
             "description": "Vă rugăm verificați adresa de livrare sau contactați-ne pentru mai multe detalii."
         }
     },
+    "shippingRates": {
+        "loading": "Se încarcă..."
+    },
     "customer_orders": {
         "loading": "Se încarcă..."
+    },
+    "digital_goods": {
+        "download": "Descarcă"
     },
     "confirmation": {
         "thank_you_for_your_order": "Mulțumim pentru comandă",
@@ -305,5 +417,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Costurile de livrare și taxele vor fi calculate în momentul în care introduceți adresa de livrare."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Emiratele Arabe Unite"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigua și Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarctica"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Samoa Americană"
+        },
+        "AT": {
+            "name": "Austria"
+        },
+        "AU": {
+            "name": "Australia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Insulele Åland"
+        },
+        "AZ": {
+            "name": "Azerbaidjan"
+        },
+        "BA": {
+            "name": "Bosnia și Herțegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgia"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaria"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Țările de Jos Caraibiene"
+        },
+        "BR": {
+            "name": "Brazilia"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Insula Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canada"
+        },
+        "CC": {
+            "name": "Insulele Cocos"
+        },
+        "CD": {
+            "name": "Republica Democrată Congo"
+        },
+        "CF": {
+            "name": "Republica Centrafricană"
+        },
+        "CG": {
+            "name": "Republica Congo"
+        },
+        "CH": {
+            "name": "Elveția"
+        },
+        "CI": {
+            "name": "Coasta de Fildeș"
+        },
+        "CK": {
+            "name": "Insulele Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Camerun"
+        },
+        "CN": {
+            "name": "China"
+        },
+        "CO": {
+            "name": "Columbia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Cuba"
+        },
+        "CV": {
+            "name": "Cabo Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Insula Christmas"
+        },
+        "CY": {
+            "name": "Cipru"
+        },
+        "CZ": {
+            "name": "Cehia"
+        },
+        "DE": {
+            "name": "Germania"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Danemarca"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Republica Dominicană"
+        },
+        "DZ": {
+            "name": "Algeria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Egipt"
+        },
+        "EH": {
+            "name": "Sahara Occidentală"
+        },
+        "ER": {
+            "name": "Eritreea"
+        },
+        "ES": {
+            "name": "Spania"
+        },
+        "ES-CN": {
+            "name": "Insulele Canare"
+        },
+        "ET": {
+            "name": "Etiopia"
+        },
+        "FI": {
+            "name": "Finlanda"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Insulele Falkland"
+        },
+        "FM": {
+            "name": "Micronezia"
+        },
+        "FO": {
+            "name": "Insulele Feroe"
+        },
+        "FR": {
+            "name": "Franța"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Regatul Unit"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "Guyana Franceză"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Groenlanda"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guineea"
+        },
+        "GP": {
+            "name": "Guadelupa"
+        },
+        "GQ": {
+            "name": "Guineea Ecuatorială"
+        },
+        "GR": {
+            "name": "Grecia"
+        },
+        "GS": {
+            "name": "Georgia de Sud și Insulele Sandwich de Sud"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guineea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Insulele Heard și McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Croația"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Ungaria"
+        },
+        "ID": {
+            "name": "Indonezia"
+        },
+        "IE": {
+            "name": "Irlanda"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Insula Man"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Teritoriul Britanic din Oceanul Indian"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Islanda"
+        },
+        "IT": {
+            "name": "Italia"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Iordania"
+        },
+        "JP": {
+            "name": "Japonia"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kârgâzstan"
+        },
+        "KH": {
+            "name": "Cambodgia"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comore"
+        },
+        "KN": {
+            "name": "Saint Kitts și Nevis"
+        },
+        "KP": {
+            "name": "Coreea de Nord"
+        },
+        "KR": {
+            "name": "Coreea de Sud"
+        },
+        "KW": {
+            "name": "Kuweit"
+        },
+        "KY": {
+            "name": "Insulele Cayman"
+        },
+        "KZ": {
+            "name": "Kazahstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Liban"
+        },
+        "LC": {
+            "name": "Sfânta Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lituania"
+        },
+        "LU": {
+            "name": "Luxemburg"
+        },
+        "LV": {
+            "name": "Letonia"
+        },
+        "LY": {
+            "name": "Libia"
+        },
+        "MA": {
+            "name": "Maroc"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Muntenegru"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Insulele Marshall"
+        },
+        "MK": {
+            "name": "Macedonia de Nord"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Insulele Mariane de Nord"
+        },
+        "MQ": {
+            "name": "Martinica"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldive"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexic"
+        },
+        "MY": {
+            "name": "Malaezia"
+        },
+        "MZ": {
+            "name": "Mozambic"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Noua Caledonie"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Insula Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Țările de Jos"
+        },
+        "NO": {
+            "name": "Norvegia"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Noua Zeelandă"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Polinezia Franceză"
+        },
+        "PG": {
+            "name": "Papua Noua Guinee"
+        },
+        "PH": {
+            "name": "Filipine"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polonia"
+        },
+        "PM": {
+            "name": "Saint-Pierre și Miquelon"
+        },
+        "PN": {
+            "name": "Insulele Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugalia"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "România"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Rusia"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Arabia Saudită"
+        },
+        "SB": {
+            "name": "Insulele Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Suedia"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Sfânta Elena"
+        },
+        "SI": {
+            "name": "Slovenia"
+        },
+        "SJ": {
+            "name": "Svalbard și Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovacia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Sudanul de Sud"
+        },
+        "ST": {
+            "name": "São Tomé și Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Siria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Insulele Turks și Caicos"
+        },
+        "TD": {
+            "name": "Ciad"
+        },
+        "TF": {
+            "name": "Teritoriile Australe Franceze"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailanda"
+        },
+        "TJ": {
+            "name": "Tadjikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timorul de Est"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunisia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turcia"
+        },
+        "TT": {
+            "name": "Trinidad și Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ucraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Insulele Mici ale SUA"
+        },
+        "US": {
+            "name": "Statele Unite"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Vatican"
+        },
+        "VC": {
+            "name": "Sfântul Vincent și Grenadine"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Insulele Virgine Britanice"
+        },
+        "VI": {
+            "name": "Insulele Virgine Americane"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis și Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Africa de Sud"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
 }
