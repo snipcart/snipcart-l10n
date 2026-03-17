@@ -74,7 +74,7 @@
         "phone": "Téléphone",
         "postalCode": "Code postal",
         "province": "Province",
-        "dont_see_address": "Je ne trouve pas mon adresse",   
+        "dont_see_address": "Je ne trouve pas mon adresse",
         "phone_number": "Numéro de téléphone"
     },
     "billing": {
@@ -278,15 +278,15 @@
         },
         "order_validation": {
             "domain_crawling": {
-                "title":"Votre commande n'a pas pu être complétée.",
-                "description":"Vous n'avez pas été chargé. Veuillez contacter le marchand pour plus de détails."
+                "title": "Votre commande n'a pas pu être complétée.",
+                "description": "Vous n'avez pas été chargé. Veuillez contacter le marchand pour plus de détails."
             },
             "product_crawling": {
-                "title":"Le prix de produits dans votre panier semble avoir changé.",
+                "title": "Le prix de produits dans votre panier semble avoir changé.",
                 "description": "Essayez de les enlever et de les remettre dans votre panier. Veuillez contacter le marchand pour plus de détails."
             },
             "stock_validation": {
-                "title":"Produit en rupture de stock.",
+                "title": "Produit en rupture de stock.",
                 "description": "Quelques produits semblent être en rupture de stock. Veuillez réviser les quantités ou contacter le marchand pour plus de détails."
             },
             "custom_fields_validation": {
@@ -377,7 +377,6 @@
             "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
         }
     },
-    
     "shippingRates": {
         "loading": "Chargement des frais d'expédition"
     },
@@ -1257,6 +1256,34 @@
         },
         "ZW": {
             "name": "Zimbabwe"
+        }
+    },
+    "subscription": {
+        "title": "Abonnement",
+        "state": {
+            "title": "État",
+            "active": "Actif",
+            "paused": "En pause",
+            "finished": "Terminé",
+            "stopped": "Arrêté",
+            "cancellationrequested": "L'abonnement prendra fin à la fin de la période de facturation."
+        },
+        "placed_on": "Souscrit le",
+        "final_billing_date": "Dernière date de facturation",
+        "items": "Articles",
+        "plan": "Forfait",
+        "billed_on": "Facturé le",
+        "payment_amount": "Montant du paiement",
+        "processing": "L'abonnement est encore en cours de traitement. Revenez plus tard pour voir les détails.",
+        "loading": "Chargement des abonnements",
+        "cancel": "Annuler",
+        "pause": "Mettre en pause",
+        "unpause": "Reprendre",
+        "billing_recurrence": {
+            "daily": "Facturé quotidiennement |||| Facturé tous les %{smart_count} jours",
+            "weekly": "Facturé chaque semaine |||| Facturé toutes les %{smart_count} semaines",
+            "monthly": "Facturé chaque mois |||| Facturé tous les %{smart_count} mois",
+            "yearly": "Facturé chaque année |||| Facturé tous les %{smart_count} ans"
         }
     }
 }
