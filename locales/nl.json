@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Laden...",
+        "error": "Er is een fout opgetreden.",
+        "success": "Gelukt!"
+    },
     "actions": {
         "edit": "Wijzig",
         "cancel": "Annuleer",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Terug naar afrekenen",
         "checkout": "Afrekenen",
         "apply": "Toepassen",
+        "dismiss": "Sluiten",
         "type_address": "Voer uw adres in",
         "use_this_address": "Gebruik dit adres",
         "back_to_store": "Terug naar winkel",
@@ -17,6 +23,7 @@
         "save_changes": "Wijzigingen opslaan",
         "back_to_orders": "Terug naar bestellingen",
         "change_password": "Wijzig wachtwoord",
+        "clear_cart": "Winkelwagen legen",
         "add": "Toevoegen"
     },
     "header": {
@@ -37,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Abonnement",
+        "state": {
+            "title": "Status",
+            "active": "Actief",
+            "paused": "Gepauzeerd",
+            "finished": "Beëindigd",
+            "stopped": "Gestopt",
+            "cancellationrequested": "Het abonnement wordt beëindigd aan het einde van de factureringsperiode."
+        },
+        "placed_on": "Besteld op",
+        "final_billing_date": "Laatste facturatiedatum",
+        "items": "Artikelen",
         "plan": "Abonnement",
         "billed_on": "Gefactureerd op",
-        "payment_amount": "Te betalen bedrag"
+        "payment_amount": "Te betalen bedrag",
+        "processing": "Het abonnement wordt nog verwerkt. Kom later terug voor details.",
+        "loading": "Abonnementen laden",
+        "cancel": "Opzeggen",
+        "pause": "Pauzeren",
+        "unpause": "Hervatten",
+        "billing_recurrence": {
+            "daily": "Dagelijks gefactureerd |||| Elke %{smart_count} dagen gefactureerd",
+            "weekly": "Wekelijks gefactureerd |||| Elke %{smart_count} weken gefactureerd",
+            "monthly": "Maandelijks gefactureerd |||| Elke %{smart_count} maanden gefactureerd",
+            "yearly": "Jaarlijks gefactureerd |||| Elke %{smart_count} jaar gefactureerd"
+        }
     },
     "cart": {
         "subtotal": "Subtotaal",
@@ -52,7 +82,8 @@
         "view_detailed_cart": "Bekijk details winkelwagen"
     },
     "order": {
-        "loading": "Details van de bestelling worden opgehaald..."
+        "loading": "Details van de bestelling worden opgehaald...",
+        "title": "Bestelling"
     },
     "discount_box": {
         "promo_code": "Kortingscode?",
@@ -80,7 +111,15 @@
         "use_different_shipping_address": "Gebruik een afwijkend afleveradres"
     },
     "customer": {
-        "information": "Klantinformatie"
+        "information": "Klantinformatie",
+        "payment_info": "Betalingsinformatie",
+        "payment_method_update": {
+            "title": "Betaalmethode bijwerken",
+            "outstanding_payment_failed": {
+                "title": "Betaling mislukt",
+                "description": "Werk uw betaalmethode bij om door te gaan."
+            }
+        }
     },
     "customer_details": {
         "title": "Klantgegevens"
@@ -102,7 +141,16 @@
         "show_more_orders": "Toon nog %{smart_count} bestelling |||| Toon nog %{smart_count} bestellingen",
         "show_more_subscriptions": "Toon nog %{smart_count} abonnement |||| Toon nog %{smart_count} abonnementen",
         "orders": "Bestellingen",
-        "subscriptions": "Abonnementen"
+        "subscriptions": "Abonnementen",
+        "subscription": "Abonnement"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Een abonnement heeft een openstaande betaling",
+                "description": "U heeft een abonnement met een openstaande betaling. Werk uw betaalmethode bij."
+            }
+        }
     },
     "signin_form": {
         "signin": "Inloggen",
@@ -137,7 +185,11 @@
         "already_have_an_account": "Heeft u al een account?",
         "email": "Email",
         "password": "Wachtwoord",
-        "confirm_password": "Wachtwoord bevestigen"
+        "confirm_password": "Wachtwoord bevestigen",
+        "requires_action": {
+            "title": "Controleer uw e-mail",
+            "description": "We hebben u een e-mail gestuurd. Volg de instructies om uw registratie te voltooien."
+        }
     },
     "guest_checkout": {
         "or": "Of",
@@ -147,7 +199,13 @@
         "title": "Verzending",
         "shipping_to": "Verzenden naar:",
         "address": "Verzendadres",
-        "method": "Verzendmethode"
+        "method": "Verzendmethode",
+        "methods": {
+            "example_localization_id": "Voorbeeld verzendmethode"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Gegarandeerde levering binnen %{smart_count} dag |||| Gegarandeerde levering binnen %{smart_count} dagen"
     },
     "payment": {
         "form": {
@@ -157,7 +215,11 @@
             "card_number": "Creditcardnummer",
             "card_expiration": "MM/JJ",
             "card_cvv": "CVV",
-            "card_postal_code": "Postcode"
+            "card_postal_code": "Postcode",
+            "invalid_number": "Kaartnummer is ongeldig",
+            "invalid_expiration": "Vervaldatum is ongeldig",
+            "invalid_cvv": "CVV is ongeldig",
+            "invalid_postal_code": "Postcode is ongeldig"
         },
         "still_pending_notice": "Uw betaling is nog in behandeling.",
         "title": "Betaling",
@@ -210,11 +272,13 @@
         "promocode_isnt_applicable": "De kortingscode kan niet worden toegepast.",
         "promo_code_is_expired": "De kortingscode is verlopen.",
         "stringEmpty": "Dit veld is verplicht",
+        "emailEmpty": "E-mailadres is verplicht",
         "required": "Dit veld is verplicht",
         "invalid_expiry_year_past": "Kaart is verlopen",
         "email": "Vul een geldig e-mailadres in",
         "quantity_revised": "Aantal is bijgesteld wegens voorraad beperkingen.",
         "quantity_out_of_stock": "Helaas, dit item is uit voorraad. Verwijder het uit uw winkelwagen om door te gaan.",
+        "disabled_country": "Levering naar dit land is niet beschikbaar.",
         "error_payment_items_are_invalid": {
             "title": "Sommige items in uw winkelwagen zijn ongeldig",
             "description": "Controleer uw bestelling of probeer het later opnieuw."
@@ -261,6 +325,7 @@
                 "description": "Het geselecteerde verzendtarief is mogelijk gewijzigd of is niet beschikbaar. Neem voor details contact op met ons op."
             }
         },
+        "invalid_address": "Het adres is ongeldig.",
         "shipping": {
             "account_configuration": {
                 "title": "Er is momenteel geen verzendmethode beschikbaar",
@@ -273,7 +338,33 @@
             "no_rates_found": {
                 "title": "Er zijn geen verzendmethoden beschikbaar voor uw bestelling",
                 "description": "Controleer uw verzendadres of neem contact met ons op voor hulp bij bestellen."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Levering naar dit land wordt niet ondersteund.",
+            "E.ENGINE.UNAVAILABLE": "Verzendservice is niet beschikbaar. Probeer het later opnieuw.",
+            "E.QUERY.UNANSWERABLE": "Het adres kon niet worden geverifieerd. Controleer uw gegevens.",
+            "E.ADDRESS.NOT_FOUND": "Adres niet gevonden.",
+            "E.SECONDARY_INFORMATION.INVALID": "Aanvullende adresinformatie is ongeldig.",
+            "E.SECONDARY_INFORMATION.MISSING": "Aanvullende adresinformatie ontbreekt.",
+            "E.HOUSE_NUMBER.MISSING": "Huisnummer ontbreekt.",
+            "E.HOUSE_NUMBER.INVALID": "Huisnummer is ongeldig.",
+            "E.STREET.MISSING": "Straatnaam ontbreekt.",
+            "E.STREET.INVALID": "Straatnaam is ongeldig.",
+            "E.BOX_NUMBER.MISSING": "Postbusnummer ontbreekt.",
+            "E.BOX_NUMBER.INVALID": "Postbusnummer is ongeldig.",
+            "E.ADDRESS.INVALID": "Adres is ongeldig.",
+            "E.ZIP.NOT_FOUND": "Postcode niet gevonden.",
+            "E.ZIP.INVALID": "Postcode is ongeldig.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Postcode-extensie niet gevonden.",
+            "E.ADDRESS.MULTIPLE": "Meerdere adressen gevonden. Geef een specifieker adres op.",
+            "E.ADDRESS.INSUFFICIENT": "Adresgegevens zijn onvolledig.",
+            "E.ADDRESS.DUAL": "Het adres bevat tegenstrijdige informatie.",
+            "E.STREET.MAGNET": "Straatnaam kon niet worden geverifieerd.",
+            "E.CITY_STATE.INVALID": "Stad of provincie is ongeldig.",
+            "E.STATE.INVALID": "Provincie is ongeldig.",
+            "E.ADDRESS.DELIVERY.INVALID": "Bezorgadres is ongeldig.",
+            "E.TIMED_OUT": "Time-out bij adresverificatie. Probeer het opnieuw.",
+            "E.TIME_ZONE.UNAVAILABLE": "Tijdzone-informatie is niet beschikbaar.",
+            "E.PO_BOX.INTERNATIONAL": "Internationale levering naar postbusadressen is niet mogelijk."
         },
         "payment_failed": {
             "title": "We kunnen uw betaling niet uitvoeren",
@@ -289,6 +380,16 @@
                 "description": "We hebben uw betalingsgegevens niet kunnen verifiëren. Probeer het alstublieft opnieuw"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "De winkelwagen kan slechts één abonnement bevatten.",
+                "description": "Verwijder het huidige abonnement voordat u een nieuw abonnement toevoegt."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "De winkelwagen kan alleen artikelen of abonnementen bevatten.",
+                "description": "Verwijder de huidige artikelen voordat u een abonnement toevoegt, of andersom."
+            }
+        },
         "customer_exists": "Dit e-mailadres is al in gebruik.",
         "customer_password_missmatch": "De twee wachtwoorden moeten hetzelfde zijn.",
         "customer_password_token_expired": "Uw token voor wachtwoordherstel is verlopen.",
@@ -297,8 +398,14 @@
         "invalid_credentials": "Incorrect e-mail of wachtwoord.",
         "customer_current_password_invalid": "Ongeldig wachtwoord."
     },
+    "shippingRates": {
+        "loading": "Laden..."
+    },
     "customer_orders": {
         "loading": "Laden..."
+    },
+    "digital_goods": {
+        "download": "Downloaden"
     },
     "confirmation": {
         "thank_you_for_your_order": "Bedankt voor uw bestelling",
