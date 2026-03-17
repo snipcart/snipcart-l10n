@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Memuat...",
+        "error": "Terjadi kesalahan.",
+        "success": "Berhasil!"
+    },
+    "actions": {
+        "edit": "Ubah",
+        "cancel": "Batal",
+        "continue_shopping": "Lanjutkan belanja",
+        "back_to_checkout": "Kembali ke pembayaran",
+        "checkout": "Checkout",
+        "apply": "Terapkan",
+        "dismiss": "Tutup",
+        "type_address": "Ketik alamat Anda",
+        "use_this_address": "Gunakan alamat ini",
+        "back_to_store": "Kembali ke toko",
+        "close_cart": "Tutup keranjang",
+        "show": "Tampilkan",
+        "hide": "Sembunyikan",
+        "apply_changes": "Terapkan perubahan",
+        "yes_use_it": "Ya, gunakan",
+        "save_changes": "Simpan perubahan",
+        "back_to_orders": "Kembali ke pesanan",
+        "change_password": "Ubah kata sandi",
+        "clear_cart": "Kosongkan keranjang",
+        "add": "Tambah"
+    },
+    "header": {
+        "title_cart_summary": "Ringkasan keranjang",
+        "loading": "Memuat..."
+    },
+    "item": {
+        "quantity": "Jumlah",
+        "quantity_short": "Jml",
+        "decrement_quantity": "Kurangi jumlah",
+        "increment_quantity": "Tambah jumlah",
+        "remove_item": "Hapus item",
+        "recurrence": {
+            "daily": "hari |||| %{smart_count} hari",
+            "weekly": "minggu |||| %{smart_count} minggu",
+            "monthly": "bulan |||| %{smart_count} bulan",
+            "yearly": "tahun |||| %{smart_count} tahun"
+        }
+    },
+    "subscription": {
+        "title": "Langganan",
+        "state": {
+            "title": "Status",
+            "active": "Aktif",
+            "paused": "Dijeda",
+            "finished": "Selesai",
+            "stopped": "Dihentikan",
+            "cancellationrequested": "Langganan akan berhenti di akhir siklus penagihan."
+        },
+        "placed_on": "Dipesan pada",
+        "final_billing_date": "Tanggal penagihan terakhir",
+        "items": "Item",
+        "plan": "Paket",
+        "billed_on": "Ditagih pada",
+        "payment_amount": "Jumlah pembayaran",
+        "processing": "Langganan masih diproses. Kembali lagi nanti untuk melihat detail.",
+        "loading": "Memuat langganan",
+        "cancel": "Batalkan",
+        "pause": "Jeda",
+        "unpause": "Lanjutkan",
+        "billing_recurrence": {
+            "daily": "Ditagih setiap hari |||| Ditagih setiap %{smart_count} hari",
+            "weekly": "Ditagih setiap minggu |||| Ditagih setiap %{smart_count} minggu",
+            "monthly": "Ditagih setiap bulan |||| Ditagih setiap %{smart_count} bulan",
+            "yearly": "Ditagih setiap tahun |||| Ditagih setiap %{smart_count} tahun"
+        }
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Ongkos kirim dan pajak akan dihitung saat checkout.",
+        "loading": "Kami sedang menyiapkan keranjang Anda...",
+        "secured_by": "Diamankan oleh Snipcart",
+        "summary": "Ringkasan pesanan",
+        "empty": "Keranjang Anda kosong.",
+        "invoice_number": "Nomor faktur",
+        "view_detailed_cart": "Lihat keranjang lengkap"
+    },
+    "order": {
+        "loading": "Kami sedang menyiapkan detail pesanan Anda...",
+        "title": "Pesanan"
+    },
+    "discount_box": {
+        "promo_code": "Kode promo?",
+        "promo_code_placeholder": "Kode promo",
+        "promocode_applied": "Promosi diterapkan"
+    },
+    "address_form": {
+        "name": "Nama lengkap",
+        "email": "Email",
+        "firstName": "Nama depan",
+        "lastName": "Nama belakang",
+        "address1": "Alamat jalan",
+        "address2": "Apt/Suite",
+        "city": "Kota",
+        "country": "Negara",
+        "phone": "Telepon",
+        "postalCode": "Kode pos",
+        "province": "Provinsi/Negara Bagian",
+        "dont_see_address": "Saya tidak menemukan alamat saya"
+    },
+    "billing": {
+        "title": "Penagihan",
+        "address": "Alamat penagihan",
+        "continue_to_shipping": "Lanjut ke pengiriman",
+        "use_different_shipping_address": "Gunakan alamat pengiriman yang berbeda"
+    },
+    "customer": {
+        "information": "Informasi pelanggan",
+        "payment_info": "Info pembayaran saya",
+        "payment_method_update": {
+            "title": "Perbarui metode pembayaran",
+            "outstanding_payment_failed": {
+                "title": "Pembayaran gagal",
+                "description": "Metode pembayaran Anda telah diperbarui, namun kami tidak dapat menagih saldo terutang. Silakan gunakan metode pembayaran lain."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Detail pelanggan"
+    },
+    "customer_dashboard": {
+        "my_account": "Akun saya",
+        "ordered_on": "Dipesan pada",
+        "next_billing_date": "Tanggal penagihan berikutnya",
+        "price": "Harga",
+        "total": "Total",
+        "status": "Status",
+        "order": "Pesanan %{invoice_number}",
+        "order_details": "Detail pesanan",
+        "loading": "Memuat...",
+        "no_orders": "Tidak ada pesanan ditemukan.",
+        "no_subscriptions": "Tidak ada langganan ditemukan.",
+        "view_invoice": "Lihat faktur",
+        "sign_out": "Keluar",
+        "show_more_orders": "Tampilkan %{smart_count} pesanan lainnya |||| Tampilkan %{smart_count} pesanan lainnya",
+        "show_more_subscriptions": "Tampilkan %{smart_count} langganan lainnya |||| Tampilkan %{smart_count} langganan lainnya",
+        "orders": "Pesanan",
+        "subscriptions": "Langganan",
+        "subscription": "Langganan"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Pembayaran jatuh tempo untuk langganan",
+                "description": "Anda saat ini memiliki langganan dengan pembayaran yang terlambat. Silakan perbarui metode pembayaran Anda dengan mengklik Ubah di samping detail Anda."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Masuk",
+        "dont_have_an_account": "Belum punya akun?",
+        "email": "Email",
+        "password": "Kata sandi",
+        "forgot_your_password": "Lupa kata sandi?",
+        "close_form": "Kembali"
+    },
+    "forgot_password_form": {
+        "title": "Pulihkan kata sandi Anda",
+        "instructions": "Masukkan alamat email akun Anda dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi.",
+        "email": "Email",
+        "email_instructions": "Email berisi tautan telah dikirim kepada Anda. Klik tautan tersebut untuk mengatur ulang kata sandi Anda.",
+        "action": "Kirim email pengaturan ulang kata sandi"
+    },
+    "reset_password_form": {
+        "title": "Atur ulang kata sandi Anda",
+        "password": "Kata sandi baru",
+        "confirmation_password": "Masukkan ulang kata sandi baru Anda",
+        "action": "Atur ulang kata sandi"
+    },
+    "change_password_form": {
+        "title": "Ubah kata sandi Anda",
+        "current_password": "Kata sandi saat ini",
+        "password": "Kata sandi baru",
+        "confirmation_password": "Masukkan ulang kata sandi baru Anda",
+        "action": "Ubah kata sandi"
+    },
+    "register_form": {
+        "register": "Daftar",
+        "already_have_an_account": "Sudah punya akun?",
+        "email": "Email",
+        "password": "Kata sandi",
+        "confirm_password": "Konfirmasi Kata Sandi",
+        "requires_action": {
+            "title": "Periksa email Anda",
+            "description": "Alamat email ini sudah pernah digunakan untuk menyelesaikan pesanan. Silakan selesaikan proses pendaftaran menggunakan tautan yang dikirim ke email Anda."
+        }
+    },
+    "guest_checkout": {
+        "or": "Atau",
+        "continue_as_a_guest": "Lanjutkan sebagai tamu"
+    },
+    "shipping": {
+        "title": "Pengiriman",
+        "shipping_to": "Kirim ke:",
+        "address": "Alamat pengiriman",
+        "method": "Metode pengiriman",
+        "methods": {
+            "example_localization_id": "Ini adalah contoh metode pengiriman yang dilokalkan"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Dijamin terkirim dalam %{guaranteedDaysToDelivery} hari."
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Pembayaran Ditangguhkan",
+            "deferred_payment_instructions": "Dengan melakukan pemesanan ini, Anda setuju untuk membayar nanti melalui metode pembayaran yang ditentukan oleh pedagang.",
+            "card_label": "Kartu kredit",
+            "card_number": "Nomor kartu",
+            "card_expiration": "BB/TT",
+            "card_cvv": "CVV",
+            "card_postal_code": "Kode pos",
+            "invalid_number": "Nomor kartu tidak valid",
+            "invalid_expiration": "Tanggal kedaluwarsa tidak valid",
+            "invalid_cvv": "CVV tidak valid",
+            "invalid_postal_code": "Kode pos tidak valid"
+        },
+        "still_pending_notice": "Pembayaran Anda masih diproses.",
+        "title": "Pembayaran",
+        "continue_to_payment": "Lanjut ke pembayaran",
+        "credit_card": "Kartu kredit",
+        "place_order": "Buat pesanan",
+        "preparing_payment_session": "Menyiapkan pembayaran...",
+        "processing_payment": "Memproses pembayaran...",
+        "checkout_with": "Checkout dengan",
+        "checkout_with_method": "Checkout dengan %{method}",
+        "method_icon": "Ikon %{method}",
+        "no_payment": "Tidak diperlukan pembayaran untuk pesanan ini.",
+        "methods": {
+            "card": "Kartu kredit",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna bayar nanti",
+            "klarna_slice_it": "Klarna cicilan bulanan",
+            "p24": "Przelewy24",
+            "sepa_debit": "Transfer bank SEPA",
+            "sofort": "Transfer bank Sofort",
+            "deferred_payment": "Bayar nanti"
+        }
+    },
+    "discounts": {
+        "title": "Diskon"
+    },
+    "cart_summary": {
+        "taxes": "Pajak",
+        "taxes_included_in_price": "Beberapa item sudah termasuk pajak.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Pengiriman",
+        "discount": "Diskon",
+        "quantity": "x",
+        "calculated_at_checkout": "Dihitung saat checkout"
+    },
+    "errors": {
+        "default": "Terjadi kesalahan, coba lagi nanti atau hubungi kami.",
+        "promo_code_is_invalid": "Kode promo ini tidak valid",
+        "promocode_already_in_cart": "Kode promo ini sudah diterapkan",
+        "promocode_isnt_applicable": "Kode promo ini tidak valid",
+        "promo_code_is_expired": "Kode promo ini telah kedaluwarsa",
+        "stringEmpty": "Bidang ini wajib diisi",
+        "emailEmpty": "Bidang ini wajib diisi",
+        "required": "Bidang ini wajib diisi",
+        "invalid_expiry_year_past": "Kartu sudah kedaluwarsa",
+        "email": "Harap masukkan alamat email yang valid",
+        "quantity_revised": "Jumlah telah direvisi karena keterbatasan stok.",
+        "quantity_out_of_stock": "Sayangnya, item ini habis, hapus dari keranjang untuk melanjutkan.",
+        "disabled_country": "Negara yang dipilih tidak tersedia untuk checkout.",
+        "error_payment_items_are_invalid": {
+            "title": "Beberapa item di keranjang Anda tidak valid",
+            "description": "Harap tinjau pesanan Anda, atau coba lagi nanti."
+        },
+        "card": {
+            "invalid_number": "Nomor kartu tidak valid.",
+            "invalid_date": "Tanggal kedaluwarsa kartu tidak valid.",
+            "invalid_year": "Tahun kedaluwarsa kartu tidak valid.",
+            "invalid_month": "Bulan kedaluwarsa kartu tidak valid.",
+            "invalid_cvv": "CVV kartu tidak valid.",
+            "invalid_expiration": "Tanggal kedaluwarsa kartu tidak valid.",
+            "expired": "Kartu kredit sudah kedaluwarsa",
+            "declined": "Kartu telah ditolak. Silakan hubungi penerbit kartu Anda untuk informasi lebih lanjut.",
+            "invalid_address": "Alamat kartu tidak benar.",
+            "insufficient_funds": "Akun tidak memiliki dana yang cukup untuk menutupi jumlah transaksi.",
+            "card_not_supported": "Kartu tidak didukung di wilayah geografis ini.",
+            "currency_not_supported": "Mata uang saat ini tidak didukung."
+        },
+        "transaction": {
+            "declined": "Terjadi kesalahan saat memproses kartu. Coba lagi nanti atau gunakan metode pembayaran lain."
+        },
+        "discounts": {
+            "conflict": "Beberapa diskon tidak dapat digabungkan. Gunakan diskon ini sebagai gantinya?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Pesanan tidak dapat diproses.",
+                "description": "Anda tidak dikenakan biaya. Silakan hubungi pemilik toko untuk detail."
+            },
+            "product_crawling": {
+                "title": "Harga produk di keranjang mungkin telah berubah.",
+                "description": "Coba hapus dan tambahkan kembali ke keranjang Anda. Silakan hubungi pemilik toko untuk detail."
+            },
+            "stock_validation": {
+                "title": "Stok produk tidak tersedia.",
+                "description": "Beberapa produk mungkin habis untuk jumlah yang dipilih. Revisi jumlah atau hubungi pemilik toko untuk detail."
+            },
+            "custom_fields_validation": {
+                "title": "Informasi wajib belum dilengkapi.",
+                "description": "Beberapa produk di keranjang belum memiliki informasi wajib. Silakan edit keranjang untuk melanjutkan."
+            },
+            "shipping_validation": {
+                "title": "Metode pengiriman tidak dapat divalidasi.",
+                "description": "Tarif pengiriman yang dipilih mungkin telah berubah atau tidak tersedia. Silakan hubungi pemilik toko untuk detail."
+            }
+        },
+        "invalid_address": "Alamat tidak valid.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Tidak ada metode pengiriman yang tersedia saat ini",
+                "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+            },
+            "rates_calculation": {
+                "title": "Tidak dapat menghitung ongkos kirim untuk pesanan Anda",
+                "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+            },
+            "no_rates_found": {
+                "title": "Tidak ada metode pengiriman yang tersedia untuk pesanan Anda",
+                "description": "Harap periksa alamat pengiriman Anda atau hubungi kami."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Negara tidak didukung. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.ENGINE.UNAVAILABLE": "Terjadi kesalahan saat memvalidasi alamat. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.QUERY.UNANSWERABLE": "Terjadi kesalahan saat memvalidasi alamat. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.ADDRESS.NOT_FOUND": "Alamat tidak ditemukan. Silakan validasi alamat Anda dan coba lagi.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informasi sekunder tidak valid (Apt/Suite#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Informasi sekunder tidak ada (Apt/Suite#).",
+            "E.HOUSE_NUMBER.MISSING": "Nomor rumah tidak ada.",
+            "E.HOUSE_NUMBER.INVALID": "Nomor rumah tidak valid.",
+            "E.STREET.MISSING": "Nama jalan tidak ada.",
+            "E.STREET.INVALID": "Nama jalan tidak valid.",
+            "E.BOX_NUMBER.MISSING": "Nomor kotak tidak ada.",
+            "E.BOX_NUMBER.INVALID": "Nomor kotak tidak valid.",
+            "E.ADDRESS.INVALID": "Kota/negara bagian/kode pos tidak valid.",
+            "E.ZIP.NOT_FOUND": "Kode pos tidak ditemukan.",
+            "E.ZIP.INVALID": "Kode pos tidak valid.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Kode pos + 4 tidak ditemukan.",
+            "E.ADDRESS.MULTIPLE": "Beberapa alamat ditemukan dengan kode pos yang sama.",
+            "E.ADDRESS.INSUFFICIENT": "Alamat tidak lengkap. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.ADDRESS.DUAL": "Alamat ganda. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.STREET.MAGNET": "Beberapa alamat ditemukan karena sindrom jalan magnet. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.CITY_STATE.INVALID": "Kota/negara bagian tidak dapat diverifikasi.",
+            "E.STATE.INVALID": "Negara bagian tidak valid.",
+            "E.ADDRESS.DELIVERY.INVALID": "Alamat pengiriman tidak valid.",
+            "E.TIMED_OUT": "Terjadi kesalahan saat memvalidasi alamat. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.TIME_ZONE.UNAVAILABLE": "Terjadi kesalahan saat memvalidasi alamat. Silakan coba lagi nanti atau hubungi kami untuk detail lebih lanjut.",
+            "E.PO_BOX.INTERNATIONAL": "Tidak dapat memverifikasi PO Box internasional."
+        },
+        "payment_failed": {
+            "title": "Tidak dapat memproses pembayaran",
+            "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+        },
+        "payment_authorization": {
+            "title": "Tidak dapat memproses pembayaran",
+            "default": "Harap periksa informasi penagihan dan pembayaran."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Tidak dapat memproses pembayaran",
+                "description": "Kami tidak dapat mengautentikasi informasi pembayaran Anda. Silakan coba lagi"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Langganan tidak dapat ditambahkan ke keranjang",
+                "description": "Keranjang hanya dapat berisi satu langganan pada satu waktu."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Produk tidak dapat ditambahkan ke keranjang",
+                "description": "Keranjang hanya dapat berisi item atau langganan."
+            }
+        },
+        "customer_exists": "Email ini sudah digunakan.",
+        "customer_password_missmatch": "Kedua kata sandi harus sama.",
+        "customer_password_token_expired": "Token pemulihan kata sandi Anda telah kedaluwarsa.",
+        "customer_password_token_invalid": "Token pemulihan kata sandi Anda tidak valid.",
+        "customer_not_found": "Alamat email tidak terkait dengan akun mana pun.",
+        "invalid_credentials": "Email atau kata sandi tidak valid.",
+        "customer_current_password_invalid": "Kata sandi tidak valid."
+    },
+    "shippingRates": {
+        "loading": "Memuat tarif pengiriman"
+    },
+    "customer_orders": {
+        "loading": "Memuat..."
+    },
+    "digital_goods": {
+        "download": "Unduh file"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Terima kasih atas pesanan Anda",
+        "async_confirmation_notice": "Pesanan Anda telah dibuat dan sedang diproses. Anda akan menerima konfirmasi segera."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Ongkos kirim dan pajak akan dihitung setelah alamat diberikan."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Uni Emirat Arab"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigua dan Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktika"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Samoa Amerika"
+        },
+        "AT": {
+            "name": "Austria"
+        },
+        "AU": {
+            "name": "Australia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "\u00c5land"
+        },
+        "AZ": {
+            "name": "Azerbaijan"
+        },
+        "BA": {
+            "name": "Bosnia dan Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgia"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaria"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barth\u00e9lemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Bonaire"
+        },
+        "BR": {
+            "name": "Brasil"
+        },
+        "BS": {
+            "name": "Bahama"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Pulau Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kepulauan Cocos [Keeling]"
+        },
+        "CD": {
+            "name": "Kongo"
+        },
+        "CF": {
+            "name": "Republik Afrika Tengah"
+        },
+        "CG": {
+            "name": "Republik Kongo"
+        },
+        "CH": {
+            "name": "Swiss"
+        },
+        "CI": {
+            "name": "Pantai Gading"
+        },
+        "CK": {
+            "name": "Kepulauan Cook"
+        },
+        "CL": {
+            "name": "Chili"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Tiongkok"
+        },
+        "CO": {
+            "name": "Kolombia"
+        },
+        "CR": {
+            "name": "Kosta Rika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Tanjung Verde"
+        },
+        "CW": {
+            "name": "Cura\u00e7ao"
+        },
+        "CX": {
+            "name": "Pulau Natal"
+        },
+        "CY": {
+            "name": "Siprus"
+        },
+        "CZ": {
+            "name": "Ceko"
+        },
+        "DE": {
+            "name": "Jerman"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Denmark"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Republik Dominika"
+        },
+        "DZ": {
+            "name": "Aljazair"
+        },
+        "EC": {
+            "name": "Ekuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Mesir"
+        },
+        "EH": {
+            "name": "Sahara Barat"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Spanyol"
+        },
+        "ES-CN": {
+            "name": "Kepulauan Canary"
+        },
+        "ET": {
+            "name": "Ethiopia"
+        },
+        "FI": {
+            "name": "Finlandia"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Kepulauan Falkland"
+        },
+        "FM": {
+            "name": "Mikronesia"
+        },
+        "FO": {
+            "name": "Kepulauan Faroe"
+        },
+        "FR": {
+            "name": "Prancis"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Britania Raya"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "Guyana Prancis"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Greenland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Guinea Khatulistiwa"
+        },
+        "GR": {
+            "name": "Yunani"
+        },
+        "GS": {
+            "name": "Georgia Selatan dan Kepulauan Sandwich Selatan"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Pulau Heard dan Kepulauan McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Kroasia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hungaria"
+        },
+        "ID": {
+            "name": "Indonesia"
+        },
+        "IE": {
+            "name": "Irlandia"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Pulau Man"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Wilayah Samudra Hindia Britania"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Islandia"
+        },
+        "IT": {
+            "name": "Italia"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaika"
+        },
+        "JO": {
+            "name": "Yordania"
+        },
+        "JP": {
+            "name": "Jepang"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kirgistan"
+        },
+        "KH": {
+            "name": "Kamboja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komoro"
+        },
+        "KN": {
+            "name": "Saint Kitts dan Nevis"
+        },
+        "KP": {
+            "name": "Korea Utara"
+        },
+        "KR": {
+            "name": "Korea Selatan"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Kepulauan Cayman"
+        },
+        "KZ": {
+            "name": "Kazakhstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Lebanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lituania"
+        },
+        "LU": {
+            "name": "Luksemburg"
+        },
+        "LV": {
+            "name": "Latvia"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Maroko"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Kepulauan Marshall"
+        },
+        "MK": {
+            "name": "Makedonia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar [Burma]"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Makau"
+        },
+        "MP": {
+            "name": "Kepulauan Mariana Utara"
+        },
+        "MQ": {
+            "name": "Martinik"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maladewa"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Meksiko"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Kaledonia Baru"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Pulau Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nikaragua"
+        },
+        "NL": {
+            "name": "Belanda"
+        },
+        "NO": {
+            "name": "Norwegia"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Selandia Baru"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Polinesia Prancis"
+        },
+        "PG": {
+            "name": "Papua Nugini"
+        },
+        "PH": {
+            "name": "Filipina"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polandia"
+        },
+        "PM": {
+            "name": "Saint Pierre dan Miquelon"
+        },
+        "PN": {
+            "name": "Kepulauan Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Riko"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "R\u00e9union"
+        },
+        "RO": {
+            "name": "Rumania"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Rusia"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Arab Saudi"
+        },
+        "SB": {
+            "name": "Kepulauan Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Swedia"
+        },
+        "SG": {
+            "name": "Singapura"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slovenia"
+        },
+        "SJ": {
+            "name": "Svalbard dan Jan Mayen"
+        },
+        "SK": {
+            "name": "Slowakia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Sudan Selatan"
+        },
+        "ST": {
+            "name": "S\u00e3o Tom\u00e9 dan Pr\u00edncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Suriah"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Kepulauan Turks dan Caicos"
+        },
+        "TD": {
+            "name": "Chad"
+        },
+        "TF": {
+            "name": "Wilayah Selatan Prancis"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailand"
+        },
+        "TJ": {
+            "name": "Tajikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor Leste"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunisia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turki"
+        },
+        "TT": {
+            "name": "Trinidad dan Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Kepulauan Terluar Kecil AS"
+        },
+        "US": {
+            "name": "Amerika Serikat"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Kota Vatikan"
+        },
+        "VC": {
+            "name": "Saint Vincent dan Grenadine"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Kepulauan Virgin Britania"
+        },
+        "VI": {
+            "name": "Kepulauan Virgin AS"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis dan Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yaman"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Afrika Selatan"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
+    }
+}
