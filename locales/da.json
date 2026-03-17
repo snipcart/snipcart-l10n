@@ -1,178 +1,1172 @@
 {
-  "actions": {
-    "edit": "Rediger",
-    "cancel": "Annuller",
-    "continue_shopping": "Fortsæt med at handle",
-    "back_to_checkout": "Tilbage til kassen",
-    "checkout": "Til kassen",
-    "apply": "Anvend",
-    "type_address": "Indtast din adresse",
-    "use_this_address": "Brug denne adresse",
-    "back_to_store": "Tilbage til shoppen",
-    "close_cart": "Luk kurv"
-  },
-  "header": {
-    "title_cart_summary": "Kurv",
-    "loading": "Henter..."
-  },
-  "item": {
-    "quantity": "Antal",
-    "quantity_short": "Ant.",
-    "decrement_quantity": "Ændre antal",
-    "increment_quantity": "Ændre antal",
-    "remove_item": "Fjern vare"
-  },
-  "cart": {
-    "subtotal": "Subtotal",
-    "shipping_taxes_calculated_at_checkout": "Forsendelse og moms udregnes i kassen",
-    "loading": "Vi er ved at gøre din kurv klar",
-    "secured_by": "Sikret af Snipcart",
-    "summary": "Ordreoverblik",
-    "empty": "Din kurv er tom.",
-    "invoice_number": "Faktura nummer"
-  },
-  "order": {
-    "loading": "Vi henter din ordre..."
-  },
-  "discount_box": {
-    "promo_code": "Rabatkode?",
-    "promo_code_placeholder": "Rabatkode",
-    "promocode_applied": "Rabatkode anvendt"
-  },
-  "address_form": {
-    "name": "Fulde navn",
-    "email": "Email",
-    "address1": "Adresse",
-    "address2": "Lejlighed, Etage ol.",
-    "city": "By",
-    "country": "Land",
-    "postalCode": "Postnummer",
-    "province": "Region",
-    "dont_see_address": "Jeg kan ikke finde min adresse"
-  },
-  "billing": {
-    "title": "Faktura",
-    "address": "Faktura adresse",
-    "continue_to_shipping": "Fortsæt til levering",
-    "use_different_shipping_address": "Brug anden leveringsadresse"
-  },
-  "customer": {
-    "information": "Kundeinformationer"
-  },
-  "customer_dashboard": {
-    "ordered_on": "Bestilt",
-    "total": "Total",
-    "status": "Status",
-    "order": "Ordre %{invoice_number}",
-    "order_details": "Ordredetaljer",
-    "loading": "Henter...",
-    "no_orders": "Ingen ordrer fundet."
-  },
-  "signin_form": {
-    "signin": "Log på",
-    "dont_have_an_account": "Har du ikke en konto?",
-    "email": "Email",
-    "password": "Kode",
-    "forgot_your_password": "Glemt kode?"
-  },
-  "register_form": {
-    "register": "Opret",
-    "already_have_an_account": "Har du allerede en konto?",
-    "email": "Email",
-    "password": "Kode",
-    "confirm_password": "Gentag kode"
-  },
-  "guest_checkout": {
-    "or": "Eller",
-    "continue_as_a_guest": "Fortsæt som gæst"
-  },
-  "shipping": {
-    "title": "Levering",
-    "shipping_to": "Leveres til:",
-    "address": "Leveringsadresse",
-    "method": "Leveringsmetode"
-  },
-  "payment": {
-    "form": {
-      "card_label": "Kreditkort",
-      "card_number": "Kortnummer",
-      "card_expiration": "MM/YY",
-      "card_cvv": "CVV",
-      "card_postal_code": "Postnummer"
+    "default": {
+        "loading": "Indlæser...",
+        "error": "Der opstod en fejl.",
+        "success": "Succes!"
     },
-    "title": "Betaling",
-    "continue_to_payment": "Fortsæt til betaling",
-    "credit_card": "Kreditkort",
-    "place_order": "Afgiv ordre",
-    "preparing_payment_session": "Forbereder betaling...",
-    "processing_payment": "Behandler betaling...",
-    "checkout_with": "Checkout med",
-    "checkout_with_method": "Checkout med %{method}",
-    "method_icon": "%{method} icon",
-    "methods": {
-      "card": "Kreditkort",
-      "paypal": "PayPal",
-      "paypal_express_checkout": "PayPal",
-      "apple_pay": "Apple Pay",
-      "bancontact": "Bancontact",
-      "belfius": "Belfius",
-      "eps": "Electronic Payment Standard",
-      "giropay": "Giropay",
-      "ideal": "iDEAL",
-      "ing_home_pay": "ING Home Pay",
-      "kbc": "KBC",
-      "klarna_pay_later": "Klarna pay later",
-      "klarna_slice_it": "Klarna monthly financing",
-      "p24": "Przelewy24",
-      "sepa_debit": "SEPA bank transfer",
-      "sofort": "Sofort bank transfer"
+    "actions": {
+        "edit": "Rediger",
+        "cancel": "Annuller",
+        "continue_shopping": "Fortsæt med at handle",
+        "back_to_checkout": "Tilbage til kassen",
+        "checkout": "Til kassen",
+        "apply": "Anvend",
+        "dismiss": "Afvis",
+        "type_address": "Indtast din adresse",
+        "use_this_address": "Brug denne adresse",
+        "back_to_store": "Tilbage til shoppen",
+        "close_cart": "Luk kurv",
+        "show": "Vis",
+        "hide": "Skjul",
+        "apply_changes": "Anvend ændringer",
+        "yes_use_it": "Ja, brug den",
+        "save_changes": "Gem ændringer",
+        "back_to_orders": "Tilbage til ordrer",
+        "change_password": "Skift adgangskode",
+        "clear_cart": "Tøm kurv",
+        "add": "Tilføj"
+    },
+    "header": {
+        "title_cart_summary": "Kurv",
+        "loading": "Henter..."
+    },
+    "item": {
+        "quantity": "Antal",
+        "quantity_short": "Ant.",
+        "decrement_quantity": "Ændre antal",
+        "increment_quantity": "Ændre antal",
+        "remove_item": "Fjern vare",
+        "recurrence": {
+            "daily": "dag |||| %{smart_count} dage",
+            "weekly": "uge |||| %{smart_count} uger",
+            "monthly": "måned |||| %{smart_count} måneder",
+            "yearly": "år |||| %{smart_count} år"
+        }
+    },
+    "subscription": {
+        "title": "Abonnement",
+        "state": {
+            "title": "Status",
+            "active": "Aktiv",
+            "paused": "Pauseret",
+            "finished": "Afsluttet",
+            "stopped": "Stoppet",
+            "cancellationrequested": "Abonnementet ophører ved udgangen af faktureringsperioden."
+        },
+        "placed_on": "Bestilt",
+        "final_billing_date": "Sidste faktureringsdato",
+        "items": "Varer",
+        "plan": "Plan",
+        "billed_on": "Faktureret",
+        "payment_amount": "Betalingsbeløb",
+        "processing": "Abonnementet behandles stadig. Kom tilbage senere for detaljer.",
+        "loading": "Indlæser abonnementer",
+        "cancel": "Annuller",
+        "pause": "Pause",
+        "unpause": "Genoptag",
+        "billing_recurrence": {
+            "daily": "Faktureres dagligt |||| Faktureres hver %{smart_count}. dag",
+            "weekly": "Faktureres ugentligt |||| Faktureres hver %{smart_count}. uge",
+            "monthly": "Faktureres månedligt |||| Faktureres hver %{smart_count}. måned",
+            "yearly": "Faktureres årligt |||| Faktureres hvert %{smart_count}. år"
+        }
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Forsendelse og moms udregnes i kassen",
+        "loading": "Vi er ved at gøre din kurv klar",
+        "secured_by": "Sikret af Snipcart",
+        "summary": "Ordreoverblik",
+        "empty": "Din kurv er tom.",
+        "invoice_number": "Faktura nummer",
+        "view_detailed_cart": "Vis kurvdetaljer"
+    },
+    "order": {
+        "loading": "Vi henter din ordre...",
+        "title": "Ordre"
+    },
+    "discount_box": {
+        "promo_code": "Rabatkode?",
+        "promo_code_placeholder": "Rabatkode",
+        "promocode_applied": "Rabatkode anvendt"
+    },
+    "address_form": {
+        "name": "Fulde navn",
+        "email": "Email",
+        "firstName": "Fornavn",
+        "lastName": "Efternavn",
+        "address1": "Adresse",
+        "address2": "Lejlighed, Etage ol.",
+        "city": "By",
+        "country": "Land",
+        "phone": "Telefon",
+        "postalCode": "Postnummer",
+        "province": "Region",
+        "dont_see_address": "Jeg kan ikke finde min adresse"
+    },
+    "billing": {
+        "title": "Faktura",
+        "address": "Faktura adresse",
+        "continue_to_shipping": "Fortsæt til levering",
+        "use_different_shipping_address": "Brug anden leveringsadresse"
+    },
+    "customer": {
+        "information": "Kundeinformationer",
+        "payment_info": "Betalingsoplysninger",
+        "payment_method_update": {
+            "title": "Opdater betalingsmetode",
+            "outstanding_payment_failed": {
+                "title": "Betaling mislykkedes",
+                "description": "Opdater din betalingsmetode for at fortsætte."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Kundeoplysninger"
+    },
+    "customer_dashboard": {
+        "my_account": "Min konto",
+        "ordered_on": "Bestilt",
+        "next_billing_date": "Næste faktureringsdato",
+        "price": "Pris",
+        "total": "Total",
+        "status": "Status",
+        "order": "Ordre %{invoice_number}",
+        "order_details": "Ordredetaljer",
+        "loading": "Henter...",
+        "no_orders": "Ingen ordrer fundet.",
+        "no_subscriptions": "Ingen abonnementer fundet.",
+        "view_invoice": "Vis faktura",
+        "sign_out": "Log ud",
+        "show_more_orders": "Vis %{smart_count} ordre mere |||| Vis %{smart_count} ordrer mere",
+        "show_more_subscriptions": "Vis %{smart_count} abonnement mere |||| Vis %{smart_count} abonnementer mere",
+        "orders": "Ordrer",
+        "subscriptions": "Abonnementer",
+        "subscription": "Abonnement"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Et abonnement har en forfalden betaling",
+                "description": "Du har et abonnement med en forfalden betaling. Opdater venligst din betalingsmetode."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Log på",
+        "dont_have_an_account": "Har du ikke en konto?",
+        "email": "Email",
+        "password": "Kode",
+        "forgot_your_password": "Glemt kode?",
+        "close_form": "Tilbage"
+    },
+    "forgot_password_form": {
+        "title": "Nulstil din adgangskode",
+        "instructions": "Indtast din kontos e-mailadresse, og vi sender dig et link til at nulstille din adgangskode.",
+        "email": "E-mail",
+        "email_instructions": "Vi har sendt dig en e-mail med et link. Klik på linket for at nulstille din adgangskode.",
+        "action": "Send e-mail til nulstilling af adgangskode"
+    },
+    "reset_password_form": {
+        "title": "Nulstil din adgangskode",
+        "password": "Ny adgangskode",
+        "confirmation_password": "Bekræft ny adgangskode",
+        "action": "Nulstil adgangskode"
+    },
+    "change_password_form": {
+        "title": "Skift din adgangskode",
+        "current_password": "Nuværende adgangskode",
+        "password": "Ny adgangskode",
+        "confirmation_password": "Bekræft ny adgangskode",
+        "action": "Skift adgangskode"
+    },
+    "register_form": {
+        "register": "Opret",
+        "already_have_an_account": "Har du allerede en konto?",
+        "email": "Email",
+        "password": "Kode",
+        "confirm_password": "Gentag kode",
+        "requires_action": {
+            "title": "Tjek din e-mail",
+            "description": "Vi har sendt dig en e-mail. Følg instruktionerne for at fuldføre registreringen."
+        }
+    },
+    "guest_checkout": {
+        "or": "Eller",
+        "continue_as_a_guest": "Fortsæt som gæst"
+    },
+    "shipping": {
+        "title": "Levering",
+        "shipping_to": "Leveres til:",
+        "address": "Leveringsadresse",
+        "method": "Leveringsmetode",
+        "methods": {
+            "example_localization_id": "Eksempel på forsendelsesmetode"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garanteret levering inden for %{smart_count} dag |||| Garanteret levering inden for %{smart_count} dage"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Udskudt betaling",
+            "deferred_payment_instructions": "Ved at afgive denne ordre accepterer du at betale senere via den betalingsmetode, som sælgeren angiver.",
+            "card_label": "Kreditkort",
+            "card_number": "Kortnummer",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postnummer",
+            "invalid_number": "Kortnummeret er ugyldigt",
+            "invalid_expiration": "Udløbsdatoen er ugyldig",
+            "invalid_cvv": "CVV er ugyldig",
+            "invalid_postal_code": "Postnummeret er ugyldigt"
+        },
+        "still_pending_notice": "Din betaling behandles stadig.",
+        "title": "Betaling",
+        "continue_to_payment": "Fortsæt til betaling",
+        "credit_card": "Kreditkort",
+        "place_order": "Afgiv ordre",
+        "preparing_payment_session": "Forbereder betaling...",
+        "processing_payment": "Behandler betaling...",
+        "checkout_with": "Checkout med",
+        "checkout_with_method": "Checkout med %{method}",
+        "method_icon": "%{method} icon",
+        "no_payment": "Der kræves ingen betaling for denne ordre.",
+        "methods": {
+            "card": "Kreditkort",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pay later",
+            "klarna_slice_it": "Klarna monthly financing",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Betal senere"
+        }
+    },
+    "discounts": {
+        "title": "Rabat"
+    },
+    "cart_summary": {
+        "taxes": "Moms",
+        "taxes_included_in_price": "Nogle varer har moms inkluderet i prisen.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Levering",
+        "discount": "Rabat",
+        "quantity": "x",
+        "calculated_at_checkout": "Udregnes i kassen"
+    },
+    "errors": {
+        "default": "Der er sket en fejl",
+        "promo_code_is_invalid": "Rabatkodet er ikke gyldig",
+        "promocode_already_in_cart": "Rabatkoden er allerede anvendt",
+        "promocode_isnt_applicable": "Rabatkoden kan ikke anvendes",
+        "promo_code_is_expired": "Rabatkoden er udløbet",
+        "stringEmpty": "Feltet er krævet",
+        "emailEmpty": "E-mail er påkrævet",
+        "required": "Feltet er krævet",
+        "invalid_expiry_year_past": "Kreditkortet er udløbet",
+        "email": "Brug en gyldig email",
+        "quantity_revised": "Antallet er blevet justeret pga. lagerbegrænsninger.",
+        "quantity_out_of_stock": "Desværre er denne vare ikke på lager. Fjern den fra kurven for at fortsætte.",
+        "disabled_country": "Levering til dette land er ikke tilgængelig.",
+        "error_payment_items_are_invalid": {
+            "title": "Nogle varer i din kurv er ugyldige.",
+            "description": "Gennemgå venligst din ordre eller prøv igen senere."
+        },
+        "card": {
+            "invalid_number": "Kortnummeret er ugyldigt.",
+            "invalid_date": "Kortets udløbsdato er ugyldig.",
+            "invalid_year": "Kortets udløbsår er ugyldigt.",
+            "invalid_month": "Kortets udløbsmåned er ugyldig.",
+            "invalid_cvv": "Kortets CVV er ugyldig.",
+            "invalid_expiration": "Kortets udløbsdato er ugyldig.",
+            "expired": "Kortet er udløbet.",
+            "declined": "Kortet blev afvist. Kontakt venligst din kortudsteder for mere information.",
+            "invalid_address": "Kortets adresse er ugyldig.",
+            "insufficient_funds": "Der er ikke tilstrækkelig dækning på kontoen.",
+            "card_not_supported": "Kortet understøttes ikke i denne region.",
+            "currency_not_supported": "Valutaen understøttes ikke i øjeblikket."
+        },
+        "transaction": {
+            "declined": "Der opstod en fejl under behandlingen af kortet. Prøv igen senere eller brug en anden betalingsmetode."
+        },
+        "discounts": {
+            "conflict": "Nogle rabatter kan ikke kombineres. Vil du bruge denne rabat i stedet?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Ordren kunne ikke behandles.",
+                "description": "Du er ikke blevet opkrævet. Kontakt venligst butiksejeren for mere information."
+            },
+            "product_crawling": {
+                "title": "Priserne på produkterne i din kurv kan have ændret sig.",
+                "description": "Prøv at fjerne og tilføje dem til kurven igen. Kontakt venligst butiksejeren for mere information."
+            },
+            "stock_validation": {
+                "title": "Produktlager ikke tilgængeligt.",
+                "description": "Nogle produkter er muligvis ikke på lager i den valgte mængde. Juster mængden eller kontakt butiksejeren."
+            },
+            "custom_fields_validation": {
+                "title": "Manglende påkrævede oplysninger.",
+                "description": "Nogle produkter i kurven mangler påkrævede oplysninger. Rediger venligst kurven for at fortsætte."
+            },
+            "shipping_validation": {
+                "title": "Forsendelsesmetoden kunne ikke valideres.",
+                "description": "Den valgte forsendelsespris kan have ændret sig eller er ikke længere tilgængelig. Kontakt venligst butiksejeren."
+            }
+        },
+        "invalid_address": "Adressen er ugyldig.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Ingen forsendelsesmetode er tilgængelig i øjeblikket",
+                "description": "Prøv igen senere eller kontakt os for hjælp."
+            },
+            "rates_calculation": {
+                "title": "Forsendelsesomkostninger kunne ikke beregnes for din ordre",
+                "description": "Prøv igen senere eller kontakt os for hjælp."
+            },
+            "no_rates_found": {
+                "title": "Ingen forsendelsesmetode er tilgængelig for din ordre",
+                "description": "Tjek venligst din leveringsadresse eller kontakt os."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Levering til dette land understøttes ikke.",
+            "E.ENGINE.UNAVAILABLE": "Forsendelsestjenesten er ikke tilgængelig. Prøv igen senere.",
+            "E.QUERY.UNANSWERABLE": "Adressen kunne ikke verificeres. Tjek dine oplysninger.",
+            "E.ADDRESS.NOT_FOUND": "Adressen blev ikke fundet.",
+            "E.SECONDARY_INFORMATION.INVALID": "Yderligere adresseoplysninger er ugyldige.",
+            "E.SECONDARY_INFORMATION.MISSING": "Yderligere adresseoplysninger mangler.",
+            "E.HOUSE_NUMBER.MISSING": "Husnummer mangler.",
+            "E.HOUSE_NUMBER.INVALID": "Husnummeret er ugyldigt.",
+            "E.STREET.MISSING": "Gadenavn mangler.",
+            "E.STREET.INVALID": "Gadenavnet er ugyldigt.",
+            "E.BOX_NUMBER.MISSING": "Postboksnummer mangler.",
+            "E.BOX_NUMBER.INVALID": "Postboksnummeret er ugyldigt.",
+            "E.ADDRESS.INVALID": "Adressen er ugyldig.",
+            "E.ZIP.NOT_FOUND": "Postnummeret blev ikke fundet.",
+            "E.ZIP.INVALID": "Postnummeret er ugyldigt.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Postnummerudvidelsen blev ikke fundet.",
+            "E.ADDRESS.MULTIPLE": "Flere adresser fundet. Angiv venligst en mere præcis adresse.",
+            "E.ADDRESS.INSUFFICIENT": "Adresseoplysningerne er ufuldstændige.",
+            "E.ADDRESS.DUAL": "Adressen indeholder modstridende oplysninger.",
+            "E.STREET.MAGNET": "Gadenavnet kunne ikke verificeres.",
+            "E.CITY_STATE.INVALID": "By eller region er ugyldig.",
+            "E.STATE.INVALID": "Region er ugyldig.",
+            "E.ADDRESS.DELIVERY.INVALID": "Leveringsadressen er ugyldig.",
+            "E.TIMED_OUT": "Timeout ved adresseverificering. Prøv igen.",
+            "E.TIME_ZONE.UNAVAILABLE": "Tidszoneoplysninger er ikke tilgængelige.",
+            "E.PO_BOX.INTERNATIONAL": "International levering til postboksadresser er ikke mulig."
+        },
+        "payment_failed": {
+            "title": "Kan ikke processere transaktionen",
+            "description": "Tjek dine betalingsoplysninger og prøv igen."
+        },
+        "payment_authorization": {
+            "title": "Kan ikke processere transaktionen",
+            "default": "Tjek dine betalingsoplysninger og prøv igen."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Betaling kunne ikke gennemføres",
+                "description": "Vi kunne ikke verificere dine betalingsoplysninger. Prøv venligst igen."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Kurven kan kun indeholde ét abonnement.",
+                "description": "Fjern det eksisterende abonnement, før du tilføjer et nyt."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Kurven kan indeholde enten varer eller abonnementer.",
+                "description": "Fjern eksisterende varer, før du tilføjer et abonnement, eller omvendt."
+            }
+        },
+        "customer_exists": "Denne email er allerede brugt.",
+        "customer_password_missmatch": "Koderne skal være ens.",
+        "customer_password_token_expired": "Linket til nulstilling af adgangskode er udløbet. Anmod om et nyt.",
+        "customer_password_token_invalid": "Linket til nulstilling af adgangskode er ugyldigt.",
+        "customer_not_found": "E-mailadressen er ikke knyttet til en konto.",
+        "invalid_credentials": "Ugylding email eller kode.",
+        "customer_current_password_invalid": "Ugyldig adgangskode."
+    },
+    "shippingRates": {
+        "loading": "Indlæser..."
+    },
+    "customer_orders": {
+        "loading": "Henter..."
+    },
+    "digital_goods": {
+        "download": "Download"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Tak for din bestilling",
+        "async_confirmation_notice": "Tak for din bestilling. Der vil blive sendt en ordrebekræftelse til din email."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Forenede Arabiske Emirater"
+        },
+        "AF": {
+            "name": "Afghanistan"
+        },
+        "AG": {
+            "name": "Antigua og Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albanien"
+        },
+        "AM": {
+            "name": "Armenien"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktis"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Amerikansk Samoa"
+        },
+        "AT": {
+            "name": "Østrig"
+        },
+        "AU": {
+            "name": "Australien"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Åland"
+        },
+        "AZ": {
+            "name": "Aserbajdsjan"
+        },
+        "BA": {
+            "name": "Bosnien-Hercegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgien"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgarien"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Caribisk Nederlandene"
+        },
+        "BR": {
+            "name": "Brasilien"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Bouvetøen"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Hviderusland"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canada"
+        },
+        "CC": {
+            "name": "Cocosøerne"
+        },
+        "CD": {
+            "name": "Den Demokratiske Republik Congo"
+        },
+        "CF": {
+            "name": "Den Centralafrikanske Republik"
+        },
+        "CG": {
+            "name": "Republikken Congo"
+        },
+        "CH": {
+            "name": "Schweiz"
+        },
+        "CI": {
+            "name": "Elfenbenskysten"
+        },
+        "CK": {
+            "name": "Cookøerne"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Cameroun"
+        },
+        "CN": {
+            "name": "Kina"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Cuba"
+        },
+        "CV": {
+            "name": "Kap Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Juleøen"
+        },
+        "CY": {
+            "name": "Cypern"
+        },
+        "CZ": {
+            "name": "Tjekkiet"
+        },
+        "DE": {
+            "name": "Tyskland"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Danmark"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Den Dominikanske Republik"
+        },
+        "DZ": {
+            "name": "Algeriet"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estland"
+        },
+        "EG": {
+            "name": "Egypten"
+        },
+        "EH": {
+            "name": "Vestsahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Spanien"
+        },
+        "ES-CN": {
+            "name": "Kanariske Øer"
+        },
+        "ET": {
+            "name": "Etiopien"
+        },
+        "FI": {
+            "name": "Finland"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Falklandsøerne"
+        },
+        "FM": {
+            "name": "Mikronesien"
+        },
+        "FO": {
+            "name": "Færøerne"
+        },
+        "FR": {
+            "name": "Frankrig"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Storbritannien"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgien"
+        },
+        "GF": {
+            "name": "Fransk Guyana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Grønland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Ækvatorialguinea"
+        },
+        "GR": {
+            "name": "Grækenland"
+        },
+        "GS": {
+            "name": "Sydgeorgien og de Sydlige Sandwichøer"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hongkong"
+        },
+        "HM": {
+            "name": "Heard- og McDonaldøerne"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Kroatien"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Ungarn"
+        },
+        "ID": {
+            "name": "Indonesien"
+        },
+        "IE": {
+            "name": "Irland"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Isle of Man"
+        },
+        "IN": {
+            "name": "Indien"
+        },
+        "IO": {
+            "name": "Det Britiske Territorium i Det Indiske Ocean"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Italien"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordan"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kirgisistan"
+        },
+        "KH": {
+            "name": "Cambodja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comorerne"
+        },
+        "KN": {
+            "name": "Saint Kitts og Nevis"
+        },
+        "KP": {
+            "name": "Nordkorea"
+        },
+        "KR": {
+            "name": "Sydkorea"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Caymanøerne"
+        },
+        "KZ": {
+            "name": "Kasakhstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Litauen"
+        },
+        "LU": {
+            "name": "Luxembourg"
+        },
+        "LV": {
+            "name": "Letland"
+        },
+        "LY": {
+            "name": "Libyen"
+        },
+        "MA": {
+            "name": "Marokko"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshalløerne"
+        },
+        "MK": {
+            "name": "Nordmakedonien"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongoliet"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Nordmarianerne"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauretanien"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldiverne"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexico"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mozambique"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Ny Kaledonien"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolkøen"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Nederlandene"
+        },
+        "NO": {
+            "name": "Norge"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "New Zealand"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Fransk Polynesien"
+        },
+        "PG": {
+            "name": "Papua Ny Guinea"
+        },
+        "PH": {
+            "name": "Filippinerne"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polen"
+        },
+        "PM": {
+            "name": "Saint-Pierre og Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairnøerne"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palæstina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumænien"
+        },
+        "RS": {
+            "name": "Serbien"
+        },
+        "RU": {
+            "name": "Rusland"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saudi-Arabien"
+        },
+        "SB": {
+            "name": "Salomonøerne"
+        },
+        "SC": {
+            "name": "Seychellerne"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Sverige"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Sankt Helena"
+        },
+        "SI": {
+            "name": "Slovenien"
+        },
+        "SJ": {
+            "name": "Svalbard og Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakiet"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Sydsudan"
+        },
+        "ST": {
+            "name": "São Tomé og Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Syrien"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Turks- og Caicosøerne"
+        },
+        "TD": {
+            "name": "Tchad"
+        },
+        "TF": {
+            "name": "De Franske Sydlige Territorier"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailand"
+        },
+        "TJ": {
+            "name": "Tadsjikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Østtimor"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunesien"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Tyrkiet"
+        },
+        "TT": {
+            "name": "Trinidad og Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraine"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Amerikanske Oversøiske Øer"
+        },
+        "US": {
+            "name": "USA"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Usbekistan"
+        },
+        "VA": {
+            "name": "Vatikanstaten"
+        },
+        "VC": {
+            "name": "Saint Vincent og Grenadinerne"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "De Britiske Jomfruøer"
+        },
+        "VI": {
+            "name": "De Amerikanske Jomfruøer"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis og Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Sydafrika"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
-  },
-  "discounts": {
-    "title": "Rabat"
-  },
-  "cart_summary": {
-    "total": "Total",
-    "subtotal": "Subtotal",
-    "shipping": "Levering",
-    "discount": "Rabat",
-    "quantity": "x",
-    "calculated_at_checkout": "Udregnes i kassen"
-  },
-  "errors": {
-    "default": "Der er sket en fejl",
-
-    "promo_code_is_invalid": "Rabatkodet er ikke gyldig",
-    "promocode_already_in_cart": "Rabatkoden er allerede anvendt",
-    "promocode_isnt_applicable": "Rabatkoden kan ikke anvendes",
-    "promo_code_is_expired": "Rabatkoden er udløbet",
-    "stringEmpty": "Feltet er krævet",
-    "required": "Feltet er krævet",
-    "invalid_expiry_year_past": "Kreditkortet er udløbet",
-    "email": "Brug en gyldig email",
-
-    "payment_failed":{
-      "title": "Kan ikke processere transaktionen",
-      "description": "Tjek dine betalingsoplysninger og prøv igen."
-    },
-
-    "payment_authorization": {
-      "title": "Kan ikke processere transaktionen",
-
-      "default": "Tjek dine betalingsoplysninger og prøv igen."
-    },
-    "customer_exists": "Denne email er allerede brugt.",
-    "customer_password_missmatch": "Koderne skal være ens.",
-    "invalid_credentials": "Ugylding email eller kode."
-  },
-  "customer_orders": {
-    "loading": "Henter..."
-  },
-  "confirmation": {
-    "thank_you_for_your_order": "Tak for din bestilling",
-    "async_confirmation_notice": "Tak for din bestilling. Der vil blive sendt en ordrebekræftelse til din email."
-  },
-  "checkout": {
-    "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
-  }
 }
