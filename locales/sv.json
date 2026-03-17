@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Laddar...",
+        "error": "Ett fel uppstod.",
+        "success": "Klart!"
+    },
     "actions": {
         "edit": "Ändra",
         "cancel": "Avbryt",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Tillbaka till kassan",
         "checkout": "Kassa",
         "apply": "Använd",
+        "dismiss": "Avfärda",
         "type_address": "Ange din adress",
         "use_this_address": "Använd den här adressen",
         "back_to_store": "Tillbaka till butiken",
@@ -17,6 +23,7 @@
         "save_changes": "Spara ändringar",
         "back_to_orders": "Tillbaka till beställningar",
         "change_password": "Ändra lösenord",
+        "clear_cart": "Töm varukorg",
         "add": "Lägg till"
     },
     "header": {
@@ -37,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Prenumeration",
+        "state": {
+            "title": "Status",
+            "active": "Aktiv",
+            "paused": "Pausad",
+            "finished": "Avslutad",
+            "stopped": "Stoppad",
+            "cancellationrequested": "Prenumerationen avslutas i slutet av faktureringsperioden."
+        },
+        "placed_on": "Beställd",
+        "final_billing_date": "Sista faktureringsdatum",
+        "items": "Artiklar",
         "plan": "Plan",
         "billed_on": "Faktureras",
-        "payment_amount": "Betalningsbelopp"
+        "payment_amount": "Betalningsbelopp",
+        "processing": "Prenumerationen behandlas fortfarande. Kom tillbaka senare för att se detaljer.",
+        "loading": "Laddar prenumerationer",
+        "cancel": "Avbryt",
+        "pause": "Pausa",
+        "unpause": "Återuppta",
+        "billing_recurrence": {
+            "daily": "Faktureras varje dag |||| Faktureras var %{smart_count}:e dag",
+            "weekly": "Faktureras varje vecka |||| Faktureras var %{smart_count}:e vecka",
+            "monthly": "Faktureras varje månad |||| Faktureras var %{smart_count}:e månad",
+            "yearly": "Faktureras varje år |||| Faktureras vart %{smart_count}:e år"
+        }
     },
     "cart": {
         "subtotal": "Delsumma",
@@ -52,7 +82,8 @@
         "view_detailed_cart": "Visa detaljerad varukorg"
     },
     "order": {
-        "loading": "Vi hämtar dina orderdetaljer..."
+        "loading": "Vi hämtar dina orderdetaljer...",
+        "title": "Beställning"
     },
     "discount_box": {
         "promo_code": "Kampanjkod?",
@@ -62,10 +93,13 @@
     "address_form": {
         "name": "Ditt namn",
         "email": "E-postadress",
+        "firstName": "Förnamn",
+        "lastName": "Efternamn",
         "address1": "Gatuadress",
         "address2": "Lägenhetsnummer",
         "city": "Stad",
         "country": "Land",
+        "phone": "Telefon",
         "postalCode": "Postkod",
         "province": "Län",
         "dont_see_address": "Jag ser inte min adress"
@@ -77,7 +111,15 @@
         "use_different_shipping_address": "Använd en annan leveransadress"
     },
     "customer": {
-        "information": "Kundinformation"
+        "information": "Kundinformation",
+        "payment_info": "Betalningsinformation",
+        "payment_method_update": {
+            "title": "Uppdatera betalningsmetod",
+            "outstanding_payment_failed": {
+                "title": "Betalning misslyckades",
+                "description": "Uppdatera din betalningsmetod för att fortsätta."
+            }
+        }
     },
     "customer_details": {
         "title": "Kunduppgifter"
@@ -97,7 +139,18 @@
         "view_invoice": "Visa faktura",
         "sign_out": "Logga ut",
         "show_more_orders": "Visa %{smart_count} beställningar till |||| Visa %{smart_count} beställningar till",
-        "orders": "Beställningar"
+        "show_more_subscriptions": "Visa %{smart_count} prenumeration till |||| Visa %{smart_count} prenumerationer till",
+        "orders": "Beställningar",
+        "subscriptions": "Prenumerationer",
+        "subscription": "Prenumeration"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "En prenumeration har en förfallen betalning",
+                "description": "Du har en prenumeration med en förfallen betalning. Vänligen uppdatera din betalningsmetod."
+            }
+        }
     },
     "signin_form": {
         "signin": "Logga in",
@@ -132,7 +185,11 @@
         "already_have_an_account": "Har du redan ett konto?",
         "email": "E-postadress",
         "password": "Lösenord",
-        "confirm_password": "Bekräfta lösenord"
+        "confirm_password": "Bekräfta lösenord",
+        "requires_action": {
+            "title": "Kontrollera din e-post",
+            "description": "Vi har skickat ett e-postmeddelande till dig. Följ instruktionerna för att slutföra registreringen."
+        }
     },
     "guest_checkout": {
         "or": "Eller",
@@ -142,7 +199,13 @@
         "title": "Frakt",
         "shipping_to": "Leverera till:",
         "address": "Leveransadress",
-        "method": "Fraktmetod"
+        "method": "Fraktmetod",
+        "methods": {
+            "example_localization_id": "Exempel på fraktmetod"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garanterad leverans inom %{smart_count} dag |||| Garanterad leverans inom %{smart_count} dagar"
     },
     "payment": {
         "form": {
@@ -152,7 +215,11 @@
             "card_number": "Kortnummer",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Postkod"
+            "card_postal_code": "Postkod",
+            "invalid_number": "Kortnumret är ogiltigt",
+            "invalid_expiration": "Utgångsdatumet är ogiltigt",
+            "invalid_cvv": "CVV är ogiltigt",
+            "invalid_postal_code": "Postkoden är ogiltig"
         },
         "still_pending_notice": "Din betalning bearbetas fortfarande.",
         "title": "Betalning",
@@ -205,11 +272,13 @@
         "promocode_isnt_applicable": "Den här kampanjkoden kan inte användas",
         "promo_code_is_expired": "Kampanjkoden har gått ut",
         "stringEmpty": "Det här fältet är obligatoriskt",
+        "emailEmpty": "E-postadress krävs",
         "required": "Det här fältet är obligatoriskt",
         "invalid_expiry_year_past": "Kortet har gått ut",
         "email": "Ange en giltig e-postadress",
         "quantity_revised": "Antalet har uppdaterats på grund av lagerbegränsningar.",
         "quantity_out_of_stock": "Tyvärr finns inte denna artikel i lager, ta bort den från varukorgen för att fortsätta.",
+        "disabled_country": "Leverans till detta land är inte tillgänglig.",
         "error_payment_items_are_invalid": {
             "title": "Vissa artiklar i din varukorg är ogiltiga.",
             "description": "Vänligen granska din beställning eller försök igen senare."
@@ -256,6 +325,7 @@
                 "description": "Den valda fraktkostnaden kan ha ändrats eller är inte tillgänglig. Vänligen kontakta butiksägaren för mer information."
             }
         },
+        "invalid_address": "Adressen är ogiltig.",
         "shipping": {
             "account_configuration": {
                 "title": "Ingen fraktmetod är för närvarande tillgänglig",
@@ -268,13 +338,38 @@
             "no_rates_found": {
                 "title": "Ingen fraktmetod är tillgänglig för din beställning",
                 "description": "Vänligen granska din leveransadress eller kontakta oss."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Leverans till detta land stöds inte.",
+            "E.ENGINE.UNAVAILABLE": "Frakttjänsten är inte tillgänglig. Försök igen senare.",
+            "E.QUERY.UNANSWERABLE": "Adressen kunde inte verifieras. Kontrollera dina uppgifter.",
+            "E.ADDRESS.NOT_FOUND": "Adressen hittades inte.",
+            "E.SECONDARY_INFORMATION.INVALID": "Ytterligare adressinformation är ogiltig.",
+            "E.SECONDARY_INFORMATION.MISSING": "Ytterligare adressinformation saknas.",
+            "E.HOUSE_NUMBER.MISSING": "Husnummer saknas.",
+            "E.HOUSE_NUMBER.INVALID": "Husnumret är ogiltigt.",
+            "E.STREET.MISSING": "Gatuadress saknas.",
+            "E.STREET.INVALID": "Gatuadressen är ogiltig.",
+            "E.BOX_NUMBER.MISSING": "Boxnummer saknas.",
+            "E.BOX_NUMBER.INVALID": "Boxnumret är ogiltigt.",
+            "E.ADDRESS.INVALID": "Adressen är ogiltig.",
+            "E.ZIP.NOT_FOUND": "Postnumret hittades inte.",
+            "E.ZIP.INVALID": "Postnumret är ogiltigt.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Postnummertillägget hittades inte.",
+            "E.ADDRESS.MULTIPLE": "Flera adresser hittades. Ange en mer specifik adress.",
+            "E.ADDRESS.INSUFFICIENT": "Adressinformationen är ofullständig.",
+            "E.ADDRESS.DUAL": "Adressen innehåller motstridiga uppgifter.",
+            "E.STREET.MAGNET": "Gatuadressen kunde inte verifieras.",
+            "E.CITY_STATE.INVALID": "Stad eller region är ogiltig.",
+            "E.STATE.INVALID": "Region är ogiltig.",
+            "E.ADDRESS.DELIVERY.INVALID": "Leveransadressen är ogiltig.",
+            "E.TIMED_OUT": "Tidsgränsen för adressverifiering överskreds. Försök igen.",
+            "E.TIME_ZONE.UNAVAILABLE": "Tidszonsinformation är inte tillgänglig.",
+            "E.PO_BOX.INTERNATIONAL": "Internationell leverans till postboxadresser är inte möjlig."
         },
         "payment_failed": {
             "title": "Kunde inte genomföra betalningen",
             "description": "Försök igen senare eller kontakta oss för hjälp."
         },
-
         "payment_authorization": {
             "title": "Vi kunde inte genomföra betalningen",
             "default": "Kontrollera fakturerings- och betalningsinformationen."
@@ -285,6 +380,16 @@
                 "description": "Vi kunde inte verifiera din betalningsinformation. Vänligen försök igen"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Varukorgen kan bara innehålla en prenumeration.",
+                "description": "Ta bort den befintliga prenumerationen innan du lägger till en ny."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Varukorgen kan innehålla antingen artiklar eller prenumerationer.",
+                "description": "Ta bort befintliga artiklar innan du lägger till en prenumeration, eller tvärtom."
+            }
+        },
         "customer_exists": "Den här e-postadressen har redan använts.",
         "customer_password_missmatch": "Lösenorden stämmer inte överens.",
         "customer_password_token_expired": "Din token för lösenordsåterställning har utgått.",
@@ -293,8 +398,14 @@
         "invalid_credentials": "Felaktig e-postaadress eller lösenord.",
         "customer_current_password_invalid": "Felaktigt lösenord."
     },
+    "shippingRates": {
+        "loading": "Laddar..."
+    },
     "customer_orders": {
         "loading": "Laddar..."
+    },
+    "digital_goods": {
+        "download": "Ladda ner"
     },
     "confirmation": {
         "thank_you_for_your_order": "Tack för din beställning",
@@ -302,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett en adress."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Förenade Arabemiraten"
+        },
+        "AF": {
+            "name": "Afghanistan"
+        },
+        "AG": {
+            "name": "Antigua och Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albanien"
+        },
+        "AM": {
+            "name": "Armenien"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktis"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Amerikanska Samoa"
+        },
+        "AT": {
+            "name": "Österrike"
+        },
+        "AU": {
+            "name": "Australien"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Åland"
+        },
+        "AZ": {
+            "name": "Azerbajdzjan"
+        },
+        "BA": {
+            "name": "Bosnien och Hercegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgien"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgarien"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Karibiska Nederländerna"
+        },
+        "BR": {
+            "name": "Brasilien"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Bouvetön"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kokosöarna"
+        },
+        "CD": {
+            "name": "Demokratiska republiken Kongo"
+        },
+        "CF": {
+            "name": "Centralafrikanska republiken"
+        },
+        "CG": {
+            "name": "Republiken Kongo"
+        },
+        "CH": {
+            "name": "Schweiz"
+        },
+        "CI": {
+            "name": "Elfenbenskusten"
+        },
+        "CK": {
+            "name": "Cooköarna"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Kina"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kap Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Julön"
+        },
+        "CY": {
+            "name": "Cypern"
+        },
+        "CZ": {
+            "name": "Tjeckien"
+        },
+        "DE": {
+            "name": "Tyskland"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Danmark"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Dominikanska republiken"
+        },
+        "DZ": {
+            "name": "Algeriet"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estland"
+        },
+        "EG": {
+            "name": "Egypten"
+        },
+        "EH": {
+            "name": "Västsahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Spanien"
+        },
+        "ES-CN": {
+            "name": "Kanarieöarna"
+        },
+        "ET": {
+            "name": "Etiopien"
+        },
+        "FI": {
+            "name": "Finland"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Falklandsöarna"
+        },
+        "FM": {
+            "name": "Mikronesien"
+        },
+        "FO": {
+            "name": "Färöarna"
+        },
+        "FR": {
+            "name": "Frankrike"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Förenade kungariket"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgien"
+        },
+        "GF": {
+            "name": "Franska Guyana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Grönland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Ekvatorialguinea"
+        },
+        "GR": {
+            "name": "Grekland"
+        },
+        "GS": {
+            "name": "Sydgeorgien och Sydsandwichöarna"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hongkong"
+        },
+        "HM": {
+            "name": "Heard- och McDonaldöarna"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Kroatien"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Ungern"
+        },
+        "ID": {
+            "name": "Indonesien"
+        },
+        "IE": {
+            "name": "Irland"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Isle of Man"
+        },
+        "IN": {
+            "name": "Indien"
+        },
+        "IO": {
+            "name": "Brittiska territoriet i Indiska oceanen"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Italien"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordanien"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kirgizistan"
+        },
+        "KH": {
+            "name": "Kambodja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komorerna"
+        },
+        "KN": {
+            "name": "Saint Kitts och Nevis"
+        },
+        "KP": {
+            "name": "Nordkorea"
+        },
+        "KR": {
+            "name": "Sydkorea"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Caymanöarna"
+        },
+        "KZ": {
+            "name": "Kazakstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Litauen"
+        },
+        "LU": {
+            "name": "Luxemburg"
+        },
+        "LV": {
+            "name": "Lettland"
+        },
+        "LY": {
+            "name": "Libyen"
+        },
+        "MA": {
+            "name": "Marocko"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldavien"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshallöarna"
+        },
+        "MK": {
+            "name": "Nordmakedonien"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongoliet"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Nordmarianerna"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauretanien"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldiverna"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexiko"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Moçambique"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Nya Kaledonien"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolkön"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Nederländerna"
+        },
+        "NO": {
+            "name": "Norge"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Nya Zeeland"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Franska Polynesien"
+        },
+        "PG": {
+            "name": "Papua Nya Guinea"
+        },
+        "PH": {
+            "name": "Filippinerna"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polen"
+        },
+        "PM": {
+            "name": "Saint-Pierre och Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairnöarna"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumänien"
+        },
+        "RS": {
+            "name": "Serbien"
+        },
+        "RU": {
+            "name": "Ryssland"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saudiarabien"
+        },
+        "SB": {
+            "name": "Salomonöarna"
+        },
+        "SC": {
+            "name": "Seychellerna"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Sverige"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Sankta Helena"
+        },
+        "SI": {
+            "name": "Slovenien"
+        },
+        "SJ": {
+            "name": "Svalbard och Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakien"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Sydsudan"
+        },
+        "ST": {
+            "name": "São Tomé och Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Syrien"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Turks- och Caicosöarna"
+        },
+        "TD": {
+            "name": "Tchad"
+        },
+        "TF": {
+            "name": "Franska sydterritorierna"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailand"
+        },
+        "TJ": {
+            "name": "Tadzjikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Östtimor"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunisien"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turkiet"
+        },
+        "TT": {
+            "name": "Trinidad och Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Förenta staternas mindre öar"
+        },
+        "US": {
+            "name": "Förenta staterna"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Vatikanstaten"
+        },
+        "VC": {
+            "name": "Saint Vincent och Grenadinerna"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Brittiska Jungfruöarna"
+        },
+        "VI": {
+            "name": "Amerikanska Jungfruöarna"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis och Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Sydafrika"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
 }
