@@ -20,10 +20,10 @@
         "hide": "Yashirish",
         "apply_changes": "O'zgarishlarni qo'llash",
         "yes_use_it": "Ha, bundan foydalanish",
-        "clear_cart": "Savatni tozalash",
         "save_changes": "O'zgarishlarni saqlash",
         "back_to_orders": "Buyurtmalarga qaytish",
         "change_password": "Parolni o'zgartirish",
+        "clear_cart": "Savatni tozalash",
         "add": "Qo'shish"
     },
     "header": {
@@ -56,6 +56,9 @@
         "placed_on": "Buyurtma sanasi",
         "final_billing_date": "Oxirgi hisob-kitob sanasi",
         "items": "Mahsulotlar",
+        "plan": "Reja",
+        "billed_on": "Hisob-kitob sanasi",
+        "payment_amount": "To'lov summasi",
         "processing": "Obuna hali qayta ishlanmoqda. Tafsilotlar uchun keyinroq qayting.",
         "loading": "Obunalar yuklanmoqda",
         "cancel": "Bekor qilish",
@@ -66,10 +69,7 @@
             "weekly": "Har hafta hisoblanadi |||| Har %{smart_count} haftada hisoblanadi",
             "monthly": "Har oy hisoblanadi |||| Har %{smart_count} oyda hisoblanadi",
             "yearly": "Har yil hisoblanadi |||| Har %{smart_count} yilda hisoblanadi"
-        },
-        "plan": "Reja",
-        "billed_on": "Hisob-kitob sanasi",
-        "payment_amount": "To'lov summasi"
+        }
     },
     "cart": {
         "subtotal": "Summa",
@@ -121,25 +121,28 @@
             }
         }
     },
+    "customer_details": {
+        "title": "Mijoz ma'lumotlari"
+    },
     "customer_dashboard": {
         "my_account": "Mening kabinetim",
         "ordered_on": "Buyurtma sanasi",
+        "next_billing_date": "Keyingi hisob-kitob sanasi",
+        "price": "Narx",
         "total": "Summa",
         "status": "Holati",
         "order": "Buyurtma %{invoice_number}",
         "order_details": "Buyurtmaning tafsilotlari",
         "loading": "Yuklanmoqda...",
         "no_orders": "Buyurtmalar yo'q.",
+        "no_subscriptions": "Obunalar topilmadi.",
+        "view_invoice": "Hisob-fakturani ko'rish",
         "sign_out": "Chiqish",
         "show_more_orders": "Yana %{smart_count} buyurtmani ko'rsatish |||| Yana %{smart_count} buyurtmalarni ko'rsatish",
         "show_more_subscriptions": "Yana %{smart_count} ta obunani ko'rsatish |||| Yana %{smart_count} ta obunani ko'rsatish",
+        "orders": "Buyurtmalar",
         "subscriptions": "Obunalar",
-        "subscription": "Obuna",
-        "next_billing_date": "Keyingi hisob-kitob sanasi",
-        "price": "Narx",
-        "no_subscriptions": "Obunalar topilmadi.",
-        "view_invoice": "Hisob-fakturani ko'rish",
-        "orders": "Buyurtmalar"
+        "subscription": "Obuna"
     },
     "customer_notifications": {
         "subscription": {
@@ -169,6 +172,13 @@
         "password": "Yangi parol",
         "confirmation_password": "Yangi parolni yana bir bor qaytaring",
         "action": "Parolni yangilash"
+    },
+    "change_password_form": {
+        "title": "Parolni o'zgartirish",
+        "current_password": "Joriy parol",
+        "password": "Yangi parol",
+        "confirmation_password": "Yangi parolni tasdiqlang",
+        "action": "Parolni o'zgartirish"
     },
     "register_form": {
         "register": "Ro'yxatdan o'tish",
@@ -246,14 +256,14 @@
         "title": "Chegirmalar"
     },
     "cart_summary": {
+        "taxes": "Soliqlar",
+        "taxes_included_in_price": "Ba'zi mahsulotlar narxiga soliq kiritilgan.",
         "total": "Summa",
         "subtotal": "Jami",
         "shipping": "Yetklazib berish",
         "discount": "Chegirmalar",
         "quantity": "x",
-        "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi",
-        "taxes": "Soliqlar",
-        "taxes_included_in_price": "Ba'zi mahsulotlar narxiga soliq kiritilgan."
+        "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi"
     },
     "errors": {
         "default": "Xato yuz berdi. Qaytadan urinib ko'ring yoki biz bilan bog'laning.",
@@ -279,13 +289,16 @@
             "invalid_year": "Kartaning amal qilish yili xato ko'rsatilgan.",
             "invalid_month": "Kartaning amal qilish oyi xato ko'rsatilgan.",
             "invalid_cvv": "CVV xato yozildi.",
-            "expired": "Kartaning amal qilish muddati tugagan.",
             "invalid_expiration": "Amal qilish muddati yaroqsiz.",
+            "expired": "Kartaning amal qilish muddati tugagan.",
             "declined": "Karta rad etildi. Qo'shimcha ma'lumot uchun karta chiqaruvchiga murojaat qiling.",
             "invalid_address": "Karta manzili yaroqsiz.",
             "insufficient_funds": "Tranzaksiya summasini qoplash uchun hisobda mablag' yetarli emas.",
             "card_not_supported": "Bu mintaqada karta qo'llab-quvvatlanmaydi.",
             "currency_not_supported": "Valyuta hozirda qo'llab-quvvatlanmaydi."
+        },
+        "transaction": {
+            "declined": "Kartani qayta ishlashda xatolik yuz berdi. Keyinroq qayta urinib ko'ring yoki boshqa to'lov usulidan foydalaning."
         },
         "discounts": {
             "conflict": "Ayrim chegirmalar birgalikda ishlamaydi. Faqat shu chegirma bilan olasizmi?"
@@ -383,9 +396,6 @@
         "customer_password_token_invalid": "Sizdagi parolni yangilash tokeni amal qilmaydi.",
         "customer_not_found": "Bu e-mail hech qanday akkaunt bilan bog'liq emas.",
         "invalid_credentials": "Noto'g'ri elektron pochta yoki parol.",
-        "transaction": {
-            "declined": "Kartani qayta ishlashda xatolik yuz berdi. Keyinroq qayta urinib ko'ring yoki boshqa to'lov usulidan foydalaning."
-        },
         "customer_current_password_invalid": "Noto'g'ri parol."
     },
     "shippingRates": {
@@ -1158,15 +1168,5 @@
         "ZW": {
             "name": "Zimbabve"
         }
-    },
-    "customer_details": {
-        "title": "Mijoz ma'lumotlari"
-    },
-    "change_password_form": {
-        "title": "Parolni o'zgartirish",
-        "current_password": "Joriy parol",
-        "password": "Yangi parol",
-        "confirmation_password": "Yangi parolni tasdiqlang",
-        "action": "Parolni o'zgartirish"
     }
 }

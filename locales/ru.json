@@ -20,10 +20,10 @@
         "hide": "Скрыть",
         "apply_changes": "Применить изменения",
         "yes_use_it": "Да, использовать это",
-        "clear_cart": "Очистить корзину",
         "save_changes": "Сохранить изменения",
         "back_to_orders": "Вернуться к заказам",
         "change_password": "Изменить пароль",
+        "clear_cart": "Очистить корзину",
         "add": "Добавить"
     },
     "header": {
@@ -56,6 +56,9 @@
         "placed_on": "Оформлена",
         "final_billing_date": "Последняя дата списания",
         "items": "Товары",
+        "plan": "План",
+        "billed_on": "Дата списания",
+        "payment_amount": "Сумма платежа",
         "processing": "Подписка ещё обрабатывается. Вернитесь позже для просмотра деталей.",
         "loading": "Загрузка подписок",
         "cancel": "Отменить",
@@ -66,10 +69,7 @@
             "weekly": "Списание еженедельно |||| Списание каждые %{smart_count} недель",
             "monthly": "Списание ежемесячно |||| Списание каждые %{smart_count} месяцев",
             "yearly": "Списание ежегодно |||| Списание каждые %{smart_count} лет"
-        },
-        "plan": "План",
-        "billed_on": "Дата списания",
-        "payment_amount": "Сумма платежа"
+        }
     },
     "cart": {
         "subtotal": "Сумма",
@@ -121,25 +121,28 @@
             }
         }
     },
+    "customer_details": {
+        "title": "Данные клиента"
+    },
     "customer_dashboard": {
         "my_account": "Мой аккаунт",
         "ordered_on": "Дата заказа",
+        "next_billing_date": "Следующая дата списания",
+        "price": "Цена",
         "total": "Сумма",
         "status": "Статус",
         "order": "Заказ %{invoice_number}",
         "order_details": "Детали заказа",
         "loading": "Загрузка...",
         "no_orders": "Нет заказов.",
+        "no_subscriptions": "Подписки не найдены.",
+        "view_invoice": "Просмотреть счёт",
         "sign_out": "Выйти",
         "show_more_orders": "Показать ещё %{smart_count} заказ |||| Показать ещё %{smart_count} заказов",
         "show_more_subscriptions": "Показать ещё %{smart_count} подписку |||| Показать ещё %{smart_count} подписок",
+        "orders": "Заказы",
         "subscriptions": "Подписки",
-        "subscription": "Подписка",
-        "next_billing_date": "Следующая дата списания",
-        "price": "Цена",
-        "no_subscriptions": "Подписки не найдены.",
-        "view_invoice": "Просмотреть счёт",
-        "orders": "Заказы"
+        "subscription": "Подписка"
     },
     "customer_notifications": {
         "subscription": {
@@ -169,6 +172,13 @@
         "password": "Новый пароль",
         "confirmation_password": "Введите новый пароль ещё раз",
         "action": "Сброс пароля"
+    },
+    "change_password_form": {
+        "title": "Изменить пароль",
+        "current_password": "Текущий пароль",
+        "password": "Новый пароль",
+        "confirmation_password": "Подтвердите новый пароль",
+        "action": "Изменить пароль"
     },
     "register_form": {
         "register": "Зарегистрироваться",
@@ -246,14 +256,14 @@
         "title": "Скидки"
     },
     "cart_summary": {
+        "taxes": "Налоги",
+        "taxes_included_in_price": "Некоторые товары включают налог в цену.",
         "total": "Сумма",
         "subtotal": "Подитог",
         "shipping": "Доставка",
         "discount": "Скидки",
         "quantity": "x",
-        "calculated_at_checkout": "Рассчитано при оформлении заказа",
-        "taxes": "Налоги",
-        "taxes_included_in_price": "Некоторые товары включают налог в цену."
+        "calculated_at_checkout": "Рассчитано при оформлении заказа"
     },
     "errors": {
         "default": "Произошла ошибка, попробуйте снова или свяжитесь с нами.",
@@ -279,13 +289,16 @@
             "invalid_year": "Год истечения срока действия карты недействителен.",
             "invalid_month": "Месяц истечения срока действия карты недействителен.",
             "invalid_cvv": "CVV карты недействителен.",
-            "expired": "Срок действия карты истек",
             "invalid_expiration": "Срок действия карты недействителен.",
+            "expired": "Срок действия карты истек",
             "declined": "Карта отклонена. Обратитесь к эмитенту карты.",
             "invalid_address": "Адрес карты недействителен.",
             "insufficient_funds": "Недостаточно средств на счёте.",
             "card_not_supported": "Карта не поддерживается в этом регионе.",
             "currency_not_supported": "Валюта в настоящее время не поддерживается."
+        },
+        "transaction": {
+            "declined": "Ошибка при обработке карты. Попробуйте позже или используйте другой способ оплаты."
         },
         "discounts": {
             "conflict": "Некоторые скидки не могут быть объединены. Использовать данную скидку?"
@@ -383,9 +396,6 @@
         "customer_password_token_invalid": "Ваш токен восстановления пароля недействителен.",
         "customer_not_found": "Этот адрес электронной почты не связан ни с одной учётной записью.",
         "invalid_credentials": "Неверная электронная почта или пароль.",
-        "transaction": {
-            "declined": "Ошибка при обработке карты. Попробуйте позже или используйте другой способ оплаты."
-        },
         "customer_current_password_invalid": "Неверный пароль."
     },
     "shippingRates": {
@@ -1158,15 +1168,5 @@
         "ZW": {
             "name": "Зимбабве"
         }
-    },
-    "customer_details": {
-        "title": "Данные клиента"
-    },
-    "change_password_form": {
-        "title": "Изменить пароль",
-        "current_password": "Текущий пароль",
-        "password": "Новый пароль",
-        "confirmation_password": "Подтвердите новый пароль",
-        "action": "Изменить пароль"
     }
 }

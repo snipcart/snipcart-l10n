@@ -1,11 +1,11 @@
 {
     "default": {
-        "Loading...": "Жүктелуде...",
-        "An error occured.": "Қате орын алды.",
-        "Success!": "Сәтті өтті!",
         "loading": "Жүктелуде...",
         "error": "Қате пайда болды.",
-        "success": "Сәтті!"
+        "success": "Сәтті!",
+        "Loading...": "Жүктелуде...",
+        "An error occured.": "Қате орын алды.",
+        "Success!": "Сәтті өтті!"
     },
     "actions": {
         "edit": "Өзгеру",
@@ -14,6 +14,7 @@
         "back_to_checkout": "Кассаға оралу",
         "checkout": "Кассалық рәсімдеу",
         "apply": "Қолдану",
+        "dismiss": "Жабу",
         "type_address": "Мекенжайыңызды теріңіз",
         "use_this_address": "Осы мекенжайды пайдаланыңыз",
         "back_to_store": "Дүкенге оралу",
@@ -26,8 +27,7 @@
         "back_to_orders": "Тапсырыстарға қайту",
         "change_password": "Құпиясөзді өзгерту",
         "clear_cart": "Себетті тазалау",
-        "add": "Қосу",
-        "dismiss": "Жабу"
+        "add": "Қосу"
     },
     "header": {
         "title_cart_summary": "Себет қорытындысы",

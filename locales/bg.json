@@ -20,10 +20,10 @@
         "hide": "Скрий",
         "apply_changes": "Приложи промените",
         "yes_use_it": "Да, използвай го",
-        "clear_cart": "Изчисти количката",
         "save_changes": "Запази промените",
         "back_to_orders": "Обратно към поръчките",
         "change_password": "Промяна на паролата",
+        "clear_cart": "Изчисти количката",
         "add": "Добави"
     },
     "header": {
@@ -140,9 +140,9 @@
         "sign_out": "Изход",
         "show_more_orders": "Покажи %{smart_count} повече |||| Покажи %{smart_count} повече поръчки",
         "show_more_subscriptions": "Покажи още %{smart_count} абонамент |||| Покажи още %{smart_count} абонамента",
+        "orders": "Поръчки",
         "subscriptions": "Абонаменти",
-        "subscription": "Абонамент",
-        "orders": "Поръчки"
+        "subscription": "Абонамент"
     },
     "customer_notifications": {
         "subscription": {
@@ -172,6 +172,13 @@
         "password": "Нова парола",
         "confirmation_password": "Потвърди нова парола",
         "action": "Възстанови парола"
+    },
+    "change_password_form": {
+        "title": "Промяна на паролата",
+        "current_password": "Текуща парола",
+        "password": "Нова парола",
+        "confirmation_password": "Потвърдете новата парола",
+        "action": "Промени паролата"
     },
     "register_form": {
         "register": "Регистрация",
@@ -249,14 +256,14 @@
         "title": "Отстъпки"
     },
     "cart_summary": {
+        "taxes": "Данъци",
+        "taxes_included_in_price": "Някои артикули включват данък в цената.",
         "total": "Тотал",
         "subtotal": "Субтотал",
         "shipping": "Доставка",
         "discount": "Отстъпки",
         "quantity": "x",
-        "calculated_at_checkout": "Изчислено при плащането",
-        "taxes": "Данъци",
-        "taxes_included_in_price": "Някои артикули включват данък в цената."
+        "calculated_at_checkout": "Изчислено при плащането"
     },
     "errors": {
         "default": "Възникна грешла. Моля опитай отново или се свържи с нас.",
@@ -1161,12 +1168,5 @@
         "ZW": {
             "name": "Зимбабве"
         }
-    },
-    "change_password_form": {
-        "title": "Промяна на паролата",
-        "current_password": "Текуща парола",
-        "password": "Нова парола",
-        "confirmation_password": "Потвърдете новата парола",
-        "action": "Промени паролата"
     }
 }

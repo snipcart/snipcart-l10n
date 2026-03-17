@@ -134,10 +134,6 @@
         "password": "Mot de passe",
         "confirm_password": "Confirmation du mot de passe"
     },
-    "alternative": {
-        "or": "Ou",
-        "continue_as_a_guest": "Continuer en tant qu’invité"
-    },
     "shipping": {
         "title": "Livraison",
         "shipping_to": "Livrer à :",
@@ -330,5 +326,9 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés une fois l’adresse fournie."
+    },
+    "alternative": {
+        "or": "Ou",
+        "continue_as_a_guest": "Continuer en tant qu’invité"
     }
 }

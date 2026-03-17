@@ -93,16 +93,16 @@
     "address_form": {
         "name": "お名前",
         "email": "メールアドレス",
+        "firstName": "名",
+        "lastName": "姓",
         "address1": "番地",
         "address2": "建物名（部屋番号）",
         "city": "市区町村",
         "country": "国",
+        "phone": "電話番号",
         "postalCode": "郵便番号",
         "province": "都道府県",
-        "dont_see_address": "住所が見つかりません。",
-        "firstName": "名",
-        "lastName": "姓",
-        "phone": "電話番号"
+        "dont_see_address": "住所が見つかりません。"
     },
     "billing": {
         "title": "請求先",
@@ -325,6 +325,7 @@
                 "description": "選択した配送料金が変更された場合、または利用できない場合があります。詳細については店主にお問い合わせください。"
             }
         },
+        "invalid_address": "住所が無効です。",
         "shipping": {
             "account_configuration": {
                 "title": "現在利用可能な配送方法がありません",
@@ -395,8 +396,7 @@
         "customer_password_token_invalid": "パスワードリカバリートークンが無効です。",
         "customer_not_found": "メールアドレスはどのアカウントにも関連付けられていません。",
         "invalid_credentials": "メールアドレスかパスワードが正しくありません",
-        "customer_current_password_invalid": "無効なパスワードです。",
-        "invalid_address": "住所が無効です。"
+        "customer_current_password_invalid": "無効なパスワードです。"
     },
     "shippingRates": {
         "loading": "発送料金を読み込み中"

@@ -93,16 +93,16 @@
     "address_form": {
         "name": "Nome completo",
         "email": "Email",
+        "firstName": "Nome",
+        "lastName": "Cognome",
         "address1": "Indirizzo",
         "address2": "Citofono",
         "city": "Città",
         "country": "Nazione",
+        "phone": "Telefono",
         "postalCode": "Cap",
         "province": "Provincia",
-        "dont_see_address": "Non vedo il mio indirizzo",
-        "firstName": "Nome",
-        "lastName": "Cognome",
-        "phone": "Telefono"
+        "dont_see_address": "Non vedo il mio indirizzo"
     },
     "billing": {
         "title": "Fatturazione",
@@ -203,6 +203,9 @@
         "methods": {
             "example_localization_id": "Esempio di metodo di spedizione"
         }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Consegna garantita entro %{smart_count} giorno |||| Consegna garantita entro %{smart_count} giorni"
     },
     "payment": {
         "form": {
@@ -322,6 +325,7 @@
                 "description": "I costi di spedizione selezionati potrebbero essere cambiati o non essere disponibili. Si prega di contattare il proprietario del negozio per maggiori informazioni."
             }
         },
+        "invalid_address": "L'indirizzo non è valido.",
         "shipping": {
             "account_configuration": {
                 "title": "Metodo di spedizione non disponibile",
@@ -392,14 +396,16 @@
         "customer_password_token_invalid": "Il tuo token di recupero password non è valido.",
         "customer_not_found": "L'indirizzo e-mail non è associato a nessun account.",
         "invalid_credentials": "Email o password non valide.",
-        "customer_current_password_invalid": "Password non valida.",
-        "invalid_address": "L'indirizzo non è valido."
+        "customer_current_password_invalid": "Password non valida."
     },
     "shippingRates": {
         "loading": "Caricamento delle spese di spedizione"
     },
     "customer_orders": {
         "loading": "Caricamento..."
+    },
+    "digital_goods": {
+        "download": "Scarica"
     },
     "confirmation": {
         "thank_you_for_your_order": "Grazie per il tuo ordine",
@@ -1329,11 +1335,5 @@
         "ZW": {
             "name": "Zimbabwe"
         }
-    },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "Consegna garantita entro %{smart_count} giorno |||| Consegna garantita entro %{smart_count} giorni"
-    },
-    "digital_goods": {
-        "download": "Scarica"
     }
 }

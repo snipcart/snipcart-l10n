@@ -43,6 +43,34 @@
             "yearly": "année |||| %{smart_count} années"
         }
     },
+    "subscription": {
+        "title": "Abonnement",
+        "state": {
+            "title": "État",
+            "active": "Actif",
+            "paused": "En pause",
+            "finished": "Terminé",
+            "stopped": "Arrêté",
+            "cancellationrequested": "L'abonnement prendra fin à la fin de la période de facturation."
+        },
+        "placed_on": "Souscrit le",
+        "final_billing_date": "Dernière date de facturation",
+        "items": "Articles",
+        "plan": "Forfait",
+        "billed_on": "Facturé le",
+        "payment_amount": "Montant du paiement",
+        "processing": "L'abonnement est encore en cours de traitement. Revenez plus tard pour voir les détails.",
+        "loading": "Chargement des abonnements",
+        "cancel": "Annuler",
+        "pause": "Mettre en pause",
+        "unpause": "Reprendre",
+        "billing_recurrence": {
+            "daily": "Facturé quotidiennement |||| Facturé tous les %{smart_count} jours",
+            "weekly": "Facturé chaque semaine |||| Facturé toutes les %{smart_count} semaines",
+            "monthly": "Facturé chaque mois |||| Facturé tous les %{smart_count} mois",
+            "yearly": "Facturé chaque année |||| Facturé tous les %{smart_count} ans"
+        }
+    },
     "cart": {
         "subtotal": "Sous-total",
         "shipping_taxes_calculated_at_checkout": "Les frais de livraison et les taxes seront calculés au moment du paiement.",
@@ -300,8 +328,6 @@
         },
         "invalid_address": "L'adresse est invalide.",
         "shipping": {
-            "title": "Impossible de calculer les frais de livraison.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance.",
             "account_configuration": {
                 "title": "Aucune méthode d'expédition n'est actuellement disponible",
                 "description": "Réessayez plus tard ou contactez-nous pour obtenir de l'aide."
@@ -339,7 +365,9 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adresse de livraison invalide.",
             "E.TIMED_OUT": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
             "E.TIME_ZONE.UNAVAILABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
-            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale."
+            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale.",
+            "title": "Impossible de calculer les frais de livraison.",
+            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance."
         },
         "payment_failed": {
             "title": "Impossible de compléter votre paiement.",
@@ -1256,34 +1284,6 @@
         },
         "ZW": {
             "name": "Zimbabwe"
-        }
-    },
-    "subscription": {
-        "title": "Abonnement",
-        "state": {
-            "title": "État",
-            "active": "Actif",
-            "paused": "En pause",
-            "finished": "Terminé",
-            "stopped": "Arrêté",
-            "cancellationrequested": "L'abonnement prendra fin à la fin de la période de facturation."
-        },
-        "placed_on": "Souscrit le",
-        "final_billing_date": "Dernière date de facturation",
-        "items": "Articles",
-        "plan": "Forfait",
-        "billed_on": "Facturé le",
-        "payment_amount": "Montant du paiement",
-        "processing": "L'abonnement est encore en cours de traitement. Revenez plus tard pour voir les détails.",
-        "loading": "Chargement des abonnements",
-        "cancel": "Annuler",
-        "pause": "Mettre en pause",
-        "unpause": "Reprendre",
-        "billing_recurrence": {
-            "daily": "Facturé quotidiennement |||| Facturé tous les %{smart_count} jours",
-            "weekly": "Facturé chaque semaine |||| Facturé toutes les %{smart_count} semaines",
-            "monthly": "Facturé chaque mois |||| Facturé tous les %{smart_count} mois",
-            "yearly": "Facturé chaque année |||| Facturé tous les %{smart_count} ans"
         }
     }
 }

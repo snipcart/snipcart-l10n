@@ -20,10 +20,10 @@
         "hide": "Сховати",
         "apply_changes": "Застосувати зміни",
         "yes_use_it": "Так, використовуйте",
-        "clear_cart": "Очистити кошик",
         "save_changes": "Зберегти зміни",
         "back_to_orders": "Повернутися до замовлень",
         "change_password": "Змінити пароль",
+        "clear_cart": "Очистити кошик",
         "add": "Додати"
     },
     "header": {
@@ -56,6 +56,9 @@
         "placed_on": "Оформлена",
         "final_billing_date": "Остання дата списання",
         "items": "Товари",
+        "plan": "План",
+        "billed_on": "Дата списання",
+        "payment_amount": "Сума платежу",
         "processing": "Підписка ще обробляється. Поверніться пізніше для перегляду деталей.",
         "loading": "Завантаження підписок",
         "cancel": "Скасувати",
@@ -66,10 +69,7 @@
             "weekly": "Списання щотижня |||| Списання кожні %{smart_count} тижнів",
             "monthly": "Списання щомісяця |||| Списання кожні %{smart_count} місяців",
             "yearly": "Списання щороку |||| Списання кожні %{smart_count} років"
-        },
-        "plan": "План",
-        "billed_on": "Дата списання",
-        "payment_amount": "Сума платежу"
+        }
     },
     "cart": {
         "subtotal": "Сума",
@@ -121,25 +121,28 @@
             }
         }
     },
+    "customer_details": {
+        "title": "Дані клієнта"
+    },
     "customer_dashboard": {
         "my_account": "Мій аккаунт",
         "ordered_on": "Дата замовлення",
+        "next_billing_date": "Наступна дата списання",
+        "price": "Ціна",
         "total": "Сума",
         "status": "Статус",
         "order": "Замовлення %{invoice_number}",
         "order_details": "Деталі замовлення",
         "loading": "Завантаження...",
         "no_orders": "Немає замовлень.",
+        "no_subscriptions": "Підписки не знайдено.",
+        "view_invoice": "Переглянути рахунок",
         "sign_out": "Вийти",
         "show_more_orders": "Показати ще %{smart_count} замовлення |||| Показати ще %{smart_count} замовлень",
         "show_more_subscriptions": "Показати ще %{smart_count} підписку |||| Показати ще %{smart_count} підписок",
+        "orders": "Замовлення",
         "subscriptions": "Підписки",
-        "subscription": "Підписка",
-        "next_billing_date": "Наступна дата списання",
-        "price": "Ціна",
-        "no_subscriptions": "Підписки не знайдено.",
-        "view_invoice": "Переглянути рахунок",
-        "orders": "Замовлення"
+        "subscription": "Підписка"
     },
     "customer_notifications": {
         "subscription": {
@@ -169,6 +172,13 @@
         "password": "Новий пароль",
         "confirmation_password": "Повторно введіть новий пароль",
         "action": "Скинути пароль"
+    },
+    "change_password_form": {
+        "title": "Змінити пароль",
+        "current_password": "Поточний пароль",
+        "password": "Новий пароль",
+        "confirmation_password": "Підтвердіть новий пароль",
+        "action": "Змінити пароль"
     },
     "register_form": {
         "register": "Зареєструватися",
@@ -246,14 +256,14 @@
         "title": "Знижки"
     },
     "cart_summary": {
+        "taxes": "Податки",
+        "taxes_included_in_price": "Деякі товари включають податок у ціну.",
         "total": "Сума",
         "subtotal": "Проміжний підсумок",
         "shipping": "Доставка",
         "discount": "Знижки",
         "quantity": "x",
-        "calculated_at_checkout": "Розраховано при оформленні замовлення",
-        "taxes": "Податки",
-        "taxes_included_in_price": "Деякі товари включають податок у ціну."
+        "calculated_at_checkout": "Розраховано при оформленні замовлення"
     },
     "errors": {
         "default": "Сталася помилка, спробуйте ще раз або зв'яжіться з нами.",
@@ -279,13 +289,16 @@
             "invalid_year": "Рік закінчення терміну дії картки недійсний.",
             "invalid_month": "Місяць закінчення терміну дії картки недійсний.",
             "invalid_cvv": "CVV картки недійсний.",
-            "expired": "Термін дії картки закінчився",
             "invalid_expiration": "Термін дії картки недійсний.",
+            "expired": "Термін дії картки закінчився",
             "declined": "Картку відхилено. Зверніться до емітента картки.",
             "invalid_address": "Адреса картки недійсна.",
             "insufficient_funds": "Недостатньо коштів на рахунку.",
             "card_not_supported": "Картка не підтримується в цьому регіоні.",
             "currency_not_supported": "Валюта наразі не підтримується."
+        },
+        "transaction": {
+            "declined": "Помилка при обробці картки. Спробуйте пізніше або скористайтеся іншим способом оплати."
         },
         "discounts": {
             "conflict": "Деякі знижки не можна поєднувати. Використовувати цю знижку?"
@@ -383,9 +396,6 @@
         "customer_password_token_invalid": "Термін дії токена для відновлення пароля закінчився.",
         "customer_not_found": "Адреса електронної пошти не пов’язана з жодним аккаунтом.",
         "invalid_credentials": "Невірна адреса електронної пошти або пароль.",
-        "transaction": {
-            "declined": "Помилка при обробці картки. Спробуйте пізніше або скористайтеся іншим способом оплати."
-        },
         "customer_current_password_invalid": "Невірний пароль."
     },
     "shippingRates": {
@@ -1158,15 +1168,5 @@
         "ZW": {
             "name": "Зімбабве"
         }
-    },
-    "customer_details": {
-        "title": "Дані клієнта"
-    },
-    "change_password_form": {
-        "title": "Змінити пароль",
-        "current_password": "Поточний пароль",
-        "password": "Новий пароль",
-        "confirmation_password": "Підтвердіть новий пароль",
-        "action": "Змінити пароль"
     }
 }

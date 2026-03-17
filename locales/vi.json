@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Đang tải...",
+        "error": "Đã xảy ra lỗi.",
+        "success": "Thành công!"
+    },
     "actions": {
         "edit": "Chỉnh sửa",
         "cancel": "Thoát",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Quay lại thanh toán",
         "checkout": "Thanh toán",
         "apply": "Nhập",
+        "dismiss": "Bỏ qua",
         "type_address": "Điền địa chỉ của bạn",
         "use_this_address": "Hãy dùng địa chỉ này",
         "back_to_store": "Quay lại cửa hàng",
@@ -17,6 +23,7 @@
         "save_changes": "Lưu thay đổi",
         "back_to_orders": "Quay lại đơn hàng",
         "change_password": "Thay đổi mật khẩu",
+        "clear_cart": "Xóa giỏ hàng",
         "add": "Thêm"
     },
     "header": {
@@ -37,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Gói đăng ký",
+        "state": {
+            "title": "Trạng thái",
+            "active": "Đang hoạt động",
+            "paused": "Tạm dừng",
+            "finished": "Đã kết thúc",
+            "stopped": "Đã dừng",
+            "cancellationrequested": "Gói đăng ký sẽ kết thúc vào cuối chu kỳ thanh toán."
+        },
+        "placed_on": "Ngày đăng ký",
+        "final_billing_date": "Ngày thanh toán cuối cùng",
+        "items": "Sản phẩm",
         "plan": "Dạng",
         "billed_on": "Thanh toán vaiò",
-        "payment_amount": "Lượng cần trả"
+        "payment_amount": "Lượng cần trả",
+        "processing": "Gói đăng ký đang được xử lý. Vui lòng quay lại sau.",
+        "loading": "Đang tải gói đăng ký",
+        "cancel": "Hủy",
+        "pause": "Tạm dừng",
+        "unpause": "Tiếp tục",
+        "billing_recurrence": {
+            "daily": "Thanh toán hàng ngày |||| Thanh toán mỗi %{smart_count} ngày",
+            "weekly": "Thanh toán hàng tuần |||| Thanh toán mỗi %{smart_count} tuần",
+            "monthly": "Thanh toán hàng tháng |||| Thanh toán mỗi %{smart_count} tháng",
+            "yearly": "Thanh toán hàng năm |||| Thanh toán mỗi %{smart_count} năm"
+        }
     },
     "cart": {
         "subtotal": "Tổng",
@@ -52,7 +82,8 @@
         "view_detailed_cart": "Chi tiết giỏ hàng"
     },
     "order": {
-        "loading": "Chúng tôi đang lấy chi tiết đơn hàng của bạn"
+        "loading": "Chúng tôi đang lấy chi tiết đơn hàng của bạn",
+        "title": "Đơn hàng"
     },
     "discount_box": {
         "promo_code": "Mã khuyến mãi?",
@@ -62,10 +93,13 @@
     "address_form": {
         "name": "Họ và Tên",
         "email": "Email",
+        "firstName": "Tên",
+        "lastName": "Họ",
         "address1": "Đia chỉ",
         "address2": "Số nhà",
         "city": "Thành phố",
         "country": "Quốc gia",
+        "phone": "Điện thoại",
         "postalCode": "Mã ZIP",
         "province": "Quận/Phường",
         "dont_see_address": "Tôi không thấy địa chỉ của tôi"
@@ -77,7 +111,15 @@
         "use_different_shipping_address": "Dùng địa chỉ khác cho Giao hàng"
     },
     "customer": {
-        "information": "Thông tin khách hàng"
+        "information": "Thông tin khách hàng",
+        "payment_info": "Thông tin thanh toán",
+        "payment_method_update": {
+            "title": "Cập nhật phương thức thanh toán",
+            "outstanding_payment_failed": {
+                "title": "Thanh toán thất bại",
+                "description": "Cập nhật phương thức thanh toán của bạn để tiếp tục."
+            }
+        }
     },
     "customer_details": {
         "title": "Thông tin chi tiết khách hàng"
@@ -97,7 +139,18 @@
         "view_invoice": "Xem hoá đơn",
         "sign_out": "Đăng xuất",
         "show_more_orders": "Hiện %{smart_count} thêm đơn hàng |||| hiện %{smart_count} thêm đơn hàng",
-        "orders": "Đơn hàng"
+        "show_more_subscriptions": "Hiển thị thêm %{smart_count} gói đăng ký |||| Hiển thị thêm %{smart_count} gói đăng ký",
+        "orders": "Đơn hàng",
+        "subscriptions": "Gói đăng ký",
+        "subscription": "Gói đăng ký"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Gói đăng ký có khoản thanh toán quá hạn",
+                "description": "Bạn có gói đăng ký với khoản thanh toán quá hạn. Vui lòng cập nhật phương thức thanh toán."
+            }
+        }
     },
     "signin_form": {
         "signin": "Đăng nhập",
@@ -132,7 +185,11 @@
         "already_have_an_account": "Đã có tài khoản?",
         "email": "Email",
         "password": "Mật khẩu",
-        "confirm_password": "Xác nhận mật khẩu"
+        "confirm_password": "Xác nhận mật khẩu",
+        "requires_action": {
+            "title": "Kiểm tra email của bạn",
+            "description": "Chúng tôi đã gửi email cho bạn. Làm theo hướng dẫn để hoàn tất đăng ký."
+        }
     },
     "guest_checkout": {
         "or": "Hoặc",
@@ -142,7 +199,13 @@
         "title": "Giao hàng",
         "shipping_to": "Giao hàng tới:",
         "address": "Địa chỉ giao hàng",
-        "method": "Hình thức giao hàng"
+        "method": "Hình thức giao hàng",
+        "methods": {
+            "example_localization_id": "Ví dụ phương thức vận chuyển"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Giao hàng đảm bảo trong %{smart_count} ngày |||| Giao hàng đảm bảo trong %{smart_count} ngày"
     },
     "payment": {
         "form": {
@@ -152,7 +215,11 @@
             "card_number": "Số thẻ",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Mã ZIP"
+            "card_postal_code": "Mã ZIP",
+            "invalid_number": "Số thẻ không hợp lệ",
+            "invalid_expiration": "Ngày hết hạn không hợp lệ",
+            "invalid_cvv": "CVV không hợp lệ",
+            "invalid_postal_code": "Mã bưu điện không hợp lệ"
         },
         "still_pending_notice": "Thanh toán đang được xác nhận.",
         "title": "Thanh toán",
@@ -205,11 +272,13 @@
         "promocode_isnt_applicable": "Mã khuyến mãi không phù hợp",
         "promo_code_is_expired": "Mã khuyến mãi đã hết hạn",
         "stringEmpty": "Khu vực cần điền",
+        "emailEmpty": "Email là bắt buộc",
         "required": "Khu vực cần điền",
         "invalid_expiry_year_past": "Thẻ hết hạn",
         "email": "Hãy cung cấp một email phù hợp",
         "quantity_revised": "Số lượng đã được thay đổi vì hàng có giới hạn",
         "quantity_out_of_stock": "Rất tiếc, số lượng của sản phẩm này đã hết hàng, hãy bỏ khỏi giỏ hàng để tiếp tục.",
+        "disabled_country": "Không hỗ trợ giao hàng đến quốc gia này.",
         "error_payment_items_are_invalid": {
             "title": "Một số sản phẩm trong giỏ hàng không hợp lệ",
             "description": "Hãy coi lại giỏ hàng hoặc thử lại trong giây lát."
@@ -256,6 +325,7 @@
                 "description": "Hình thức giao hàng có thể đã được thay đổi. Hãy liên lạc với cửa hàng để biết thêm thông tin."
             }
         },
+        "invalid_address": "Địa chỉ không hợp lệ.",
         "shipping": {
             "account_configuration": {
                 "title": "Không có hình thức giao hàng đang tòn tại.",
@@ -268,7 +338,33 @@
             "no_rates_found": {
                 "title": "Không có hình thức giao hàng đang tòn tại cho hoá đơn của bạn.",
                 "description": "Hãy coi lại địa chỉ giao hàng của bạn hoặc liên lạc với cửa hàng để được hỗ trợ."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Không hỗ trợ giao hàng đến quốc gia này.",
+            "E.ENGINE.UNAVAILABLE": "Dịch vụ vận chuyển không khả dụng. Vui lòng thử lại sau.",
+            "E.QUERY.UNANSWERABLE": "Không thể xác minh địa chỉ. Vui lòng kiểm tra thông tin của bạn.",
+            "E.ADDRESS.NOT_FOUND": "Không tìm thấy địa chỉ.",
+            "E.SECONDARY_INFORMATION.INVALID": "Thông tin địa chỉ bổ sung không hợp lệ.",
+            "E.SECONDARY_INFORMATION.MISSING": "Thiếu thông tin địa chỉ bổ sung.",
+            "E.HOUSE_NUMBER.MISSING": "Thiếu số nhà.",
+            "E.HOUSE_NUMBER.INVALID": "Số nhà không hợp lệ.",
+            "E.STREET.MISSING": "Thiếu tên đường.",
+            "E.STREET.INVALID": "Tên đường không hợp lệ.",
+            "E.BOX_NUMBER.MISSING": "Thiếu số hộp thư.",
+            "E.BOX_NUMBER.INVALID": "Số hộp thư không hợp lệ.",
+            "E.ADDRESS.INVALID": "Địa chỉ không hợp lệ.",
+            "E.ZIP.NOT_FOUND": "Không tìm thấy mã bưu điện.",
+            "E.ZIP.INVALID": "Mã bưu điện không hợp lệ.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Không tìm thấy phần mở rộng mã bưu điện.",
+            "E.ADDRESS.MULTIPLE": "Tìm thấy nhiều địa chỉ. Vui lòng cung cấp địa chỉ chính xác hơn.",
+            "E.ADDRESS.INSUFFICIENT": "Thông tin địa chỉ không đầy đủ.",
+            "E.ADDRESS.DUAL": "Địa chỉ chứa thông tin mâu thuẫn.",
+            "E.STREET.MAGNET": "Không thể xác minh tên đường.",
+            "E.CITY_STATE.INVALID": "Thành phố hoặc tỉnh không hợp lệ.",
+            "E.STATE.INVALID": "Tỉnh không hợp lệ.",
+            "E.ADDRESS.DELIVERY.INVALID": "Địa chỉ giao hàng không hợp lệ.",
+            "E.TIMED_OUT": "Hết thời gian xác minh địa chỉ. Vui lòng thử lại.",
+            "E.TIME_ZONE.UNAVAILABLE": "Thông tin múi giờ không khả dụng.",
+            "E.PO_BOX.INTERNATIONAL": "Không thể giao hàng quốc tế đến địa chỉ hộp thư."
         },
         "payment_failed": {
             "title": "Không thể thanh toán đơn hàng",
@@ -284,6 +380,16 @@
                 "description": "Chúng tôi không thể xác nhận thanh toán của bạn. Hãy thử lại trong giây lát."
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Giỏ hàng chỉ có thể chứa một gói đăng ký.",
+                "description": "Xóa gói đăng ký hiện tại trước khi thêm gói mới."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Giỏ hàng có thể chứa sản phẩm hoặc gói đăng ký.",
+                "description": "Xóa sản phẩm hiện tại trước khi thêm gói đăng ký, hoặc ngược lại."
+            }
+        },
         "customer_exists": "Email đã được sử dụng.",
         "customer_password_missmatch": "Hai mật khẩu phải trùng khớp.",
         "customer_password_token_expired": "Mã khôi phục mật khẩu đã hết hạn.",
@@ -292,8 +398,14 @@
         "invalid_credentials": "Sai email hoặc mật khẩu.",
         "customer_current_password_invalid": "Sai mật khẩu."
     },
+    "shippingRates": {
+        "loading": "Đang tải..."
+    },
     "customer_orders": {
         "loading": "Loading..."
+    },
+    "digital_goods": {
+        "download": "Tải xuống"
     },
     "confirmation": {
         "thank_you_for_your_order": "Cám ơn quý khách! Đơn hàng được đặt thành công",
@@ -301,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Hình thức giao hàng và thuế sẽ được tính sau khi địa chỉ được nhập."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Các Tiểu Vương quốc Ả Rập Thống nhất"
+        },
+        "AF": {
+            "name": "Afghanistan"
+        },
+        "AG": {
+            "name": "Antigua và Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Nam Cực"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Samoa thuộc Mỹ"
+        },
+        "AT": {
+            "name": "Áo"
+        },
+        "AU": {
+            "name": "Úc"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Quần đảo Åland"
+        },
+        "AZ": {
+            "name": "Azerbaijan"
+        },
+        "BA": {
+            "name": "Bosnia và Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Bỉ"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaria"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Caribbean Hà Lan"
+        },
+        "BR": {
+            "name": "Brazil"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Đảo Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canada"
+        },
+        "CC": {
+            "name": "Quần đảo Cocos"
+        },
+        "CD": {
+            "name": "Cộng hòa Dân chủ Congo"
+        },
+        "CF": {
+            "name": "Cộng hòa Trung Phi"
+        },
+        "CG": {
+            "name": "Cộng hòa Congo"
+        },
+        "CH": {
+            "name": "Thụy Sĩ"
+        },
+        "CI": {
+            "name": "Bờ Biển Ngà"
+        },
+        "CK": {
+            "name": "Quần đảo Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Cameroon"
+        },
+        "CN": {
+            "name": "Trung Quốc"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Cuba"
+        },
+        "CV": {
+            "name": "Cabo Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Đảo Giáng Sinh"
+        },
+        "CY": {
+            "name": "Síp"
+        },
+        "CZ": {
+            "name": "Séc"
+        },
+        "DE": {
+            "name": "Đức"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Đan Mạch"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Cộng hòa Dominica"
+        },
+        "DZ": {
+            "name": "Algeria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Ai Cập"
+        },
+        "EH": {
+            "name": "Tây Sahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Tây Ban Nha"
+        },
+        "ES-CN": {
+            "name": "Quần đảo Canary"
+        },
+        "ET": {
+            "name": "Ethiopia"
+        },
+        "FI": {
+            "name": "Phần Lan"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Quần đảo Falkland"
+        },
+        "FM": {
+            "name": "Micronesia"
+        },
+        "FO": {
+            "name": "Quần đảo Faroe"
+        },
+        "FR": {
+            "name": "Pháp"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Vương quốc Anh"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "Guiana thuộc Pháp"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Greenland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Guinea Xích Đạo"
+        },
+        "GR": {
+            "name": "Hy Lạp"
+        },
+        "GS": {
+            "name": "Nam Georgia và Quần đảo Nam Sandwich"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hồng Kông"
+        },
+        "HM": {
+            "name": "Đảo Heard và Quần đảo McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Croatia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hungary"
+        },
+        "ID": {
+            "name": "Indonesia"
+        },
+        "IE": {
+            "name": "Ireland"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Đảo Man"
+        },
+        "IN": {
+            "name": "Ấn Độ"
+        },
+        "IO": {
+            "name": "Lãnh thổ Ấn Độ Dương thuộc Anh"
+        },
+        "IQ": {
+            "name": "Iraq"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Iceland"
+        },
+        "IT": {
+            "name": "Ý"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordan"
+        },
+        "JP": {
+            "name": "Nhật Bản"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kyrgyzstan"
+        },
+        "KH": {
+            "name": "Campuchia"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comoros"
+        },
+        "KN": {
+            "name": "Saint Kitts và Nevis"
+        },
+        "KP": {
+            "name": "Triều Tiên"
+        },
+        "KR": {
+            "name": "Hàn Quốc"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Quần đảo Cayman"
+        },
+        "KZ": {
+            "name": "Kazakhstan"
+        },
+        "LA": {
+            "name": "Lào"
+        },
+        "LB": {
+            "name": "Lebanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lithuania"
+        },
+        "LU": {
+            "name": "Luxembourg"
+        },
+        "LV": {
+            "name": "Latvia"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Morocco"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Quần đảo Marshall"
+        },
+        "MK": {
+            "name": "Bắc Macedonia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mông Cổ"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Quần đảo Bắc Mariana"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldives"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexico"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mozambique"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Nouvelle-Calédonie"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Đảo Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Hà Lan"
+        },
+        "NO": {
+            "name": "Na Uy"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "New Zealand"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Polynesia thuộc Pháp"
+        },
+        "PG": {
+            "name": "Papua New Guinea"
+        },
+        "PH": {
+            "name": "Philippines"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Ba Lan"
+        },
+        "PM": {
+            "name": "Saint-Pierre và Miquelon"
+        },
+        "PN": {
+            "name": "Quần đảo Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestine"
+        },
+        "PT": {
+            "name": "Bồ Đào Nha"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Romania"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Nga"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Ả Rập Saudi"
+        },
+        "SB": {
+            "name": "Quần đảo Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Thụy Điển"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slovenia"
+        },
+        "SJ": {
+            "name": "Svalbard và Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Nam Sudan"
+        },
+        "ST": {
+            "name": "São Tomé và Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Syria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Quần đảo Turks và Caicos"
+        },
+        "TD": {
+            "name": "Chad"
+        },
+        "TF": {
+            "name": "Vùng đất phía Nam thuộc Pháp"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thái Lan"
+        },
+        "TJ": {
+            "name": "Tajikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Đông Timor"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunisia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Thổ Nhĩ Kỳ"
+        },
+        "TT": {
+            "name": "Trinidad và Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Đài Loan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraine"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Các tiểu đảo xa của Hoa Kỳ"
+        },
+        "US": {
+            "name": "Hoa Kỳ"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Vatican"
+        },
+        "VC": {
+            "name": "Saint Vincent và Grenadines"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Quần đảo Virgin thuộc Anh"
+        },
+        "VI": {
+            "name": "Quần đảo Virgin thuộc Mỹ"
+        },
+        "VN": {
+            "name": "Việt Nam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis và Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Nam Phi"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
 }

@@ -121,6 +121,9 @@
             }
         }
     },
+    "customer_details": {
+        "title": "Στοιχεία πελάτη"
+    },
     "customer_dashboard": {
         "my_account": "Ο λογαριασμός μου",
         "ordered_on": "Παραγγελία στις",
@@ -1165,8 +1168,5 @@
         "ZW": {
             "name": "Ζιμπάμπουε"
         }
-    },
-    "customer_details": {
-        "title": "Στοιχεία πελάτη"
     }
 }
