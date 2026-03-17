@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "טוען...",
+        "error": "אירעה שגיאה.",
+        "success": "הצלחה!"
+    },
+    "actions": {
+        "edit": "עריכה",
+        "cancel": "ביטול",
+        "continue_shopping": "המשך קניות",
+        "back_to_checkout": "חזרה לתשלום",
+        "checkout": "לתשלום",
+        "apply": "החל",
+        "dismiss": "סגור",
+        "type_address": "הקלד את הכתובת שלך",
+        "use_this_address": "השתמש בכתובת זו",
+        "back_to_store": "חזרה לחנות",
+        "close_cart": "סגור עגלה",
+        "show": "הצג",
+        "hide": "הסתר",
+        "apply_changes": "החל שינויים",
+        "yes_use_it": "כן, השתמש",
+        "save_changes": "שמור שינויים",
+        "back_to_orders": "חזרה להזמנות",
+        "change_password": "שנה סיסמה",
+        "clear_cart": "רוקן עגלה",
+        "add": "הוסף"
+    },
+    "header": {
+        "title_cart_summary": "סיכום עגלה",
+        "loading": "טוען..."
+    },
+    "item": {
+        "quantity": "כמות",
+        "quantity_short": "כמות",
+        "decrement_quantity": "הפחת כמות",
+        "increment_quantity": "הגדל כמות",
+        "remove_item": "הסר פריט",
+        "recurrence": {
+            "daily": "יום |||| %{smart_count} ימים",
+            "weekly": "שבוע |||| %{smart_count} שבועות",
+            "monthly": "חודש |||| %{smart_count} חודשים",
+            "yearly": "שנה |||| %{smart_count} שנים"
+        }
+    },
+    "subscription": {
+        "title": "מנוי",
+        "state": {
+            "title": "מצב",
+            "active": "פעיל",
+            "paused": "מושהה",
+            "finished": "הסתיים",
+            "stopped": "נעצר",
+            "cancellationrequested": "המנוי יסתיים בסוף תקופת החיוב."
+        },
+        "placed_on": "תאריך הזמנה",
+        "final_billing_date": "תאריך חיוב אחרון",
+        "items": "פריטים",
+        "plan": "תוכנית",
+        "billed_on": "תאריך חיוב",
+        "payment_amount": "סכום תשלום",
+        "processing": "המנוי עדיין בעיבוד. חזור מאוחר יותר לפרטים.",
+        "loading": "טוען מנויים",
+        "cancel": "בטל",
+        "pause": "השהה",
+        "unpause": "חדש",
+        "billing_recurrence": {
+            "daily": "חיוב יומי |||| חיוב כל %{smart_count} ימים",
+            "weekly": "חיוב שבועי |||| חיוב כל %{smart_count} שבועות",
+            "monthly": "חיוב חודשי |||| חיוב כל %{smart_count} חודשים",
+            "yearly": "חיוב שנתי |||| חיוב כל %{smart_count} שנים"
+        }
+    },
+    "cart": {
+        "subtotal": "סכום ביניים",
+        "shipping_taxes_calculated_at_checkout": "משלוח ומסים יחושבו בתשלום.",
+        "loading": "מכין את העגלה שלך...",
+        "secured_by": "מאובטח על ידי Snipcart",
+        "summary": "סיכום הזמנה",
+        "empty": "העגלה שלך ריקה.",
+        "invoice_number": "מספר חשבונית",
+        "view_detailed_cart": "הצג פרטי עגלה"
+    },
+    "order": {
+        "loading": "טוען פרטי הזמנה...",
+        "title": "הזמנה"
+    },
+    "discount_box": {
+        "promo_code": "קוד קופון?",
+        "promo_code_placeholder": "קוד קופון",
+        "promocode_applied": "קוד קופון הוחל"
+    },
+    "address_form": {
+        "name": "שם מלא",
+        "email": "דוא\"ל",
+        "firstName": "שם פרטי",
+        "lastName": "שם משפחה",
+        "address1": "כתובת",
+        "address2": "דירה/קומה",
+        "city": "עיר",
+        "country": "מדינה",
+        "phone": "טלפון",
+        "postalCode": "מיקוד",
+        "province": "מחוז",
+        "dont_see_address": "לא מוצא את הכתובת שלי"
+    },
+    "billing": {
+        "title": "חיוב",
+        "address": "כתובת חיוב",
+        "continue_to_shipping": "המשך למשלוח",
+        "use_different_shipping_address": "השתמש בכתובת משלוח אחרת"
+    },
+    "customer": {
+        "information": "פרטי לקוח",
+        "payment_info": "פרטי תשלום",
+        "payment_method_update": {
+            "title": "עדכן אמצעי תשלום",
+            "outstanding_payment_failed": {
+                "title": "התשלום נכשל",
+                "description": "עדכן את אמצעי התשלום כדי להמשיך."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "פרטי לקוח"
+    },
+    "customer_dashboard": {
+        "my_account": "החשבון שלי",
+        "ordered_on": "תאריך הזמנה",
+        "next_billing_date": "תאריך חיוב הבא",
+        "price": "מחיר",
+        "total": "סה\"כ",
+        "status": "סטטוס",
+        "order": "הזמנה %{invoice_number}",
+        "order_details": "פרטי הזמנה",
+        "loading": "טוען...",
+        "no_orders": "לא נמצאו הזמנות.",
+        "no_subscriptions": "לא נמצאו מנויים.",
+        "view_invoice": "הצג חשבונית",
+        "sign_out": "התנתק",
+        "show_more_orders": "הצג עוד %{smart_count} הזמנה |||| הצג עוד %{smart_count} הזמנות",
+        "show_more_subscriptions": "הצג עוד %{smart_count} מנוי |||| הצג עוד %{smart_count} מנויים",
+        "orders": "הזמנות",
+        "subscriptions": "מנויים",
+        "subscription": "מנוי"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "למנוי יש תשלום שלא שולם",
+                "description": "יש לך מנוי עם תשלום שלא שולם. אנא עדכן את אמצעי התשלום."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "התחבר",
+        "dont_have_an_account": "אין לך חשבון?",
+        "email": "דוא\"ל",
+        "password": "סיסמה",
+        "forgot_your_password": "שכחת סיסמה?",
+        "close_form": "חזרה"
+    },
+    "forgot_password_form": {
+        "title": "איפוס סיסמה",
+        "instructions": "הזן את כתובת הדוא\"ל של חשבונך ונשלח לך קישור לאיפוס הסיסמה.",
+        "email": "דוא\"ל",
+        "email_instructions": "נשלח אליך דוא\"ל עם קישור. לחץ עליו כדי לאפס את הסיסמה.",
+        "action": "שלח דוא\"ל לאיפוס סיסמה"
+    },
+    "reset_password_form": {
+        "title": "איפוס סיסמה",
+        "password": "סיסמה חדשה",
+        "confirmation_password": "אשר סיסמה חדשה",
+        "action": "אפס סיסמה"
+    },
+    "change_password_form": {
+        "title": "שנה סיסמה",
+        "current_password": "סיסמה נוכחית",
+        "password": "סיסמה חדשה",
+        "confirmation_password": "אשר סיסמה חדשה",
+        "action": "שנה סיסמה"
+    },
+    "register_form": {
+        "register": "הרשמה",
+        "already_have_an_account": "כבר יש לך חשבון?",
+        "email": "דוא\"ל",
+        "password": "סיסמה",
+        "confirm_password": "אשר סיסמה",
+        "requires_action": {
+            "title": "בדוק את הדוא\"ל שלך",
+            "description": "שלחנו לך דוא\"ל. עקוב אחר ההוראות כדי להשלים את ההרשמה."
+        }
+    },
+    "guest_checkout": {
+        "or": "או",
+        "continue_as_a_guest": "המשך כאורח"
+    },
+    "shipping": {
+        "title": "משלוח",
+        "shipping_to": "משלוח אל:",
+        "address": "כתובת משלוח",
+        "method": "שיטת משלוח",
+        "methods": {
+            "example_localization_id": "דוגמה לשיטת משלוח"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "משלוח מובטח תוך %{smart_count} יום |||| משלוח מובטח תוך %{smart_count} ימים"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "תשלום נדחה",
+            "deferred_payment_instructions": "בביצוע הזמנה זו, אתה מסכים לשלם מאוחר יותר באמצעי התשלום שנקבע על ידי המוכר.",
+            "card_label": "כרטיס אשראי",
+            "card_number": "מספר כרטיס",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "מיקוד",
+            "invalid_number": "מספר כרטיס לא תקין",
+            "invalid_expiration": "תאריך תפוגה לא תקין",
+            "invalid_cvv": "CVV לא תקין",
+            "invalid_postal_code": "מיקוד לא תקין"
+        },
+        "still_pending_notice": "התשלום שלך עדיין בעיבוד.",
+        "title": "תשלום",
+        "continue_to_payment": "המשך לתשלום",
+        "credit_card": "כרטיס אשראי",
+        "place_order": "בצע הזמנה",
+        "preparing_payment_session": "מכין תשלום...",
+        "processing_payment": "מעבד תשלום...",
+        "checkout_with": "שלם עם",
+        "checkout_with_method": "שלם עם %{method}",
+        "method_icon": "סמל %{method}",
+        "no_payment": "לא נדרש תשלום עבור הזמנה זו.",
+        "methods": {
+            "card": "כרטיס אשראי",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna שלם מאוחר יותר",
+            "klarna_slice_it": "Klarna תשלומים",
+            "p24": "Przelewy24",
+            "sepa_debit": "העברה בנקאית SEPA",
+            "sofort": "העברה בנקאית Sofort",
+            "deferred_payment": "שלם מאוחר יותר"
+        }
+    },
+    "discounts": {
+        "title": "הנחות"
+    },
+    "cart_summary": {
+        "taxes": "מסים",
+        "taxes_included_in_price": "חלק מהפריטים כוללים מס במחיר.",
+        "total": "סה\"כ",
+        "subtotal": "סכום ביניים",
+        "shipping": "משלוח",
+        "discount": "הנחות",
+        "quantity": "x",
+        "calculated_at_checkout": "יחושב בתשלום"
+    },
+    "errors": {
+        "default": "אירעה שגיאה. נסה שוב מאוחר יותר או צור קשר.",
+        "promo_code_is_invalid": "קוד קופון לא תקין",
+        "promocode_already_in_cart": "קוד קופון כבר הוחל",
+        "promocode_isnt_applicable": "קוד קופון לא ניתן להחלה",
+        "promo_code_is_expired": "קוד קופון פג תוקף",
+        "stringEmpty": "שדה חובה",
+        "emailEmpty": "דוא\"ל נדרש",
+        "required": "שדה חובה",
+        "invalid_expiry_year_past": "הכרטיס פג תוקף",
+        "email": "הזן כתובת דוא\"ל תקינה",
+        "quantity_revised": "הכמות עודכנה בשל מגבלות מלאי.",
+        "quantity_out_of_stock": "מצטערים, פריט זה אזל מהמלאי. הסר אותו מהעגלה כדי להמשיך.",
+        "disabled_country": "משלוח למדינה זו אינו זמין.",
+        "error_payment_items_are_invalid": {
+            "title": "חלק מהפריטים בעגלה אינם תקינים.",
+            "description": "בדוק את ההזמנה או נסה שוב מאוחר יותר."
+        },
+        "card": {
+            "invalid_number": "מספר כרטיס לא תקין.",
+            "invalid_date": "תאריך תפוגה לא תקין.",
+            "invalid_year": "שנת תפוגה לא תקינה.",
+            "invalid_month": "חודש תפוגה לא תקין.",
+            "invalid_cvv": "CVV לא תקין.",
+            "invalid_expiration": "תאריך תפוגה לא תקין.",
+            "expired": "הכרטיס פג תוקף.",
+            "declined": "הכרטיס נדחה. פנה למנפיק הכרטיס.",
+            "invalid_address": "כתובת הכרטיס לא תקינה.",
+            "insufficient_funds": "אין מספיק כסף בחשבון.",
+            "card_not_supported": "כרטיס זה אינו נתמך באזור זה.",
+            "currency_not_supported": "מטבע זה אינו נתמך כעת."
+        },
+        "transaction": {
+            "declined": "אירעה שגיאה בעיבוד הכרטיס. נסה שוב מאוחר יותר או השתמש באמצעי תשלום אחר."
+        },
+        "discounts": {
+            "conflict": "חלק מההנחות אינן ניתנות לשילוב. להשתמש בהנחה זו?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "לא ניתן לעבד את ההזמנה.",
+                "description": "לא בוצע חיוב. פנה לבעל החנות."
+            },
+            "product_crawling": {
+                "title": "מחירי המוצרים בעגלה עשויים להשתנות.",
+                "description": "נסה להסיר ולהוסיף מחדש את הפריטים."
+            },
+            "stock_validation": {
+                "title": "מלאי לא זמין.",
+                "description": "חלק מהמוצרים עשויים להיות חסרים במלאי. עדכן את הכמויות."
+            },
+            "custom_fields_validation": {
+                "title": "מידע נדרש חסר.",
+                "description": "לחלק מהמוצרים בעגלה חסר מידע נדרש. ערוך את העגלה כדי להמשיך."
+            },
+            "shipping_validation": {
+                "title": "לא ניתן לאמת את שיטת המשלוח.",
+                "description": "תעריף המשלוח שנבחר עשוי להשתנות או שאינו זמין יותר."
+            }
+        },
+        "invalid_address": "הכתובת אינה תקינה.",
+        "shipping": {
+            "account_configuration": {
+                "title": "אין שיטת משלוח זמינה כעת",
+                "description": "נסה שוב מאוחר יותר או צור קשר."
+            },
+            "rates_calculation": {
+                "title": "לא ניתן לחשב עלות משלוח",
+                "description": "נסה שוב מאוחר יותר או צור קשר."
+            },
+            "no_rates_found": {
+                "title": "אין שיטת משלוח זמינה להזמנה זו",
+                "description": "בדוק את כתובת המשלוח או צור קשר."
+            },
+            "E.COUNTRY.UNSUPPORTED": "משלוח למדינה זו אינו נתמך.",
+            "E.ENGINE.UNAVAILABLE": "שירות המשלוח אינו זמין. נסה שוב מאוחר יותר.",
+            "E.QUERY.UNANSWERABLE": "לא ניתן לאמת את הכתובת. בדוק את הפרטים.",
+            "E.ADDRESS.NOT_FOUND": "הכתובת לא נמצאה.",
+            "E.SECONDARY_INFORMATION.INVALID": "מידע נוסף על הכתובת אינו תקין.",
+            "E.SECONDARY_INFORMATION.MISSING": "חסר מידע נוסף על הכתובת.",
+            "E.HOUSE_NUMBER.MISSING": "חסר מספר בית.",
+            "E.HOUSE_NUMBER.INVALID": "מספר בית לא תקין.",
+            "E.STREET.MISSING": "חסר שם רחוב.",
+            "E.STREET.INVALID": "שם רחוב לא תקין.",
+            "E.BOX_NUMBER.MISSING": "חסר מספר תא דואר.",
+            "E.BOX_NUMBER.INVALID": "מספר תא דואר לא תקין.",
+            "E.ADDRESS.INVALID": "הכתובת אינה תקינה.",
+            "E.ZIP.NOT_FOUND": "מיקוד לא נמצא.",
+            "E.ZIP.INVALID": "מיקוד לא תקין.",
+            "E.ZIP.PLUS4.NOT_FOUND": "הרחבת מיקוד לא נמצאה.",
+            "E.ADDRESS.MULTIPLE": "נמצאו מספר כתובות. הזן כתובת מדויקת יותר.",
+            "E.ADDRESS.INSUFFICIENT": "פרטי הכתובת אינם מלאים.",
+            "E.ADDRESS.DUAL": "הכתובת מכילה מידע סותר.",
+            "E.STREET.MAGNET": "לא ניתן לאמת את שם הרחוב.",
+            "E.CITY_STATE.INVALID": "עיר או מחוז לא תקינים.",
+            "E.STATE.INVALID": "מחוז לא תקין.",
+            "E.ADDRESS.DELIVERY.INVALID": "כתובת משלוח לא תקינה.",
+            "E.TIMED_OUT": "זמן אימות הכתובת חלף. נסה שוב.",
+            "E.TIME_ZONE.UNAVAILABLE": "מידע על אזור זמן אינו זמין.",
+            "E.PO_BOX.INTERNATIONAL": "משלוח בינלאומי לתא דואר אינו אפשרי."
+        },
+        "payment_failed": {
+            "title": "לא ניתן לעבד את התשלום",
+            "description": "נסה שוב מאוחר יותר או צור קשר."
+        },
+        "payment_authorization": {
+            "title": "לא ניתן לעבד את התשלום",
+            "default": "בדוק את פרטי החיוב והתשלום."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "לא ניתן לעבד את התשלום",
+                "description": "לא ניתן לאמת את פרטי התשלום. נסה שוב."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "העגלה יכולה להכיל מנוי אחד בלבד.",
+                "description": "הסר את המנוי הקיים לפני הוספת חדש."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "העגלה יכולה להכיל פריטים או מנויים.",
+                "description": "הסר פריטים קיימים לפני הוספת מנוי, או להיפך."
+            }
+        },
+        "customer_exists": "כתובת דוא\"ל זו כבר בשימוש.",
+        "customer_password_missmatch": "הסיסמאות חייבות להיות זהות.",
+        "customer_password_token_expired": "קישור איפוס הסיסמה פג תוקף.",
+        "customer_password_token_invalid": "קישור איפוס הסיסמה אינו תקין.",
+        "customer_not_found": "כתובת דוא\"ל זו אינה משויכת לחשבון.",
+        "invalid_credentials": "דוא\"ל או סיסמה שגויים.",
+        "customer_current_password_invalid": "סיסמה שגויה."
+    },
+    "shippingRates": {
+        "loading": "טוען..."
+    },
+    "customer_orders": {
+        "loading": "טוען..."
+    },
+    "digital_goods": {
+        "download": "הורדה"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "תודה על ההזמנה",
+        "async_confirmation_notice": "ההזמנה שלך התקבלה ונמצאת בעיבוד. תקבל אישור בקרוב."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "משלוח ומסים יחושבו לאחר הזנת הכתובת."
+    },
+    "countries": {
+        "AD": {
+            "name": "אנדורה"
+        },
+        "AE": {
+            "name": "איחוד האמירויות"
+        },
+        "AF": {
+            "name": "אפגניסטן"
+        },
+        "AG": {
+            "name": "אנטיגואה וברבודה"
+        },
+        "AI": {
+            "name": "אנגווילה"
+        },
+        "AL": {
+            "name": "אלבניה"
+        },
+        "AM": {
+            "name": "ארמניה"
+        },
+        "AO": {
+            "name": "אנגולה"
+        },
+        "AQ": {
+            "name": "אנטארקטיקה"
+        },
+        "AR": {
+            "name": "ארגנטינה"
+        },
+        "AS": {
+            "name": "סמואה האמריקנית"
+        },
+        "AT": {
+            "name": "אוסטריה"
+        },
+        "AU": {
+            "name": "אוסטרליה"
+        },
+        "AW": {
+            "name": "ארובה"
+        },
+        "AX": {
+            "name": "איי אולנד"
+        },
+        "AZ": {
+            "name": "אזרבייג'ן"
+        },
+        "BA": {
+            "name": "בוסניה והרצגובינה"
+        },
+        "BB": {
+            "name": "ברבדוס"
+        },
+        "BD": {
+            "name": "בנגלדש"
+        },
+        "BE": {
+            "name": "בלגיה"
+        },
+        "BF": {
+            "name": "בורקינה פאסו"
+        },
+        "BG": {
+            "name": "בולגריה"
+        },
+        "BH": {
+            "name": "בחריין"
+        },
+        "BI": {
+            "name": "בורונדי"
+        },
+        "BJ": {
+            "name": "בנין"
+        },
+        "BL": {
+            "name": "סן ברתלמי"
+        },
+        "BM": {
+            "name": "ברמודה"
+        },
+        "BN": {
+            "name": "ברוניי"
+        },
+        "BO": {
+            "name": "בוליביה"
+        },
+        "BQ": {
+            "name": "האיים הקריביים ההולנדיים"
+        },
+        "BR": {
+            "name": "ברזיל"
+        },
+        "BS": {
+            "name": "בהאמה"
+        },
+        "BT": {
+            "name": "בהוטן"
+        },
+        "BV": {
+            "name": "אי בובה"
+        },
+        "BW": {
+            "name": "בוצוואנה"
+        },
+        "BY": {
+            "name": "בלארוס"
+        },
+        "BZ": {
+            "name": "בליז"
+        },
+        "CA": {
+            "name": "קנדה"
+        },
+        "CC": {
+            "name": "איי קוקוס"
+        },
+        "CD": {
+            "name": "הרפובליקה הדמוקרטית של קונגו"
+        },
+        "CF": {
+            "name": "הרפובליקה המרכז-אפריקנית"
+        },
+        "CG": {
+            "name": "רפובליקת קונגו"
+        },
+        "CH": {
+            "name": "שווייץ"
+        },
+        "CI": {
+            "name": "חוף השנהב"
+        },
+        "CK": {
+            "name": "איי קוק"
+        },
+        "CL": {
+            "name": "צ'ילה"
+        },
+        "CM": {
+            "name": "קמרון"
+        },
+        "CN": {
+            "name": "סין"
+        },
+        "CO": {
+            "name": "קולומביה"
+        },
+        "CR": {
+            "name": "קוסטה ריקה"
+        },
+        "CU": {
+            "name": "קובה"
+        },
+        "CV": {
+            "name": "כף ורדה"
+        },
+        "CW": {
+            "name": "קוראסאו"
+        },
+        "CX": {
+            "name": "אי חג המולד"
+        },
+        "CY": {
+            "name": "קפריסין"
+        },
+        "CZ": {
+            "name": "צ'כיה"
+        },
+        "DE": {
+            "name": "גרמניה"
+        },
+        "DJ": {
+            "name": "ג'יבוטי"
+        },
+        "DK": {
+            "name": "דנמרק"
+        },
+        "DM": {
+            "name": "דומיניקה"
+        },
+        "DO": {
+            "name": "הרפובליקה הדומיניקנית"
+        },
+        "DZ": {
+            "name": "אלג'יריה"
+        },
+        "EC": {
+            "name": "אקוודור"
+        },
+        "EE": {
+            "name": "אסטוניה"
+        },
+        "EG": {
+            "name": "מצרים"
+        },
+        "EH": {
+            "name": "סהרה המערבית"
+        },
+        "ER": {
+            "name": "אריתריאה"
+        },
+        "ES": {
+            "name": "ספרד"
+        },
+        "ES-CN": {
+            "name": "האיים הקנריים"
+        },
+        "ET": {
+            "name": "אתיופיה"
+        },
+        "FI": {
+            "name": "פינלנד"
+        },
+        "FJ": {
+            "name": "פיג'י"
+        },
+        "FK": {
+            "name": "איי פוקלנד"
+        },
+        "FM": {
+            "name": "מיקרונזיה"
+        },
+        "FO": {
+            "name": "איי פארו"
+        },
+        "FR": {
+            "name": "צרפת"
+        },
+        "GA": {
+            "name": "גבון"
+        },
+        "GB": {
+            "name": "בריטניה"
+        },
+        "GD": {
+            "name": "גרנדה"
+        },
+        "GE": {
+            "name": "גאורגיה"
+        },
+        "GF": {
+            "name": "גיאנה הצרפתית"
+        },
+        "GG": {
+            "name": "גרנזי"
+        },
+        "GH": {
+            "name": "גאנה"
+        },
+        "GI": {
+            "name": "גיברלטר"
+        },
+        "GL": {
+            "name": "גרינלנד"
+        },
+        "GM": {
+            "name": "גמביה"
+        },
+        "GN": {
+            "name": "גינאה"
+        },
+        "GP": {
+            "name": "גוואדלופ"
+        },
+        "GQ": {
+            "name": "גינאה המשוונית"
+        },
+        "GR": {
+            "name": "יוון"
+        },
+        "GS": {
+            "name": "ג'ורג'יה הדרומית ואיי סנדוויץ' הדרומיים"
+        },
+        "GT": {
+            "name": "גואטמלה"
+        },
+        "GU": {
+            "name": "גואם"
+        },
+        "GW": {
+            "name": "גינאה-ביסאו"
+        },
+        "GY": {
+            "name": "גיאנה"
+        },
+        "HK": {
+            "name": "הונג קונג"
+        },
+        "HM": {
+            "name": "איי הרד ומקדונלד"
+        },
+        "HN": {
+            "name": "הונדורס"
+        },
+        "HR": {
+            "name": "קרואטיה"
+        },
+        "HT": {
+            "name": "האיטי"
+        },
+        "HU": {
+            "name": "הונגריה"
+        },
+        "ID": {
+            "name": "אינדונזיה"
+        },
+        "IE": {
+            "name": "אירלנד"
+        },
+        "IL": {
+            "name": "ישראל"
+        },
+        "IM": {
+            "name": "אי מאן"
+        },
+        "IN": {
+            "name": "הודו"
+        },
+        "IO": {
+            "name": "טריטוריה בריטית באוקיינוס ההודי"
+        },
+        "IQ": {
+            "name": "עיראק"
+        },
+        "IR": {
+            "name": "איראן"
+        },
+        "IS": {
+            "name": "איסלנד"
+        },
+        "IT": {
+            "name": "איטליה"
+        },
+        "JE": {
+            "name": "ג'רזי"
+        },
+        "JM": {
+            "name": "ג'מייקה"
+        },
+        "JO": {
+            "name": "ירדן"
+        },
+        "JP": {
+            "name": "יפן"
+        },
+        "KE": {
+            "name": "קניה"
+        },
+        "KG": {
+            "name": "קירגיזסטן"
+        },
+        "KH": {
+            "name": "קמבודיה"
+        },
+        "KI": {
+            "name": "קיריבטי"
+        },
+        "KM": {
+            "name": "קומורו"
+        },
+        "KN": {
+            "name": "סנט קיטס ונוויס"
+        },
+        "KP": {
+            "name": "צפון קוריאה"
+        },
+        "KR": {
+            "name": "דרום קוריאה"
+        },
+        "KW": {
+            "name": "כווית"
+        },
+        "KY": {
+            "name": "איי קיימן"
+        },
+        "KZ": {
+            "name": "קזחסטן"
+        },
+        "LA": {
+            "name": "לאוס"
+        },
+        "LB": {
+            "name": "לבנון"
+        },
+        "LC": {
+            "name": "סנט לוסיה"
+        },
+        "LI": {
+            "name": "ליכטנשטיין"
+        },
+        "LK": {
+            "name": "סרי לנקה"
+        },
+        "LR": {
+            "name": "ליבריה"
+        },
+        "LS": {
+            "name": "לסוטו"
+        },
+        "LT": {
+            "name": "ליטא"
+        },
+        "LU": {
+            "name": "לוקסמבורג"
+        },
+        "LV": {
+            "name": "לטביה"
+        },
+        "LY": {
+            "name": "לוב"
+        },
+        "MA": {
+            "name": "מרוקו"
+        },
+        "MC": {
+            "name": "מונקו"
+        },
+        "MD": {
+            "name": "מולדובה"
+        },
+        "ME": {
+            "name": "מונטנגרו"
+        },
+        "MF": {
+            "name": "סן מרטן"
+        },
+        "MG": {
+            "name": "מדגסקר"
+        },
+        "MH": {
+            "name": "איי מרשל"
+        },
+        "MK": {
+            "name": "מקדוניה הצפונית"
+        },
+        "ML": {
+            "name": "מאלי"
+        },
+        "MM": {
+            "name": "מיאנמר"
+        },
+        "MN": {
+            "name": "מונגוליה"
+        },
+        "MO": {
+            "name": "מקאו"
+        },
+        "MP": {
+            "name": "איי מריאנה הצפוניים"
+        },
+        "MQ": {
+            "name": "מרטיניק"
+        },
+        "MR": {
+            "name": "מאוריטניה"
+        },
+        "MS": {
+            "name": "מונטסראט"
+        },
+        "MT": {
+            "name": "מלטה"
+        },
+        "MU": {
+            "name": "מאוריציוס"
+        },
+        "MV": {
+            "name": "האיים המלדיביים"
+        },
+        "MW": {
+            "name": "מלאווי"
+        },
+        "MX": {
+            "name": "מקסיקו"
+        },
+        "MY": {
+            "name": "מלזיה"
+        },
+        "MZ": {
+            "name": "מוזמביק"
+        },
+        "NA": {
+            "name": "נמיביה"
+        },
+        "NC": {
+            "name": "קלדוניה החדשה"
+        },
+        "NE": {
+            "name": "ניז'ר"
+        },
+        "NF": {
+            "name": "אי נורפולק"
+        },
+        "NG": {
+            "name": "ניגריה"
+        },
+        "NI": {
+            "name": "ניקרגואה"
+        },
+        "NL": {
+            "name": "הולנד"
+        },
+        "NO": {
+            "name": "נורווגיה"
+        },
+        "NP": {
+            "name": "נפאל"
+        },
+        "NR": {
+            "name": "נאורו"
+        },
+        "NU": {
+            "name": "ניואה"
+        },
+        "NZ": {
+            "name": "ניו זילנד"
+        },
+        "OM": {
+            "name": "עומאן"
+        },
+        "PA": {
+            "name": "פנמה"
+        },
+        "PE": {
+            "name": "פרו"
+        },
+        "PF": {
+            "name": "פולינזיה הצרפתית"
+        },
+        "PG": {
+            "name": "פפואה גינאה החדשה"
+        },
+        "PH": {
+            "name": "הפיליפינים"
+        },
+        "PK": {
+            "name": "פקיסטן"
+        },
+        "PL": {
+            "name": "פולין"
+        },
+        "PM": {
+            "name": "סן פייר ומיקלון"
+        },
+        "PN": {
+            "name": "איי פיטקרן"
+        },
+        "PR": {
+            "name": "פוארטו ריקו"
+        },
+        "PS": {
+            "name": "פלסטין"
+        },
+        "PT": {
+            "name": "פורטוגל"
+        },
+        "PW": {
+            "name": "פלאו"
+        },
+        "PY": {
+            "name": "פרגוואי"
+        },
+        "QA": {
+            "name": "קטאר"
+        },
+        "RE": {
+            "name": "ראוניון"
+        },
+        "RO": {
+            "name": "רומניה"
+        },
+        "RS": {
+            "name": "סרביה"
+        },
+        "RU": {
+            "name": "רוסיה"
+        },
+        "RW": {
+            "name": "רואנדה"
+        },
+        "SA": {
+            "name": "ערב הסעודית"
+        },
+        "SB": {
+            "name": "איי שלמה"
+        },
+        "SC": {
+            "name": "סיישל"
+        },
+        "SD": {
+            "name": "סודן"
+        },
+        "SE": {
+            "name": "שוודיה"
+        },
+        "SG": {
+            "name": "סינגפור"
+        },
+        "SH": {
+            "name": "סנט הלנה"
+        },
+        "SI": {
+            "name": "סלובניה"
+        },
+        "SJ": {
+            "name": "סוולבארד ויאן מאיין"
+        },
+        "SK": {
+            "name": "סלובקיה"
+        },
+        "SL": {
+            "name": "סיירה לאונה"
+        },
+        "SM": {
+            "name": "סן מרינו"
+        },
+        "SN": {
+            "name": "סנגל"
+        },
+        "SO": {
+            "name": "סומליה"
+        },
+        "SR": {
+            "name": "סורינם"
+        },
+        "SS": {
+            "name": "דרום סודן"
+        },
+        "ST": {
+            "name": "סאו טומה ופרינסיפה"
+        },
+        "SV": {
+            "name": "אל סלבדור"
+        },
+        "SX": {
+            "name": "סינט מארטן"
+        },
+        "SY": {
+            "name": "סוריה"
+        },
+        "SZ": {
+            "name": "אסוואטיני"
+        },
+        "TC": {
+            "name": "איי טרקס וקייקוס"
+        },
+        "TD": {
+            "name": "צ'אד"
+        },
+        "TF": {
+            "name": "הטריטוריות הדרומיות של צרפת"
+        },
+        "TG": {
+            "name": "טוגו"
+        },
+        "TH": {
+            "name": "תאילנד"
+        },
+        "TJ": {
+            "name": "טג'יקיסטן"
+        },
+        "TK": {
+            "name": "טוקלאו"
+        },
+        "TL": {
+            "name": "מזרח טימור"
+        },
+        "TM": {
+            "name": "טורקמניסטן"
+        },
+        "TN": {
+            "name": "תוניסיה"
+        },
+        "TO": {
+            "name": "טונגה"
+        },
+        "TR": {
+            "name": "טורקיה"
+        },
+        "TT": {
+            "name": "טרינידד וטובגו"
+        },
+        "TV": {
+            "name": "טובאלו"
+        },
+        "TW": {
+            "name": "טייוואן"
+        },
+        "TZ": {
+            "name": "טנזניה"
+        },
+        "UA": {
+            "name": "אוקראינה"
+        },
+        "UG": {
+            "name": "אוגנדה"
+        },
+        "UM": {
+            "name": "איים קטנים מרוחקים של ארה\"ב"
+        },
+        "US": {
+            "name": "ארצות הברית"
+        },
+        "UY": {
+            "name": "אורוגוואי"
+        },
+        "UZ": {
+            "name": "אוזבקיסטן"
+        },
+        "VA": {
+            "name": "הוותיקן"
+        },
+        "VC": {
+            "name": "סנט וינסנט והגרנדינים"
+        },
+        "VE": {
+            "name": "ונצואלה"
+        },
+        "VG": {
+            "name": "איי הבתולה הבריטיים"
+        },
+        "VI": {
+            "name": "איי הבתולה של ארה\"ב"
+        },
+        "VN": {
+            "name": "וייטנאם"
+        },
+        "VU": {
+            "name": "ונואטו"
+        },
+        "WF": {
+            "name": "ואליס ופוטונה"
+        },
+        "WS": {
+            "name": "סמואה"
+        },
+        "XK": {
+            "name": "קוסובו"
+        },
+        "YE": {
+            "name": "תימן"
+        },
+        "YT": {
+            "name": "מאיוט"
+        },
+        "ZA": {
+            "name": "דרום אפריקה"
+        },
+        "ZM": {
+            "name": "זמביה"
+        },
+        "ZW": {
+            "name": "זימבבואה"
+        }
+    }
+}

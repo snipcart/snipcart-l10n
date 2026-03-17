@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Laadimine...",
+        "error": "Ilmnes viga.",
+        "success": "Õnnestus!"
+    },
+    "actions": {
+        "edit": "Muuda",
+        "cancel": "Tühista",
+        "continue_shopping": "Jätka ostlemist",
+        "back_to_checkout": "Tagasi kassasse",
+        "checkout": "Kassasse",
+        "apply": "Rakenda",
+        "dismiss": "Sulge",
+        "type_address": "Sisestage oma aadress",
+        "use_this_address": "Kasuta seda aadressi",
+        "back_to_store": "Tagasi poodi",
+        "close_cart": "Sulge ostukorv",
+        "show": "Näita",
+        "hide": "Peida",
+        "apply_changes": "Rakenda muudatused",
+        "yes_use_it": "Jah, kasuta",
+        "save_changes": "Salvesta muudatused",
+        "back_to_orders": "Tagasi tellimuste juurde",
+        "change_password": "Muuda parooli",
+        "clear_cart": "Tühjenda ostukorv",
+        "add": "Lisa"
+    },
+    "header": {
+        "title_cart_summary": "Ostukorvi kokkuvõte",
+        "loading": "Laadimine..."
+    },
+    "item": {
+        "quantity": "Kogus",
+        "quantity_short": "Kogus",
+        "decrement_quantity": "Vähenda kogust",
+        "increment_quantity": "Suurenda kogust",
+        "remove_item": "Eemalda toode",
+        "recurrence": {
+            "daily": "päev |||| %{smart_count} päeva",
+            "weekly": "nädal |||| %{smart_count} nädalat",
+            "monthly": "kuu |||| %{smart_count} kuud",
+            "yearly": "aasta |||| %{smart_count} aastat"
+        }
+    },
+    "subscription": {
+        "title": "Tellimus",
+        "state": {
+            "title": "Olek",
+            "active": "Aktiivne",
+            "paused": "Peatatud",
+            "finished": "Lõppenud",
+            "stopped": "Peatatud",
+            "cancellationrequested": "Tellimus lõpetatakse arveldusperioodi lõpus."
+        },
+        "placed_on": "Tellitud",
+        "final_billing_date": "Viimane arvelduskuupäev",
+        "items": "Tooted",
+        "plan": "Plaan",
+        "billed_on": "Arveldatud",
+        "payment_amount": "Makse summa",
+        "processing": "Tellimus on veel töötlemisel. Vaadake hiljem uuesti.",
+        "loading": "Tellimuste laadimine",
+        "cancel": "Tühista",
+        "pause": "Peata",
+        "unpause": "Jätka",
+        "billing_recurrence": {
+            "daily": "Arveldatakse iga päev |||| Arveldatakse iga %{smart_count} päeva tagant",
+            "weekly": "Arveldatakse iga nädal |||| Arveldatakse iga %{smart_count} nädala tagant",
+            "monthly": "Arveldatakse iga kuu |||| Arveldatakse iga %{smart_count} kuu tagant",
+            "yearly": "Arveldatakse iga aasta |||| Arveldatakse iga %{smart_count} aasta tagant"
+        }
+    },
+    "cart": {
+        "subtotal": "Vahesumma",
+        "shipping_taxes_calculated_at_checkout": "Saatmis- ja maksukulud arvutatakse kassas.",
+        "loading": "Valmistame teie ostukorvi ette...",
+        "secured_by": "Turvatud Snipcart poolt",
+        "summary": "Tellimuse kokkuvõte",
+        "empty": "Teie ostukorv on tühi.",
+        "invoice_number": "Arve number",
+        "view_detailed_cart": "Vaata ostukorvi üksikasju"
+    },
+    "order": {
+        "loading": "Laadime teie tellimuse andmeid...",
+        "title": "Tellimus"
+    },
+    "discount_box": {
+        "promo_code": "Sooduskood?",
+        "promo_code_placeholder": "Sooduskood",
+        "promocode_applied": "Sooduskood rakendatud"
+    },
+    "address_form": {
+        "name": "Täisnimi",
+        "email": "E-post",
+        "firstName": "Eesnimi",
+        "lastName": "Perekonnanimi",
+        "address1": "Aadress",
+        "address2": "Korter/maja",
+        "city": "Linn",
+        "country": "Riik",
+        "phone": "Telefon",
+        "postalCode": "Postiindeks",
+        "province": "Maakond",
+        "dont_see_address": "Ma ei leia oma aadressi"
+    },
+    "billing": {
+        "title": "Arveldus",
+        "address": "Arveldusaadress",
+        "continue_to_shipping": "Jätka tarnimisega",
+        "use_different_shipping_address": "Kasuta teist tarneaadressi"
+    },
+    "customer": {
+        "information": "Kliendi andmed",
+        "payment_info": "Makseandmed",
+        "payment_method_update": {
+            "title": "Uuenda makseviisi",
+            "outstanding_payment_failed": {
+                "title": "Makse ebaõnnestus",
+                "description": "Uuendage oma makseviisi jätkamiseks."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Kliendi andmed"
+    },
+    "customer_dashboard": {
+        "my_account": "Minu konto",
+        "ordered_on": "Tellitud",
+        "next_billing_date": "Järgmine arvelduskuupäev",
+        "price": "Hind",
+        "total": "Kokku",
+        "status": "Olek",
+        "order": "Tellimus %{invoice_number}",
+        "order_details": "Tellimuse üksikasjad",
+        "loading": "Laadimine...",
+        "no_orders": "Tellimusi ei leitud.",
+        "no_subscriptions": "Tellimusi ei leitud.",
+        "view_invoice": "Vaata arvet",
+        "sign_out": "Logi välja",
+        "show_more_orders": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
+        "show_more_subscriptions": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
+        "orders": "Tellimused",
+        "subscriptions": "Tellimused",
+        "subscription": "Tellimus"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Tellimusel on tasumata makse",
+                "description": "Teil on tellimus tasumata maksega. Palun uuendage oma makseviisi."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Logi sisse",
+        "dont_have_an_account": "Pole kontot?",
+        "email": "E-post",
+        "password": "Parool",
+        "forgot_your_password": "Unustasid parooli?",
+        "close_form": "Tagasi"
+    },
+    "forgot_password_form": {
+        "title": "Parooli lähtestamine",
+        "instructions": "Sisestage oma konto e-posti aadress ja saadame teile parooli lähtestamise lingi.",
+        "email": "E-post",
+        "email_instructions": "Saatsime teile lingiga e-kirja. Klõpsake sellel parooli lähtestamiseks.",
+        "action": "Saada parooli lähtestamise e-kiri"
+    },
+    "reset_password_form": {
+        "title": "Parooli lähtestamine",
+        "password": "Uus parool",
+        "confirmation_password": "Kinnitage uus parool",
+        "action": "Lähtesta parool"
+    },
+    "change_password_form": {
+        "title": "Parooli muutmine",
+        "current_password": "Praegune parool",
+        "password": "Uus parool",
+        "confirmation_password": "Kinnitage uus parool",
+        "action": "Muuda parooli"
+    },
+    "register_form": {
+        "register": "Registreeru",
+        "already_have_an_account": "Juba on konto?",
+        "email": "E-post",
+        "password": "Parool",
+        "confirm_password": "Kinnita parool",
+        "requires_action": {
+            "title": "Kontrollige oma e-posti",
+            "description": "Saatsime teile e-kirja. Järgige juhiseid registreerimise lõpetamiseks."
+        }
+    },
+    "guest_checkout": {
+        "or": "Või",
+        "continue_as_a_guest": "Jätka külalisena"
+    },
+    "shipping": {
+        "title": "Saatmine",
+        "shipping_to": "Saatmine:",
+        "address": "Tarneaadress",
+        "method": "Saatmisviis",
+        "methods": {
+            "example_localization_id": "Saatmisviisi näide"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garanteeritud kohaletoimetamine %{smart_count} päevaga |||| Garanteeritud kohaletoimetamine %{smart_count} päevaga"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Edasilükatud makse",
+            "deferred_payment_instructions": "Selle tellimuse esitamisega nõustute hiljem maksma müüja määratud makseviisil.",
+            "card_label": "Krediitkaart",
+            "card_number": "Kaardi number",
+            "card_expiration": "KK/AA",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postiindeks",
+            "invalid_number": "Kaardi number on vigane",
+            "invalid_expiration": "Aegumiskuupäev on vigane",
+            "invalid_cvv": "CVV on vigane",
+            "invalid_postal_code": "Postiindeks on vigane"
+        },
+        "still_pending_notice": "Teie makse on veel töötlemisel.",
+        "title": "Makse",
+        "continue_to_payment": "Jätka maksega",
+        "credit_card": "Krediitkaart",
+        "place_order": "Esita tellimus",
+        "preparing_payment_session": "Makse ettevalmistamine...",
+        "processing_payment": "Makse töötlemine...",
+        "checkout_with": "Makseviis",
+        "checkout_with_method": "Maksa: %{method}",
+        "method_icon": "%{method} ikoon",
+        "no_payment": "Selle tellimuse eest ei ole vaja maksta.",
+        "methods": {
+            "card": "Krediitkaart",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna maksa hiljem",
+            "klarna_slice_it": "Klarna järelmaks",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA pangaülekanne",
+            "sofort": "Sofort pangaülekanne",
+            "deferred_payment": "Maksa hiljem"
+        }
+    },
+    "discounts": {
+        "title": "Allahindlused"
+    },
+    "cart_summary": {
+        "taxes": "Maksud",
+        "taxes_included_in_price": "Mõned tooted sisaldavad maksu hinnas.",
+        "total": "Kokku",
+        "subtotal": "Vahesumma",
+        "shipping": "Saatmine",
+        "discount": "Allahindlused",
+        "quantity": "x",
+        "calculated_at_checkout": "Arvutatakse kassas"
+    },
+    "errors": {
+        "default": "Ilmnes viga. Proovige hiljem uuesti või võtke meiega ühendust.",
+        "promo_code_is_invalid": "See sooduskood ei kehti",
+        "promocode_already_in_cart": "See sooduskood on juba rakendatud",
+        "promocode_isnt_applicable": "Seda sooduskoodi ei saa kasutada",
+        "promo_code_is_expired": "See sooduskood on aegunud",
+        "stringEmpty": "See väli on kohustuslik",
+        "emailEmpty": "E-post on kohustuslik",
+        "required": "See väli on kohustuslik",
+        "invalid_expiry_year_past": "Kaart on aegunud",
+        "email": "Sisestage kehtiv e-posti aadress",
+        "quantity_revised": "Kogust on laoseisu tõttu muudetud.",
+        "quantity_out_of_stock": "Kahjuks pole see toode laos. Eemaldage see ostukorvist jätkamiseks.",
+        "disabled_country": "Saatmine sellesse riiki pole saadaval.",
+        "error_payment_items_are_invalid": {
+            "title": "Mõned tooted ostukorvis on vigased.",
+            "description": "Palun vaadake oma tellimus üle või proovige hiljem uuesti."
+        },
+        "card": {
+            "invalid_number": "Kaardi number on vigane.",
+            "invalid_date": "Kaardi aegumiskuupäev on vigane.",
+            "invalid_year": "Kaardi aegumisaasta on vigane.",
+            "invalid_month": "Kaardi aegumiskuu on vigane.",
+            "invalid_cvv": "Kaardi CVV on vigane.",
+            "invalid_expiration": "Kaardi aegumiskuupäev on vigane.",
+            "expired": "Kaart on aegunud.",
+            "declined": "Kaart lükati tagasi. Võtke ühendust kaardi väljastajaga.",
+            "invalid_address": "Kaardi aadress on vigane.",
+            "insufficient_funds": "Kontol pole piisavalt vahendeid.",
+            "card_not_supported": "Seda kaarti ei toetata selles piirkonnas.",
+            "currency_not_supported": "See valuuta pole hetkel toetatud."
+        },
+        "transaction": {
+            "declined": "Kaardi töötlemisel ilmnes viga. Proovige hiljem uuesti või kasutage teist makseviisi."
+        },
+        "discounts": {
+            "conflict": "Mõnda allahindlust ei saa kombineerida. Kas soovite seda allahindlust kasutada?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Tellimust ei saanud töödelda.",
+                "description": "Teilt ei ole raha maha võetud. Võtke ühendust poe omanikuga."
+            },
+            "product_crawling": {
+                "title": "Ostukorvi toodete hinnad võivad olla muutunud.",
+                "description": "Proovige tooted eemaldada ja uuesti lisada."
+            },
+            "stock_validation": {
+                "title": "Laovaru pole saadaval.",
+                "description": "Mõned tooted võivad olla otsas. Muutke koguseid."
+            },
+            "custom_fields_validation": {
+                "title": "Puudub nõutav teave.",
+                "description": "Mõnel ostukorvi tootel puudub nõutav teave. Muutke ostukorvi jätkamiseks."
+            },
+            "shipping_validation": {
+                "title": "Saatmisviisi ei saanud kinnitada.",
+                "description": "Valitud saatmishind võib olla muutunud või pole enam saadaval."
+            }
+        },
+        "invalid_address": "Aadress on vigane.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Hetkel pole ühtegi saatmisviisi saadaval",
+                "description": "Proovige hiljem uuesti või võtke meiega ühendust."
+            },
+            "rates_calculation": {
+                "title": "Saatmiskulu ei saanud arvutada",
+                "description": "Proovige hiljem uuesti või võtke meiega ühendust."
+            },
+            "no_rates_found": {
+                "title": "Teie tellimusele pole saatmisviisi saadaval",
+                "description": "Kontrollige oma tarneaadressi või võtke meiega ühendust."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Saatmine sellesse riiki pole toetatud.",
+            "E.ENGINE.UNAVAILABLE": "Saatmisteenus pole saadaval. Proovige hiljem uuesti.",
+            "E.QUERY.UNANSWERABLE": "Aadressi ei saanud kontrollida. Kontrollige oma andmeid.",
+            "E.ADDRESS.NOT_FOUND": "Aadressi ei leitud.",
+            "E.SECONDARY_INFORMATION.INVALID": "Lisaandmed aadressi kohta on vigased.",
+            "E.SECONDARY_INFORMATION.MISSING": "Lisaandmed aadressi kohta puuduvad.",
+            "E.HOUSE_NUMBER.MISSING": "Majanumber puudub.",
+            "E.HOUSE_NUMBER.INVALID": "Majanumber on vigane.",
+            "E.STREET.MISSING": "Tänavanimi puudub.",
+            "E.STREET.INVALID": "Tänavanimi on vigane.",
+            "E.BOX_NUMBER.MISSING": "Postkasti number puudub.",
+            "E.BOX_NUMBER.INVALID": "Postkasti number on vigane.",
+            "E.ADDRESS.INVALID": "Aadress on vigane.",
+            "E.ZIP.NOT_FOUND": "Postiindeksit ei leitud.",
+            "E.ZIP.INVALID": "Postiindeks on vigane.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Postiindeksi laiendust ei leitud.",
+            "E.ADDRESS.MULTIPLE": "Leiti mitu aadressi. Sisestage täpsem aadress.",
+            "E.ADDRESS.INSUFFICIENT": "Aadressi andmed on puudulikud.",
+            "E.ADDRESS.DUAL": "Aadress sisaldab vastuolulist teavet.",
+            "E.STREET.MAGNET": "Tänavanime ei saanud kontrollida.",
+            "E.CITY_STATE.INVALID": "Linn või maakond on vigane.",
+            "E.STATE.INVALID": "Maakond on vigane.",
+            "E.ADDRESS.DELIVERY.INVALID": "Tarneaadress on vigane.",
+            "E.TIMED_OUT": "Aadressi kontrolli aeg lõppes. Proovige uuesti.",
+            "E.TIME_ZONE.UNAVAILABLE": "Ajavööndi teave pole saadaval.",
+            "E.PO_BOX.INTERNATIONAL": "Rahvusvaheline saatmine postkasti aadressile pole võimalik."
+        },
+        "payment_failed": {
+            "title": "Makset ei saanud töödelda",
+            "description": "Proovige hiljem uuesti või võtke meiega ühendust."
+        },
+        "payment_authorization": {
+            "title": "Makset ei saanud töödelda",
+            "default": "Kontrollige arveldus- ja makseandmeid."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Makset ei saanud töödelda",
+                "description": "Teie makseandmeid ei saanud autentida. Proovige uuesti."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Ostukorv saab sisaldada ainult ühte tellimust.",
+                "description": "Eemaldage olemasolev tellimus enne uue lisamist."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Ostukorv saab sisaldada tooteid või tellimusi.",
+                "description": "Eemaldage olemasolevad tooted enne tellimuse lisamist või vastupidi."
+            }
+        },
+        "customer_exists": "See e-posti aadress on juba kasutusel.",
+        "customer_password_missmatch": "Paroolid peavad kattuma.",
+        "customer_password_token_expired": "Parooli lähtestamise link on aegunud.",
+        "customer_password_token_invalid": "Parooli lähtestamise link on vigane.",
+        "customer_not_found": "See e-posti aadress pole ühegi kontoga seotud.",
+        "invalid_credentials": "Vale e-post või parool.",
+        "customer_current_password_invalid": "Vale parool."
+    },
+    "shippingRates": {
+        "loading": "Laadimine..."
+    },
+    "customer_orders": {
+        "loading": "Laadimine..."
+    },
+    "digital_goods": {
+        "download": "Laadi alla"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Täname tellimuse eest",
+        "async_confirmation_notice": "Teie tellimus on vastu võetud ja seda töödeldakse. Saate peagi kinnituse."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Saatmis- ja maksukulud arvutatakse pärast aadressi sisestamist."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Araabia Ühendemiraadid"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigua ja Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albaania"
+        },
+        "AM": {
+            "name": "Armeenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktika"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Ameerika Samoa"
+        },
+        "AT": {
+            "name": "Austria"
+        },
+        "AU": {
+            "name": "Austraalia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Ahvenamaa"
+        },
+        "AZ": {
+            "name": "Aserbaidžaan"
+        },
+        "BA": {
+            "name": "Bosnia ja Hertsegoviina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgia"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaaria"
+        },
+        "BH": {
+            "name": "Bahrein"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Boliivia"
+        },
+        "BQ": {
+            "name": "Kariibi Madalmaad"
+        },
+        "BR": {
+            "name": "Brasiilia"
+        },
+        "BS": {
+            "name": "Bahama"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Bouvet' saar"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Valgevene"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kookossaared"
+        },
+        "CD": {
+            "name": "Kongo DV"
+        },
+        "CF": {
+            "name": "Kesk-Aafrika Vabariik"
+        },
+        "CG": {
+            "name": "Kongo Vabariik"
+        },
+        "CH": {
+            "name": "Šveits"
+        },
+        "CI": {
+            "name": "Elevandiluurannik"
+        },
+        "CK": {
+            "name": "Cooki saared"
+        },
+        "CL": {
+            "name": "Tšiili"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Hiina"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Kuuba"
+        },
+        "CV": {
+            "name": "Roheneemesaared"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Jõulusaar"
+        },
+        "CY": {
+            "name": "Küpros"
+        },
+        "CZ": {
+            "name": "Tšehhi"
+        },
+        "DE": {
+            "name": "Saksamaa"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Taani"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Dominikaani Vabariik"
+        },
+        "DZ": {
+            "name": "Alžeeria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Eesti"
+        },
+        "EG": {
+            "name": "Egiptus"
+        },
+        "EH": {
+            "name": "Lääne-Sahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Hispaania"
+        },
+        "ES-CN": {
+            "name": "Kanaari saared"
+        },
+        "ET": {
+            "name": "Etioopia"
+        },
+        "FI": {
+            "name": "Soome"
+        },
+        "FJ": {
+            "name": "Fidži"
+        },
+        "FK": {
+            "name": "Falklandi saared"
+        },
+        "FM": {
+            "name": "Mikroneesia"
+        },
+        "FO": {
+            "name": "Fääri saared"
+        },
+        "FR": {
+            "name": "Prantsusmaa"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Ühendkuningriik"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gruusia"
+        },
+        "GF": {
+            "name": "Prantsuse Guajaana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Gröönimaa"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Ekvatoriaal-Guinea"
+        },
+        "GR": {
+            "name": "Kreeka"
+        },
+        "GS": {
+            "name": "Lõuna-Georgia ja Lõuna-Sandwichi saared"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hongkong"
+        },
+        "HM": {
+            "name": "Heardi ja McDonaldi saared"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Horvaatia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Ungari"
+        },
+        "ID": {
+            "name": "Indoneesia"
+        },
+        "IE": {
+            "name": "Iirimaa"
+        },
+        "IL": {
+            "name": "Iisrael"
+        },
+        "IM": {
+            "name": "Mani saar"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Briti India ookeani ala"
+        },
+        "IQ": {
+            "name": "Iraak"
+        },
+        "IR": {
+            "name": "Iraan"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Itaalia"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordaania"
+        },
+        "JP": {
+            "name": "Jaapan"
+        },
+        "KE": {
+            "name": "Keenia"
+        },
+        "KG": {
+            "name": "Kõrgõzstan"
+        },
+        "KH": {
+            "name": "Kambodža"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komoorid"
+        },
+        "KN": {
+            "name": "Saint Kitts ja Nevis"
+        },
+        "KP": {
+            "name": "Põhja-Korea"
+        },
+        "KR": {
+            "name": "Lõuna-Korea"
+        },
+        "KW": {
+            "name": "Kuveit"
+        },
+        "KY": {
+            "name": "Kaimanisaared"
+        },
+        "KZ": {
+            "name": "Kasahstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Liibanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Libeeria"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Leedu"
+        },
+        "LU": {
+            "name": "Luksemburg"
+        },
+        "LV": {
+            "name": "Läti"
+        },
+        "LY": {
+            "name": "Liibüa"
+        },
+        "MA": {
+            "name": "Maroko"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshalli Saared"
+        },
+        "MK": {
+            "name": "Põhja-Makedoonia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongoolia"
+        },
+        "MO": {
+            "name": "Macau"
+        },
+        "MP": {
+            "name": "Põhja-Mariaanid"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritaania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldiivid"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mehhiko"
+        },
+        "MY": {
+            "name": "Malaisia"
+        },
+        "MZ": {
+            "name": "Mosambiik"
+        },
+        "NA": {
+            "name": "Namiibia"
+        },
+        "NC": {
+            "name": "Uus-Kaledoonia"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolki saar"
+        },
+        "NG": {
+            "name": "Nigeeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Madalmaad"
+        },
+        "NO": {
+            "name": "Norra"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Uus-Meremaa"
+        },
+        "OM": {
+            "name": "Omaan"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peruu"
+        },
+        "PF": {
+            "name": "Prantsuse Polüneesia"
+        },
+        "PG": {
+            "name": "Paapua Uus-Guinea"
+        },
+        "PH": {
+            "name": "Filipiinid"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Poola"
+        },
+        "PM": {
+            "name": "Saint-Pierre ja Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairni saared"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestiina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumeenia"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Venemaa"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saudi Araabia"
+        },
+        "SB": {
+            "name": "Saalomoni Saared"
+        },
+        "SC": {
+            "name": "Seišellid"
+        },
+        "SD": {
+            "name": "Sudaan"
+        },
+        "SE": {
+            "name": "Rootsi"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Sloveenia"
+        },
+        "SJ": {
+            "name": "Svalbard ja Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakkia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somaalia"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Lõuna-Sudaan"
+        },
+        "ST": {
+            "name": "São Tomé ja Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Süüria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Turks ja Caicos"
+        },
+        "TD": {
+            "name": "Tšaad"
+        },
+        "TF": {
+            "name": "Prantsuse Lõunaalad"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tai"
+        },
+        "TJ": {
+            "name": "Tadžikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Ida-Timor"
+        },
+        "TM": {
+            "name": "Türkmenistan"
+        },
+        "TN": {
+            "name": "Tuneesia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Türgi"
+        },
+        "TT": {
+            "name": "Trinidad ja Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tansaania"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Ühendriikide hajasaared"
+        },
+        "US": {
+            "name": "Ameerika Ühendriigid"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Usbekistan"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Saint Vincent ja Grenadiinid"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Briti Neitsisaared"
+        },
+        "VI": {
+            "name": "USA Neitsisaared"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis ja Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Jeemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Lõuna-Aafrika"
+        },
+        "ZM": {
+            "name": "Sambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
+    }
+}
