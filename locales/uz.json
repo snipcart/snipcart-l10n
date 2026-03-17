@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Yuklanmoqda...",
+        "error": "Xatolik yuz berdi.",
+        "success": "Muvaffaqiyatli!"
+    },
     "actions": {
         "edit": "O'zgartirish",
         "cancel": "Bekor qilish",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Buyurtmani rasmiylashtirishga qaytish",
         "checkout": "Buyurtmani rasmiylashtirish",
         "apply": "Qo'llash",
+        "dismiss": "Yopish",
         "type_address": "Manzilingizni kiriting",
         "use_this_address": "Shu manzildan foydalanish",
         "back_to_store": "Do'konga qaytish",
@@ -13,7 +19,12 @@
         "show": "Ko'rsatish",
         "hide": "Yashirish",
         "apply_changes": "O'zgarishlarni qo'llash",
-        "yes_use_it":  "Ha, bundan foydalanish"
+        "yes_use_it": "Ha, bundan foydalanish",
+        "clear_cart": "Savatni tozalash",
+        "save_changes": "O'zgarishlarni saqlash",
+        "back_to_orders": "Buyurtmalarga qaytish",
+        "change_password": "Parolni o'zgartirish",
+        "add": "Qo'shish"
     },
     "header": {
         "title_cart_summary": "Savatdagi mahsulotlar",
@@ -24,7 +35,41 @@
         "quantity_short": "Adadi",
         "decrement_quantity": "Ayirib hisoblash",
         "increment_quantity": "Qo'shib hisoblash",
-        "remove_item": "Mahsulotni o'lib tashlash"
+        "remove_item": "Mahsulotni o'lib tashlash",
+        "recurrence": {
+            "daily": "kun |||| %{smart_count} kun",
+            "weekly": "hafta |||| %{smart_count} hafta",
+            "monthly": "oy |||| %{smart_count} oy",
+            "yearly": "yil |||| %{smart_count} yil"
+        }
+    },
+    "subscription": {
+        "title": "Obuna",
+        "state": {
+            "title": "Holat",
+            "active": "Faol",
+            "paused": "To'xtatilgan",
+            "finished": "Tugallangan",
+            "stopped": "To'xtatilgan",
+            "cancellationrequested": "Obuna hisob-kitob davrining oxirida bekor qilinadi."
+        },
+        "placed_on": "Buyurtma sanasi",
+        "final_billing_date": "Oxirgi hisob-kitob sanasi",
+        "items": "Mahsulotlar",
+        "processing": "Obuna hali qayta ishlanmoqda. Tafsilotlar uchun keyinroq qayting.",
+        "loading": "Obunalar yuklanmoqda",
+        "cancel": "Bekor qilish",
+        "pause": "To'xtatish",
+        "unpause": "Davom ettirish",
+        "billing_recurrence": {
+            "daily": "Har kuni hisoblanadi |||| Har %{smart_count} kunda hisoblanadi",
+            "weekly": "Har hafta hisoblanadi |||| Har %{smart_count} haftada hisoblanadi",
+            "monthly": "Har oy hisoblanadi |||| Har %{smart_count} oyda hisoblanadi",
+            "yearly": "Har yil hisoblanadi |||| Har %{smart_count} yilda hisoblanadi"
+        },
+        "plan": "Reja",
+        "billed_on": "Hisob-kitob sanasi",
+        "payment_amount": "To'lov summasi"
     },
     "cart": {
         "subtotal": "Summa",
@@ -33,10 +78,12 @@
         "secured_by": "Snipcart himoyasi",
         "summary": "Jami",
         "empty": "Sizning savatingiz bo'sh.",
-        "invoice_number": "Hisob raqami"
+        "invoice_number": "Hisob raqami",
+        "view_detailed_cart": "Savat tafsilotlarini ko'rish"
     },
     "order": {
-        "loading": "Buyurtmangiz ma'lumotlarini yig'ayapmiz..."
+        "loading": "Buyurtmangiz ma'lumotlarini yig'ayapmiz...",
+        "title": "Buyurtma"
     },
     "discount_box": {
         "promo_code": "Chegirma?",
@@ -46,10 +93,13 @@
     "address_form": {
         "name": "Ism, Familiya",
         "email": "Elektron pochta",
+        "firstName": "Ism",
+        "lastName": "Familiya",
         "address1": "Ko'cha, uy",
         "address2": "Xonadon",
         "city": "Shahar",
         "country": "Davlat",
+        "phone": "Telefon",
         "postalCode": "Pochta indeksi",
         "province": "Viloyat",
         "dont_see_address": "To'liq manzilni ko'rsatmoqchiman"
@@ -61,7 +111,15 @@
         "use_different_shipping_address": "Yetkazib berish uchun boshqa manzil ko'rsatish"
     },
     "customer": {
-        "information": "Xaridorning ma'lumotlari"
+        "information": "Xaridorning ma'lumotlari",
+        "payment_info": "To'lov ma'lumotlari",
+        "payment_method_update": {
+            "title": "To'lov usulini yangilash",
+            "outstanding_payment_failed": {
+                "title": "To'lov amalga oshmadi",
+                "description": "Davom etish uchun to'lov usulini yangilang."
+            }
+        }
     },
     "customer_dashboard": {
         "my_account": "Mening kabinetim",
@@ -73,7 +131,23 @@
         "loading": "Yuklanmoqda...",
         "no_orders": "Buyurtmalar yo'q.",
         "sign_out": "Chiqish",
-        "show_more_orders": "Yana %{smart_count} buyurtmani ko'rsatish |||| Yana %{smart_count} buyurtmalarni ko'rsatish"
+        "show_more_orders": "Yana %{smart_count} buyurtmani ko'rsatish |||| Yana %{smart_count} buyurtmalarni ko'rsatish",
+        "show_more_subscriptions": "Yana %{smart_count} ta obunani ko'rsatish |||| Yana %{smart_count} ta obunani ko'rsatish",
+        "subscriptions": "Obunalar",
+        "subscription": "Obuna",
+        "next_billing_date": "Keyingi hisob-kitob sanasi",
+        "price": "Narx",
+        "no_subscriptions": "Obunalar topilmadi.",
+        "view_invoice": "Hisob-fakturani ko'rish",
+        "orders": "Buyurtmalar"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Obunada muddati o'tgan to'lov mavjud",
+                "description": "Sizda muddati o'tgan to'lovli obuna mavjud. Iltimos, to'lov usulini yangilang."
+            }
+        }
     },
     "signin_form": {
         "signin": "Kirish",
@@ -101,7 +175,11 @@
         "already_have_an_account": "Ro'yxatdan o'tganmisiz?",
         "email": "Elektron pochta",
         "password": "Parol",
-        "confirm_password": "Parolni tasdiqlash"
+        "confirm_password": "Parolni tasdiqlash",
+        "requires_action": {
+            "title": "Elektron pochtangizni tekshiring",
+            "description": "Sizga xat yubordik. Ro'yxatdan o'tishni yakunlash uchun ko'rsatmalarga amal qiling."
+        }
     },
     "guest_checkout": {
         "or": "Yoki",
@@ -111,7 +189,13 @@
         "title": "Yetkazib bersih",
         "shipping_to": "Yetkazib berish manzili",
         "address": "Manzil",
-        "method": "Yetkazib berish usuli"
+        "method": "Yetkazib berish usuli",
+        "methods": {
+            "example_localization_id": "Yetkazib berish usuli namunasi"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "%{smart_count} kun ichida kafolatlangan yetkazib berish |||| %{smart_count} kun ichida kafolatlangan yetkazib berish"
     },
     "payment": {
         "form": {
@@ -121,7 +205,11 @@
             "card_number": "Karta raqami",
             "card_expiration": "Oy/Yil",
             "card_cvv": "CVV",
-            "card_postal_code": "Poochta indeksi"
+            "card_postal_code": "Poochta indeksi",
+            "invalid_number": "Karta raqami yaroqsiz",
+            "invalid_expiration": "Amal qilish muddati yaroqsiz",
+            "invalid_cvv": "CVV yaroqsiz",
+            "invalid_postal_code": "Pochta indeksi yaroqsiz"
         },
         "still_pending_notice": "To'lov o'tmoqda.",
         "title": "To'lov",
@@ -163,7 +251,9 @@
         "shipping": "Yetklazib berish",
         "discount": "Chegirmalar",
         "quantity": "x",
-        "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi"
+        "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi",
+        "taxes": "Soliqlar",
+        "taxes_included_in_price": "Ba'zi mahsulotlar narxiga soliq kiritilgan."
     },
     "errors": {
         "default": "Xato yuz berdi. Qaytadan urinib ko'ring yoki biz bilan bog'laning.",
@@ -172,11 +262,13 @@
         "promocode_isnt_applicable": "Promokod amal qilmaydi",
         "promo_code_is_expired": "Promokod muddati tugagan",
         "stringEmpty": "To'ldirish talab qilinadi",
+        "emailEmpty": "Elektron pochta talab qilinadi",
         "required": "Talab qilinadi",
         "invalid_expiry_year_past": "Kartaning amal qilish muddati tugagan.",
         "email": "Iltimos, to'g'ri e-mail manzilingizni ko'rsating.",
         "quantity_revised": "Ombordagi cheklovlar tufayli mahsulot soni o'zgartirildi.",
         "quantity_out_of_stock": "Afsuski, bu mahsulot omborda yo'q. Davom etish uchun uni xarid savatidan o'chirib tashlang.",
+        "disabled_country": "Bu mamlakatga yetkazib berish mavjud emas.",
         "error_payment_items_are_invalid": {
             "title": "Xarid savatingizdagi ayrim mahsulotlarda xato bor.",
             "description": "Iltimos, buyurtmangizni tekshiring va qaytadan urinib ko'ring."
@@ -187,7 +279,13 @@
             "invalid_year": "Kartaning amal qilish yili xato ko'rsatilgan.",
             "invalid_month": "Kartaning amal qilish oyi xato ko'rsatilgan.",
             "invalid_cvv": "CVV xato yozildi.",
-            "expired": "Kartaning amal qilish muddati tugagan."
+            "expired": "Kartaning amal qilish muddati tugagan.",
+            "invalid_expiration": "Amal qilish muddati yaroqsiz.",
+            "declined": "Karta rad etildi. Qo'shimcha ma'lumot uchun karta chiqaruvchiga murojaat qiling.",
+            "invalid_address": "Karta manzili yaroqsiz.",
+            "insufficient_funds": "Tranzaksiya summasini qoplash uchun hisobda mablag' yetarli emas.",
+            "card_not_supported": "Bu mintaqada karta qo'llab-quvvatlanmaydi.",
+            "currency_not_supported": "Valyuta hozirda qo'llab-quvvatlanmaydi."
         },
         "discounts": {
             "conflict": "Ayrim chegirmalar birgalikda ishlamaydi. Faqat shu chegirma bilan olasizmi?"
@@ -214,6 +312,7 @@
                 "description": "Tanlangan yetkazib berish tariflari eskirgan yoki hozir ishlamaydi. Do'kon bilan bog'laning."
             }
         },
+        "invalid_address": "Manzil yaroqsiz.",
         "shipping": {
             "account_configuration": {
                 "title": "Hozirgi vaqtda yetkazib berilmaydi",
@@ -226,7 +325,33 @@
             "no_rates_found": {
                 "title": "Buyurtmangiz uchun yetkazib berishning biror turi mavjud emas.",
                 "description": "Iltimos, yetkazib berish manzilingiz bilan tanishing yoki ma'lumot uchun bizga bog'laning."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Bu mamlakatga yetkazib berish qo'llab-quvvatlanmaydi.",
+            "E.ENGINE.UNAVAILABLE": "Yetkazib berish xizmati mavjud emas. Keyinroq qayta urinib ko'ring.",
+            "E.QUERY.UNANSWERABLE": "Manzilni tekshirib bo'lmadi. Ma'lumotlaringizni tekshiring.",
+            "E.ADDRESS.NOT_FOUND": "Manzil topilmadi.",
+            "E.SECONDARY_INFORMATION.INVALID": "Qo'shimcha manzil ma'lumotlari yaroqsiz.",
+            "E.SECONDARY_INFORMATION.MISSING": "Qo'shimcha manzil ma'lumotlari yo'q.",
+            "E.HOUSE_NUMBER.MISSING": "Uy raqami ko'rsatilmagan.",
+            "E.HOUSE_NUMBER.INVALID": "Uy raqami yaroqsiz.",
+            "E.STREET.MISSING": "Ko'cha nomi ko'rsatilmagan.",
+            "E.STREET.INVALID": "Ko'cha nomi yaroqsiz.",
+            "E.BOX_NUMBER.MISSING": "Pochta qutisi raqami ko'rsatilmagan.",
+            "E.BOX_NUMBER.INVALID": "Pochta qutisi raqami yaroqsiz.",
+            "E.ADDRESS.INVALID": "Manzil yaroqsiz.",
+            "E.ZIP.NOT_FOUND": "Pochta indeksi topilmadi.",
+            "E.ZIP.INVALID": "Pochta indeksi yaroqsiz.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Pochta indeksi kengaytmasi topilmadi.",
+            "E.ADDRESS.MULTIPLE": "Bir nechta manzil topildi. Aniqroq manzil kiriting.",
+            "E.ADDRESS.INSUFFICIENT": "Manzil ma'lumotlari to'liq emas.",
+            "E.ADDRESS.DUAL": "Manzilda ziddiyatli ma'lumotlar mavjud.",
+            "E.STREET.MAGNET": "Ko'cha nomini tekshirib bo'lmadi.",
+            "E.CITY_STATE.INVALID": "Shahar yoki viloyat yaroqsiz.",
+            "E.STATE.INVALID": "Viloyat yaroqsiz.",
+            "E.ADDRESS.DELIVERY.INVALID": "Yetkazib berish manzili yaroqsiz.",
+            "E.TIMED_OUT": "Manzilni tekshirish vaqti tugadi. Qayta urinib ko'ring.",
+            "E.TIME_ZONE.UNAVAILABLE": "Vaqt zonasi ma'lumotlari mavjud emas.",
+            "E.PO_BOX.INTERNATIONAL": "Pochta qutisi manziliga xalqaro yetkazib berish mumkin emas."
         },
         "payment_failed": {
             "title": "To'lovni amalga oshira olmayapmiz",
@@ -242,15 +367,35 @@
                 "description": "To'lash ma'lumotlaringiz to'g'riligini tekshiring. Keyinroq urinib ko'ring."
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Savatda faqat bitta obuna bo'lishi mumkin.",
+                "description": "Yangi obuna qo'shishdan oldin mavjud obunani olib tashlang."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Savatda mahsulotlar yoki obunalar bo'lishi mumkin.",
+                "description": "Obuna qo'shishdan oldin mavjud mahsulotlarni olib tashlang yoki aksincha."
+            }
+        },
         "customer_exists": "Bu elektron manzil boshqa profil tomonidan ishlatilyalpti.",
         "customer_password_missmatch": "Parollar mos kelishi kerak.",
         "customer_password_token_expired": "Parolni yangilash tokeni uchun ajratilgan vaqt o'tib bo'lgan.",
         "customer_password_token_invalid": "Sizdagi parolni yangilash tokeni amal qilmaydi.",
         "customer_not_found": "Bu e-mail hech qanday akkaunt bilan bog'liq emas.",
-        "invalid_credentials": "Noto'g'ri elektron pochta yoki parol."
+        "invalid_credentials": "Noto'g'ri elektron pochta yoki parol.",
+        "transaction": {
+            "declined": "Kartani qayta ishlashda xatolik yuz berdi. Keyinroq qayta urinib ko'ring yoki boshqa to'lov usulidan foydalaning."
+        },
+        "customer_current_password_invalid": "Noto'g'ri parol."
+    },
+    "shippingRates": {
+        "loading": "Yuklanmoqda..."
     },
     "customer_orders": {
         "loading": "Yuklanmoqda..."
+    },
+    "digital_goods": {
+        "download": "Yuklab olish"
     },
     "confirmation": {
         "thank_you_for_your_order": "Buyurtma uchun rahmat!",
@@ -258,5 +403,770 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Yetkazib berish harajatlari manzilni kiritganingizdan so'ng hisoblanadi."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Birlashgan Arab Amirliklari"
+        },
+        "AF": {
+            "name": "Afgʻoniston"
+        },
+        "AG": {
+            "name": "Antigua va Barbuda"
+        },
+        "AI": {
+            "name": "Angilya"
+        },
+        "AL": {
+            "name": "Albaniya"
+        },
+        "AM": {
+            "name": "Armaniston"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktida"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Amerika Samoasi"
+        },
+        "AT": {
+            "name": "Avstriya"
+        },
+        "AU": {
+            "name": "Avstraliya"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Aland orollari"
+        },
+        "AZ": {
+            "name": "Ozarbayjon"
+        },
+        "BA": {
+            "name": "Bosniya va Gersegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgiya"
+        },
+        "BF": {
+            "name": "Burkina-Faso"
+        },
+        "BG": {
+            "name": "Bolgariya"
+        },
+        "BH": {
+            "name": "Bahrayn"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Sen-Bartelemi"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Bruney"
+        },
+        "BO": {
+            "name": "Boliviya"
+        },
+        "BQ": {
+            "name": "Karib Niderlandiyasi"
+        },
+        "BR": {
+            "name": "Braziliya"
+        },
+        "BS": {
+            "name": "Bagama orollari"
+        },
+        "BT": {
+            "name": "Butan"
+        },
+        "BV": {
+            "name": "Buve oroli"
+        },
+        "BW": {
+            "name": "Botsvana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Beliz"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kokos orollari"
+        },
+        "CD": {
+            "name": "Kongo Demokratik Respublikasi"
+        },
+        "CF": {
+            "name": "Markaziy Afrika Respublikasi"
+        },
+        "CG": {
+            "name": "Kongo Respublikasi"
+        },
+        "CH": {
+            "name": "Shveytsariya"
+        },
+        "CI": {
+            "name": "Kot-d'Ivuar"
+        },
+        "CK": {
+            "name": "Kuk orollari"
+        },
+        "CL": {
+            "name": "Chili"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Xitoy"
+        },
+        "CO": {
+            "name": "Kolumbiya"
+        },
+        "CR": {
+            "name": "Kosta-Rika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kabo-Verde"
+        },
+        "CW": {
+            "name": "Kyurasao"
+        },
+        "CX": {
+            "name": "Rojdestvo oroli"
+        },
+        "CY": {
+            "name": "Kipr"
+        },
+        "CZ": {
+            "name": "Chexiya"
+        },
+        "DE": {
+            "name": "Germaniya"
+        },
+        "DJ": {
+            "name": "Jibuti"
+        },
+        "DK": {
+            "name": "Daniya"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominikan Respublikasi"
+        },
+        "DZ": {
+            "name": "Jazoir"
+        },
+        "EC": {
+            "name": "Ekvador"
+        },
+        "EE": {
+            "name": "Estoniya"
+        },
+        "EG": {
+            "name": "Misr"
+        },
+        "EH": {
+            "name": "Gʻarbiy Sahara"
+        },
+        "ER": {
+            "name": "Eritreya"
+        },
+        "ES": {
+            "name": "Ispaniya"
+        },
+        "ES-CN": {
+            "name": "Kanar orollari"
+        },
+        "ET": {
+            "name": "Efiopiya"
+        },
+        "FI": {
+            "name": "Finlandiya"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Folklend orollari"
+        },
+        "FM": {
+            "name": "Mikroneziya"
+        },
+        "FO": {
+            "name": "Farer orollari"
+        },
+        "FR": {
+            "name": "Fransiya"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Buyuk Britaniya"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gruziya"
+        },
+        "GF": {
+            "name": "Fransuz Gvianasi"
+        },
+        "GG": {
+            "name": "Gernsi"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Grenlandiya"
+        },
+        "GM": {
+            "name": "Gambiya"
+        },
+        "GN": {
+            "name": "Gvineya"
+        },
+        "GP": {
+            "name": "Gvadelupa"
+        },
+        "GQ": {
+            "name": "Ekvatorial Gvineya"
+        },
+        "GR": {
+            "name": "Gretsiya"
+        },
+        "GS": {
+            "name": "Janubiy Jorjiya va Janubiy Sendvich orollari"
+        },
+        "GT": {
+            "name": "Gvatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Gvineya-Bisau"
+        },
+        "GY": {
+            "name": "Gayana"
+        },
+        "HK": {
+            "name": "Gonkong"
+        },
+        "HM": {
+            "name": "Xerd va Makdonald orollari"
+        },
+        "HN": {
+            "name": "Gonduras"
+        },
+        "HR": {
+            "name": "Xorvatiya"
+        },
+        "HT": {
+            "name": "Gaiti"
+        },
+        "HU": {
+            "name": "Vengriya"
+        },
+        "ID": {
+            "name": "Indoneziya"
+        },
+        "IE": {
+            "name": "Irlandiya"
+        },
+        "IL": {
+            "name": "Isroil"
+        },
+        "IM": {
+            "name": "Men oroli"
+        },
+        "IN": {
+            "name": "Hindiston"
+        },
+        "IO": {
+            "name": "Britaniya Hind okean hududi"
+        },
+        "IQ": {
+            "name": "Iroq"
+        },
+        "IR": {
+            "name": "Eron"
+        },
+        "IS": {
+            "name": "Islandiya"
+        },
+        "IT": {
+            "name": "Italiya"
+        },
+        "JE": {
+            "name": "Jersi"
+        },
+        "JM": {
+            "name": "Yamayka"
+        },
+        "JO": {
+            "name": "Iordaniya"
+        },
+        "JP": {
+            "name": "Yaponiya"
+        },
+        "KE": {
+            "name": "Keniya"
+        },
+        "KG": {
+            "name": "Qirgʻiziston"
+        },
+        "KH": {
+            "name": "Kambodja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komor orollari"
+        },
+        "KN": {
+            "name": "Sent-Kits va Nevis"
+        },
+        "KP": {
+            "name": "Shimoliy Koreya"
+        },
+        "KR": {
+            "name": "Janubiy Koreya"
+        },
+        "KW": {
+            "name": "Quvayt"
+        },
+        "KY": {
+            "name": "Kayman orollari"
+        },
+        "KZ": {
+            "name": "Qozogʻiston"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Livan"
+        },
+        "LC": {
+            "name": "Sent-Lyusiya"
+        },
+        "LI": {
+            "name": "Lixtenshteyn"
+        },
+        "LK": {
+            "name": "Shri-Lanka"
+        },
+        "LR": {
+            "name": "Liberiya"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Litva"
+        },
+        "LU": {
+            "name": "Lyuksemburg"
+        },
+        "LV": {
+            "name": "Latviya"
+        },
+        "LY": {
+            "name": "Liviya"
+        },
+        "MA": {
+            "name": "Marokash"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Chernogoriya"
+        },
+        "MF": {
+            "name": "Sent-Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshall orollari"
+        },
+        "MK": {
+            "name": "Shimoliy Makedoniya"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanma"
+        },
+        "MN": {
+            "name": "Mongoliya"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Shimoliy Mariana orollari"
+        },
+        "MQ": {
+            "name": "Martinika"
+        },
+        "MR": {
+            "name": "Mavritaniya"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mavrikiy"
+        },
+        "MV": {
+            "name": "Maldiv orollari"
+        },
+        "MW": {
+            "name": "Malavi"
+        },
+        "MX": {
+            "name": "Meksika"
+        },
+        "MY": {
+            "name": "Malayziya"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namibiya"
+        },
+        "NC": {
+            "name": "Yangi Kaledoniya"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolk oroli"
+        },
+        "NG": {
+            "name": "Nigeriya"
+        },
+        "NI": {
+            "name": "Nikaragua"
+        },
+        "NL": {
+            "name": "Niderlandiya"
+        },
+        "NO": {
+            "name": "Norvegiya"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Yangi Zelandiya"
+        },
+        "OM": {
+            "name": "Ummon"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Fransuz Polineziyasi"
+        },
+        "PG": {
+            "name": "Papua Yangi Gvineya"
+        },
+        "PH": {
+            "name": "Filippin"
+        },
+        "PK": {
+            "name": "Pokiston"
+        },
+        "PL": {
+            "name": "Polsha"
+        },
+        "PM": {
+            "name": "Sen-Pyer va Mikelon"
+        },
+        "PN": {
+            "name": "Pitkern orollari"
+        },
+        "PR": {
+            "name": "Puerto-Riko"
+        },
+        "PS": {
+            "name": "Falastin"
+        },
+        "PT": {
+            "name": "Portugaliya"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paragvay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Reyunion"
+        },
+        "RO": {
+            "name": "Ruminiya"
+        },
+        "RS": {
+            "name": "Serbiya"
+        },
+        "RU": {
+            "name": "Rossiya"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Saudiya Arabistoni"
+        },
+        "SB": {
+            "name": "Solomon orollari"
+        },
+        "SC": {
+            "name": "Seyshel orollari"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Shvetsiya"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Muqaddas Yelena oroli"
+        },
+        "SI": {
+            "name": "Sloveniya"
+        },
+        "SJ": {
+            "name": "Shpitsbergen va Yan-Mayen"
+        },
+        "SK": {
+            "name": "Slovakiya"
+        },
+        "SL": {
+            "name": "Syerra-Leone"
+        },
+        "SM": {
+            "name": "San-Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somali"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Janubiy Sudan"
+        },
+        "ST": {
+            "name": "San-Tome va Prinsipi"
+        },
+        "SV": {
+            "name": "Salvador"
+        },
+        "SX": {
+            "name": "Sint-Marten"
+        },
+        "SY": {
+            "name": "Suriya"
+        },
+        "SZ": {
+            "name": "Esvatini"
+        },
+        "TC": {
+            "name": "Tyorks va Kaykos orollari"
+        },
+        "TD": {
+            "name": "Chad"
+        },
+        "TF": {
+            "name": "Fransuz Janubiy hududlari"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tailand"
+        },
+        "TJ": {
+            "name": "Tojikiston"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Sharqiy Timor"
+        },
+        "TM": {
+            "name": "Turkmaniston"
+        },
+        "TN": {
+            "name": "Tunis"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turkiya"
+        },
+        "TT": {
+            "name": "Trinidad va Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tayvan"
+        },
+        "TZ": {
+            "name": "Tanzaniya"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "AQSH kichik tashqi orollari"
+        },
+        "US": {
+            "name": "Amerika Qoʻshma Shtatlari"
+        },
+        "UY": {
+            "name": "Urugvay"
+        },
+        "UZ": {
+            "name": "Oʻzbekiston"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Sent-Vinsent va Grenadinlar"
+        },
+        "VE": {
+            "name": "Venesuela"
+        },
+        "VG": {
+            "name": "Britaniya Virgin orollari"
+        },
+        "VI": {
+            "name": "AQSH Virgin orollari"
+        },
+        "VN": {
+            "name": "Vyetnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Uollis va Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yaman"
+        },
+        "YT": {
+            "name": "Mayotta"
+        },
+        "ZA": {
+            "name": "Janubiy Afrika"
+        },
+        "ZM": {
+            "name": "Zambiya"
+        },
+        "ZW": {
+            "name": "Zimbabve"
+        }
+    },
+    "customer_details": {
+        "title": "Mijoz ma'lumotlari"
+    },
+    "change_password_form": {
+        "title": "Parolni o'zgartirish",
+        "current_password": "Joriy parol",
+        "password": "Yangi parol",
+        "confirmation_password": "Yangi parolni tasdiqlang",
+        "action": "Parolni o'zgartirish"
     }
 }
