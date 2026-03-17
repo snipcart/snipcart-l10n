@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Yükleniyor...",
+        "error": "Bir hata oluştu.",
+        "success": "Başarılı!"
+    },
     "actions": {
         "edit": "Düzenle",
         "cancel": "İptal",
@@ -6,12 +11,20 @@
         "back_to_checkout": "Ödemeye geri dön",
         "checkout": "Ödeme",
         "apply": "Uygula",
+        "dismiss": "Kapat",
         "type_address": "Adresinizi giriniz",
         "use_this_address": "Bu adresi kullan",
         "back_to_store": "Mağazaya geri dön",
         "close_cart": "Sepeti kapat",
         "show": "Göster",
-        "hide": "Gizle"
+        "hide": "Gizle",
+        "apply_changes": "Değişiklikleri uygula",
+        "yes_use_it": "Evet, kullan",
+        "save_changes": "Değişiklikleri kaydet",
+        "back_to_orders": "Siparişlere dön",
+        "change_password": "Şifre değiştir",
+        "clear_cart": "Sepeti temizle",
+        "add": "Ekle"
     },
     "header": {
         "title_cart_summary": "Sepet özeti",
@@ -22,7 +35,41 @@
         "quantity_short": "miktar",
         "decrement_quantity": "Miktarı arttır",
         "increment_quantity": "Miktarı azalt",
-        "remove_item": "Ürünü kaldır"
+        "remove_item": "Ürünü kaldır",
+        "recurrence": {
+            "daily": "gün |||| %{smart_count} gün",
+            "weekly": "hafta |||| %{smart_count} hafta",
+            "monthly": "ay |||| %{smart_count} ay",
+            "yearly": "yıl |||| %{smart_count} yıl"
+        }
+    },
+    "subscription": {
+        "title": "Abonelik",
+        "state": {
+            "title": "Durum",
+            "active": "Aktif",
+            "paused": "Duraklatıldı",
+            "finished": "Tamamlandı",
+            "stopped": "Durduruldu",
+            "cancellationrequested": "Abonelik fatura döneminin sonunda sona erecektir."
+        },
+        "placed_on": "Sipariş tarihi",
+        "final_billing_date": "Son fatura tarihi",
+        "items": "Ürünler",
+        "plan": "Plan",
+        "billed_on": "Faturalandırma tarihi",
+        "payment_amount": "Ödeme tutarı",
+        "processing": "Abonelik hâlâ işleniyor. Ayrıntılar için daha sonra tekrar gelin.",
+        "loading": "Abonelikler yükleniyor",
+        "cancel": "İptal et",
+        "pause": "Duraklat",
+        "unpause": "Devam ettir",
+        "billing_recurrence": {
+            "daily": "Her gün faturalandırılır |||| Her %{smart_count} günde bir faturalandırılır",
+            "weekly": "Her hafta faturalandırılır |||| Her %{smart_count} haftada bir faturalandırılır",
+            "monthly": "Her ay faturalandırılır |||| Her %{smart_count} ayda bir faturalandırılır",
+            "yearly": "Her yıl faturalandırılır |||| Her %{smart_count} yılda bir faturalandırılır"
+        }
     },
     "cart": {
         "subtotal": "Aratoplam",
@@ -31,10 +78,12 @@
         "secured_by": "Snipcart altyapısıyla güvenli alışveriş.",
         "summary": "Sipariş özeti",
         "empty": "Sepetiniz boş",
-        "invoice_number": "Fatura numarası"
+        "invoice_number": "Fatura numarası",
+        "view_detailed_cart": "Sepet detaylarını görüntüle"
     },
     "order": {
-        "loading": "Sipariş detayınızı hazırlıyoruz."
+        "loading": "Sipariş detayınızı hazırlıyoruz.",
+        "title": "Sipariş"
     },
     "discount_box": {
         "promo_code": "Promosyon kodu?",
@@ -44,10 +93,13 @@
     "address_form": {
         "name": "Tam isim",
         "email": "Email",
+        "firstName": "Ad",
+        "lastName": "Soyad",
         "address1": "Adres",
         "address2": "Apt/No",
         "city": "Şehir",
         "country": "Ülke",
+        "phone": "Telefon",
         "postalCode": "Posta kodu",
         "province": "Bölge/Vilayet",
         "dont_see_address": "Adres gözükmüyor"
@@ -59,19 +111,46 @@
         "use_different_shipping_address": "Başka bir teslimat adresi kullan"
     },
     "customer": {
-        "information": "Müşteri bilgileri"
+        "information": "Müşteri bilgileri",
+        "payment_info": "Ödeme bilgileri",
+        "payment_method_update": {
+            "title": "Ödeme yöntemini güncelle",
+            "outstanding_payment_failed": {
+                "title": "Ödeme başarısız oldu",
+                "description": "Devam etmek için ödeme yönteminizi güncelleyin."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Müşteri bilgileri"
     },
     "customer_dashboard": {
         "my_account": "Hesabım",
         "ordered_on": "Sipariş tarihi",
+        "next_billing_date": "Sonraki fatura tarihi",
+        "price": "Fiyat",
         "total": "Toplam",
         "status": "Durum",
         "order": "Sipariş %{invoice_number}",
         "order_details": "Sipariş detayları",
         "loading": "Yükleniyor...",
         "no_orders": "Sipariş bulunamadı",
+        "no_subscriptions": "Abonelik bulunamadı.",
+        "view_invoice": "Faturayı görüntüle",
         "sign_out": "Çıkış yap",
-        "show_more_orders": "%{smart_count} sipariş daha göster |||| %{smart_count} sipariş daha göster"
+        "show_more_orders": "%{smart_count} sipariş daha göster |||| %{smart_count} sipariş daha göster",
+        "show_more_subscriptions": "%{smart_count} abonelik daha göster |||| %{smart_count} abonelik daha göster",
+        "orders": "Siparişler",
+        "subscriptions": "Abonelikler",
+        "subscription": "Abonelik"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Aboneliğiniz için ödeme vadesi geldi",
+                "description": "Vadesi geçmiş bir ödemeniz var. Lütfen ödeme yönteminizi güncelleyin."
+            }
+        }
     },
     "signin_form": {
         "signin": "Giriş yap",
@@ -81,12 +160,36 @@
         "forgot_your_password": "Şİfrenizi mi unuttunuz?",
         "close_form": "Geri dön"
     },
+    "forgot_password_form": {
+        "title": "Şifrenizi sıfırlayın",
+        "instructions": "Hesap e-posta adresinizi girin, size şifre sıfırlama bağlantısı göndereceğiz.",
+        "email": "E-posta",
+        "email_instructions": "Size bağlantı içeren bir e-posta gönderildi. Şifrenizi sıfırlamak için bağlantıya tıklayın.",
+        "action": "Şifre sıfırlama e-postası gönder"
+    },
+    "reset_password_form": {
+        "title": "Şifrenizi sıfırlayın",
+        "password": "Yeni şifre",
+        "confirmation_password": "Yeni şifreyi onaylayın",
+        "action": "Şifreyi sıfırla"
+    },
+    "change_password_form": {
+        "title": "Şifrenizi değiştirin",
+        "current_password": "Mevcut şifre",
+        "password": "Yeni şifre",
+        "confirmation_password": "Yeni şifreyi onaylayın",
+        "action": "Şifreyi değiştir"
+    },
     "register_form": {
         "register": "Kayıt ol",
         "already_have_an_account": "Hesabınız var mı?",
         "email": "Email",
         "password": "Şifre",
-        "confirm_password": "Şifreyi doğrulayın"
+        "confirm_password": "Şifreyi doğrulayın",
+        "requires_action": {
+            "title": "E-postanızı kontrol edin",
+            "description": "Size bir e-posta gönderdik. Kayıt işlemini tamamlamak için talimatları izleyin."
+        }
     },
     "guest_checkout": {
         "or": "veya",
@@ -96,16 +199,29 @@
         "title": "Teslimat",
         "shipping_to": "Şuraya teslimat:",
         "address": "Teslimat adresi",
-        "method": "Teslimat yolu"
+        "method": "Teslimat yolu",
+        "methods": {
+            "example_localization_id": "Örnek kargo yöntemi"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "%{smart_count} gün içinde garantili teslimat |||| %{smart_count} gün içinde garantili teslimat"
     },
     "payment": {
         "form": {
+            "deferred_payment_title": "Ertelenmiş ödeme",
+            "deferred_payment_instructions": "Bu siparişi vererek, satıcı tarafından belirtilen ödeme yöntemiyle daha sonra ödeme yapmayı kabul ediyorsunuz.",
             "card_label": "Kredi kartı",
             "card_number": "Kart numarası",
             "card_expiration": "AA/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Posta kodu"
+            "card_postal_code": "Posta kodu",
+            "invalid_number": "Kart numarası geçersiz",
+            "invalid_expiration": "Son kullanma tarihi geçersiz",
+            "invalid_cvv": "CVV geçersiz",
+            "invalid_postal_code": "Posta kodu geçersiz"
         },
+        "still_pending_notice": "Ödemeniz hâlâ işleniyor.",
         "title": "Ödeme",
         "continue_to_payment": "Ödemeye devam et",
         "credit_card": "Kredi kartı",
@@ -132,13 +248,16 @@
             "klarna_slice_it": "Klarna monthly financing",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA banka transferi",
-            "sofort": "Sofort banka transferi"
+            "sofort": "Sofort banka transferi",
+            "deferred_payment": "Daha sonra öde"
         }
     },
     "discounts": {
         "title": "İndirimler"
     },
     "cart_summary": {
+        "taxes": "Vergiler",
+        "taxes_included_in_price": "Bazı ürünlerin fiyatına vergi dahildir.",
         "total": "Toplam",
         "subtotal": "Aratoplam",
         "shipping": "Teslimat",
@@ -153,12 +272,36 @@
         "promocode_isnt_applicable": "Bu promosyon bu siparişe geçerli değil",
         "promo_code_is_expired": "Bu promosyon kodu artık geçerli değil",
         "stringEmpty": "Bu alan gereklidir",
+        "emailEmpty": "E-posta adresi gereklidir",
         "required": "Bu alan gereklidir",
         "invalid_expiry_year_past": "Kart artık kullanılabilir değil",
         "email": "Lütfen geçerli bir mail adresi giriniz",
+        "quantity_revised": "Miktar stok sınırlaması nedeniyle güncellendi.",
+        "quantity_out_of_stock": "Maalesef bu ürün stokta yok. Devam etmek için sepetinizden çıkarın.",
+        "disabled_country": "Bu ülkeye teslimat yapılamamaktadır.",
         "error_payment_items_are_invalid": {
             "title": "Sepetinizdeki bazı ürünler geçersiz",
             "description": "Lütfen siparişinizi kontrol edin ve tekrar edeyin."
+        },
+        "card": {
+            "invalid_number": "Kart numarası geçersiz.",
+            "invalid_date": "Kartın son kullanma tarihi geçersiz.",
+            "invalid_year": "Kartın son kullanma yılı geçersiz.",
+            "invalid_month": "Kartın son kullanma ayı geçersiz.",
+            "invalid_cvv": "Kartın CVV kodu geçersiz.",
+            "invalid_expiration": "Kartın son kullanma tarihi geçersiz.",
+            "expired": "Kartın süresi dolmuş.",
+            "declined": "Kart reddedildi. Daha fazla bilgi için kart kuruluşunuzla iletişime geçin.",
+            "invalid_address": "Kart adresi geçersiz.",
+            "insufficient_funds": "Hesapta işlem tutarını karşılayacak yeterli bakiye yok.",
+            "card_not_supported": "Bu kart bu bölgede desteklenmiyor.",
+            "currency_not_supported": "Bu para birimi şu anda desteklenmiyor."
+        },
+        "transaction": {
+            "declined": "Kart işlenirken bir hata oluştu. Daha sonra tekrar deneyin veya başka bir ödeme yöntemi kullanın."
+        },
+        "discounts": {
+            "conflict": "Bazı indirimler birleştirilemez. Bu indirimi kullanmak ister misiniz?"
         },
         "order_validation": {
             "domain_crawling": {
@@ -172,9 +315,56 @@
             "stock_validation": {
                 "title": "Ürün stoğu yeterli değil.",
                 "description": "Bazı ürünlerin stoğu yeterli değil. Lütfen miktarı gözden geçirin veya mağazayla iletişime geçin."
+            },
+            "custom_fields_validation": {
+                "title": "Eksik zorunlu bilgiler.",
+                "description": "Sepetteki bazı ürünlerde zorunlu bilgiler eksik. Devam etmek için sepeti düzenleyin."
+            },
+            "shipping_validation": {
+                "title": "Kargo yöntemi doğrulanamadı.",
+                "description": "Seçilen kargo ücreti değişmiş veya artık mevcut olmayabilir. Daha fazla bilgi için mağaza sahibiyle iletişime geçin."
             }
         },
+        "invalid_address": "Adres geçersiz.",
         "shipping": {
+            "account_configuration": {
+                "title": "Şu anda kullanılabilir kargo yöntemi yok",
+                "description": "Daha sonra tekrar deneyin veya destek için bizimle iletişime geçin."
+            },
+            "rates_calculation": {
+                "title": "Siparişiniz için kargo ücreti hesaplanamadı",
+                "description": "Daha sonra tekrar deneyin veya destek için bizimle iletişime geçin."
+            },
+            "no_rates_found": {
+                "title": "Siparişiniz için kullanılabilir kargo yöntemi bulunamadı",
+                "description": "Lütfen teslimat adresinizi kontrol edin veya bizimle iletişime geçin."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Bu ülkeye teslimat desteklenmiyor.",
+            "E.ENGINE.UNAVAILABLE": "Kargo hizmeti kullanılamıyor. Daha sonra tekrar deneyin.",
+            "E.QUERY.UNANSWERABLE": "Adres doğrulanamadı. Bilgilerinizi kontrol edin.",
+            "E.ADDRESS.NOT_FOUND": "Adres bulunamadı.",
+            "E.SECONDARY_INFORMATION.INVALID": "Ek adres bilgileri geçersiz.",
+            "E.SECONDARY_INFORMATION.MISSING": "Ek adres bilgileri eksik.",
+            "E.HOUSE_NUMBER.MISSING": "Bina numarası eksik.",
+            "E.HOUSE_NUMBER.INVALID": "Bina numarası geçersiz.",
+            "E.STREET.MISSING": "Sokak adı eksik.",
+            "E.STREET.INVALID": "Sokak adı geçersiz.",
+            "E.BOX_NUMBER.MISSING": "Posta kutusu numarası eksik.",
+            "E.BOX_NUMBER.INVALID": "Posta kutusu numarası geçersiz.",
+            "E.ADDRESS.INVALID": "Adres geçersiz.",
+            "E.ZIP.NOT_FOUND": "Posta kodu bulunamadı.",
+            "E.ZIP.INVALID": "Posta kodu geçersiz.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Posta kodu uzantısı bulunamadı.",
+            "E.ADDRESS.MULTIPLE": "Birden fazla adres bulundu. Daha kesin bir adres girin.",
+            "E.ADDRESS.INSUFFICIENT": "Adres bilgileri yetersiz.",
+            "E.ADDRESS.DUAL": "Adres çelişkili bilgiler içeriyor.",
+            "E.STREET.MAGNET": "Sokak adı doğrulanamadı.",
+            "E.CITY_STATE.INVALID": "Şehir veya il geçersiz.",
+            "E.STATE.INVALID": "İl geçersiz.",
+            "E.ADDRESS.DELIVERY.INVALID": "Teslimat adresi geçersiz.",
+            "E.TIMED_OUT": "Adres doğrulama zaman aşımına uğradı. Tekrar deneyin.",
+            "E.TIME_ZONE.UNAVAILABLE": "Saat dilimi bilgisi mevcut değil.",
+            "E.PO_BOX.INTERNATIONAL": "Posta kutusu adresine uluslararası teslimat yapılamaz.",
             "title": "Teslimat tutarı hesaplanamadı.",
             "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
         },
@@ -186,16 +376,42 @@
             "title": "Ödeme alınamadı.",
             "default": "Lütfen ödeme ve fatura bilgilerinizi kontrol edin."
         },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Ödeme işlemi gerçekleştirilemedi",
+                "description": "Ödeme bilgileriniz doğrulanamadı. Lütfen tekrar deneyin."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Sepette yalnızca bir abonelik bulunabilir.",
+                "description": "Yeni bir abonelik eklemeden önce mevcut aboneliği kaldırın."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Sepette ya ürünler ya da abonelikler bulunabilir.",
+                "description": "Abonelik eklemeden önce mevcut ürünleri kaldırın veya tam tersi."
+            }
+        },
         "customer_exists": "Bu mail adresi kullanımda.",
         "customer_password_missmatch": "Şifreler eşleşmeli.",
+        "customer_password_token_expired": "Şifre sıfırlama bağlantısının süresi doldu. Yeni bir tane talep edin.",
+        "customer_password_token_invalid": "Şifre sıfırlama bağlantısı geçersiz.",
+        "customer_not_found": "Bu e-posta adresi herhangi bir hesapla ilişkili değil.",
         "invalid_credentials": "Geçersiz mail veya şifre.",
+        "customer_current_password_invalid": "Geçersiz şifre.",
         "no_shipping_rates_found": {
             "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
             "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
         }
     },
+    "shippingRates": {
+        "loading": "Yükleniyor..."
+    },
     "customer_orders": {
         "loading": "Yükleniyor..."
+    },
+    "digital_goods": {
+        "download": "İndir"
     },
     "confirmation": {
         "thank_you_for_your_order": "Siparişiniz için teşekkürler",
@@ -203,5 +419,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Teslimat ve vergiler adresinizi girdikten sonra hesaplanacaktır."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Birleşik Arap Emirlikleri"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigua ve Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Arnavutluk"
+        },
+        "AM": {
+            "name": "Ermenistan"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktika"
+        },
+        "AR": {
+            "name": "Arjantin"
+        },
+        "AS": {
+            "name": "Amerikan Samoası"
+        },
+        "AT": {
+            "name": "Avusturya"
+        },
+        "AU": {
+            "name": "Avustralya"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Åland Adaları"
+        },
+        "AZ": {
+            "name": "Azerbaycan"
+        },
+        "BA": {
+            "name": "Bosna Hersek"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladeş"
+        },
+        "BE": {
+            "name": "Belçika"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaristan"
+        },
+        "BH": {
+            "name": "Bahreyn"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivya"
+        },
+        "BQ": {
+            "name": "Karayip Hollandası"
+        },
+        "BR": {
+            "name": "Brezilya"
+        },
+        "BS": {
+            "name": "Bahamalar"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Bouvet Adası"
+        },
+        "BW": {
+            "name": "Botsvana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Cocos Adaları"
+        },
+        "CD": {
+            "name": "Kongo Demokratik Cumhuriyeti"
+        },
+        "CF": {
+            "name": "Orta Afrika Cumhuriyeti"
+        },
+        "CG": {
+            "name": "Kongo Cumhuriyeti"
+        },
+        "CH": {
+            "name": "İsviçre"
+        },
+        "CI": {
+            "name": "Fildişi Sahili"
+        },
+        "CK": {
+            "name": "Cook Adaları"
+        },
+        "CL": {
+            "name": "Şili"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Çin"
+        },
+        "CO": {
+            "name": "Kolombiya"
+        },
+        "CR": {
+            "name": "Kosta Rika"
+        },
+        "CU": {
+            "name": "Küba"
+        },
+        "CV": {
+            "name": "Yeşil Burun Adaları"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Christmas Adası"
+        },
+        "CY": {
+            "name": "Kıbrıs"
+        },
+        "CZ": {
+            "name": "Çekya"
+        },
+        "DE": {
+            "name": "Almanya"
+        },
+        "DJ": {
+            "name": "Cibuti"
+        },
+        "DK": {
+            "name": "Danimarka"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominik Cumhuriyeti"
+        },
+        "DZ": {
+            "name": "Cezayir"
+        },
+        "EC": {
+            "name": "Ekvador"
+        },
+        "EE": {
+            "name": "Estonya"
+        },
+        "EG": {
+            "name": "Mısır"
+        },
+        "EH": {
+            "name": "Batı Sahra"
+        },
+        "ER": {
+            "name": "Eritre"
+        },
+        "ES": {
+            "name": "İspanya"
+        },
+        "ES-CN": {
+            "name": "Kanarya Adaları"
+        },
+        "ET": {
+            "name": "Etiyopya"
+        },
+        "FI": {
+            "name": "Finlandiya"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Falkland Adaları"
+        },
+        "FM": {
+            "name": "Mikronezya"
+        },
+        "FO": {
+            "name": "Faroe Adaları"
+        },
+        "FR": {
+            "name": "Fransa"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Birleşik Krallık"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gürcistan"
+        },
+        "GF": {
+            "name": "Fransız Guyanası"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Cebelitarık"
+        },
+        "GL": {
+            "name": "Grönland"
+        },
+        "GM": {
+            "name": "Gambiya"
+        },
+        "GN": {
+            "name": "Gine"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Ekvator Ginesi"
+        },
+        "GR": {
+            "name": "Yunanistan"
+        },
+        "GS": {
+            "name": "Güney Georgia ve Güney Sandwich Adaları"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Gine-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Heard Adası ve McDonald Adaları"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Hırvatistan"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Macaristan"
+        },
+        "ID": {
+            "name": "Endonezya"
+        },
+        "IE": {
+            "name": "İrlanda"
+        },
+        "IL": {
+            "name": "İsrail"
+        },
+        "IM": {
+            "name": "Man Adası"
+        },
+        "IN": {
+            "name": "Hindistan"
+        },
+        "IO": {
+            "name": "Britanya Hint Okyanusu Toprakları"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "İran"
+        },
+        "IS": {
+            "name": "İzlanda"
+        },
+        "IT": {
+            "name": "İtalya"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaika"
+        },
+        "JO": {
+            "name": "Ürdün"
+        },
+        "JP": {
+            "name": "Japonya"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kırgızistan"
+        },
+        "KH": {
+            "name": "Kamboçya"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komorlar"
+        },
+        "KN": {
+            "name": "Saint Kitts ve Nevis"
+        },
+        "KP": {
+            "name": "Kuzey Kore"
+        },
+        "KR": {
+            "name": "Güney Kore"
+        },
+        "KW": {
+            "name": "Kuveyt"
+        },
+        "KY": {
+            "name": "Cayman Adaları"
+        },
+        "KZ": {
+            "name": "Kazakistan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Lübnan"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Lihtenştayn"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberya"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Litvanya"
+        },
+        "LU": {
+            "name": "Lüksemburg"
+        },
+        "LV": {
+            "name": "Letonya"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Fas"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Karadağ"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshall Adaları"
+        },
+        "MK": {
+            "name": "Kuzey Makedonya"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Moğolistan"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Kuzey Mariana Adaları"
+        },
+        "MQ": {
+            "name": "Martinik"
+        },
+        "MR": {
+            "name": "Moritanya"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldivler"
+        },
+        "MW": {
+            "name": "Malavi"
+        },
+        "MX": {
+            "name": "Meksika"
+        },
+        "MY": {
+            "name": "Malezya"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namibya"
+        },
+        "NC": {
+            "name": "Yeni Kaledonya"
+        },
+        "NE": {
+            "name": "Nijer"
+        },
+        "NF": {
+            "name": "Norfolk Adası"
+        },
+        "NG": {
+            "name": "Nijerya"
+        },
+        "NI": {
+            "name": "Nikaragua"
+        },
+        "NL": {
+            "name": "Hollanda"
+        },
+        "NO": {
+            "name": "Norveç"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Yeni Zelanda"
+        },
+        "OM": {
+            "name": "Umman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Fransız Polinezyası"
+        },
+        "PG": {
+            "name": "Papua Yeni Gine"
+        },
+        "PH": {
+            "name": "Filipinler"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polonya"
+        },
+        "PM": {
+            "name": "Saint Pierre ve Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairn Adaları"
+        },
+        "PR": {
+            "name": "Porto Riko"
+        },
+        "PS": {
+            "name": "Filistin"
+        },
+        "PT": {
+            "name": "Portekiz"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Romanya"
+        },
+        "RS": {
+            "name": "Sırbistan"
+        },
+        "RU": {
+            "name": "Rusya"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Suudi Arabistan"
+        },
+        "SB": {
+            "name": "Solomon Adaları"
+        },
+        "SC": {
+            "name": "Seyşeller"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "İsveç"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slovenya"
+        },
+        "SJ": {
+            "name": "Svalbard ve Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakya"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somali"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Güney Sudan"
+        },
+        "ST": {
+            "name": "São Tomé ve Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Suriye"
+        },
+        "SZ": {
+            "name": "Esvatini"
+        },
+        "TC": {
+            "name": "Turks ve Caicos Adaları"
+        },
+        "TD": {
+            "name": "Çad"
+        },
+        "TF": {
+            "name": "Fransız Güney Toprakları"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tayland"
+        },
+        "TJ": {
+            "name": "Tacikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Doğu Timor"
+        },
+        "TM": {
+            "name": "Türkmenistan"
+        },
+        "TN": {
+            "name": "Tunus"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Türkiye"
+        },
+        "TT": {
+            "name": "Trinidad ve Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tayvan"
+        },
+        "TZ": {
+            "name": "Tanzanya"
+        },
+        "UA": {
+            "name": "Ukrayna"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "ABD Küçük Dış Adaları"
+        },
+        "US": {
+            "name": "Amerika Birleşik Devletleri"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Özbekistan"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Saint Vincent ve Grenadinler"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Britanya Virjin Adaları"
+        },
+        "VI": {
+            "name": "ABD Virjin Adaları"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis ve Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosova"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Güney Afrika"
+        },
+        "ZM": {
+            "name": "Zambiya"
+        },
+        "ZW": {
+            "name": "Zimbabve"
+        }
     }
 }
