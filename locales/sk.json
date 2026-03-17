@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Načítavanie...",
+        "error": "Vyskytla sa chyba.",
+        "success": "Úspech!"
+    },
     "actions": {
         "edit": "Upraviť",
         "cancel": "Zrušiť",
@@ -6,13 +11,20 @@
         "back_to_checkout": "Vrátiť sa do pokladne",
         "checkout": "Zaplatiť",
         "apply": "Použiť",
+        "dismiss": "Zamietnuť",
         "type_address": "Napíšte Vašu adresu",
         "use_this_address": "Použiť túto adresu",
         "back_to_store": "Späť na stránku",
         "close_cart": "Zatvoriť košík",
         "show": "Zobraziť",
         "hide": "Skryť",
-        "apply_changes": "Použiť zmeny"
+        "apply_changes": "Použiť zmeny",
+        "yes_use_it": "Áno, použiť",
+        "save_changes": "Uložiť zmeny",
+        "back_to_orders": "Späť na objednávky",
+        "change_password": "Zmeniť heslo",
+        "clear_cart": "Vyprázdniť košík",
+        "add": "Pridať"
     },
     "header": {
         "title_cart_summary": "Obsah košíka",
@@ -23,7 +35,41 @@
         "quantity_short": "Počet",
         "decrement_quantity": "Znížiť počet",
         "increment_quantity": "Zvýšiť počet",
-        "remove_item": "Odstrániť položku"
+        "remove_item": "Odstrániť položku",
+        "recurrence": {
+            "daily": "deň |||| %{smart_count} dní",
+            "weekly": "týždeň |||| %{smart_count} týždňov",
+            "monthly": "mesiac |||| %{smart_count} mesiacov",
+            "yearly": "rok |||| %{smart_count} rokov"
+        }
+    },
+    "subscription": {
+        "title": "Predplatné",
+        "state": {
+            "title": "Stav",
+            "active": "Aktívne",
+            "paused": "Pozastavené",
+            "finished": "Ukončené",
+            "stopped": "Zastavené",
+            "cancellationrequested": "Predplatné bude ukončené na konci fakturačného obdobia."
+        },
+        "placed_on": "Objednané",
+        "final_billing_date": "Posledný dátum fakturácie",
+        "items": "Položky",
+        "plan": "Plán",
+        "billed_on": "Fakturované",
+        "payment_amount": "Suma platby",
+        "processing": "Predplatné sa stále spracúva. Vráťte sa neskôr pre zobrazenie detailov.",
+        "loading": "Načítavanie predplatných",
+        "cancel": "Zrušiť",
+        "pause": "Pozastaviť",
+        "unpause": "Obnoviť",
+        "billing_recurrence": {
+            "daily": "Fakturované denne |||| Fakturované každých %{smart_count} dní",
+            "weekly": "Fakturované týždenne |||| Fakturované každých %{smart_count} týždňov",
+            "monthly": "Fakturované mesačne |||| Fakturované každých %{smart_count} mesiacov",
+            "yearly": "Fakturované ročne |||| Fakturované každých %{smart_count} rokov"
+        }
     },
     "cart": {
         "subtotal": "Medzisúčet",
@@ -32,10 +78,12 @@
         "secured_by": "Zabezpečuje Snipcart",
         "summary": "Prehľad objednávky",
         "empty": "Váš košík je prázdny.",
-        "invoice_number": "Číslo dokladu"
+        "invoice_number": "Číslo dokladu",
+        "view_detailed_cart": "Zobraziť detaily košíka"
     },
     "order": {
-        "loading": "Prebieha načítavanie detailov Vašej objednávky..."
+        "loading": "Prebieha načítavanie detailov Vašej objednávky...",
+        "title": "Objednávka"
     },
     "discount_box": {
         "promo_code": "Máte zľavový kód?",
@@ -45,10 +93,13 @@
     "address_form": {
         "name": "Meno a priezvisko",
         "email": "Email",
+        "firstName": "Meno",
+        "lastName": "Priezvisko",
         "address1": "Ulica",
         "address2": "Číslo",
         "city": "Mesto",
         "country": "Štát",
+        "phone": "Telefón",
         "postalCode": "PSČ",
         "province": "Okres",
         "dont_see_address": "Nevidím svoju adresu"
@@ -60,19 +111,46 @@
         "use_different_shipping_address": "Použiť inú adresu na dodanie"
     },
     "customer": {
-        "information": "Informácie o zákazníkovi"
+        "information": "Informácie o zákazníkovi",
+        "payment_info": "Platobné údaje",
+        "payment_method_update": {
+            "title": "Aktualizovať platobnú metódu",
+            "outstanding_payment_failed": {
+                "title": "Platba zlyhala",
+                "description": "Aktualizujte svoju platobnú metódu pre pokračovanie."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Údaje zákazníka"
     },
     "customer_dashboard": {
         "my_account": "Môj účet",
         "ordered_on": "Objednané dňa",
+        "next_billing_date": "Ďalší dátum fakturácie",
+        "price": "Cena",
         "total": "Spolu",
         "status": "Stav",
         "order": "Objednávka %{invoice_number}",
         "order_details": "Detaily objednávky",
         "loading": "Načítavanie...",
         "no_orders": "Nenašli sa žiadne objednávky.",
+        "no_subscriptions": "Nenašli sa žiadne predplatné.",
+        "view_invoice": "Zobraziť faktúru",
         "sign_out": "Odhlásiť",
-        "show_more_orders": "Zobraziť %{smart_count} ďalšiu objednávku |||| Zobraziť %{smart_count} ďalších objednávok"
+        "show_more_orders": "Zobraziť %{smart_count} ďalšiu objednávku |||| Zobraziť %{smart_count} ďalších objednávok",
+        "show_more_subscriptions": "Zobraziť %{smart_count} ďalšie predplatné |||| Zobraziť %{smart_count} ďalších predplatných",
+        "orders": "Objednávky",
+        "subscriptions": "Predplatné",
+        "subscription": "Predplatné"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Predplatné má neuhradenú platbu",
+                "description": "Máte predplatné s neuhradenú platbou. Prosíme aktualizujte svoju platobnú metódu."
+            }
+        }
     },
     "signin_form": {
         "signin": "Prihlásiť sa",
@@ -82,12 +160,36 @@
         "forgot_your_password": "Zabudli ste heslo?",
         "close_form": "Späť"
     },
+    "forgot_password_form": {
+        "title": "Obnoviť heslo",
+        "instructions": "Zadajte emailovú adresu svojho účtu a pošleme vám odkaz na obnovenie hesla.",
+        "email": "Email",
+        "email_instructions": "Bol vám odoslaný email s odkazom. Kliknite naň pre obnovenie hesla.",
+        "action": "Odoslať email na obnovenie hesla"
+    },
+    "reset_password_form": {
+        "title": "Obnoviť heslo",
+        "password": "Nové heslo",
+        "confirmation_password": "Potvrďte nové heslo",
+        "action": "Obnoviť heslo"
+    },
+    "change_password_form": {
+        "title": "Zmeniť heslo",
+        "current_password": "Aktuálne heslo",
+        "password": "Nové heslo",
+        "confirmation_password": "Potvrďte nové heslo",
+        "action": "Zmeniť heslo"
+    },
     "register_form": {
         "register": "Registrovať sa",
         "already_have_an_account": "Už máte vytvorený účet?",
         "email": "Email",
         "password": "Heslo",
-        "confirm_password": "Potvrdiť heslo"
+        "confirm_password": "Potvrdiť heslo",
+        "requires_action": {
+            "title": "Skontrolujte svoj email",
+            "description": "Poslali sme vám email. Postupujte podľa pokynov na dokončenie registrácie."
+        }
     },
     "guest_checkout": {
         "or": "Alebo",
@@ -97,17 +199,27 @@
         "title": "Dodanie",
         "shipping_to": "Adresa dodania:",
         "address": "Dodacia adresa",
-        "method": "Spôsob dopravy"
+        "method": "Spôsob dopravy",
+        "methods": {
+            "example_localization_id": "Príklad spôsobu dodania"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantované doručenie do %{smart_count} dňa |||| Garantované doručenie do %{smart_count} dní"
     },
     "payment": {
-        "form":{
+        "form": {
             "deferred_payment_title": "Platba na dobierku",
             "deferred_payment_instructions": "Zadaním tejto objednávky súhlasíte s platbou na dobierku, ďalej špecifikovanú predajcom.",
             "card_label": "Kreditná karta",
             "card_number": "Číslo karty",
             "card_expiration": "MM/RR",
             "card_cvv": "CVV",
-            "card_postal_code": "Poštovné číslo"
+            "card_postal_code": "Poštovné číslo",
+            "invalid_number": "Číslo karty je neplatné",
+            "invalid_expiration": "Dátum expirácie je neplatný",
+            "invalid_cvv": "CVV kód je neplatný",
+            "invalid_postal_code": "PSČ je neplatné"
         },
         "still_pending_notice": "Vaša objednávka je v procese spracovania.",
         "title": "Platba",
@@ -120,7 +232,7 @@
         "checkout_with_method": "Zaplatiť pomocou %{method}",
         "method_icon": "%{method} obrázok",
         "no_payment": "Nie je potrebná platba pre túto objednávku.",
-        "methods":{
+        "methods": {
             "card": "Kreditná karta",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -144,6 +256,8 @@
         "title": "Zľavy"
     },
     "cart_summary": {
+        "taxes": "Dane",
+        "taxes_included_in_price": "Niektoré položky obsahujú daň v cene.",
         "total": "Spolu",
         "subtotal": "Medzisúčet",
         "shipping": "Poštovné",
@@ -158,30 +272,99 @@
         "promocode_isnt_applicable": "Tento zľavový kupón nie je platný",
         "promo_code_is_expired": "Vypršala platnosť tohto zľavového kupónu",
         "stringEmpty": "Toto pole je povinné",
+        "emailEmpty": "Email je povinný",
         "required": "Toto pole je povinné",
         "invalid_expiry_year_past": "Vypršala platnosť karty",
         "email": "Vyplnte platnú emailovú adresu",
         "quantity_revised": "Počet bol pozmenený kvôli aktuálnemu skladu zásob.",
         "quantity_out_of_stock": "Ospravedlňujeme sa ale tento produkt je momentálne vyprvypočítavanídaný, odstránte ho z košíka pre pokračovanie v nákupe.",
+        "disabled_country": "Doručenie do tejto krajiny nie je dostupné.",
         "error_payment_items_are_invalid": {
             "title": "Niektoré položky v Košíku su neplatné",
             "description": "Prosíme skontrolujte Vašu objednávku alebo to skúste opäť neskôr."
         },
-        "order_validation":{
-        "domain_crawling":{
-            "title":"Objednávka nemohla byť spracovaná.",
-            "description":"Ešte neprebehla platba. Kontaktujte prevádzkovateľa pre ďalšie detaily."
+        "card": {
+            "invalid_number": "Číslo karty je neplatné.",
+            "invalid_date": "Dátum expirácie karty je neplatný.",
+            "invalid_year": "Rok expirácie karty je neplatný.",
+            "invalid_month": "Mesiac expirácie karty je neplatný.",
+            "invalid_cvv": "CVV kód karty je neplatný.",
+            "invalid_expiration": "Dátum expirácie karty je neplatný.",
+            "expired": "Platnosť karty vypršala.",
+            "declined": "Karta bola zamietnutá. Kontaktujte vydavateľa karty pre viac informácií.",
+            "invalid_address": "Adresa karty je neplatná.",
+            "insufficient_funds": "Na účte nie sú dostatočné prostriedky na pokrytie transakcie.",
+            "card_not_supported": "Karta nie je podporovaná v tomto regióne.",
+            "currency_not_supported": "Mena momentálne nie je podporovaná."
         },
-        "product_crawling":{
-            "title":"Cena produktu mohla byť modifikovaná.",
-            "description": "Skúste odstrániť a znova pridať produkt do košíka. Prosíme kontaktujte prevádkovateľa pre ďalšie informácie."
+        "transaction": {
+            "declined": "Pri spracovaní karty nastala chyba. Skúste to neskôr alebo použite inú platobnú metódu."
         },
-        "stock_validation":{
-            "title":"Produkt nie je na sklade.",
-            "description": "Skladové zásoby môžu byť nedostatočné pre zvolené množstvo. Skontrolujte množstvo alebo kontaktujte prevádkovateľa pre ďalšie informácie."
-        }
+        "discounts": {
+            "conflict": "Niektoré zľavy nie je možné kombinovať. Použiť túto zľavu namiesto toho?"
         },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Objednávka nemohla byť spracovaná.",
+                "description": "Ešte neprebehla platba. Kontaktujte prevádzkovateľa pre ďalšie detaily."
+            },
+            "product_crawling": {
+                "title": "Cena produktu mohla byť modifikovaná.",
+                "description": "Skúste odstrániť a znova pridať produkt do košíka. Prosíme kontaktujte prevádkovateľa pre ďalšie informácie."
+            },
+            "stock_validation": {
+                "title": "Produkt nie je na sklade.",
+                "description": "Skladové zásoby môžu byť nedostatočné pre zvolené množstvo. Skontrolujte množstvo alebo kontaktujte prevádkovateľa pre ďalšie informácie."
+            },
+            "custom_fields_validation": {
+                "title": "Chýbajú povinné informácie.",
+                "description": "Niektoré produkty v košíku nemajú vyplnené povinné údaje. Upravte košík pre pokračovanie."
+            },
+            "shipping_validation": {
+                "title": "Nepodarilo sa overiť spôsob dodania.",
+                "description": "Cena zvoleného dodania sa mohla zmeniť alebo už nie je dostupná. Kontaktujte prevádzkovateľa pre viac informácií."
+            }
+        },
+        "invalid_address": "Adresa je neplatná.",
         "shipping": {
+            "account_configuration": {
+                "title": "Momentálne nie je dostupný žiadny spôsob dodania",
+                "description": "Skúste to neskôr alebo nás kontaktujte."
+            },
+            "rates_calculation": {
+                "title": "Nepodarilo sa vypočítať cenu dodania pre vašu objednávku",
+                "description": "Skúste to neskôr alebo nás kontaktujte."
+            },
+            "no_rates_found": {
+                "title": "Pre vašu objednávku nie je dostupný žiadny spôsob dodania",
+                "description": "Skontrolujte svoju dodaciu adresu alebo nás kontaktujte."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Doručenie do tejto krajiny nie je podporované.",
+            "E.ENGINE.UNAVAILABLE": "Služba doručenia nie je dostupná. Skúste to neskôr.",
+            "E.QUERY.UNANSWERABLE": "Adresu sa nepodarilo overiť. Skontrolujte svoje údaje.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nebola nájdená.",
+            "E.SECONDARY_INFORMATION.INVALID": "Doplňujúce informácie o adrese sú neplatné.",
+            "E.SECONDARY_INFORMATION.MISSING": "Chýbajú doplňujúce informácie o adrese.",
+            "E.HOUSE_NUMBER.MISSING": "Chýba číslo domu.",
+            "E.HOUSE_NUMBER.INVALID": "Číslo domu je neplatné.",
+            "E.STREET.MISSING": "Chýba názov ulice.",
+            "E.STREET.INVALID": "Názov ulice je neplatný.",
+            "E.BOX_NUMBER.MISSING": "Chýba číslo poštovej schránky.",
+            "E.BOX_NUMBER.INVALID": "Číslo poštovej schránky je neplatné.",
+            "E.ADDRESS.INVALID": "Adresa je neplatná.",
+            "E.ZIP.NOT_FOUND": "PSČ nebolo nájdené.",
+            "E.ZIP.INVALID": "PSČ je neplatné.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Rozšírenie PSČ nebolo nájdené.",
+            "E.ADDRESS.MULTIPLE": "Nájdených bolo viacero adries. Zadajte presnejšiu adresu.",
+            "E.ADDRESS.INSUFFICIENT": "Informácie o adrese sú neúplné.",
+            "E.ADDRESS.DUAL": "Adresa obsahuje rozporuplné údaje.",
+            "E.STREET.MAGNET": "Názov ulice sa nepodarilo overiť.",
+            "E.CITY_STATE.INVALID": "Mesto alebo kraj je neplatný.",
+            "E.STATE.INVALID": "Kraj je neplatný.",
+            "E.ADDRESS.DELIVERY.INVALID": "Dodacia adresa je neplatná.",
+            "E.TIMED_OUT": "Vypršal čas overenia adresy. Skúste to znova.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informácie o časovom pásme nie sú dostupné.",
+            "E.PO_BOX.INTERNATIONAL": "Medzinárodné doručenie na adresu poštovej schránky nie je možné.",
             "title": "Vyskytol sa problém pri vypočítaní výšky poštovného",
             "description": "Skúste to opäť neskôr alebo nás kontaktujte."
         },
@@ -194,21 +377,41 @@
             "default": "Prosíme skontrolujte fakturačné a platobné údaje."
         },
         "authentication_challenge": {
-        "failed": {
-            "title": "Vyskytol sa problém pri spracovaní platby",
-            "description": "Neboli sme schopný overiť Vaše platobné údaje. Prosíme skúste to opäť neskôr"
-        }
+            "failed": {
+                "title": "Vyskytol sa problém pri spracovaní platby",
+                "description": "Neboli sme schopný overiť Vaše platobné údaje. Prosíme skúste to opäť neskôr"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Košík môže obsahovať iba jedno predplatné.",
+                "description": "Odstráňte existujúce predplatné pred pridaním nového."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Košík môže obsahovať buď produkty alebo predplatné.",
+                "description": "Odstráňte existujúce produkty pred pridaním predplatného, alebo naopak."
+            }
         },
         "customer_exists": "Tento email už je registrovaný.",
         "customer_password_missmatch": "Heslá sa musia zhodovať.",
+        "customer_password_token_expired": "Odkaz na obnovenie hesla vypršal. Vyžiadajte si nový.",
+        "customer_password_token_invalid": "Odkaz na obnovenie hesla je neplatný.",
+        "customer_not_found": "Emailová adresa nie je prepojená so žiadnym účtom.",
         "invalid_credentials": "Nesprávny email alebo heslo.",
+        "customer_current_password_invalid": "Nesprávne heslo.",
         "no_shipping_rates_found": {
             "title": "Nie je dostupný spôsob dodania pre Vašu objednávku",
             "description": "Prosíme skontrolujte Vašu dodaciu adresu alebo nás kontaktujte."
         }
     },
+    "shippingRates": {
+        "loading": "Načítavanie..."
+    },
     "customer_orders": {
         "loading": "Načítavanie..."
+    },
+    "digital_goods": {
+        "download": "Stiahnuť"
     },
     "confirmation": {
         "thank_you_for_your_order": "Ďakujeme za Vašu objednávku",
