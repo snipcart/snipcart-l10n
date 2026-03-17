@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "載入中...",
+        "error": "發生錯誤。",
+        "success": "成功！"
+    },
     "actions": {
         "edit": "編輯",
         "cancel": "取消",
@@ -6,6 +11,7 @@
         "back_to_checkout": "結帳去",
         "checkout": "結帳",
         "apply": "確認",
+        "dismiss": "關閉",
         "type_address": "輸入地址",
         "use_this_address": "使用此地址",
         "back_to_store": "返回商店",
@@ -13,10 +19,11 @@
         "show": "顯示",
         "hide": "隱藏",
         "apply_changes": "更新",
-        "yes_use_it":  "確定使用",
+        "yes_use_it": "確定使用",
         "save_changes": "儲存變更",
         "back_to_orders": "返回訂單",
         "change_password": "修改密碼",
+        "clear_cart": "清空購物車",
         "add": "加入"
     },
     "header": {
@@ -41,6 +48,34 @@
             "payment_amount": "帳單金額"
         }
     },
+    "subscription": {
+        "title": "訂閱",
+        "state": {
+            "title": "狀態",
+            "active": "啟用中",
+            "paused": "已暫停",
+            "finished": "已結束",
+            "stopped": "已停止",
+            "cancellationrequested": "訂閱將在帳單週期結束時終止。"
+        },
+        "placed_on": "訂閱日期",
+        "final_billing_date": "最後帳單日期",
+        "items": "項目",
+        "plan": "方案",
+        "billed_on": "帳單日期",
+        "payment_amount": "付款金額",
+        "processing": "訂閱正在處理中，請稍後再回來查看詳情。",
+        "loading": "載入訂閱中",
+        "cancel": "取消",
+        "pause": "暫停",
+        "unpause": "恢復",
+        "billing_recurrence": {
+            "daily": "每日計費 |||| 每 %{smart_count} 日計費",
+            "weekly": "每週計費 |||| 每 %{smart_count} 週計費",
+            "monthly": "每月計費 |||| 每 %{smart_count} 月計費",
+            "yearly": "每年計費 |||| 每 %{smart_count} 年計費"
+        }
+    },
     "cart": {
         "subtotal": "小計",
         "shipping_taxes_calculated_at_checkout": "運費、稅金將於結帳時計算",
@@ -52,7 +87,8 @@
         "view_detailed_cart": "購物車詳細內容"
     },
     "order": {
-        "loading": "我們正在取得您的訂單內容..."
+        "loading": "我們正在取得您的訂單內容...",
+        "title": "訂單"
     },
     "discount_box": {
         "promo_code": "使用優惠代碼?",
@@ -62,10 +98,13 @@
     "address_form": {
         "name": "姓名",
         "email": "Email",
+        "firstName": "名",
+        "lastName": "姓",
         "address1": "地址",
         "address2": "地址(選填)",
         "city": "縣市",
         "country": "國家",
+        "phone": "電話",
         "postalCode": "郵遞區號",
         "province": "鄉鎮市區",
         "dont_see_address": "沒有看到我的地址"
@@ -77,7 +116,15 @@
         "use_different_shipping_address": "如果帳單地址與收件地址不同﹐請勾選此項"
     },
     "customer": {
-        "information": "客戶資訊"
+        "information": "客戶資訊",
+        "payment_info": "付款資訊",
+        "payment_method_update": {
+            "title": "更新付款方式",
+            "outstanding_payment_failed": {
+                "title": "付款失敗",
+                "description": "請更新您的付款方式以繼續。"
+            }
+        }
     },
     "customer_details": {
         "title": "客戶資訊"
@@ -97,7 +144,18 @@
         "view_invoice": "查看訂單",
         "sign_out": "登出",
         "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單",
-        "orders": "訂單"
+        "show_more_subscriptions": "顯示更多 %{smart_count} 個訂閱 |||| 顯示更多 %{smart_count} 個訂閱",
+        "orders": "訂單",
+        "subscriptions": "訂閱",
+        "subscription": "訂閱"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "訂閱有逾期付款",
+                "description": "您有一筆訂閱的付款已逾期，請更新您的付款方式。"
+            }
+        }
     },
     "signin_form": {
         "signin": "登入",
@@ -132,7 +190,11 @@
         "already_have_an_account": "已經是會員?",
         "email": "Email",
         "password": "密碼",
-        "confirm_password": "確認密碼"
+        "confirm_password": "確認密碼",
+        "requires_action": {
+            "title": "請查看您的電子郵件",
+            "description": "我們已發送電子郵件給您，請按照說明完成註冊。"
+        }
     },
     "guest_checkout": {
         "or": "或",
@@ -142,7 +204,13 @@
         "title": "寄送方式",
         "shipping_to": "寄送至:",
         "address": "收件地址",
-        "method": "寄送方法"
+        "method": "寄送方法",
+        "methods": {
+            "example_localization_id": "配送方式範例"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
     },
     "payment": {
         "form": {
@@ -152,7 +220,11 @@
             "card_number": "信用卡卡號",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "郵遞區號"
+            "card_postal_code": "郵遞區號",
+            "invalid_number": "卡號無效",
+            "invalid_expiration": "到期日無效",
+            "invalid_cvv": "CVV 無效",
+            "invalid_postal_code": "郵遞區號無效"
         },
         "still_pending_notice": "您的付款正在處理中",
         "title": "付款方式",
@@ -205,11 +277,13 @@
         "promocode_isnt_applicable": "此優惠代碼已經加入、或是已經無法使用了",
         "promo_code_is_expired": "此優惠代碼過期了",
         "stringEmpty": "此項不得為空白",
+        "emailEmpty": "電子郵件為必填欄位",
         "required": "此項為必填",
         "invalid_expiry_year_past": "信用卡已過期",
         "email": "請使用正確的 Email",
         "quantity_revised": "由於庫存數目的關係，此筆訂單已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已無庫存，請從購物車移除後再繼續購物",
+        "disabled_country": "不支援配送至此國家。",
         "error_payment_items_are_invalid": {
             "title": "您購物車中的部分商品已無販售",
             "description": "請查看您的訂單後再嘗試一次"
@@ -256,6 +330,7 @@
                 "description": "你選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
             }
         },
+        "invalid_address": "地址無效。",
         "shipping": {
             "account_configuration": {
                 "title": "目前沒有可用的運送方式",
@@ -268,7 +343,33 @@
             "no_rates_found": {
                 "title": "目前沒有可用的運送方式適合您的訂單",
                 "description": "請確認您的收件地址，如有問題麻煩請聯絡客服人員"
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "不支援配送至此國家。",
+            "E.ENGINE.UNAVAILABLE": "配送服務暫時無法使用，請稍後再試。",
+            "E.QUERY.UNANSWERABLE": "無法驗證地址，請檢查您的資料。",
+            "E.ADDRESS.NOT_FOUND": "找不到此地址。",
+            "E.SECONDARY_INFORMATION.INVALID": "附加地址資訊無效。",
+            "E.SECONDARY_INFORMATION.MISSING": "缺少附加地址資訊。",
+            "E.HOUSE_NUMBER.MISSING": "缺少門牌號碼。",
+            "E.HOUSE_NUMBER.INVALID": "門牌號碼無效。",
+            "E.STREET.MISSING": "缺少街道名稱。",
+            "E.STREET.INVALID": "街道名稱無效。",
+            "E.BOX_NUMBER.MISSING": "缺少郵箱號碼。",
+            "E.BOX_NUMBER.INVALID": "郵箱號碼無效。",
+            "E.ADDRESS.INVALID": "地址無效。",
+            "E.ZIP.NOT_FOUND": "找不到郵遞區號。",
+            "E.ZIP.INVALID": "郵遞區號無效。",
+            "E.ZIP.PLUS4.NOT_FOUND": "找不到郵遞區號延伸碼。",
+            "E.ADDRESS.MULTIPLE": "找到多個地址，請提供更精確的地址。",
+            "E.ADDRESS.INSUFFICIENT": "地址資訊不完整。",
+            "E.ADDRESS.DUAL": "地址包含矛盾的資訊。",
+            "E.STREET.MAGNET": "無法驗證街道名稱。",
+            "E.CITY_STATE.INVALID": "城市或地區無效。",
+            "E.STATE.INVALID": "地區無效。",
+            "E.ADDRESS.DELIVERY.INVALID": "配送地址無效。",
+            "E.TIMED_OUT": "地址驗證逾時，請重試。",
+            "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。",
+            "E.PO_BOX.INTERNATIONAL": "無法進行國際配送至郵箱地址。"
         },
         "payment_failed": {
             "title": "信用卡交易失敗",
@@ -284,6 +385,16 @@
                 "description": "刷卡授權失敗，請再試一次，如仍失敗請先聯絡發卡銀行幫您解鎖。"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "購物車只能包含一個訂閱。",
+                "description": "請先移除現有訂閱再新增。"
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "購物車只能包含商品或訂閱。",
+                "description": "請先移除現有商品再新增訂閱，或反之。"
+            }
+        },
         "customer_exists": "此 Email 已經被使用過了",
         "customer_password_missmatch": "密碼不相符",
         "customer_password_token_expired": "您的重設密碼連結已失效",
@@ -292,8 +403,14 @@
         "invalid_credentials": "Email 或是密碼有誤",
         "customer_current_password_invalid": "密碼錯誤"
     },
+    "shippingRates": {
+        "loading": "載入中..."
+    },
     "customer_orders": {
         "loading": "載入中，請稍候..."
+    },
+    "digital_goods": {
+        "download": "下載"
     },
     "confirmation": {
         "thank_you_for_your_order": "感謝您的訂購",
@@ -301,5 +418,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
+    },
+    "countries": {
+        "AD": {
+            "name": "安道爾"
+        },
+        "AE": {
+            "name": "阿拉伯聯合大公國"
+        },
+        "AF": {
+            "name": "阿富汗"
+        },
+        "AG": {
+            "name": "安地卡及巴布達"
+        },
+        "AI": {
+            "name": "安圭拉"
+        },
+        "AL": {
+            "name": "阿爾巴尼亞"
+        },
+        "AM": {
+            "name": "亞美尼亞"
+        },
+        "AO": {
+            "name": "安哥拉"
+        },
+        "AQ": {
+            "name": "南極洲"
+        },
+        "AR": {
+            "name": "阿根廷"
+        },
+        "AS": {
+            "name": "美屬薩摩亞"
+        },
+        "AT": {
+            "name": "奧地利"
+        },
+        "AU": {
+            "name": "澳洲"
+        },
+        "AW": {
+            "name": "阿魯巴"
+        },
+        "AX": {
+            "name": "奧蘭群島"
+        },
+        "AZ": {
+            "name": "亞塞拜然"
+        },
+        "BA": {
+            "name": "波士尼亞與赫塞哥維納"
+        },
+        "BB": {
+            "name": "巴貝多"
+        },
+        "BD": {
+            "name": "孟加拉"
+        },
+        "BE": {
+            "name": "比利時"
+        },
+        "BF": {
+            "name": "布吉納法索"
+        },
+        "BG": {
+            "name": "保加利亞"
+        },
+        "BH": {
+            "name": "巴林"
+        },
+        "BI": {
+            "name": "蒲隆地"
+        },
+        "BJ": {
+            "name": "貝南"
+        },
+        "BL": {
+            "name": "聖巴瑟米"
+        },
+        "BM": {
+            "name": "百慕達"
+        },
+        "BN": {
+            "name": "汶萊"
+        },
+        "BO": {
+            "name": "玻利維亞"
+        },
+        "BQ": {
+            "name": "荷蘭加勒比區"
+        },
+        "BR": {
+            "name": "巴西"
+        },
+        "BS": {
+            "name": "巴哈馬"
+        },
+        "BT": {
+            "name": "不丹"
+        },
+        "BV": {
+            "name": "布威島"
+        },
+        "BW": {
+            "name": "波札那"
+        },
+        "BY": {
+            "name": "白俄羅斯"
+        },
+        "BZ": {
+            "name": "貝里斯"
+        },
+        "CA": {
+            "name": "加拿大"
+        },
+        "CC": {
+            "name": "科科斯群島"
+        },
+        "CD": {
+            "name": "剛果民主共和國"
+        },
+        "CF": {
+            "name": "中非共和國"
+        },
+        "CG": {
+            "name": "剛果共和國"
+        },
+        "CH": {
+            "name": "瑞士"
+        },
+        "CI": {
+            "name": "象牙海岸"
+        },
+        "CK": {
+            "name": "庫克群島"
+        },
+        "CL": {
+            "name": "智利"
+        },
+        "CM": {
+            "name": "喀麥隆"
+        },
+        "CN": {
+            "name": "中國"
+        },
+        "CO": {
+            "name": "哥倫比亞"
+        },
+        "CR": {
+            "name": "哥斯大黎加"
+        },
+        "CU": {
+            "name": "古巴"
+        },
+        "CV": {
+            "name": "維德角"
+        },
+        "CW": {
+            "name": "乔吕拉索"
+        },
+        "CX": {
+            "name": "聖誕島"
+        },
+        "CY": {
+            "name": "賽普勒斯"
+        },
+        "CZ": {
+            "name": "捷克"
+        },
+        "DE": {
+            "name": "德國"
+        },
+        "DJ": {
+            "name": "吉布提"
+        },
+        "DK": {
+            "name": "丹麥"
+        },
+        "DM": {
+            "name": "多米尼克"
+        },
+        "DO": {
+            "name": "多明尼加共和國"
+        },
+        "DZ": {
+            "name": "阿爾及利亞"
+        },
+        "EC": {
+            "name": "厄瓜多"
+        },
+        "EE": {
+            "name": "愛沙尼亞"
+        },
+        "EG": {
+            "name": "埃及"
+        },
+        "EH": {
+            "name": "西撒哈拉"
+        },
+        "ER": {
+            "name": "厄立特里亞"
+        },
+        "ES": {
+            "name": "西班牙"
+        },
+        "ES-CN": {
+            "name": "加那利群島"
+        },
+        "ET": {
+            "name": "衣索比亞"
+        },
+        "FI": {
+            "name": "芬蘭"
+        },
+        "FJ": {
+            "name": "斐濟"
+        },
+        "FK": {
+            "name": "福克蘭群島"
+        },
+        "FM": {
+            "name": "密克羅尼西亞"
+        },
+        "FO": {
+            "name": "法羅群島"
+        },
+        "FR": {
+            "name": "法國"
+        },
+        "GA": {
+            "name": "加彭"
+        },
+        "GB": {
+            "name": "英國"
+        },
+        "GD": {
+            "name": "格瑞那達"
+        },
+        "GE": {
+            "name": "喬治亞"
+        },
+        "GF": {
+            "name": "法屬圭亞那"
+        },
+        "GG": {
+            "name": "根西島"
+        },
+        "GH": {
+            "name": "迦納"
+        },
+        "GI": {
+            "name": "直布羅陀"
+        },
+        "GL": {
+            "name": "格陵蘭"
+        },
+        "GM": {
+            "name": "甘比亞"
+        },
+        "GN": {
+            "name": "幾內亞"
+        },
+        "GP": {
+            "name": "瓜德羅普"
+        },
+        "GQ": {
+            "name": "赤道幾內亞"
+        },
+        "GR": {
+            "name": "希臘"
+        },
+        "GS": {
+            "name": "南喬治亞與南桑威奇群島"
+        },
+        "GT": {
+            "name": "瓜地馬拉"
+        },
+        "GU": {
+            "name": "關島"
+        },
+        "GW": {
+            "name": "幾內亞比索"
+        },
+        "GY": {
+            "name": "蓋亞那"
+        },
+        "HK": {
+            "name": "香港"
+        },
+        "HM": {
+            "name": "赫德島與麥克唐納群島"
+        },
+        "HN": {
+            "name": "宏都拉斯"
+        },
+        "HR": {
+            "name": "克羅埃西亞"
+        },
+        "HT": {
+            "name": "海地"
+        },
+        "HU": {
+            "name": "匈牙利"
+        },
+        "ID": {
+            "name": "印尼"
+        },
+        "IE": {
+            "name": "愛爾蘭"
+        },
+        "IL": {
+            "name": "以色列"
+        },
+        "IM": {
+            "name": "曼島"
+        },
+        "IN": {
+            "name": "印度"
+        },
+        "IO": {
+            "name": "英屬印度洋領地"
+        },
+        "IQ": {
+            "name": "伊拉克"
+        },
+        "IR": {
+            "name": "伊朗"
+        },
+        "IS": {
+            "name": "冰島"
+        },
+        "IT": {
+            "name": "義大利"
+        },
+        "JE": {
+            "name": "澤西島"
+        },
+        "JM": {
+            "name": "牙買加"
+        },
+        "JO": {
+            "name": "約旦"
+        },
+        "JP": {
+            "name": "日本"
+        },
+        "KE": {
+            "name": "肯亞"
+        },
+        "KG": {
+            "name": "吉爾吉斯"
+        },
+        "KH": {
+            "name": "柬埔寨"
+        },
+        "KI": {
+            "name": "吉里巴斯"
+        },
+        "KM": {
+            "name": "科摩羅"
+        },
+        "KN": {
+            "name": "聖基茨和尼維斯"
+        },
+        "KP": {
+            "name": "北韓"
+        },
+        "KR": {
+            "name": "南韓"
+        },
+        "KW": {
+            "name": "科威特"
+        },
+        "KY": {
+            "name": "開曼群島"
+        },
+        "KZ": {
+            "name": "哈薩克"
+        },
+        "LA": {
+            "name": "寮國"
+        },
+        "LB": {
+            "name": "黎巴嫩"
+        },
+        "LC": {
+            "name": "聖露西亞"
+        },
+        "LI": {
+            "name": "列支敦士登"
+        },
+        "LK": {
+            "name": "斯里蘭卡"
+        },
+        "LR": {
+            "name": "賴比瑞亞"
+        },
+        "LS": {
+            "name": "賴索托"
+        },
+        "LT": {
+            "name": "立陶宛"
+        },
+        "LU": {
+            "name": "盧森堡"
+        },
+        "LV": {
+            "name": "拉脫維亞"
+        },
+        "LY": {
+            "name": "利比亞"
+        },
+        "MA": {
+            "name": "摩洛哥"
+        },
+        "MC": {
+            "name": "摩納哥"
+        },
+        "MD": {
+            "name": "摩爾多瓦"
+        },
+        "ME": {
+            "name": "蒙特內哥羅"
+        },
+        "MF": {
+            "name": "聖馬丁"
+        },
+        "MG": {
+            "name": "馬達加斯加"
+        },
+        "MH": {
+            "name": "馬紹爾群島"
+        },
+        "MK": {
+            "name": "北馬其頓"
+        },
+        "ML": {
+            "name": "馬利"
+        },
+        "MM": {
+            "name": "緬甸"
+        },
+        "MN": {
+            "name": "蒙古"
+        },
+        "MO": {
+            "name": "澳門"
+        },
+        "MP": {
+            "name": "北馬里亞納群島"
+        },
+        "MQ": {
+            "name": "馬丁尼克"
+        },
+        "MR": {
+            "name": "茅利塔尼亞"
+        },
+        "MS": {
+            "name": "蒙特塞拉特"
+        },
+        "MT": {
+            "name": "馬爾他"
+        },
+        "MU": {
+            "name": "模里西斯"
+        },
+        "MV": {
+            "name": "馬爾地夫"
+        },
+        "MW": {
+            "name": "馬拉威"
+        },
+        "MX": {
+            "name": "墨西哥"
+        },
+        "MY": {
+            "name": "馬來西亞"
+        },
+        "MZ": {
+            "name": "莫三比克"
+        },
+        "NA": {
+            "name": "納米比亞"
+        },
+        "NC": {
+            "name": "新喀里多尼亞"
+        },
+        "NE": {
+            "name": "尼日"
+        },
+        "NF": {
+            "name": "諾福克島"
+        },
+        "NG": {
+            "name": "奈及利亞"
+        },
+        "NI": {
+            "name": "尼加拉瓜"
+        },
+        "NL": {
+            "name": "荷蘭"
+        },
+        "NO": {
+            "name": "挪威"
+        },
+        "NP": {
+            "name": "尼泊爾"
+        },
+        "NR": {
+            "name": "諾魯"
+        },
+        "NU": {
+            "name": "紐埃"
+        },
+        "NZ": {
+            "name": "紐西蘭"
+        },
+        "OM": {
+            "name": "阿曼"
+        },
+        "PA": {
+            "name": "巴拿馬"
+        },
+        "PE": {
+            "name": "秘魯"
+        },
+        "PF": {
+            "name": "法屬波利尼西亞"
+        },
+        "PG": {
+            "name": "巴布亞紐幾內亞"
+        },
+        "PH": {
+            "name": "菲律賓"
+        },
+        "PK": {
+            "name": "巴基斯坦"
+        },
+        "PL": {
+            "name": "波蘭"
+        },
+        "PM": {
+            "name": "聖皮耶與密克隆"
+        },
+        "PN": {
+            "name": "皮特凱恩群島"
+        },
+        "PR": {
+            "name": "波多黎各"
+        },
+        "PS": {
+            "name": "巴勒斯坦"
+        },
+        "PT": {
+            "name": "葡萄牙"
+        },
+        "PW": {
+            "name": "帛琉"
+        },
+        "PY": {
+            "name": "巴拉圭"
+        },
+        "QA": {
+            "name": "卡達"
+        },
+        "RE": {
+            "name": "留尼旺"
+        },
+        "RO": {
+            "name": "羅馬尼亞"
+        },
+        "RS": {
+            "name": "塞爾維亞"
+        },
+        "RU": {
+            "name": "俄羅斯"
+        },
+        "RW": {
+            "name": "盧安達"
+        },
+        "SA": {
+            "name": "沙烏地阿拉伯"
+        },
+        "SB": {
+            "name": "索羅門群島"
+        },
+        "SC": {
+            "name": "塞席爾"
+        },
+        "SD": {
+            "name": "蘇丹"
+        },
+        "SE": {
+            "name": "瑞典"
+        },
+        "SG": {
+            "name": "新加坡"
+        },
+        "SH": {
+            "name": "聖赫勒拿"
+        },
+        "SI": {
+            "name": "斯洛維尼亞"
+        },
+        "SJ": {
+            "name": "斯瓦爾巴群島和揚馬延島"
+        },
+        "SK": {
+            "name": "斯洛伐克"
+        },
+        "SL": {
+            "name": "獅子山"
+        },
+        "SM": {
+            "name": "聖馬利諾"
+        },
+        "SN": {
+            "name": "塞內加爾"
+        },
+        "SO": {
+            "name": "索馬利亞"
+        },
+        "SR": {
+            "name": "蘇利南"
+        },
+        "SS": {
+            "name": "南蘇丹"
+        },
+        "ST": {
+            "name": "聖多美與普林西比"
+        },
+        "SV": {
+            "name": "薩爾瓦多"
+        },
+        "SX": {
+            "name": "荷屬聖馬丁"
+        },
+        "SY": {
+            "name": "敘利亞"
+        },
+        "SZ": {
+            "name": "史瓦帝尼"
+        },
+        "TC": {
+            "name": "特克斯和凱科斯群島"
+        },
+        "TD": {
+            "name": "查德"
+        },
+        "TF": {
+            "name": "法屬南部領地"
+        },
+        "TG": {
+            "name": "多哥"
+        },
+        "TH": {
+            "name": "泰國"
+        },
+        "TJ": {
+            "name": "塔吉克"
+        },
+        "TK": {
+            "name": "托克勞"
+        },
+        "TL": {
+            "name": "東帝汶"
+        },
+        "TM": {
+            "name": "土庫曼"
+        },
+        "TN": {
+            "name": "突尼西亞"
+        },
+        "TO": {
+            "name": "東加"
+        },
+        "TR": {
+            "name": "土耳其"
+        },
+        "TT": {
+            "name": "千里達及托巴哥"
+        },
+        "TV": {
+            "name": "吐瓦魯"
+        },
+        "TW": {
+            "name": "台灣"
+        },
+        "TZ": {
+            "name": "坦尚尼亞"
+        },
+        "UA": {
+            "name": "烏克蘭"
+        },
+        "UG": {
+            "name": "烏干達"
+        },
+        "UM": {
+            "name": "美國本土外小島嶼"
+        },
+        "US": {
+            "name": "美國"
+        },
+        "UY": {
+            "name": "烏拉圭"
+        },
+        "UZ": {
+            "name": "烏茲別克"
+        },
+        "VA": {
+            "name": "梵蒂岡"
+        },
+        "VC": {
+            "name": "聖文森及乔纳丁斯"
+        },
+        "VE": {
+            "name": "委內瑞拉"
+        },
+        "VG": {
+            "name": "英屬維京群島"
+        },
+        "VI": {
+            "name": "美屬維京群島"
+        },
+        "VN": {
+            "name": "越南"
+        },
+        "VU": {
+            "name": "萬那杜"
+        },
+        "WF": {
+            "name": "瓦利斯和富圖納"
+        },
+        "WS": {
+            "name": "薩摩亞"
+        },
+        "XK": {
+            "name": "科索沃"
+        },
+        "YE": {
+            "name": "葉門"
+        },
+        "YT": {
+            "name": "馬約特"
+        },
+        "ZA": {
+            "name": "南非"
+        },
+        "ZM": {
+            "name": "尚比亞"
+        },
+        "ZW": {
+            "name": "辛巴威"
+        }
     }
 }

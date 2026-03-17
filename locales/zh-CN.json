@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "加载中...",
+        "error": "发生错误。",
+        "success": "成功！"
+    },
     "actions": {
         "edit": "编辑",
         "cancel": "取消",
@@ -6,6 +11,7 @@
         "back_to_checkout": "返回结帐",
         "checkout": "结帐",
         "apply": "确认",
+        "dismiss": "关闭",
         "type_address": "输入地址",
         "use_this_address": "使用此地址",
         "back_to_store": "返回继续浏览",
@@ -17,6 +23,7 @@
         "save_changes": "储存变更",
         "back_to_orders": "返回订单",
         "change_password": "修改密码",
+        "clear_cart": "清空购物车",
         "add": "加入"
     },
     "header": {
@@ -41,6 +48,34 @@
             "payment_amount": "帐单金额"
         }
     },
+    "subscription": {
+        "title": "订阅",
+        "state": {
+            "title": "状态",
+            "active": "启用中",
+            "paused": "已暂停",
+            "finished": "已结束",
+            "stopped": "已停止",
+            "cancellationrequested": "订阅将在账单周期结束时终止。"
+        },
+        "placed_on": "订阅日期",
+        "final_billing_date": "最后账单日期",
+        "items": "项目",
+        "plan": "计划",
+        "billed_on": "账单日期",
+        "payment_amount": "付款金额",
+        "processing": "订阅正在处理中，请稍后再回来查看详情。",
+        "loading": "加载订阅中",
+        "cancel": "取消",
+        "pause": "暂停",
+        "unpause": "恢复",
+        "billing_recurrence": {
+            "daily": "每日计费 |||| 每 %{smart_count} 日计费",
+            "weekly": "每周计费 |||| 每 %{smart_count} 周计费",
+            "monthly": "每月计费 |||| 每 %{smart_count} 月计费",
+            "yearly": "每年计费 |||| 每 %{smart_count} 年计费"
+        }
+    },
     "cart": {
         "subtotal": "小计",
         "shipping_taxes_calculated_at_checkout": "运费、税额将于结帐时进行计算",
@@ -52,7 +87,8 @@
         "view_detailed_cart": "购物车详细内容"
     },
     "order": {
-        "loading": "我们正在取得您的订单内容..."
+        "loading": "我们正在取得您的订单内容...",
+        "title": "订单"
     },
     "discount_box": {
         "promo_code": "使用优惠码?",
@@ -62,10 +98,13 @@
     "address_form": {
         "name": "姓名",
         "email": "Email",
+        "firstName": "名",
+        "lastName": "姓",
         "address1": "地址",
         "address2": "地址(选填)",
         "city": "城市",
         "country": "国家",
+        "phone": "电话",
         "postalCode": "邮政编码",
         "province": "省/州",
         "dont_see_address": "没有看到我的地址"
@@ -77,7 +116,15 @@
         "use_different_shipping_address": "如果帐单地址与收件地址不同﹐请勾选此项"
     },
     "customer": {
-        "information": "客户信息"
+        "information": "客户信息",
+        "payment_info": "付款信息",
+        "payment_method_update": {
+            "title": "更新付款方式",
+            "outstanding_payment_failed": {
+                "title": "付款失败",
+                "description": "请更新您的付款方式以继续。"
+            }
+        }
     },
     "customer_details": {
         "title": "客户信息"
@@ -97,7 +144,18 @@
         "view_invoice": "查看账单",
         "sign_out": "登出",
         "show_more_orders": "再显示 %{smart_count} 笔订单 |||| 再显示 %{smart_count} 笔订单",
-        "orders": "订单"
+        "show_more_subscriptions": "显示更多 %{smart_count} 个订阅 |||| 显示更多 %{smart_count} 个订阅",
+        "orders": "订单",
+        "subscriptions": "订阅",
+        "subscription": "订阅"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "订阅有逾期付款",
+                "description": "您有一笔订阅的付款已逾期，请更新您的付款方式。"
+            }
+        }
     },
     "signin_form": {
         "signin": "登入",
@@ -132,7 +190,11 @@
         "already_have_an_account": "已经是会员?",
         "email": "Email",
         "password": "密码",
-        "confirm_password": "确认密码"
+        "confirm_password": "确认密码",
+        "requires_action": {
+            "title": "请查看您的电子邮件",
+            "description": "我们已发送电子邮件给您，请按照说明完成注册。"
+        }
     },
     "guest_checkout": {
         "or": "或",
@@ -142,7 +204,13 @@
         "title": "寄送方式",
         "shipping_to": "寄送至:",
         "address": "收件地址",
-        "method": "寄送方法"
+        "method": "寄送方法",
+        "methods": {
+            "example_localization_id": "配送方式示例"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "保证 %{smart_count} 天内送达 |||| 保证 %{smart_count} 天内送达"
     },
     "payment": {
         "form": {
@@ -152,7 +220,11 @@
             "card_number": "信用卡卡号",
             "card_expiration": "月月/年年",
             "card_cvv": "信用卡安全码（CVV）",
-            "card_postal_code": "邮政编码"
+            "card_postal_code": "邮政编码",
+            "invalid_number": "卡号无效",
+            "invalid_expiration": "到期日无效",
+            "invalid_cvv": "CVV 无效",
+            "invalid_postal_code": "邮政编码无效"
         },
         "still_pending_notice": "您的付款正在处理中",
         "title": "付款方式",
@@ -205,11 +277,13 @@
         "promocode_isnt_applicable": "优惠码已经被使用、或已经无法使用了",
         "promo_code_is_expired": "优惠码已过期",
         "stringEmpty": "此项不得留空",
+        "emailEmpty": "电子邮件为必填项",
         "required": "此项为必填项",
         "invalid_expiry_year_past": "信用卡已过期",
         "email": "请使用正确的 Email",
         "quantity_revised": "由于库存数目的关系，此笔订单已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已无库存，请从购物车移除后再继续购物",
+        "disabled_country": "不支持配送至此国家。",
         "error_payment_items_are_invalid": {
             "title": "您购物车中的部分商品已无贩售",
             "description": "请查看您的订单后再尝试一次"
@@ -256,6 +330,7 @@
                 "description": "您选择的寄送方式可能已经不再提供，或是运费计算的方式已经失效，麻烦请联络客服人员"
             }
         },
+        "invalid_address": "地址无效。",
         "shipping": {
             "account_configuration": {
                 "title": "目前没有可用的运送方式",
@@ -268,7 +343,33 @@
             "no_rates_found": {
                 "title": "目前没有适合您订单的运送方式",
                 "description": "请确认您的收件地址，如有问题麻烦请联络客服人员"
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "不支持配送至此国家。",
+            "E.ENGINE.UNAVAILABLE": "配送服务暂时无法使用，请稍后再试。",
+            "E.QUERY.UNANSWERABLE": "无法验证地址，请检查您的信息。",
+            "E.ADDRESS.NOT_FOUND": "找不到此地址。",
+            "E.SECONDARY_INFORMATION.INVALID": "附加地址信息无效。",
+            "E.SECONDARY_INFORMATION.MISSING": "缺少附加地址信息。",
+            "E.HOUSE_NUMBER.MISSING": "缺少门牌号。",
+            "E.HOUSE_NUMBER.INVALID": "门牌号无效。",
+            "E.STREET.MISSING": "缺少街道名称。",
+            "E.STREET.INVALID": "街道名称无效。",
+            "E.BOX_NUMBER.MISSING": "缺少邮箱号码。",
+            "E.BOX_NUMBER.INVALID": "邮箱号码无效。",
+            "E.ADDRESS.INVALID": "地址无效。",
+            "E.ZIP.NOT_FOUND": "找不到邮政编码。",
+            "E.ZIP.INVALID": "邮政编码无效。",
+            "E.ZIP.PLUS4.NOT_FOUND": "找不到邮政编码扩展码。",
+            "E.ADDRESS.MULTIPLE": "找到多个地址，请提供更精确的地址。",
+            "E.ADDRESS.INSUFFICIENT": "地址信息不完整。",
+            "E.ADDRESS.DUAL": "地址包含矛盾的信息。",
+            "E.STREET.MAGNET": "无法验证街道名称。",
+            "E.CITY_STATE.INVALID": "城市或地区无效。",
+            "E.STATE.INVALID": "地区无效。",
+            "E.ADDRESS.DELIVERY.INVALID": "配送地址无效。",
+            "E.TIMED_OUT": "地址验证超时，请重试。",
+            "E.TIME_ZONE.UNAVAILABLE": "时区信息不可用。",
+            "E.PO_BOX.INTERNATIONAL": "无法进行国际配送至邮箱地址。"
         },
         "payment_failed": {
             "title": "信用卡交易失败",
@@ -284,6 +385,16 @@
                 "description": "刷卡授权失败，请再试一次，如仍失败请先联络发卡银行帮您解锁。"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "购物车只能包含一个订阅。",
+                "description": "请先移除现有订阅再添加新的。"
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "购物车只能包含商品或订阅。",
+                "description": "请先移除现有商品再添加订阅，或反之。"
+            }
+        },
         "customer_exists": "此 Email 已经被使用过了",
         "customer_password_missmatch": "密码不相符",
         "customer_password_token_expired": "您的重设密码链接已失效",
@@ -292,8 +403,14 @@
         "invalid_credentials": "Email 或是密码有误",
         "customer_current_password_invalid": "密码错误"
     },
+    "shippingRates": {
+        "loading": "加载中..."
+    },
     "customer_orders": {
         "loading": "载入中，请稍候..."
+    },
+    "digital_goods": {
+        "download": "下载"
     },
     "confirmation": {
         "thank_you_for_your_order": "感谢您的订购",
@@ -301,5 +418,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "输入收件地址后会显示运费及税额"
+    },
+    "countries": {
+        "AD": {
+            "name": "安道尔"
+        },
+        "AE": {
+            "name": "阿拉伯联合酋长国"
+        },
+        "AF": {
+            "name": "阿富汗"
+        },
+        "AG": {
+            "name": "安提瓜和巴布达"
+        },
+        "AI": {
+            "name": "安圭拉"
+        },
+        "AL": {
+            "name": "阿尔巴尼亚"
+        },
+        "AM": {
+            "name": "亚美尼亚"
+        },
+        "AO": {
+            "name": "安哥拉"
+        },
+        "AQ": {
+            "name": "南极洲"
+        },
+        "AR": {
+            "name": "阿根廷"
+        },
+        "AS": {
+            "name": "美属萨摩亚"
+        },
+        "AT": {
+            "name": "奥地利"
+        },
+        "AU": {
+            "name": "澳大利亚"
+        },
+        "AW": {
+            "name": "阿鲁巴"
+        },
+        "AX": {
+            "name": "奥兰群岛"
+        },
+        "AZ": {
+            "name": "阿塞拜疆"
+        },
+        "BA": {
+            "name": "波斯尼亚和黑塞哥维那"
+        },
+        "BB": {
+            "name": "巴巴多斯"
+        },
+        "BD": {
+            "name": "孟加拉国"
+        },
+        "BE": {
+            "name": "比利时"
+        },
+        "BF": {
+            "name": "布基纳法索"
+        },
+        "BG": {
+            "name": "保加利亚"
+        },
+        "BH": {
+            "name": "巴林"
+        },
+        "BI": {
+            "name": "布隆迪"
+        },
+        "BJ": {
+            "name": "贝宁"
+        },
+        "BL": {
+            "name": "圣巴泰勒米"
+        },
+        "BM": {
+            "name": "百慕大"
+        },
+        "BN": {
+            "name": "文莱"
+        },
+        "BO": {
+            "name": "玻利维亚"
+        },
+        "BQ": {
+            "name": "荷兰加勒比区"
+        },
+        "BR": {
+            "name": "巴西"
+        },
+        "BS": {
+            "name": "巴哈马"
+        },
+        "BT": {
+            "name": "不丹"
+        },
+        "BV": {
+            "name": "布韦岛"
+        },
+        "BW": {
+            "name": "博茨瓦纳"
+        },
+        "BY": {
+            "name": "白俄罗斯"
+        },
+        "BZ": {
+            "name": "伯利兹"
+        },
+        "CA": {
+            "name": "加拿大"
+        },
+        "CC": {
+            "name": "科科斯群岛"
+        },
+        "CD": {
+            "name": "刚果民主共和国"
+        },
+        "CF": {
+            "name": "中非共和国"
+        },
+        "CG": {
+            "name": "刚果共和国"
+        },
+        "CH": {
+            "name": "瑞士"
+        },
+        "CI": {
+            "name": "科特迪瓦"
+        },
+        "CK": {
+            "name": "库克群岛"
+        },
+        "CL": {
+            "name": "智利"
+        },
+        "CM": {
+            "name": "喀麦隆"
+        },
+        "CN": {
+            "name": "中国"
+        },
+        "CO": {
+            "name": "哥伦比亚"
+        },
+        "CR": {
+            "name": "哥斯达黎加"
+        },
+        "CU": {
+            "name": "古巴"
+        },
+        "CV": {
+            "name": "佛得角"
+        },
+        "CW": {
+            "name": "库拉索"
+        },
+        "CX": {
+            "name": "圣诞岛"
+        },
+        "CY": {
+            "name": "塞浦路斯"
+        },
+        "CZ": {
+            "name": "捷克"
+        },
+        "DE": {
+            "name": "德国"
+        },
+        "DJ": {
+            "name": "吉布提"
+        },
+        "DK": {
+            "name": "丹麦"
+        },
+        "DM": {
+            "name": "多米尼克"
+        },
+        "DO": {
+            "name": "多米尼加共和国"
+        },
+        "DZ": {
+            "name": "阿尔及利亚"
+        },
+        "EC": {
+            "name": "厄瓜多尔"
+        },
+        "EE": {
+            "name": "爱沙尼亚"
+        },
+        "EG": {
+            "name": "埃及"
+        },
+        "EH": {
+            "name": "西撒哈拉"
+        },
+        "ER": {
+            "name": "厄立特里亚"
+        },
+        "ES": {
+            "name": "西班牙"
+        },
+        "ES-CN": {
+            "name": "加那利群岛"
+        },
+        "ET": {
+            "name": "埃塞俄比亚"
+        },
+        "FI": {
+            "name": "芬兰"
+        },
+        "FJ": {
+            "name": "斐济"
+        },
+        "FK": {
+            "name": "福克兰群岛"
+        },
+        "FM": {
+            "name": "密克罗尼西亚"
+        },
+        "FO": {
+            "name": "法罗群岛"
+        },
+        "FR": {
+            "name": "法国"
+        },
+        "GA": {
+            "name": "加蓬"
+        },
+        "GB": {
+            "name": "英国"
+        },
+        "GD": {
+            "name": "格林纳达"
+        },
+        "GE": {
+            "name": "格鲁吉亚"
+        },
+        "GF": {
+            "name": "法属圭亚那"
+        },
+        "GG": {
+            "name": "根西岛"
+        },
+        "GH": {
+            "name": "加纳"
+        },
+        "GI": {
+            "name": "直布罗陀"
+        },
+        "GL": {
+            "name": "格陵兰"
+        },
+        "GM": {
+            "name": "冈比亚"
+        },
+        "GN": {
+            "name": "几内亚"
+        },
+        "GP": {
+            "name": "瓜德罗普"
+        },
+        "GQ": {
+            "name": "赤道几内亚"
+        },
+        "GR": {
+            "name": "希腊"
+        },
+        "GS": {
+            "name": "南乔治亚和南桑威奇群岛"
+        },
+        "GT": {
+            "name": "危地马拉"
+        },
+        "GU": {
+            "name": "关岛"
+        },
+        "GW": {
+            "name": "几内亚比绍"
+        },
+        "GY": {
+            "name": "圭亚那"
+        },
+        "HK": {
+            "name": "香港"
+        },
+        "HM": {
+            "name": "赫德岛和麦克唐纳群岛"
+        },
+        "HN": {
+            "name": "洪都拉斯"
+        },
+        "HR": {
+            "name": "克罗地亚"
+        },
+        "HT": {
+            "name": "海地"
+        },
+        "HU": {
+            "name": "匈牙利"
+        },
+        "ID": {
+            "name": "印度尼西亚"
+        },
+        "IE": {
+            "name": "爱尔兰"
+        },
+        "IL": {
+            "name": "以色列"
+        },
+        "IM": {
+            "name": "马恩岛"
+        },
+        "IN": {
+            "name": "印度"
+        },
+        "IO": {
+            "name": "英属印度洋领地"
+        },
+        "IQ": {
+            "name": "伊拉克"
+        },
+        "IR": {
+            "name": "伊朗"
+        },
+        "IS": {
+            "name": "冰岛"
+        },
+        "IT": {
+            "name": "意大利"
+        },
+        "JE": {
+            "name": "泽西岛"
+        },
+        "JM": {
+            "name": "牙买加"
+        },
+        "JO": {
+            "name": "约旦"
+        },
+        "JP": {
+            "name": "日本"
+        },
+        "KE": {
+            "name": "肯尼亚"
+        },
+        "KG": {
+            "name": "吉尔吉斯斯坦"
+        },
+        "KH": {
+            "name": "柬埔寨"
+        },
+        "KI": {
+            "name": "基里巴斯"
+        },
+        "KM": {
+            "name": "科摩罗"
+        },
+        "KN": {
+            "name": "圣基茨和尼维斯"
+        },
+        "KP": {
+            "name": "朝鲜"
+        },
+        "KR": {
+            "name": "韩国"
+        },
+        "KW": {
+            "name": "科威特"
+        },
+        "KY": {
+            "name": "开曼群岛"
+        },
+        "KZ": {
+            "name": "哈萨克斯坦"
+        },
+        "LA": {
+            "name": "老挝"
+        },
+        "LB": {
+            "name": "黎巴嫩"
+        },
+        "LC": {
+            "name": "圣卢西亚"
+        },
+        "LI": {
+            "name": "列支敦士登"
+        },
+        "LK": {
+            "name": "斯里兰卡"
+        },
+        "LR": {
+            "name": "利比里亚"
+        },
+        "LS": {
+            "name": "莱索托"
+        },
+        "LT": {
+            "name": "立陶宛"
+        },
+        "LU": {
+            "name": "卢森堡"
+        },
+        "LV": {
+            "name": "拉脱维亚"
+        },
+        "LY": {
+            "name": "利比亚"
+        },
+        "MA": {
+            "name": "摩洛哥"
+        },
+        "MC": {
+            "name": "摩纳哥"
+        },
+        "MD": {
+            "name": "摩尔多瓦"
+        },
+        "ME": {
+            "name": "黑山"
+        },
+        "MF": {
+            "name": "圣马丁"
+        },
+        "MG": {
+            "name": "马达加斯加"
+        },
+        "MH": {
+            "name": "马绍尔群岛"
+        },
+        "MK": {
+            "name": "北马其顿"
+        },
+        "ML": {
+            "name": "马里"
+        },
+        "MM": {
+            "name": "缅甸"
+        },
+        "MN": {
+            "name": "蒙古"
+        },
+        "MO": {
+            "name": "澳门"
+        },
+        "MP": {
+            "name": "北马里亚纳群岛"
+        },
+        "MQ": {
+            "name": "马提尼克"
+        },
+        "MR": {
+            "name": "毛里塔尼亚"
+        },
+        "MS": {
+            "name": "蒙特塞拉特"
+        },
+        "MT": {
+            "name": "马耳他"
+        },
+        "MU": {
+            "name": "毛里求斯"
+        },
+        "MV": {
+            "name": "马尔代夫"
+        },
+        "MW": {
+            "name": "马拉维"
+        },
+        "MX": {
+            "name": "墨西哥"
+        },
+        "MY": {
+            "name": "马来西亚"
+        },
+        "MZ": {
+            "name": "莫桑比克"
+        },
+        "NA": {
+            "name": "纳米比亚"
+        },
+        "NC": {
+            "name": "新喀里多尼亚"
+        },
+        "NE": {
+            "name": "尼日尔"
+        },
+        "NF": {
+            "name": "诺福克岛"
+        },
+        "NG": {
+            "name": "尼日利亚"
+        },
+        "NI": {
+            "name": "尼加拉瓜"
+        },
+        "NL": {
+            "name": "荷兰"
+        },
+        "NO": {
+            "name": "挪威"
+        },
+        "NP": {
+            "name": "尼泊尔"
+        },
+        "NR": {
+            "name": "瑙鲁"
+        },
+        "NU": {
+            "name": "纽埃"
+        },
+        "NZ": {
+            "name": "新西兰"
+        },
+        "OM": {
+            "name": "阿曼"
+        },
+        "PA": {
+            "name": "巴拿马"
+        },
+        "PE": {
+            "name": "秘鲁"
+        },
+        "PF": {
+            "name": "法属波利尼西亚"
+        },
+        "PG": {
+            "name": "巴布亚新几内亚"
+        },
+        "PH": {
+            "name": "菲律宾"
+        },
+        "PK": {
+            "name": "巴基斯坦"
+        },
+        "PL": {
+            "name": "波兰"
+        },
+        "PM": {
+            "name": "圣皮埃尔和密克隆"
+        },
+        "PN": {
+            "name": "皮特凯恩群岛"
+        },
+        "PR": {
+            "name": "波多黎各"
+        },
+        "PS": {
+            "name": "巴勒斯坦"
+        },
+        "PT": {
+            "name": "葡萄牙"
+        },
+        "PW": {
+            "name": "帕劳"
+        },
+        "PY": {
+            "name": "巴拉圭"
+        },
+        "QA": {
+            "name": "卡塔尔"
+        },
+        "RE": {
+            "name": "留尼汪"
+        },
+        "RO": {
+            "name": "罗马尼亚"
+        },
+        "RS": {
+            "name": "塞尔维亚"
+        },
+        "RU": {
+            "name": "俄罗斯"
+        },
+        "RW": {
+            "name": "卢旺达"
+        },
+        "SA": {
+            "name": "沙特阿拉伯"
+        },
+        "SB": {
+            "name": "所罗门群岛"
+        },
+        "SC": {
+            "name": "塞舌尔"
+        },
+        "SD": {
+            "name": "苏丹"
+        },
+        "SE": {
+            "name": "瑞典"
+        },
+        "SG": {
+            "name": "新加坡"
+        },
+        "SH": {
+            "name": "圣赫勒拿"
+        },
+        "SI": {
+            "name": "斯洛文尼亚"
+        },
+        "SJ": {
+            "name": "斯瓦尔巴和扬马延"
+        },
+        "SK": {
+            "name": "斯洛伐克"
+        },
+        "SL": {
+            "name": "塞拉利昂"
+        },
+        "SM": {
+            "name": "圣马力诺"
+        },
+        "SN": {
+            "name": "塞内加尔"
+        },
+        "SO": {
+            "name": "索马里"
+        },
+        "SR": {
+            "name": "苏里南"
+        },
+        "SS": {
+            "name": "南苏丹"
+        },
+        "ST": {
+            "name": "圣多美和普林西比"
+        },
+        "SV": {
+            "name": "萨尔瓦多"
+        },
+        "SX": {
+            "name": "荷属圣马丁"
+        },
+        "SY": {
+            "name": "叙利亚"
+        },
+        "SZ": {
+            "name": "斯威士兰"
+        },
+        "TC": {
+            "name": "特克斯和凯科斯群岛"
+        },
+        "TD": {
+            "name": "乍得"
+        },
+        "TF": {
+            "name": "法属南部领地"
+        },
+        "TG": {
+            "name": "多哥"
+        },
+        "TH": {
+            "name": "泰国"
+        },
+        "TJ": {
+            "name": "塔吉克斯坦"
+        },
+        "TK": {
+            "name": "托克劳"
+        },
+        "TL": {
+            "name": "东帝汶"
+        },
+        "TM": {
+            "name": "土库曼斯坦"
+        },
+        "TN": {
+            "name": "突尼斯"
+        },
+        "TO": {
+            "name": "汤加"
+        },
+        "TR": {
+            "name": "土耳其"
+        },
+        "TT": {
+            "name": "特立尼达和多巴哥"
+        },
+        "TV": {
+            "name": "图瓦卢"
+        },
+        "TW": {
+            "name": "台湾"
+        },
+        "TZ": {
+            "name": "坦桑尼亚"
+        },
+        "UA": {
+            "name": "乌克兰"
+        },
+        "UG": {
+            "name": "乌干达"
+        },
+        "UM": {
+            "name": "美国本土外小岛屿"
+        },
+        "US": {
+            "name": "美国"
+        },
+        "UY": {
+            "name": "乌拉圭"
+        },
+        "UZ": {
+            "name": "乌兹别克斯坦"
+        },
+        "VA": {
+            "name": "梵蒂冈"
+        },
+        "VC": {
+            "name": "圣文森特和格林纳丁斯"
+        },
+        "VE": {
+            "name": "委内瑞拉"
+        },
+        "VG": {
+            "name": "英属维尔京群岛"
+        },
+        "VI": {
+            "name": "美属维尔京群岛"
+        },
+        "VN": {
+            "name": "越南"
+        },
+        "VU": {
+            "name": "瓦努阿图"
+        },
+        "WF": {
+            "name": "瓦利斯和富图纳"
+        },
+        "WS": {
+            "name": "萨摩亚"
+        },
+        "XK": {
+            "name": "科索沃"
+        },
+        "YE": {
+            "name": "也门"
+        },
+        "YT": {
+            "name": "马约特"
+        },
+        "ZA": {
+            "name": "南非"
+        },
+        "ZM": {
+            "name": "赞比亚"
+        },
+        "ZW": {
+            "name": "津巴布韦"
+        }
     }
 }
