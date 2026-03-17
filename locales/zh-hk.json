@@ -195,7 +195,8 @@
         "subtotal": "小計",
         "shipping": "運費",
         "discount": "數量",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "結帳時計算"
     },
     "errors": {
         "default": "發生錯誤，請稍等後再試一次或聯絡我們的客服人員",

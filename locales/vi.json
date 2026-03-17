@@ -195,7 +195,8 @@
         "subtotal": "Tổng cộng",
         "shipping": "Giao hàng",
         "discount": "Giảm giá",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Tính ở mục thanh toán"
     },
     "errors": {
         "default": "Đã có lỗi xảy ra, xin vui lòng thử lại hoặc liên lạc với chúng tôi.",

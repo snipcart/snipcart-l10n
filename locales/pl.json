@@ -195,7 +195,8 @@
         "subtotal": "Częściowo",
         "shipping": "Dostawa",
         "discount": "Zniżki",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Doliczane przy podsumowaniu"
     },
     "errors": {
         "default": "Wystąpił błąd, spróbuj ponownie lub skontaktuj się z nami.",

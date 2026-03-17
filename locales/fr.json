@@ -235,7 +235,8 @@
         "subtotal": "Sous-total",
         "shipping": "Livraison",
         "discount": "Promotions",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Calculé au moment du paiement"
     },
     "errors": {
         "default": "Une erreur est survenue",

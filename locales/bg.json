@@ -179,7 +179,8 @@
         "subtotal": "Субтотал",
         "shipping": "Доставка",
         "discount": "Отстъпки",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Изчислено при плащането"
     },
     "errors": {
         "default": "Възникна грешла. Моля опитай отново или се свържи с нас.",

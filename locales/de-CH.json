@@ -262,7 +262,8 @@
         "subtotal": "Nettobetrag",
         "shipping": "Versand",
         "discount": "Rabatt",
-        "quantity": "×"
+        "quantity": "×",
+        "calculated_at_checkout": "Wird an der Kasse berechnet"
     },
     "errors": {
         "default": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut oder kontaktieren Sie uns.",

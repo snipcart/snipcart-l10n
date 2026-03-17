@@ -148,7 +148,8 @@
         "subtotal": "Delsum",
         "shipping": "Levering",
         "discount": "Rabatter",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Beregnes ved utsjekk"
     },
     "errors": {
         "default": "En feil har inntruffet. Prøv igjen senere, eller ta kontakt med oss.",

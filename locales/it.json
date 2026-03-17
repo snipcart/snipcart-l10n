@@ -253,7 +253,8 @@
         "subtotal": "Subtotale",
         "shipping": "Consegna",
         "discount": "Sconti",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Calcolato al pagamento"
     },
     "errors": {
         "default": "C'è stato un errore",

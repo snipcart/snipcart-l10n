@@ -195,7 +195,8 @@
         "subtotal": "Yarı cəmi",
         "shipping": "Çatdırılma",
         "discount": "Endirimlər",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Çıxılacaq"
     },
     "errors": {
         "default": "Xəta baş verdi. Yenidən cəhd edi və ya bizimlə əlaqə saxlayın.",

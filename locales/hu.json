@@ -253,7 +253,8 @@
         "subtotal": "Részösszeg",
         "shipping": "Szállítás",
         "discount": "Kedvezmények",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Pénztárnál hozzáadva"
     },
     "errors": {
         "default": "Hiba történt, próbáld később vagy vedd fel a kapcsolatot az áruház tulajdonosával.",

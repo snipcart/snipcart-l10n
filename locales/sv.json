@@ -195,7 +195,8 @@
         "subtotal": "Delsumma",
         "shipping": "Frakt",
         "discount": "Rabatter",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Beräknas i kassan"
     },
     "errors": {
         "default": "Ett fel uppstod, försök igen eller kontakta oss.",

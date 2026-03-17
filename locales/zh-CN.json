@@ -195,7 +195,8 @@
         "subtotal": "小计",
         "shipping": "运费",
         "discount": "数量",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "结帐时计算"
     },
     "errors": {
         "default": "发生错误，请稍等后再试一次或联络我们的客服人员",

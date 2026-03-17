@@ -200,7 +200,8 @@
         "subtotal": "Subtotaal",
         "shipping": "Verzending",
         "discount": "Korting",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Berekend bij afrekenen"
     },
     "errors": {
         "default": "Er is iets fout gegaan",

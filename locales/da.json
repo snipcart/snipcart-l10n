@@ -136,7 +136,8 @@
     "subtotal": "Subtotal",
     "shipping": "Levering",
     "discount": "Rabat",
-    "quantity": "x"
+    "quantity": "x",
+    "calculated_at_checkout": "Udregnes i kassen"
   },
   "errors": {
     "default": "Der er sket en fejl",

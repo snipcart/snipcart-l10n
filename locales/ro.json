@@ -195,7 +195,8 @@
         "subtotal": "Subtotal",
         "shipping": "Livrare",
         "discount": "Reduceri",
-        "quantity": "Cantitate"
+        "quantity": "Cantitate",
+        "calculated_at_checkout": "Calculat la plasarea comenzii"
     },
     "errors": {
         "default": "A apărut o eroare. Vă rugăm încercați mai târziu sau contactați-ne pentru mai multe detalii",

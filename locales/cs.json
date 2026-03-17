@@ -193,7 +193,8 @@
         "subtotal": "Mezisoučet",
         "shipping": "Poštovné",
         "discount": "Slevy",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Vypočteno v pokladně"
     },
     "errors": {
         "default": "Došlo k neočekávané chybě, vyzkoušejte to později nebo nás kontaktuje.",

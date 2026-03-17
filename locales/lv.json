@@ -177,7 +177,8 @@
         "subtotal": "Starpsumma",
         "shipping": "Piegāde",
         "discount": "Atlaides",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Aprēķināts pie apmaksas"
     },
     "errors": {
         "default": "Notika kļūda. Mēģiniet vēlreiz nedaudz vēlāk vai sazinieties ar mums.",
