@@ -56,7 +56,33 @@
             "no_rates_found": {
                 "title": "No postage methods are available for your order",
                 "description": "Please review your shipping address or contact us."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Shipping to this country is not supported.",
+            "E.ENGINE.UNAVAILABLE": "Shipping service is unavailable. Please try again later.",
+            "E.QUERY.UNANSWERABLE": "The address could not be verified. Please check your details.",
+            "E.ADDRESS.NOT_FOUND": "Address not found.",
+            "E.SECONDARY_INFORMATION.INVALID": "Additional address information is invalid.",
+            "E.SECONDARY_INFORMATION.MISSING": "Additional address information is missing.",
+            "E.HOUSE_NUMBER.MISSING": "House number is missing.",
+            "E.HOUSE_NUMBER.INVALID": "House number is invalid.",
+            "E.STREET.MISSING": "Street name is missing.",
+            "E.STREET.INVALID": "Street name is invalid.",
+            "E.BOX_NUMBER.MISSING": "PO Box number is missing.",
+            "E.BOX_NUMBER.INVALID": "PO Box number is invalid.",
+            "E.ADDRESS.INVALID": "Address is invalid.",
+            "E.ZIP.NOT_FOUND": "Postcode not found.",
+            "E.ZIP.INVALID": "Postcode is invalid.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Postcode extension not found.",
+            "E.ADDRESS.MULTIPLE": "Multiple addresses found. Please provide a more specific address.",
+            "E.ADDRESS.INSUFFICIENT": "Address information is incomplete.",
+            "E.ADDRESS.DUAL": "The address contains conflicting information.",
+            "E.STREET.MAGNET": "Street name could not be verified.",
+            "E.CITY_STATE.INVALID": "City or state is invalid.",
+            "E.STATE.INVALID": "State is invalid.",
+            "E.ADDRESS.DELIVERY.INVALID": "Delivery address is invalid.",
+            "E.TIMED_OUT": "Address verification timed out. Please try again.",
+            "E.TIME_ZONE.UNAVAILABLE": "Time zone information is unavailable.",
+            "E.PO_BOX.INTERNATIONAL": "International delivery to PO Box addresses is not possible."
         }
     },
     "shippingRates": {
