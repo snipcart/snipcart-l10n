@@ -99,7 +99,10 @@
         "country": "国",
         "postalCode": "郵便番号",
         "province": "都道府県",
-        "dont_see_address": "住所が見つかりません。"
+        "dont_see_address": "住所が見つかりません。",
+        "firstName": "名",
+        "lastName": "姓",
+        "phone": "電話番号"
     },
     "billing": {
         "title": "請求先",
@@ -334,7 +337,33 @@
             "no_rates_found": {
                 "title": "注文に利用可能な配送方法がありません",
                 "description": "配送先住所を確認するか、お問い合わせください。"
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "この国への配送はサポートされていません。",
+            "E.ENGINE.UNAVAILABLE": "配送サービスが利用できません。後ほどお試しください。",
+            "E.QUERY.UNANSWERABLE": "住所を確認できませんでした。入力内容をご確認ください。",
+            "E.ADDRESS.NOT_FOUND": "住所が見つかりません。",
+            "E.SECONDARY_INFORMATION.INVALID": "追加の住所情報が無効です。",
+            "E.SECONDARY_INFORMATION.MISSING": "追加の住所情報が不足しています。",
+            "E.HOUSE_NUMBER.MISSING": "番地が入力されていません。",
+            "E.HOUSE_NUMBER.INVALID": "番地が無効です。",
+            "E.STREET.MISSING": "通り名が入力されていません。",
+            "E.STREET.INVALID": "通り名が無効です。",
+            "E.BOX_NUMBER.MISSING": "私書箱番号が入力されていません。",
+            "E.BOX_NUMBER.INVALID": "私書箱番号が無効です。",
+            "E.ADDRESS.INVALID": "住所が無効です。",
+            "E.ZIP.NOT_FOUND": "郵便番号が見つかりません。",
+            "E.ZIP.INVALID": "郵便番号が無効です。",
+            "E.ZIP.PLUS4.NOT_FOUND": "郵便番号の拡張部分が見つかりません。",
+            "E.ADDRESS.MULTIPLE": "複数の住所が見つかりました。より正確な住所を入力してください。",
+            "E.ADDRESS.INSUFFICIENT": "住所情報が不完全です。",
+            "E.ADDRESS.DUAL": "住所に矛盾する情報が含まれています。",
+            "E.STREET.MAGNET": "通り名を確認できませんでした。",
+            "E.CITY_STATE.INVALID": "市区町村または都道府県が無効です。",
+            "E.STATE.INVALID": "都道府県が無効です。",
+            "E.ADDRESS.DELIVERY.INVALID": "配送先住所が無効です。",
+            "E.TIMED_OUT": "住所確認がタイムアウトしました。もう一度お試しください。",
+            "E.TIME_ZONE.UNAVAILABLE": "タイムゾーン情報が利用できません。",
+            "E.PO_BOX.INTERNATIONAL": "私書箱宛ての国際配送はできません。"
         },
         "payment_failed": {
             "title": "お支払いを処理できません",
@@ -366,7 +395,8 @@
         "customer_password_token_invalid": "パスワードリカバリートークンが無効です。",
         "customer_not_found": "メールアドレスはどのアカウントにも関連付けられていません。",
         "invalid_credentials": "メールアドレスかパスワードが正しくありません",
-        "customer_current_password_invalid": "無効なパスワードです。"
+        "customer_current_password_invalid": "無効なパスワードです。",
+        "invalid_address": "住所が無効です。"
     },
     "shippingRates": {
         "loading": "発送料金を読み込み中"
