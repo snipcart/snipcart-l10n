@@ -783,10 +783,13 @@
     "address_form": {
         "name": "Full name",
         "email": "Email",
+        "firstName": "Ime",
+        "lastName": "Prezime",
         "address1": "Street address",
         "address2": "Apt/Suite",
         "city": "City",
         "country": "Country",
+        "phone": "Telefon",
         "postalCode": "Postal/ZIP code",
         "province": "Province/State",
         "dont_see_address": "I can't find my address"
