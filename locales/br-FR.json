@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "O kargañ...",
+        "error": "Ur fazi zo c'hoarvezet.",
+        "success": "Graet eo!"
+    },
     "actions": {
         "edit": "Kemmañ",
         "cancel": "Nullañ",
@@ -6,12 +11,20 @@
         "back_to_checkout": "Distreiñ d'ar paeañ",
         "checkout": "Paeañ",
         "apply": "Lakaat da dalvezout",
+        "dismiss": "Nac'hañ",
         "type_address": "Biskrivit ho chomlec'h",
         "use_this_address": "Implijout ar chomlec'h-mañ",
         "back_to_store": "Distreiñ d'ar stal",
         "close_cart": "Serriñ ar baner",
         "show": "Diskwel",
-        "hide": "Kuzhat"
+        "hide": "Kuzhat",
+        "apply_changes": "Lakaat an cheñchamantoù",
+        "yes_use_it": "Ya, ober gantañ",
+        "save_changes": "Enrollañ ar cheñchamantoù",
+        "back_to_orders": "Distreiñ d'an urzhiadoù",
+        "change_password": "Cheñch ar ger-tremen",
+        "clear_cart": "Goullonderiñ ar panerad",
+        "add": "Ouzhpennañ"
     },
     "header": {
         "title_cart_summary": "Taolenn ar baner",
@@ -22,7 +35,41 @@
         "quantity_short": "Kmd",
         "decrement_quantity": "Digreskiñ ar c'hementad",
         "increment_quantity": "Kreskiñ ar c'hementad",
-        "remove_item": "Dilemel ar produ"
+        "remove_item": "Dilemel ar produ",
+        "recurrence": {
+            "daily": "devezh |||| %{smart_count} devezh",
+            "weekly": "sizhun |||| %{smart_count} sizhun",
+            "monthly": "miz |||| %{smart_count} miz",
+            "yearly": "bloaz |||| %{smart_count} bloaz"
+        }
+    },
+    "subscription": {
+        "title": "Koumanantiñ",
+        "state": {
+            "title": "Stad",
+            "active": "Oberiant",
+            "paused": "Ehanet",
+            "finished": "Echuet",
+            "stopped": "Paouezet",
+            "cancellationrequested": "Ar c'houmanantiñ a vo paouezet e fin ar prantad feurañ."
+        },
+        "placed_on": "Deiziad",
+        "final_billing_date": "Deiziad diwezhañ ar feurañ",
+        "items": "Produioù",
+        "plan": "Prantad",
+        "billed_on": "Feuraet d'an",
+        "payment_amount": "Sammad ar paeamant",
+        "processing": "Ar c'houmanantiñ a zo c'hoazh o vezañ kelennet. Distroit diwezhatoc'h.",
+        "loading": "O kargañ ar c'houmanantioù",
+        "cancel": "Nullañ",
+        "pause": "Ehanañ",
+        "unpause": "Adkregiñ",
+        "billing_recurrence": {
+            "daily": "Feuraet bemdez |||| Feuraet bep %{smart_count} devezh",
+            "weekly": "Feuraet bep sizhun |||| Feuraet bep %{smart_count} sizhun",
+            "monthly": "Feuraet bep miz |||| Feuraet bep %{smart_count} miz",
+            "yearly": "Feuraet bep bloaz |||| Feuraet bep %{smart_count} bloaz"
+        }
     },
     "cart": {
         "subtotal": "Ishollad",
@@ -31,10 +78,12 @@
         "secured_by": "Suraet gant Snipcart",
         "summary": "Taolenn",
         "empty": "Goullo eo ho paner",
-        "invoice_number": "Niverenn ar fakturenn"
+        "invoice_number": "Niverenn ar fakturenn",
+        "view_detailed_cart": "Gwelet munudoù ar panerad"
     },
     "order": {
-        "loading": "O kargañ munudoù hoc'h urzhiad..."
+        "loading": "O kargañ munudoù hoc'h urzhiad...",
+        "title": "Urzhiad"
     },
     "discount_box": {
         "promo_code": "Kod brudwerzh ?",
@@ -43,9 +92,9 @@
     },
     "address_form": {
         "name": "Anv ha anv-bihan",
+        "email": "Postel",
         "firstName": "Anv-bihan",
         "lastName": "Anv",
-        "email": "Postel",
         "address1": "Chomlec'h kas",
         "address2": "Ranndi",
         "city": "Kêr",
@@ -63,19 +112,46 @@
         "use_different_shipping_address": "Implijout ur chomlec'h degas disheñvel"
     },
     "customer": {
-        "information": "Titouroù arval"
+        "information": "Titouroù arval",
+        "payment_info": "Titouroù paeamant",
+        "payment_method_update": {
+            "title": "Hizivaat an doare paeañ",
+            "outstanding_payment_failed": {
+                "title": "C'hwitet eo ar paeamant",
+                "description": "Hizivait an doare paeañ evit kenderc'hel."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Titouroù ar prener"
     },
     "customer_dashboard": {
         "my_account": "Ma c'hont",
         "ordered_on": "Urzhiet d'an",
+        "next_billing_date": "Deiziad feurañ da zont",
+        "price": "Priz",
         "total": "Hollad",
         "status": "Statud",
         "order": "Urzhiad %{invoice_number}",
         "order_details": "Munudoù an urzhiad",
         "loading": "O kargañ...",
         "no_orders": "Urzhiad ebet kavet.",
+        "no_subscriptions": "Koumanantiñ ebet kavet.",
+        "view_invoice": "Gwelet ar faktur",
         "sign_out": "Digevreañ",
-        "show_more_orders": "Diskwel un urzhiad ouzhpenn |||| Diskwel %{smart_count} urzhiad ouzhpenn"
+        "show_more_orders": "Diskwel un urzhiad ouzhpenn |||| Diskwel %{smart_count} urzhiad ouzhpenn",
+        "show_more_subscriptions": "Diskouez %{smart_count} c'houmanantiñ ouzhpenn |||| Diskouez %{smart_count} c'houmanantiñ ouzhpenn",
+        "orders": "Urzhiadoù",
+        "subscriptions": "Koumanantioù",
+        "subscription": "Koumanantiñ"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Ur c'houmanantiñ en deus ur paeamant gourdrouz",
+                "description": "Ur c'houmanantiñ gant ur paeamant gourdrouz ho peus. Hizivait an doare paeañ mar plij."
+            }
+        }
     },
     "signin_form": {
         "signin": "En em gevreañ",
@@ -85,31 +161,68 @@
         "forgot_your_password": "Disoñjet ho peus ho ker kuzh ?",
         "close_form": "Distreiñ"
     },
+    "forgot_password_form": {
+        "title": "Adderaouekaat ho ker-tremen",
+        "instructions": "Lakait postel ho kont ha ni a gasay deoc'h ul liamm evit adderaouekaat ho ker-tremen.",
+        "email": "Postel",
+        "email_instructions": "Ur postel gant ul liamm zo bet kaset deoc'h. Klikit warnañ evit adderaouekaat ho ker-tremen.",
+        "action": "Kas ar postel adderaouekaat"
+    },
+    "reset_password_form": {
+        "title": "Adderaouekaat ho ker-tremen",
+        "password": "Ger-tremen nevez",
+        "confirmation_password": "Kadarnaat ar ger-tremen nevez",
+        "action": "Adderaouekaat ar ger-tremen"
+    },
+    "change_password_form": {
+        "title": "Cheñch ho ker-tremen",
+        "current_password": "Ger-tremen a-vremañ",
+        "password": "Ger-tremen nevez",
+        "confirmation_password": "Kadarnaat ar ger-tremen nevez",
+        "action": "Cheñch ar ger-tremen"
+    },
     "register_form": {
         "register": "En em enskrivañ",
         "already_have_an_account": "Ur gont ho peus dija ?",
         "email": "Postel",
         "password": "Ger kuzh",
-        "confirm_password": "Kadarnaat ar ger kuzh"
+        "confirm_password": "Kadarnaat ar ger kuzh",
+        "requires_action": {
+            "title": "Gwiriit ho postel",
+            "description": "Kaset hon eus ur postel deoc'h. Heuilhit an titouroù evit echuiñ an enskrivadur."
+        }
     },
-    "alternative": {
-        "or": "Ou",
-        "continue_as_a_guest": "Kenderc'hel evel ur c'houviad"
+    "guest_checkout": {
+        "or": "Pe",
+        "continue_as_a_guest": "Kenderc'hel evel gwestel"
     },
     "shipping": {
         "title": "Degasadenn",
         "shipping_to": "Degas da :",
         "address": "Chomlec'h degas",
-        "method": "Doare degas"
+        "method": "Doare degas",
+        "methods": {
+            "example_localization_id": "Skouer doare kas"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Kas gouarnantet e-barzh %{smart_count} devezh |||| Kas gouarnantet e-barzh %{smart_count} devezh"
     },
     "payment": {
-        "form":{
+        "form": {
+            "deferred_payment_title": "Paeamant gourdrouz",
+            "deferred_payment_instructions": "En ur sevel an urzhiad-mañ e asantit da baeañ diwezhatoc'h dre an doare spiset gant ar gwerzhour.",
             "card_label": "Kartenn-gred",
             "card_number": "Niverenn ar gartenn",
             "card_expiration": "MM/BB",
             "card_cvv": "CVV",
-            "card_postal_code": "Kod-post"
+            "card_postal_code": "Kod-post",
+            "invalid_number": "Niverenn ar gartenn direizh",
+            "invalid_expiration": "Deiziad termen direizh",
+            "invalid_cvv": "CVV direizh",
+            "invalid_postal_code": "Kod-post direizh"
         },
+        "still_pending_notice": "Ho paeamant a zo c'hoazh o vezañ kelennet.",
         "title": "Paeamant",
         "continue_to_payment": "Kenderc'hel d'ar paeamant",
         "credit_card": "Kartenn-gred",
@@ -121,13 +234,31 @@
         "method_icon": "%{method} arlun",
         "no_payment": "N'eus paeamant ebet evit an urzhiad-mañ.",
         "methods": {
-            "card": "Kartenn-gred"
+            "card": "Kartenn-gred",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna paeañ diwezhatoc'h",
+            "klarna_slice_it": "Klarna dre vankoù",
+            "p24": "Przelewy24",
+            "sepa_debit": "Treuzkas SEPA",
+            "sofort": "Treuzkas Sofort",
+            "deferred_payment": "Paeañ diwezhatoc'h"
         }
     },
     "discounts": {
         "title": "Brudwerzhioù"
     },
     "cart_summary": {
+        "taxes": "Tailhoù",
+        "taxes_included_in_price": "Produioù 'zo gant an tailh er priz.",
         "total": "Hollad",
         "subtotal": "Ishollad",
         "shipping": "Degasadenn",
@@ -142,28 +273,99 @@
         "promocode_isnt_applicable": "Ne c’hall ket ar c’hod brudwerzh-mañ bezañ lakaet da dalvezout",
         "promo_code_is_expired": "Ne dalvez ket mui ar c’hod brudwerzh-mañ",
         "stringEmpty": "Maezienn da leuniañ dre ret",
+        "emailEmpty": "Ret eo ar postel",
         "required": "Maezienn da leuniañ dre ret",
         "invalid_expiry_year_past": "Kartenn aet d’he zermen",
         "email": "Bizskrivit ur chomlec’h postel e talvoud",
+        "quantity_revised": "Kemmet eo bet an niver abalamour d'ar stok.",
+        "quantity_out_of_stock": "Ar produ-mañ n'emañ ket er stok ken. Tennit anezhañ eus ar panerad evit kenderc'hel.",
+        "disabled_country": "N'eo ket posupl kas d'ar vro-mañ.",
         "error_payment_items_are_invalid": {
             "title": "Produioù zo en ho paner zo direizh",
             "description": "Adwelit hoc'h urzhiad pe klaskit en-dro diwezhatoc'h."
         },
-        "order_validation":{
-          "domain_crawling":{
-              "title":"N'hon eus ket gallet kadarnaat hoc'h urzhiad.",
-              "description":"N'eus ket bet lamet arc'hant diwar ho kont. Kit e darempred gant ar gwerzher evit gouzout hiroc'h, mar plij."
-          },
-          "product_crawling":{
-              "title":"Priz produioù zo en ho paner a seblant bezañ cheñchet.",
-              "description": "Klaskit o zennañ hag o adlakaat en ho paner. Kit e darempred gant ar gwerzher evit gouzout hiroc'h."
-          },
-          "stock_validation":{
-              "title":"Produ diviet.",
-              "description": "Un nebeud produioù a seblant bezañ diviet. Adwelit ar c'hementadoù pe kit e darempred gant ar gwerzher evit gouzout hiroc'h."
-          }
+        "card": {
+            "invalid_number": "Niverenn ar gartenn a zo direizh.",
+            "invalid_date": "Deiziad termen ar gartenn a zo direizh.",
+            "invalid_year": "Bloavezh termen ar gartenn a zo direizh.",
+            "invalid_month": "Miz termen ar gartenn a zo direizh.",
+            "invalid_cvv": "CVV ar gartenn a zo direizh.",
+            "invalid_expiration": "Deiziad termen ar gartenn a zo direizh.",
+            "expired": "Ar gartenn a zo tremenet he zermen.",
+            "declined": "Nac'het eo bet ar gartenn. Kit e darempred gant ho pank.",
+            "invalid_address": "Chomlec'h ar gartenn a zo direizh.",
+            "insufficient_funds": "N'eus ket a arc'hant a-walc'h war ar gont.",
+            "card_not_supported": "Ar gartenn n'eo ket skoret er rannvro-mañ.",
+            "currency_not_supported": "Ar moneiz n'eo ket skoret evit ar mare."
         },
+        "transaction": {
+            "declined": "Ur fazi zo c'hoarvezet en ur dreitañ ar gartenn. Klaskit en-dro diwezhatoc'h pe grit gant un doare paeañ all."
+        },
+        "discounts": {
+            "conflict": "Diskountoù 'zo ne c'hellont ket bezañ kevreet. Ober gant an diskount-mañ kentoc'h?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "N'hon eus ket gallet kadarnaat hoc'h urzhiad.",
+                "description": "N'eus ket bet lamet arc'hant diwar ho kont. Kit e darempred gant ar gwerzher evit gouzout hiroc'h, mar plij."
+            },
+            "product_crawling": {
+                "title": "Priz produioù zo en ho paner a seblant bezañ cheñchet.",
+                "description": "Klaskit o zennañ hag o adlakaat en ho paner. Kit e darempred gant ar gwerzher evit gouzout hiroc'h."
+            },
+            "stock_validation": {
+                "title": "Produ diviet.",
+                "description": "Un nebeud produioù a seblant bezañ diviet. Adwelit ar c'hementadoù pe kit e darempred gant ar gwerzher evit gouzout hiroc'h."
+            },
+            "custom_fields_validation": {
+                "title": "Titouroù ret a vank.",
+                "description": "Produioù 'zo er panerad a vank titouroù ret. Kemmit ar panerad evit kenderc'hel."
+            },
+            "shipping_validation": {
+                "title": "N'eo ket bet gwiriet an doare kas.",
+                "description": "Priz ar c'has diuzet a c'hell bezañ cheñchet pe n'emañ ket hegerz ken."
+            }
+        },
+        "invalid_address": "Ar chomlec'h a zo direizh.",
         "shipping": {
+            "account_configuration": {
+                "title": "N'eus doare kas ebet hegerz evit ar mare",
+                "description": "Klaskit en-dro diwezhatoc'h pe kit e darempred ganeomp."
+            },
+            "rates_calculation": {
+                "title": "N'eo ket bet gallout jediñ priz ar c'has evit hoc'h urzhiad",
+                "description": "Klaskit en-dro diwezhatoc'h pe kit e darempred ganeomp."
+            },
+            "no_rates_found": {
+                "title": "N'eus doare kas ebet hegerz evit hoc'h urzhiad",
+                "description": "Gwiriit ho chomlec'h kas pe kit e darempred ganeomp."
+            },
+            "E.COUNTRY.UNSUPPORTED": "N'eo ket skoret kas ar vro-mañ.",
+            "E.ENGINE.UNAVAILABLE": "N'eo ket hegerz ar servij kas. Klaskit en-dro diwezhatoc'h.",
+            "E.QUERY.UNANSWERABLE": "N'eo ket bet gwiriet ar chomlec'h. Gwiriit ho titouroù.",
+            "E.ADDRESS.NOT_FOUND": "N'eo ket bet kavet ar chomlec'h.",
+            "E.SECONDARY_INFORMATION.INVALID": "Titouroù ouzhpenn ar chomlec'h a zo direizh.",
+            "E.SECONDARY_INFORMATION.MISSING": "Titouroù ouzhpenn ar chomlec'h a vank.",
+            "E.HOUSE_NUMBER.MISSING": "Niverenn an ti a vank.",
+            "E.HOUSE_NUMBER.INVALID": "Niverenn an ti a zo direizh.",
+            "E.STREET.MISSING": "Anv ar straed a vank.",
+            "E.STREET.INVALID": "Anv ar straed a zo direizh.",
+            "E.BOX_NUMBER.MISSING": "Niverenn ar voest-lizher a vank.",
+            "E.BOX_NUMBER.INVALID": "Niverenn ar voest-lizher a zo direizh.",
+            "E.ADDRESS.INVALID": "Ar chomlec'h a zo direizh.",
+            "E.ZIP.NOT_FOUND": "N'eo ket bet kavet ar c'hod-post.",
+            "E.ZIP.INVALID": "Ar c'hod-post a zo direizh.",
+            "E.ZIP.PLUS4.NOT_FOUND": "N'eo ket bet kavet astenn ar c'hod-post.",
+            "E.ADDRESS.MULTIPLE": "Meur a chomlec'h zo bet kavet. Roit ur chomlec'h resisoc'h.",
+            "E.ADDRESS.INSUFFICIENT": "Titouroù ar chomlec'h a zo diglok.",
+            "E.ADDRESS.DUAL": "Ar chomlec'h a endalc'h titouroù enebour.",
+            "E.STREET.MAGNET": "N'eo ket bet gwiriet anv ar straed.",
+            "E.CITY_STATE.INVALID": "Ar gêr pe ar rannvro a zo direizh.",
+            "E.STATE.INVALID": "Ar rannvro a zo direizh.",
+            "E.ADDRESS.DELIVERY.INVALID": "Ar chomlec'h kas a zo direizh.",
+            "E.TIMED_OUT": "Amzer gwiriañ ar chomlec'h zo echu. Klaskit en-dro.",
+            "E.TIME_ZONE.UNAVAILABLE": "Titouroù ar gwerzhid-eur n'int ket hegerz.",
+            "E.PO_BOX.INTERNATIONAL": "N'eo ket posupl kas etrevroadel da ur voest-lizher.",
             "title": "Ne c'haller ket jediñ ar mizoù-kas.",
             "description": "Klaskit en-dro diwezhatoc'h, pe deuit e darempred ganeomp."
         },
@@ -175,16 +377,42 @@
             "title": "Ne c'haller ket klokaat ho paeamant",
             "default": "Gwiriit titouroù ho kartenn-gred pe klaskit en-dro diwezhatoc'h."
         },
+        "authentication_challenge": {
+            "failed": {
+                "title": "N'eo ket bet gallout ober ar paeamant",
+                "description": "N'eo ket bet gallout gwiriañ ho titouroù paeamant. Klaskit en-dro mar plij."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Ur c'houmanantiñ hepken a c'hell bezañ er panerad.",
+                "description": "Tennit ar c'houmanantiñ a zo a-raok ouzhpennañ unan nevez."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Ar panerad a c'hell endalc'hout produioù pe goumanantioù.",
+                "description": "Tennit ar produioù a zo a-raok ouzhpennañ ur c'houmanantiñ, pe an enep."
+            }
+        },
         "customer_exists": "Implijet eo ar postel-mañ dija.",
         "customer_password_missmatch": "Disheñvel eo ar gerioù kuzh.",
+        "customer_password_token_expired": "Tremenet eo termen al liamm adderaouekaat. Goulennit unan nevez.",
+        "customer_password_token_invalid": "Al liamm adderaouekaat a zo direizh.",
+        "customer_not_found": "Ar postel-mañ n'eo ket liammet ouzh kont ebet.",
         "invalid_credentials": "Postel pe ger kuzh direizh",
+        "customer_current_password_invalid": "Ger-tremen direizh.",
         "no_shipping_rates_found": {
             "title": "Doare ebet evit an degas evit hoc'h urzhiad",
             "description": "Adwelit ho chomlec'h post pe kit e darempred ganeomp."
         }
     },
+    "shippingRates": {
+        "loading": "O kargañ..."
+    },
     "customer_orders": {
         "loading": "O kargañ..."
+    },
+    "digital_goods": {
+        "download": "Pellgargañ"
     },
     "confirmation": {
         "thank_you_for_your_order": "Trugarez deoc'h evit hoc'h urzhiad.",
@@ -192,5 +420,764 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Jedet e vo ar mizoù-kas hag an taosoù da vare ar paeamant."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Emirelezhioù Arab Unanet"
+        },
+        "AF": {
+            "name": "Afghanistan"
+        },
+        "AG": {
+            "name": "Antigua ha Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktika"
+        },
+        "AR": {
+            "name": "Arc'hantina"
+        },
+        "AS": {
+            "name": "Samoa Amerikan"
+        },
+        "AT": {
+            "name": "Aostria"
+        },
+        "AU": {
+            "name": "Aostralia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Inizi Åland"
+        },
+        "AZ": {
+            "name": "Azerbaidjan"
+        },
+        "BA": {
+            "name": "Bosnia ha Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgia"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaria"
+        },
+        "BH": {
+            "name": "Bahrein"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint-Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Karib Izelvroioù"
+        },
+        "BR": {
+            "name": "Brazil"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhoutan"
+        },
+        "BV": {
+            "name": "Enez Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Inizi Kokoz"
+        },
+        "CD": {
+            "name": "Republik Demokratel Kongo"
+        },
+        "CF": {
+            "name": "Republik Kreizafrica"
+        },
+        "CG": {
+            "name": "Republik Kongo"
+        },
+        "CH": {
+            "name": "Suis"
+        },
+        "CI": {
+            "name": "Aod an Olifant"
+        },
+        "CK": {
+            "name": "Inizi Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Kameroun"
+        },
+        "CN": {
+            "name": "Sina"
+        },
+        "CO": {
+            "name": "Kolombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kab Glas"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Enez Christmas"
+        },
+        "CY": {
+            "name": "Kiprenez"
+        },
+        "CZ": {
+            "name": "Tchekia"
+        },
+        "DE": {
+            "name": "Alamagn"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Danmark"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Republik Dominikan"
+        },
+        "DZ": {
+            "name": "Aljeria"
+        },
+        "EC": {
+            "name": "Ekuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Egipt"
+        },
+        "EH": {
+            "name": "Sahara ar C'hornôg"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Spagn"
+        },
+        "ES-CN": {
+            "name": "Inizi Kanariez"
+        },
+        "ET": {
+            "name": "Etiopia"
+        },
+        "FI": {
+            "name": "Finland"
+        },
+        "FJ": {
+            "name": "Fidji"
+        },
+        "FK": {
+            "name": "Inizi Falkland"
+        },
+        "FM": {
+            "name": "Mikronezia"
+        },
+        "FO": {
+            "name": "Inizi Faero"
+        },
+        "FR": {
+            "name": "Frañs"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Rouantelezh-Unanet"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Jorjia"
+        },
+        "GF": {
+            "name": "Gwiana C'hall"
+        },
+        "GG": {
+            "name": "Guernesey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Jibraltar"
+        },
+        "GL": {
+            "name": "Greunland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Ginea"
+        },
+        "GP": {
+            "name": "Gwadeloup"
+        },
+        "GQ": {
+            "name": "Ginea ar C'heheder"
+        },
+        "GR": {
+            "name": "Gres"
+        },
+        "GS": {
+            "name": "Jorjia ar Su hag Inizi Sandwich ar Su"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Ginea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Enez Heard hag Inizi McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Kroatia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hungaria"
+        },
+        "ID": {
+            "name": "Indonezia"
+        },
+        "IE": {
+            "name": "Iwerzhon"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Enez Vanav"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Tiriad breizhveurat Meurvor India"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Italia"
+        },
+        "JE": {
+            "name": "Jerzenez"
+        },
+        "JM": {
+            "name": "Jamaika"
+        },
+        "JO": {
+            "name": "Jordania"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kirgizstan"
+        },
+        "KH": {
+            "name": "Kambodja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komorez"
+        },
+        "KN": {
+            "name": "Saint Kitts ha Nevis"
+        },
+        "KP": {
+            "name": "Korea an Norzh"
+        },
+        "KR": {
+            "name": "Korea ar Su"
+        },
+        "KW": {
+            "name": "Koweit"
+        },
+        "KY": {
+            "name": "Inizi Cayman"
+        },
+        "KZ": {
+            "name": "Kazakstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Liban"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lituania"
+        },
+        "LU": {
+            "name": "Luksembourg"
+        },
+        "LV": {
+            "name": "Latvia"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Maroko"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint-Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Inizi Marshall"
+        },
+        "MK": {
+            "name": "Makedonia an Norzh"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Inizi Mariana an Norzh"
+        },
+        "MQ": {
+            "name": "Martinik"
+        },
+        "MR": {
+            "name": "Maouritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Moris"
+        },
+        "MV": {
+            "name": "Maldivez"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Meksiko"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Kaledonia Nevez"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Enez Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Izelvroioù"
+        },
+        "NO": {
+            "name": "Norvegia"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Zeland-Nevez"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Perou"
+        },
+        "PF": {
+            "name": "Polinezia C'hall"
+        },
+        "PG": {
+            "name": "Papoua Ginea-Nevez"
+        },
+        "PH": {
+            "name": "Filipinez"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polonia"
+        },
+        "PM": {
+            "name": "Sant-Pêr-ha-Mikelon"
+        },
+        "PN": {
+            "name": "Inizi Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Ar Reunion"
+        },
+        "RO": {
+            "name": "Roumania"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Rusia"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Arabia Saoudat"
+        },
+        "SB": {
+            "name": "Inizi Salomon"
+        },
+        "SC": {
+            "name": "Sechelez"
+        },
+        "SD": {
+            "name": "Soudan"
+        },
+        "SE": {
+            "name": "Sveden"
+        },
+        "SG": {
+            "name": "Singapour"
+        },
+        "SH": {
+            "name": "Sant-Helena"
+        },
+        "SI": {
+            "name": "Slovenia"
+        },
+        "SJ": {
+            "name": "Svalbard ha Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Soudan ar Su"
+        },
+        "ST": {
+            "name": "São Tomé ha Príncipe"
+        },
+        "SV": {
+            "name": "Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Siria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Inizi Turks ha Caicos"
+        },
+        "TD": {
+            "name": "Tchad"
+        },
+        "TF": {
+            "name": "Douaroù aostral Frañs"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailand"
+        },
+        "TJ": {
+            "name": "Tadjikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor ar Reter"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunizia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turkia"
+        },
+        "TT": {
+            "name": "Trinidad ha Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Ouganda"
+        },
+        "UM": {
+            "name": "Inizi bihan diabell SUA"
+        },
+        "US": {
+            "name": "Stadoù-Unanet"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Ouzbekistan"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Sant Visant hag ar Grenadinez"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Inizi Gwerc'h Breizh-Veur"
+        },
+        "VI": {
+            "name": "Inizi Gwerc'h SUA"
+        },
+        "VN": {
+            "name": "Viêt Nam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis ha Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Suafrika"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
+    },
+    "alternative": {
+        "or": "Ou",
+        "continue_as_a_guest": "Kenderc'hel evel ur c'houviad"
     }
 }
