@@ -1,19 +1,89 @@
 {
+    "default": {
+        "loading": "Carregando...",
+        "error": "Ocorreu um erro.",
+        "success": "Sucesso!"
+    },
     "actions": {
         "edit": "Editar",
         "cancel": "Cancelar",
+        "continue_shopping": "Continuar comprando",
         "back_to_checkout": "Voltar ao checkout",
-        "apply": "Aplicar"
+        "checkout": "Finalizar compra",
+        "apply": "Aplicar",
+        "dismiss": "Dispensar",
+        "type_address": "Digite seu endereço",
+        "use_this_address": "Usar este endereço",
+        "back_to_store": "Voltar à loja",
+        "close_cart": "Fechar carrinho",
+        "show": "Mostrar",
+        "hide": "Ocultar",
+        "apply_changes": "Aplicar alterações",
+        "yes_use_it": "Sim, usar",
+        "save_changes": "Salvar alterações",
+        "back_to_orders": "Voltar aos pedidos",
+        "change_password": "Alterar senha",
+        "clear_cart": "Limpar carrinho",
+        "add": "Adicionar"
     },
     "header": {
+        "title_cart_summary": "Resumo do carrinho",
+        "loading": "Carregando..."
     },
     "item": {
-        "quantity": "Quantidade"
+        "quantity": "Quantidade",
+        "quantity_short": "Qtd",
+        "decrement_quantity": "Diminuir quantidade",
+        "increment_quantity": "Aumentar quantidade",
+        "remove_item": "Remover item",
+        "recurrence": {
+            "daily": "dia |||| %{smart_count} dias",
+            "weekly": "semana |||| %{smart_count} semanas",
+            "monthly": "mês |||| %{smart_count} meses",
+            "yearly": "ano |||| %{smart_count} anos"
+        }
+    },
+    "subscription": {
+        "title": "Assinatura",
+        "state": {
+            "title": "Estado",
+            "active": "Ativa",
+            "paused": "Pausada",
+            "finished": "Finalizada",
+            "stopped": "Parada",
+            "cancellationrequested": "A assinatura será encerrada no final do período de cobrança."
+        },
+        "placed_on": "Realizada em",
+        "final_billing_date": "Última data de cobrança",
+        "items": "Itens",
+        "plan": "Plano",
+        "billed_on": "Cobrado em",
+        "payment_amount": "Valor do pagamento",
+        "processing": "A assinatura ainda está sendo processada. Volte mais tarde para ver os detalhes.",
+        "loading": "Carregando assinaturas",
+        "cancel": "Cancelar",
+        "pause": "Pausar",
+        "unpause": "Retomar",
+        "billing_recurrence": {
+            "daily": "Cobrado diariamente |||| Cobrado a cada %{smart_count} dias",
+            "weekly": "Cobrado semanalmente |||| Cobrado a cada %{smart_count} semanas",
+            "monthly": "Cobrado mensalmente |||| Cobrado a cada %{smart_count} meses",
+            "yearly": "Cobrado anualmente |||| Cobrado a cada %{smart_count} anos"
+        }
     },
     "cart": {
-        "invoice_number": "Número da fatura"
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Frete e impostos serão calculados no checkout.",
+        "loading": "Preparando seu carrinho...",
+        "secured_by": "Protegido por Snipcart",
+        "summary": "Resumo do pedido",
+        "empty": "Seu carrinho está vazio.",
+        "invoice_number": "Número da fatura",
+        "view_detailed_cart": "Ver detalhes do carrinho"
     },
     "order": {
+        "loading": "Carregando detalhes do pedido...",
+        "title": "Pedido"
     },
     "discount_box": {
         "promo_code": "Código promocional?",
@@ -21,46 +91,1083 @@
         "promocode_applied": "Promoção aplicada"
     },
     "address_form": {
-        "city": "Cidade"
+        "name": "Nome completo",
+        "email": "E-mail",
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
+        "address1": "Endereço",
+        "address2": "Complemento",
+        "city": "Cidade",
+        "country": "País",
+        "phone": "Telefone",
+        "postalCode": "CEP",
+        "province": "Estado",
+        "dont_see_address": "Não encontro meu endereço"
     },
     "billing": {
+        "title": "Faturamento",
+        "address": "Endereço de faturamento",
+        "continue_to_shipping": "Continuar para envio",
+        "use_different_shipping_address": "Usar endereço de entrega diferente"
     },
     "customer": {
+        "information": "Informações do cliente",
+        "payment_info": "Informações de pagamento",
+        "payment_method_update": {
+            "title": "Atualizar método de pagamento",
+            "outstanding_payment_failed": {
+                "title": "Pagamento falhou",
+                "description": "Atualize seu método de pagamento para continuar."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Dados do cliente"
     },
     "customer_dashboard": {
-        "ordered_on": "Pedido em"
+        "my_account": "Minha conta",
+        "ordered_on": "Pedido em",
+        "next_billing_date": "Próxima data de cobrança",
+        "price": "Preço",
+        "total": "Total",
+        "status": "Status",
+        "order": "Pedido %{invoice_number}",
+        "order_details": "Detalhes do pedido",
+        "loading": "Carregando...",
+        "no_orders": "Nenhum pedido encontrado.",
+        "no_subscriptions": "Nenhuma assinatura encontrada.",
+        "view_invoice": "Ver fatura",
+        "sign_out": "Sair",
+        "show_more_orders": "Mostrar mais %{smart_count} pedido |||| Mostrar mais %{smart_count} pedidos",
+        "show_more_subscriptions": "Mostrar mais %{smart_count} assinatura |||| Mostrar mais %{smart_count} assinaturas",
+        "orders": "Pedidos",
+        "subscriptions": "Assinaturas",
+        "subscription": "Assinatura"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Uma assinatura tem um pagamento pendente",
+                "description": "Você tem uma assinatura com pagamento pendente. Atualize seu método de pagamento."
+            }
+        }
     },
     "signin_form": {
-        "email": "Email"
+        "signin": "Entrar",
+        "dont_have_an_account": "Não tem uma conta?",
+        "email": "Email",
+        "password": "Senha",
+        "forgot_your_password": "Esqueceu sua senha?",
+        "close_form": "Voltar"
+    },
+    "forgot_password_form": {
+        "title": "Redefinir sua senha",
+        "instructions": "Digite o e-mail da sua conta e enviaremos um link para redefinir sua senha.",
+        "email": "E-mail",
+        "email_instructions": "Enviamos um e-mail com um link. Clique nele para redefinir sua senha.",
+        "action": "Enviar e-mail de redefinição de senha"
+    },
+    "reset_password_form": {
+        "title": "Redefinir sua senha",
+        "password": "Nova senha",
+        "confirmation_password": "Confirmar nova senha",
+        "action": "Redefinir senha"
+    },
+    "change_password_form": {
+        "title": "Alterar sua senha",
+        "current_password": "Senha atual",
+        "password": "Nova senha",
+        "confirmation_password": "Confirmar nova senha",
+        "action": "Alterar senha"
     },
     "register_form": {
-        "register": "Registrar"
+        "register": "Registrar",
+        "already_have_an_account": "Já tem uma conta?",
+        "email": "E-mail",
+        "password": "Senha",
+        "confirm_password": "Confirmar senha",
+        "requires_action": {
+            "title": "Verifique seu e-mail",
+            "description": "Enviamos um e-mail para você. Siga as instruções para concluir o registro."
+        }
     },
     "guest_checkout": {
         "or": "Ou",
+        "continue_as_a_guest": "Continuar como convidado",
         "method": "Método de envio"
     },
+    "shipping": {
+        "title": "Envio",
+        "shipping_to": "Enviar para:",
+        "address": "Endereço de entrega",
+        "method": "Método de envio",
+        "methods": {
+            "example_localization_id": "Exemplo de método de envio"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
+    },
     "payment": {
-        "form":{
+        "form": {
+            "deferred_payment_title": "Pagamento adiado",
+            "deferred_payment_instructions": "Ao fazer este pedido, você concorda em pagar posteriormente pelo método de pagamento especificado pelo vendedor.",
             "card_label": "Cartão de crédito",
             "card_number": "Número do cartão",
-            "card_postal_code": "Código postal"
+            "card_expiration": "MM/AA",
+            "card_cvv": "CVV",
+            "card_postal_code": "Código postal",
+            "invalid_number": "Número do cartão inválido",
+            "invalid_expiration": "Data de validade inválida",
+            "invalid_cvv": "CVV inválido",
+            "invalid_postal_code": "CEP inválido"
         },
+        "still_pending_notice": "Seu pagamento ainda está sendo processado.",
+        "title": "Pagamento",
+        "continue_to_payment": "Continuar para pagamento",
         "credit_card": "Cartão de crédito",
+        "place_order": "Finalizar pedido",
+        "preparing_payment_session": "Preparando pagamento...",
+        "processing_payment": "Processando pagamento...",
         "checkout_with": "Checkout com",
         "checkout_with_method": "Checkout com %{method}",
-        "methods":{
-            "card": "Cartão de crédito"
+        "method_icon": "Ícone %{method}",
+        "no_payment": "Nenhum pagamento é necessário para este pedido.",
+        "methods": {
+            "card": "Cartão de crédito",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pagar depois",
+            "klarna_slice_it": "Klarna parcelamento",
+            "p24": "Przelewy24",
+            "sepa_debit": "Transferência SEPA",
+            "sofort": "Transferência Sofort",
+            "deferred_payment": "Pagar depois"
         }
     },
     "discounts": {
-      "title": "Descontos"
+        "title": "Descontos"
     },
     "cart_summary": {
-      "discount": "Descontos",
-      "calculated_at_checkout": "Calculado no checkout"
+        "taxes": "Impostos",
+        "taxes_included_in_price": "Alguns itens incluem impostos no preço.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Envio",
+        "discount": "Descontos",
+        "quantity": "x",
+        "calculated_at_checkout": "Calculado no checkout"
     },
     "errors": {
-        "promocode_already_in_cart": "Este código promocional já está aplicado"
+        "default": "Ocorreu um erro. Tente novamente mais tarde ou entre em contato conosco.",
+        "promo_code_is_invalid": "Este código promocional não é válido",
+        "promocode_already_in_cart": "Este código promocional já está aplicado",
+        "promocode_isnt_applicable": "Este código promocional não pode ser aplicado",
+        "promo_code_is_expired": "Este código promocional expirou",
+        "stringEmpty": "Este campo é obrigatório",
+        "emailEmpty": "E-mail é obrigatório",
+        "required": "Este campo é obrigatório",
+        "invalid_expiry_year_past": "Cartão expirado",
+        "email": "Digite um endereço de e-mail válido",
+        "quantity_revised": "A quantidade foi ajustada devido a limitações de estoque.",
+        "quantity_out_of_stock": "Infelizmente, este item está fora de estoque. Remova-o do carrinho para continuar.",
+        "disabled_country": "Entrega para este país não está disponível.",
+        "error_payment_items_are_invalid": {
+            "title": "Alguns itens no seu carrinho são inválidos.",
+            "description": "Revise seu pedido ou tente novamente mais tarde."
+        },
+        "card": {
+            "invalid_number": "O número do cartão é inválido.",
+            "invalid_date": "A data de validade do cartão é inválida.",
+            "invalid_year": "O ano de validade do cartão é inválido.",
+            "invalid_month": "O mês de validade do cartão é inválido.",
+            "invalid_cvv": "O CVV do cartão é inválido.",
+            "invalid_expiration": "A data de validade do cartão é inválida.",
+            "expired": "O cartão expirou.",
+            "declined": "O cartão foi recusado. Entre em contato com a operadora do cartão.",
+            "invalid_address": "O endereço do cartão é inválido.",
+            "insufficient_funds": "Saldo insuficiente para cobrir o valor da transação.",
+            "card_not_supported": "Este cartão não é aceito nesta região.",
+            "currency_not_supported": "Esta moeda não é aceita no momento."
+        },
+        "transaction": {
+            "declined": "Ocorreu um erro ao processar o cartão. Tente novamente mais tarde ou use outro método de pagamento."
+        },
+        "discounts": {
+            "conflict": "Alguns descontos não podem ser combinados. Usar este desconto?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "O pedido não pôde ser processado.",
+                "description": "Nenhuma cobrança foi realizada. Entre em contato com o proprietário da loja."
+            },
+            "product_crawling": {
+                "title": "Os preços dos produtos no carrinho podem ter sido alterados.",
+                "description": "Tente remover e adicionar novamente os itens ao carrinho."
+            },
+            "stock_validation": {
+                "title": "Estoque indisponível.",
+                "description": "Alguns produtos podem estar fora de estoque na quantidade selecionada. Ajuste as quantidades."
+            },
+            "custom_fields_validation": {
+                "title": "Informações obrigatórias ausentes.",
+                "description": "Alguns produtos no carrinho não possuem informações obrigatórias. Edite o carrinho para continuar."
+            },
+            "shipping_validation": {
+                "title": "Não foi possível validar o método de envio.",
+                "description": "O frete selecionado pode ter mudado ou não está mais disponível."
+            }
+        },
+        "invalid_address": "O endereço é inválido.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Nenhum método de envio disponível no momento",
+                "description": "Tente novamente mais tarde ou entre em contato conosco."
+            },
+            "rates_calculation": {
+                "title": "Não foi possível calcular o frete para seu pedido",
+                "description": "Tente novamente mais tarde ou entre em contato conosco."
+            },
+            "no_rates_found": {
+                "title": "Nenhum método de envio disponível para seu pedido",
+                "description": "Verifique seu endereço de entrega ou entre em contato conosco."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Entrega para este país não é suportada.",
+            "E.ENGINE.UNAVAILABLE": "Serviço de entrega indisponível. Tente novamente mais tarde.",
+            "E.QUERY.UNANSWERABLE": "Não foi possível verificar o endereço. Verifique seus dados.",
+            "E.ADDRESS.NOT_FOUND": "Endereço não encontrado.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informações adicionais do endereço são inválidas.",
+            "E.SECONDARY_INFORMATION.MISSING": "Informações adicionais do endereço estão faltando.",
+            "E.HOUSE_NUMBER.MISSING": "Número da casa está faltando.",
+            "E.HOUSE_NUMBER.INVALID": "Número da casa é inválido.",
+            "E.STREET.MISSING": "Nome da rua está faltando.",
+            "E.STREET.INVALID": "Nome da rua é inválido.",
+            "E.BOX_NUMBER.MISSING": "Número da caixa postal está faltando.",
+            "E.BOX_NUMBER.INVALID": "Número da caixa postal é inválido.",
+            "E.ADDRESS.INVALID": "Endereço é inválido.",
+            "E.ZIP.NOT_FOUND": "CEP não encontrado.",
+            "E.ZIP.INVALID": "CEP é inválido.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Extensão do CEP não encontrada.",
+            "E.ADDRESS.MULTIPLE": "Vários endereços encontrados. Forneça um endereço mais específico.",
+            "E.ADDRESS.INSUFFICIENT": "Informações do endereço estão incompletas.",
+            "E.ADDRESS.DUAL": "O endereço contém informações conflitantes.",
+            "E.STREET.MAGNET": "Não foi possível verificar o nome da rua.",
+            "E.CITY_STATE.INVALID": "Cidade ou estado é inválido.",
+            "E.STATE.INVALID": "Estado é inválido.",
+            "E.ADDRESS.DELIVERY.INVALID": "Endereço de entrega é inválido.",
+            "E.TIMED_OUT": "Tempo esgotado na verificação do endereço. Tente novamente.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
+            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para caixa postal não é possível."
+        },
+        "payment_failed": {
+            "title": "Não foi possível processar o pagamento",
+            "description": "Tente novamente mais tarde ou entre em contato conosco."
+        },
+        "payment_authorization": {
+            "title": "Não foi possível processar o pagamento",
+            "default": "Verifique as informações de faturamento e pagamento."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Não foi possível processar o pagamento",
+                "description": "Não conseguimos autenticar suas informações de pagamento. Tente novamente."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "O carrinho pode conter apenas uma assinatura.",
+                "description": "Remova a assinatura existente antes de adicionar uma nova."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "O carrinho pode conter itens ou assinaturas.",
+                "description": "Remova os itens existentes antes de adicionar uma assinatura, ou vice-versa."
+            }
+        },
+        "customer_exists": "Este e-mail já está em uso.",
+        "customer_password_missmatch": "As senhas devem ser iguais.",
+        "customer_password_token_expired": "O link de redefinição de senha expirou. Solicite um novo.",
+        "customer_password_token_invalid": "O link de redefinição de senha é inválido.",
+        "customer_not_found": "Este e-mail não está associado a nenhuma conta.",
+        "invalid_credentials": "E-mail ou senha inválidos.",
+        "customer_current_password_invalid": "Senha incorreta."
+    },
+    "shippingRates": {
+        "loading": "Carregando..."
+    },
+    "customer_orders": {
+        "loading": "Carregando..."
+    },
+    "digital_goods": {
+        "download": "Baixar"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Obrigado pelo seu pedido",
+        "async_confirmation_notice": "Seu pedido foi recebido e está sendo processado. Você receberá uma confirmação em breve."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Frete e impostos serão calculados após informar o endereço."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Emirados Árabes Unidos"
+        },
+        "AF": {
+            "name": "Afeganistão"
+        },
+        "AG": {
+            "name": "Antígua e Barbuda"
+        },
+        "AI": {
+            "name": "Anguila"
+        },
+        "AL": {
+            "name": "Albânia"
+        },
+        "AM": {
+            "name": "Armênia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antártida"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Samoa Americana"
+        },
+        "AT": {
+            "name": "Áustria"
+        },
+        "AU": {
+            "name": "Austrália"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Ilhas Åland"
+        },
+        "AZ": {
+            "name": "Azerbaijão"
+        },
+        "BA": {
+            "name": "Bósnia e Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Bélgica"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgária"
+        },
+        "BH": {
+            "name": "Bahrein"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "São Bartolomeu"
+        },
+        "BM": {
+            "name": "Bermudas"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolívia"
+        },
+        "BQ": {
+            "name": "Países Baixos Caribenhos"
+        },
+        "BR": {
+            "name": "Brasil"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Butão"
+        },
+        "BV": {
+            "name": "Ilha Bouvet"
+        },
+        "BW": {
+            "name": "Botsuana"
+        },
+        "BY": {
+            "name": "Bielorrússia"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canadá"
+        },
+        "CC": {
+            "name": "Ilhas Cocos"
+        },
+        "CD": {
+            "name": "República Democrática do Congo"
+        },
+        "CF": {
+            "name": "República Centro-Africana"
+        },
+        "CG": {
+            "name": "República do Congo"
+        },
+        "CH": {
+            "name": "Suíça"
+        },
+        "CI": {
+            "name": "Costa do Marfim"
+        },
+        "CK": {
+            "name": "Ilhas Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Camarões"
+        },
+        "CN": {
+            "name": "China"
+        },
+        "CO": {
+            "name": "Colômbia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Cuba"
+        },
+        "CV": {
+            "name": "Cabo Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Ilha Christmas"
+        },
+        "CY": {
+            "name": "Chipre"
+        },
+        "CZ": {
+            "name": "Tchéquia"
+        },
+        "DE": {
+            "name": "Alemanha"
+        },
+        "DJ": {
+            "name": "Djibuti"
+        },
+        "DK": {
+            "name": "Dinamarca"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "República Dominicana"
+        },
+        "DZ": {
+            "name": "Argélia"
+        },
+        "EC": {
+            "name": "Equador"
+        },
+        "EE": {
+            "name": "Estônia"
+        },
+        "EG": {
+            "name": "Egito"
+        },
+        "EH": {
+            "name": "Saara Ocidental"
+        },
+        "ER": {
+            "name": "Eritreia"
+        },
+        "ES": {
+            "name": "Espanha"
+        },
+        "ES-CN": {
+            "name": "Ilhas Canárias"
+        },
+        "ET": {
+            "name": "Etiópia"
+        },
+        "FI": {
+            "name": "Finlândia"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Ilhas Malvinas"
+        },
+        "FM": {
+            "name": "Micronésia"
+        },
+        "FO": {
+            "name": "Ilhas Faroé"
+        },
+        "FR": {
+            "name": "França"
+        },
+        "GA": {
+            "name": "Gabão"
+        },
+        "GB": {
+            "name": "Reino Unido"
+        },
+        "GD": {
+            "name": "Granada"
+        },
+        "GE": {
+            "name": "Geórgia"
+        },
+        "GF": {
+            "name": "Guiana Francesa"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Groenlândia"
+        },
+        "GM": {
+            "name": "Gâmbia"
+        },
+        "GN": {
+            "name": "Guiné"
+        },
+        "GP": {
+            "name": "Guadalupe"
+        },
+        "GQ": {
+            "name": "Guiné Equatorial"
+        },
+        "GR": {
+            "name": "Grécia"
+        },
+        "GS": {
+            "name": "Geórgia do Sul e Ilhas Sandwich do Sul"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guiné-Bissau"
+        },
+        "GY": {
+            "name": "Guiana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Ilhas Heard e McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Croácia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hungria"
+        },
+        "ID": {
+            "name": "Indonésia"
+        },
+        "IE": {
+            "name": "Irlanda"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Ilha de Man"
+        },
+        "IN": {
+            "name": "Índia"
+        },
+        "IO": {
+            "name": "Território Britânico do Oceano Índico"
+        },
+        "IQ": {
+            "name": "Iraque"
+        },
+        "IR": {
+            "name": "Irã"
+        },
+        "IS": {
+            "name": "Islândia"
+        },
+        "IT": {
+            "name": "Itália"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordânia"
+        },
+        "JP": {
+            "name": "Japão"
+        },
+        "KE": {
+            "name": "Quênia"
+        },
+        "KG": {
+            "name": "Quirguistão"
+        },
+        "KH": {
+            "name": "Camboja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comores"
+        },
+        "KN": {
+            "name": "São Cristóvão e Névis"
+        },
+        "KP": {
+            "name": "Coreia do Norte"
+        },
+        "KR": {
+            "name": "Coreia do Sul"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Ilhas Cayman"
+        },
+        "KZ": {
+            "name": "Cazaquistão"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Líbano"
+        },
+        "LC": {
+            "name": "Santa Lúcia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Libéria"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Lituânia"
+        },
+        "LU": {
+            "name": "Luxemburgo"
+        },
+        "LV": {
+            "name": "Letônia"
+        },
+        "LY": {
+            "name": "Líbia"
+        },
+        "MA": {
+            "name": "Marrocos"
+        },
+        "MC": {
+            "name": "Mônaco"
+        },
+        "MD": {
+            "name": "Moldávia"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "São Martinho"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Ilhas Marshall"
+        },
+        "MK": {
+            "name": "Macedônia do Norte"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Mianmar"
+        },
+        "MN": {
+            "name": "Mongólia"
+        },
+        "MO": {
+            "name": "Macau"
+        },
+        "MP": {
+            "name": "Ilhas Marianas do Norte"
+        },
+        "MQ": {
+            "name": "Martinica"
+        },
+        "MR": {
+            "name": "Mauritânia"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Maurício"
+        },
+        "MV": {
+            "name": "Maldivas"
+        },
+        "MW": {
+            "name": "Maláui"
+        },
+        "MX": {
+            "name": "México"
+        },
+        "MY": {
+            "name": "Malásia"
+        },
+        "MZ": {
+            "name": "Moçambique"
+        },
+        "NA": {
+            "name": "Namíbia"
+        },
+        "NC": {
+            "name": "Nova Caledônia"
+        },
+        "NE": {
+            "name": "Níger"
+        },
+        "NF": {
+            "name": "Ilha Norfolk"
+        },
+        "NG": {
+            "name": "Nigéria"
+        },
+        "NI": {
+            "name": "Nicarágua"
+        },
+        "NL": {
+            "name": "Países Baixos"
+        },
+        "NO": {
+            "name": "Noruega"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Nova Zelândia"
+        },
+        "OM": {
+            "name": "Omã"
+        },
+        "PA": {
+            "name": "Panamá"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Polinésia Francesa"
+        },
+        "PG": {
+            "name": "Papua-Nova Guiné"
+        },
+        "PH": {
+            "name": "Filipinas"
+        },
+        "PK": {
+            "name": "Paquistão"
+        },
+        "PL": {
+            "name": "Polônia"
+        },
+        "PM": {
+            "name": "São Pedro e Miquelão"
+        },
+        "PN": {
+            "name": "Ilhas Pitcairn"
+        },
+        "PR": {
+            "name": "Porto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguai"
+        },
+        "QA": {
+            "name": "Catar"
+        },
+        "RE": {
+            "name": "Reunião"
+        },
+        "RO": {
+            "name": "Romênia"
+        },
+        "RS": {
+            "name": "Sérvia"
+        },
+        "RU": {
+            "name": "Rússia"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Arábia Saudita"
+        },
+        "SB": {
+            "name": "Ilhas Salomão"
+        },
+        "SC": {
+            "name": "Seicheles"
+        },
+        "SD": {
+            "name": "Sudão"
+        },
+        "SE": {
+            "name": "Suécia"
+        },
+        "SG": {
+            "name": "Singapura"
+        },
+        "SH": {
+            "name": "Santa Helena"
+        },
+        "SI": {
+            "name": "Eslovênia"
+        },
+        "SJ": {
+            "name": "Svalbard e Jan Mayen"
+        },
+        "SK": {
+            "name": "Eslováquia"
+        },
+        "SL": {
+            "name": "Serra Leoa"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somália"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Sudão do Sul"
+        },
+        "ST": {
+            "name": "São Tomé e Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Síria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Ilhas Turcas e Caicos"
+        },
+        "TD": {
+            "name": "Chade"
+        },
+        "TF": {
+            "name": "Territórios Franceses do Sul"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tailândia"
+        },
+        "TJ": {
+            "name": "Tajiquistão"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor-Leste"
+        },
+        "TM": {
+            "name": "Turcomenistão"
+        },
+        "TN": {
+            "name": "Tunísia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turquia"
+        },
+        "TT": {
+            "name": "Trinidad e Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzânia"
+        },
+        "UA": {
+            "name": "Ucrânia"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Ilhas Menores Distantes dos EUA"
+        },
+        "US": {
+            "name": "Estados Unidos"
+        },
+        "UY": {
+            "name": "Uruguai"
+        },
+        "UZ": {
+            "name": "Uzbequistão"
+        },
+        "VA": {
+            "name": "Vaticano"
+        },
+        "VC": {
+            "name": "São Vicente e Granadinas"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Ilhas Virgens Britânicas"
+        },
+        "VI": {
+            "name": "Ilhas Virgens Americanas"
+        },
+        "VN": {
+            "name": "Vietnã"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis e Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Iêmen"
+        },
+        "YT": {
+            "name": "Maiote"
+        },
+        "ZA": {
+            "name": "África do Sul"
+        },
+        "ZM": {
+            "name": "Zâmbia"
+        },
+        "ZW": {
+            "name": "Zimbábue"
+        }
     }
 }

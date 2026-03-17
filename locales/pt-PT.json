@@ -1,38 +1,94 @@
 {
     "actions": {
+        "edit": "Editar",
+        "cancel": "Cancelar",
         "continue_shopping": "Continuar a comprar",
+        "back_to_checkout": "Voltar ao checkout",
+        "checkout": "Finalizar encomenda",
         "apply": "Aplicar",
+        "dismiss": "Dispensar",
         "type_address": "Insira a sua morada",
         "use_this_address": "Use esta morada",
         "back_to_store": "Voltar à loja",
-        "close_cart": "Fechar carrinho"
+        "close_cart": "Fechar carrinho",
+        "show": "Mostrar",
+        "hide": "Ocultar",
+        "apply_changes": "Aplicar alterações",
+        "yes_use_it": "Sim, usar",
+        "save_changes": "Guardar alterações",
+        "back_to_orders": "Voltar às encomendas",
+        "change_password": "Alterar palavra-passe",
+        "clear_cart": "Limpar cesto",
+        "add": "Adicionar"
     },
     "header": {
         "title_cart_summary": "Sumário do carrinho",
         "loading": "A carregar..."
     },
     "item": {
+        "quantity": "Quantidade",
         "quantity_short": "Qt.",
         "decrement_quantity": "Diminuir quantidade",
         "increment_quantity": "Aumentar quantidade",
-        "remove_item": "Remover item"
+        "remove_item": "Remover item",
+        "recurrence": {
+            "daily": "dia |||| %{smart_count} dias",
+            "weekly": "semana |||| %{smart_count} semanas",
+            "monthly": "mês |||| %{smart_count} meses",
+            "yearly": "ano |||| %{smart_count} anos"
+        }
+    },
+    "subscription": {
+        "title": "Subscrição",
+        "state": {
+            "title": "Estado",
+            "active": "Ativa",
+            "paused": "Pausada",
+            "finished": "Finalizada",
+            "stopped": "Parada",
+            "cancellationrequested": "A subscrição será encerrada no final do período de faturação."
+        },
+        "placed_on": "Realizada em",
+        "final_billing_date": "Última data de faturação",
+        "items": "Itens",
+        "plan": "Plano",
+        "billed_on": "Faturado em",
+        "payment_amount": "Valor do pagamento",
+        "processing": "A subscrição ainda está a ser processada. Volte mais tarde para ver os detalhes.",
+        "loading": "A carregar subscrições",
+        "cancel": "Cancelar",
+        "pause": "Pausar",
+        "unpause": "Retomar",
+        "billing_recurrence": {
+            "daily": "Faturado diariamente |||| Faturado a cada %{smart_count} dias",
+            "weekly": "Faturado semanalmente |||| Faturado a cada %{smart_count} semanas",
+            "monthly": "Faturado mensalmente |||| Faturado a cada %{smart_count} meses",
+            "yearly": "Faturado anualmente |||| Faturado a cada %{smart_count} anos"
+        }
     },
     "cart": {
+        "subtotal": "Subtotal",
         "shipping_taxes_calculated_at_checkout": "Portes de envio serão calculados durante o checkout.",
         "loading": "Estamos a preparar o seu carrinho...",
         "secured_by": "Plataforma segura por Snipcart",
         "summary": "A sua compra",
-        "empty": "O seu carrinho de compras está vazio."
+        "empty": "O seu carrinho de compras está vazio.",
+        "invoice_number": "Número da fatura",
+        "view_detailed_cart": "Ver detalhes do cesto"
     },
     "order": {
         "loading": "Estamos a obter os detalhes da sua encomenda..."
     },
     "address_form": {
         "name": "Nome",
+        "email": "E-mail",
+        "firstName": "Nome",
+        "lastName": "Apelido",
         "address1": "Morada",
         "address2": "Número",
         "city": "Cidade",
         "country": "País",
+        "phone": "Telefone",
         "postalCode": "Código Postal",
         "province": "Distrito",
         "dont_see_address": "Não encontro a minha morada..."
@@ -44,78 +100,301 @@
         "use_different_shipping_address": "Usar uma morada de envio diferente da facturação"
     },
     "customer": {
-        "information": "Informação de cliente"
+        "information": "Informação de cliente",
+        "payment_info": "Informações de pagamento",
+        "payment_method_update": {
+            "title": "Atualizar método de pagamento",
+            "outstanding_payment_failed": {
+                "title": "Pagamento falhou",
+                "description": "Atualize o seu método de pagamento para continuar."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Dados do cliente"
     },
     "customer_dashboard": {
+        "my_account": "A minha conta",
         "ordered_on": "Pedido em",
+        "next_billing_date": "Próxima data de faturação",
+        "price": "Preço",
+        "total": "Total",
         "status": "Estado",
         "order": "Encomenda %{invoice_number}",
         "order_details": "Detalhes da encomenda",
         "loading": "A carregar...",
-        "no_orders": "Sem encomendas no registo."
+        "no_orders": "Sem encomendas no registo.",
+        "no_subscriptions": "Nenhuma subscrição encontrada.",
+        "view_invoice": "Ver fatura",
+        "sign_out": "Sair",
+        "show_more_orders": "Mostrar mais %{smart_count} encomenda |||| Mostrar mais %{smart_count} encomendas",
+        "show_more_subscriptions": "Mostrar mais %{smart_count} subscrição |||| Mostrar mais %{smart_count} subscrições",
+        "orders": "Encomendas",
+        "subscriptions": "Subscrições",
+        "subscription": "Subscrição"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Uma subscrição tem um pagamento pendente",
+                "description": "Tem uma subscrição com pagamento pendente. Atualize o seu método de pagamento."
+            }
+        }
     },
     "signin_form": {
         "signin": "Log in",
         "dont_have_an_account": "Não tenho conta",
+        "email": "E-mail",
+        "password": "Palavra-passe",
         "forgot_your_password": "Esqueceu a sua password?",
         "close_form": "Voltar"
+    },
+    "forgot_password_form": {
+        "title": "Redefinir a sua palavra-passe",
+        "instructions": "Introduza o e-mail da sua conta e enviaremos uma ligação para redefinir a sua palavra-passe.",
+        "email": "E-mail",
+        "email_instructions": "Enviámos um e-mail com uma ligação. Clique nela para redefinir a sua palavra-passe.",
+        "action": "Enviar e-mail de redefinição de palavra-passe"
+    },
+    "reset_password_form": {
+        "title": "Redefinir a sua palavra-passe",
+        "password": "Nova palavra-passe",
+        "confirmation_password": "Confirmar nova palavra-passe",
+        "action": "Redefinir palavra-passe"
+    },
+    "change_password_form": {
+        "title": "Alterar a sua palavra-passe",
+        "current_password": "Palavra-passe atual",
+        "password": "Nova palavra-passe",
+        "confirmation_password": "Confirmar nova palavra-passe",
+        "action": "Alterar palavra-passe"
     },
     "register_form": {
         "register": "Registar",
         "already_have_an_account": "Já tem uma conta connosco?",
-        "confirm_password": "Confirmar password"
+        "email": "E-mail",
+        "password": "Palavra-passe",
+        "confirm_password": "Confirmar password",
+        "requires_action": {
+            "title": "Verifique o seu e-mail",
+            "description": "Enviámos-lhe um e-mail. Siga as instruções para concluir o registo."
+        }
     },
     "guest_checkout": {
+        "or": "Ou",
         "continue_as_a_guest": "Continue a comprar como convidado"
     },
     "shipping": {
         "title": "Portes de envio",
         "shipping_to": "Enviar para:",
-        "address": "Morada de envio"
+        "address": "Morada de envio",
+        "method": "Método de envio",
+        "methods": {
+            "example_localization_id": "Exemplo de método de envio"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
     },
     "payment": {
+        "form": {
+            "deferred_payment_title": "Pagamento diferido",
+            "deferred_payment_instructions": "Ao efetuar esta encomenda, concorda em pagar posteriormente pelo método de pagamento especificado pelo vendedor.",
+            "card_label": "Cartão de crédito",
+            "card_number": "Número do cartão",
+            "card_expiration": "MM/AA",
+            "card_cvv": "CVV",
+            "card_postal_code": "Código postal",
+            "invalid_number": "Número do cartão inválido",
+            "invalid_expiration": "Data de validade inválida",
+            "invalid_cvv": "CVV inválido",
+            "invalid_postal_code": "Código postal inválido"
+        },
+        "still_pending_notice": "O seu pagamento ainda está a ser processado.",
         "title": "Pagamento",
         "continue_to_payment": "Continuar para pagamento",
+        "credit_card": "Cartão de crédito",
         "place_order": "Comprar",
         "preparing_payment_session": "A preparar...",
         "processing_payment": "A processar o pagamento...",
-        "methods":{
-            "card": "Cartão de crédito"
+        "checkout_with": "Pagar com",
+        "checkout_with_method": "Pagar com %{method}",
+        "method_icon": "Ícone %{method}",
+        "no_payment": "Nenhum pagamento é necessário para esta encomenda.",
+        "methods": {
+            "card": "Cartão de crédito",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna pagar depois",
+            "klarna_slice_it": "Klarna prestações",
+            "p24": "Przelewy24",
+            "sepa_debit": "Transferência SEPA",
+            "sofort": "Transferência Sofort",
+            "deferred_payment": "Pagar depois"
         }
     },
+    "discounts": {
+        "title": "Descontos"
+    },
     "cart_summary": {
-      "shipping": "Portes",
-      "discount": "Descontos",
-      "calculated_at_checkout": "Calculado durante o checkout"
+        "taxes": "Impostos",
+        "taxes_included_in_price": "Alguns artigos incluem impostos no preço.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Portes",
+        "discount": "Descontos",
+        "quantity": "x",
+        "calculated_at_checkout": "Calculado durante o checkout"
     },
     "errors": {
-      "default": "Ocorreu um erro",
-
-      "promo_code_is_invalid": "O código promocional não é válido.",
-      "promocode_already_in_cart": "Este código promocional já está aplicado",
-      "promocode_isnt_applicable": "Este código promocional não é aplicável a esta encomenda",
-      "promo_code_is_expired": "Esta promoção já expirou",
-      "stringEmpty": "Campo de preenchimento obrigatório",
-      "required": "Campo de preenchimento obrigatório",
-      "invalid_expiry_year_past": "Cartão de crédito expirado",
-      "email": "Por favor insira um endereço de email válido",
-      
-      "payment_failed": {
-          "title": "Não foi possível processar o pagamento.",
-          "description": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
-      },
-      
-      "payment_authorization": {
-          "title":"Não foi possível processar o pagamento",
-          
-          "default": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
-      },
-      "customer_exists": "Já foi criada uma conta com este email.",
-      "customer_password_missmatch": "As duas passwords inseridas não coincidem.",
-      "invalid_credentials": "Email ou password inválidas."
+        "default": "Ocorreu um erro",
+        "promo_code_is_invalid": "O código promocional não é válido.",
+        "promocode_already_in_cart": "Este código promocional já está aplicado",
+        "promocode_isnt_applicable": "Este código promocional não é aplicável a esta encomenda",
+        "promo_code_is_expired": "Esta promoção já expirou",
+        "stringEmpty": "Campo de preenchimento obrigatório",
+        "emailEmpty": "E-mail é obrigatório",
+        "required": "Campo de preenchimento obrigatório",
+        "invalid_expiry_year_past": "Cartão de crédito expirado",
+        "email": "Por favor insira um endereço de email válido",
+        "quantity_revised": "A quantidade foi ajustada devido a limitações de stock.",
+        "quantity_out_of_stock": "Infelizmente, este artigo está esgotado. Remova-o do cesto para continuar.",
+        "disabled_country": "Entrega para este país não está disponível.",
+        "error_payment_items_are_invalid": {
+            "title": "Alguns artigos no seu cesto são inválidos.",
+            "description": "Reveja a sua encomenda ou tente novamente mais tarde."
+        },
+        "card": {
+            "invalid_number": "O número do cartão é inválido.",
+            "invalid_date": "A data de validade do cartão é inválida.",
+            "invalid_year": "O ano de validade do cartão é inválido.",
+            "invalid_month": "O mês de validade do cartão é inválido.",
+            "invalid_cvv": "O CVV do cartão é inválido.",
+            "invalid_expiration": "A data de validade do cartão é inválida.",
+            "expired": "O cartão expirou.",
+            "declined": "O cartão foi recusado. Contacte a operadora do cartão.",
+            "invalid_address": "A morada do cartão é inválida.",
+            "insufficient_funds": "Saldo insuficiente para cobrir o valor da transação.",
+            "card_not_supported": "Este cartão não é aceite nesta região.",
+            "currency_not_supported": "Esta moeda não é aceite de momento."
+        },
+        "transaction": {
+            "declined": "Ocorreu um erro ao processar o cartão. Tente novamente mais tarde ou use outro método de pagamento."
+        },
+        "discounts": {
+            "conflict": "Alguns descontos não podem ser combinados. Usar este desconto?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "A encomenda não pôde ser processada.",
+                "description": "Nenhuma cobrança foi efetuada. Contacte o proprietário da loja."
+            },
+            "product_crawling": {
+                "title": "Os preços dos produtos no cesto podem ter sido alterados.",
+                "description": "Tente remover e adicionar novamente os artigos ao cesto."
+            },
+            "stock_validation": {
+                "title": "Stock indisponível.",
+                "description": "Alguns produtos podem estar esgotados na quantidade selecionada. Ajuste as quantidades."
+            },
+            "custom_fields_validation": {
+                "title": "Informações obrigatórias em falta.",
+                "description": "Alguns produtos no cesto não possuem informações obrigatórias. Edite o cesto para continuar."
+            },
+            "shipping_validation": {
+                "title": "Não foi possível validar o método de envio.",
+                "description": "O portes selecionado pode ter mudado ou já não está disponível."
+            }
+        },
+        "invalid_address": "A morada é inválida.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Nenhum método de envio disponível de momento",
+                "description": "Tente novamente mais tarde ou contacte-nos."
+            },
+            "rates_calculation": {
+                "title": "Não foi possível calcular os portes para a sua encomenda",
+                "description": "Tente novamente mais tarde ou contacte-nos."
+            },
+            "no_rates_found": {
+                "title": "Nenhum método de envio disponível para a sua encomenda",
+                "description": "Verifique a sua morada de entrega ou contacte-nos."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Entrega para este país não é suportada.",
+            "E.ENGINE.UNAVAILABLE": "Serviço de entrega indisponível. Tente novamente mais tarde.",
+            "E.QUERY.UNANSWERABLE": "Não foi possível verificar a morada. Verifique os seus dados.",
+            "E.ADDRESS.NOT_FOUND": "Morada não encontrada.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informações adicionais da morada são inválidas.",
+            "E.SECONDARY_INFORMATION.MISSING": "Informações adicionais da morada estão em falta.",
+            "E.HOUSE_NUMBER.MISSING": "Número da porta está em falta.",
+            "E.HOUSE_NUMBER.INVALID": "Número da porta é inválido.",
+            "E.STREET.MISSING": "Nome da rua está em falta.",
+            "E.STREET.INVALID": "Nome da rua é inválido.",
+            "E.BOX_NUMBER.MISSING": "Número do apartado está em falta.",
+            "E.BOX_NUMBER.INVALID": "Número do apartado é inválido.",
+            "E.ADDRESS.INVALID": "Morada é inválida.",
+            "E.ZIP.NOT_FOUND": "Código postal não encontrado.",
+            "E.ZIP.INVALID": "Código postal é inválido.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Extensão do código postal não encontrada.",
+            "E.ADDRESS.MULTIPLE": "Várias moradas encontradas. Forneça uma morada mais específica.",
+            "E.ADDRESS.INSUFFICIENT": "Informações da morada estão incompletas.",
+            "E.ADDRESS.DUAL": "A morada contém informações conflituantes.",
+            "E.STREET.MAGNET": "Não foi possível verificar o nome da rua.",
+            "E.CITY_STATE.INVALID": "Cidade ou distrito é inválido.",
+            "E.STATE.INVALID": "Distrito é inválido.",
+            "E.ADDRESS.DELIVERY.INVALID": "Morada de entrega é inválida.",
+            "E.TIMED_OUT": "Tempo esgotado na verificação da morada. Tente novamente.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
+            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para apartado não é possível."
+        },
+        "payment_failed": {
+            "title": "Não foi possível processar o pagamento.",
+            "description": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
+        },
+        "payment_authorization": {
+            "title": "Não foi possível processar o pagamento",
+            "default": "Por favor reveja os dados inseridos ou tente mais tarde novamente."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Não foi possível processar o pagamento",
+                "description": "Não conseguimos autenticar as suas informações de pagamento. Tente novamente."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "O cesto pode conter apenas uma subscrição.",
+                "description": "Remova a subscrição existente antes de adicionar uma nova."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "O cesto pode conter artigos ou subscrições.",
+                "description": "Remova os artigos existentes antes de adicionar uma subscrição, ou vice-versa."
+            }
+        },
+        "customer_exists": "Já foi criada uma conta com este email.",
+        "customer_password_missmatch": "As duas passwords inseridas não coincidem.",
+        "customer_password_token_expired": "A ligação de redefinição de palavra-passe expirou. Solicite uma nova.",
+        "customer_password_token_invalid": "A ligação de redefinição de palavra-passe é inválida.",
+        "customer_not_found": "Este e-mail não está associado a nenhuma conta.",
+        "invalid_credentials": "Email ou password inválidas.",
+        "customer_current_password_invalid": "Palavra-passe incorreta."
+    },
+    "shippingRates": {
+        "loading": "A carregar..."
     },
     "customer_orders": {
         "loading": "A carregar..."
+    },
+    "digital_goods": {
+        "download": "Transferir"
     },
     "confirmation": {
         "thank_you_for_your_order": "Muito obrigado pela sua encomenda.",
