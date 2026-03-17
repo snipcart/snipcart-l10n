@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Naglo-load...",
+        "error": "May naganap na error.",
+        "success": "Tagumpay!"
+    },
+    "actions": {
+        "edit": "I-edit",
+        "cancel": "Kanselahin",
+        "continue_shopping": "Magpatuloy sa pamimili",
+        "back_to_checkout": "Bumalik sa checkout",
+        "checkout": "Checkout",
+        "apply": "Ilapat",
+        "dismiss": "I-dismiss",
+        "type_address": "I-type ang iyong address",
+        "use_this_address": "Gamitin ang address na ito",
+        "back_to_store": "Bumalik sa tindahan",
+        "close_cart": "Isara ang cart",
+        "show": "Ipakita",
+        "hide": "Itago",
+        "apply_changes": "Ilapat ang mga pagbabago",
+        "yes_use_it": "Oo, gamitin ito",
+        "save_changes": "I-save ang mga pagbabago",
+        "back_to_orders": "Bumalik sa mga order",
+        "change_password": "Palitan ang password",
+        "clear_cart": "I-clear ang cart",
+        "add": "Idagdag"
+    },
+    "header": {
+        "title_cart_summary": "Buod ng cart",
+        "loading": "Naglo-load..."
+    },
+    "item": {
+        "quantity": "Dami",
+        "quantity_short": "Qty",
+        "decrement_quantity": "Bawasan ang dami",
+        "increment_quantity": "Dagdagan ang dami",
+        "remove_item": "Alisin ang item",
+        "recurrence": {
+            "daily": "araw |||| %{smart_count} araw",
+            "weekly": "linggo |||| %{smart_count} linggo",
+            "monthly": "buwan |||| %{smart_count} buwan",
+            "yearly": "taon |||| %{smart_count} taon"
+        }
+    },
+    "subscription": {
+        "title": "Subscription",
+        "state": {
+            "title": "Katayuan",
+            "active": "Aktibo",
+            "paused": "Naka-pause",
+            "finished": "Tapos na",
+            "stopped": "Nahinto",
+            "cancellationrequested": "Ang subscription ay hihinto sa katapusan ng billing cycle."
+        },
+        "placed_on": "Sinimulan noong",
+        "final_billing_date": "Huling petsa ng billing",
+        "items": "Mga item",
+        "plan": "Plano",
+        "billed_on": "Siningil noong",
+        "payment_amount": "Halaga ng bayad",
+        "processing": "Pinoproseso pa ang subscription. Bumalik mamaya para makita ang mga detalye.",
+        "loading": "Naglo-load ng mga subscription",
+        "cancel": "Kanselahin",
+        "pause": "I-pause",
+        "unpause": "Ipagpatuloy",
+        "billing_recurrence": {
+            "daily": "Sinisingil araw-araw |||| Sinisingil bawat %{smart_count} araw",
+            "weekly": "Sinisingil linggo-linggo |||| Sinisingil bawat %{smart_count} linggo",
+            "monthly": "Sinisingil buwan-buwan |||| Sinisingil bawat %{smart_count} buwan",
+            "yearly": "Sinisingil taon-taon |||| Sinisingil bawat %{smart_count} taon"
+        }
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Ang shipping at buwis ay kakalkulahin sa checkout.",
+        "loading": "Inihahanda ang iyong cart...",
+        "secured_by": "Secured by Snipcart",
+        "summary": "Buod ng order",
+        "empty": "Walang laman ang iyong cart.",
+        "invoice_number": "Numero ng invoice",
+        "view_detailed_cart": "Tingnan ang detalyadong cart"
+    },
+    "order": {
+        "loading": "Kinukuha ang mga detalye ng iyong order...",
+        "title": "Order"
+    },
+    "discount_box": {
+        "promo_code": "Promo code?",
+        "promo_code_placeholder": "Promo code",
+        "promocode_applied": "Nailapat na ang promo"
+    },
+    "address_form": {
+        "name": "Buong pangalan",
+        "email": "Email",
+        "firstName": "Unang pangalan",
+        "lastName": "Apelyido",
+        "address1": "Address",
+        "address2": "Apt/Suite",
+        "city": "Lungsod",
+        "country": "Bansa",
+        "phone": "Telepono",
+        "postalCode": "Postal/ZIP code",
+        "province": "Lalawigan/Estado",
+        "dont_see_address": "Hindi ko mahanap ang aking address"
+    },
+    "billing": {
+        "title": "Billing",
+        "address": "Billing address",
+        "continue_to_shipping": "Magpatuloy sa shipping",
+        "use_different_shipping_address": "Gumamit ng ibang shipping address"
+    },
+    "customer": {
+        "information": "Impormasyon ng customer",
+        "payment_info": "Aking impormasyon sa pagbabayad",
+        "payment_method_update": {
+            "title": "I-update ang paraan ng pagbabayad",
+            "outstanding_payment_failed": {
+                "title": "Nabigo ang pagbabayad",
+                "description": "Na-update na ang iyong paraan ng pagbabayad, ngunit hindi namin nasingil ang natitirang balanse. Mangyaring gumamit ng ibang paraan ng pagbabayad."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Mga detalye ng customer"
+    },
+    "customer_dashboard": {
+        "my_account": "Aking account",
+        "ordered_on": "Inorder noong",
+        "next_billing_date": "Susunod na petsa ng billing",
+        "price": "Presyo",
+        "total": "Kabuuan",
+        "status": "Katayuan",
+        "order": "Order %{invoice_number}",
+        "order_details": "Mga detalye ng order",
+        "loading": "Naglo-load...",
+        "no_orders": "Walang nahanap na mga order.",
+        "no_subscriptions": "Walang nahanap na mga subscription.",
+        "view_invoice": "Tingnan ang invoice",
+        "sign_out": "Mag-sign out",
+        "show_more_orders": "Ipakita ang %{smart_count} pang order |||| Ipakita ang %{smart_count} pang mga order",
+        "show_more_subscriptions": "Ipakita ang %{smart_count} pang subscription |||| Ipakita ang %{smart_count} pang mga subscription",
+        "orders": "Mga order",
+        "subscriptions": "Mga subscription",
+        "subscription": "Subscription"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "May bayad na dapat bayaran para sa isang subscription",
+                "description": "Mayroon kang subscription na may overdue na bayad. Mangyaring i-update ang iyong paraan ng pagbabayad."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Mag-sign In",
+        "dont_have_an_account": "Wala ka pang account?",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Nakalimutan mo ang iyong password?",
+        "close_form": "Bumalik"
+    },
+    "forgot_password_form": {
+        "title": "I-recover ang iyong password",
+        "instructions": "Ilagay ang email address ng iyong account at magpapadala kami ng link para i-reset ang password.",
+        "email": "Email",
+        "email_instructions": "Nagpadala kami ng email na may link. I-click ito para i-reset ang iyong password.",
+        "action": "Magpadala ng password reset email"
+    },
+    "reset_password_form": {
+        "title": "I-reset ang iyong password",
+        "password": "Bagong password",
+        "confirmation_password": "Ulitin ang bagong password",
+        "action": "I-reset ang password"
+    },
+    "change_password_form": {
+        "title": "Palitan ang iyong password",
+        "current_password": "Kasalukuyang password",
+        "password": "Bagong password",
+        "confirmation_password": "Ulitin ang bagong password",
+        "action": "Palitan ang password"
+    },
+    "register_form": {
+        "register": "Mag-register",
+        "already_have_an_account": "Mayroon ka nang account?",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Kumpirmahin ang Password",
+        "requires_action": {
+            "title": "Suriin ang iyong email",
+            "description": "Nagpadala kami ng email. Sundin ang mga tagubilin para makumpleto ang iyong pagpaparehistro."
+        }
+    },
+    "guest_checkout": {
+        "or": "O kaya",
+        "continue_as_a_guest": "Magpatuloy bilang bisita"
+    },
+    "shipping": {
+        "title": "Shipping",
+        "shipping_to": "Ipapadala sa:",
+        "address": "Shipping address",
+        "method": "Paraan ng shipping",
+        "methods": {
+            "example_localization_id": "Halimbawa ng localized na paraan ng shipping"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantisadong maihahatid sa loob ng %{smart_count} araw |||| Garantisadong maihahatid sa loob ng %{smart_count} araw"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Deferred na Pagbabayad",
+            "deferred_payment_instructions": "Sa pag-order na ito, sumasang-ayon kang magbayad mamaya gamit ang paraan ng pagbabayad na itinakda ng merchant.",
+            "card_label": "Credit card",
+            "card_number": "Numero ng card",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "Postal code",
+            "invalid_number": "Hindi valid ang numero ng card",
+            "invalid_expiration": "Hindi valid ang expiration date",
+            "invalid_cvv": "Hindi valid ang CVV",
+            "invalid_postal_code": "Hindi valid ang postal code"
+        },
+        "still_pending_notice": "Pinoproseso pa ang iyong bayad.",
+        "title": "Pagbabayad",
+        "continue_to_payment": "Magpatuloy sa pagbabayad",
+        "credit_card": "Credit card",
+        "place_order": "Mag-order",
+        "preparing_payment_session": "Inihahanda ang pagbabayad...",
+        "processing_payment": "Pinoproseso ang pagbabayad...",
+        "checkout_with": "Magbayad gamit ang",
+        "checkout_with_method": "Magbayad gamit ang %{method}",
+        "method_icon": "%{method} icon",
+        "no_payment": "Hindi kailangan ng pagbabayad para sa order na ito.",
+        "methods": {
+            "card": "Credit card",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna magbayad mamaya",
+            "klarna_slice_it": "Klarna buwanang installment",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bank transfer",
+            "sofort": "Sofort bank transfer",
+            "deferred_payment": "Magbayad mamaya"
+        }
+    },
+    "discounts": {
+        "title": "Mga diskwento"
+    },
+    "cart_summary": {
+        "taxes": "Buwis",
+        "taxes_included_in_price": "May kasama nang buwis ang ilang item.",
+        "total": "Kabuuan",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "discount": "Mga diskwento",
+        "quantity": "x",
+        "calculated_at_checkout": "Kakalkulahin sa checkout"
+    },
+    "errors": {
+        "default": "May naganap na error, subukan muli mamaya o makipag-ugnayan sa amin.",
+        "promo_code_is_invalid": "Hindi valid ang promo code na ito",
+        "promocode_already_in_cart": "Nailapat na ang promo code na ito",
+        "promocode_isnt_applicable": "Hindi magagamit ang promo code na ito",
+        "promo_code_is_expired": "Nag-expire na ang promo code na ito",
+        "stringEmpty": "Kinakailangan ang field na ito",
+        "emailEmpty": "Kinakailangan ang field na ito",
+        "required": "Kinakailangan ang field na ito",
+        "invalid_expiry_year_past": "Nag-expire na ang card",
+        "email": "Mangyaring magbigay ng valid na email address",
+        "quantity_revised": "Na-revise ang dami dahil sa limitasyon ng stock.",
+        "quantity_out_of_stock": "Naku, wala nang stock ang item na ito. Alisin ito sa cart para magpatuloy.",
+        "disabled_country": "Hindi available ang napiling bansa para sa checkout.",
+        "error_payment_items_are_invalid": {
+            "title": "May mga hindi valid na item sa iyong cart.",
+            "description": "Mangyaring suriin ang iyong order, o subukan muli mamaya."
+        },
+        "card": {
+            "invalid_number": "Hindi valid ang numero ng card.",
+            "invalid_date": "Hindi valid ang expiration date ng card.",
+            "invalid_year": "Hindi valid ang expiration year ng card.",
+            "invalid_month": "Hindi valid ang expiration month ng card.",
+            "invalid_cvv": "Hindi valid ang CVV ng card.",
+            "invalid_expiration": "Hindi valid ang expiration date ng card.",
+            "expired": "Nag-expire na ang credit card.",
+            "declined": "Na-decline ang card. Mangyaring tawagan ang iyong card issuer para sa karagdagang impormasyon.",
+            "invalid_address": "Hindi tama ang address ng card.",
+            "insufficient_funds": "Kulang ang pondo sa account para sa halaga ng transaksyon.",
+            "card_not_supported": "Hindi suportado ang card sa geographic region na ito.",
+            "currency_not_supported": "Hindi kasalukuyang suportado ang currency na ito."
+        },
+        "transaction": {
+            "declined": "May error sa pagproseso ng card. Subukan muli mamaya o gumamit ng ibang paraan ng pagbabayad."
+        },
+        "discounts": {
+            "conflict": "Hindi maaaring pagsamahin ang ilang diskwento. Gamitin na lang ang diskwentong ito?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Hindi maproseso ang order.",
+                "description": "Hindi ka siningil. Mangyaring makipag-ugnayan sa may-ari ng tindahan para sa mga detalye."
+            },
+            "product_crawling": {
+                "title": "Maaaring nagbago ang presyo ng mga produkto sa cart.",
+                "description": "Subukang alisin at idagdag muli ang mga ito sa iyong cart."
+            },
+            "stock_validation": {
+                "title": "Wala nang stock ng produkto.",
+                "description": "Ang ilang produkto ay maaaring wala nang stock para sa napiling dami. I-revise ang dami o makipag-ugnayan sa may-ari ng tindahan."
+            },
+            "custom_fields_validation": {
+                "title": "May kulang na kinakailangang impormasyon.",
+                "description": "May mga produkto sa cart na kulang ang mandatory na impormasyon. Mangyaring i-edit ang cart para magpatuloy."
+            },
+            "shipping_validation": {
+                "title": "Hindi ma-validate ang paraan ng shipping.",
+                "description": "Ang napiling shipping rate ay maaaring nagbago o hindi na available."
+            }
+        },
+        "invalid_address": "Hindi valid ang address.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Walang available na paraan ng shipping sa ngayon",
+                "description": "Subukan muli mamaya, o makipag-ugnayan sa amin."
+            },
+            "rates_calculation": {
+                "title": "Hindi makalkulahin ang shipping para sa iyong order",
+                "description": "Subukan muli mamaya, o makipag-ugnayan sa amin."
+            },
+            "no_rates_found": {
+                "title": "Walang available na paraan ng shipping para sa iyong order",
+                "description": "Mangyaring suriin ang iyong shipping address o makipag-ugnayan sa amin."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Hindi suportado ang bansa. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.ENGINE.UNAVAILABLE": "May error sa pag-validate ng address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.QUERY.UNANSWERABLE": "May error sa pag-validate ng address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.ADDRESS.NOT_FOUND": "Hindi nahanap ang address. Mangyaring i-validate ang iyong address at subukan muli.",
+            "E.SECONDARY_INFORMATION.INVALID": "Hindi valid ang secondary information (Apt/Suite#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Kulang ang secondary information (Apt/Suite#).",
+            "E.HOUSE_NUMBER.MISSING": "Kulang ang house number.",
+            "E.HOUSE_NUMBER.INVALID": "Hindi valid ang house number.",
+            "E.STREET.MISSING": "Kulang ang street.",
+            "E.STREET.INVALID": "Hindi valid ang street.",
+            "E.BOX_NUMBER.MISSING": "Kulang ang box number.",
+            "E.BOX_NUMBER.INVALID": "Hindi valid ang box number.",
+            "E.ADDRESS.INVALID": "Hindi valid ang city/state/ZIP.",
+            "E.ZIP.NOT_FOUND": "Hindi nahanap ang ZIP.",
+            "E.ZIP.INVALID": "Hindi valid ang ZIP.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Hindi nahanap ang ZIP + 4.",
+            "E.ADDRESS.MULTIPLE": "Maraming address ang nakuha na may parehong ZIP.",
+            "E.ADDRESS.INSUFFICIENT": "Hindi kumpleto ang address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.ADDRESS.DUAL": "Dual address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.STREET.MAGNET": "Maraming address ang nakita. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.CITY_STATE.INVALID": "Hindi ma-verify ang lungsod/estado.",
+            "E.STATE.INVALID": "Hindi valid ang estado.",
+            "E.ADDRESS.DELIVERY.INVALID": "Hindi valid ang delivery address.",
+            "E.TIMED_OUT": "May error sa pag-validate ng address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.TIME_ZONE.UNAVAILABLE": "May error sa pag-validate ng address. Subukan muli mamaya o makipag-ugnayan sa amin.",
+            "E.PO_BOX.INTERNATIONAL": "Hindi ma-verify ang international PO Box."
+        },
+        "payment_failed": {
+            "title": "Hindi maproseso ang pagbabayad",
+            "description": "Subukan muli mamaya, o makipag-ugnayan sa amin."
+        },
+        "payment_authorization": {
+            "title": "Hindi maproseso ang pagbabayad",
+            "default": "Mangyaring suriin ang billing at impormasyon sa pagbabayad."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Hindi maproseso ang pagbabayad",
+                "description": "Hindi namin ma-authenticate ang iyong impormasyon sa pagbabayad. Mangyaring subukan muli."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Hindi maidagdag ang subscription sa cart",
+                "description": "Isang subscription lang ang maaaring nasa cart sa isang pagkakataon."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Hindi maidagdag ang produkto sa cart",
+                "description": "Ang cart ay maaari lamang maglaman ng mga item o isang subscription."
+            }
+        },
+        "customer_exists": "Ginagamit na ang email na ito.",
+        "customer_password_missmatch": "Dapat magkatugma ang dalawang password.",
+        "customer_password_token_expired": "Nag-expire na ang iyong password recovery token.",
+        "customer_password_token_invalid": "Hindi valid ang iyong password recovery token.",
+        "customer_not_found": "Walang account na nauugnay sa email address na ito.",
+        "invalid_credentials": "Hindi valid ang email o password.",
+        "customer_current_password_invalid": "Hindi valid ang password."
+    },
+    "shippingRates": {
+        "loading": "Naglo-load ng mga shipping rate..."
+    },
+    "customer_orders": {
+        "loading": "Naglo-load..."
+    },
+    "digital_goods": {
+        "download": "I-download ang file"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Salamat sa iyong order",
+        "async_confirmation_notice": "Nailagay na ang iyong order at kasalukuyang pinoproseso. Makakatanggap ka ng kumpirmasyon sa lalong madaling panahon."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Ang shipping at buwis ay kakalkulahin pagkatapos maibigay ang address."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "United Arab Emirates"
+        },
+        "AF": {
+            "name": "Afghanistan"
+        },
+        "AG": {
+            "name": "Antigua at Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarctica"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "American Samoa"
+        },
+        "AT": {
+            "name": "Austria"
+        },
+        "AU": {
+            "name": "Australia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Mga Isla ng Åland"
+        },
+        "AZ": {
+            "name": "Azerbaijan"
+        },
+        "BA": {
+            "name": "Bosnia at Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Belgium"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgaria"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Bonaire"
+        },
+        "BR": {
+            "name": "Brazil"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Isla ng Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarus"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canada"
+        },
+        "CC": {
+            "name": "Mga Isla ng Cocos [Keeling]"
+        },
+        "CD": {
+            "name": "Congo"
+        },
+        "CF": {
+            "name": "Central African Republic"
+        },
+        "CG": {
+            "name": "Republika ng Congo"
+        },
+        "CH": {
+            "name": "Switzerland"
+        },
+        "CI": {
+            "name": "Ivory Coast"
+        },
+        "CK": {
+            "name": "Mga Isla ng Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Cameroon"
+        },
+        "CN": {
+            "name": "Tsina"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Cuba"
+        },
+        "CV": {
+            "name": "Cape Verde"
+        },
+        "CW": {
+            "name": "Curacao"
+        },
+        "CX": {
+            "name": "Isla ng Pasko"
+        },
+        "CY": {
+            "name": "Cyprus"
+        },
+        "CZ": {
+            "name": "Czechia"
+        },
+        "DE": {
+            "name": "Germany"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Denmark"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Dominican Republic"
+        },
+        "DZ": {
+            "name": "Algeria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Ehipto"
+        },
+        "EH": {
+            "name": "Kanlurang Sahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Espanya"
+        },
+        "ES-CN": {
+            "name": "Mga Isla ng Canary"
+        },
+        "ET": {
+            "name": "Ethiopia"
+        },
+        "FI": {
+            "name": "Finland"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Mga Isla ng Falkland"
+        },
+        "FM": {
+            "name": "Micronesia"
+        },
+        "FO": {
+            "name": "Mga Isla ng Faroe"
+        },
+        "FR": {
+            "name": "France"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "United Kingdom"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "French Guiana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Greenland"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Equatorial Guinea"
+        },
+        "GR": {
+            "name": "Greece"
+        },
+        "GS": {
+            "name": "South Georgia at South Sandwich Islands"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Isla ng Heard at McDonald Islands"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Croatia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hungary"
+        },
+        "ID": {
+            "name": "Indonesia"
+        },
+        "IE": {
+            "name": "Ireland"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Isle of Man"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "British Indian Ocean Territory"
+        },
+        "IQ": {
+            "name": "Iraq"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Iceland"
+        },
+        "IT": {
+            "name": "Italya"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordan"
+        },
+        "JP": {
+            "name": "Hapon"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kyrgyzstan"
+        },
+        "KH": {
+            "name": "Cambodia"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comoros"
+        },
+        "KN": {
+            "name": "Saint Kitts at Nevis"
+        },
+        "KP": {
+            "name": "Hilagang Korea"
+        },
+        "KR": {
+            "name": "Timog Korea"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Mga Isla ng Cayman"
+        },
+        "KZ": {
+            "name": "Kazakhstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Lebanon"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lithuania"
+        },
+        "LU": {
+            "name": "Luxembourg"
+        },
+        "LV": {
+            "name": "Latvia"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Morocco"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Mga Isla ng Marshall"
+        },
+        "MK": {
+            "name": "Hilagang Macedonia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Macau"
+        },
+        "MP": {
+            "name": "Mga Isla ng Hilagang Mariana"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldives"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexico"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mozambique"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "New Caledonia"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Isla ng Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Netherlands"
+        },
+        "NO": {
+            "name": "Norway"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "New Zealand"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "French Polynesia"
+        },
+        "PG": {
+            "name": "Papua New Guinea"
+        },
+        "PH": {
+            "name": "Pilipinas"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Poland"
+        },
+        "PM": {
+            "name": "Saint Pierre at Miquelon"
+        },
+        "PN": {
+            "name": "Mga Isla ng Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestine"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Romania"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Russia"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saudi Arabia"
+        },
+        "SB": {
+            "name": "Mga Isla ng Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Sweden"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slovenia"
+        },
+        "SJ": {
+            "name": "Svalbard at Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Timog Sudan"
+        },
+        "ST": {
+            "name": "São Tomé at Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Syria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Mga Isla ng Turks at Caicos"
+        },
+        "TD": {
+            "name": "Chad"
+        },
+        "TF": {
+            "name": "French Southern Territories"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thailand"
+        },
+        "TJ": {
+            "name": "Tajikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor-Leste"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunisia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Türkiye"
+        },
+        "TT": {
+            "name": "Trinidad at Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ukraine"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "U.S. Minor Outlying Islands"
+        },
+        "US": {
+            "name": "Estados Unidos"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Vatican City"
+        },
+        "VC": {
+            "name": "Saint Vincent at ang Grenadines"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "British Virgin Islands"
+        },
+        "VI": {
+            "name": "U.S. Virgin Islands"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis at Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Timog Africa"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
+    }
+}
