@@ -54,10 +54,10 @@
         "dont_see_address": "En näe osoitettani"
     },
     "billing": {
-        "title": "Toimitus",
-        "address": "Toimitusosoite",
-        "continue_to_shipping": "Jatka toimitukseen",
-        "use_different_shipping_address": "Käytä erillistä toimitusosoitetta"
+        "title": "Laskutus",
+        "address": "Laskutusosoite",
+        "continue_to_shipping": "Jatka toimitustietoihin",
+        "use_different_shipping_address": "Käytä eri toimitusosoitetta"
     },
     "customer": {
         "information": "Asiakkaan tiedot"
