@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Načítání...",
+        "error": "Došlo k chybě.",
+        "success": "Úspěch!"
+    },
     "actions": {
         "edit": "Upravit",
         "cancel": "Zrušit",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Vrátit se do pokladny",
         "checkout": "Zaplatit",
         "apply": "Použít",
+        "dismiss": "Zavřít",
         "type_address": "Napište Vaši adresu",
         "use_this_address": "Použít tuto adresu",
         "back_to_store": "Zpět do obchodu",
@@ -17,6 +23,7 @@
         "save_changes": "Uložit změny",
         "back_to_orders": "Zpět k objednávce",
         "change_password": "Změnit heslo",
+        "clear_cart": "Vyprázdnit košík",
         "add": "Přidat"
     },
     "header": {
@@ -37,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Předplatné",
+        "state": {
+            "title": "Stav",
+            "active": "Aktivní",
+            "paused": "Pozastaveno",
+            "finished": "Ukončeno",
+            "stopped": "Zastaveno",
+            "cancellationrequested": "Předplatné bude ukončeno na konci fakturačního období."
+        },
+        "placed_on": "Objednáno",
+        "final_billing_date": "Poslední datum fakturace",
+        "items": "Položky",
         "plan": "Plán",
         "billed_on": "Účtováno",
-        "payment_amount": "Částka"
+        "payment_amount": "Částka",
+        "processing": "Předplatné se stále zpracovává. Vraťte se později pro zobrazení podrobností.",
+        "loading": "Načítání předplatných",
+        "cancel": "Zrušit",
+        "pause": "Pozastavit",
+        "unpause": "Obnovit",
+        "billing_recurrence": {
+            "daily": "Fakturováno denně |||| Fakturováno každých %{smart_count} dní",
+            "weekly": "Fakturováno týdně |||| Fakturováno každých %{smart_count} týdnů",
+            "monthly": "Fakturováno měsíčně |||| Fakturováno každých %{smart_count} měsíců",
+            "yearly": "Fakturováno ročně |||| Fakturováno každých %{smart_count} let"
+        }
     },
     "cart": {
         "subtotal": "Mezisoučet",
@@ -52,7 +82,8 @@
         "view_detailed_cart": "Zobrazit podrobný košík"
     },
     "order": {
-        "loading": "Získáváme podrobnosti Vaší objednávky..."
+        "loading": "Získáváme podrobnosti Vaší objednávky...",
+        "title": "Objednávka"
     },
     "discount_box": {
         "promo_code": "Máte slevový kód?",
@@ -62,10 +93,13 @@
     "address_form": {
         "name": "Jméno a příjmení",
         "email": "Email",
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
         "address1": "Ulice a číslo popisné/orientační",
         "address2": "",
         "city": "Město",
         "country": "Stát",
+        "phone": "Telefon",
         "postalCode": "PSČ",
         "province": "Okres",
         "dont_see_address": "Nevidím svou adresu"
@@ -77,7 +111,15 @@
         "use_different_shipping_address": "Použít jinou adresu pro doručení"
     },
     "customer": {
-        "information": "Informace o zákazníkovi"
+        "information": "Informace o zákazníkovi",
+        "payment_info": "Platební údaje",
+        "payment_method_update": {
+            "title": "Aktualizovat platební metodu",
+            "outstanding_payment_failed": {
+                "title": "Platba se nezdařila",
+                "description": "Aktualizujte svou platební metodu pro pokračování."
+            }
+        }
     },
     "customer_details": {
         "title": "Podrobnosti o uživateli"
@@ -97,7 +139,18 @@
         "view_invoice": "Zobrazit fakturu",
         "sign_out": "Odhlásit",
         "show_more_orders": "Zobrazit %{smart_count} další objednávku |||| Zobrazit %{smart_count} další objednávky |||| Zobrazit %{smart_count} dalších objednávek",
-        "orders": "Objednávky"
+        "show_more_subscriptions": "Zobrazit %{smart_count} další předplatné |||| Zobrazit %{smart_count} dalších předplatných",
+        "orders": "Objednávky",
+        "subscriptions": "Předplatná",
+        "subscription": "Předplatné"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Předplatné má neuhrazenou platbu",
+                "description": "Máte předplatné s neuhrazenou platbou. Prosím aktualizujte svou platební metodu."
+            }
+        }
     },
     "signin_form": {
         "signin": "Přihlásit se",
@@ -132,7 +185,11 @@
         "already_have_an_account": "Máte již vytvořený účet?",
         "email": "Email",
         "password": "Heslo",
-        "confirm_password": "Potvrdit heslo"
+        "confirm_password": "Potvrdit heslo",
+        "requires_action": {
+            "title": "Zkontrolujte svůj e-mail",
+            "description": "Poslali jsme vám e-mail. Postupujte podle pokynů pro dokončení registrace."
+        }
     },
     "guest_checkout": {
         "or": "Nebo",
@@ -142,7 +199,13 @@
         "title": "Doručení",
         "shipping_to": "Adresa doručení:",
         "address": "Doručovací adresa",
-        "method": "Způsob dopravy"
+        "method": "Způsob dopravy",
+        "methods": {
+            "example_localization_id": "Příklad způsobu doručení"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantované doručení do %{smart_count} dne |||| Garantované doručení do %{smart_count} dnů"
     },
     "payment": {
         "form": {
@@ -152,7 +215,11 @@
             "card_number": "Číslo karty",
             "card_expiration": "MM/RR",
             "card_cvv": "CVV",
-            "card_postal_code": "Poštovní číslo"
+            "card_postal_code": "Poštovní číslo",
+            "invalid_number": "Číslo karty je neplatné",
+            "invalid_expiration": "Datum expirace je neplatný",
+            "invalid_cvv": "CVV kód je neplatný",
+            "invalid_postal_code": "PSČ je neplatné"
         },
         "still_pending_notice": "Vaše objednávka je v procesu zpracování.",
         "title": "Platba",
@@ -189,6 +256,8 @@
         "title": "Slevy"
     },
     "cart_summary": {
+        "taxes": "Daně",
+        "taxes_included_in_price": "Některé položky zahrnují daň v ceně.",
         "total": "Celkem",
         "subtotal": "Mezisoučet",
         "shipping": "Poštovné",
@@ -203,11 +272,13 @@
         "promocode_isnt_applicable": "Neplatný slevový kupón",
         "promo_code_is_expired": "Platnost slevového kupónu vypršela",
         "stringEmpty": "Toto pole je povinné",
+        "emailEmpty": "E-mail je povinný",
         "required": "Toto pole je povinné",
         "invalid_expiry_year_past": "Platnost karty vypršela",
         "email": "Vyplňte platnou emailovou adresu",
         "quantity_revised": "Počet byl pozměněn kvůli aktuálnímu skladu zásob.",
         "quantity_out_of_stock": "Omlouváme se, ale tento produkt je momentálně vyprodaný, odstraňte ho z košíku pro pokračování v nákupu.",
+        "disabled_country": "Doručení do této země není dostupné.",
         "error_payment_items_are_invalid": {
             "title": "Některé položky v Košíku nejsou platné",
             "description": "Prosíme zkontrolujte Vaši objednávku nebo to zkuste později."
@@ -254,6 +325,7 @@
                 "description": "Zvolená sazba pro doručení se mohla změnit nebo je nedostupná. Prosíme, kontaktujte provozovatele obchodu pro další informace."
             }
         },
+        "invalid_address": "Adresa je neplatná.",
         "shipping": {
             "account_configuration": {
                 "title": "Žádná doručovací metoda není momentálně k dispozici.",
@@ -266,7 +338,33 @@
             "no_rates_found": {
                 "title": "Žádná doručovací metoda není dostupná pro Vaší objednávku.",
                 "description": "Zkontrolujte Vaší doručovací adresu nebo nás kontaktujte."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Doručení do této země není podporováno.",
+            "E.ENGINE.UNAVAILABLE": "Doručovací služba není dostupná. Zkuste to později.",
+            "E.QUERY.UNANSWERABLE": "Adresu se nepodařilo ověřit. Zkontrolujte své údaje.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nebyla nalezena.",
+            "E.SECONDARY_INFORMATION.INVALID": "Doplňující údaje o adrese jsou neplatné.",
+            "E.SECONDARY_INFORMATION.MISSING": "Chybí doplňující údaje o adrese.",
+            "E.HOUSE_NUMBER.MISSING": "Chybí číslo popisné.",
+            "E.HOUSE_NUMBER.INVALID": "Číslo popisné je neplatné.",
+            "E.STREET.MISSING": "Chybí název ulice.",
+            "E.STREET.INVALID": "Název ulice je neplatný.",
+            "E.BOX_NUMBER.MISSING": "Chybí číslo poštovní schránky.",
+            "E.BOX_NUMBER.INVALID": "Číslo poštovní schránky je neplatné.",
+            "E.ADDRESS.INVALID": "Adresa je neplatná.",
+            "E.ZIP.NOT_FOUND": "PSČ nebylo nalezeno.",
+            "E.ZIP.INVALID": "PSČ je neplatné.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Rozšíření PSČ nebylo nalezeno.",
+            "E.ADDRESS.MULTIPLE": "Bylo nalezeno více adres. Zadejte přesnější adresu.",
+            "E.ADDRESS.INSUFFICIENT": "Údaje o adrese jsou neúplné.",
+            "E.ADDRESS.DUAL": "Adresa obsahuje rozporuplné údaje.",
+            "E.STREET.MAGNET": "Název ulice se nepodařilo ověřit.",
+            "E.CITY_STATE.INVALID": "Město nebo kraj je neplatný.",
+            "E.STATE.INVALID": "Kraj je neplatný.",
+            "E.ADDRESS.DELIVERY.INVALID": "Doručovací adresa je neplatná.",
+            "E.TIMED_OUT": "Vypršel čas ověření adresy. Zkuste to znovu.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informace o časovém pásmu nejsou dostupné.",
+            "E.PO_BOX.INTERNATIONAL": "Mezinárodní doručení na adresu poštovní schránky není možné."
         },
         "payment_failed": {
             "title": "Došlo k problému při zpracování platby",
@@ -282,15 +380,32 @@
                 "description": "Nebyli jsme schopni ověřit vaše platební údaje. Prosíme zkuste to opět později"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Košík může obsahovat pouze jedno předplatné.",
+                "description": "Odstraňte stávající předplatné před přidáním nového."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Košík může obsahovat buď produkty, nebo předplatné.",
+                "description": "Odstraňte stávající produkty před přidáním předplatného, nebo naopak."
+            }
+        },
         "customer_exists": "Tento email je již registrován.",
         "customer_password_missmatch": "Hesla se musí shodovat.",
         "customer_password_token_expired": "Platnost Vašeho token pro obnovu hesla vypršela.",
         "customer_password_token_invalid": "Neplatný token pro obnovu hesla.",
         "customer_not_found": "Tento email není přiřazen k žádnému účtu.",
-        "invalid_credentials": "Nesprávný email nebo heslo."
+        "invalid_credentials": "Nesprávný email nebo heslo.",
+        "customer_current_password_invalid": "Nesprávné heslo."
+    },
+    "shippingRates": {
+        "loading": "Načítání..."
     },
     "customer_orders": {
         "loading": "Načítání..."
+    },
+    "digital_goods": {
+        "download": "Stáhnout"
     },
     "confirmation": {
         "thank_you_for_your_order": "Děkujeme za Vaši objednávku",
@@ -298,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Výše poštovného a daně bude vypočtena až po vyplnění dodací adresy."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Spojené arabské emiráty"
+        },
+        "AF": {
+            "name": "Afghánistán"
+        },
+        "AG": {
+            "name": "Antigua a Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albánie"
+        },
+        "AM": {
+            "name": "Arménie"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktida"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Americká Samoa"
+        },
+        "AT": {
+            "name": "Rakousko"
+        },
+        "AU": {
+            "name": "Austrálie"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Ålandy"
+        },
+        "AZ": {
+            "name": "Ázerbájdžán"
+        },
+        "BA": {
+            "name": "Bosna a Hercegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladéš"
+        },
+        "BE": {
+            "name": "Belgie"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulharsko"
+        },
+        "BH": {
+            "name": "Bahrajn"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Svatý Bartoloměj"
+        },
+        "BM": {
+            "name": "Bermudy"
+        },
+        "BN": {
+            "name": "Brunej"
+        },
+        "BO": {
+            "name": "Bolívie"
+        },
+        "BQ": {
+            "name": "Karibské Nizozemsko"
+        },
+        "BR": {
+            "name": "Brazílie"
+        },
+        "BS": {
+            "name": "Bahamy"
+        },
+        "BT": {
+            "name": "Bhútán"
+        },
+        "BV": {
+            "name": "Bouvetův ostrov"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Bělorusko"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kokosové ostrovy"
+        },
+        "CD": {
+            "name": "Konžská demokratická republika"
+        },
+        "CF": {
+            "name": "Středoafrická republika"
+        },
+        "CG": {
+            "name": "Kongo"
+        },
+        "CH": {
+            "name": "Švýcarsko"
+        },
+        "CI": {
+            "name": "Pobřeží slonoviny"
+        },
+        "CK": {
+            "name": "Cookovy ostrovy"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Čína"
+        },
+        "CO": {
+            "name": "Kolumbie"
+        },
+        "CR": {
+            "name": "Kostarika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kapverdy"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Vánoční ostrov"
+        },
+        "CY": {
+            "name": "Kypr"
+        },
+        "CZ": {
+            "name": "Česko"
+        },
+        "DE": {
+            "name": "Německo"
+        },
+        "DJ": {
+            "name": "Džibutsko"
+        },
+        "DK": {
+            "name": "Dánsko"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominikánská republika"
+        },
+        "DZ": {
+            "name": "Alžírsko"
+        },
+        "EC": {
+            "name": "Ekvádor"
+        },
+        "EE": {
+            "name": "Estonsko"
+        },
+        "EG": {
+            "name": "Egypt"
+        },
+        "EH": {
+            "name": "Západní Sahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Španělsko"
+        },
+        "ES-CN": {
+            "name": "Kanárské ostrovy"
+        },
+        "ET": {
+            "name": "Etiopie"
+        },
+        "FI": {
+            "name": "Finsko"
+        },
+        "FJ": {
+            "name": "Fidži"
+        },
+        "FK": {
+            "name": "Falklandy"
+        },
+        "FM": {
+            "name": "Mikronésie"
+        },
+        "FO": {
+            "name": "Faerské ostrovy"
+        },
+        "FR": {
+            "name": "Francie"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Spojené království"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gruzie"
+        },
+        "GF": {
+            "name": "Francouzská Guyana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Grónsko"
+        },
+        "GM": {
+            "name": "Gambie"
+        },
+        "GN": {
+            "name": "Guinea"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Rovníková Guinea"
+        },
+        "GR": {
+            "name": "Řecko"
+        },
+        "GS": {
+            "name": "Jižní Georgie a Jižní Sandwichovy ostrovy"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinea-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hongkong"
+        },
+        "HM": {
+            "name": "Heardův ostrov a McDonaldovy ostrovy"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Chorvatsko"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Maďarsko"
+        },
+        "ID": {
+            "name": "Indonésie"
+        },
+        "IE": {
+            "name": "Irsko"
+        },
+        "IL": {
+            "name": "Izrael"
+        },
+        "IM": {
+            "name": "Ostrov Man"
+        },
+        "IN": {
+            "name": "Indie"
+        },
+        "IO": {
+            "name": "Britské indickooceánské území"
+        },
+        "IQ": {
+            "name": "Irák"
+        },
+        "IR": {
+            "name": "Írán"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Itálie"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamajka"
+        },
+        "JO": {
+            "name": "Jordánsko"
+        },
+        "JP": {
+            "name": "Japonsko"
+        },
+        "KE": {
+            "name": "Keňa"
+        },
+        "KG": {
+            "name": "Kyrgyzstán"
+        },
+        "KH": {
+            "name": "Kambodža"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komory"
+        },
+        "KN": {
+            "name": "Svatý Kryštof a Nevis"
+        },
+        "KP": {
+            "name": "Severní Korea"
+        },
+        "KR": {
+            "name": "Jižní Korea"
+        },
+        "KW": {
+            "name": "Kuvajt"
+        },
+        "KY": {
+            "name": "Kajmanské ostrovy"
+        },
+        "KZ": {
+            "name": "Kazachstán"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanon"
+        },
+        "LC": {
+            "name": "Svatá Lucie"
+        },
+        "LI": {
+            "name": "Lichtenštejnsko"
+        },
+        "LK": {
+            "name": "Srí Lanka"
+        },
+        "LR": {
+            "name": "Libérie"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Litva"
+        },
+        "LU": {
+            "name": "Lucembursko"
+        },
+        "LV": {
+            "name": "Lotyšsko"
+        },
+        "LY": {
+            "name": "Libye"
+        },
+        "MA": {
+            "name": "Maroko"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldavsko"
+        },
+        "ME": {
+            "name": "Černá Hora"
+        },
+        "MF": {
+            "name": "Svatý Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshallovy ostrovy"
+        },
+        "MK": {
+            "name": "Severní Makedonie"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolsko"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Severní Mariany"
+        },
+        "MQ": {
+            "name": "Martinik"
+        },
+        "MR": {
+            "name": "Mauritánie"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauricius"
+        },
+        "MV": {
+            "name": "Maledivy"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mexiko"
+        },
+        "MY": {
+            "name": "Malajsie"
+        },
+        "MZ": {
+            "name": "Mosambik"
+        },
+        "NA": {
+            "name": "Namibie"
+        },
+        "NC": {
+            "name": "Nová Kaledonie"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Norfolk"
+        },
+        "NG": {
+            "name": "Nigérie"
+        },
+        "NI": {
+            "name": "Nikaragua"
+        },
+        "NL": {
+            "name": "Nizozemsko"
+        },
+        "NO": {
+            "name": "Norsko"
+        },
+        "NP": {
+            "name": "Nepál"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Nový Zéland"
+        },
+        "OM": {
+            "name": "Omán"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Francouzská Polynésie"
+        },
+        "PG": {
+            "name": "Papua-Nová Guinea"
+        },
+        "PH": {
+            "name": "Filipíny"
+        },
+        "PK": {
+            "name": "Pákistán"
+        },
+        "PL": {
+            "name": "Polsko"
+        },
+        "PM": {
+            "name": "Saint Pierre a Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairnovy ostrovy"
+        },
+        "PR": {
+            "name": "Portoriko"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugalsko"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumunsko"
+        },
+        "RS": {
+            "name": "Srbsko"
+        },
+        "RU": {
+            "name": "Rusko"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saúdská Arábie"
+        },
+        "SB": {
+            "name": "Šalamounovy ostrovy"
+        },
+        "SC": {
+            "name": "Seychely"
+        },
+        "SD": {
+            "name": "Súdán"
+        },
+        "SE": {
+            "name": "Švédsko"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Svatá Helena"
+        },
+        "SI": {
+            "name": "Slovinsko"
+        },
+        "SJ": {
+            "name": "Špicberky a Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovensko"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somálsko"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Jižní Súdán"
+        },
+        "ST": {
+            "name": "Svatý Tomáš a Princův ostrov"
+        },
+        "SV": {
+            "name": "Salvador"
+        },
+        "SX": {
+            "name": "Svatý Martin"
+        },
+        "SY": {
+            "name": "Sýrie"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Turks a Caicos"
+        },
+        "TD": {
+            "name": "Čad"
+        },
+        "TF": {
+            "name": "Francouzská jižní území"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Thajsko"
+        },
+        "TJ": {
+            "name": "Tádžikistán"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Východní Timor"
+        },
+        "TM": {
+            "name": "Turkmenistán"
+        },
+        "TN": {
+            "name": "Tunisko"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turecko"
+        },
+        "TT": {
+            "name": "Trinidad a Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tchaj-wan"
+        },
+        "TZ": {
+            "name": "Tanzanie"
+        },
+        "UA": {
+            "name": "Ukrajina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Menší odlehlé ostrovy USA"
+        },
+        "US": {
+            "name": "Spojené státy"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistán"
+        },
+        "VA": {
+            "name": "Vatikán"
+        },
+        "VC": {
+            "name": "Svatý Vincenc a Grenadiny"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Britské Panenské ostrovy"
+        },
+        "VI": {
+            "name": "Americké Panenské ostrovy"
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis a Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Jihoafrická republika"
+        },
+        "ZM": {
+            "name": "Zambie"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
     }
 }
