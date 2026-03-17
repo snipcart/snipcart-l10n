@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Učitavam...",
+        "error": "Došlo je do pogreške.",
+        "success": "Uspješno!"
+    },
     "actions": {
         "edit": "Uređivanje",
         "cancel": "Prekid",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Povratak na završetak narudžbe",
         "checkout": "Završetak narudžbe",
         "apply": "Primjena",
+        "dismiss": "Odbaci",
         "type_address": "Unos adrese",
         "use_this_address": "Koristiti ovu adresu",
         "back_to_store": "Povratak u trgovinu",
@@ -13,8 +19,8 @@
         "show": "Prikazivanje",
         "hide": "Skrivanje",
         "apply_changes": "Primjena izmjena",
-        "save_changes": "Spremanje izmjena",
         "yes_use_it": "Da, koristiti",
+        "save_changes": "Spremanje izmjena",
         "back_to_orders": "Povratak na narudžbe",
         "change_password": "Promjena lozinke",
         "clear_cart": "Clear cart",
@@ -38,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Pretplata",
+        "state": {
+            "title": "Status",
+            "active": "Aktivna",
+            "paused": "Pauzirana",
+            "finished": "Završena",
+            "stopped": "Zaustavljena",
+            "cancellationrequested": "Pretplata će biti otkazana na kraju obračunskog razdoblja."
+        },
+        "placed_on": "Naručeno",
+        "final_billing_date": "Zadnji datum naplate",
+        "items": "Stavke",
         "plan": "Plan",
         "billed_on": "Izdavanje računa na dan",
-        "payment_amount": "Iznos plaćanja"
+        "payment_amount": "Iznos plaćanja",
+        "processing": "Pretplata se još obrađuje. Vratite se kasnije za detalje.",
+        "loading": "Učitavam pretplate",
+        "cancel": "Otkaži",
+        "pause": "Pauziraj",
+        "unpause": "Nastavi",
+        "billing_recurrence": {
+            "daily": "Naplata svaki dan |||| Naplata svakih %{smart_count} dana",
+            "weekly": "Naplata svaki tjedan |||| Naplata svakih %{smart_count} tjedana",
+            "monthly": "Naplata svaki mjesec |||| Naplata svakih %{smart_count} mjeseci",
+            "yearly": "Naplata svake godine |||| Naplata svakih %{smart_count} godina"
+        }
     },
     "cart": {
         "subtotal": "Neto iznos",
@@ -53,7 +82,8 @@
         "view_detailed_cart": "Detalji košarice"
     },
     "order": {
-        "loading": "Pripremamo vašu narudžbu..."
+        "loading": "Pripremamo vašu narudžbu...",
+        "title": "Narudžba"
     },
     "discount_box": {
         "promo_code": "Promocijski kod?",
@@ -63,10 +93,13 @@
     "address_form": {
         "name": "Ime i prezime",
         "email": "Email adresa",
+        "firstName": "Ime",
+        "lastName": "Prezime",
         "address1": "Ulica i br.",
         "address2": "Kat, ured ...",
         "city": "Grad",
         "country": "Država",
+        "phone": "Telefon",
         "postalCode": "Poštanski broj",
         "province": "Županija",
         "dont_see_address": "Ne nalazim svoju adresu"
@@ -78,7 +111,15 @@
         "use_different_shipping_address": "Koristiti drugu adresu za dostavu"
     },
     "customer": {
-        "information": "Informacije o kupcu"
+        "information": "Informacije o kupcu",
+        "payment_info": "Podaci o plaćanju",
+        "payment_method_update": {
+            "title": "Ažuriraj način plaćanja",
+            "outstanding_payment_failed": {
+                "title": "Plaćanje nije uspjelo",
+                "description": "Ažurirajte način plaćanja za nastavak."
+            }
+        }
     },
     "customer_details": {
         "title": "Detalji o kupcu"
@@ -103,6 +144,14 @@
         "subscriptions": "Pretplate",
         "subscription": "Pretplata"
     },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Pretplata ima dospjelo plaćanje",
+                "description": "Imate pretplatu s dospjelim plaćanjem. Molimo ažurirajte način plaćanja."
+            }
+        }
+    },
     "signin_form": {
         "signin": "Prijava",
         "dont_have_an_account": "Još nemaš račun?",
@@ -125,18 +174,22 @@
         "action": "Postavljanje nove lozinke"
     },
     "change_password_form": {
-      "title": "Promjena lozinka",
-      "current_password": "Trenutna lozinka",
-      "password": "Nova lozinka",
-      "confirmation_password": "Ponavljanje lozinke",
-      "action": "Promjena lozinke"
+        "title": "Promjena lozinka",
+        "current_password": "Trenutna lozinka",
+        "password": "Nova lozinka",
+        "confirmation_password": "Ponavljanje lozinke",
+        "action": "Promjena lozinke"
     },
     "register_form": {
         "register": "Registracija",
         "already_have_an_account": "Već imate račun?",
         "email": "Email adresa",
         "password": "Lozinka",
-        "confirm_password": "Ponavljanje lozinke"
+        "confirm_password": "Ponavljanje lozinke",
+        "requires_action": {
+            "title": "Provjerite svoju email poštu",
+            "description": "Poslali smo vam email. Slijedite upute za završetak registracije."
+        }
     },
     "guest_checkout": {
         "or": "ili",
@@ -146,7 +199,13 @@
         "title": "Dostava",
         "shipping_to": "Dostava na:",
         "address": "Adresa dostave",
-        "method": "Način dostave"
+        "method": "Način dostave",
+        "methods": {
+            "example_localization_id": "Primjer načina dostave"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Zajamčena dostava unutar %{smart_count} dana |||| Zajamčena dostava unutar %{smart_count} dana"
     },
     "payment": {
         "form": {
@@ -156,7 +215,11 @@
             "card_number": "Broj kartice",
             "card_expiration": "MM/YY",
             "card_cvv": "CVV",
-            "card_postal_code": "Vaš poštanski broj"
+            "card_postal_code": "Vaš poštanski broj",
+            "invalid_number": "Broj kartice nije valjan",
+            "invalid_expiration": "Datum isteka nije valjan",
+            "invalid_cvv": "CVV nije valjan",
+            "invalid_postal_code": "Poštanski broj nije valjan"
         },
         "still_pending_notice": "Vaše plaćanje se još obrađuje.",
         "title": "Odaberite način plaćanja",
@@ -209,11 +272,13 @@
         "promocode_isnt_applicable": "Ovaj promotivni kôd nije valjan",
         "promo_code_is_expired": "Ovaj promotivni kôd više ne vrijedi",
         "stringEmpty": "Ovo polje je obavezno",
+        "emailEmpty": "Email adresa je obavezna",
         "required": "Ovo polje je obavezno",
         "invalid_expiry_year_past": "Kartica je istekla",
         "email": "Molimo unesite ispravnu email adresu",
         "quantity_revised": "Količine su promijenjene zbog stanja na zalihama.",
         "quantity_out_of_stock": "Na žalost, ovog artikla nema na zalihama, uklonite ga iz košarice za nastavak.",
+        "disabled_country": "Dostava u ovu državu nije dostupna.",
         "error_payment_items_are_invalid": {
             "title": "Neki artikli u košarici nisu valjani",
             "description": "Molimo provjerite narudžbu ili pokušajte ponovo kasnije."
@@ -260,6 +325,7 @@
                 "description": "Cijena odabranog načina dostave se izmijenila ili nije dostupna. Molimo kontaktirajte vlasnika web trgovine za više detalja."
             }
         },
+        "invalid_address": "Adresa nije valjana.",
         "shipping": {
             "account_configuration": {
                 "title": "Trenutno nije dostupan niti jedan način dostave",
@@ -272,7 +338,33 @@
             "no_rates_found": {
                 "title": "Nisu dostupni načini dostave za vašu narudžbu",
                 "description": "Molim vas da provjerite adresu dostave ili kontaktirajte vlasnika web trgovine za pomoć."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Dostava u ovu državu nije podržana.",
+            "E.ENGINE.UNAVAILABLE": "Usluga dostave nije dostupna. Pokušajte kasnije.",
+            "E.QUERY.UNANSWERABLE": "Adresu nije moguće provjeriti. Provjerite svoje podatke.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nije pronađena.",
+            "E.SECONDARY_INFORMATION.INVALID": "Dodatni podaci o adresi nisu valjani.",
+            "E.SECONDARY_INFORMATION.MISSING": "Nedostaju dodatni podaci o adresi.",
+            "E.HOUSE_NUMBER.MISSING": "Nedostaje kućni broj.",
+            "E.HOUSE_NUMBER.INVALID": "Kućni broj nije valjan.",
+            "E.STREET.MISSING": "Nedostaje naziv ulice.",
+            "E.STREET.INVALID": "Naziv ulice nije valjan.",
+            "E.BOX_NUMBER.MISSING": "Nedostaje broj poštanskog pretinca.",
+            "E.BOX_NUMBER.INVALID": "Broj poštanskog pretinca nije valjan.",
+            "E.ADDRESS.INVALID": "Adresa nije valjana.",
+            "E.ZIP.NOT_FOUND": "Poštanski broj nije pronađen.",
+            "E.ZIP.INVALID": "Poštanski broj nije valjan.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Proširenje poštanskog broja nije pronađeno.",
+            "E.ADDRESS.MULTIPLE": "Pronađeno je više adresa. Unesite precizniju adresu.",
+            "E.ADDRESS.INSUFFICIENT": "Podaci o adresi su nepotpuni.",
+            "E.ADDRESS.DUAL": "Adresa sadrži proturječne podatke.",
+            "E.STREET.MAGNET": "Naziv ulice nije moguće provjeriti.",
+            "E.CITY_STATE.INVALID": "Grad ili regija nije valjana.",
+            "E.STATE.INVALID": "Regija nije valjana.",
+            "E.ADDRESS.DELIVERY.INVALID": "Adresa dostave nije valjana.",
+            "E.TIMED_OUT": "Isteklo je vrijeme za provjeru adrese. Pokušajte ponovo.",
+            "E.TIME_ZONE.UNAVAILABLE": "Podaci o vremenskoj zoni nisu dostupni.",
+            "E.PO_BOX.INTERNATIONAL": "Međunarodna dostava na adresu poštanskog pretinca nije moguća."
         },
         "payment_failed": {
             "title": "Nije moguće provesti plaćanje",
@@ -288,6 +380,16 @@
                 "description": "Nije bilo moguće autorizirati vaše plaćanje. Molimo pokušajte kasnije."
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Košarica može sadržavati samo jednu pretplatu.",
+                "description": "Uklonite postojeću pretplatu prije dodavanja nove."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Košarica može sadržavati artikle ili pretplate.",
+                "description": "Uklonite postojeće artikle prije dodavanja pretplate ili obrnuto."
+            }
+        },
         "customer_exists": "Ova email adresa se već koristi.",
         "customer_password_missmatch": "Dvije lozinke moraju biti jednake.",
         "customer_password_token_expired": "Token za obnavaljanje vaše lozinke je istekao.",
@@ -296,8 +398,14 @@
         "invalid_credentials": "Email adresa ili lozinka nije valjana.",
         "customer_current_password_invalid": "Neispravna lozinka."
     },
+    "shippingRates": {
+        "loading": "Učitavam..."
+    },
     "customer_orders": {
         "loading": "Učitavam..."
+    },
+    "digital_goods": {
+        "download": "Preuzmi"
     },
     "confirmation": {
         "thank_you_for_your_order": "Zahvaljujemo vam na narudžbi",
@@ -305,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "PDV i eventualni troškovi dostave obračunat će se nakon unosa svih podataka.."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andora"
+        },
+        "AE": {
+            "name": "Ujedinjeni Arapski Emirati"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigva i Barbuda"
+        },
+        "AI": {
+            "name": "Angvila"
+        },
+        "AL": {
+            "name": "Albanija"
+        },
+        "AM": {
+            "name": "Armenija"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktika"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Američka Samoa"
+        },
+        "AT": {
+            "name": "Austrija"
+        },
+        "AU": {
+            "name": "Australija"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Alandski otoci"
+        },
+        "AZ": {
+            "name": "Azerbajdžan"
+        },
+        "BA": {
+            "name": "Bosna i Hercegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladeš"
+        },
+        "BE": {
+            "name": "Belgija"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bugarska"
+        },
+        "BH": {
+            "name": "Bahrein"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barthélemy"
+        },
+        "BM": {
+            "name": "Bermudi"
+        },
+        "BN": {
+            "name": "Brunej"
+        },
+        "BO": {
+            "name": "Bolivija"
+        },
+        "BQ": {
+            "name": "Karipski Nizozemi"
+        },
+        "BR": {
+            "name": "Brazil"
+        },
+        "BS": {
+            "name": "Bahami"
+        },
+        "BT": {
+            "name": "Butan"
+        },
+        "BV": {
+            "name": "Otok Bouvet"
+        },
+        "BW": {
+            "name": "Bocvana"
+        },
+        "BY": {
+            "name": "Bjelorusija"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kokosovi otoci"
+        },
+        "CD": {
+            "name": "Demokratska Republika Kongo"
+        },
+        "CF": {
+            "name": "Srednjoafrička Republika"
+        },
+        "CG": {
+            "name": "Republika Kongo"
+        },
+        "CH": {
+            "name": "Švicarska"
+        },
+        "CI": {
+            "name": "Obala Bjelokosti"
+        },
+        "CK": {
+            "name": "Cookovi otoci"
+        },
+        "CL": {
+            "name": "Čile"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Kina"
+        },
+        "CO": {
+            "name": "Kolumbija"
+        },
+        "CR": {
+            "name": "Kostarika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Zelenortski otoci"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Božićni otok"
+        },
+        "CY": {
+            "name": "Cipar"
+        },
+        "CZ": {
+            "name": "Češka"
+        },
+        "DE": {
+            "name": "Njemačka"
+        },
+        "DJ": {
+            "name": "Džibuti"
+        },
+        "DK": {
+            "name": "Danska"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominikanska Republika"
+        },
+        "DZ": {
+            "name": "Alžir"
+        },
+        "EC": {
+            "name": "Ekvador"
+        },
+        "EE": {
+            "name": "Estonija"
+        },
+        "EG": {
+            "name": "Egipat"
+        },
+        "EH": {
+            "name": "Zapadna Sahara"
+        },
+        "ER": {
+            "name": "Eritreja"
+        },
+        "ES": {
+            "name": "Španjolska"
+        },
+        "ES-CN": {
+            "name": "Kanarski otoci"
+        },
+        "ET": {
+            "name": "Etiopija"
+        },
+        "FI": {
+            "name": "Finska"
+        },
+        "FJ": {
+            "name": "Fidži"
+        },
+        "FK": {
+            "name": "Falklandski otoci"
+        },
+        "FM": {
+            "name": "Mikronezija"
+        },
+        "FO": {
+            "name": "Farski otoci"
+        },
+        "FR": {
+            "name": "Francuska"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Ujedinjeno Kraljevstvo"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gruzija"
+        },
+        "GF": {
+            "name": "Francuska Gvajana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Grenland"
+        },
+        "GM": {
+            "name": "Gambija"
+        },
+        "GN": {
+            "name": "Gvineja"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Ekvatorska Gvineja"
+        },
+        "GR": {
+            "name": "Grčka"
+        },
+        "GS": {
+            "name": "Južna Georgija i Južni Sendvički otoci"
+        },
+        "GT": {
+            "name": "Gvatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Gvineja Bisau"
+        },
+        "GY": {
+            "name": "Gvajana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Otok Heard i otoci McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Hrvatska"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Mađarska"
+        },
+        "ID": {
+            "name": "Indonezija"
+        },
+        "IE": {
+            "name": "Irska"
+        },
+        "IL": {
+            "name": "Izrael"
+        },
+        "IM": {
+            "name": "Otok Man"
+        },
+        "IN": {
+            "name": "Indija"
+        },
+        "IO": {
+            "name": "Britanski Indijskooceanski teritorij"
+        },
+        "IQ": {
+            "name": "Irak"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Island"
+        },
+        "IT": {
+            "name": "Italija"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamajka"
+        },
+        "JO": {
+            "name": "Jordan"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Kenija"
+        },
+        "KG": {
+            "name": "Kirgistan"
+        },
+        "KH": {
+            "name": "Kambodža"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komori"
+        },
+        "KN": {
+            "name": "Sveti Kristofor i Nevis"
+        },
+        "KP": {
+            "name": "Sjeverna Koreja"
+        },
+        "KR": {
+            "name": "Južna Koreja"
+        },
+        "KW": {
+            "name": "Kuvajt"
+        },
+        "KY": {
+            "name": "Kajmanski otoci"
+        },
+        "KZ": {
+            "name": "Kazahstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanon"
+        },
+        "LC": {
+            "name": "Sveta Lucija"
+        },
+        "LI": {
+            "name": "Lihtenštajn"
+        },
+        "LK": {
+            "name": "Šri Lanka"
+        },
+        "LR": {
+            "name": "Liberija"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Litva"
+        },
+        "LU": {
+            "name": "Luksemburg"
+        },
+        "LV": {
+            "name": "Latvija"
+        },
+        "LY": {
+            "name": "Libija"
+        },
+        "MA": {
+            "name": "Maroko"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldavija"
+        },
+        "ME": {
+            "name": "Crna Gora"
+        },
+        "MF": {
+            "name": "Sveti Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Maršalovi otoci"
+        },
+        "MK": {
+            "name": "Sjeverna Makedonija"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Mjanmar"
+        },
+        "MN": {
+            "name": "Mongolija"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Sjevernomarijanski otoci"
+        },
+        "MQ": {
+            "name": "Martinik"
+        },
+        "MR": {
+            "name": "Mauritanija"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauricijus"
+        },
+        "MV": {
+            "name": "Maldivi"
+        },
+        "MW": {
+            "name": "Malavi"
+        },
+        "MX": {
+            "name": "Meksiko"
+        },
+        "MY": {
+            "name": "Malezija"
+        },
+        "MZ": {
+            "name": "Mozambik"
+        },
+        "NA": {
+            "name": "Namibija"
+        },
+        "NC": {
+            "name": "Nova Kaledonija"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Otok Norfolk"
+        },
+        "NG": {
+            "name": "Nigerija"
+        },
+        "NI": {
+            "name": "Nikaragva"
+        },
+        "NL": {
+            "name": "Nizozemska"
+        },
+        "NO": {
+            "name": "Norveška"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Novi Zeland"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Francuska Polinezija"
+        },
+        "PG": {
+            "name": "Papua Nova Gvineja"
+        },
+        "PH": {
+            "name": "Filipini"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Poljska"
+        },
+        "PM": {
+            "name": "Sveti Petar i Miquelon"
+        },
+        "PN": {
+            "name": "Otoci Pitcairn"
+        },
+        "PR": {
+            "name": "Portoriko"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paragvaj"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumunjska"
+        },
+        "RS": {
+            "name": "Srbija"
+        },
+        "RU": {
+            "name": "Rusija"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Saudijska Arabija"
+        },
+        "SB": {
+            "name": "Salomonovi otoci"
+        },
+        "SC": {
+            "name": "Sejšeli"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Švedska"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Sveta Helena"
+        },
+        "SI": {
+            "name": "Slovenija"
+        },
+        "SJ": {
+            "name": "Svalbard i Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovačka"
+        },
+        "SL": {
+            "name": "Sijera Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalija"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Južni Sudan"
+        },
+        "ST": {
+            "name": "Sveti Toma i Princip"
+        },
+        "SV": {
+            "name": "Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Sirija"
+        },
+        "SZ": {
+            "name": "Esvatini"
+        },
+        "TC": {
+            "name": "Otoci Turks i Caicos"
+        },
+        "TD": {
+            "name": "Čad"
+        },
+        "TF": {
+            "name": "Francuski južni teritoriji"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tajland"
+        },
+        "TJ": {
+            "name": "Tadžikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Istočni Timor"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tunis"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turska"
+        },
+        "TT": {
+            "name": "Trinidad i Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tajvan"
+        },
+        "TZ": {
+            "name": "Tanzanija"
+        },
+        "UA": {
+            "name": "Ukrajina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Mali udaljeni otoci SAD-a"
+        },
+        "US": {
+            "name": "Sjedinjene Američke Države"
+        },
+        "UY": {
+            "name": "Urugvaj"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Sveti Vincent i Grenadini"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Britanski Djevičanski otoci"
+        },
+        "VI": {
+            "name": "Američki Djevičanski otoci"
+        },
+        "VN": {
+            "name": "Vijetnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis i Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Južnoafrička Republika"
+        },
+        "ZM": {
+            "name": "Zambija"
+        },
+        "ZW": {
+            "name": "Zimbabve"
+        }
     }
 }
