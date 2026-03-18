@@ -93,10 +93,13 @@
     "address_form": {
         "name": "Teljes név",
         "email": "Email cím",
+        "firstName": "Keresztnév",
+        "lastName": "Vezetéknév",
         "address1": "Utca, házszám",
         "address2": "Házszám/Emelet/Ajtó",
         "city": "Város",
         "country": "Ország",
+        "phone": "Telefonszám",
         "postalCode": "Irányítószám",
         "province": "Megye",
         "dont_see_address": "Nem találom a címemet"
@@ -196,7 +199,13 @@
         "title": "Szállítás",
         "shipping_to": "Szállítás ide:",
         "address": "Szállítási cím",
-        "method": "Szállítási mód"
+        "method": "Szállítási mód",
+        "methods": {
+            "example_localization_id": "Példa szállítási mód"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantált kézbesítés %{smart_count} napon belül |||| Garantált kézbesítés %{smart_count} napon belül"
     },
     "payment": {
         "form": {
@@ -316,6 +325,7 @@
                 "description": "A kiválasztott szállítási díj megváltozott vagy nem elérhető. Kérjük, vedd fel a kapcsolatot az áruház tulajdonosával."
             }
         },
+        "invalid_address": "A cím érvénytelen.",
         "shipping": {
             "account_configuration": {
                 "title": "Jelenleg egyik szállítási mód sem elérhető",
@@ -328,7 +338,33 @@
             "no_rates_found": {
                 "title": "Nincs elérhető szállítási mód a rendeléshez",
                 "description": "Kérjük, ellenőrizd a szállítási címet, vagy vedd fel a kapcsolatot az áruházzal."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Szállítás ebbe az országba nem támogatott.",
+            "E.ENGINE.UNAVAILABLE": "A szállítási szolgáltatás nem elérhető. Próbáld később.",
+            "E.QUERY.UNANSWERABLE": "A címet nem sikerült ellenőrizni. Ellenőrizd az adataidat.",
+            "E.ADDRESS.NOT_FOUND": "A cím nem található.",
+            "E.SECONDARY_INFORMATION.INVALID": "A kiegészítő címadatok érvénytelenek.",
+            "E.SECONDARY_INFORMATION.MISSING": "Hiányzó kiegészítő címadatok.",
+            "E.HOUSE_NUMBER.MISSING": "Hiányzó házszám.",
+            "E.HOUSE_NUMBER.INVALID": "Érvénytelen házszám.",
+            "E.STREET.MISSING": "Hiányzó utcanév.",
+            "E.STREET.INVALID": "Érvénytelen utcanév.",
+            "E.BOX_NUMBER.MISSING": "Hiányzó postafiók szám.",
+            "E.BOX_NUMBER.INVALID": "Érvénytelen postafiók szám.",
+            "E.ADDRESS.INVALID": "A cím érvénytelen.",
+            "E.ZIP.NOT_FOUND": "Az irányítószám nem található.",
+            "E.ZIP.INVALID": "Az irányítószám érvénytelen.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Az irányítószám kiterjesztése nem található.",
+            "E.ADDRESS.MULTIPLE": "Több cím is található. Adj meg pontosabb címet.",
+            "E.ADDRESS.INSUFFICIENT": "A címadatok hiányosak.",
+            "E.ADDRESS.DUAL": "A cím ellentmondó adatokat tartalmaz.",
+            "E.STREET.MAGNET": "Az utcanevet nem sikerült ellenőrizni.",
+            "E.CITY_STATE.INVALID": "A város vagy megye érvénytelen.",
+            "E.STATE.INVALID": "A megye érvénytelen.",
+            "E.ADDRESS.DELIVERY.INVALID": "A szállítási cím érvénytelen.",
+            "E.TIMED_OUT": "A cím ellenőrzése időtúllépés miatt meghiúsult. Próbáld újra.",
+            "E.TIME_ZONE.UNAVAILABLE": "Az időzóna-információ nem elérhető.",
+            "E.PO_BOX.INTERNATIONAL": "Nemzetközi szállítás postafiók címre nem lehetséges."
         },
         "payment_failed": {
             "title": "Nem sikerült feldolgozni a fizetést",

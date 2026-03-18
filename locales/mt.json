@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Qed jillowdja...",
+        "error": "Seħħ żball.",
+        "success": "Suċċess!"
+    },
+    "actions": {
+        "edit": "Editja",
+        "cancel": "Ikkanċella",
+        "continue_shopping": "Kompli tixtri",
+        "back_to_checkout": "Lura għall-checkout",
+        "checkout": "Checkout",
+        "apply": "Applika",
+        "dismiss": "Agħlaq",
+        "type_address": "Daħħal l-indirizz tiegħek",
+        "use_this_address": "Uża dan l-indirizz",
+        "back_to_store": "Lura għall-ħanut",
+        "close_cart": "Agħlaq il-karru",
+        "show": "Uri",
+        "hide": "Aħbi",
+        "apply_changes": "Applika l-bidliet",
+        "yes_use_it": "Iva, uża",
+        "save_changes": "Issejvja l-bidliet",
+        "back_to_orders": "Lura għall-ordnijiet",
+        "change_password": "Ibdel il-password",
+        "clear_cart": "Ħassar il-karru",
+        "add": "Żid"
+    },
+    "header": {
+        "title_cart_summary": "Sommarju tal-karru",
+        "loading": "Qed jillowdja..."
+    },
+    "item": {
+        "quantity": "Kwantità",
+        "quantity_short": "Kwant.",
+        "decrement_quantity": "Naqqas il-kwantità",
+        "increment_quantity": "Żid il-kwantità",
+        "remove_item": "Neħħi l-oġġett",
+        "recurrence": {
+            "daily": "jum |||| %{smart_count} jiem",
+            "weekly": "ġimgħa |||| %{smart_count} ġimgħat",
+            "monthly": "xahar |||| %{smart_count} xhur",
+            "yearly": "sena |||| %{smart_count} snin"
+        }
+    },
+    "subscription": {
+        "title": "Abbonament",
+        "state": {
+            "title": "Status",
+            "active": "Attiv",
+            "paused": "Imwaqqaf",
+            "finished": "Lesta",
+            "stopped": "Wieqaf",
+            "cancellationrequested": "L-abbonament jieqaf fi tmiem iċ-ċiklu tal-fatturazzjoni."
+        },
+        "placed_on": "Impost fid",
+        "final_billing_date": "Data tal-fatturazzjoni finali",
+        "items": "Oġġetti",
+        "plan": "Pjan",
+        "billed_on": "Iffatturata fid",
+        "payment_amount": "Ammont tal-ħlas",
+        "processing": "L-abbonament għadu qed jiġi pproċessat. Erġa' ejja aktar tard.",
+        "loading": "Qed jillowdja l-abbonamenti",
+        "cancel": "Ikkanċella",
+        "pause": "Waqqaf",
+        "unpause": "Kompli",
+        "billing_recurrence": {
+            "daily": "Iffatturata kuljum |||| Iffatturata kull %{smart_count} jiem",
+            "weekly": "Iffatturata kull ġimgħa |||| Iffatturata kull %{smart_count} ġimgħat",
+            "monthly": "Iffatturata kull xahar |||| Iffatturata kull %{smart_count} xhur",
+            "yearly": "Iffatturata kull sena |||| Iffatturata kull %{smart_count} snin"
+        }
+    },
+    "cart": {
+        "subtotal": "Subtotal",
+        "shipping_taxes_calculated_at_checkout": "Il-konsenja u t-taxxi jiġu kkalkolati fl-checkout.",
+        "loading": "Qed tħejji l-karru...",
+        "secured_by": "Assigurat minn Snipcart",
+        "summary": "Sommarju tal-ordni",
+        "empty": "Il-karru tiegħek huwa vojt.",
+        "invoice_number": "Numru tal-fattura",
+        "view_detailed_cart": "Ara l-karru dettaljat"
+    },
+    "order": {
+        "loading": "Qed jillowdja d-dettalji tal-ordni...",
+        "title": "Ordni"
+    },
+    "discount_box": {
+        "promo_code": "Kodiċi promozzjonali?",
+        "promo_code_placeholder": "Kodiċi promozzjonali",
+        "promocode_applied": "Kodiċi promozzjonali applikat"
+    },
+    "address_form": {
+        "name": "Isem",
+        "email": "Email",
+        "firstName": "Isem",
+        "lastName": "Kunjom",
+        "address1": "Indirizz",
+        "address2": "Indirizz (Linja 2)",
+        "city": "Belt",
+        "country": "Pajjiż",
+        "phone": "Telefon",
+        "postalCode": "Kodiċi postali",
+        "province": "Provinċja",
+        "dont_see_address": "Ma tarax l-indirizz tiegħek?"
+    },
+    "billing": {
+        "title": "Fatturazzjoni",
+        "address": "Indirizz tal-fatturazzjoni",
+        "continue_to_shipping": "Kompli għall-konsenja",
+        "use_different_shipping_address": "Uża indirizz tal-konsenja differenti"
+    },
+    "customer": {
+        "information": "Informazzjoni tal-klijent",
+        "payment_info": "Informazzjoni tal-ħlas",
+        "payment_method_update": {
+            "title": "Aġġorna l-metodu tal-ħlas",
+            "outstanding_payment_failed": {
+                "title": "Il-ħlas falla",
+                "description": "Jekk jogħġbok aġġorna l-metodu tal-ħlas tiegħek biex tkompli."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Dettalji tal-klijent"
+    },
+    "customer_dashboard": {
+        "my_account": "Il-kont tiegħi",
+        "ordered_on": "Ordnat fid",
+        "next_billing_date": "Data li jmiss tal-fatturazzjoni",
+        "price": "Prezz",
+        "total": "Total",
+        "status": "Status",
+        "order": "Ordni %{invoice_number}",
+        "order_details": "Dettalji tal-ordni",
+        "loading": "Qed jillowdja...",
+        "no_orders": "Ebda ordnijiet.",
+        "no_subscriptions": "Ebda abbonamenti.",
+        "view_invoice": "Ara l-fattura",
+        "sign_out": "Oħroġ",
+        "show_more_orders": "Uri %{smart_count} ordni oħra |||| Uri %{smart_count} ordnijiet oħra",
+        "show_more_subscriptions": "Uri %{smart_count} abbonament ieħor |||| Uri %{smart_count} abbonamenti oħra",
+        "orders": "Ordnijiet",
+        "subscriptions": "Abbonamenti",
+        "subscription": "Abbonament"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Għandek ħlas pendenti fuq abbonament",
+                "description": "Għandek abbonament bi ħlas pendenti. Jekk jogħġbok aġġorna l-metodu tal-ħlas tiegħek."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Idħol",
+        "dont_have_an_account": "M'għandekx kont?",
+        "email": "Email",
+        "password": "Password",
+        "forgot_your_password": "Insejt il-password?",
+        "close_form": "Lura"
+    },
+    "forgot_password_form": {
+        "title": "Irrisettja l-password",
+        "instructions": "Daħħal l-indirizz tal-email tal-kont tiegħek u nibagħtlek link biex tirrisettja l-password.",
+        "email": "Email",
+        "email_instructions": "Bgħatna email b'link. Ikklikkja l-link biex tirrisettja l-password tiegħek.",
+        "action": "Ibgħat email ta' risettjar tal-password"
+    },
+    "reset_password_form": {
+        "title": "Irrisettja l-password",
+        "password": "Password ġdida",
+        "confirmation_password": "Ikkonferma l-password ġdida",
+        "action": "Irrisettja l-password"
+    },
+    "change_password_form": {
+        "title": "Ibdel il-password",
+        "current_password": "Password attwali",
+        "password": "Password ġdida",
+        "confirmation_password": "Ikkonferma l-password ġdida",
+        "action": "Ibdel il-password"
+    },
+    "register_form": {
+        "register": "Irreġistra",
+        "already_have_an_account": "Diġà għandek kont?",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Ikkonferma l-password",
+        "requires_action": {
+            "title": "Iċċekkja l-email tiegħek",
+            "description": "Bgħatna email. Segwi l-istruzzjonijiet biex tlesti r-reġistrazzjoni."
+        }
+    },
+    "guest_checkout": {
+        "or": "jew",
+        "continue_as_a_guest": "Kompli bħala mistieden"
+    },
+    "shipping": {
+        "title": "Konsenja",
+        "shipping_to": "Jintbagħat lil:",
+        "address": "Indirizz tal-konsenja",
+        "method": "Metodu tal-konsenja",
+        "methods": {
+            "example_localization_id": "Metodu ta' konsenja eżempju"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Konsenja garantita fi %{smart_count} jum |||| Konsenja garantita fi %{smart_count} jiem"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Ħlas differit",
+            "deferred_payment_instructions": "Billi tordna, qed taqbel li tħallas aktar tard bil-metodu tal-ħlas stabbilit mill-bejjiegħ.",
+            "card_label": "Karta tal-kreditu",
+            "card_number": "Numru tal-karta",
+            "card_expiration": "XX/XX",
+            "card_cvv": "CVV",
+            "card_postal_code": "Kodiċi postali",
+            "invalid_number": "Numru tal-karta invalidu",
+            "invalid_expiration": "Data ta' skadenza invalida",
+            "invalid_cvv": "CVV invalidu",
+            "invalid_postal_code": "Kodiċi postali invalidu"
+        },
+        "still_pending_notice": "Il-ħlas għadu pendenti.",
+        "title": "Ħlas",
+        "continue_to_payment": "Kompli għall-ħlas",
+        "credit_card": "Karta tal-kreditu",
+        "place_order": "Agħmel l-ordni",
+        "preparing_payment_session": "Qed tħejji s-sessjoni tal-ħlas...",
+        "processing_payment": "Qed tipproċessa l-ħlas...",
+        "checkout_with": "Ħlas b'",
+        "checkout_with_method": "Ħlas b'%{method}",
+        "method_icon": "Ikona ta' %{method}",
+        "no_payment": "Ebda ħlas meħtieġ għal din l-ordni.",
+        "methods": {
+            "card": "Karta tal-kreditu",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "EPS",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna Ħlas aktar tard",
+            "klarna_slice_it": "Klarna Pagamenti",
+            "p24": "Przelewy24",
+            "sepa_debit": "Debitu SEPA",
+            "sofort": "Sofort",
+            "deferred_payment": "Ħlas differit"
+        }
+    },
+    "discounts": {
+        "title": "Skontijiet"
+    },
+    "cart_summary": {
+        "taxes": "Taxxi",
+        "taxes_included_in_price": "Xi oġġetti jinkludu t-taxxi fil-prezz.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Konsenja",
+        "discount": "Skont",
+        "quantity": "x",
+        "calculated_at_checkout": "Ikkalkolat fl-checkout"
+    },
+    "errors": {
+        "default": "Seħħ żball. Jekk jogħġbok erġa' pprova aktar tard jew ikkuntattjana.",
+        "promo_code_is_invalid": "Il-kodiċi promozzjonali mhuwiex validu",
+        "promocode_already_in_cart": "Il-kodiċi promozzjonali diġà ġie applikat",
+        "promocode_isnt_applicable": "Il-kodiċi promozzjonali ma jistax jiġi applikat",
+        "promo_code_is_expired": "Il-kodiċi promozzjonali skada",
+        "stringEmpty": "Dan il-qasam huwa meħtieġ",
+        "emailEmpty": "L-email huwa meħtieġ",
+        "required": "Dan il-qasam huwa meħtieġ",
+        "invalid_expiry_year_past": "Il-karta skadiet",
+        "email": "Jekk jogħġbok daħħal indirizz tal-email validu",
+        "quantity_revised": "Il-kwantità ġiet riveduta minħabba limitazzjonijiet tal-istokk.",
+        "quantity_out_of_stock": "Jiddispjaċina, dan il-prodott mhuwiex disponibbli. Neħħih mill-karru biex tkompli.",
+        "disabled_country": "Il-konsenja għal dan il-pajjiż mhijiex disponibbli.",
+        "error_payment_items_are_invalid": {
+            "title": "Il-karru fih oġġetti invalidi.",
+            "description": "Jekk jogħġbok iċċekkja l-ordni tiegħek jew erġa' pprova aktar tard."
+        },
+        "card": {
+            "invalid_number": "Numru tal-karta invalidu.",
+            "invalid_date": "Data ta' skadenza tal-karta invalida.",
+            "invalid_year": "Sena ta' skadenza tal-karta invalida.",
+            "invalid_month": "Xahar ta' skadenza tal-karta invalidu.",
+            "invalid_cvv": "CVV invalidu.",
+            "invalid_expiration": "Data ta' skadenza tal-karta invalida.",
+            "expired": "Il-karta skadiet.",
+            "declined": "Il-karta ġiet miċħuda. Ikkuntattja l-bank tiegħek.",
+            "invalid_address": "Indirizz tal-karta invalidu.",
+            "insufficient_funds": "Fondi insuffiċjenti.",
+            "card_not_supported": "Il-karta mhijiex appoġġjata f'din ir-reġjun.",
+            "currency_not_supported": "Il-munita mhijiex appoġġjata bħalissa."
+        },
+        "transaction": {
+            "declined": "Seħħ żball waqt l-ipproċessar tal-karta. Jekk jogħġbok erġa' pprova aktar tard jew uża metodu ta' ħlas ieħor."
+        },
+        "discounts": {
+            "conflict": "Xi skontijiet ma jistgħux jiġu kkombinati. Trid tuża dan l-iskont?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Ma nistgħux nipproċessaw l-ordni tiegħek.",
+                "description": "Il-ħlas ma sarx. Jekk jogħġbok ikkuntattja l-bejjiegħ."
+            },
+            "product_crawling": {
+                "title": "Il-prezz ta' oġġett fil-karru setgħa nbidel.",
+                "description": "Jekk jogħġbok neħħi l-oġġett u żidu mill-ġdid."
+            },
+            "stock_validation": {
+                "title": "L-istokk mhuwiex biżżejjed.",
+                "description": "Xi prodotti jistgħu jkollhom stokk insuffiċjenti. Jekk jogħġbok aġġusta l-kwantitajiet."
+            },
+            "custom_fields_validation": {
+                "title": "Informazzjoni meħtieġa nieqsa.",
+                "description": "Xi oġġetti fil-karru tiegħek jonqoshom informazzjoni meħtieġa. Jekk jogħġbok irranga."
+            },
+            "shipping_validation": {
+                "title": "Il-metodu tal-konsenja ma jistax jiġi vverifikat.",
+                "description": "Ir-rata tal-konsenja magħżula nbidlet jew mhijiex aktar disponibbli."
+            }
+        },
+        "invalid_address": "L-indirizz huwa invalidu.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Ebda metodi ta' konsenja disponibbli bħalissa",
+                "description": "Jekk jogħġbok erġa' pprova aktar tard jew ikkuntattjana."
+            },
+            "rates_calculation": {
+                "title": "Ma nistgħux nikkalkolaw ir-rati tal-konsenja",
+                "description": "Jekk jogħġbok erġa' pprova aktar tard jew ikkuntattjana."
+            },
+            "no_rates_found": {
+                "title": "Ebda metodi ta' konsenja disponibbli",
+                "description": "Jekk jogħġbok iċċekkja l-indirizz tal-konsenja tiegħek jew ikkuntattjana."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Il-konsenja għal dan il-pajjiż mhijiex appoġġjata.",
+            "E.ENGINE.UNAVAILABLE": "Is-servizz tal-konsenja mhuwiex disponibbli. Jekk jogħġbok erġa' pprova aktar tard.",
+            "E.QUERY.UNANSWERABLE": "L-indirizz ma jistax jiġi vverifikat. Jekk jogħġbok iċċekkja l-informazzjoni tiegħek.",
+            "E.ADDRESS.NOT_FOUND": "L-indirizz ma nstabx.",
+            "E.SECONDARY_INFORMATION.INVALID": "L-informazzjoni sekondarja tal-indirizz hija invalida.",
+            "E.SECONDARY_INFORMATION.MISSING": "L-informazzjoni sekondarja tal-indirizz nieqsa.",
+            "E.HOUSE_NUMBER.MISSING": "In-numru tad-dar nieqes.",
+            "E.HOUSE_NUMBER.INVALID": "In-numru tad-dar huwa invalidu.",
+            "E.STREET.MISSING": "L-isem tat-triq nieqes.",
+            "E.STREET.INVALID": "L-isem tat-triq huwa invalidu.",
+            "E.BOX_NUMBER.MISSING": "In-numru tal-kaxxa postali nieqes.",
+            "E.BOX_NUMBER.INVALID": "In-numru tal-kaxxa postali huwa invalidu.",
+            "E.ADDRESS.INVALID": "L-indirizz huwa invalidu.",
+            "E.ZIP.NOT_FOUND": "Il-kodiċi postali ma nstabx.",
+            "E.ZIP.INVALID": "Il-kodiċi postali huwa invalidu.",
+            "E.ZIP.PLUS4.NOT_FOUND": "L-estensjoni tal-kodiċi postali ma nstabx.",
+            "E.ADDRESS.MULTIPLE": "Instab aktar minn indirizz wieħed. Jekk jogħġbok daħħal indirizz aktar preċiż.",
+            "E.ADDRESS.INSUFFICIENT": "L-informazzjoni tal-indirizz mhijiex kompluta.",
+            "E.ADDRESS.DUAL": "L-indirizz fih informazzjoni kontradittorja.",
+            "E.STREET.MAGNET": "L-isem tat-triq ma jistax jiġi vverifikat.",
+            "E.CITY_STATE.INVALID": "Il-belt jew ir-reġjun huma invalidi.",
+            "E.STATE.INVALID": "Ir-reġjun huwa invalidu.",
+            "E.ADDRESS.DELIVERY.INVALID": "L-indirizz tal-kunsinna huwa invalidu.",
+            "E.TIMED_OUT": "Il-verifika tal-indirizz skadiet. Jekk jogħġbok erġa' pprova.",
+            "E.TIME_ZONE.UNAVAILABLE": "L-informazzjoni taż-żona tal-ħin mhijiex disponibbli.",
+            "E.PO_BOX.INTERNATIONAL": "Il-konsenja internazzjonali għal kaxxi postali mhijiex appoġġjata."
+        },
+        "payment_failed": {
+            "title": "Ma nistgħux nipproċessaw il-ħlas",
+            "description": "Jekk jogħġbok erġa' pprova aktar tard jew ikkuntattjana."
+        },
+        "payment_authorization": {
+            "title": "Ma nistgħux nipproċessaw il-ħlas",
+            "default": "Jekk jogħġbok iċċekkja l-informazzjoni tal-fatturazzjoni u l-ħlas tiegħek."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Ma nistgħux nipproċessaw il-ħlas",
+                "description": "Ma stajtx nawtentikaw l-informazzjoni tal-ħlas tiegħek. Jekk jogħġbok erġa' pprova."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Il-karru jista' jkun fih abbonament wieħed biss.",
+                "description": "Jekk jogħġbok neħħi l-abbonament eżistenti qabel iżżid wieħed ġdid."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Il-karru jista' jkun fih oġġetti jew abbonamenti biss.",
+                "description": "Jekk jogħġbok neħħi l-oġġetti eżistenti qabel iżżid abbonament, jew viċe versa."
+            }
+        },
+        "customer_exists": "Dan l-indirizz tal-email diġà jintuża.",
+        "customer_password_missmatch": "Il-passwords ma jaqblux.",
+        "customer_password_token_expired": "Il-link tar-risettjar tal-password skada.",
+        "customer_password_token_invalid": "Il-link tar-risettjar tal-password mhuwiex validu.",
+        "customer_not_found": "Ebda kont assoċjat ma' dan l-indirizz tal-email.",
+        "invalid_credentials": "L-email jew il-password huma ħżiena.",
+        "customer_current_password_invalid": "Il-password attwali hija ħażina."
+    },
+    "shippingRates": {
+        "loading": "Qed jillowdja..."
+    },
+    "customer_orders": {
+        "loading": "Qed jillowdja..."
+    },
+    "digital_goods": {
+        "download": "Niżżel"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Grazzi għall-ordni tiegħek",
+        "async_confirmation_notice": "L-ordni tiegħek ġiet riċevuta u qed tiġi pproċessata. Dalwaqt tirċievi email ta' konferma."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Il-konsenja u t-taxxi jiġu kkalkolati meta tingħata l-indirizz."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Emirati Għarab Magħquda"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Antigua u Barbuda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albanija"
+        },
+        "AM": {
+            "name": "Armenja"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antartika"
+        },
+        "AR": {
+            "name": "Arġentina"
+        },
+        "AS": {
+            "name": "Samoa Amerikana"
+        },
+        "AT": {
+            "name": "Awstrija"
+        },
+        "AU": {
+            "name": "Awstralja"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Gżejjer Åland"
+        },
+        "AZ": {
+            "name": "Ażerbajġan"
+        },
+        "BA": {
+            "name": "Bożnja u Ħerżegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladexx"
+        },
+        "BE": {
+            "name": "Belġju"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bulgarija"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolivja"
+        },
+        "BQ": {
+            "name": "Karibew Olandiż"
+        },
+        "BR": {
+            "name": "Brażil"
+        },
+        "BS": {
+            "name": "Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Gżira Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarussja"
+        },
+        "BZ": {
+            "name": "Beliże"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Gżejjer Cocos"
+        },
+        "CD": {
+            "name": "Kongo (ir-Repubblika Demokratika)"
+        },
+        "CF": {
+            "name": "Repubblika Afrikana Ċentrali"
+        },
+        "CG": {
+            "name": "Kongo"
+        },
+        "CH": {
+            "name": "Żvizzera"
+        },
+        "CI": {
+            "name": "Côte d'Ivoire"
+        },
+        "CK": {
+            "name": "Gżejjer Cook"
+        },
+        "CL": {
+            "name": "Ċili"
+        },
+        "CM": {
+            "name": "Kamerun"
+        },
+        "CN": {
+            "name": "Ċina"
+        },
+        "CO": {
+            "name": "Kolombja"
+        },
+        "CR": {
+            "name": "Kosta Rika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kape Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Gżira Christmas"
+        },
+        "CY": {
+            "name": "Ċipru"
+        },
+        "CZ": {
+            "name": "Repubblika Ċeka"
+        },
+        "DE": {
+            "name": "Ġermanja"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Danimarka"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Repubblika Dominikana"
+        },
+        "DZ": {
+            "name": "Alġerija"
+        },
+        "EC": {
+            "name": "Ekwador"
+        },
+        "EE": {
+            "name": "Estonja"
+        },
+        "EG": {
+            "name": "Eġittu"
+        },
+        "EH": {
+            "name": "Saħara tal-Punent"
+        },
+        "ER": {
+            "name": "Eritreja"
+        },
+        "ES": {
+            "name": "Spanja"
+        },
+        "ES-CN": {
+            "name": "Gżejjer Kanarji"
+        },
+        "ET": {
+            "name": "Etjopja"
+        },
+        "FI": {
+            "name": "Finlandja"
+        },
+        "FJ": {
+            "name": "Fiġi"
+        },
+        "FK": {
+            "name": "Gżejjer Falkland"
+        },
+        "FM": {
+            "name": "Mikroneżja"
+        },
+        "FO": {
+            "name": "Gżejjer Faroe"
+        },
+        "FR": {
+            "name": "Franza"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Renju Unit"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Ġorġja"
+        },
+        "GF": {
+            "name": "Gujana Franċiża"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Ġibraltar"
+        },
+        "GL": {
+            "name": "Groenlandja"
+        },
+        "GM": {
+            "name": "Gambja"
+        },
+        "GN": {
+            "name": "Gwinej"
+        },
+        "GP": {
+            "name": "Gwadelupe"
+        },
+        "GQ": {
+            "name": "Gwinej Ekwatorjali"
+        },
+        "GR": {
+            "name": "Greċja"
+        },
+        "GS": {
+            "name": "Ġorġja tan-Nofsinhar u Gżejjer Sandwich tan-Nofsinhar"
+        },
+        "GT": {
+            "name": "Gwatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Gwinej-Bissaw"
+        },
+        "GY": {
+            "name": "Gujana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Gżejjer Heard u McDonald"
+        },
+        "HN": {
+            "name": "Ħonduras"
+        },
+        "HR": {
+            "name": "Kroazja"
+        },
+        "HT": {
+            "name": "Ħaiti"
+        },
+        "HU": {
+            "name": "Ungerija"
+        },
+        "ID": {
+            "name": "Indoneżja"
+        },
+        "IE": {
+            "name": "Irlanda"
+        },
+        "IL": {
+            "name": "Iżrael"
+        },
+        "IM": {
+            "name": "Gżira Man"
+        },
+        "IN": {
+            "name": "Indja"
+        },
+        "IO": {
+            "name": "Territorju Brittaniku tal-Oċean Indjan"
+        },
+        "IQ": {
+            "name": "Iraq"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Islanda"
+        },
+        "IT": {
+            "name": "Italja"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Ġamajka"
+        },
+        "JO": {
+            "name": "Ġordan"
+        },
+        "JP": {
+            "name": "Ġappun"
+        },
+        "KE": {
+            "name": "Kenja"
+        },
+        "KG": {
+            "name": "Kirgiżistan"
+        },
+        "KH": {
+            "name": "Kambodja"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komoros"
+        },
+        "KN": {
+            "name": "Saint Kitts u Nevis"
+        },
+        "KP": {
+            "name": "Korejna ta' Fuq"
+        },
+        "KR": {
+            "name": "Korejna t'Isfel"
+        },
+        "KW": {
+            "name": "Kuwajt"
+        },
+        "KY": {
+            "name": "Gżejjer Cayman"
+        },
+        "KZ": {
+            "name": "Każakistan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanu"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberja"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Litwanja"
+        },
+        "LU": {
+            "name": "Lussemburgu"
+        },
+        "LV": {
+            "name": "Latvja"
+        },
+        "LY": {
+            "name": "Libja"
+        },
+        "MA": {
+            "name": "Marokk"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Gżejjer Marshall"
+        },
+        "MK": {
+            "name": "Maċedonja ta' Fuq"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Mjanmar"
+        },
+        "MN": {
+            "name": "Mongolja"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Gżejjer Mariana tat-Tramuntana"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Maldivi"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Messiku"
+        },
+        "MY": {
+            "name": "Malażja"
+        },
+        "MZ": {
+            "name": "Możambik"
+        },
+        "NA": {
+            "name": "Namibja"
+        },
+        "NC": {
+            "name": "Kaledonja l-Ġdida"
+        },
+        "NE": {
+            "name": "Niġer"
+        },
+        "NF": {
+            "name": "Gżira Norfolk"
+        },
+        "NG": {
+            "name": "Niġerja"
+        },
+        "NI": {
+            "name": "Nikaragwa"
+        },
+        "NL": {
+            "name": "Olanda"
+        },
+        "NO": {
+            "name": "Norveġja"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "New Zealand"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Polineżja Franċiża"
+        },
+        "PG": {
+            "name": "Papua New Guinea"
+        },
+        "PH": {
+            "name": "Filippini"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Polonja"
+        },
+        "PM": {
+            "name": "Saint Pierre u Miquelon"
+        },
+        "PN": {
+            "name": "Gżejjer Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugall"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paragwaj"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rumanija"
+        },
+        "RS": {
+            "name": "Serbja"
+        },
+        "RU": {
+            "name": "Russja"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Arabja Sawdita"
+        },
+        "SB": {
+            "name": "Gżejjer Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Żvezja"
+        },
+        "SG": {
+            "name": "Singapor"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slovenja"
+        },
+        "SJ": {
+            "name": "Svalbard u Jan Mayen"
+        },
+        "SK": {
+            "name": "Slovakkja"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalja"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "Sudan t'Isfel"
+        },
+        "ST": {
+            "name": "São Tomé u Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Sirja"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Gżejjer Turks u Caicos"
+        },
+        "TD": {
+            "name": "Ċad"
+        },
+        "TF": {
+            "name": "Territorji Franċiżi tan-Nofsinhar"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tajlandja"
+        },
+        "TJ": {
+            "name": "Taġikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor tal-Lvant"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tuniżija"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turkija"
+        },
+        "TT": {
+            "name": "Trinidad u Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Tajwan"
+        },
+        "TZ": {
+            "name": "Tanżanija"
+        },
+        "UA": {
+            "name": "Ukrajna"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Gżejjer Minuri tal-Istati Uniti"
+        },
+        "US": {
+            "name": "Istati Uniti"
+        },
+        "UY": {
+            "name": "Urugwaj"
+        },
+        "UZ": {
+            "name": "Użbekistan"
+        },
+        "VA": {
+            "name": "Vatikan"
+        },
+        "VC": {
+            "name": "Saint Vincent u l-Grenadini"
+        },
+        "VE": {
+            "name": "Venezwela"
+        },
+        "VG": {
+            "name": "Gżejjer Virġni Brittaniċi"
+        },
+        "VI": {
+            "name": "Gżejjer Virġni Amerikani"
+        },
+        "VN": {
+            "name": "Vjetnnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis u Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Afrika t'Isfel"
+        },
+        "ZM": {
+            "name": "Żambja"
+        },
+        "ZW": {
+            "name": "Żimbabwe"
+        }
+    }
+}

@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Yn llwytho...",
+        "error": "Digwyddodd gwall.",
+        "success": "Llwyddiant!"
+    },
+    "actions": {
+        "edit": "Golygu",
+        "cancel": "Canslo",
+        "continue_shopping": "Parhau i siopa",
+        "back_to_checkout": "Nôl i'r taliad",
+        "checkout": "Talu",
+        "apply": "Cymhwyso",
+        "dismiss": "Diystyru",
+        "type_address": "Teipiwch eich cyfeiriad",
+        "use_this_address": "Defnyddiwch y cyfeiriad hwn",
+        "back_to_store": "Nôl i'r siop",
+        "close_cart": "Cau'r fasged",
+        "show": "Dangos",
+        "hide": "Cuddio",
+        "apply_changes": "Cymhwyso newidiadau",
+        "yes_use_it": "Ie, defnyddiwch ef",
+        "save_changes": "Cadw newidiadau",
+        "back_to_orders": "Nôl i'r archebion",
+        "change_password": "Newid cyfrinair",
+        "clear_cart": "Gwagio'r fasged",
+        "add": "Ychwanegu"
+    },
+    "header": {
+        "title_cart_summary": "Crynodeb y fasged",
+        "loading": "Yn llwytho..."
+    },
+    "item": {
+        "quantity": "Nifer",
+        "quantity_short": "Nifer",
+        "decrement_quantity": "Lleihau'r nifer",
+        "increment_quantity": "Cynyddu'r nifer",
+        "remove_item": "Dileu'r eitem",
+        "recurrence": {
+            "daily": "diwrnod |||| %{smart_count} diwrnod",
+            "weekly": "wythnos |||| %{smart_count} wythnos",
+            "monthly": "mis |||| %{smart_count} mis",
+            "yearly": "blwyddyn |||| %{smart_count} blynedd"
+        }
+    },
+    "subscription": {
+        "title": "Tanysgrifiad",
+        "state": {
+            "title": "Cyflwr",
+            "active": "Gweithredol",
+            "paused": "Wedi'i oedi",
+            "finished": "Wedi gorffen",
+            "stopped": "Wedi stopio",
+            "cancellationrequested": "Bydd y tanysgrifiad yn dod i ben ar ddiwedd y cylch bilio."
+        },
+        "placed_on": "Dyddiad dechrau",
+        "final_billing_date": "Dyddiad bilio olaf",
+        "items": "Eitemau",
+        "plan": "Cynllun",
+        "billed_on": "Wedi'i filio ar",
+        "payment_amount": "Swm y taliad",
+        "processing": "Mae'r tanysgrifiad yn dal i brosesu. Dewch yn ôl yn ddiweddarach i weld y manylion.",
+        "loading": "Yn llwytho tanysgrifiadau",
+        "cancel": "Canslo",
+        "pause": "Oedi",
+        "unpause": "Ailgychwyn",
+        "billing_recurrence": {
+            "daily": "Yn cael ei filio bob dydd |||| Yn cael ei filio bob %{smart_count} diwrnod",
+            "weekly": "Yn cael ei filio bob wythnos |||| Yn cael ei filio bob %{smart_count} wythnos",
+            "monthly": "Yn cael ei filio bob mis |||| Yn cael ei filio bob %{smart_count} mis",
+            "yearly": "Yn cael ei filio bob blwyddyn |||| Yn cael ei filio bob %{smart_count} blynedd"
+        }
+    },
+    "cart": {
+        "subtotal": "Is-gyfanswm",
+        "shipping_taxes_calculated_at_checkout": "Cyfrifir costau cludo a threthi wrth dalu.",
+        "loading": "Rydym yn paratoi eich basged...",
+        "secured_by": "Taliad diogel gyda Snipcart",
+        "summary": "Crynodeb yr archeb",
+        "empty": "Mae eich basged yn wag.",
+        "invoice_number": "Rhif anfoneb",
+        "view_detailed_cart": "Gweld y fasged fanwl"
+    },
+    "order": {
+        "loading": "Yn llwytho manylion yr archeb...",
+        "title": "Archeb"
+    },
+    "discount_box": {
+        "promo_code": "Cod hyrwyddo?",
+        "promo_code_placeholder": "Cod hyrwyddo",
+        "promocode_applied": "Cod hyrwyddo wedi'i gymhwyso"
+    },
+    "address_form": {
+        "name": "Enw",
+        "email": "E-bost",
+        "firstName": "Enw cyntaf",
+        "lastName": "Cyfenw",
+        "address1": "Cyfeiriad",
+        "address2": "Cyfeiriad (llinell 2)",
+        "city": "Dinas",
+        "country": "Gwlad",
+        "phone": "Ffôn",
+        "postalCode": "Cod post",
+        "province": "Sir",
+        "dont_see_address": "Alla i ddim gweld fy nghyfeiriad"
+    },
+    "billing": {
+        "title": "Bilio",
+        "address": "Cyfeiriad bilio",
+        "continue_to_shipping": "Ymlaen i'r cludo",
+        "use_different_shipping_address": "Defnyddio cyfeiriad cludo gwahanol"
+    },
+    "customer": {
+        "information": "Gwybodaeth y cwsmer",
+        "payment_info": "Gwybodaeth talu",
+        "payment_method_update": {
+            "title": "Diweddaru'r dull talu",
+            "outstanding_payment_failed": {
+                "title": "Methodd y taliad",
+                "description": "Diweddarwch eich dull talu i barhau."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Manylion y cwsmer"
+    },
+    "customer_dashboard": {
+        "my_account": "Fy nghyfrif",
+        "ordered_on": "Archebwyd ar",
+        "next_billing_date": "Dyddiad bilio nesaf",
+        "price": "Pris",
+        "total": "Cyfanswm",
+        "status": "Statws",
+        "order": "Archeb %{invoice_number}",
+        "order_details": "Manylion yr archeb",
+        "loading": "Yn llwytho...",
+        "no_orders": "Nid oes gennych unrhyw archebion.",
+        "no_subscriptions": "Nid oes gennych unrhyw danysgrifiadau.",
+        "view_invoice": "Gweld anfoneb",
+        "sign_out": "Allgofnodi",
+        "show_more_orders": "Dangos %{smart_count} archeb arall |||| Dangos %{smart_count} archeb arall",
+        "show_more_subscriptions": "Dangos %{smart_count} tanysgrifiad arall |||| Dangos %{smart_count} tanysgrifiad arall",
+        "orders": "Archebion",
+        "subscriptions": "Tanysgrifiadau",
+        "subscription": "Tanysgrifiad"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Mae gan eich tanysgrifiad daliad sy'n ddyledus",
+                "description": "Mae gennych danysgrifiad gyda thaliad sy'n ddyledus. Diweddarwch eich dull talu."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Mewngofnodi",
+        "dont_have_an_account": "Dim cyfrif gennych?",
+        "email": "E-bost",
+        "password": "Cyfrinair",
+        "forgot_your_password": "Wedi anghofio'ch cyfrinair?",
+        "close_form": "Yn ôl"
+    },
+    "forgot_password_form": {
+        "title": "Ailosod cyfrinair",
+        "instructions": "Rhowch gyfeiriad e-bost eich cyfrif a byddwn yn anfon dolen atoch i ailosod eich cyfrinair.",
+        "email": "E-bost",
+        "email_instructions": "Rydym wedi anfon e-bost atoch gyda dolen. Cliciwch y ddolen i ailosod eich cyfrinair.",
+        "action": "Anfon e-bost ailosod"
+    },
+    "reset_password_form": {
+        "title": "Ailosod cyfrinair",
+        "password": "Cyfrinair newydd",
+        "confirmation_password": "Cadarnhau cyfrinair newydd",
+        "action": "Ailosod cyfrinair"
+    },
+    "change_password_form": {
+        "title": "Newid cyfrinair",
+        "current_password": "Cyfrinair presennol",
+        "password": "Cyfrinair newydd",
+        "confirmation_password": "Cadarnhau cyfrinair newydd",
+        "action": "Newid cyfrinair"
+    },
+    "register_form": {
+        "register": "Cofrestru",
+        "already_have_an_account": "Oes gennych gyfrif yn barod?",
+        "email": "E-bost",
+        "password": "Cyfrinair",
+        "confirm_password": "Cadarnhau cyfrinair",
+        "requires_action": {
+            "title": "Gwiriwch eich e-bost",
+            "description": "Rydym wedi anfon e-bost atoch. Dilynwch y cyfarwyddiadau i gwblhau'r cofrestriad."
+        }
+    },
+    "guest_checkout": {
+        "or": "neu",
+        "continue_as_a_guest": "Parhau fel gwestai"
+    },
+    "shipping": {
+        "title": "Cludo",
+        "shipping_to": "Cludo i:",
+        "address": "Cyfeiriad cludo",
+        "method": "Dull cludo",
+        "methods": {
+            "example_localization_id": "Enghraifft o ddull cludo"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Danfoniad gwarantedig mewn %{smart_count} diwrnod |||| Danfoniad gwarantedig mewn %{smart_count} diwrnod"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Taliad gohiriedig",
+            "deferred_payment_instructions": "Drwy wneud yr archeb hon, rydych yn cytuno i dalu'n ddiweddarach yn ôl y dull talu a bennwyd gan y gwerthwr.",
+            "card_label": "Cerdyn credyd",
+            "card_number": "Rhif cerdyn",
+            "card_expiration": "MM/BB",
+            "card_cvv": "CVV",
+            "card_postal_code": "Cod post",
+            "invalid_number": "Nid yw rhif y cerdyn yn ddilys",
+            "invalid_expiration": "Nid yw'r dyddiad dod i ben yn ddilys",
+            "invalid_cvv": "Nid yw'r CVV yn ddilys",
+            "invalid_postal_code": "Nid yw'r cod post yn ddilys"
+        },
+        "still_pending_notice": "Mae'r taliad yn cael ei brosesu.",
+        "title": "Taliad",
+        "continue_to_payment": "Ymlaen i'r taliad",
+        "credit_card": "Cerdyn credyd",
+        "place_order": "Gosod archeb",
+        "preparing_payment_session": "Yn paratoi'r sesiwn talu...",
+        "processing_payment": "Yn prosesu'r taliad...",
+        "checkout_with": "Talu gyda",
+        "checkout_with_method": "Talu gyda %{method}",
+        "method_icon": "Eicon %{method}",
+        "no_payment": "Nid oes angen taliad ar gyfer yr archeb hon.",
+        "methods": {
+            "card": "Cerdyn credyd",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna talu'n ddiweddarach",
+            "klarna_slice_it": "Klarna rhandaliadau",
+            "p24": "Przelewy24",
+            "sepa_debit": "Trosglwyddiad banc SEPA",
+            "sofort": "Trosglwyddiad banc Sofort",
+            "deferred_payment": "Taliad gohiriedig"
+        }
+    },
+    "discounts": {
+        "title": "Gostyngiadau"
+    },
+    "cart_summary": {
+        "taxes": "Trethi",
+        "taxes_included_in_price": "Mae rhai eitemau'n cynnwys trethi yn y pris.",
+        "total": "Cyfanswm",
+        "subtotal": "Is-gyfanswm",
+        "shipping": "Cludo",
+        "discount": "Gostyngiad",
+        "quantity": "x",
+        "calculated_at_checkout": "Yn cael ei gyfrifo wrth dalu"
+    },
+    "errors": {
+        "default": "Digwyddodd gwall. Rhowch gynnig arall arni'n ddiweddarach neu cysylltwch â ni.",
+        "promo_code_is_invalid": "Nid yw'r cod hyrwyddo'n ddilys",
+        "promocode_already_in_cart": "Mae'r cod hyrwyddo eisoes wedi'i gymhwyso",
+        "promocode_isnt_applicable": "Nid yw'r cod hyrwyddo'n gymwys",
+        "promo_code_is_expired": "Mae'r cod hyrwyddo wedi dod i ben",
+        "stringEmpty": "Mae'r maes hwn yn ofynnol",
+        "emailEmpty": "Mae'r e-bost yn ofynnol",
+        "required": "Mae'r maes hwn yn ofynnol",
+        "invalid_expiry_year_past": "Mae'r cerdyn wedi dod i ben",
+        "email": "Rhowch gyfeiriad e-bost dilys",
+        "quantity_revised": "Mae'r nifer wedi'i addasu oherwydd cyfyngiadau stoc.",
+        "quantity_out_of_stock": "Mae'n ddrwg gennym, mae'r eitem hon allan o stoc. Tynnwch hi o'r fasged i barhau.",
+        "disabled_country": "Nid yw cludo i'r wlad hon ar gael.",
+        "error_payment_items_are_invalid": {
+            "title": "Mae eich basged yn cynnwys eitemau annilys.",
+            "description": "Adolygwch eich archeb neu rhowch gynnig arall arni'n ddiweddarach."
+        },
+        "card": {
+            "invalid_number": "Nid yw rhif y cerdyn yn ddilys.",
+            "invalid_date": "Nid yw dyddiad dod i ben y cerdyn yn ddilys.",
+            "invalid_year": "Nid yw blwyddyn dod i ben y cerdyn yn ddilys.",
+            "invalid_month": "Nid yw mis dod i ben y cerdyn yn ddilys.",
+            "invalid_cvv": "Nid yw'r CVV yn ddilys.",
+            "invalid_expiration": "Nid yw dyddiad dod i ben y cerdyn yn ddilys.",
+            "expired": "Mae'r cerdyn wedi dod i ben.",
+            "declined": "Mae'r cerdyn wedi'i wrthod. Cysylltwch â chyhoeddwr eich cerdyn.",
+            "invalid_address": "Nid yw cyfeiriad y cerdyn yn ddilys.",
+            "insufficient_funds": "Arian annigonol.",
+            "card_not_supported": "Ni chefnogir y cerdyn hwn yn y rhanbarth hwn.",
+            "currency_not_supported": "Ni chefnogir yr arian cyfred hwn ar hyn o bryd."
+        },
+        "transaction": {
+            "declined": "Digwyddodd gwall wrth brosesu'r cerdyn. Rhowch gynnig arall arni'n ddiweddarach neu defnyddiwch ddull talu arall."
+        },
+        "discounts": {
+            "conflict": "Ni ellir cyfuno rhai gostyngiadau. A ydych am ddefnyddio'r gostyngiad hwn?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Ni fu'n bosibl prosesu'r archeb.",
+                "description": "Ni chodwyd unrhyw dâl. Cysylltwch â'r gwerthwr."
+            },
+            "product_crawling": {
+                "title": "Efallai bod prisiau eitemau'r fasged wedi newid.",
+                "description": "Ceisiwch dynnu'r eitemau a'u hychwanegu eto."
+            },
+            "stock_validation": {
+                "title": "Mae'r stoc yn annigonol.",
+                "description": "Efallai bod rhai eitemau allan o stoc. Addaswch y niferoedd."
+            },
+            "custom_fields_validation": {
+                "title": "Mae gwybodaeth ofynnol ar goll.",
+                "description": "Mae angen gwybodaeth ychwanegol ar rai eitemau yn y fasged. Golygwch nhw."
+            },
+            "shipping_validation": {
+                "title": "Ni fu'n bosibl gwirio'r dull cludo.",
+                "description": "Mae'r gyfradd gludo a ddewiswyd wedi newid neu nid yw ar gael."
+            }
+        },
+        "invalid_address": "Nid yw'r cyfeiriad yn ddilys.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Nid oes dulliau cludo ar gael ar hyn o bryd",
+                "description": "Rhowch gynnig arall arni'n ddiweddarach neu cysylltwch â ni."
+            },
+            "rates_calculation": {
+                "title": "Ni fu'n bosibl cyfrifo'r cyfraddau cludo",
+                "description": "Rhowch gynnig arall arni'n ddiweddarach neu cysylltwch â ni."
+            },
+            "no_rates_found": {
+                "title": "Nid oes dulliau cludo ar gael",
+                "description": "Gwiriwch y cyfeiriad cludo neu cysylltwch â ni."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Nid yw cludo i'r wlad hon ar gael.",
+            "E.ENGINE.UNAVAILABLE": "Nid yw'r gwasanaeth cludo ar gael. Rhowch gynnig arall arni'n ddiweddarach.",
+            "E.QUERY.UNANSWERABLE": "Ni fu'n bosibl gwirio'r cyfeiriad. Gwiriwch y wybodaeth.",
+            "E.ADDRESS.NOT_FOUND": "Ni ddaethpwyd o hyd i'r cyfeiriad.",
+            "E.SECONDARY_INFORMATION.INVALID": "Nid yw'r wybodaeth gyfeiriad ychwanegol yn ddilys.",
+            "E.SECONDARY_INFORMATION.MISSING": "Mae gwybodaeth gyfeiriad ychwanegol ar goll.",
+            "E.HOUSE_NUMBER.MISSING": "Mae rhif yr adeilad ar goll.",
+            "E.HOUSE_NUMBER.INVALID": "Nid yw rhif yr adeilad yn ddilys.",
+            "E.STREET.MISSING": "Mae enw'r stryd ar goll.",
+            "E.STREET.INVALID": "Nid yw enw'r stryd yn ddilys.",
+            "E.BOX_NUMBER.MISSING": "Mae rhif y blwch ar goll.",
+            "E.BOX_NUMBER.INVALID": "Nid yw rhif y blwch yn ddilys.",
+            "E.ADDRESS.INVALID": "Nid yw'r cyfeiriad yn ddilys.",
+            "E.ZIP.NOT_FOUND": "Ni ddaethpwyd o hyd i'r cod post.",
+            "E.ZIP.INVALID": "Nid yw'r cod post yn ddilys.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Ni ddaethpwyd o hyd i estyniad y cod post.",
+            "E.ADDRESS.MULTIPLE": "Daethpwyd o hyd i gyfeiriadau lluosog. Rhowch gyfeiriad mwy manwl gywir.",
+            "E.ADDRESS.INSUFFICIENT": "Mae gwybodaeth y cyfeiriad yn anghyflawn.",
+            "E.ADDRESS.DUAL": "Mae'r cyfeiriad yn cynnwys gwybodaeth sy'n gwrthddweud.",
+            "E.STREET.MAGNET": "Ni fu'n bosibl gwirio enw'r stryd.",
+            "E.CITY_STATE.INVALID": "Nid yw'r ddinas na'r rhanbarth yn ddilys.",
+            "E.STATE.INVALID": "Nid yw'r rhanbarth yn ddilys.",
+            "E.ADDRESS.DELIVERY.INVALID": "Nid yw'r cyfeiriad danfon yn ddilys.",
+            "E.TIMED_OUT": "Aeth y gwiriad cyfeiriad dros yr amser. Rhowch gynnig arall arni.",
+            "E.TIME_ZONE.UNAVAILABLE": "Nid yw gwybodaeth y cylchfa amser ar gael.",
+            "E.PO_BOX.INTERNATIONAL": "Nid yw cludo rhyngwladol i flychau post yn bosibl."
+        },
+        "payment_failed": {
+            "title": "Ni fu'n bosibl prosesu'r taliad",
+            "description": "Rhowch gynnig arall arni'n ddiweddarach neu cysylltwch â ni."
+        },
+        "payment_authorization": {
+            "title": "Ni fu'n bosibl prosesu'r taliad",
+            "default": "Gwiriwch eich manylion bilio a thalu."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Ni fu'n bosibl prosesu'r taliad",
+                "description": "Ni fu'n bosibl dilysu'r wybodaeth talu. Rhowch gynnig arall arni."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Dim ond un tanysgrifiad all fod yn y fasged.",
+                "description": "Tynnwch y tanysgrifiad presennol cyn ychwanegu un newydd."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Dim ond eitemau neu danysgrifiadau all fod yn y fasged.",
+                "description": "Tynnwch yr eitemau presennol cyn ychwanegu tanysgrifiad neu i'r gwrthwyneb."
+            }
+        },
+        "customer_exists": "Mae'r cyfeiriad e-bost hwn eisoes yn cael ei ddefnyddio.",
+        "customer_password_missmatch": "Nid yw'r cyfrineiriau'n cyfateb.",
+        "customer_password_token_expired": "Mae'r ddolen ailosod cyfrinair wedi dod i ben.",
+        "customer_password_token_invalid": "Nid yw'r ddolen ailosod cyfrinair yn ddilys.",
+        "customer_not_found": "Nid oes cyfrif yn gysylltiedig â'r cyfeiriad e-bost hwn.",
+        "invalid_credentials": "Mae'r e-bost neu'r cyfrinair yn anghywir.",
+        "customer_current_password_invalid": "Mae'r cyfrinair presennol yn anghywir."
+    },
+    "shippingRates": {
+        "loading": "Yn llwytho..."
+    },
+    "customer_orders": {
+        "loading": "Yn llwytho..."
+    },
+    "digital_goods": {
+        "download": "Lawrlwytho"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "Diolch am eich archeb",
+        "async_confirmation_notice": "Mae eich archeb wedi'i derbyn ac yn cael ei phrosesu. Byddwch yn derbyn e-bost cadarnhau yn fuan."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Cyfrifir costau cludo a threthi ar ôl darparu cyfeiriad."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Yr Emiradau Arabaidd Unedig"
+        },
+        "AF": {
+            "name": "Affganistan"
+        },
+        "AG": {
+            "name": "Antigwa a Barbiwda"
+        },
+        "AI": {
+            "name": "Anguilla"
+        },
+        "AL": {
+            "name": "Albania"
+        },
+        "AM": {
+            "name": "Armenia"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarctica"
+        },
+        "AR": {
+            "name": "Yr Ariannin"
+        },
+        "AS": {
+            "name": "Samoa Americanaidd"
+        },
+        "AT": {
+            "name": "Awstria"
+        },
+        "AU": {
+            "name": "Awstralia"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Ynysoedd Åland"
+        },
+        "AZ": {
+            "name": "Aserbaijan"
+        },
+        "BA": {
+            "name": "Bosnia a Herzegovina"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Gwlad Belg"
+        },
+        "BF": {
+            "name": "Burkina Faso"
+        },
+        "BG": {
+            "name": "Bwlgaria"
+        },
+        "BH": {
+            "name": "Bahrain"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benin"
+        },
+        "BL": {
+            "name": "Saint Barthélemy"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunei"
+        },
+        "BO": {
+            "name": "Bolifia"
+        },
+        "BQ": {
+            "name": "Caribî yr Iseldiroedd"
+        },
+        "BR": {
+            "name": "Brasil"
+        },
+        "BS": {
+            "name": "Y Bahamas"
+        },
+        "BT": {
+            "name": "Bhutan"
+        },
+        "BV": {
+            "name": "Ynys Bouvet"
+        },
+        "BW": {
+            "name": "Botswana"
+        },
+        "BY": {
+            "name": "Belarws"
+        },
+        "BZ": {
+            "name": "Belize"
+        },
+        "CA": {
+            "name": "Canada"
+        },
+        "CC": {
+            "name": "Ynysoedd Cocos"
+        },
+        "CD": {
+            "name": "Gweriniaeth Ddemocrataidd y Congo"
+        },
+        "CF": {
+            "name": "Gweriniaeth Canolbarth Affrica"
+        },
+        "CG": {
+            "name": "Gweriniaeth y Congo"
+        },
+        "CH": {
+            "name": "Y Swistir"
+        },
+        "CI": {
+            "name": "Côte d'Ivoire"
+        },
+        "CK": {
+            "name": "Ynysoedd Cook"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Camerŵn"
+        },
+        "CN": {
+            "name": "Tsieina"
+        },
+        "CO": {
+            "name": "Colombia"
+        },
+        "CR": {
+            "name": "Costa Rica"
+        },
+        "CU": {
+            "name": "Ciwba"
+        },
+        "CV": {
+            "name": "Cabo Verde"
+        },
+        "CW": {
+            "name": "Curaçao"
+        },
+        "CX": {
+            "name": "Ynys y Nadolig"
+        },
+        "CY": {
+            "name": "Cyprus"
+        },
+        "CZ": {
+            "name": "Tsieceia"
+        },
+        "DE": {
+            "name": "Yr Almaen"
+        },
+        "DJ": {
+            "name": "Djibouti"
+        },
+        "DK": {
+            "name": "Denmarc"
+        },
+        "DM": {
+            "name": "Dominica"
+        },
+        "DO": {
+            "name": "Gweriniaeth Dominica"
+        },
+        "DZ": {
+            "name": "Algeria"
+        },
+        "EC": {
+            "name": "Ecuador"
+        },
+        "EE": {
+            "name": "Estonia"
+        },
+        "EG": {
+            "name": "Yr Aifft"
+        },
+        "EH": {
+            "name": "Sahara'r Gorllewin"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Sbaen"
+        },
+        "ES-CN": {
+            "name": "Ynysoedd y Canari"
+        },
+        "ET": {
+            "name": "Ethiopia"
+        },
+        "FI": {
+            "name": "Y Ffindir"
+        },
+        "FJ": {
+            "name": "Fiji"
+        },
+        "FK": {
+            "name": "Ynysoedd y Falkland"
+        },
+        "FM": {
+            "name": "Micronesia"
+        },
+        "FO": {
+            "name": "Ynysoedd Ffaro"
+        },
+        "FR": {
+            "name": "Ffrainc"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Y Deyrnas Unedig"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georgia"
+        },
+        "GF": {
+            "name": "Guiana Ffrengig"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Ghana"
+        },
+        "GI": {
+            "name": "Gibraltar"
+        },
+        "GL": {
+            "name": "Yr Ynys Las"
+        },
+        "GM": {
+            "name": "Gambia"
+        },
+        "GN": {
+            "name": "Guinée"
+        },
+        "GP": {
+            "name": "Guadeloupe"
+        },
+        "GQ": {
+            "name": "Guinée Gyhydeddol"
+        },
+        "GR": {
+            "name": "Gwlad Groeg"
+        },
+        "GS": {
+            "name": "De Georgia ac Ynysoedd Sandwich y De"
+        },
+        "GT": {
+            "name": "Guatemala"
+        },
+        "GU": {
+            "name": "Guam"
+        },
+        "GW": {
+            "name": "Guinée-Bissau"
+        },
+        "GY": {
+            "name": "Guyana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Ynys Heard ac Ynysoedd McDonald"
+        },
+        "HN": {
+            "name": "Honduras"
+        },
+        "HR": {
+            "name": "Croatia"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Hwngari"
+        },
+        "ID": {
+            "name": "Indonesia"
+        },
+        "IE": {
+            "name": "Iwerddon"
+        },
+        "IL": {
+            "name": "Israel"
+        },
+        "IM": {
+            "name": "Ynys Manaw"
+        },
+        "IN": {
+            "name": "India"
+        },
+        "IO": {
+            "name": "Tiriogaeth Brydeinig Cefnfor India"
+        },
+        "IQ": {
+            "name": "Irac"
+        },
+        "IR": {
+            "name": "Iran"
+        },
+        "IS": {
+            "name": "Gwlad yr Iâ"
+        },
+        "IT": {
+            "name": "Yr Eidal"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Gwlad Iorddonen"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Kenya"
+        },
+        "KG": {
+            "name": "Kyrgyzstan"
+        },
+        "KH": {
+            "name": "Cambodia"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Comoros"
+        },
+        "KN": {
+            "name": "Saint Kitts a Nevis"
+        },
+        "KP": {
+            "name": "Gogledd Corea"
+        },
+        "KR": {
+            "name": "De Corea"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
+        "KY": {
+            "name": "Ynysoedd Cayman"
+        },
+        "KZ": {
+            "name": "Kazakhstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Libanus"
+        },
+        "LC": {
+            "name": "Saint Lucia"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesotho"
+        },
+        "LT": {
+            "name": "Lithwania"
+        },
+        "LU": {
+            "name": "Lwcsembwrg"
+        },
+        "LV": {
+            "name": "Latfia"
+        },
+        "LY": {
+            "name": "Libya"
+        },
+        "MA": {
+            "name": "Moroco"
+        },
+        "MC": {
+            "name": "Monaco"
+        },
+        "MD": {
+            "name": "Moldofa"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Ynysoedd Marshall"
+        },
+        "MK": {
+            "name": "Gogledd Macedonia"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Macau"
+        },
+        "MP": {
+            "name": "Ynysoedd Gogledd Mariana"
+        },
+        "MQ": {
+            "name": "Martinique"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauritius"
+        },
+        "MV": {
+            "name": "Y Maldives"
+        },
+        "MW": {
+            "name": "Malawi"
+        },
+        "MX": {
+            "name": "Mecsico"
+        },
+        "MY": {
+            "name": "Malaysia"
+        },
+        "MZ": {
+            "name": "Mosambic"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Caledonia Newydd"
+        },
+        "NE": {
+            "name": "Niger"
+        },
+        "NF": {
+            "name": "Ynys Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
+        "NI": {
+            "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Yr Iseldiroedd"
+        },
+        "NO": {
+            "name": "Norwy"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Seland Newydd"
+        },
+        "OM": {
+            "name": "Oman"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Periw"
+        },
+        "PF": {
+            "name": "Polynesia Ffrengig"
+        },
+        "PG": {
+            "name": "Papua Guinea Newydd"
+        },
+        "PH": {
+            "name": "Y Philipinau"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "Gwlad Pwyl"
+        },
+        "PM": {
+            "name": "Saint-Pierre a Miquelon"
+        },
+        "PN": {
+            "name": "Ynysoedd Pitcairn"
+        },
+        "PR": {
+            "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palesteina"
+        },
+        "PT": {
+            "name": "Portiwgal"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paraguay"
+        },
+        "QA": {
+            "name": "Qatar"
+        },
+        "RE": {
+            "name": "Réunion"
+        },
+        "RO": {
+            "name": "Rwmania"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Rwsia"
+        },
+        "RW": {
+            "name": "Rwanda"
+        },
+        "SA": {
+            "name": "Saudi Arabia"
+        },
+        "SB": {
+            "name": "Ynysoedd Solomon"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudan"
+        },
+        "SE": {
+            "name": "Sweden"
+        },
+        "SG": {
+            "name": "Singapore"
+        },
+        "SH": {
+            "name": "Saint Helena"
+        },
+        "SI": {
+            "name": "Slofenia"
+        },
+        "SJ": {
+            "name": "Svalbard a Jan Mayen"
+        },
+        "SK": {
+            "name": "Slofacia"
+        },
+        "SL": {
+            "name": "Sierra Leone"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Suriname"
+        },
+        "SS": {
+            "name": "De Sudan"
+        },
+        "ST": {
+            "name": "São Tomé a Príncipe"
+        },
+        "SV": {
+            "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Syria"
+        },
+        "SZ": {
+            "name": "Eswatini"
+        },
+        "TC": {
+            "name": "Ynysoedd Turks a Caicos"
+        },
+        "TD": {
+            "name": "Tchad"
+        },
+        "TF": {
+            "name": "Tiroedd Deheuol Ffrainc"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Gwlad Thai"
+        },
+        "TJ": {
+            "name": "Tajikistan"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor-Leste"
+        },
+        "TM": {
+            "name": "Turkmenistan"
+        },
+        "TN": {
+            "name": "Tiwnisia"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Twrci"
+        },
+        "TT": {
+            "name": "Trinidad a Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwan"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Wcráin"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Mân Ynysoedd Pellennig yr UD"
+        },
+        "US": {
+            "name": "Yr Unol Daleithiau"
+        },
+        "UY": {
+            "name": "Uruguay"
+        },
+        "UZ": {
+            "name": "Uzbekistan"
+        },
+        "VA": {
+            "name": "Y Fatican"
+        },
+        "VC": {
+            "name": "Saint Vincent a'r Grenadines"
+        },
+        "VE": {
+            "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Ynysoedd y Wyryf Prydeinig"
+        },
+        "VI": {
+            "name": "Ynysoedd y Wyryf Americanaidd"
+        },
+        "VN": {
+            "name": "Fietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis a Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "De Affrica"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabwe"
+        }
+    }
+}

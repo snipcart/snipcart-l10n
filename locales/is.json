@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "Hle\u00f0...",
+        "error": "Villa kom upp.",
+        "success": "T\u00f3kst!"
+    },
+    "actions": {
+        "edit": "Breyta",
+        "cancel": "H\u00e6tta vi\u00f0",
+        "continue_shopping": "Halda \u00e1fram a\u00f0 versla",
+        "back_to_checkout": "Til baka \u00ed grei\u00f0slu",
+        "checkout": "Grei\u00f0a",
+        "apply": "Nota",
+        "dismiss": "Loka",
+        "type_address": "Sl\u00e1\u00f0u inn heimilisfang",
+        "use_this_address": "Nota \u00feetta heimilisfang",
+        "back_to_store": "Til baka \u00ed verslun",
+        "close_cart": "Loka k\u00f6rfu",
+        "show": "S\u00fdna",
+        "hide": "Fela",
+        "apply_changes": "Vista breytingar",
+        "yes_use_it": "J\u00e1, nota \u00feetta",
+        "save_changes": "Vista breytingar",
+        "back_to_orders": "Til baka \u00ed pantanir",
+        "change_password": "Breyta lykilor\u00f0i",
+        "clear_cart": "T\u00e6ma k\u00f6rfu",
+        "add": "B\u00e6ta vi\u00f0"
+    },
+    "header": {
+        "title_cart_summary": "Yfirlit k\u00f6rfu",
+        "loading": "Hle\u00f0..."
+    },
+    "item": {
+        "quantity": "Magn",
+        "quantity_short": "Magn",
+        "decrement_quantity": "Minnka magn",
+        "increment_quantity": "Auka magn",
+        "remove_item": "Fjarl\u00e6gja v\u00f6ru",
+        "recurrence": {
+            "daily": "dagur |||| %{smart_count} dagar",
+            "weekly": "vika |||| %{smart_count} vikur",
+            "monthly": "m\u00e1nu\u00f0ur |||| %{smart_count} m\u00e1nu\u00f0ir",
+            "yearly": "\u00e1r |||| %{smart_count} \u00e1r"
+        }
+    },
+    "subscription": {
+        "title": "\u00c1skrift",
+        "state": {
+            "title": "Sta\u00f0a",
+            "active": "Virk",
+            "paused": "\u00cd hli\u00f0",
+            "finished": "Loki\u00f0",
+            "stopped": "H\u00e6tt",
+            "cancellationrequested": "\u00c1skrift mun h\u00e6tta \u00ed lok reikningst\u00edmabils."
+        },
+        "placed_on": "P\u00f6ntu\u00f0 \u00feann",
+        "final_billing_date": "Loka reikningsdagur",
+        "items": "V\u00f6rur",
+        "plan": "\u00c1\u00e6tlun",
+        "billed_on": "Reikningsf\u00e6r\u00f0 \u00feann",
+        "payment_amount": "Grei\u00f0sluupph\u00e6\u00f0",
+        "processing": "\u00c1skrift er enn \u00ed vinnslu. Komi\u00f0 aftur s\u00ed\u00f0ar til a\u00f0 sj\u00e1 uppl\u00fdsingar.",
+        "loading": "Hle\u00f0 \u00e1skriftum",
+        "cancel": "H\u00e6tta vi\u00f0",
+        "pause": "Gera hl\u00e9",
+        "unpause": "Halda \u00e1fram",
+        "billing_recurrence": {
+            "daily": "Reikningsf\u00e6rt \u00e1 hverjum degi |||| Reikningsf\u00e6rt \u00e1 %{smart_count} daga fresti",
+            "weekly": "Reikningsf\u00e6rt \u00e1 hverri viku |||| Reikningsf\u00e6rt \u00e1 %{smart_count} vikna fresti",
+            "monthly": "Reikningsf\u00e6rt \u00e1 hverjum m\u00e1nu\u00f0i |||| Reikningsf\u00e6rt \u00e1 %{smart_count} m\u00e1na\u00f0a fresti",
+            "yearly": "Reikningsf\u00e6rt \u00e1 hverju \u00e1ri |||| Reikningsf\u00e6rt \u00e1 %{smart_count} \u00e1ra fresti"
+        }
+    },
+    "cart": {
+        "subtotal": "Millisamt\u00f6lu",
+        "shipping_taxes_calculated_at_checkout": "Sendingarkostna\u00f0ur og skattar ver\u00f0a reikna\u00f0ir vi\u00f0 grei\u00f0slu.",
+        "loading": "Vi\u00f0 erum a\u00f0 undirb\u00faa k\u00f6rfuna \u00fe\u00edna...",
+        "secured_by": "Tryggt af Snipcart",
+        "summary": "P\u00f6ntunaryfirlit",
+        "empty": "Karfan \u00fe\u00edn er t\u00f3m.",
+        "invoice_number": "Reikningsn\u00famer",
+        "view_detailed_cart": "Sko\u00f0a n\u00e1nari k\u00f6rfu"
+    },
+    "order": {
+        "loading": "Vi\u00f0 erum a\u00f0 undirb\u00faa p\u00f6ntunaruppl\u00fdsingar...",
+        "title": "P\u00f6ntun"
+    },
+    "discount_box": {
+        "promo_code": "A\u00f0gangsko\u00f0i?",
+        "promo_code_placeholder": "A\u00f0gangsko\u00f0i",
+        "promocode_applied": "Tilbo\u00f0 virkja\u00f0"
+    },
+    "address_form": {
+        "name": "Fullt nafn",
+        "email": "Netfang",
+        "firstName": "Fornafn",
+        "lastName": "Eftirnafn",
+        "address1": "Heimilisfang",
+        "address2": "\u00cdb\u00fa\u00f0/H\u00e6\u00f0",
+        "city": "Borg/B\u00e6r",
+        "country": "Land",
+        "phone": "S\u00edmi",
+        "postalCode": "P\u00f3stn\u00famer",
+        "province": "H\u00e9ra\u00f0/R\u00edki",
+        "dont_see_address": "\u00c9g finn ekki heimilisfangi\u00f0 mitt"
+    },
+    "billing": {
+        "title": "Reikningsuppl\u00fdsingar",
+        "address": "Reikningsheimilisfang",
+        "continue_to_shipping": "Halda \u00e1fram \u00ed sendingu",
+        "use_different_shipping_address": "Nota anna\u00f0 sendingarheimilisfang"
+    },
+    "customer": {
+        "information": "Vi\u00f0skiptavinauppl\u00fdsingar",
+        "payment_info": "Grei\u00f0sluuppl\u00fdsingar m\u00ednar",
+        "payment_method_update": {
+            "title": "Uppf\u00e6ra grei\u00f0slum\u00e1ta",
+            "outstanding_payment_failed": {
+                "title": "Grei\u00f0sla mist\u00f3kst",
+                "description": "Grei\u00f0slum\u00e1ti \u00feinn hefur veri\u00f0 uppf\u00e6r\u00f0ur, en vi\u00f0 g\u00e1tum ekki skuldf\u00e6rt \u00fatstandandi st\u00f6\u00f0u. Vinsamlegast nota\u00f0u annan grei\u00f0slum\u00e1ta."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Uppl\u00fdsingar vi\u00f0skiptavinar"
+    },
+    "customer_dashboard": {
+        "my_account": "Reikningurinn minn",
+        "ordered_on": "P\u00f6nta\u00f0 \u00feann",
+        "next_billing_date": "N\u00e6sti reikningsdagur",
+        "price": "Ver\u00f0",
+        "total": "Samtals",
+        "status": "Sta\u00f0a",
+        "order": "P\u00f6ntun %{invoice_number}",
+        "order_details": "P\u00f6ntunaruppl\u00fdsingar",
+        "loading": "Hle\u00f0...",
+        "no_orders": "Engar pantanir fundust.",
+        "no_subscriptions": "Engar \u00e1skriftir fundust.",
+        "view_invoice": "Sko\u00f0a reikning",
+        "sign_out": "Skr\u00e1 \u00fat",
+        "show_more_orders": "S\u00fdna %{smart_count} p\u00f6ntun \u00ed vi\u00f0b\u00f3t |||| S\u00fdna %{smart_count} pantanir \u00ed vi\u00f0b\u00f3t",
+        "show_more_subscriptions": "S\u00fdna %{smart_count} \u00e1skrift \u00ed vi\u00f0b\u00f3t |||| S\u00fdna %{smart_count} \u00e1skriftir \u00ed vi\u00f0b\u00f3t",
+        "orders": "Pantanir",
+        "subscriptions": "\u00c1skriftir",
+        "subscription": "\u00c1skrift"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Grei\u00f0sla er \u00e1 gjalddaga vegna \u00e1skriftar",
+                "description": "\u00de\u00fa ert me\u00f0 \u00e1skrift me\u00f0 \u00fatstandandi grei\u00f0slu. Vinsamlegast uppf\u00e6r\u00f0u grei\u00f0slum\u00e1ta \u00feinn me\u00f0 \u00fev\u00ed a\u00f0 smella \u00e1 Breyta vi\u00f0 hli\u00f0 \u00e1 uppl\u00fdsingum \u00fe\u00ednum."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "Skr\u00e1 inn",
+        "dont_have_an_account": "\u00c1tt ekki reikning?",
+        "email": "Netfang",
+        "password": "Lykilor\u00f0",
+        "forgot_your_password": "Gleymdir lykilor\u00f0inu?",
+        "close_form": "Til baka"
+    },
+    "forgot_password_form": {
+        "title": "Endurheimta lykilor\u00f0",
+        "instructions": "Sl\u00e1\u00f0u inn netfang reikningsins \u00fe\u00edns og vi\u00f0 sendum \u00fe\u00e9r hlekk til a\u00f0 endurstilla lykilor\u00f0i\u00f0.",
+        "email": "Netfang",
+        "email_instructions": "T\u00f6lvup\u00f3stur me\u00f0 hlekk hefur veri\u00f0 sendur til \u00fe\u00edn. Smelltu \u00e1 hann til a\u00f0 endurstilla lykilor\u00f0i\u00f0.",
+        "action": "Senda endurstillingarp\u00f3st"
+    },
+    "reset_password_form": {
+        "title": "Endurstilla lykilor\u00f0",
+        "password": "N\u00fdtt lykilor\u00f0",
+        "confirmation_password": "Sl\u00e1\u00f0u inn n\u00fdja lykilor\u00f0i\u00f0 aftur",
+        "action": "Endurstilla lykilor\u00f0"
+    },
+    "change_password_form": {
+        "title": "Breyta lykilor\u00f0i",
+        "current_password": "N\u00faverandi lykilor\u00f0",
+        "password": "N\u00fdtt lykilor\u00f0",
+        "confirmation_password": "Sl\u00e1\u00f0u inn n\u00fdja lykilor\u00f0i\u00f0 aftur",
+        "action": "Breyta lykilor\u00f0i"
+    },
+    "register_form": {
+        "register": "N\u00fdskr\u00e1ning",
+        "already_have_an_account": "Ertu me\u00f0 reikning n\u00fa \u00feegar?",
+        "email": "Netfang",
+        "password": "Lykilor\u00f0",
+        "confirm_password": "Sta\u00f0festa lykilor\u00f0",
+        "requires_action": {
+            "title": "Athuga\u00f0u netfangi\u00f0 \u00feitt",
+            "description": "\u00deetta netfang hefur \u00feegar veri\u00f0 nota\u00f0 til a\u00f0 kl\u00e1ra p\u00f6ntun. Vinsamlegast lj\u00faki\u00f0 vi\u00f0 skr\u00e1ningarferlinu me\u00f0 \u00fev\u00ed a\u00f0 nota hlekkinn sem sendur var \u00e1 netfangi\u00f0 ykkar."
+        }
+    },
+    "guest_checkout": {
+        "or": "E\u00f0a",
+        "continue_as_a_guest": "Halda \u00e1fram sem gestur"
+    },
+    "shipping": {
+        "title": "Sending",
+        "shipping_to": "Sent til:",
+        "address": "Sendingarheimilisfang",
+        "method": "Sendingarm\u00e1ti",
+        "methods": {
+            "example_localization_id": "\u00deetta er d\u00e6mi um sta\u00f0f\u00e6r\u00f0an sendingarm\u00e1ta"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Trygg\u00f0 afhending \u00e1 %{guaranteedDaysToDelivery} degi/d\u00f6gum."
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "Frestu\u00f0 grei\u00f0sla",
+            "deferred_payment_instructions": "Me\u00f0 \u00fev\u00ed a\u00f0 leggja inn \u00feessa p\u00f6ntun, sam\u00feykkirstu a\u00f0 grei\u00f0a s\u00ed\u00f0ar me\u00f0 grei\u00f0slum\u00e1ta sem s\u00f6lua\u00f0ili tilgreinir.",
+            "card_label": "Kreditkort",
+            "card_number": "Kortan\u00famer",
+            "card_expiration": "MM/\u00c1\u00c1",
+            "card_cvv": "CVV",
+            "card_postal_code": "P\u00f3stn\u00famer",
+            "invalid_number": "Kortan\u00famer er \u00f3gilt",
+            "invalid_expiration": "Gildistimi er \u00f3gildur",
+            "invalid_cvv": "CVV er \u00f3gilt",
+            "invalid_postal_code": "P\u00f3stn\u00famer er \u00f3gilt"
+        },
+        "still_pending_notice": "Grei\u00f0sla \u00fe\u00edn er enn \u00ed vinnslu.",
+        "title": "Grei\u00f0sla",
+        "continue_to_payment": "Halda \u00e1fram \u00ed grei\u00f0slu",
+        "credit_card": "Kreditkort",
+        "place_order": "Leggja inn p\u00f6ntun",
+        "preparing_payment_session": "Undirb\u00fd grei\u00f0slu...",
+        "processing_payment": "Vinnsla grei\u00f0slu...",
+        "checkout_with": "Grei\u00f0a me\u00f0",
+        "checkout_with_method": "Grei\u00f0a me\u00f0 %{method}",
+        "method_icon": "%{method} t\u00e1kn",
+        "no_payment": "Engrar grei\u00f0slu er krafist fyrir \u00feessa p\u00f6ntun.",
+        "methods": {
+            "card": "Kreditkort",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna grei\u00f0a s\u00ed\u00f0ar",
+            "klarna_slice_it": "Klarna m\u00e1na\u00f0arleg grei\u00f0sla",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA bankamillifærsla",
+            "sofort": "Sofort bankamillifærsla",
+            "deferred_payment": "Grei\u00f0a s\u00ed\u00f0ar"
+        }
+    },
+    "discounts": {
+        "title": "Afsl\u00e1ttur"
+    },
+    "cart_summary": {
+        "taxes": "Skattar",
+        "taxes_included_in_price": "Sumar v\u00f6rur eru me\u00f0 sk\u00f6ttum innifalinn.",
+        "total": "Samtals",
+        "subtotal": "Millisamt\u00f6lu",
+        "shipping": "Sending",
+        "discount": "Afsl\u00e1ttur",
+        "quantity": "x",
+        "calculated_at_checkout": "Reikna\u00f0 vi\u00f0 grei\u00f0slu"
+    },
+    "errors": {
+        "default": "Villa kom upp, reyndu aftur s\u00ed\u00f0ar e\u00f0a hafdu samband vi\u00f0 okkur.",
+        "promo_code_is_invalid": "\u00deessi a\u00f0gangsko\u00f0i er \u00f3gildur",
+        "promocode_already_in_cart": "\u00deessi a\u00f0gangsko\u00f0i er \u00feegar \u00ed notkun",
+        "promocode_isnt_applicable": "\u00deessi a\u00f0gangsko\u00f0i er \u00f3gildur",
+        "promo_code_is_expired": "\u00deessi a\u00f0gangsko\u00f0i er \u00fatruninn",
+        "stringEmpty": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
+        "emailEmpty": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
+        "required": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
+        "invalid_expiry_year_past": "Korti\u00f0 er \u00fatrunnin",
+        "email": "Vinsamlegast sl\u00e1\u00f0u inn gilt netfang",
+        "quantity_revised": "Magn hefur veri\u00f0 endursko\u00f0a\u00f0 vegna birgðatakmarkana.",
+        "quantity_out_of_stock": "\u00dessi vara er \u00fatsel\u00f0, fjarl\u00e6g\u00f0u hana \u00far k\u00f6rfunni til a\u00f0 halda \u00e1fram.",
+        "disabled_country": "Vali\u00f0 land er ekki tilt\u00e6kt vi\u00f0 grei\u00f0slu.",
+        "error_payment_items_are_invalid": {
+            "title": "Sumar v\u00f6rur \u00ed k\u00f6rfunni eru \u00f3gildar",
+            "description": "Vinsamlegast sko\u00f0a\u00f0u p\u00f6ntunina, e\u00f0a reyndu aftur s\u00ed\u00f0ar."
+        },
+        "card": {
+            "invalid_number": "Kortan\u00fameri\u00f0 er \u00f3gilt.",
+            "invalid_date": "Gildistimi kortsins er \u00f3gildur.",
+            "invalid_year": "Gildis\u00e1r kortsins er \u00f3gilt.",
+            "invalid_month": "Gildism\u00e1nu\u00f0ur kortsins er \u00f3gildur.",
+            "invalid_cvv": "CVV kortsins er \u00f3gilt.",
+            "invalid_expiration": "Gildistimi kortsins er \u00f3gildur.",
+            "expired": "Kreditkorti\u00f0 er \u00fatrunnin",
+            "declined": "Kortinu var hafna\u00f0. Vinsamlegast haf\u00f0u samband vi\u00f0 kortaútgefanda fyrir frekari uppl\u00fdsingar.",
+            "invalid_address": "Heimilisfang kortsins er rangt.",
+            "insufficient_funds": "Reikningurinn haf\u00f0i ekki n\u00e6gilegt f\u00e9 til a\u00f0 st\u00e1nda undir f\u00e6rslunni.",
+            "card_not_supported": "Korti\u00f0 er ekki stu\u00f0t \u00e1 \u00feessu landsvæ\u00f0i.",
+            "currency_not_supported": "Gjaldmi\u00f0illinn er ekki stu\u00f0dur sem stendur."
+        },
+        "transaction": {
+            "declined": "Villa kom upp vi\u00f0 vinnslu kortsins. Reyndu aftur s\u00ed\u00f0ar e\u00f0a nota\u00f0u annan grei\u00f0slum\u00e1ta."
+        },
+        "discounts": {
+            "conflict": "Suma afsl\u00e1ttarkj\u00f6r er ekki h\u00e6gt a\u00f0 sameina. Nota \u00feennan afsl\u00e1tt \u00ed sta\u00f0inn?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Ekki var h\u00e6gt a\u00f0 vinna p\u00f6ntunina.",
+                "description": "\u00de\u00fa hefur ekki veri\u00f0 rukkuð. Vinsamlegast haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+            },
+            "product_crawling": {
+                "title": "Ver\u00f0 \u00e1 v\u00f6rum \u00ed k\u00f6rfunni gæti hafa breyst.",
+                "description": "Reyndu a\u00f0 fjarl\u00e6gja og b\u00e6ta \u00feeim aftur \u00ed k\u00f6rfuna. Haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+            },
+            "stock_validation": {
+                "title": "V\u00f6rubirgðir eru ekki tilt\u00e6kar.",
+                "description": "Sumar v\u00f6rur kunna a\u00f0 vera uppseldar \u00ed valnu magni. Endursko\u00f0a\u00f0u magnin e\u00f0a haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+            },
+            "custom_fields_validation": {
+                "title": "Nau\u00f0synlegar uppl\u00fdsingar vantar.",
+                "description": "Sumar v\u00f6rur \u00ed k\u00f6rfunni vantar skyldureiti. Vinsamlegast breyttu k\u00f6rfunni til a\u00f0 halda \u00e1fram."
+            },
+            "shipping_validation": {
+                "title": "Sendingarm\u00e1ti gat ekki veri\u00f0 sta\u00f0festur.",
+                "description": "Vali\u00f0 sendingargjald gæti hafa breyst e\u00f0a er ekki tilt\u00e6kt. Haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+            }
+        },
+        "invalid_address": "Heimilisfangi\u00f0 er \u00f3gilt.",
+        "shipping": {
+            "account_configuration": {
+                "title": "Enginn sendingarm\u00e1ti er tilt\u00e6kur sem stendur",
+                "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+            },
+            "rates_calculation": {
+                "title": "Ekki t\u00f3kst a\u00f0 reikna sendingarkostna\u00f0 fyrir p\u00f6ntunina",
+                "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+            },
+            "no_rates_found": {
+                "title": "Engir sendingarm\u00e1tar eru tilt\u00e6kir fyrir p\u00f6ntunina",
+                "description": "Vinsamlegast sko\u00f0a\u00f0u sendingarheimilisfangi\u00f0 e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+            },
+            "E.COUNTRY.UNSUPPORTED": "Land er ekki stu\u00f0t. Vinsamlegast reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.ENGINE.UNAVAILABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.QUERY.UNANSWERABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.ADDRESS.NOT_FOUND": "Heimilisfang fannst ekki. Sta\u00f0festu heimilisfangi\u00f0 og reyndu aftur.",
+            "E.SECONDARY_INFORMATION.INVALID": "\u00d3gildar aukauppl\u00fdsingar (\u00cdb\u00fa\u00f0/H\u00e6\u00f0#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Aukauppl\u00fdsingar vantar (\u00cdb\u00fa\u00f0/H\u00e6\u00f0#).",
+            "E.HOUSE_NUMBER.MISSING": "H\u00fasn\u00famer vantar.",
+            "E.HOUSE_NUMBER.INVALID": "H\u00fasn\u00famer er \u00f3gilt.",
+            "E.STREET.MISSING": "G\u00f6tunafn vantar.",
+            "E.STREET.INVALID": "G\u00f6tunafn er \u00f3gilt.",
+            "E.BOX_NUMBER.MISSING": "H\u00f3lfn\u00famer vantar.",
+            "E.BOX_NUMBER.INVALID": "H\u00f3lfn\u00famer er \u00f3gilt.",
+            "E.ADDRESS.INVALID": "\u00d3gilt borg/r\u00edki/p\u00f3stn\u00famer.",
+            "E.ZIP.NOT_FOUND": "P\u00f3stn\u00famer fannst ekki.",
+            "E.ZIP.INVALID": "P\u00f3stn\u00famer er \u00f3gilt.",
+            "E.ZIP.PLUS4.NOT_FOUND": "P\u00f3stn\u00famer + 4 fannst ekki.",
+            "E.ADDRESS.MULTIPLE": "Mörg heimilisf\u00f6ng fundust me\u00f0 sama p\u00f3stn\u00fameri.",
+            "E.ADDRESS.INSUFFICIENT": "Heimilisfang er \u00f3fulln\u00e6gjandi. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.ADDRESS.DUAL": "Tveggja heimilisfanga villa. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.STREET.MAGNET": "Mörg heimilisf\u00f6ng fundust vegna segulg\u00f6tu villunnar. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.CITY_STATE.INVALID": "\u00d3sta\u00f0fest borg/r\u00edki.",
+            "E.STATE.INVALID": "\u00d3gilt r\u00edki.",
+            "E.ADDRESS.DELIVERY.INVALID": "\u00d3gilt afhendingarheimilisfang.",
+            "E.TIMED_OUT": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.TIME_ZONE.UNAVAILABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
+            "E.PO_BOX.INTERNATIONAL": "Ekki er h\u00e6gt a\u00f0 sta\u00f0festa alþj\u00f3\u00f0legt p\u00f3sth\u00f3lf."
+        },
+        "payment_failed": {
+            "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
+            "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+        },
+        "payment_authorization": {
+            "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
+            "default": "Vinsamlegast sko\u00f0a\u00f0u reiknings- og grei\u00f0sluuppl\u00fdsingar."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
+                "description": "Okkur t\u00f3kst ekki a\u00f0 au\u00f0kenna grei\u00f0sluuppl\u00fdsingar \u00fe\u00ednar. Vinsamlegast reyndu aftur"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Ekki var h\u00e6gt a\u00f0 b\u00e6ta \u00e1skrift \u00ed k\u00f6rfuna",
+                "description": "Karfa getur a\u00f0eins innihaldi\u00f0 eina \u00e1skrift \u00ed einu."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Ekki var h\u00e6gt a\u00f0 b\u00e6ta v\u00f6ru \u00ed k\u00f6rfuna",
+                "description": "Karfan getur a\u00f0eins innihaldi\u00f0 v\u00f6rur e\u00f0a \u00e1skrift."
+            }
+        },
+        "customer_exists": "\u00deetta netfang er \u00feegar \u00ed notkun.",
+        "customer_password_missmatch": "Lykilor\u00f0in tvö ver\u00f0a a\u00f0 vera eins.",
+        "customer_password_token_expired": "Endurheimt lykilor\u00f0s t\u00f3kn er \u00fatrunnin.",
+        "customer_password_token_invalid": "Endurheimt lykilor\u00f0s t\u00f3kn er \u00f3gilt.",
+        "customer_not_found": "Netfangi\u00f0 er ekki tengt neinum reikningi.",
+        "invalid_credentials": "\u00d3gilt netfang e\u00f0a lykilor\u00f0.",
+        "customer_current_password_invalid": "\u00d3gilt lykilor\u00f0."
+    },
+    "shippingRates": {
+        "loading": "Hle\u00f0 sendingargjöldum"
+    },
+    "customer_orders": {
+        "loading": "Hle\u00f0..."
+    },
+    "digital_goods": {
+        "download": "S\u00e6kja skr\u00e1"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "\u00deakka \u00fe\u00e9r fyrir p\u00f6ntunina",
+        "async_confirmation_notice": "P\u00f6ntunin \u00fe\u00edn hefur veri\u00f0 lög\u00f0 inn og er \u00ed vinnslu. \u00de\u00fa f\u00e6r\u00f0 sta\u00f0festingu \u00e1 skömmum t\u00edma."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "Sendingarkostna\u00f0ur og skattar ver\u00f0a reikna\u00f0ir eftir a\u00f0 heimilisfang er gefi\u00f0 upp."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andorra"
+        },
+        "AE": {
+            "name": "Sameinu\u00f0u arabnesku furstadæmin"
+        },
+        "AF": {
+            "name": "Afganistan"
+        },
+        "AG": {
+            "name": "Ant\u00edgva og Barb\u00fada"
+        },
+        "AI": {
+            "name": "Angvilla"
+        },
+        "AL": {
+            "name": "Alban\u00eda"
+        },
+        "AM": {
+            "name": "Armen\u00eda"
+        },
+        "AO": {
+            "name": "Ang\u00f3la"
+        },
+        "AQ": {
+            "name": "Su\u00f0urskautslandinu"
+        },
+        "AR": {
+            "name": "Argent\u00edna"
+        },
+        "AS": {
+            "name": "Bandar\u00edska Sam\u00f3a"
+        },
+        "AT": {
+            "name": "Austurr\u00edki"
+        },
+        "AU": {
+            "name": "\u00c1stral\u00eda"
+        },
+        "AW": {
+            "name": "Ar\u00faba"
+        },
+        "AX": {
+            "name": "\u00c5landseyjar"
+        },
+        "AZ": {
+            "name": "Aserba\u00eddsjan"
+        },
+        "BA": {
+            "name": "Bosn\u00eda og Hers\u00e9gov\u00edna"
+        },
+        "BB": {
+            "name": "Barbados"
+        },
+        "BD": {
+            "name": "Bangladess"
+        },
+        "BE": {
+            "name": "Belg\u00eda"
+        },
+        "BF": {
+            "name": "B\u00fark\u00edna Fas\u00f3"
+        },
+        "BG": {
+            "name": "B\u00falgar\u00eda"
+        },
+        "BH": {
+            "name": "Bahre\u00edn"
+        },
+        "BI": {
+            "name": "B\u00farund\u00ed"
+        },
+        "BJ": {
+            "name": "Ben\u00edn"
+        },
+        "BL": {
+            "name": "Saint Barth\u00e9lemy"
+        },
+        "BM": {
+            "name": "Berm\u00fadaeyjar"
+        },
+        "BN": {
+            "name": "Br\u00fane\u00ed"
+        },
+        "BO": {
+            "name": "B\u00f3liv\u00eda"
+        },
+        "BQ": {
+            "name": "Bonaire"
+        },
+        "BR": {
+            "name": "Brasil\u00eda"
+        },
+        "BS": {
+            "name": "Bahamaeyjar"
+        },
+        "BT": {
+            "name": "B\u00fatan"
+        },
+        "BV": {
+            "name": "Bouveteyja"
+        },
+        "BW": {
+            "name": "Botsvana"
+        },
+        "BY": {
+            "name": "Hv\u00edta-R\u00fassland"
+        },
+        "BZ": {
+            "name": "Bel\u00eds"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "K\u00f3koseyjar [Keeling]"
+        },
+        "CD": {
+            "name": "Kong\u00f3"
+        },
+        "CF": {
+            "name": "Mi\u00f0-Afr\u00edkul\u00fd\u00f0veldi\u00f0"
+        },
+        "CG": {
+            "name": "L\u00fd\u00f0veldi\u00f0 Kong\u00f3"
+        },
+        "CH": {
+            "name": "Sviss"
+        },
+        "CI": {
+            "name": "F\u00edlabeinsstrondin"
+        },
+        "CK": {
+            "name": "Cookseyjar"
+        },
+        "CL": {
+            "name": "Chile"
+        },
+        "CM": {
+            "name": "Kamer\u00fan"
+        },
+        "CN": {
+            "name": "K\u00edna"
+        },
+        "CO": {
+            "name": "K\u00f3lumb\u00eda"
+        },
+        "CR": {
+            "name": "Kostar\u00edka"
+        },
+        "CU": {
+            "name": "K\u00faba"
+        },
+        "CV": {
+            "name": "Gr\u00e6nh\u00f6f\u00f0aeyjar"
+        },
+        "CW": {
+            "name": "Cura\u00e7ao"
+        },
+        "CX": {
+            "name": "J\u00f3laey"
+        },
+        "CY": {
+            "name": "K\u00fdpur"
+        },
+        "CZ": {
+            "name": "Tékland"
+        },
+        "DE": {
+            "name": "\u00de\u00fdskaland"
+        },
+        "DJ": {
+            "name": "Djib\u00fat\u00ed"
+        },
+        "DK": {
+            "name": "Danm\u00f6rk"
+        },
+        "DM": {
+            "name": "D\u00f3min\u00edka"
+        },
+        "DO": {
+            "name": "D\u00f3min\u00edska l\u00fd\u00f0veldi\u00f0"
+        },
+        "DZ": {
+            "name": "Als\u00edr"
+        },
+        "EC": {
+            "name": "Ekvador"
+        },
+        "EE": {
+            "name": "Eistland"
+        },
+        "EG": {
+            "name": "Egyptaland"
+        },
+        "EH": {
+            "name": "Vestur-Sahara"
+        },
+        "ER": {
+            "name": "Eritrea"
+        },
+        "ES": {
+            "name": "Sp\u00e1nn"
+        },
+        "ES-CN": {
+            "name": "Kanar\u00edeyjar"
+        },
+        "ET": {
+            "name": "E\u00fe\u00ed\u00f3p\u00eda"
+        },
+        "FI": {
+            "name": "Finnland"
+        },
+        "FJ": {
+            "name": "F\u00eddsj\u00edeyjar"
+        },
+        "FK": {
+            "name": "Falklandseyjar"
+        },
+        "FM": {
+            "name": "M\u00edkr\u00f3nes\u00eda"
+        },
+        "FO": {
+            "name": "Færeyjar"
+        },
+        "FR": {
+            "name": "Frakkland"
+        },
+        "GA": {
+            "name": "Gabon"
+        },
+        "GB": {
+            "name": "Bretland"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Georg\u00eda"
+        },
+        "GF": {
+            "name": "Franska Gv\u00e6jana"
+        },
+        "GG": {
+            "name": "Guernsey"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "G\u00edbraltar"
+        },
+        "GL": {
+            "name": "Grænland"
+        },
+        "GM": {
+            "name": "Gamb\u00eda"
+        },
+        "GN": {
+            "name": "G\u00ednea"
+        },
+        "GP": {
+            "name": "Gvadel\u00fap"
+        },
+        "GQ": {
+            "name": "Mi\u00f0baugs-G\u00ednea"
+        },
+        "GR": {
+            "name": "Grikkland"
+        },
+        "GS": {
+            "name": "Su\u00f0ur-Georg\u00eda og Su\u00f0ur-Sandv\u00edseyjar"
+        },
+        "GT": {
+            "name": "Gvatemala"
+        },
+        "GU": {
+            "name": "Gvam"
+        },
+        "GW": {
+            "name": "G\u00ednea-Biss\u00e1"
+        },
+        "GY": {
+            "name": "Gv\u00e6jana"
+        },
+        "HK": {
+            "name": "Hong Kong"
+        },
+        "HM": {
+            "name": "Heard og McDonaldseyjar"
+        },
+        "HN": {
+            "name": "Hond\u00faras"
+        },
+        "HR": {
+            "name": "Kr\u00f3at\u00eda"
+        },
+        "HT": {
+            "name": "Ha\u00edt\u00ed"
+        },
+        "HU": {
+            "name": "Ungverjaland"
+        },
+        "ID": {
+            "name": "Ind\u00f3nes\u00eda"
+        },
+        "IE": {
+            "name": "\u00cdrland"
+        },
+        "IL": {
+            "name": "\u00cdsrael"
+        },
+        "IM": {
+            "name": "M\u00f6n"
+        },
+        "IN": {
+            "name": "Indland"
+        },
+        "IO": {
+            "name": "Bresku Indlandshafseyjar"
+        },
+        "IQ": {
+            "name": "\u00cdrak"
+        },
+        "IR": {
+            "name": "\u00cdran"
+        },
+        "IS": {
+            "name": "\u00cdsland"
+        },
+        "IT": {
+            "name": "\u00cdtal\u00eda"
+        },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jama\u00edka"
+        },
+        "JO": {
+            "name": "J\u00f3rdan\u00eda"
+        },
+        "JP": {
+            "name": "Japan"
+        },
+        "KE": {
+            "name": "Ken\u00eda"
+        },
+        "KG": {
+            "name": "Kirgistan"
+        },
+        "KH": {
+            "name": "Kamb\u00f3d\u00eda"
+        },
+        "KI": {
+            "name": "K\u00edribat\u00ed"
+        },
+        "KM": {
+            "name": "K\u00f3moreyjar"
+        },
+        "KN": {
+            "name": "Sankti Kristófer og Nevis"
+        },
+        "KP": {
+            "name": "Nor\u00f0ur-K\u00f3rea"
+        },
+        "KR": {
+            "name": "Su\u00f0ur-K\u00f3rea"
+        },
+        "KW": {
+            "name": "K\u00faveit"
+        },
+        "KY": {
+            "name": "Caymaneyjar"
+        },
+        "KZ": {
+            "name": "Kasakstan"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "L\u00edbanon"
+        },
+        "LC": {
+            "name": "Sankti L\u00fas\u00eda"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sr\u00ed Lanka"
+        },
+        "LR": {
+            "name": "L\u00edber\u00eda"
+        },
+        "LS": {
+            "name": "Les\u00f3t\u00f3"
+        },
+        "LT": {
+            "name": "Lith\u00e1en"
+        },
+        "LU": {
+            "name": "L\u00faxemborg"
+        },
+        "LV": {
+            "name": "Lettland"
+        },
+        "LY": {
+            "name": "L\u00edb\u00eda"
+        },
+        "MA": {
+            "name": "Marokk\u00f3"
+        },
+        "MC": {
+            "name": "M\u00f3nak\u00f3"
+        },
+        "MD": {
+            "name": "Mold\u00f3va"
+        },
+        "ME": {
+            "name": "Svartfjallaland"
+        },
+        "MF": {
+            "name": "Saint Martin"
+        },
+        "MG": {
+            "name": "Madagaskar"
+        },
+        "MH": {
+            "name": "Marshalleyjar"
+        },
+        "MK": {
+            "name": "Maked\u00f3n\u00eda"
+        },
+        "ML": {
+            "name": "Mal\u00ed"
+        },
+        "MM": {
+            "name": "M\u00fdanmar [B\u00farma]"
+        },
+        "MN": {
+            "name": "Mong\u00f3l\u00eda"
+        },
+        "MO": {
+            "name": "Maka\u00f3"
+        },
+        "MP": {
+            "name": "Nor\u00f0ur-Mar\u00edanaeyjar"
+        },
+        "MQ": {
+            "name": "Martin\u00edk"
+        },
+        "MR": {
+            "name": "M\u00e1ritan\u00eda"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "M\u00e1rit\u00edus"
+        },
+        "MV": {
+            "name": "Mald\u00edveyjar"
+        },
+        "MW": {
+            "name": "Malav\u00ed"
+        },
+        "MX": {
+            "name": "Mex\u00edk\u00f3"
+        },
+        "MY": {
+            "name": "Malays\u00eda"
+        },
+        "MZ": {
+            "name": "M\u00f3samb\u00edk"
+        },
+        "NA": {
+            "name": "Namib\u00eda"
+        },
+        "NC": {
+            "name": "N\u00fdja-Kaled\u00f3n\u00eda"
+        },
+        "NE": {
+            "name": "N\u00edger"
+        },
+        "NF": {
+            "name": "Norfolkeyja"
+        },
+        "NG": {
+            "name": "N\u00edger\u00eda"
+        },
+        "NI": {
+            "name": "N\u00edkarag\u00faa"
+        },
+        "NL": {
+            "name": "Holland"
+        },
+        "NO": {
+            "name": "Noregur"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "N\u00e1r\u00fa"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "N\u00fdja-Sj\u00e1land"
+        },
+        "OM": {
+            "name": "\u00d3man"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Per\u00fa"
+        },
+        "PF": {
+            "name": "Franska P\u00f3l\u00fdnes\u00eda"
+        },
+        "PG": {
+            "name": "Pap\u00faa N\u00fdja-G\u00ednea"
+        },
+        "PH": {
+            "name": "Filippseyjar"
+        },
+        "PK": {
+            "name": "Pakistan"
+        },
+        "PL": {
+            "name": "P\u00f3lland"
+        },
+        "PM": {
+            "name": "Saint Pierre og Miquelon"
+        },
+        "PN": {
+            "name": "Pitcairneyjar"
+        },
+        "PR": {
+            "name": "P\u00faert\u00f3 R\u00edk\u00f3"
+        },
+        "PS": {
+            "name": "Palest\u00edna"
+        },
+        "PT": {
+            "name": "Port\u00fagal"
+        },
+        "PW": {
+            "name": "Pala\u00fa"
+        },
+        "PY": {
+            "name": "Paragv\u00e6"
+        },
+        "QA": {
+            "name": "Katar"
+        },
+        "RE": {
+            "name": "R\u00e9union"
+        },
+        "RO": {
+            "name": "R\u00famen\u00eda"
+        },
+        "RS": {
+            "name": "Serb\u00eda"
+        },
+        "RU": {
+            "name": "R\u00fassland"
+        },
+        "RW": {
+            "name": "R\u00faanda"
+        },
+        "SA": {
+            "name": "S\u00e1di-Arab\u00eda"
+        },
+        "SB": {
+            "name": "Sal\u00f3monseyjar"
+        },
+        "SC": {
+            "name": "Seychelles-eyjar"
+        },
+        "SD": {
+            "name": "S\u00fadan"
+        },
+        "SE": {
+            "name": "Sv\u00ed\u00fej\u00f3\u00f0"
+        },
+        "SG": {
+            "name": "Singap\u00far"
+        },
+        "SH": {
+            "name": "Sankta Helena"
+        },
+        "SI": {
+            "name": "Sl\u00f3ven\u00eda"
+        },
+        "SJ": {
+            "name": "Svalbar\u00f0i og Jan Mayen"
+        },
+        "SK": {
+            "name": "Sl\u00f3vak\u00eda"
+        },
+        "SL": {
+            "name": "S\u00ederra Le\u00f3ne"
+        },
+        "SM": {
+            "name": "San Mar\u00edn\u00f3"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "S\u00f3mal\u00eda"
+        },
+        "SR": {
+            "name": "S\u00farinam"
+        },
+        "SS": {
+            "name": "Su\u00f0ur-S\u00fadan"
+        },
+        "ST": {
+            "name": "Sa\u00f3 T\u00f3m\u00e9 og Pr\u00ednsipe"
+        },
+        "SV": {
+            "name": "El Salvad\u00f3r"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "S\u00fdrland"
+        },
+        "SZ": {
+            "name": "Svas\u00edland"
+        },
+        "TC": {
+            "name": "Turks- og Caicoseyjar"
+        },
+        "TD": {
+            "name": "Tsjad"
+        },
+        "TF": {
+            "name": "Fr\u00f6nsku su\u00f0urh\u00e9ru\u00f0in"
+        },
+        "TG": {
+            "name": "T\u00f3g\u00f3"
+        },
+        "TH": {
+            "name": "Taíland"
+        },
+        "TJ": {
+            "name": "Tadsjikistan"
+        },
+        "TK": {
+            "name": "T\u00f3kel\u00e1"
+        },
+        "TL": {
+            "name": "Austur-T\u00edmor"
+        },
+        "TM": {
+            "name": "T\u00farkmenistan"
+        },
+        "TN": {
+            "name": "T\u00fanis"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Tyrkland"
+        },
+        "TT": {
+            "name": "Tr\u00ednidad og T\u00f3bag\u00f3"
+        },
+        "TV": {
+            "name": "T\u00faval\u00fa"
+        },
+        "TW": {
+            "name": "Ta\u00edvan"
+        },
+        "TZ": {
+            "name": "Tansan\u00eda"
+        },
+        "UA": {
+            "name": "\u00dakra\u00edna"
+        },
+        "UG": {
+            "name": "\u00daganda"
+        },
+        "UM": {
+            "name": "Sm\u00e1eyjar Bandar\u00edkjanna"
+        },
+        "US": {
+            "name": "Bandar\u00edkin"
+        },
+        "UY": {
+            "name": "\u00dar\u00fagv\u00e6"
+        },
+        "UZ": {
+            "name": "\u00dasbekistan"
+        },
+        "VA": {
+            "name": "Vatikanbul"
+        },
+        "VC": {
+            "name": "Sankti Vinsent og Grenad\u00edneyjar"
+        },
+        "VE": {
+            "name": "Venes\u00faela"
+        },
+        "VG": {
+            "name": "Bresku Jómfrúaeyjar"
+        },
+        "VI": {
+            "name": "Bandar\u00edsku Jómfrúaeyjar"
+        },
+        "VN": {
+            "name": "V\u00edetnam"
+        },
+        "VU": {
+            "name": "Van\u00faat\u00fa"
+        },
+        "WF": {
+            "name": "Wallis og F\u00fat\u00fana"
+        },
+        "WS": {
+            "name": "Sam\u00f3a"
+        },
+        "XK": {
+            "name": "K\u00f3s\u00f3v\u00f3"
+        },
+        "YE": {
+            "name": "Jemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Su\u00f0ur-Afr\u00edka"
+        },
+        "ZM": {
+            "name": "Samb\u00eda"
+        },
+        "ZW": {
+            "name": "Simbabve"
+        }
+    }
+}

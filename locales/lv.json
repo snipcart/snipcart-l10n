@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Ielādē...",
+        "error": "Radās kļūda.",
+        "success": "Veiksmīgi!"
+    },
     "actions": {
         "edit": "Labot",
         "cancel": "Atcelt",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Atgriezties uz apmaksu",
         "checkout": "Maksājums",
         "apply": "Apstiprināt",
+        "dismiss": "Noraidīt",
         "type_address": "Ievadiet savu adresi",
         "use_this_address": "Izmantot šo adresi",
         "back_to_store": "Atgriezties veikalā",
@@ -13,7 +19,12 @@
         "show": "Rādīt",
         "hide": "Slēpt",
         "apply_changes": "Apstiprināt izmaiņas",
-        "yes_use_it": "Jā, izmantot to"
+        "yes_use_it": "Jā, izmantot to",
+        "save_changes": "Saglabāt izmaiņas",
+        "back_to_orders": "Atpakaļ pie pasūtījumiem",
+        "change_password": "Mainīt paroli",
+        "clear_cart": "Iztukšot grozu",
+        "add": "Pievienot"
     },
     "header": {
         "title_cart_summary": "Groza kopsavilkums",
@@ -33,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Abonements",
+        "state": {
+            "title": "Statuss",
+            "active": "Aktīvs",
+            "paused": "Apturēts",
+            "finished": "Pabeigts",
+            "stopped": "Pārtraukts",
+            "cancellationrequested": "Abonements tiks pārtraukts norēķinu perioda beigās."
+        },
+        "placed_on": "Pasūtīts",
+        "final_billing_date": "Pēdējā norēķinu datums",
+        "items": "Preces",
         "plan": "Plāns",
         "billed_on": "Maksājuma datums",
-        "payment_amount": "Maksājuma apmērs"
+        "payment_amount": "Maksājuma apmērs",
+        "processing": "Abonements joprojām tiek apstrādāts. Atgriezieties vēlāk, lai redzētu detaļas.",
+        "loading": "Ielādē abonementus",
+        "cancel": "Atcelt",
+        "pause": "Apturēt",
+        "unpause": "Atsākt",
+        "billing_recurrence": {
+            "daily": "Norēķins katru dienu |||| Norēķins ik pēc %{smart_count} dienām",
+            "weekly": "Norēķins katru nedēļu |||| Norēķins ik pēc %{smart_count} nedēļām",
+            "monthly": "Norēķins katru mēnesi |||| Norēķins ik pēc %{smart_count} mēnešiem",
+            "yearly": "Norēķins katru gadu |||| Norēķins ik pēc %{smart_count} gadiem"
+        }
     },
     "cart": {
         "subtotal": "Starpsumma",
@@ -44,10 +78,12 @@
         "secured_by": "Nodrošina Snipcart",
         "summary": "Pasūtījuma kopsavilkums",
         "empty": "Jūsu grozs ir tukšs.",
-        "invoice_number": "Rēķina numurs"
+        "invoice_number": "Rēķina numurs",
+        "view_detailed_cart": "Skatīt groza detaļas"
     },
     "order": {
-        "loading": "Iegūstam pasūtījuma detaļas..."
+        "loading": "Iegūstam pasūtījuma detaļas...",
+        "title": "Pasūtījums"
     },
     "discount_box": {
         "promo_code": "Atlaides kods?",
@@ -57,10 +93,13 @@
     "address_form": {
         "name": "Pilnais vārds",
         "email": "E-pasts",
+        "firstName": "Vārds",
+        "lastName": "Uzvārds",
         "address1": "Ielas adrese",
         "address2": "Dzīvoklis/māja",
         "city": "Pilsēta",
         "country": "Valsts",
+        "phone": "Tālrunis",
         "postalCode": "Pasta indekss",
         "province": "Reģions/apgabals",
         "dont_see_address": "Es neredzu savu adresi"
@@ -72,7 +111,18 @@
         "use_different_shipping_address": "Izmantot citu piegādes adresi"
     },
     "customer": {
-        "information": "Pircēja informācija"
+        "information": "Pircēja informācija",
+        "payment_info": "Maksājuma informācija",
+        "payment_method_update": {
+            "title": "Atjaunināt maksājuma metodi",
+            "outstanding_payment_failed": {
+                "title": "Maksājums neizdevās",
+                "description": "Atjauniniet savu maksājuma metodi, lai turpinātu."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Klienta dati"
     },
     "customer_dashboard": {
         "my_account": "Mants konts",
@@ -88,7 +138,19 @@
         "no_subscriptions": "Abonomenti nav atrasti.",
         "view_invoice": "Aplūkot rēķinu",
         "sign_out": "Izrakstīties",
-        "show_more_orders": "Rādīt vēl %{smart_count} pasūtījumu |||| Rādīt vēl %{smart_count} pasūtījumus"
+        "show_more_orders": "Rādīt vēl %{smart_count} pasūtījumu |||| Rādīt vēl %{smart_count} pasūtījumus",
+        "show_more_subscriptions": "Rādīt vēl %{smart_count} abonementu |||| Rādīt vēl %{smart_count} abonementus",
+        "orders": "Pasūtījumi",
+        "subscriptions": "Abonementi",
+        "subscription": "Abonements"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Abonementam ir neapmaksāts maksājums",
+                "description": "Jums ir abonements ar neapmaksātu maksājumu. Lūdzu atjauniniet savu maksājuma metodi."
+            }
+        }
     },
     "signin_form": {
         "signin": "Pieslēgties",
@@ -111,12 +173,23 @@
         "confirmation_password": "Jaunā parole vēlreiz",
         "action": "Mainīt paroli"
     },
+    "change_password_form": {
+        "title": "Mainīt paroli",
+        "current_password": "Pašreizējā parole",
+        "password": "Jaunā parole",
+        "confirmation_password": "Apstiprināt jauno paroli",
+        "action": "Mainīt paroli"
+    },
     "register_form": {
         "register": "Reģistrēties",
         "already_have_an_account": "Jums jau ir konts?",
         "email": "E-pasts",
         "password": "Parole",
-        "confirm_password": "Apstiprināt paroli"
+        "confirm_password": "Apstiprināt paroli",
+        "requires_action": {
+            "title": "Pārbaudiet savu e-pastu",
+            "description": "Mēs jums nosūtījām e-pastu. Sekojiet norādījumiem, lai pabeigtu reģistrāciju."
+        }
     },
     "guest_checkout": {
         "or": "Vai",
@@ -126,7 +199,13 @@
         "title": "Piegāde",
         "shipping_to": "Piegādāt uz:",
         "address": "Piegādes adrese",
-        "method": "Piegādes veids"
+        "method": "Piegādes veids",
+        "methods": {
+            "example_localization_id": "Piegādes veida piemērs"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantēta piegāde %{smart_count} dienas laikā |||| Garantēta piegāde %{smart_count} dienu laikā"
     },
     "payment": {
         "form": {
@@ -136,7 +215,11 @@
             "card_number": "Kartes numurs",
             "card_expiration": "MM/GG",
             "card_cvv": "CVV",
-            "card_postal_code": "Pasta indekss"
+            "card_postal_code": "Pasta indekss",
+            "invalid_number": "Kartes numurs ir nederīgs",
+            "invalid_expiration": "Derīguma termiņš ir nederīgs",
+            "invalid_cvv": "CVV kods ir nederīgs",
+            "invalid_postal_code": "Pasta indekss ir nederīgs"
         },
         "still_pending_notice": "Jūsu maksājums joprojām tiek apstrādāts.",
         "title": "Maksājums",
@@ -173,6 +256,8 @@
         "title": "Atlaides"
     },
     "cart_summary": {
+        "taxes": "Nodokļi",
+        "taxes_included_in_price": "Dažiem produktiem nodokļi ir iekļauti cenā.",
         "total": "Kopā",
         "subtotal": "Starpsumma",
         "shipping": "Piegāde",
@@ -187,11 +272,13 @@
         "promocode_isnt_applicable": "Šis atlaides kods nav izmantojams",
         "promo_code_is_expired": "Šis atlaides kods ir iztecējis",
         "stringEmpty": "Šis lauks ir obligāts",
+        "emailEmpty": "E-pasts ir obligāts",
         "required": "Šis lauks ir obligāts",
         "invalid_expiry_year_past": "Beidzies kartes derīguma termiņš",
         "email": "Lūdzu norādiet derīgu e-pasta adresi",
         "quantity_revised": "Daudzums ticis mainīts pieejamo preču skaita dēļ.",
         "quantity_out_of_stock": "Diemžēl šis produkts vairs nav pieejams. Lūdzu, izņemiet to no groza, lai turpinātu.",
+        "disabled_country": "Piegāde uz šo valsti nav pieejama.",
         "error_payment_items_are_invalid": {
             "title": "Dažas preces jūsu grozā ir nederīgas",
             "description": "Lūdzu caurskatiet savu pasūtījumu vai mēģiniet vēlāk."
@@ -238,6 +325,7 @@
                 "description": "Izvēlētās piegādes izmaksas varētu būt mainījušās vai būt nepieejamas. Lūdzu sazinieties ar veikala īpašnieku, lai iegūtu sīkāku informāciju."
             }
         },
+        "invalid_address": "Adrese ir nederīga.",
         "shipping": {
             "account_configuration": {
                 "title": "Šobrīd nav pieejams neviens piegādes veids",
@@ -250,7 +338,33 @@
             "no_rates_found": {
                 "title": "Jūsu pasūtījumam nav piegādes iespējas",
                 "description": "Lūdzu pārskatiet savu piegādes adresi vai sazinieties ar mums."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Piegāde uz šo valsti netiek atbalstīta.",
+            "E.ENGINE.UNAVAILABLE": "Piegādes pakalpojums nav pieejams. Mēģiniet vēlāk.",
+            "E.QUERY.UNANSWERABLE": "Adresi nevarēja pārbaudīt. Pārbaudiet savus datus.",
+            "E.ADDRESS.NOT_FOUND": "Adrese nav atrasta.",
+            "E.SECONDARY_INFORMATION.INVALID": "Papildu adreses informācija ir nederīga.",
+            "E.SECONDARY_INFORMATION.MISSING": "Trūkst papildu adreses informācijas.",
+            "E.HOUSE_NUMBER.MISSING": "Trūkst mājas numura.",
+            "E.HOUSE_NUMBER.INVALID": "Mājas numurs ir nederīgs.",
+            "E.STREET.MISSING": "Trūkst ielas nosaukuma.",
+            "E.STREET.INVALID": "Ielas nosaukums ir nederīgs.",
+            "E.BOX_NUMBER.MISSING": "Trūkst pastkastītes numura.",
+            "E.BOX_NUMBER.INVALID": "Pastkastītes numurs ir nederīgs.",
+            "E.ADDRESS.INVALID": "Adrese ir nederīga.",
+            "E.ZIP.NOT_FOUND": "Pasta indekss nav atrasts.",
+            "E.ZIP.INVALID": "Pasta indekss ir nederīgs.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Pasta indeksa paplašinājums nav atrasts.",
+            "E.ADDRESS.MULTIPLE": "Atrastas vairākas adreses. Lūdzu norādiet precīzāku adresi.",
+            "E.ADDRESS.INSUFFICIENT": "Adreses informācija ir nepilnīga.",
+            "E.ADDRESS.DUAL": "Adresē ir pretrunīga informācija.",
+            "E.STREET.MAGNET": "Ielas nosaukumu nevarēja pārbaudīt.",
+            "E.CITY_STATE.INVALID": "Pilsēta vai reģions ir nederīgs.",
+            "E.STATE.INVALID": "Reģions ir nederīgs.",
+            "E.ADDRESS.DELIVERY.INVALID": "Piegādes adrese ir nederīga.",
+            "E.TIMED_OUT": "Adreses pārbaudes laiks beidzās. Mēģiniet vēlreiz.",
+            "E.TIME_ZONE.UNAVAILABLE": "Laika joslas informācija nav pieejama.",
+            "E.PO_BOX.INTERNATIONAL": "Starptautiska piegāde uz pastkastītes adresi nav iespējama."
         },
         "payment_failed": {
             "title": "Nevarēja apstrādāt maksājumu",
@@ -266,15 +380,32 @@
                 "description": "Mums neizdevās autentificēt jūsu maksājuma informāciju. Lūdzu mēģiniet vēlreiz"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Grozā var būt tikai viens abonements.",
+                "description": "Noņemiet esošo abonementu pirms jauna pievienošanas."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Grozā var būt tikai preces vai abonementi.",
+                "description": "Noņemiet esošās preces pirms abonementa pievienošanas, vai otrādi."
+            }
+        },
         "customer_exists": "Šis e-pasts jau tiek izmantots.",
         "customer_password_missmatch": "Abām parolēm ir jāsakrīt.",
         "customer_password_token_expired": "Jūsu paroles atiestatīšanas laiks ir beidzies.",
         "customer_password_token_invalid": "Jūsu paroles atiestatīšanas kods ir nederīgs.",
         "customer_not_found": "Šī e-pasta adrese nav saistīta ar nevienu reģistrētu kontu.",
-        "invalid_credentials": "Nepareizs e-pasts vai parole."
+        "invalid_credentials": "Nepareizs e-pasts vai parole.",
+        "customer_current_password_invalid": "Nepareiza parole."
+    },
+    "shippingRates": {
+        "loading": "Ielādē..."
     },
     "customer_orders": {
         "loading": "Ielādē..."
+    },
+    "digital_goods": {
+        "download": "Lejupielādēt"
     },
     "confirmation": {
         "thank_you_for_your_order": "Paldies par jūsu pasūtījumu",
@@ -282,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Piegādes izmaksas un nodokļi tiks aprēķināti pēc tam, kad norādīsiet adresi."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andora"
+        },
+        "AE": {
+            "name": "Apvienotie Arābu Emirāti"
+        },
+        "AF": {
+            "name": "Afganistāna"
+        },
+        "AG": {
+            "name": "Antigva un Barbuda"
+        },
+        "AI": {
+            "name": "Angilja"
+        },
+        "AL": {
+            "name": "Albānija"
+        },
+        "AM": {
+            "name": "Armēnija"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktīda"
+        },
+        "AR": {
+            "name": "Argentīna"
+        },
+        "AS": {
+            "name": "Amerikāņu Samoa"
+        },
+        "AT": {
+            "name": "Austrija"
+        },
+        "AU": {
+            "name": "Austrālija"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Olandes salas"
+        },
+        "AZ": {
+            "name": "Azerbaidžāna"
+        },
+        "BA": {
+            "name": "Bosnija un Hercegovina"
+        },
+        "BB": {
+            "name": "Barbadosa"
+        },
+        "BD": {
+            "name": "Bangladeša"
+        },
+        "BE": {
+            "name": "Beļģija"
+        },
+        "BF": {
+            "name": "Burkinafaso"
+        },
+        "BG": {
+            "name": "Bulgārija"
+        },
+        "BH": {
+            "name": "Bahreina"
+        },
+        "BI": {
+            "name": "Burundi"
+        },
+        "BJ": {
+            "name": "Benina"
+        },
+        "BL": {
+            "name": "Senbartelmī"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Bruneja"
+        },
+        "BO": {
+            "name": "Bolīvija"
+        },
+        "BQ": {
+            "name": "Karību Nīderlande"
+        },
+        "BR": {
+            "name": "Brazīlija"
+        },
+        "BS": {
+            "name": "Bahamu salas"
+        },
+        "BT": {
+            "name": "Butāna"
+        },
+        "BV": {
+            "name": "Buvē sala"
+        },
+        "BW": {
+            "name": "Botsvāna"
+        },
+        "BY": {
+            "name": "Baltkrievija"
+        },
+        "BZ": {
+            "name": "Beliza"
+        },
+        "CA": {
+            "name": "Kanāda"
+        },
+        "CC": {
+            "name": "Kokosu salas"
+        },
+        "CD": {
+            "name": "Kongo Demokrātiskā Republika"
+        },
+        "CF": {
+            "name": "Centrālāfrikas Republika"
+        },
+        "CG": {
+            "name": "Kongo Republika"
+        },
+        "CH": {
+            "name": "Šveice"
+        },
+        "CI": {
+            "name": "Kotdivuāra"
+        },
+        "CK": {
+            "name": "Kuka salas"
+        },
+        "CL": {
+            "name": "Čīle"
+        },
+        "CM": {
+            "name": "Kamerūna"
+        },
+        "CN": {
+            "name": "Ķīna"
+        },
+        "CO": {
+            "name": "Kolumbija"
+        },
+        "CR": {
+            "name": "Kostarika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Kaboverde"
+        },
+        "CW": {
+            "name": "Kirasao"
+        },
+        "CX": {
+            "name": "Ziemsvētku sala"
+        },
+        "CY": {
+            "name": "Kipra"
+        },
+        "CZ": {
+            "name": "Čehija"
+        },
+        "DE": {
+            "name": "Vācija"
+        },
+        "DJ": {
+            "name": "Džibutija"
+        },
+        "DK": {
+            "name": "Dānija"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominikānas Republika"
+        },
+        "DZ": {
+            "name": "Alžīrija"
+        },
+        "EC": {
+            "name": "Ekvadora"
+        },
+        "EE": {
+            "name": "Igaunija"
+        },
+        "EG": {
+            "name": "Ēģipte"
+        },
+        "EH": {
+            "name": "Rietumsahāra"
+        },
+        "ER": {
+            "name": "Eritreja"
+        },
+        "ES": {
+            "name": "Spānija"
+        },
+        "ES-CN": {
+            "name": "Kanāriju salas"
+        },
+        "ET": {
+            "name": "Etiopija"
+        },
+        "FI": {
+            "name": "Somija"
+        },
+        "FJ": {
+            "name": "Fidži"
+        },
+        "FK": {
+            "name": "Folklenda salas"
+        },
+        "FM": {
+            "name": "Mikronēzija"
+        },
+        "FO": {
+            "name": "Fēru salas"
+        },
+        "FR": {
+            "name": "Francija"
+        },
+        "GA": {
+            "name": "Gabona"
+        },
+        "GB": {
+            "name": "Apvienotā Karaliste"
+        },
+        "GD": {
+            "name": "Grenāda"
+        },
+        "GE": {
+            "name": "Gruzija"
+        },
+        "GF": {
+            "name": "Franču Gviāna"
+        },
+        "GG": {
+            "name": "Gērnsija"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Gibraltārs"
+        },
+        "GL": {
+            "name": "Grenlande"
+        },
+        "GM": {
+            "name": "Gambija"
+        },
+        "GN": {
+            "name": "Gvineja"
+        },
+        "GP": {
+            "name": "Gvadelupa"
+        },
+        "GQ": {
+            "name": "Ekvatoriālā Gvineja"
+        },
+        "GR": {
+            "name": "Grieķija"
+        },
+        "GS": {
+            "name": "Dienviddžordžija un Dienvidsendviču salas"
+        },
+        "GT": {
+            "name": "Gvatemala"
+        },
+        "GU": {
+            "name": "Guama"
+        },
+        "GW": {
+            "name": "Gvineja-Bisava"
+        },
+        "GY": {
+            "name": "Gajāna"
+        },
+        "HK": {
+            "name": "Honkonga"
+        },
+        "HM": {
+            "name": "Hērda sala un Makdonalda salas"
+        },
+        "HN": {
+            "name": "Hondurasa"
+        },
+        "HR": {
+            "name": "Horvātija"
+        },
+        "HT": {
+            "name": "Haiti"
+        },
+        "HU": {
+            "name": "Ungārija"
+        },
+        "ID": {
+            "name": "Indonēzija"
+        },
+        "IE": {
+            "name": "Īrija"
+        },
+        "IL": {
+            "name": "Izraēla"
+        },
+        "IM": {
+            "name": "Menas sala"
+        },
+        "IN": {
+            "name": "Indija"
+        },
+        "IO": {
+            "name": "Britu Indijas okeāna teritorija"
+        },
+        "IQ": {
+            "name": "Irāka"
+        },
+        "IR": {
+            "name": "Irāna"
+        },
+        "IS": {
+            "name": "Islande"
+        },
+        "IT": {
+            "name": "Itālija"
+        },
+        "JE": {
+            "name": "Džērsija"
+        },
+        "JM": {
+            "name": "Jamaika"
+        },
+        "JO": {
+            "name": "Jordānija"
+        },
+        "JP": {
+            "name": "Japāna"
+        },
+        "KE": {
+            "name": "Kenija"
+        },
+        "KG": {
+            "name": "Kirgizstāna"
+        },
+        "KH": {
+            "name": "Kambodža"
+        },
+        "KI": {
+            "name": "Kiribati"
+        },
+        "KM": {
+            "name": "Komoru salas"
+        },
+        "KN": {
+            "name": "Sentkitsa un Nevisa"
+        },
+        "KP": {
+            "name": "Ziemeļkoreja"
+        },
+        "KR": {
+            "name": "Dienvidkoreja"
+        },
+        "KW": {
+            "name": "Kuveita"
+        },
+        "KY": {
+            "name": "Kaimanu salas"
+        },
+        "KZ": {
+            "name": "Kazahstāna"
+        },
+        "LA": {
+            "name": "Laosa"
+        },
+        "LB": {
+            "name": "Libāna"
+        },
+        "LC": {
+            "name": "Sentlūsija"
+        },
+        "LI": {
+            "name": "Lihtenšteina"
+        },
+        "LK": {
+            "name": "Šrilanka"
+        },
+        "LR": {
+            "name": "Libērija"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Lietuva"
+        },
+        "LU": {
+            "name": "Luksemburga"
+        },
+        "LV": {
+            "name": "Latvija"
+        },
+        "LY": {
+            "name": "Lībija"
+        },
+        "MA": {
+            "name": "Maroka"
+        },
+        "MC": {
+            "name": "Monako"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Melnkalne"
+        },
+        "MF": {
+            "name": "Senmartēna"
+        },
+        "MG": {
+            "name": "Madagaskara"
+        },
+        "MH": {
+            "name": "Māršala salas"
+        },
+        "MK": {
+            "name": "Ziemeļmaķedonija"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Mjanma"
+        },
+        "MN": {
+            "name": "Mongolija"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Ziemeļu Marianas salas"
+        },
+        "MQ": {
+            "name": "Martinika"
+        },
+        "MR": {
+            "name": "Mauritānija"
+        },
+        "MS": {
+            "name": "Montserrata"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Maurīcija"
+        },
+        "MV": {
+            "name": "Maldīvija"
+        },
+        "MW": {
+            "name": "Malāvija"
+        },
+        "MX": {
+            "name": "Meksika"
+        },
+        "MY": {
+            "name": "Malaizija"
+        },
+        "MZ": {
+            "name": "Mozambika"
+        },
+        "NA": {
+            "name": "Namībija"
+        },
+        "NC": {
+            "name": "Jaunkaledonija"
+        },
+        "NE": {
+            "name": "Nigēra"
+        },
+        "NF": {
+            "name": "Norfolkas sala"
+        },
+        "NG": {
+            "name": "Nigērija"
+        },
+        "NI": {
+            "name": "Nikaragva"
+        },
+        "NL": {
+            "name": "Nīderlande"
+        },
+        "NO": {
+            "name": "Norvēģija"
+        },
+        "NP": {
+            "name": "Nepāla"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Jaunzēlande"
+        },
+        "OM": {
+            "name": "Omāna"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Franču Polinēzija"
+        },
+        "PG": {
+            "name": "Papua-Jaungvineja"
+        },
+        "PH": {
+            "name": "Filipīnas"
+        },
+        "PK": {
+            "name": "Pakistāna"
+        },
+        "PL": {
+            "name": "Polija"
+        },
+        "PM": {
+            "name": "Senpjēra un Mikelona"
+        },
+        "PN": {
+            "name": "Pitkērnas salas"
+        },
+        "PR": {
+            "name": "Puertoriko"
+        },
+        "PS": {
+            "name": "Palestīna"
+        },
+        "PT": {
+            "name": "Portugāle"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paragvaja"
+        },
+        "QA": {
+            "name": "Katara"
+        },
+        "RE": {
+            "name": "Reinjona"
+        },
+        "RO": {
+            "name": "Rumānija"
+        },
+        "RS": {
+            "name": "Serbija"
+        },
+        "RU": {
+            "name": "Krievija"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Saūda Arābija"
+        },
+        "SB": {
+            "name": "Zālamana salas"
+        },
+        "SC": {
+            "name": "Seišelu salas"
+        },
+        "SD": {
+            "name": "Sudāna"
+        },
+        "SE": {
+            "name": "Zviedrija"
+        },
+        "SG": {
+            "name": "Singapūra"
+        },
+        "SH": {
+            "name": "Svētās Helēnas sala"
+        },
+        "SI": {
+            "name": "Slovēnija"
+        },
+        "SJ": {
+            "name": "Svalbāra un Jana Majena sala"
+        },
+        "SK": {
+            "name": "Slovākija"
+        },
+        "SL": {
+            "name": "Sjerraleone"
+        },
+        "SM": {
+            "name": "Sanmarīno"
+        },
+        "SN": {
+            "name": "Senegāla"
+        },
+        "SO": {
+            "name": "Somālija"
+        },
+        "SR": {
+            "name": "Surinama"
+        },
+        "SS": {
+            "name": "Dienvidsudāna"
+        },
+        "ST": {
+            "name": "Santome un Prinsipi"
+        },
+        "SV": {
+            "name": "Salvadora"
+        },
+        "SX": {
+            "name": "Sintmārtena"
+        },
+        "SY": {
+            "name": "Sīrija"
+        },
+        "SZ": {
+            "name": "Esvatini"
+        },
+        "TC": {
+            "name": "Tērksas un Kaikosas salas"
+        },
+        "TD": {
+            "name": "Čada"
+        },
+        "TF": {
+            "name": "Francijas Dienvidjūru zemes"
+        },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Taizeme"
+        },
+        "TJ": {
+            "name": "Tadžikistāna"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Austrumtimora"
+        },
+        "TM": {
+            "name": "Turkmenistāna"
+        },
+        "TN": {
+            "name": "Tunisija"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turcija"
+        },
+        "TT": {
+            "name": "Trinidāda un Tobāgo"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taivāna"
+        },
+        "TZ": {
+            "name": "Tanzānija"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "ASV Mazās Aizjūras salas"
+        },
+        "US": {
+            "name": "Amerikas Savienotās Valstis"
+        },
+        "UY": {
+            "name": "Urugvaja"
+        },
+        "UZ": {
+            "name": "Uzbekistāna"
+        },
+        "VA": {
+            "name": "Vatikāns"
+        },
+        "VC": {
+            "name": "Sentvinsenta un Grenadīnas"
+        },
+        "VE": {
+            "name": "Venecuēla"
+        },
+        "VG": {
+            "name": "Britu Virdžīnu salas"
+        },
+        "VI": {
+            "name": "ASV Virdžīnu salas"
+        },
+        "VN": {
+            "name": "Vjetnama"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Volisa un Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosova"
+        },
+        "YE": {
+            "name": "Jemena"
+        },
+        "YT": {
+            "name": "Majota"
+        },
+        "ZA": {
+            "name": "Dienvidāfrika"
+        },
+        "ZM": {
+            "name": "Zambija"
+        },
+        "ZW": {
+            "name": "Zimbabve"
+        }
     }
 }

@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Kraunasi...",
+        "error": "Įvyko klaida.",
+        "success": "Pavyko!"
+    },
     "actions": {
         "edit": "Redaguoti",
         "cancel": "Atšaukti",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Atgal į apmokėjimą",
         "checkout": "Apmokėjimas",
         "apply": "Pritaikyti",
+        "dismiss": "Atmesti",
         "type_address": "Įvęskite savo adresą",
         "use_this_address": "Naudoti šitą adresą",
         "back_to_store": "Atgal į parduotuvę",
@@ -13,7 +19,12 @@
         "show": "Rodyti",
         "hide": "Slėpti",
         "apply_changes": "Pritaikyti pakeitimus",
-        "yes_use_it": "Taip, naudoti"
+        "yes_use_it": "Taip, naudoti",
+        "save_changes": "Išsaugoti pakeitimus",
+        "back_to_orders": "Atgal į užsakymus",
+        "change_password": "Keisti slaptažodį",
+        "clear_cart": "Išvalyti krepšelį",
+        "add": "Pridėti"
     },
     "header": {
         "title_cart_summary": "Krepšelis",
@@ -33,9 +44,32 @@
         }
     },
     "subscription": {
+        "title": "Prenumerata",
+        "state": {
+            "title": "Būsena",
+            "active": "Aktyvi",
+            "paused": "Pristabdyta",
+            "finished": "Baigta",
+            "stopped": "Sustabdyta",
+            "cancellationrequested": "Prenumerata bus nutraukta atsiskaitymo laikotarpio pabaigoje."
+        },
+        "placed_on": "Užsakyta",
+        "final_billing_date": "Paskutinė atsiskaitymo data",
+        "items": "Prekės",
         "plan": "Planas",
         "billed_on": "Atsiskaitoma",
-        "payment_amount": "Mokėjimo suma"
+        "payment_amount": "Mokėjimo suma",
+        "processing": "Prenumerata vis dar apdorojama. Grįžkite vėliau, kad pamatytumėte išsamią informaciją.",
+        "loading": "Kraunamos prenumeratos",
+        "cancel": "Atšaukti",
+        "pause": "Pristabdyti",
+        "unpause": "Atnaujinti",
+        "billing_recurrence": {
+            "daily": "Apmokestinama kasdien |||| Apmokestinama kas %{smart_count} dienas",
+            "weekly": "Apmokestinama kas savaitę |||| Apmokestinama kas %{smart_count} savaites",
+            "monthly": "Apmokestinama kas mėnesį |||| Apmokestinama kas %{smart_count} mėnesius",
+            "yearly": "Apmokestinama kas metus |||| Apmokestinama kas %{smart_count} metus"
+        }
     },
     "cart": {
         "subtotal": "Tarpinė suma",
@@ -48,7 +82,8 @@
         "view_detailed_cart": "Peržiūrėti pilną krepšelį"
     },
     "order": {
-        "loading": "Ruošiame jūsų užsakymo duomenis..."
+        "loading": "Ruošiame jūsų užsakymo duomenis...",
+        "title": "Užsakymas"
     },
     "discount_box": {
         "promo_code": "Nuolaidos kodas?",
@@ -58,10 +93,13 @@
     "address_form": {
         "name": "Vardas ir pavardė",
         "email": "El. paštas",
+        "firstName": "Vardas",
+        "lastName": "Pavardė",
         "address1": "Gatvė",
         "address2": "Buto/namo numeris",
         "city": "Miestas",
         "country": "Valstybė",
+        "phone": "Telefonas",
         "postalCode": "Pašto kodas",
         "province": "Apskritis",
         "dont_see_address": "Nematau savo adreso"
@@ -73,7 +111,18 @@
         "use_different_shipping_address": "Naudoti kitą adresą siuntimui"
     },
     "customer": {
-        "information": "Vartotojo informacija"
+        "information": "Vartotojo informacija",
+        "payment_info": "Mokėjimo informacija",
+        "payment_method_update": {
+            "title": "Atnaujinti mokėjimo būdą",
+            "outstanding_payment_failed": {
+                "title": "Mokėjimas nepavyko",
+                "description": "Atnaujinkite savo mokėjimo būdą, kad galėtumėte tęsti."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "Kliento duomenys"
     },
     "customer_dashboard": {
         "my_account": "Mano paskyra",
@@ -89,7 +138,19 @@
         "no_subscriptions": "Prenumeratų nerasta.",
         "view_invoice": "Peržiūrėti sąskaitą",
         "sign_out": "Atsijungti",
-        "show_more_orders": "Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų"
+        "show_more_orders": "Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų",
+        "show_more_subscriptions": "Rodyti dar %{smart_count} prenumeratą |||| Rodyti dar %{smart_count} prenumeratas",
+        "orders": "Užsakymai",
+        "subscriptions": "Prenumeratos",
+        "subscription": "Prenumerata"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Prenumerata turi neapmokėtą mokėjimą",
+                "description": "Turite prenumeratą su neapmokėtu mokėjimu. Prašome atnaujinti savo mokėjimo būdą."
+            }
+        }
     },
     "signin_form": {
         "signin": "Prisijungti",
@@ -112,12 +173,23 @@
         "confirmation_password": "Įveskite savo naują slaptažodį dar kartą",
         "action": "Atkurti slaptažodį"
     },
+    "change_password_form": {
+        "title": "Keisti slaptažodį",
+        "current_password": "Dabartinis slaptažodis",
+        "password": "Naujas slaptažodis",
+        "confirmation_password": "Patvirtinkite naują slaptažodį",
+        "action": "Keisti slaptažodį"
+    },
     "register_form": {
         "register": "Užsiregistruoti",
         "already_have_an_account": "Jau turite paskyrą?",
         "email": "El. paštas",
         "password": "Slaptažodis",
-        "confirm_password": "Patvirtinkite slaptažodį"
+        "confirm_password": "Patvirtinkite slaptažodį",
+        "requires_action": {
+            "title": "Patikrinkite savo el. paštą",
+            "description": "Išsiuntėme jums el. laišką. Sekite instrukcijas, kad užbaigtumėte registraciją."
+        }
     },
     "guest_checkout": {
         "or": "Arba",
@@ -127,7 +199,13 @@
         "title": "Siuntimas",
         "shipping_to": "Siųsti į:",
         "address": "Siuntimo adresas",
-        "method": "Siuntimo būdas"
+        "method": "Siuntimo būdas",
+        "methods": {
+            "example_localization_id": "Siuntimo būdo pavyzdys"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Garantuotas pristatymas per %{smart_count} dieną |||| Garantuotas pristatymas per %{smart_count} dienas"
     },
     "payment": {
         "form": {
@@ -137,7 +215,11 @@
             "card_number": "Kortelės numeris",
             "card_expiration": "MM/YY",
             "card_cvv": "CVC",
-            "card_postal_code": "Pašto kodas"
+            "card_postal_code": "Pašto kodas",
+            "invalid_number": "Kortelės numeris neteisingas",
+            "invalid_expiration": "Galiojimo data neteisinga",
+            "invalid_cvv": "CVC kodas neteisingas",
+            "invalid_postal_code": "Pašto kodas neteisingas"
         },
         "still_pending_notice": "Jūsų apmokėjimas vis dar apdorojamas.",
         "title": "Apmokėjimas",
@@ -174,6 +256,8 @@
         "title": "Nuolaidos"
     },
     "cart_summary": {
+        "taxes": "Mokesčiai",
+        "taxes_included_in_price": "Kai kurios prekės turi mokesčius, įskaičiuotus į kainą.",
         "total": "Pilna suma",
         "subtotal": "Tarpinė suma",
         "shipping": "Siuntimas",
@@ -188,11 +272,13 @@
         "promocode_isnt_applicable": "Šis nuolaidos kodas negali būti pritaikytas",
         "promo_code_is_expired": "Šis nuolaidos kodas nebegalioja",
         "stringEmpty": "Šis laukas privalomas",
+        "emailEmpty": "El. paštas yra privalomas",
         "required": "Šis laukas privalomas",
         "invalid_expiry_year_past": "Kortelės galiojimo laikas yra pasibaigęs",
         "email": "Prašome įvesti galiojantį el. pašto adresą",
         "quantity_revised": "Kiekis buvo pakoreguotas dėl nepakankamo atsargų likučio.",
         "quantity_out_of_stock": "Deja, šios prekės nebeturime, prašome išimkite ją iš krepšelio norėdami tęsti.",
+        "disabled_country": "Pristatymas į šią šalį negalimas.",
         "error_payment_items_are_invalid": {
             "title": "Kai kurios prekės jūsų krepšelyje yra negaliojančios",
             "description": "Prašome peržiūrėkite savo užsakymą arba pabandykite vėliau."
@@ -239,6 +325,7 @@
                 "description": "Pasirinkto siuntimo būdi kaina galėjo pasikeisti arba būdas šiuo metu negali būti panaudotas. Susisiekite su parduotuvės savininkais dėl papildomos informacijos."
             }
         },
+        "invalid_address": "Adresas neteisingas.",
         "shipping": {
             "account_configuration": {
                 "title": "Šiuo metu nėra galiojančio siuntimo būdo",
@@ -251,7 +338,33 @@
             "no_rates_found": {
                 "title": "Jūsų užsakymui nėra galiojančių siuntimo būdų",
                 "description": "Prašome peržiūrėti jūsų siuntimo adresą arba susisiekti su mumis."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Pristatymas į šią šalį nepalaikomas.",
+            "E.ENGINE.UNAVAILABLE": "Siuntimo paslauga nepasiekiama. Pabandykite vėliau.",
+            "E.QUERY.UNANSWERABLE": "Nepavyko patikrinti adreso. Patikrinkite savo duomenis.",
+            "E.ADDRESS.NOT_FOUND": "Adresas nerastas.",
+            "E.SECONDARY_INFORMATION.INVALID": "Papildoma adreso informacija neteisinga.",
+            "E.SECONDARY_INFORMATION.MISSING": "Trūksta papildomos adreso informacijos.",
+            "E.HOUSE_NUMBER.MISSING": "Trūksta namo numerio.",
+            "E.HOUSE_NUMBER.INVALID": "Namo numeris neteisingas.",
+            "E.STREET.MISSING": "Trūksta gatvės pavadinimo.",
+            "E.STREET.INVALID": "Gatvės pavadinimas neteisingas.",
+            "E.BOX_NUMBER.MISSING": "Trūksta pašto dėžutės numerio.",
+            "E.BOX_NUMBER.INVALID": "Pašto dėžutės numeris neteisingas.",
+            "E.ADDRESS.INVALID": "Adresas neteisingas.",
+            "E.ZIP.NOT_FOUND": "Pašto kodas nerastas.",
+            "E.ZIP.INVALID": "Pašto kodas neteisingas.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Pašto kodo praplėtimas nerastas.",
+            "E.ADDRESS.MULTIPLE": "Rasta keletas adresų. Nurodykite tikslesnį adresą.",
+            "E.ADDRESS.INSUFFICIENT": "Adreso informacija nepakankama.",
+            "E.ADDRESS.DUAL": "Adrese yra prieštaringų duomenų.",
+            "E.STREET.MAGNET": "Nepavyko patikrinti gatvės pavadinimo.",
+            "E.CITY_STATE.INVALID": "Miestas arba regionas neteisingas.",
+            "E.STATE.INVALID": "Regionas neteisingas.",
+            "E.ADDRESS.DELIVERY.INVALID": "Pristatymo adresas neteisingas.",
+            "E.TIMED_OUT": "Adreso patikrinimo laikas baigėsi. Pabandykite dar kartą.",
+            "E.TIME_ZONE.UNAVAILABLE": "Laiko juostos informacija nepasiekiama.",
+            "E.PO_BOX.INTERNATIONAL": "Tarptautinis pristatymas į pašto dėžutės adresą negalimas."
         },
         "payment_failed": {
             "title": "Nepavyko apdoroti apmokėjimo",
@@ -267,15 +380,32 @@
                 "description": "Mums nepavyko patvirtinti jūsų mokėjimo informacijos. Bandykite dar kartą"
             }
         },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "Krepšelyje gali būti tik viena prenumerata.",
+                "description": "Pašalinkite esamą prenumeratą prieš pridėdami naują."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "Krepšelyje gali būti tik prekės arba prenumeratos.",
+                "description": "Pašalinkite esamas prekes prieš pridėdami prenumeratą, arba atvirkščiai."
+            }
+        },
         "customer_exists": "Šis el. paštas jau naudojamas.",
         "customer_password_missmatch": "Slaptažodžiai turi sutapti.",
         "customer_password_token_expired": "Jūsų slaptažodžio atstatymo nuorodos galiojimo laikas pasibaigė.",
         "customer_password_token_invalid": "Jūsų slaptažodžio atstatymo nuoroda negalioja.",
         "customer_not_found": "Šis el. paštas nesusietas su jokia paskyra.",
-        "invalid_credentials": "Neteisingas el. paštas arba slaptažodis."
+        "invalid_credentials": "Neteisingas el. paštas arba slaptažodis.",
+        "customer_current_password_invalid": "Neteisingas slaptažodis."
+    },
+    "shippingRates": {
+        "loading": "Kraunasi..."
     },
     "customer_orders": {
         "loading": "Kraunasi..."
+    },
+    "digital_goods": {
+        "download": "Atsisiųsti"
     },
     "confirmation": {
         "thank_you_for_your_order": "Ačiū už jūsų užsakymą",
@@ -283,5 +413,760 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
+    },
+    "countries": {
+        "AD": {
+            "name": "Andora"
+        },
+        "AE": {
+            "name": "Jungtiniai Arabų Emyratai"
+        },
+        "AF": {
+            "name": "Afganistanas"
+        },
+        "AG": {
+            "name": "Antigva ir Barbuda"
+        },
+        "AI": {
+            "name": "Angilija"
+        },
+        "AL": {
+            "name": "Albanija"
+        },
+        "AM": {
+            "name": "Armėnija"
+        },
+        "AO": {
+            "name": "Angola"
+        },
+        "AQ": {
+            "name": "Antarktida"
+        },
+        "AR": {
+            "name": "Argentina"
+        },
+        "AS": {
+            "name": "Amerikos Samoa"
+        },
+        "AT": {
+            "name": "Austrija"
+        },
+        "AU": {
+            "name": "Australija"
+        },
+        "AW": {
+            "name": "Aruba"
+        },
+        "AX": {
+            "name": "Alandų salos"
+        },
+        "AZ": {
+            "name": "Azerbaidžanas"
+        },
+        "BA": {
+            "name": "Bosnija ir Hercegovina"
+        },
+        "BB": {
+            "name": "Barbadosas"
+        },
+        "BD": {
+            "name": "Bangladešas"
+        },
+        "BE": {
+            "name": "Belgija"
+        },
+        "BF": {
+            "name": "Burkina Fasas"
+        },
+        "BG": {
+            "name": "Bulgarija"
+        },
+        "BH": {
+            "name": "Bahreinas"
+        },
+        "BI": {
+            "name": "Burundis"
+        },
+        "BJ": {
+            "name": "Beninas"
+        },
+        "BL": {
+            "name": "Sen Bartelemi"
+        },
+        "BM": {
+            "name": "Bermuda"
+        },
+        "BN": {
+            "name": "Brunėjus"
+        },
+        "BO": {
+            "name": "Bolivija"
+        },
+        "BQ": {
+            "name": "Karibų Nyderlandai"
+        },
+        "BR": {
+            "name": "Brazilija"
+        },
+        "BS": {
+            "name": "Bahamos"
+        },
+        "BT": {
+            "name": "Butanas"
+        },
+        "BV": {
+            "name": "Buvė sala"
+        },
+        "BW": {
+            "name": "Botsvana"
+        },
+        "BY": {
+            "name": "Baltarusija"
+        },
+        "BZ": {
+            "name": "Belizas"
+        },
+        "CA": {
+            "name": "Kanada"
+        },
+        "CC": {
+            "name": "Kokosų salos"
+        },
+        "CD": {
+            "name": "Kongo Demokratinė Respublika"
+        },
+        "CF": {
+            "name": "Centrinės Afrikos Respublika"
+        },
+        "CG": {
+            "name": "Kongo Respublika"
+        },
+        "CH": {
+            "name": "Šveicarija"
+        },
+        "CI": {
+            "name": "Dramblio Kaulo Krantas"
+        },
+        "CK": {
+            "name": "Kuko salos"
+        },
+        "CL": {
+            "name": "Čilė"
+        },
+        "CM": {
+            "name": "Kamerūnas"
+        },
+        "CN": {
+            "name": "Kinija"
+        },
+        "CO": {
+            "name": "Kolumbija"
+        },
+        "CR": {
+            "name": "Kosta Rika"
+        },
+        "CU": {
+            "name": "Kuba"
+        },
+        "CV": {
+            "name": "Žaliasis Kyšulys"
+        },
+        "CW": {
+            "name": "Kiurasao"
+        },
+        "CX": {
+            "name": "Kalėdų sala"
+        },
+        "CY": {
+            "name": "Kipras"
+        },
+        "CZ": {
+            "name": "Čekija"
+        },
+        "DE": {
+            "name": "Vokietija"
+        },
+        "DJ": {
+            "name": "Džibutis"
+        },
+        "DK": {
+            "name": "Danija"
+        },
+        "DM": {
+            "name": "Dominika"
+        },
+        "DO": {
+            "name": "Dominikos Respublika"
+        },
+        "DZ": {
+            "name": "Alžyras"
+        },
+        "EC": {
+            "name": "Ekvadoras"
+        },
+        "EE": {
+            "name": "Estija"
+        },
+        "EG": {
+            "name": "Egiptas"
+        },
+        "EH": {
+            "name": "Vakarų Sachara"
+        },
+        "ER": {
+            "name": "Eritrėja"
+        },
+        "ES": {
+            "name": "Ispanija"
+        },
+        "ES-CN": {
+            "name": "Kanarų salos"
+        },
+        "ET": {
+            "name": "Etiopija"
+        },
+        "FI": {
+            "name": "Suomija"
+        },
+        "FJ": {
+            "name": "Fidžis"
+        },
+        "FK": {
+            "name": "Folklando salos"
+        },
+        "FM": {
+            "name": "Mikronezija"
+        },
+        "FO": {
+            "name": "Farerai"
+        },
+        "FR": {
+            "name": "Prancūzija"
+        },
+        "GA": {
+            "name": "Gabonas"
+        },
+        "GB": {
+            "name": "Jungtinė Karalystė"
+        },
+        "GD": {
+            "name": "Grenada"
+        },
+        "GE": {
+            "name": "Gruzija"
+        },
+        "GF": {
+            "name": "Prancūzijos Gviana"
+        },
+        "GG": {
+            "name": "Gernsis"
+        },
+        "GH": {
+            "name": "Gana"
+        },
+        "GI": {
+            "name": "Gibraltaras"
+        },
+        "GL": {
+            "name": "Grenlandija"
+        },
+        "GM": {
+            "name": "Gambija"
+        },
+        "GN": {
+            "name": "Gvinėja"
+        },
+        "GP": {
+            "name": "Gvadelupa"
+        },
+        "GQ": {
+            "name": "Pusiaujo Gvinėja"
+        },
+        "GR": {
+            "name": "Graikija"
+        },
+        "GS": {
+            "name": "Pietų Džordžija ir Pietų Sandvičo salos"
+        },
+        "GT": {
+            "name": "Gvatemala"
+        },
+        "GU": {
+            "name": "Guamas"
+        },
+        "GW": {
+            "name": "Bisau Gvinėja"
+        },
+        "GY": {
+            "name": "Gajana"
+        },
+        "HK": {
+            "name": "Honkongas"
+        },
+        "HM": {
+            "name": "Herdo ir Makdonaldo salos"
+        },
+        "HN": {
+            "name": "Hondūras"
+        },
+        "HR": {
+            "name": "Kroatija"
+        },
+        "HT": {
+            "name": "Haitis"
+        },
+        "HU": {
+            "name": "Vengrija"
+        },
+        "ID": {
+            "name": "Indonezija"
+        },
+        "IE": {
+            "name": "Airija"
+        },
+        "IL": {
+            "name": "Izraelis"
+        },
+        "IM": {
+            "name": "Meno sala"
+        },
+        "IN": {
+            "name": "Indija"
+        },
+        "IO": {
+            "name": "Britų Indijos vandenyno teritorija"
+        },
+        "IQ": {
+            "name": "Irakas"
+        },
+        "IR": {
+            "name": "Iranas"
+        },
+        "IS": {
+            "name": "Islandija"
+        },
+        "IT": {
+            "name": "Italija"
+        },
+        "JE": {
+            "name": "Džersis"
+        },
+        "JM": {
+            "name": "Jamaika"
+        },
+        "JO": {
+            "name": "Jordanija"
+        },
+        "JP": {
+            "name": "Japonija"
+        },
+        "KE": {
+            "name": "Kenija"
+        },
+        "KG": {
+            "name": "Kirgizija"
+        },
+        "KH": {
+            "name": "Kambodža"
+        },
+        "KI": {
+            "name": "Kiribatis"
+        },
+        "KM": {
+            "name": "Komorai"
+        },
+        "KN": {
+            "name": "Sent Kitsas ir Nevis"
+        },
+        "KP": {
+            "name": "Šiaurės Korėja"
+        },
+        "KR": {
+            "name": "Pietų Korėja"
+        },
+        "KW": {
+            "name": "Kuveitas"
+        },
+        "KY": {
+            "name": "Kaimanų salos"
+        },
+        "KZ": {
+            "name": "Kazachstanas"
+        },
+        "LA": {
+            "name": "Laosas"
+        },
+        "LB": {
+            "name": "Libanas"
+        },
+        "LC": {
+            "name": "Sent Lusija"
+        },
+        "LI": {
+            "name": "Lichtenšteinas"
+        },
+        "LK": {
+            "name": "Šri Lanka"
+        },
+        "LR": {
+            "name": "Liberija"
+        },
+        "LS": {
+            "name": "Lesotas"
+        },
+        "LT": {
+            "name": "Lietuva"
+        },
+        "LU": {
+            "name": "Liuksemburgas"
+        },
+        "LV": {
+            "name": "Latvija"
+        },
+        "LY": {
+            "name": "Libija"
+        },
+        "MA": {
+            "name": "Marokas"
+        },
+        "MC": {
+            "name": "Monakas"
+        },
+        "MD": {
+            "name": "Moldova"
+        },
+        "ME": {
+            "name": "Juodkalnija"
+        },
+        "MF": {
+            "name": "Sen Martenas"
+        },
+        "MG": {
+            "name": "Madagaskaras"
+        },
+        "MH": {
+            "name": "Maršalo salos"
+        },
+        "MK": {
+            "name": "Šiaurės Makedonija"
+        },
+        "ML": {
+            "name": "Malis"
+        },
+        "MM": {
+            "name": "Mianmaras"
+        },
+        "MN": {
+            "name": "Mongolija"
+        },
+        "MO": {
+            "name": "Makao"
+        },
+        "MP": {
+            "name": "Šiaurinės Marianos salos"
+        },
+        "MQ": {
+            "name": "Martinika"
+        },
+        "MR": {
+            "name": "Mauritanija"
+        },
+        "MS": {
+            "name": "Montseratas"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauricijus"
+        },
+        "MV": {
+            "name": "Maldyvai"
+        },
+        "MW": {
+            "name": "Malavis"
+        },
+        "MX": {
+            "name": "Meksika"
+        },
+        "MY": {
+            "name": "Malaizija"
+        },
+        "MZ": {
+            "name": "Mozambikas"
+        },
+        "NA": {
+            "name": "Namibija"
+        },
+        "NC": {
+            "name": "Naujoji Kaledonija"
+        },
+        "NE": {
+            "name": "Nigeris"
+        },
+        "NF": {
+            "name": "Norfolko sala"
+        },
+        "NG": {
+            "name": "Nigerija"
+        },
+        "NI": {
+            "name": "Nikaragva"
+        },
+        "NL": {
+            "name": "Nyderlandai"
+        },
+        "NO": {
+            "name": "Norvegija"
+        },
+        "NP": {
+            "name": "Nepalas"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niujė"
+        },
+        "NZ": {
+            "name": "Naujoji Zelandija"
+        },
+        "OM": {
+            "name": "Omanas"
+        },
+        "PA": {
+            "name": "Panama"
+        },
+        "PE": {
+            "name": "Peru"
+        },
+        "PF": {
+            "name": "Prancūzijos Polinezija"
+        },
+        "PG": {
+            "name": "Papua Naujoji Gvinėja"
+        },
+        "PH": {
+            "name": "Filipinai"
+        },
+        "PK": {
+            "name": "Pakistanas"
+        },
+        "PL": {
+            "name": "Lenkija"
+        },
+        "PM": {
+            "name": "Sen Pjeras ir Mikelonas"
+        },
+        "PN": {
+            "name": "Pitkerno salos"
+        },
+        "PR": {
+            "name": "Puerto Rikas"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugalija"
+        },
+        "PW": {
+            "name": "Palau"
+        },
+        "PY": {
+            "name": "Paragvajus"
+        },
+        "QA": {
+            "name": "Kataras"
+        },
+        "RE": {
+            "name": "Reunjonas"
+        },
+        "RO": {
+            "name": "Rumunija"
+        },
+        "RS": {
+            "name": "Serbija"
+        },
+        "RU": {
+            "name": "Rusija"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Saudo Arabija"
+        },
+        "SB": {
+            "name": "Saliamono salos"
+        },
+        "SC": {
+            "name": "Seišeliai"
+        },
+        "SD": {
+            "name": "Sudanas"
+        },
+        "SE": {
+            "name": "Švedija"
+        },
+        "SG": {
+            "name": "Singapūras"
+        },
+        "SH": {
+            "name": "Šv. Elenos sala"
+        },
+        "SI": {
+            "name": "Slovėnija"
+        },
+        "SJ": {
+            "name": "Svalbardas ir Jan Majenas"
+        },
+        "SK": {
+            "name": "Slovakija"
+        },
+        "SL": {
+            "name": "Siera Leonė"
+        },
+        "SM": {
+            "name": "San Marinas"
+        },
+        "SN": {
+            "name": "Senegalas"
+        },
+        "SO": {
+            "name": "Somalis"
+        },
+        "SR": {
+            "name": "Surinamas"
+        },
+        "SS": {
+            "name": "Pietų Sudanas"
+        },
+        "ST": {
+            "name": "San Tomė ir Prinsipė"
+        },
+        "SV": {
+            "name": "Salvadoras"
+        },
+        "SX": {
+            "name": "Sint Martenas"
+        },
+        "SY": {
+            "name": "Sirija"
+        },
+        "SZ": {
+            "name": "Esvatinis"
+        },
+        "TC": {
+            "name": "Terkso ir Kaikoso salos"
+        },
+        "TD": {
+            "name": "Čadas"
+        },
+        "TF": {
+            "name": "Prancūzijos Pietų sritys"
+        },
+        "TG": {
+            "name": "Togas"
+        },
+        "TH": {
+            "name": "Tailandas"
+        },
+        "TJ": {
+            "name": "Tadžikistanas"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Rytų Timoras"
+        },
+        "TM": {
+            "name": "Turkmėnistanas"
+        },
+        "TN": {
+            "name": "Tunisas"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turkija"
+        },
+        "TT": {
+            "name": "Trinidadas ir Tobagas"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taivanas"
+        },
+        "TZ": {
+            "name": "Tanzanija"
+        },
+        "UA": {
+            "name": "Ukraina"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "JAV Mažosios Tolimosios salos"
+        },
+        "US": {
+            "name": "Jungtinės Valstijos"
+        },
+        "UY": {
+            "name": "Urugvajus"
+        },
+        "UZ": {
+            "name": "Uzbekistanas"
+        },
+        "VA": {
+            "name": "Vatikanas"
+        },
+        "VC": {
+            "name": "Šventasis Vincentas ir Grenadinai"
+        },
+        "VE": {
+            "name": "Venesuela"
+        },
+        "VG": {
+            "name": "Britų Mergelių salos"
+        },
+        "VI": {
+            "name": "JAV Mergelių salos"
+        },
+        "VN": {
+            "name": "Vietnamas"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Volisas ir Futūna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovas"
+        },
+        "YE": {
+            "name": "Jemenas"
+        },
+        "YT": {
+            "name": "Majotas"
+        },
+        "ZA": {
+            "name": "Pietų Afrika"
+        },
+        "ZM": {
+            "name": "Zambija"
+        },
+        "ZW": {
+            "name": "Zimbabvė"
+        }
     }
-  }
+}

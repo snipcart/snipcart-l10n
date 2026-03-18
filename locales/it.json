@@ -93,10 +93,13 @@
     "address_form": {
         "name": "Nome completo",
         "email": "Email",
+        "firstName": "Nome",
+        "lastName": "Cognome",
         "address1": "Indirizzo",
         "address2": "Citofono",
         "city": "Città",
         "country": "Nazione",
+        "phone": "Telefono",
         "postalCode": "Cap",
         "province": "Provincia",
         "dont_see_address": "Non vedo il mio indirizzo"
@@ -196,7 +199,13 @@
         "title": "Invio",
         "shipping_to": "Invio a:",
         "address": "Indirizzo di consegna",
-        "method": "Metodo di consegna"
+        "method": "Metodo di consegna",
+        "methods": {
+            "example_localization_id": "Esempio di metodo di spedizione"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "Consegna garantita entro %{smart_count} giorno |||| Consegna garantita entro %{smart_count} giorni"
     },
     "payment": {
         "form": {
@@ -316,6 +325,7 @@
                 "description": "I costi di spedizione selezionati potrebbero essere cambiati o non essere disponibili. Si prega di contattare il proprietario del negozio per maggiori informazioni."
             }
         },
+        "invalid_address": "L'indirizzo non è valido.",
         "shipping": {
             "account_configuration": {
                 "title": "Metodo di spedizione non disponibile",
@@ -328,7 +338,33 @@
             "no_rates_found": {
                 "title": "Non sono disponibili metodi di spedizione per il tuo ordine",
                 "description": "Per favore controlla il tuo indirizzo di spedizione o contattaci."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "La spedizione in questo paese non è supportata.",
+            "E.ENGINE.UNAVAILABLE": "Il servizio di spedizione non è disponibile. Riprova più tardi.",
+            "E.QUERY.UNANSWERABLE": "Impossibile verificare l'indirizzo. Controlla i tuoi dati.",
+            "E.ADDRESS.NOT_FOUND": "Indirizzo non trovato.",
+            "E.SECONDARY_INFORMATION.INVALID": "Le informazioni aggiuntive dell'indirizzo non sono valide.",
+            "E.SECONDARY_INFORMATION.MISSING": "Mancano le informazioni aggiuntive dell'indirizzo.",
+            "E.HOUSE_NUMBER.MISSING": "Manca il numero civico.",
+            "E.HOUSE_NUMBER.INVALID": "Il numero civico non è valido.",
+            "E.STREET.MISSING": "Manca il nome della via.",
+            "E.STREET.INVALID": "Il nome della via non è valido.",
+            "E.BOX_NUMBER.MISSING": "Manca il numero della casella postale.",
+            "E.BOX_NUMBER.INVALID": "Il numero della casella postale non è valido.",
+            "E.ADDRESS.INVALID": "L'indirizzo non è valido.",
+            "E.ZIP.NOT_FOUND": "CAP non trovato.",
+            "E.ZIP.INVALID": "Il CAP non è valido.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Estensione del CAP non trovata.",
+            "E.ADDRESS.MULTIPLE": "Trovati più indirizzi. Fornisci un indirizzo più preciso.",
+            "E.ADDRESS.INSUFFICIENT": "Le informazioni dell'indirizzo sono incomplete.",
+            "E.ADDRESS.DUAL": "L'indirizzo contiene informazioni contraddittorie.",
+            "E.STREET.MAGNET": "Impossibile verificare il nome della via.",
+            "E.CITY_STATE.INVALID": "Città o regione non valida.",
+            "E.STATE.INVALID": "Regione non valida.",
+            "E.ADDRESS.DELIVERY.INVALID": "L'indirizzo di spedizione non è valido.",
+            "E.TIMED_OUT": "Timeout nella verifica dell'indirizzo. Riprova.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informazioni sul fuso orario non disponibili.",
+            "E.PO_BOX.INTERNATIONAL": "La spedizione internazionale a indirizzi di casella postale non è possibile."
         },
         "payment_failed": {
             "title": "Impossibile completare il pagamento",
@@ -367,6 +403,9 @@
     },
     "customer_orders": {
         "loading": "Caricamento..."
+    },
+    "digital_goods": {
+        "download": "Scarica"
     },
     "confirmation": {
         "thank_you_for_your_order": "Grazie per il tuo ordine",

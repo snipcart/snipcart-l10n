@@ -93,10 +93,13 @@
     "address_form": {
         "name": "Nome completo",
         "email": "Email",
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
         "address1": "Endereço",
         "address2": "Complemento",
         "city": "Cidade",
         "country": "País",
+        "phone": "Telefone",
         "postalCode": "CEP",
         "province": "Estado",
         "dont_see_address": "Não vejo meu endereço"
@@ -110,7 +113,7 @@
     "customer": {
         "information": "Informação do cliente",
         "payment_info": "Informação do meu pagamento",
-        "payment_method_update":{
+        "payment_method_update": {
             "title": "Atualização do método de pagamento",
             "outstanding_payment_failed": {
                 "title": "Pagamento falhou",
@@ -196,13 +199,16 @@
         "title": "Envio",
         "shipping_to": "Envio para:",
         "address": "Endereço de entrega",
-        "method": "Método de envio"
+        "method": "Método de envio",
+        "methods": {
+            "example_localization_id": "Exemplo de método de envio"
+        }
     },
     "shipping_rates": {
         "guaranteed_delivery_days": "Garantia de entrega em até %{guaranteedDaysToDelivery} dia(s)."
     },
     "payment": {
-        "form":{
+        "form": {
             "deferred_payment_title": "Pagamento Diferido",
             "deferred_payment_instructions": "Ao fazer este pedido, você concorda em pagar posteriormente através do método de pagamento identificado pelo comerciante.",
             "card_label": "Cartão de crédito",
@@ -226,7 +232,7 @@
         "checkout_with_method": "Pagar com %{method}",
         "method_icon": "%{method} ícone",
         "no_payment": "Nenhum pagamento é necessário para este pedido.",
-        "methods":{
+        "methods": {
             "card": "Cartão de crédito",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -297,17 +303,17 @@
         "discounts": {
             "conflict": "Alguns discontos não podem ser combinados. Usar esse disconto em vez do atual?"
         },
-        "order_validation":{
-            "domain_crawling":{
-                "title":"Não foi possível processar o pedido.",
-                "description":"Você não foi cobrado. Entre em contato com o proprietário da loja para obter detalhes."
+        "order_validation": {
+            "domain_crawling": {
+                "title": "Não foi possível processar o pedido.",
+                "description": "Você não foi cobrado. Entre em contato com o proprietário da loja para obter detalhes."
             },
-            "product_crawling":{
-                "title":"O preço dos produtos no carrinho pode ter sido alterado.",
+            "product_crawling": {
+                "title": "O preço dos produtos no carrinho pode ter sido alterado.",
                 "description": "Tente remover e adicioná-los ao seu carrinho. Entre em contato com o proprietário da loja para obter detalhes."
             },
-            "stock_validation":{
-                "title":"Estoque de produto indisponível.",
+            "stock_validation": {
+                "title": "Estoque de produto indisponível.",
                 "description": "Alguns produtos podem estar fora de estoque para a quantidade selecionada. Revise a quantidade ou entre em contato com o proprietário da loja para obter detalhes."
             },
             "custom_fields_validation": {
@@ -319,6 +325,7 @@
                 "description": "A taxa de envio selecionada pode ter sido alterada ou está indispoível. Por favor, contate o comerciante para mais detalhes."
             }
         },
+        "invalid_address": "O endereço é inválido.",
         "shipping": {
             "account_configuration": {
                 "title": "Nenhum método de envio está disponível atualmente",
@@ -331,7 +338,33 @@
             "no_rates_found": {
                 "title": "Nenhum método de envio está disponível para seu pedido",
                 "description": "Por favor, revise o endereço de entrega ou entre em contato."
-            }
+            },
+            "E.COUNTRY.UNSUPPORTED": "Entrega para este país não é suportada.",
+            "E.ENGINE.UNAVAILABLE": "Serviço de entrega indisponível. Tente novamente mais tarde.",
+            "E.QUERY.UNANSWERABLE": "Não foi possível verificar o endereço. Verifique seus dados.",
+            "E.ADDRESS.NOT_FOUND": "Endereço não encontrado.",
+            "E.SECONDARY_INFORMATION.INVALID": "Informações adicionais do endereço são inválidas.",
+            "E.SECONDARY_INFORMATION.MISSING": "Informações adicionais do endereço estão faltando.",
+            "E.HOUSE_NUMBER.MISSING": "Número da casa está faltando.",
+            "E.HOUSE_NUMBER.INVALID": "Número da casa é inválido.",
+            "E.STREET.MISSING": "Nome da rua está faltando.",
+            "E.STREET.INVALID": "Nome da rua é inválido.",
+            "E.BOX_NUMBER.MISSING": "Número da caixa postal está faltando.",
+            "E.BOX_NUMBER.INVALID": "Número da caixa postal é inválido.",
+            "E.ADDRESS.INVALID": "Endereço é inválido.",
+            "E.ZIP.NOT_FOUND": "CEP não encontrado.",
+            "E.ZIP.INVALID": "CEP é inválido.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Extensão do CEP não encontrada.",
+            "E.ADDRESS.MULTIPLE": "Vários endereços encontrados. Forneça um endereço mais específico.",
+            "E.ADDRESS.INSUFFICIENT": "Informações do endereço estão incompletas.",
+            "E.ADDRESS.DUAL": "O endereço contém informações conflitantes.",
+            "E.STREET.MAGNET": "Não foi possível verificar o nome da rua.",
+            "E.CITY_STATE.INVALID": "Cidade ou estado é inválido.",
+            "E.STATE.INVALID": "Estado é inválido.",
+            "E.ADDRESS.DELIVERY.INVALID": "Endereço de entrega é inválido.",
+            "E.TIMED_OUT": "Tempo esgotado na verificação do endereço. Tente novamente.",
+            "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
+            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para caixa postal não é possível."
         },
         "payment_failed": {
             "title": "Não foi possível processar o pagamento",

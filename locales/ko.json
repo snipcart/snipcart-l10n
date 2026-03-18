@@ -1,0 +1,1172 @@
+{
+    "default": {
+        "loading": "로딩 중...",
+        "error": "오류가 발생했습니다.",
+        "success": "성공!"
+    },
+    "actions": {
+        "edit": "수정",
+        "cancel": "취소",
+        "continue_shopping": "쇼핑 계속하기",
+        "back_to_checkout": "결제로 돌아가기",
+        "checkout": "결제",
+        "apply": "적용",
+        "dismiss": "닫기",
+        "type_address": "주소를 입력하세요",
+        "use_this_address": "이 주소 사용",
+        "back_to_store": "매장으로 돌아가기",
+        "close_cart": "장바구니 닫기",
+        "show": "보기",
+        "hide": "숨기기",
+        "apply_changes": "변경사항 적용",
+        "yes_use_it": "네, 사용합니다",
+        "save_changes": "변경사항 저장",
+        "back_to_orders": "주문 목록으로",
+        "change_password": "비밀번호 변경",
+        "clear_cart": "장바구니 비우기",
+        "add": "추가"
+    },
+    "header": {
+        "title_cart_summary": "장바구니 요약",
+        "loading": "로딩 중..."
+    },
+    "item": {
+        "quantity": "수량",
+        "quantity_short": "수량",
+        "decrement_quantity": "수량 감소",
+        "increment_quantity": "수량 증가",
+        "remove_item": "항목 제거",
+        "recurrence": {
+            "daily": "일 |||| %{smart_count}일",
+            "weekly": "주 |||| %{smart_count}주",
+            "monthly": "개월 |||| %{smart_count}개월",
+            "yearly": "년 |||| %{smart_count}년"
+        }
+    },
+    "subscription": {
+        "title": "구독",
+        "state": {
+            "title": "상태",
+            "active": "활성",
+            "paused": "일시정지",
+            "finished": "완료",
+            "stopped": "중지",
+            "cancellationrequested": "구독은 청구 기간 종료 시 해지됩니다."
+        },
+        "placed_on": "가입일",
+        "final_billing_date": "마지막 청구일",
+        "items": "항목",
+        "plan": "플랜",
+        "billed_on": "청구일",
+        "payment_amount": "결제 금액",
+        "processing": "구독이 처리 중입니다. 나중에 다시 확인해 주세요.",
+        "loading": "구독 로딩 중",
+        "cancel": "취소",
+        "pause": "일시정지",
+        "unpause": "재개",
+        "billing_recurrence": {
+            "daily": "매일 청구 |||| %{smart_count}일마다 청구",
+            "weekly": "매주 청구 |||| %{smart_count}주마다 청구",
+            "monthly": "매월 청구 |||| %{smart_count}개월마다 청구",
+            "yearly": "매년 청구 |||| %{smart_count}년마다 청구"
+        }
+    },
+    "cart": {
+        "subtotal": "소계",
+        "shipping_taxes_calculated_at_checkout": "배송비와 세금은 결제 시 계산됩니다.",
+        "loading": "장바구니를 준비하고 있습니다...",
+        "secured_by": "Snipcart 보안 결제",
+        "summary": "주문 요약",
+        "empty": "장바구니가 비어 있습니다.",
+        "invoice_number": "송장 번호",
+        "view_detailed_cart": "장바구니 상세 보기"
+    },
+    "order": {
+        "loading": "주문 상세 정보를 불러오는 중...",
+        "title": "주문"
+    },
+    "discount_box": {
+        "promo_code": "프로모션 코드?",
+        "promo_code_placeholder": "프로모션 코드",
+        "promocode_applied": "프로모션 코드 적용됨"
+    },
+    "address_form": {
+        "name": "이름",
+        "email": "이메일",
+        "firstName": "이름",
+        "lastName": "성",
+        "address1": "주소",
+        "address2": "상세주소",
+        "city": "도시",
+        "country": "국가",
+        "phone": "전화번호",
+        "postalCode": "우편번호",
+        "province": "도/시",
+        "dont_see_address": "주소를 찾을 수 없습니다"
+    },
+    "billing": {
+        "title": "청구",
+        "address": "청구 주소",
+        "continue_to_shipping": "배송으로 계속",
+        "use_different_shipping_address": "다른 배송 주소 사용"
+    },
+    "customer": {
+        "information": "고객 정보",
+        "payment_info": "결제 정보",
+        "payment_method_update": {
+            "title": "결제 수단 업데이트",
+            "outstanding_payment_failed": {
+                "title": "결제 실패",
+                "description": "계속하려면 결제 수단을 업데이트하세요."
+            }
+        }
+    },
+    "customer_details": {
+        "title": "고객 상세 정보"
+    },
+    "customer_dashboard": {
+        "my_account": "내 계정",
+        "ordered_on": "주문일",
+        "next_billing_date": "다음 청구일",
+        "price": "가격",
+        "total": "합계",
+        "status": "상태",
+        "order": "주문 %{invoice_number}",
+        "order_details": "주문 상세",
+        "loading": "로딩 중...",
+        "no_orders": "주문이 없습니다.",
+        "no_subscriptions": "구독이 없습니다.",
+        "view_invoice": "송장 보기",
+        "sign_out": "로그아웃",
+        "show_more_orders": "%{smart_count}개 주문 더 보기 |||| %{smart_count}개 주문 더 보기",
+        "show_more_subscriptions": "%{smart_count}개 구독 더 보기 |||| %{smart_count}개 구독 더 보기",
+        "orders": "주문",
+        "subscriptions": "구독",
+        "subscription": "구독"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "구독에 미결제 건이 있습니다",
+                "description": "미결제 구독이 있습니다. 결제 수단을 업데이트해 주세요."
+            }
+        }
+    },
+    "signin_form": {
+        "signin": "로그인",
+        "dont_have_an_account": "계정이 없으신가요?",
+        "email": "이메일",
+        "password": "비밀번호",
+        "forgot_your_password": "비밀번호를 잊으셨나요?",
+        "close_form": "뒤로"
+    },
+    "forgot_password_form": {
+        "title": "비밀번호 재설정",
+        "instructions": "계정 이메일 주소를 입력하시면 비밀번호 재설정 링크를 보내드립니다.",
+        "email": "이메일",
+        "email_instructions": "링크가 포함된 이메일을 보냈습니다. 링크를 클릭하여 비밀번호를 재설정하세요.",
+        "action": "비밀번호 재설정 이메일 보내기"
+    },
+    "reset_password_form": {
+        "title": "비밀번호 재설정",
+        "password": "새 비밀번호",
+        "confirmation_password": "새 비밀번호 확인",
+        "action": "비밀번호 재설정"
+    },
+    "change_password_form": {
+        "title": "비밀번호 변경",
+        "current_password": "현재 비밀번호",
+        "password": "새 비밀번호",
+        "confirmation_password": "새 비밀번호 확인",
+        "action": "비밀번호 변경"
+    },
+    "register_form": {
+        "register": "회원가입",
+        "already_have_an_account": "이미 계정이 있으신가요?",
+        "email": "이메일",
+        "password": "비밀번호",
+        "confirm_password": "비밀번호 확인",
+        "requires_action": {
+            "title": "이메일을 확인하세요",
+            "description": "이메일을 보냈습니다. 안내에 따라 회원가입을 완료하세요."
+        }
+    },
+    "guest_checkout": {
+        "or": "또는",
+        "continue_as_a_guest": "비회원으로 계속"
+    },
+    "shipping": {
+        "title": "배송",
+        "shipping_to": "배송지:",
+        "address": "배송 주소",
+        "method": "배송 방법",
+        "methods": {
+            "example_localization_id": "배송 방법 예시"
+        }
+    },
+    "shipping_rates": {
+        "guaranteed_delivery_days": "%{smart_count}일 내 배송 보장 |||| %{smart_count}일 내 배송 보장"
+    },
+    "payment": {
+        "form": {
+            "deferred_payment_title": "후불 결제",
+            "deferred_payment_instructions": "이 주문을 하시면 판매자가 지정한 결제 수단으로 나중에 결제하는 것에 동의합니다.",
+            "card_label": "신용카드",
+            "card_number": "카드 번호",
+            "card_expiration": "MM/YY",
+            "card_cvv": "CVV",
+            "card_postal_code": "우편번호",
+            "invalid_number": "카드 번호가 유효하지 않습니다",
+            "invalid_expiration": "만료일이 유효하지 않습니다",
+            "invalid_cvv": "CVV가 유효하지 않습니다",
+            "invalid_postal_code": "우편번호가 유효하지 않습니다"
+        },
+        "still_pending_notice": "결제가 처리 중입니다.",
+        "title": "결제",
+        "continue_to_payment": "결제로 계속",
+        "credit_card": "신용카드",
+        "place_order": "주문하기",
+        "preparing_payment_session": "결제 준비 중...",
+        "processing_payment": "결제 처리 중...",
+        "checkout_with": "결제 수단",
+        "checkout_with_method": "%{method}(으)로 결제",
+        "method_icon": "%{method} 아이콘",
+        "no_payment": "이 주문에는 결제가 필요하지 않습니다.",
+        "methods": {
+            "card": "신용카드",
+            "paypal": "PayPal",
+            "paypal_express_checkout": "PayPal",
+            "apple_pay": "Apple Pay",
+            "bancontact": "Bancontact",
+            "belfius": "Belfius",
+            "eps": "Electronic Payment Standard",
+            "giropay": "Giropay",
+            "ideal": "iDEAL",
+            "ing_home_pay": "ING Home'Pay",
+            "kbc": "KBC",
+            "klarna_pay_later": "Klarna 후불결제",
+            "klarna_slice_it": "Klarna 할부",
+            "p24": "Przelewy24",
+            "sepa_debit": "SEPA 은행 이체",
+            "sofort": "Sofort 은행 이체",
+            "deferred_payment": "후불 결제"
+        }
+    },
+    "discounts": {
+        "title": "할인"
+    },
+    "cart_summary": {
+        "taxes": "세금",
+        "taxes_included_in_price": "일부 항목에 세금이 포함되어 있습니다.",
+        "total": "합계",
+        "subtotal": "소계",
+        "shipping": "배송",
+        "discount": "할인",
+        "quantity": "x",
+        "calculated_at_checkout": "결제 시 계산"
+    },
+    "errors": {
+        "default": "오류가 발생했습니다. 나중에 다시 시도하거나 문의해 주세요.",
+        "promo_code_is_invalid": "유효하지 않은 프로모션 코드입니다",
+        "promocode_already_in_cart": "이미 적용된 프로모션 코드입니다",
+        "promocode_isnt_applicable": "이 프로모션 코드를 적용할 수 없습니다",
+        "promo_code_is_expired": "만료된 프로모션 코드입니다",
+        "stringEmpty": "필수 항목입니다",
+        "emailEmpty": "이메일은 필수입니다",
+        "required": "필수 항목입니다",
+        "invalid_expiry_year_past": "카드가 만료되었습니다",
+        "email": "유효한 이메일 주소를 입력하세요",
+        "quantity_revised": "재고 제한으로 수량이 조정되었습니다.",
+        "quantity_out_of_stock": "죄송합니다. 이 상품은 재고가 없습니다. 계속하려면 장바구니에서 제거하세요.",
+        "disabled_country": "이 국가로의 배송이 불가합니다.",
+        "error_payment_items_are_invalid": {
+            "title": "장바구니에 유효하지 않은 항목이 있습니다.",
+            "description": "주문을 확인하거나 나중에 다시 시도하세요."
+        },
+        "card": {
+            "invalid_number": "카드 번호가 유효하지 않습니다.",
+            "invalid_date": "카드 만료일이 유효하지 않습니다.",
+            "invalid_year": "카드 만료 연도가 유효하지 않습니다.",
+            "invalid_month": "카드 만료 월이 유효하지 않습니다.",
+            "invalid_cvv": "CVV가 유효하지 않습니다.",
+            "invalid_expiration": "카드 만료일이 유효하지 않습니다.",
+            "expired": "카드가 만료되었습니다.",
+            "declined": "카드가 거부되었습니다. 카드 발급사에 문의하세요.",
+            "invalid_address": "카드 주소가 유효하지 않습니다.",
+            "insufficient_funds": "잔액이 부족합니다.",
+            "card_not_supported": "이 지역에서 지원하지 않는 카드입니다.",
+            "currency_not_supported": "현재 이 통화는 지원되지 않습니다."
+        },
+        "transaction": {
+            "declined": "카드 처리 중 오류가 발생했습니다. 나중에 다시 시도하거나 다른 결제 수단을 사용하세요."
+        },
+        "discounts": {
+            "conflict": "일부 할인은 결합할 수 없습니다. 이 할인을 사용하시겠습니까?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "주문을 처리할 수 없습니다.",
+                "description": "결제가 이루어지지 않았습니다. 판매자에게 문의하세요."
+            },
+            "product_crawling": {
+                "title": "장바구니 상품의 가격이 변경되었을 수 있습니다.",
+                "description": "상품을 제거하고 다시 추가해 보세요."
+            },
+            "stock_validation": {
+                "title": "재고가 부족합니다.",
+                "description": "일부 상품의 재고가 부족할 수 있습니다. 수량을 조정하세요."
+            },
+            "custom_fields_validation": {
+                "title": "필수 정보가 누락되었습니다.",
+                "description": "장바구니의 일부 상품에 필수 정보가 없습니다. 수정하세요."
+            },
+            "shipping_validation": {
+                "title": "배송 방법을 확인할 수 없습니다.",
+                "description": "선택한 배송 요금이 변경되었거나 이용할 수 없습니다."
+            }
+        },
+        "invalid_address": "주소가 유효하지 않습니다.",
+        "shipping": {
+            "account_configuration": {
+                "title": "현재 이용 가능한 배송 방법이 없습니다",
+                "description": "나중에 다시 시도하거나 문의하세요."
+            },
+            "rates_calculation": {
+                "title": "배송비를 계산할 수 없습니다",
+                "description": "나중에 다시 시도하거나 문의하세요."
+            },
+            "no_rates_found": {
+                "title": "이용 가능한 배송 방법이 없습니다",
+                "description": "배송 주소를 확인하거나 문의하세요."
+            },
+            "E.COUNTRY.UNSUPPORTED": "이 국가로의 배송이 지원되지 않습니다.",
+            "E.ENGINE.UNAVAILABLE": "배송 서비스를 이용할 수 없습니다. 나중에 다시 시도하세요.",
+            "E.QUERY.UNANSWERABLE": "주소를 확인할 수 없습니다. 정보를 확인하세요.",
+            "E.ADDRESS.NOT_FOUND": "주소를 찾을 수 없습니다.",
+            "E.SECONDARY_INFORMATION.INVALID": "추가 주소 정보가 유효하지 않습니다.",
+            "E.SECONDARY_INFORMATION.MISSING": "추가 주소 정보가 누락되었습니다.",
+            "E.HOUSE_NUMBER.MISSING": "건물 번호가 누락되었습니다.",
+            "E.HOUSE_NUMBER.INVALID": "건물 번호가 유효하지 않습니다.",
+            "E.STREET.MISSING": "도로명이 누락되었습니다.",
+            "E.STREET.INVALID": "도로명이 유효하지 않습니다.",
+            "E.BOX_NUMBER.MISSING": "사서함 번호가 누락되었습니다.",
+            "E.BOX_NUMBER.INVALID": "사서함 번호가 유효하지 않습니다.",
+            "E.ADDRESS.INVALID": "주소가 유효하지 않습니다.",
+            "E.ZIP.NOT_FOUND": "우편번호를 찾을 수 없습니다.",
+            "E.ZIP.INVALID": "우편번호가 유효하지 않습니다.",
+            "E.ZIP.PLUS4.NOT_FOUND": "우편번호 확장이 없습니다.",
+            "E.ADDRESS.MULTIPLE": "여러 주소가 발견되었습니다. 더 정확한 주소를 입력하세요.",
+            "E.ADDRESS.INSUFFICIENT": "주소 정보가 불완전합니다.",
+            "E.ADDRESS.DUAL": "주소에 모순된 정보가 있습니다.",
+            "E.STREET.MAGNET": "도로명을 확인할 수 없습니다.",
+            "E.CITY_STATE.INVALID": "도시 또는 지역이 유효하지 않습니다.",
+            "E.STATE.INVALID": "지역이 유효하지 않습니다.",
+            "E.ADDRESS.DELIVERY.INVALID": "배송 주소가 유효하지 않습니다.",
+            "E.TIMED_OUT": "주소 확인 시간이 초과되었습니다. 다시 시도하세요.",
+            "E.TIME_ZONE.UNAVAILABLE": "시간대 정보를 사용할 수 없습니다.",
+            "E.PO_BOX.INTERNATIONAL": "사서함으로의 국제 배송은 불가합니다."
+        },
+        "payment_failed": {
+            "title": "결제를 처리할 수 없습니다",
+            "description": "나중에 다시 시도하거나 문의하세요."
+        },
+        "payment_authorization": {
+            "title": "결제를 처리할 수 없습니다",
+            "default": "청구 및 결제 정보를 확인하세요."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "결제를 처리할 수 없습니다",
+                "description": "결제 정보를 인증할 수 없습니다. 다시 시도하세요."
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "장바구니에는 하나의 구독만 가능합니다.",
+                "description": "새 구독을 추가하기 전에 기존 구독을 제거하세요."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "장바구니에는 상품 또는 구독만 가능합니다.",
+                "description": "구독을 추가하기 전에 기존 상품을 제거하거나 그 반대로 하세요."
+            }
+        },
+        "customer_exists": "이 이메일 주소는 이미 사용 중입니다.",
+        "customer_password_missmatch": "비밀번호가 일치하지 않습니다.",
+        "customer_password_token_expired": "비밀번호 재설정 링크가 만료되었습니다.",
+        "customer_password_token_invalid": "비밀번호 재설정 링크가 유효하지 않습니다.",
+        "customer_not_found": "이 이메일 주소와 연결된 계정이 없습니다.",
+        "invalid_credentials": "이메일 또는 비밀번호가 잘못되었습니다.",
+        "customer_current_password_invalid": "현재 비밀번호가 잘못되었습니다."
+    },
+    "shippingRates": {
+        "loading": "로딩 중..."
+    },
+    "customer_orders": {
+        "loading": "로딩 중..."
+    },
+    "digital_goods": {
+        "download": "다운로드"
+    },
+    "confirmation": {
+        "thank_you_for_your_order": "주문해 주셔서 감사합니다",
+        "async_confirmation_notice": "주문이 접수되어 처리 중입니다. 곧 확인 메일을 받으실 것입니다."
+    },
+    "checkout": {
+        "shipping_taxes_calculated_when_address_provided": "배송비와 세금은 주소 입력 후 계산됩니다."
+    },
+    "countries": {
+        "AD": {
+            "name": "안도라"
+        },
+        "AE": {
+            "name": "아랍에미리트"
+        },
+        "AF": {
+            "name": "아프가니스탄"
+        },
+        "AG": {
+            "name": "앤티가 바부다"
+        },
+        "AI": {
+            "name": "앵귈라"
+        },
+        "AL": {
+            "name": "알바니아"
+        },
+        "AM": {
+            "name": "아르메니아"
+        },
+        "AO": {
+            "name": "앙골라"
+        },
+        "AQ": {
+            "name": "남극"
+        },
+        "AR": {
+            "name": "아르헨티나"
+        },
+        "AS": {
+            "name": "미국령 사모아"
+        },
+        "AT": {
+            "name": "오스트리아"
+        },
+        "AU": {
+            "name": "호주"
+        },
+        "AW": {
+            "name": "아루바"
+        },
+        "AX": {
+            "name": "올란드 제도"
+        },
+        "AZ": {
+            "name": "아제르바이잔"
+        },
+        "BA": {
+            "name": "보스니아 헤르체고비나"
+        },
+        "BB": {
+            "name": "바베이도스"
+        },
+        "BD": {
+            "name": "방글라데시"
+        },
+        "BE": {
+            "name": "벨기에"
+        },
+        "BF": {
+            "name": "부르키나파소"
+        },
+        "BG": {
+            "name": "불가리아"
+        },
+        "BH": {
+            "name": "바레인"
+        },
+        "BI": {
+            "name": "부룬디"
+        },
+        "BJ": {
+            "name": "베냉"
+        },
+        "BL": {
+            "name": "생바르텔레미"
+        },
+        "BM": {
+            "name": "버뮤다"
+        },
+        "BN": {
+            "name": "브루나이"
+        },
+        "BO": {
+            "name": "볼리비아"
+        },
+        "BQ": {
+            "name": "카리브 네덜란드"
+        },
+        "BR": {
+            "name": "브라질"
+        },
+        "BS": {
+            "name": "바하마"
+        },
+        "BT": {
+            "name": "부탄"
+        },
+        "BV": {
+            "name": "부베 섬"
+        },
+        "BW": {
+            "name": "보츠와나"
+        },
+        "BY": {
+            "name": "벨라루스"
+        },
+        "BZ": {
+            "name": "벨리즈"
+        },
+        "CA": {
+            "name": "캐나다"
+        },
+        "CC": {
+            "name": "코코스 제도"
+        },
+        "CD": {
+            "name": "콩고 민주 공화국"
+        },
+        "CF": {
+            "name": "중앙아프리카 공화국"
+        },
+        "CG": {
+            "name": "콩고 공화국"
+        },
+        "CH": {
+            "name": "스위스"
+        },
+        "CI": {
+            "name": "코트디부아르"
+        },
+        "CK": {
+            "name": "쿡 제도"
+        },
+        "CL": {
+            "name": "칠레"
+        },
+        "CM": {
+            "name": "카메룬"
+        },
+        "CN": {
+            "name": "중국"
+        },
+        "CO": {
+            "name": "콜롬비아"
+        },
+        "CR": {
+            "name": "코스타리카"
+        },
+        "CU": {
+            "name": "쿠바"
+        },
+        "CV": {
+            "name": "카보베르데"
+        },
+        "CW": {
+            "name": "퀴라소"
+        },
+        "CX": {
+            "name": "크리스마스 섬"
+        },
+        "CY": {
+            "name": "키프로스"
+        },
+        "CZ": {
+            "name": "체코"
+        },
+        "DE": {
+            "name": "독일"
+        },
+        "DJ": {
+            "name": "지부티"
+        },
+        "DK": {
+            "name": "덴마크"
+        },
+        "DM": {
+            "name": "도미니카"
+        },
+        "DO": {
+            "name": "도미니카 공화국"
+        },
+        "DZ": {
+            "name": "알제리"
+        },
+        "EC": {
+            "name": "에콰도르"
+        },
+        "EE": {
+            "name": "에스토니아"
+        },
+        "EG": {
+            "name": "이집트"
+        },
+        "EH": {
+            "name": "서사하라"
+        },
+        "ER": {
+            "name": "에리트레아"
+        },
+        "ES": {
+            "name": "스페인"
+        },
+        "ES-CN": {
+            "name": "카나리아 제도"
+        },
+        "ET": {
+            "name": "에티오피아"
+        },
+        "FI": {
+            "name": "핀란드"
+        },
+        "FJ": {
+            "name": "피지"
+        },
+        "FK": {
+            "name": "포클랜드 제도"
+        },
+        "FM": {
+            "name": "미크로네시아"
+        },
+        "FO": {
+            "name": "페로 제도"
+        },
+        "FR": {
+            "name": "프랑스"
+        },
+        "GA": {
+            "name": "가봉"
+        },
+        "GB": {
+            "name": "영국"
+        },
+        "GD": {
+            "name": "그레나다"
+        },
+        "GE": {
+            "name": "조지아"
+        },
+        "GF": {
+            "name": "프랑스령 기아나"
+        },
+        "GG": {
+            "name": "건지"
+        },
+        "GH": {
+            "name": "가나"
+        },
+        "GI": {
+            "name": "지브롤터"
+        },
+        "GL": {
+            "name": "그린란드"
+        },
+        "GM": {
+            "name": "감비아"
+        },
+        "GN": {
+            "name": "기니"
+        },
+        "GP": {
+            "name": "과들루프"
+        },
+        "GQ": {
+            "name": "적도 기니"
+        },
+        "GR": {
+            "name": "그리스"
+        },
+        "GS": {
+            "name": "사우스조지아 사우스샌드위치 제도"
+        },
+        "GT": {
+            "name": "과테말라"
+        },
+        "GU": {
+            "name": "괌"
+        },
+        "GW": {
+            "name": "기니비사우"
+        },
+        "GY": {
+            "name": "가이아나"
+        },
+        "HK": {
+            "name": "홍콩"
+        },
+        "HM": {
+            "name": "허드 맥도널드 제도"
+        },
+        "HN": {
+            "name": "온두라스"
+        },
+        "HR": {
+            "name": "크로아티아"
+        },
+        "HT": {
+            "name": "아이티"
+        },
+        "HU": {
+            "name": "헝가리"
+        },
+        "ID": {
+            "name": "인도네시아"
+        },
+        "IE": {
+            "name": "아일랜드"
+        },
+        "IL": {
+            "name": "이스라엘"
+        },
+        "IM": {
+            "name": "맨 섬"
+        },
+        "IN": {
+            "name": "인도"
+        },
+        "IO": {
+            "name": "영국령 인도양 지역"
+        },
+        "IQ": {
+            "name": "이라크"
+        },
+        "IR": {
+            "name": "이란"
+        },
+        "IS": {
+            "name": "아이슬란드"
+        },
+        "IT": {
+            "name": "이탈리아"
+        },
+        "JE": {
+            "name": "저지"
+        },
+        "JM": {
+            "name": "자메이카"
+        },
+        "JO": {
+            "name": "요르단"
+        },
+        "JP": {
+            "name": "일본"
+        },
+        "KE": {
+            "name": "케냐"
+        },
+        "KG": {
+            "name": "키르기스스탄"
+        },
+        "KH": {
+            "name": "캄보디아"
+        },
+        "KI": {
+            "name": "키리바시"
+        },
+        "KM": {
+            "name": "코모로"
+        },
+        "KN": {
+            "name": "세인트키츠 네비스"
+        },
+        "KP": {
+            "name": "북한"
+        },
+        "KR": {
+            "name": "대한민국"
+        },
+        "KW": {
+            "name": "쿠웨이트"
+        },
+        "KY": {
+            "name": "케이맨 제도"
+        },
+        "KZ": {
+            "name": "카자흐스탄"
+        },
+        "LA": {
+            "name": "라오스"
+        },
+        "LB": {
+            "name": "레바논"
+        },
+        "LC": {
+            "name": "세인트루시아"
+        },
+        "LI": {
+            "name": "리히텐슈타인"
+        },
+        "LK": {
+            "name": "스리랑카"
+        },
+        "LR": {
+            "name": "라이베리아"
+        },
+        "LS": {
+            "name": "레소토"
+        },
+        "LT": {
+            "name": "리투아니아"
+        },
+        "LU": {
+            "name": "룩셈부르크"
+        },
+        "LV": {
+            "name": "라트비아"
+        },
+        "LY": {
+            "name": "리비아"
+        },
+        "MA": {
+            "name": "모로코"
+        },
+        "MC": {
+            "name": "모나코"
+        },
+        "MD": {
+            "name": "몰도바"
+        },
+        "ME": {
+            "name": "몬테네그로"
+        },
+        "MF": {
+            "name": "생마르탱"
+        },
+        "MG": {
+            "name": "마다가스카르"
+        },
+        "MH": {
+            "name": "마셜 제도"
+        },
+        "MK": {
+            "name": "북마케도니아"
+        },
+        "ML": {
+            "name": "말리"
+        },
+        "MM": {
+            "name": "미얀마"
+        },
+        "MN": {
+            "name": "몽골"
+        },
+        "MO": {
+            "name": "마카오"
+        },
+        "MP": {
+            "name": "북마리아나 제도"
+        },
+        "MQ": {
+            "name": "마르티니크"
+        },
+        "MR": {
+            "name": "모리타니"
+        },
+        "MS": {
+            "name": "몬트세랫"
+        },
+        "MT": {
+            "name": "몰타"
+        },
+        "MU": {
+            "name": "모리셔스"
+        },
+        "MV": {
+            "name": "몰디브"
+        },
+        "MW": {
+            "name": "말라위"
+        },
+        "MX": {
+            "name": "멕시코"
+        },
+        "MY": {
+            "name": "말레이시아"
+        },
+        "MZ": {
+            "name": "모잠비크"
+        },
+        "NA": {
+            "name": "나미비아"
+        },
+        "NC": {
+            "name": "뉴칼레도니아"
+        },
+        "NE": {
+            "name": "니제르"
+        },
+        "NF": {
+            "name": "노퍽 섬"
+        },
+        "NG": {
+            "name": "나이지리아"
+        },
+        "NI": {
+            "name": "니카라과"
+        },
+        "NL": {
+            "name": "네덜란드"
+        },
+        "NO": {
+            "name": "노르웨이"
+        },
+        "NP": {
+            "name": "네팔"
+        },
+        "NR": {
+            "name": "나우루"
+        },
+        "NU": {
+            "name": "니우에"
+        },
+        "NZ": {
+            "name": "뉴질랜드"
+        },
+        "OM": {
+            "name": "오만"
+        },
+        "PA": {
+            "name": "파나마"
+        },
+        "PE": {
+            "name": "페루"
+        },
+        "PF": {
+            "name": "프랑스령 폴리네시아"
+        },
+        "PG": {
+            "name": "파푸아뉴기니"
+        },
+        "PH": {
+            "name": "필리핀"
+        },
+        "PK": {
+            "name": "파키스탄"
+        },
+        "PL": {
+            "name": "폴란드"
+        },
+        "PM": {
+            "name": "생피에르 미클롱"
+        },
+        "PN": {
+            "name": "핏케언 제도"
+        },
+        "PR": {
+            "name": "푸에르토리코"
+        },
+        "PS": {
+            "name": "팔레스타인"
+        },
+        "PT": {
+            "name": "포르투갈"
+        },
+        "PW": {
+            "name": "팔라우"
+        },
+        "PY": {
+            "name": "파라과이"
+        },
+        "QA": {
+            "name": "카타르"
+        },
+        "RE": {
+            "name": "레위니옹"
+        },
+        "RO": {
+            "name": "루마니아"
+        },
+        "RS": {
+            "name": "세르비아"
+        },
+        "RU": {
+            "name": "러시아"
+        },
+        "RW": {
+            "name": "르완다"
+        },
+        "SA": {
+            "name": "사우디아라비아"
+        },
+        "SB": {
+            "name": "솔로몬 제도"
+        },
+        "SC": {
+            "name": "세이셸"
+        },
+        "SD": {
+            "name": "수단"
+        },
+        "SE": {
+            "name": "스웨덴"
+        },
+        "SG": {
+            "name": "싱가포르"
+        },
+        "SH": {
+            "name": "세인트헬레나"
+        },
+        "SI": {
+            "name": "슬로베니아"
+        },
+        "SJ": {
+            "name": "스발바르 얀마옌"
+        },
+        "SK": {
+            "name": "슬로바키아"
+        },
+        "SL": {
+            "name": "시에라리온"
+        },
+        "SM": {
+            "name": "산마리노"
+        },
+        "SN": {
+            "name": "세네갈"
+        },
+        "SO": {
+            "name": "소말리아"
+        },
+        "SR": {
+            "name": "수리남"
+        },
+        "SS": {
+            "name": "남수단"
+        },
+        "ST": {
+            "name": "상투메 프린시페"
+        },
+        "SV": {
+            "name": "엘살바도르"
+        },
+        "SX": {
+            "name": "신트마르턴"
+        },
+        "SY": {
+            "name": "시리아"
+        },
+        "SZ": {
+            "name": "에스와티니"
+        },
+        "TC": {
+            "name": "터크스 케이커스 제도"
+        },
+        "TD": {
+            "name": "차드"
+        },
+        "TF": {
+            "name": "프랑스령 남방 및 남극"
+        },
+        "TG": {
+            "name": "토고"
+        },
+        "TH": {
+            "name": "태국"
+        },
+        "TJ": {
+            "name": "타지키스탄"
+        },
+        "TK": {
+            "name": "토켈라우"
+        },
+        "TL": {
+            "name": "동티모르"
+        },
+        "TM": {
+            "name": "투르크메니스탄"
+        },
+        "TN": {
+            "name": "튀니지"
+        },
+        "TO": {
+            "name": "통가"
+        },
+        "TR": {
+            "name": "튀르키예"
+        },
+        "TT": {
+            "name": "트리니다드 토바고"
+        },
+        "TV": {
+            "name": "투발루"
+        },
+        "TW": {
+            "name": "대만"
+        },
+        "TZ": {
+            "name": "탄자니아"
+        },
+        "UA": {
+            "name": "우크라이나"
+        },
+        "UG": {
+            "name": "우간다"
+        },
+        "UM": {
+            "name": "미국령 군소 제도"
+        },
+        "US": {
+            "name": "미국"
+        },
+        "UY": {
+            "name": "우루과이"
+        },
+        "UZ": {
+            "name": "우즈베키스탄"
+        },
+        "VA": {
+            "name": "바티칸"
+        },
+        "VC": {
+            "name": "세인트빈센트 그레나딘"
+        },
+        "VE": {
+            "name": "베네수엘라"
+        },
+        "VG": {
+            "name": "영국령 버진아일랜드"
+        },
+        "VI": {
+            "name": "미국령 버진아일랜드"
+        },
+        "VN": {
+            "name": "베트남"
+        },
+        "VU": {
+            "name": "바누아투"
+        },
+        "WF": {
+            "name": "왈리스 푸투나"
+        },
+        "WS": {
+            "name": "사모아"
+        },
+        "XK": {
+            "name": "코소보"
+        },
+        "YE": {
+            "name": "예멘"
+        },
+        "YT": {
+            "name": "마요트"
+        },
+        "ZA": {
+            "name": "남아프리카 공화국"
+        },
+        "ZM": {
+            "name": "잠비아"
+        },
+        "ZW": {
+            "name": "짐바브웨"
+        }
+    }
+}

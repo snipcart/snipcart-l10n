@@ -1,4 +1,9 @@
 {
+    "default": {
+        "loading": "Cargando...",
+        "error": "Se ha producido un error.",
+        "success": "¡Éxito!"
+    },
     "actions": {
         "edit": "Editar",
         "cancel": "Cancelar",
@@ -6,6 +11,7 @@
         "back_to_checkout": "Volver a pago",
         "checkout": "Pagar",
         "apply": "Aplicar",
+        "dismiss": "Descartar",
         "type_address": "Escribe tu dirección",
         "use_this_address": "Usar esta dirección",
         "back_to_store": "Volver a la tienda",
@@ -17,6 +23,7 @@
         "save_changes": "Guardar cambios",
         "back_to_orders": "Volver a pedidos",
         "change_password": "Cambiar contraseña",
+        "clear_cart": "Vaciar carrito",
         "add": "Añadir"
     },
     "header": {
@@ -43,13 +50,26 @@
             "active": "Activo",
             "paused": "Pausado",
             "finished": "Finalizado",
-            "stopped": "Detenido"
+            "stopped": "Detenido",
+            "cancellationrequested": "La suscripción finalizará al final del período de facturación."
         },
         "placed_on": "Situado en",
+        "final_billing_date": "Última fecha de facturación",
         "items": "Artículos",
         "plan": "Plan",
         "billed_on": "Se cobrará en",
-        "payment_amount": "Total del pago"
+        "payment_amount": "Total del pago",
+        "processing": "La suscripción aún se está procesando. Vuelva más tarde para ver los detalles.",
+        "loading": "Cargando suscripciones",
+        "cancel": "Cancelar",
+        "pause": "Pausar",
+        "unpause": "Reanudar",
+        "billing_recurrence": {
+            "daily": "Facturado diariamente |||| Facturado cada %{smart_count} días",
+            "weekly": "Facturado semanalmente |||| Facturado cada %{smart_count} semanas",
+            "monthly": "Facturado mensualmente |||| Facturado cada %{smart_count} meses",
+            "yearly": "Facturado anualmente |||| Facturado cada %{smart_count} años"
+        }
     },
     "cart": {
         "subtotal": "Subtotal",
@@ -92,7 +112,14 @@
     },
     "customer": {
         "information": "Información de cliente",
-        "payment_info": "Mi información de pago"
+        "payment_info": "Mi información de pago",
+        "payment_method_update": {
+            "title": "Actualizar método de pago",
+            "outstanding_payment_failed": {
+                "title": "Pago fallido",
+                "description": "Actualice su método de pago para continuar."
+            }
+        }
     },
     "customer_details": {
         "title": "Detalles del cliente"
@@ -114,7 +141,16 @@
         "show_more_orders": "Muestra %{smart_count} pedido más |||| Muestra %{smart_count} pedidos más",
         "show_more_subscriptions": "Muestra %{smart_count} suscripción más |||| Muestra %{smart_count} suscripciones más",
         "orders": "Pedidos",
-        "subscriptions": "Suscripciones"
+        "subscriptions": "Suscripciones",
+        "subscription": "Suscripción"
+    },
+    "customer_notifications": {
+        "subscription": {
+            "outstanding_payment": {
+                "title": "Una suscripción tiene un pago pendiente",
+                "description": "Tiene una suscripción con un pago pendiente. Actualice su método de pago."
+            }
+        }
     },
     "signin_form": {
         "signin": "Identificarte",
@@ -149,7 +185,11 @@
         "already_have_an_account": "¿Ya tienes una cuenta?",
         "email": "Email",
         "password": "Contraseña",
-        "confirm_password": "Confirmar contraseña"
+        "confirm_password": "Confirmar contraseña",
+        "requires_action": {
+            "title": "Revise su correo electrónico",
+            "description": "Le hemos enviado un correo electrónico. Siga las instrucciones para completar el registro."
+        }
     },
     "guest_checkout": {
         "or": "O",
@@ -159,13 +199,16 @@
         "title": "Envío",
         "shipping_to": "Enviar a:",
         "address": "Dirección de envío",
-        "method": "Método de envío"
+        "method": "Método de envío",
+        "methods": {
+            "example_localization_id": "Ejemplo de método de envío"
+        }
     },
     "shipping_rates": {
         "guaranteed_delivery_days": "Se garantiza la entrega en %{guaranteedDaysToDelivery} día(s)."
     },
     "payment": {
-        "form":{
+        "form": {
             "deferred_payment_title": "Pago aplazado",
             "deferred_payment_instructions": "Al hacer este pedido, aceptas pagar más tarde usando el método de pago identificado por el comerciante.",
             "card_label": "Tarjeta de Crédito",
@@ -189,7 +232,7 @@
         "checkout_with_method": "Pagar mediante %{method}",
         "method_icon": "%{method} icono",
         "no_payment": "Este pedido no requiere ningún pago.",
-        "methods":{
+        "methods": {
             "card": "Tarjeta de Crédito",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
@@ -210,115 +253,159 @@
         }
     },
     "discounts": {
-      "title": "Descuentos"
+        "title": "Descuentos"
     },
     "cart_summary": {
-      "taxes": "Impuestos",
-      "taxes_included_in_price": "Algunos artículos tienen los impuestos incluidos.",
-      "total": "Total",
-      "subtotal": "Subtotal",
-      "shipping": "Envío",
-      "discount": "Descuentos",
-      "quantity": "x",
-      "calculated_at_checkout": "Calculado antes del pago"
+        "taxes": "Impuestos",
+        "taxes_included_in_price": "Algunos artículos tienen los impuestos incluidos.",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Envío",
+        "discount": "Descuentos",
+        "quantity": "x",
+        "calculated_at_checkout": "Calculado antes del pago"
     },
     "errors": {
-      "default": "Ocurrió un error, inténtelo de nuevo más tarde o contacte con nosotros.",
-      "promo_code_is_invalid": "Este código promocional no es válido",
-      "promocode_already_in_cart": "Este código promocional ya se ha aplicado",
-      "promocode_isnt_applicable": "Este código promocional no es aplicable",
-      "promo_code_is_expired": "Esta promoción ha expirado",
-      "stringEmpty": "Este campo es obligatorio",
-      "required": "Este campo es obligatorio",
-      "invalid_expiry_year_past": "Tarjeta expirada",
-      "email": "Por favor indique una dirección de correo válida",
-      "quantity_revised": "La cantidad ha cambiado debido a limitaciones de stock.",
-      "quantity_out_of_stock": "Desafortunadamente este artículo está fuera de stock, elimínalo del carrito para continuar.",
-      "disabled_country": "El país seleccionado no está disponible para el pago.",
-      "error_payment_items_are_invalid": {
-        "title": "Algunos artículos de tu carrito no son válidos",
-        "description": "Por favor revisa tu pedido, o inténtalo de nuevo más tarde."
-      },
-      "card": {
-          "invalid_number": "El número de tarjeta no es válido.",
-          "invalid_date": "La fecha de caducidad de la tarjeta no es válida.",
-          "invalid_year": "El año de caducidad de la tarjeta no es válido.",
-          "invalid_month": "El mes de caducidad de la tarjeta no es válido.",
-          "invalid_cvv": "El CVV de la tarjeta no es válido.",
-          "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
-          "expired": "La tarjeta está caducada.",
-          "declined": "La tarjeta ha sido rechazada. Por favor llame a la entidad responsable de su tarjeta para más informacíon.",
-          "invalid_address": "La dirección de la tarjeta no es válida.",
-          "insufficient_funds": "La cuenta no tenía suficientes fondos para cubrir el pago de la transacción.",
-          "card_not_supported": "La tarjeta no es aceptada en esta zona geográfica.",
-          "currency_not_supported": "La divisa no esta soportada actualmente."
-      },
-      "transaction": {
-          "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtelo de nuevo más tarde o utilice un método de pago distinto."
-      },
-      "discounts": {
-          "conflict": "Algunos descuentos no pueden combinarse. ¿Utilizar este descuento en su lugar?"
-      },
-      "order_validation": {
-          "domain_crawling": {
-              "title": "El pedido no pudo ser procesado.",
-              "description": "No se ha realizado ningún cargo. Por favor contacte con el dueño de la tienda para más información."
-          },
-          "product_crawling": {
-              "title": "El precio de los artículos del carrito ha podido cambiar.",
-              "description": "Intente quitarlos y añadirlos de nuevo al carrito. Por favor contacte al dueño de la tienda para más detalles."
-          },
-          "stock_validation": {
-              "title": "Artículo fuera de stock.",
-              "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte con el dueño de la tienda para más detalles."
-          },
-          "custom_fields_validation": {
-              "title": "Falta información necesaria.",
-              "description": "Algunos artículos del carrito requieren información de carácter obligatorio. Por favor edite el carrito para continuar."
-          },
-          "shipping_validation": {
-              "title": "El método de envío no pudo ser validado.",
-              "description": "La tarifa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
-          }
-      },
-      "shipping": {
-          "account_configuration": {
-              "title": "No hay ningún método de envío disponible actualmente",
-              "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
-          },
-          "rates_calculation": {
-              "title": "No se pudo calcular el envío para tu pedido",
-              "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
-          },
-          "no_rates_found": {
-              "title": "No hay ningún método de envío disponible para tu pedido",
-              "description": "Por favor revisa tu dirección de envío o contáctanos."
-          }
-      },
-      "payment_failed": {
-          "title": "No se pudo procesar el pago",
-          "description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde."
-      },
-      "payment_authorization": {
-          "title":"No se pudo procesar el pago",
-          "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde."
-      },
-      "authentication_challenge": {
-          "failed": {
-              "title": "No se pudo procesar el pago",
-              "description": "No hemos podido autentificar tu información de pago. Por favor inténtelo de nuevo"
-          }
-      },
-      "customer_exists": "Este email ya esta en uso.",
-      "customer_password_missmatch": "Las dos claves deben coincidir.",
-      "customer_password_token_expired": "Tu token de recuperación de contraseña ha caducado.",
-      "customer_password_token_invalid": "Tu token de recuperación de contraseña no es válido.",
-      "customer_not_found": "La dirección de email no está asociada a ninguna cuenta.",
-      "invalid_credentials": "Correo o clave inválidos.",
-      "customer_current_password_invalid": "Contraseña incorrecta."
+        "default": "Ocurrió un error, inténtelo de nuevo más tarde o contacte con nosotros.",
+        "promo_code_is_invalid": "Este código promocional no es válido",
+        "promocode_already_in_cart": "Este código promocional ya se ha aplicado",
+        "promocode_isnt_applicable": "Este código promocional no es aplicable",
+        "promo_code_is_expired": "Esta promoción ha expirado",
+        "stringEmpty": "Este campo es obligatorio",
+        "emailEmpty": "El correo electrónico es obligatorio",
+        "required": "Este campo es obligatorio",
+        "invalid_expiry_year_past": "Tarjeta expirada",
+        "email": "Por favor indique una dirección de correo válida",
+        "quantity_revised": "La cantidad ha cambiado debido a limitaciones de stock.",
+        "quantity_out_of_stock": "Desafortunadamente este artículo está fuera de stock, elimínalo del carrito para continuar.",
+        "disabled_country": "El país seleccionado no está disponible para el pago.",
+        "error_payment_items_are_invalid": {
+            "title": "Algunos artículos de tu carrito no son válidos",
+            "description": "Por favor revisa tu pedido, o inténtalo de nuevo más tarde."
+        },
+        "card": {
+            "invalid_number": "El número de tarjeta no es válido.",
+            "invalid_date": "La fecha de caducidad de la tarjeta no es válida.",
+            "invalid_year": "El año de caducidad de la tarjeta no es válido.",
+            "invalid_month": "El mes de caducidad de la tarjeta no es válido.",
+            "invalid_cvv": "El CVV de la tarjeta no es válido.",
+            "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
+            "expired": "La tarjeta está caducada.",
+            "declined": "La tarjeta ha sido rechazada. Por favor llame a la entidad responsable de su tarjeta para más informacíon.",
+            "invalid_address": "La dirección de la tarjeta no es válida.",
+            "insufficient_funds": "La cuenta no tenía suficientes fondos para cubrir el pago de la transacción.",
+            "card_not_supported": "La tarjeta no es aceptada en esta zona geográfica.",
+            "currency_not_supported": "La divisa no esta soportada actualmente."
+        },
+        "transaction": {
+            "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtelo de nuevo más tarde o utilice un método de pago distinto."
+        },
+        "discounts": {
+            "conflict": "Algunos descuentos no pueden combinarse. ¿Utilizar este descuento en su lugar?"
+        },
+        "order_validation": {
+            "domain_crawling": {
+                "title": "El pedido no pudo ser procesado.",
+                "description": "No se ha realizado ningún cargo. Por favor contacte con el dueño de la tienda para más información."
+            },
+            "product_crawling": {
+                "title": "El precio de los artículos del carrito ha podido cambiar.",
+                "description": "Intente quitarlos y añadirlos de nuevo al carrito. Por favor contacte al dueño de la tienda para más detalles."
+            },
+            "stock_validation": {
+                "title": "Artículo fuera de stock.",
+                "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte con el dueño de la tienda para más detalles."
+            },
+            "custom_fields_validation": {
+                "title": "Falta información necesaria.",
+                "description": "Algunos artículos del carrito requieren información de carácter obligatorio. Por favor edite el carrito para continuar."
+            },
+            "shipping_validation": {
+                "title": "El método de envío no pudo ser validado.",
+                "description": "La tarifa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
+            }
+        },
+        "invalid_address": "La dirección no es válida.",
+        "shipping": {
+            "account_configuration": {
+                "title": "No hay ningún método de envío disponible actualmente",
+                "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+            },
+            "rates_calculation": {
+                "title": "No se pudo calcular el envío para tu pedido",
+                "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+            },
+            "no_rates_found": {
+                "title": "No hay ningún método de envío disponible para tu pedido",
+                "description": "Por favor revisa tu dirección de envío o contáctanos."
+            },
+            "E.COUNTRY.UNSUPPORTED": "No se admiten envíos a este país.",
+            "E.ENGINE.UNAVAILABLE": "El servicio de envío no está disponible. Inténtelo más tarde.",
+            "E.QUERY.UNANSWERABLE": "No se pudo verificar la dirección. Compruebe sus datos.",
+            "E.ADDRESS.NOT_FOUND": "Dirección no encontrada.",
+            "E.SECONDARY_INFORMATION.INVALID": "La información adicional de la dirección no es válida.",
+            "E.SECONDARY_INFORMATION.MISSING": "Falta información adicional de la dirección.",
+            "E.HOUSE_NUMBER.MISSING": "Falta el número de casa.",
+            "E.HOUSE_NUMBER.INVALID": "El número de casa no es válido.",
+            "E.STREET.MISSING": "Falta el nombre de la calle.",
+            "E.STREET.INVALID": "El nombre de la calle no es válido.",
+            "E.BOX_NUMBER.MISSING": "Falta el número de apartado postal.",
+            "E.BOX_NUMBER.INVALID": "El número de apartado postal no es válido.",
+            "E.ADDRESS.INVALID": "La dirección no es válida.",
+            "E.ZIP.NOT_FOUND": "Código postal no encontrado.",
+            "E.ZIP.INVALID": "El código postal no es válido.",
+            "E.ZIP.PLUS4.NOT_FOUND": "La extensión del código postal no se encontró.",
+            "E.ADDRESS.MULTIPLE": "Se encontraron varias direcciones. Proporcione una dirección más precisa.",
+            "E.ADDRESS.INSUFFICIENT": "La información de la dirección está incompleta.",
+            "E.ADDRESS.DUAL": "La dirección contiene información contradictoria.",
+            "E.STREET.MAGNET": "No se pudo verificar el nombre de la calle.",
+            "E.CITY_STATE.INVALID": "La ciudad o región no es válida.",
+            "E.STATE.INVALID": "La región no es válida.",
+            "E.ADDRESS.DELIVERY.INVALID": "La dirección de envío no es válida.",
+            "E.TIMED_OUT": "Se agotó el tiempo de verificación de la dirección. Inténtelo de nuevo.",
+            "E.TIME_ZONE.UNAVAILABLE": "La información de zona horaria no está disponible.",
+            "E.PO_BOX.INTERNATIONAL": "No es posible el envío internacional a direcciones de apartado postal."
+        },
+        "payment_failed": {
+            "title": "No se pudo procesar el pago",
+            "description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde."
+        },
+        "payment_authorization": {
+            "title": "No se pudo procesar el pago",
+            "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde."
+        },
+        "authentication_challenge": {
+            "failed": {
+                "title": "No se pudo procesar el pago",
+                "description": "No hemos podido autentificar tu información de pago. Por favor inténtelo de nuevo"
+            }
+        },
+        "cart_items": {
+            "cart_can_only_contain_one_subscription": {
+                "title": "El carrito solo puede contener una suscripción.",
+                "description": "Elimine la suscripción existente antes de añadir una nueva."
+            },
+            "cart_can_only_contain_items_or_subscriptions": {
+                "title": "El carrito puede contener artículos o suscripciones.",
+                "description": "Elimine los artículos existentes antes de añadir una suscripción, o viceversa."
+            }
+        },
+        "customer_exists": "Este email ya esta en uso.",
+        "customer_password_missmatch": "Las dos claves deben coincidir.",
+        "customer_password_token_expired": "Tu token de recuperación de contraseña ha caducado.",
+        "customer_password_token_invalid": "Tu token de recuperación de contraseña no es válido.",
+        "customer_not_found": "La dirección de email no está asociada a ninguna cuenta.",
+        "invalid_credentials": "Correo o clave inválidos.",
+        "customer_current_password_invalid": "Contraseña incorrecta."
+    },
+    "shippingRates": {
+        "loading": "Cargando..."
     },
     "customer_orders": {
         "loading": "Cargando..."
+    },
+    "digital_goods": {
+        "download": "Descargar"
     },
     "confirmation": {
         "thank_you_for_your_order": "Gracias por su pedido",
@@ -328,11 +415,11 @@
         "shipping_taxes_calculated_when_address_provided": "Los gastos de envío y los impuestos se calcularán cuando se indique una dirección."
     },
     "countries": {
-        "AC": {
-            "name": "Isla Ascensión"
-        },
         "AD": {
             "name": "Andorra"
+        },
+        "AE": {
+            "name": "Emiratos Árabes Unidos"
         },
         "AF": {
             "name": "Afganistán"
@@ -361,11 +448,17 @@
         "AS": {
             "name": "Samoa Americana"
         },
+        "AT": {
+            "name": "Austria"
+        },
         "AU": {
             "name": "Australia"
         },
         "AW": {
             "name": "Aruba"
+        },
+        "AX": {
+            "name": "Islas Åland"
         },
         "AZ": {
             "name": "Azerbaiyán"
@@ -378,6 +471,9 @@
         },
         "BD": {
             "name": "Bangladesh"
+        },
+        "BE": {
+            "name": "Bélgica"
         },
         "BF": {
             "name": "Burkina Faso"
@@ -394,6 +490,9 @@
         "BJ": {
             "name": "Benin"
         },
+        "BL": {
+            "name": "San Bartolomé"
+        },
         "BM": {
             "name": "Bermuda"
         },
@@ -402,6 +501,9 @@
         },
         "BO": {
             "name": "Bolivia"
+        },
+        "BQ": {
+            "name": "Caribe Neerlandés"
         },
         "BR": {
             "name": "Brasil"
@@ -417,6 +519,9 @@
         },
         "BW": {
             "name": "Botswana"
+        },
+        "BY": {
+            "name": "Bielorrusia"
         },
         "BZ": {
             "name": "Belice"
@@ -435,6 +540,9 @@
         },
         "CG": {
             "name": "Congo"
+        },
+        "CH": {
+            "name": "Suiza"
         },
         "CI": {
             "name": "Costa de Marfil"
@@ -462,6 +570,9 @@
         },
         "CV": {
             "name": "Cabo Verde"
+        },
+        "CW": {
+            "name": "Curazao"
         },
         "CX": {
             "name": "Isla Christmas"
@@ -499,6 +610,9 @@
         "EG": {
             "name": "Egipto"
         },
+        "EH": {
+            "name": "Sáhara Occidental"
+        },
         "ER": {
             "name": "Eritrea"
         },
@@ -519,6 +633,9 @@
         },
         "FK": {
             "name": "Islas Malvinas"
+        },
+        "FM": {
+            "name": "Micronesia"
         },
         "FO": {
             "name": "Islas Feroe"
@@ -568,6 +685,9 @@
         "GR": {
             "name": "Grecia"
         },
+        "GS": {
+            "name": "Georgia del Sur e Islas Sandwich del Sur"
+        },
         "GT": {
             "name": "Guatemala"
         },
@@ -604,6 +724,9 @@
         "IE": {
             "name": "Irlanda"
         },
+        "IL": {
+            "name": "Israel"
+        },
         "IM": {
             "name": "Isla de Man"
         },
@@ -625,17 +748,143 @@
         "IT": {
             "name": "Italia"
         },
+        "JE": {
+            "name": "Jersey"
+        },
+        "JM": {
+            "name": "Jamaica"
+        },
+        "JO": {
+            "name": "Jordania"
+        },
         "JP": {
             "name": "Japón"
+        },
+        "KE": {
+            "name": "Kenia"
+        },
+        "KG": {
+            "name": "Kirguistán"
         },
         "KH": {
             "name": "Camboya"
         },
+        "KI": {
+            "name": "Kiribati"
+        },
         "KM": {
             "name": "Comoras"
         },
+        "KN": {
+            "name": "San Cristóbal y Nieves"
+        },
+        "KP": {
+            "name": "Corea del Norte"
+        },
+        "KR": {
+            "name": "Corea del Sur"
+        },
+        "KW": {
+            "name": "Kuwait"
+        },
         "KY": {
             "name": "Islas Caimán"
+        },
+        "KZ": {
+            "name": "Kazajistán"
+        },
+        "LA": {
+            "name": "Laos"
+        },
+        "LB": {
+            "name": "Líbano"
+        },
+        "LC": {
+            "name": "Santa Lucía"
+        },
+        "LI": {
+            "name": "Liechtenstein"
+        },
+        "LK": {
+            "name": "Sri Lanka"
+        },
+        "LR": {
+            "name": "Liberia"
+        },
+        "LS": {
+            "name": "Lesoto"
+        },
+        "LT": {
+            "name": "Lituania"
+        },
+        "LU": {
+            "name": "Luxemburgo"
+        },
+        "LV": {
+            "name": "Letonia"
+        },
+        "LY": {
+            "name": "Libia"
+        },
+        "MA": {
+            "name": "Marruecos"
+        },
+        "MC": {
+            "name": "Mónaco"
+        },
+        "MD": {
+            "name": "Moldavia"
+        },
+        "ME": {
+            "name": "Montenegro"
+        },
+        "MF": {
+            "name": "San Martín"
+        },
+        "MG": {
+            "name": "Madagascar"
+        },
+        "MH": {
+            "name": "Islas Marshall"
+        },
+        "MK": {
+            "name": "Macedonia del Norte"
+        },
+        "ML": {
+            "name": "Mali"
+        },
+        "MM": {
+            "name": "Myanmar"
+        },
+        "MN": {
+            "name": "Mongolia"
+        },
+        "MO": {
+            "name": "Macao"
+        },
+        "MP": {
+            "name": "Islas Marianas del Norte"
+        },
+        "MQ": {
+            "name": "Martinica"
+        },
+        "MR": {
+            "name": "Mauritania"
+        },
+        "MS": {
+            "name": "Montserrat"
+        },
+        "MT": {
+            "name": "Malta"
+        },
+        "MU": {
+            "name": "Mauricio"
+        },
+        "MV": {
+            "name": "Maldivas"
+        },
+        "MW": {
+            "name": "Malaui"
         },
         "MX": {
             "name": "México"
@@ -643,8 +892,47 @@
         "MY": {
             "name": "Malasia"
         },
+        "MZ": {
+            "name": "Mozambique"
+        },
+        "NA": {
+            "name": "Namibia"
+        },
+        "NC": {
+            "name": "Nueva Caledonia"
+        },
+        "NE": {
+            "name": "Níger"
+        },
+        "NF": {
+            "name": "Isla Norfolk"
+        },
+        "NG": {
+            "name": "Nigeria"
+        },
         "NI": {
             "name": "Nicaragua"
+        },
+        "NL": {
+            "name": "Países Bajos"
+        },
+        "NO": {
+            "name": "Noruega"
+        },
+        "NP": {
+            "name": "Nepal"
+        },
+        "NR": {
+            "name": "Nauru"
+        },
+        "NU": {
+            "name": "Niue"
+        },
+        "NZ": {
+            "name": "Nueva Zelanda"
+        },
+        "OM": {
+            "name": "Omán"
         },
         "PA": {
             "name": "Panamá"
@@ -655,14 +943,122 @@
         "PF": {
             "name": "Polinesia Francesa"
         },
+        "PG": {
+            "name": "Papúa Nueva Guinea"
+        },
+        "PH": {
+            "name": "Filipinas"
+        },
+        "PK": {
+            "name": "Pakistán"
+        },
+        "PL": {
+            "name": "Polonia"
+        },
+        "PM": {
+            "name": "San Pedro y Miquelón"
+        },
+        "PN": {
+            "name": "Islas Pitcairn"
+        },
         "PR": {
             "name": "Puerto Rico"
+        },
+        "PS": {
+            "name": "Palestina"
+        },
+        "PT": {
+            "name": "Portugal"
+        },
+        "PW": {
+            "name": "Palaos"
         },
         "PY": {
             "name": "Paraguay"
         },
+        "QA": {
+            "name": "Catar"
+        },
+        "RE": {
+            "name": "Reunión"
+        },
+        "RO": {
+            "name": "Rumanía"
+        },
+        "RS": {
+            "name": "Serbia"
+        },
+        "RU": {
+            "name": "Rusia"
+        },
+        "RW": {
+            "name": "Ruanda"
+        },
+        "SA": {
+            "name": "Arabia Saudita"
+        },
+        "SB": {
+            "name": "Islas Salomón"
+        },
+        "SC": {
+            "name": "Seychelles"
+        },
+        "SD": {
+            "name": "Sudán"
+        },
+        "SE": {
+            "name": "Suecia"
+        },
+        "SG": {
+            "name": "Singapur"
+        },
+        "SH": {
+            "name": "Santa Elena"
+        },
+        "SI": {
+            "name": "Eslovenia"
+        },
+        "SJ": {
+            "name": "Svalbard y Jan Mayen"
+        },
+        "SK": {
+            "name": "Eslovaquia"
+        },
+        "SL": {
+            "name": "Sierra Leona"
+        },
+        "SM": {
+            "name": "San Marino"
+        },
+        "SN": {
+            "name": "Senegal"
+        },
+        "SO": {
+            "name": "Somalia"
+        },
+        "SR": {
+            "name": "Surinam"
+        },
+        "SS": {
+            "name": "Sudán del Sur"
+        },
+        "ST": {
+            "name": "Santo Tomé y Príncipe"
+        },
         "SV": {
             "name": "El Salvador"
+        },
+        "SX": {
+            "name": "Sint Maarten"
+        },
+        "SY": {
+            "name": "Siria"
+        },
+        "SZ": {
+            "name": "Suazilandia"
+        },
+        "TC": {
+            "name": "Islas Turcas y Caicos"
         },
         "TD": {
             "name": "Chad"
@@ -670,14 +1066,110 @@
         "TF": {
             "name": "Territorios Franceses del Sur"
         },
+        "TG": {
+            "name": "Togo"
+        },
+        "TH": {
+            "name": "Tailandia"
+        },
+        "TJ": {
+            "name": "Tayikistán"
+        },
+        "TK": {
+            "name": "Tokelau"
+        },
+        "TL": {
+            "name": "Timor Oriental"
+        },
+        "TM": {
+            "name": "Turkmenistán"
+        },
+        "TN": {
+            "name": "Túnez"
+        },
+        "TO": {
+            "name": "Tonga"
+        },
+        "TR": {
+            "name": "Turquía"
+        },
+        "TT": {
+            "name": "Trinidad y Tobago"
+        },
+        "TV": {
+            "name": "Tuvalu"
+        },
+        "TW": {
+            "name": "Taiwán"
+        },
+        "TZ": {
+            "name": "Tanzania"
+        },
+        "UA": {
+            "name": "Ucrania"
+        },
+        "UG": {
+            "name": "Uganda"
+        },
+        "UM": {
+            "name": "Islas Menores de EE.UU."
+        },
         "US": {
             "name": "Estados Unidos"
         },
         "UY": {
             "name": "Uruguay"
         },
+        "UZ": {
+            "name": "Uzbekistán"
+        },
+        "VA": {
+            "name": "Vaticano"
+        },
+        "VC": {
+            "name": "San Vicente y las Granadinas"
+        },
         "VE": {
             "name": "Venezuela"
+        },
+        "VG": {
+            "name": "Islas Vírgenes Británicas"
+        },
+        "VI": {
+            "name": "Islas Vírgenes de EE.UU."
+        },
+        "VN": {
+            "name": "Vietnam"
+        },
+        "VU": {
+            "name": "Vanuatu"
+        },
+        "WF": {
+            "name": "Wallis y Futuna"
+        },
+        "WS": {
+            "name": "Samoa"
+        },
+        "XK": {
+            "name": "Kosovo"
+        },
+        "YE": {
+            "name": "Yemen"
+        },
+        "YT": {
+            "name": "Mayotte"
+        },
+        "ZA": {
+            "name": "Sudáfrica"
+        },
+        "ZM": {
+            "name": "Zambia"
+        },
+        "ZW": {
+            "name": "Zimbabue"
+        },
+        "AC": {
+            "name": "Isla Ascensión"
         }
     }
 }
