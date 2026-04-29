@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Výše poštovného a daně bude vypočtena až po vyplnění dodací adresy."
     },
+    "withdrawal_form": {
+        "title": "Odstoupení od smlouvy",
+        "instructions": "Zadejte údaje o své objednávce, abyste mohli požádat o odstoupení od smlouvy podle Směrnice o právech spotřebitelů EU.",
+        "name": "Vaše jméno",
+        "order_id": "Číslo objednávky / číslo faktury",
+        "email": "E-mailová adresa",
+        "error_validation_failed": "Nepodařilo se nám ověřit Vaše údaje. Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu.",
+        "error_generic": "Něco se pokazilo. Zkuste to prosím znovu, nebo se obraťte na prodejce, pokud problém přetrvává."
+    },
+    "withdrawal_confirm": {
+        "title": "Potvrdit odstoupení",
+        "warning_title": "Upozornění:",
+        "warning_message": "Tato objednávka je mimo 14denní lhůtu pro odstoupení. Prodejce Vaši žádost posoudí.",
+        "order_details": "Podrobnosti objednávky",
+        "order_number": "Číslo objednávky:",
+        "order_date": "Datum objednávky:",
+        "order_total": "Celková částka objednávky:",
+        "items_title": "Vyberte položky k vrácení",
+        "withdraw_all": "Odstoupit od všech položek (plná refundace)",
+        "refund_amount": "Odhadovaná částka refundace:",
+        "back": "Zpět",
+        "processing": "Zpracování…",
+        "confirm": "Potvrdit odstoupení",
+        "legal_notice": "Potvrzením uplatňujete své právo odstoupit od této smlouvy podle Směrnice o právech spotřebitelů EU. Refundace jsou zpracovávány do 14 dnů.",
+        "error_failed": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení. Zkuste to prosím znovu, nebo se obraťte na prodejce.",
+        "error_generic": "Něco se pokazilo. Zkuste to prosím znovu."
+    },
+    "withdrawal_success": {
+        "title": "Žádost o odstoupení odeslána",
+        "message": "Vaše žádost o odstoupení byla úspěšně odeslána. Brzy obdržíte potvrzovací e-mail.",
+        "confirmation_number": "Potvrzovací číslo:",
+        "submitted_at": "Odesláno:",
+        "refund_amount": "Částka refundace:",
+        "next_steps_title": "Co bude následovat?",
+        "step_1": "Obdržíte potvrzovací e-mail s podrobnostmi o Vašem odstoupení.",
+        "step_2": "Prodejce posoudí Vaši žádost a může Vás kontaktovat ohledně pokynů k vrácení zboží.",
+        "step_3": "Vaše refundace bude zpracována do 14 dnů (nebo po obdržení vráceného zboží, pokud to bude relevantní).",
+        "close": "Zavřít"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

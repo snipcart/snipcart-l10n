@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Els costos d'enviament i els impostos es calcularan un cop introduïda l'adreça."
     },
+    "withdrawal_form": {
+        "title": "Desistir del contracte",
+        "instructions": "Introduïu les dades de la vostra comanda per sol·licitar el desistiment d'acord amb la Directiva sobre els drets dels consumidors de la UE.",
+        "name": "El vostre nom",
+        "order_id": "Número de comanda / factura",
+        "email": "Adreça de correu electrònic",
+        "error_validation_failed": "No hem pogut verificar les vostres dades. Comproveu el nom, el correu electrònic i el número de comanda, i torneu-ho a provar.",
+        "error_generic": "Hi ha hagut un error. Torneu-ho a provar o poseu-vos en contacte amb el comerciant si el problema persisteix."
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmar el desistiment",
+        "warning_title": "Avís:",
+        "warning_message": "Aquesta comanda està fora del termini de desistiment de 14 dies. El comerciant revisarà la vostra sol·licitud.",
+        "order_details": "Detalls de la comanda",
+        "order_number": "Número de comanda:",
+        "order_date": "Data de la comanda:",
+        "order_total": "Total de la comanda:",
+        "items_title": "Seleccioneu els articles a retornar",
+        "withdraw_all": "Desistir de tots els articles (reemborsament íntegre)",
+        "refund_amount": "Reemborsament estimat:",
+        "back": "Enrere",
+        "processing": "Processant…",
+        "confirm": "Confirmar el desistiment",
+        "legal_notice": "En confirmar, exerciu el vostre dret de desistiment d'aquest contracte d'acord amb la Directiva sobre els drets dels consumidors de la UE. Els reemborsaments es processen en un termini de 14 dies.",
+        "error_failed": "No hem pogut processar la vostra sol·licitud de desistiment. Torneu-ho a provar o poseu-vos en contacte amb el comerciant.",
+        "error_generic": "Hi ha hagut un error. Torneu-ho a provar."
+    },
+    "withdrawal_success": {
+        "title": "Sol·licitud de desistiment enviada",
+        "message": "La vostra sol·licitud de desistiment s'ha enviat correctament. Rebreu un correu electrònic de confirmació aviat.",
+        "confirmation_number": "Número de confirmació:",
+        "submitted_at": "Enviada:",
+        "refund_amount": "Import del reemborsament:",
+        "next_steps_title": "Què passa a continuació?",
+        "step_1": "Rebreu un correu electrònic de confirmació amb els detalls del vostre desistiment.",
+        "step_2": "El comerciant revisarà la vostra sol·licitud i pot posar-se en contacte amb vós amb instruccions de devolució.",
+        "step_3": "El reemborsament es processarà en un termini de 14 dies (o un cop rebuts els béns retornats, si escau).",
+        "close": "Tancar"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

@@ -415,6 +415,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frete e impostos serão calculados após informar o endereço."
     },
+    "withdrawal_form": {
+        "title": "Desistir do contrato",
+        "instructions": "Informe os dados do seu pedido para solicitar a desistência ao abrigo da Diretiva relativa aos direitos dos consumidores da UE.",
+        "name": "O seu nome",
+        "order_id": "Número do pedido / fatura",
+        "email": "Endereço de e-mail",
+        "error_validation_failed": "Não foi possível verificar os seus dados. Verifique o seu nome, e-mail e número do pedido e tente novamente.",
+        "error_generic": "Ocorreu um erro. Tente novamente ou contacte o comerciante se o problema persistir."
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmar a desistência",
+        "warning_title": "Aviso:",
+        "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar a sua solicitação.",
+        "order_details": "Detalhes do pedido",
+        "order_number": "Número do pedido:",
+        "order_date": "Data do pedido:",
+        "order_total": "Total do pedido:",
+        "items_title": "Selecione os artigos a devolver",
+        "withdraw_all": "Desistir de todos os artigos (reembolso total)",
+        "refund_amount": "Reembolso estimado:",
+        "back": "Voltar",
+        "processing": "A processar…",
+        "confirm": "Confirmar a desistência",
+        "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias.",
+        "error_failed": "Não foi possível processar a sua solicitação de desistência. Tente novamente ou contacte o comerciante.",
+        "error_generic": "Ocorreu um erro. Tente novamente."
+    },
+    "withdrawal_success": {
+        "title": "Solicitação de desistência enviada",
+        "message": "A sua solicitação de desistência foi enviada com sucesso. Em breve receberá um e-mail de confirmação.",
+        "confirmation_number": "Número de confirmação:",
+        "submitted_at": "Enviada em:",
+        "refund_amount": "Valor do reembolso:",
+        "next_steps_title": "Quais são os próximos passos?",
+        "step_1": "Receberá um e-mail de confirmação com os detalhes da sua desistência.",
+        "step_2": "O comerciante irá analisar a sua solicitação e poderá contactá-lo com instruções de devolução.",
+        "step_3": "O seu reembolso será processado no prazo de 14 dias (ou após a receção dos bens devolvidos, se aplicável).",
+        "close": "Fechar"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

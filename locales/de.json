@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet."
     },
+    "withdrawal_form": {
+        "title": "Vom Vertrag zurücktreten",
+        "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäß der EU-Verbraucherrechterichtlinie zu beantragen.",
+        "name": "Ihr Name",
+        "order_id": "Bestellnummer / Rechnungsnummer",
+        "email": "E-Mail-Adresse",
+        "error_validation_failed": "Wir konnten Ihre Angaben nicht überprüfen. Bitte überprüfen Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Bestellnummer und versuchen Sie es erneut.",
+        "error_generic": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Händler, falls das Problem weiterhin besteht."
+    },
+    "withdrawal_confirm": {
+        "title": "Widerruf bestätigen",
+        "warning_title": "Hinweis:",
+        "warning_message": "Diese Bestellung liegt außerhalb der 14-tägigen Widerrufsfrist. Der Händler wird Ihre Anfrage prüfen.",
+        "order_details": "Bestelldetails",
+        "order_number": "Bestellnummer:",
+        "order_date": "Bestelldatum:",
+        "order_total": "Bestellsumme:",
+        "items_title": "Artikel zum Widerruf auswählen",
+        "withdraw_all": "Alle Artikel widerrufen (vollständige Erstattung)",
+        "refund_amount": "Voraussichtliche Erstattung:",
+        "back": "Zurück",
+        "processing": "Wird verarbeitet…",
+        "confirm": "Widerruf bestätigen",
+        "legal_notice": "Mit der Bestätigung üben Sie Ihr Recht aus, gemäß der EU-Verbraucherrechterichtlinie von diesem Vertrag zurückzutreten. Erstattungen werden innerhalb von 14 Tagen bearbeitet.",
+        "error_failed": "Wir konnten Ihre Widerrufsanfrage nicht bearbeiten. Bitte versuchen Sie es erneut oder wenden Sie sich an den Händler.",
+        "error_generic": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut."
+    },
+    "withdrawal_success": {
+        "title": "Widerrufsanfrage übermittelt",
+        "message": "Ihre Widerrufsanfrage wurde erfolgreich übermittelt. Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+        "confirmation_number": "Bestätigungsnummer:",
+        "submitted_at": "Übermittelt:",
+        "refund_amount": "Erstattungsbetrag:",
+        "next_steps_title": "Was passiert als Nächstes?",
+        "step_1": "Sie erhalten eine Bestätigungs-E-Mail mit den Details Ihres Widerrufs.",
+        "step_2": "Der Händler wird Ihre Anfrage prüfen und sich gegebenenfalls bezüglich der Rücksendeanweisungen mit Ihnen in Verbindung setzen.",
+        "step_3": "Ihre Erstattung wird innerhalb von 14 Tagen bearbeitet (bzw. nach Erhalt der zurückgesendeten Ware, sofern zutreffend).",
+        "close": "Schließen"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

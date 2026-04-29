@@ -419,6 +419,43 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
     },
+    "withdrawal_form": {
+        "title": "撤回合約",
+        "instructions": "請輸入您的訂單資料，根據《歐盟消費者權利指令》申請撤回。",
+        "order_id": "訂單編號 / 發票編號",
+        "email": "電郵地址",
+        "error_validation_failed": "我們無法核實您的資料，請檢查姓名、電郵及訂單編號後再試。",
+        "error_generic": "發生錯誤。請再試一次，如問題持續，請聯絡商家。"
+    },
+    "withdrawal_confirm": {
+        "title": "確認撤回",
+        "warning_title": "請注意",
+        "warning_message": "此訂單已超過14天的撤回期，商家將審核您的請求。",
+        "order_details": "訂單詳情",
+        "order_number": "訂單編號",
+        "order_date": "下單日期",
+        "order_total": "訂單總額",
+        "items_title": "選擇要撤回的商品",
+        "withdraw_all": "撤回所有商品（全額退款）",
+        "refund_amount": "預計退款金額",
+        "processing": "處理中…",
+        "confirm": "確認撤回",
+        "legal_notice": "按下確認即表示您依據《歐盟消費者權利指令》行使本合約的撤回權。退款將於14天內處理。",
+        "error_failed": "我們無法處理您的撤回請求。請再試或聯絡商家。",
+        "error_generic": "發生錯誤。請再試一次。"
+    },
+    "withdrawal_success": {
+        "title": "撤回請求已提交",
+        "message": "您的撤回請求已成功提交。您將很快收到確認電郵。",
+        "confirmation_number": "確認編號",
+        "submitted_at": "提交時間",
+        "refund_amount": "退款金額",
+        "next_steps_title": "接下來會怎樣",
+        "step_1": "您將收到包含撤回詳情的確認電郵。",
+        "step_2": "商家將審核您的請求，並可能就退貨方式與您聯絡。",
+        "step_3": "退款將於14天內處理（如適用，將於收到退回商品後處理）。",
+        "close": "關閉"
+    },
     "countries": {
         "AD": {
             "name": "安道爾"

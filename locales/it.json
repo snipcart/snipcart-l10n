@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Costi di consegna e tasse saranno calcolati all'inserimento dell'indirizzo."
     },
+    "withdrawal_form": {
+        "title": "Recesso dal contratto",
+        "instructions": "Inserisci i dettagli del tuo ordine per richiedere il recesso ai sensi della Direttiva sui diritti dei consumatori dell'UE.",
+        "name": "Il tuo nome",
+        "order_id": "Numero d'ordine / fattura",
+        "email": "Indirizzo email",
+        "error_validation_failed": "Non siamo riusciti a verificare i tuoi dati. Controlla il tuo nome, l'email e il numero d'ordine, quindi riprova.",
+        "error_generic": "Si è verificato un errore. Riprova o contatta il venditore se il problema persiste."
+    },
+    "withdrawal_confirm": {
+        "title": "Conferma il recesso",
+        "warning_title": "Nota:",
+        "warning_message": "Questo ordine è fuori dal termine di recesso di 14 giorni. Il venditore esaminerà la tua richiesta.",
+        "order_details": "Dettagli dell'ordine",
+        "order_number": "Numero d'ordine:",
+        "order_date": "Data dell'ordine:",
+        "order_total": "Totale dell'ordine:",
+        "items_title": "Seleziona gli articoli da restituire",
+        "withdraw_all": "Recesso da tutti gli articoli (rimborso totale)",
+        "refund_amount": "Rimborso stimato:",
+        "back": "Indietro",
+        "processing": "Elaborazione in corso…",
+        "confirm": "Conferma il recesso",
+        "legal_notice": "Confermando, eserciti il tuo diritto di recesso da questo contratto ai sensi della Direttiva sui diritti dei consumatori dell'UE. I rimborsi vengono elaborati entro 14 giorni.",
+        "error_failed": "Non siamo riusciti a elaborare la tua richiesta di recesso. Riprova o contatta il venditore.",
+        "error_generic": "Si è verificato un errore. Riprova."
+    },
+    "withdrawal_success": {
+        "title": "Richiesta di recesso inviata",
+        "message": "La tua richiesta di recesso è stata inviata correttamente. Riceverai a breve un'email di conferma.",
+        "confirmation_number": "Numero di conferma:",
+        "submitted_at": "Inviata il:",
+        "refund_amount": "Importo del rimborso:",
+        "next_steps_title": "Quali sono i prossimi passi?",
+        "step_1": "Riceverai un'email di conferma con i dettagli del tuo recesso.",
+        "step_2": "Il venditore esaminerà la tua richiesta e potrà contattarti riguardo alle istruzioni per la restituzione.",
+        "step_3": "Il rimborso sarà elaborato entro 14 giorni (o al ricevimento dei beni restituiti, se applicabile).",
+        "close": "Chiudi"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

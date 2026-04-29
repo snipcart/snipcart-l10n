@@ -421,6 +421,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Jedet e vo ar mizoù-kas hag an taosoù da vare ar paeamant."
     },
+    "withdrawal_form": {
+        "title": "Tennañ kuit eus ar c'hevrat",
+        "instructions": "Roit titouroù hoc'h urzhiad evit goulenn an tennañ kuit hervez Sturiadenn an UE diwar-benn gwirioù an arvalien.",
+        "name": "Hoc'h anv",
+        "order_id": "Niverenn an urzhiad / fakturenn",
+        "email": "Chomlec'h postel",
+        "error_validation_failed": "N'omp ket bet evit gwiriañ ho titouroù. Gwiriit hoc'h anv, ho postel hag ho niverenn urzhiad, ha klaskit en-dro.",
+        "error_generic": "Ur fazi a zo c'hoarvezet. Klaskit en-dro pe kit e darempred gant ar marc'hadour ma talc'h ar gudenn."
+    },
+    "withdrawal_confirm": {
+        "title": "Kadarnaat an tennañ kuit",
+        "warning_title": "Evezhiadenn :",
+        "warning_message": "Er-maez eus ar prantad tennañ kuit a 14 devezh emañ an urzhiad-mañ. Ar marc'hadour a zezrevello ho koulenn.",
+        "order_details": "Munudoù an urzhiad",
+        "order_number": "Niverenn an urzhiad :",
+        "order_date": "Deiziad an urzhiad :",
+        "order_total": "Hollad an urzhiad :",
+        "items_title": "Dibabit an traoù da zistreiñ",
+        "withdraw_all": "Tennañ kuit an holl draoù (distaol klok)",
+        "refund_amount": "Distaol diuzet :",
+        "back": "War-gil",
+        "processing": "O treiñ…",
+        "confirm": "Kadarnaat an tennañ kuit",
+        "legal_notice": "En ur kadarnaat e implijit ho kwir da dennañ kuit eus ar c'hevrat-mañ hervez Sturiadenn an UE diwar-benn gwirioù an arvalien. Graet e vez an distaolioù e-pad 14 devezh.",
+        "error_failed": "N'omp ket bet evit treiñ ho koulenn tennañ kuit. Klaskit en-dro pe kit e darempred gant ar marc'hadour.",
+        "error_generic": "Ur fazi a zo c'hoarvezet. Klaskit en-dro."
+    },
+    "withdrawal_success": {
+        "title": "Goulenn tennañ kuit kaset",
+        "message": "Kaset eo bet ho koulenn tennañ kuit gant berzh. Resevet e vo ganeoc'h ur postel kadarnaat dizale.",
+        "confirmation_number": "Niverenn kadarnaat :",
+        "submitted_at": "Kaset d'an :",
+        "refund_amount": "Sammad an distaol :",
+        "next_steps_title": "Petra a c'hoarvezo bremañ ?",
+        "step_1": "Resevet e vo ganeoc'h ur postel kadarnaat gant munudoù ho tennañ kuit.",
+        "step_2": "Ar marc'hadour a zezrevello ho koulenn ha gallout a raio mont e darempred ganeoc'h evit kelaouennoù distreiñ.",
+        "step_3": "Graet e vo ho tistaol e-pad 14 devezh (pe goude resev an traoù distroet, ma'z eo dleet).",
+        "close": "Serriñ"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Ongkos kirim dan pajak akan dihitung setelah alamat diberikan."
     },
+    "withdrawal_form": {
+        "title": "Penarikan Diri dari Kontrak",
+        "instructions": "Masukkan detail pesanan Anda untuk mengajukan penarikan diri berdasarkan Direktif Hak Konsumen UE.",
+        "name": "Nama Anda",
+        "order_id": "ID Pesanan / Nomor Faktur",
+        "email": "Alamat Email",
+        "error_validation_failed": "Kami tidak dapat memverifikasi data Anda. Mohon periksa nama, email, dan nomor pesanan Anda, lalu coba lagi.",
+        "error_generic": "Terjadi kesalahan. Silakan coba lagi atau hubungi penjual jika masalah berlanjut."
+    },
+    "withdrawal_confirm": {
+        "title": "Konfirmasi Penarikan Diri",
+        "warning_title": "Catatan:",
+        "warning_message": "Pesanan ini telah melewati periode penarikan 14 hari. Penjual akan meninjau permintaan Anda.",
+        "order_details": "Detail Pesanan",
+        "order_number": "Nomor Pesanan:",
+        "order_date": "Tanggal Pesanan:",
+        "order_total": "Total Pesanan:",
+        "items_title": "Pilih Item yang Akan Ditarik",
+        "withdraw_all": "Tarik semua item (pengembalian dana penuh)",
+        "refund_amount": "Perkiraan Pengembalian Dana:",
+        "back": "Kembali",
+        "processing": "Memproses…",
+        "confirm": "Konfirmasi Penarikan Diri",
+        "legal_notice": "Dengan mengonfirmasi, Anda menggunakan hak Anda untuk menarik diri dari kontrak ini berdasarkan Direktif Hak Konsumen UE. Pengembalian dana diproses dalam waktu 14 hari.",
+        "error_failed": "Kami tidak dapat memproses permintaan penarikan Anda. Silakan coba lagi atau hubungi penjual.",
+        "error_generic": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "withdrawal_success": {
+        "title": "Permintaan Penarikan Telah Dikirim",
+        "message": "Permintaan penarikan Anda telah berhasil dikirim. Anda akan segera menerima email konfirmasi.",
+        "confirmation_number": "Nomor Konfirmasi:",
+        "submitted_at": "Dikirim:",
+        "refund_amount": "Jumlah Pengembalian Dana:",
+        "next_steps_title": "Apa yang Terjadi Selanjutnya?",
+        "step_1": "Anda akan menerima email konfirmasi dengan detail penarikan Anda.",
+        "step_2": "Penjual akan meninjau permintaan Anda dan mungkin menghubungi Anda mengenai instruksi pengembalian barang.",
+        "step_3": "Pengembalian dana Anda akan diproses dalam waktu 14 hari (atau setelah barang yang dikembalikan diterima, jika berlaku).",
+        "close": "Tutup"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

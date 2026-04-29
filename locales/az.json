@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Çatdırılma xərci və vergilər, adres daxil edildiktən sonra hesablanacaqdır."
     },
+    "withdrawal_form": {
+        "title": "Müqavilədən imtina",
+        "instructions": "Aİ İstehlakçı Hüquqları Direktivinə uyğun olaraq imtina tələb etmək üçün sifariş məlumatlarınızı daxil edin.",
+        "name": "Adınız",
+        "order_id": "Sifariş ID / Faktura nömrəsi",
+        "email": "E-poçt ünvanı",
+        "error_validation_failed": "Məlumatlarınızı təsdiqləyə bilmədik. Adınızı, e-poçtunuzu və sifariş nömrənizi yoxlayıb yenidən cəhd edin.",
+        "error_generic": "Nəsə səhv getdi. Yenidən cəhd edin və ya problem davam edərsə, satıcı ilə əlaqə saxlayın."
+    },
+    "withdrawal_confirm": {
+        "title": "İmtinanı təsdiqləyin",
+        "warning_title": "Qeyd:",
+        "warning_message": "Bu sifariş 14 günlük imtina müddətindən kənardadır. Satıcı sorğunuzu nəzərdən keçirəcək.",
+        "order_details": "Sifariş təfərrüatları",
+        "order_number": "Sifariş nömrəsi:",
+        "order_date": "Sifariş tarixi:",
+        "order_total": "Sifarişin cəmi:",
+        "items_title": "İmtina ediləcək məhsulları seçin",
+        "withdraw_all": "Bütün məhsullardan imtina (tam geri ödəmə)",
+        "refund_amount": "Təxmini geri ödəmə:",
+        "back": "Geri",
+        "processing": "Emal olunur…",
+        "confirm": "İmtinanı təsdiqləyin",
+        "legal_notice": "Təsdiqləməklə, siz Aİ İstehlakçı Hüquqları Direktivinə əsasən bu müqavilədən imtina hüququnuzu həyata keçirirsiniz. Geri ödəmələr 14 gün ərzində emal olunur.",
+        "error_failed": "İmtina sorğunuzu emal edə bilmədik. Yenidən cəhd edin və ya satıcı ilə əlaqə saxlayın.",
+        "error_generic": "Nəsə səhv getdi. Yenidən cəhd edin."
+    },
+    "withdrawal_success": {
+        "title": "İmtina sorğusu göndərildi",
+        "message": "İmtina sorğunuz uğurla göndərildi. Tezliklə təsdiq e-poçtu alacaqsınız.",
+        "confirmation_number": "Təsdiq nömrəsi:",
+        "submitted_at": "Göndərildi:",
+        "refund_amount": "Geri ödəmə məbləği:",
+        "next_steps_title": "Növbəti addımlar",
+        "step_1": "İmtina təfərrüatlarınızla birlikdə təsdiq e-poçtu alacaqsınız.",
+        "step_2": "Satıcı sorğunuzu nəzərdən keçirəcək və geri qaytarma təlimatları ilə bağlı sizinlə əlaqə saxlaya bilər.",
+        "step_3": "Geri ödəməniz 14 gün ərzində emal olunacaq (və ya tətbiq olunarsa, qaytarılan malların alınmasından sonra).",
+        "close": "Bağla"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

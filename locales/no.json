@@ -420,6 +420,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frakt beregnes når adresse oppgis."
     },
+    "withdrawal_form": {
+        "title": "Trekk deg fra avtalen",
+        "instructions": "Oppgi bestillingsdetaljene dine for å be om angrerett i henhold til EUs forbrukerrettighetsdirektiv.",
+        "name": "Ditt navn",
+        "order_id": "Bestillings-ID / Fakturanummer",
+        "email": "E-postadresse",
+        "error_validation_failed": "Vi kunne ikke bekrefte opplysningene dine. Kontroller navnet ditt, e-postadressen og bestillingsnummeret, og prøv igjen.",
+        "error_generic": "Noe gikk galt. Prøv igjen eller kontakt selgeren hvis problemet vedvarer."
+    },
+    "withdrawal_confirm": {
+        "title": "Bekreft angrerett",
+        "warning_title": "Merk:",
+        "warning_message": "Denne bestillingen er utenfor angrefristen på 14 dager. Selgeren vil vurdere forespørselen din.",
+        "order_details": "Bestillingsdetaljer",
+        "order_number": "Bestillingsnummer:",
+        "order_date": "Bestillingsdato:",
+        "order_total": "Totalsum:",
+        "items_title": "Velg varer å angre",
+        "withdraw_all": "Angre alle varer (full refusjon)",
+        "refund_amount": "Estimert refusjon:",
+        "back": "Tilbake",
+        "processing": "Behandler…",
+        "confirm": "Bekreft angrerett",
+        "legal_notice": "Ved å bekrefte utøver du retten din til å trekke deg fra denne avtalen i henhold til EUs forbrukerrettighetsdirektiv. Refusjoner behandles innen 14 dager.",
+        "error_failed": "Vi kunne ikke behandle angreforespørselen din. Prøv igjen eller kontakt selgeren.",
+        "error_generic": "Noe gikk galt. Prøv igjen."
+    },
+    "withdrawal_success": {
+        "title": "Angreforespørsel sendt inn",
+        "message": "Angreforespørselen din er sendt inn. Du vil snart motta en bekreftelse på e-post.",
+        "confirmation_number": "Bekreftelsesnummer:",
+        "submitted_at": "Sendt inn:",
+        "refund_amount": "Refusjonsbeløp:",
+        "next_steps_title": "Hva skjer videre?",
+        "step_1": "Du vil motta en bekreftelse på e-post med detaljer om angreretten din.",
+        "step_2": "Selgeren vil vurdere forespørselen din og kan kontakte deg angående returinstruksjoner.",
+        "step_3": "Refusjonen din vil bli behandlet innen 14 dager (eller ved mottak av returnerte varer, hvis aktuelt).",
+        "close": "Lukk"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

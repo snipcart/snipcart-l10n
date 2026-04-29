@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Il-konsenja u t-taxxi jiġu kkalkolati meta tingħata l-indirizz."
     },
+    "withdrawal_form": {
+        "title": "Irtira mill-Kuntratt",
+        "instructions": "Daħħal id-dettalji tal-ordni tiegħek biex titlob irtirar taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE.",
+        "name": "Ismek",
+        "order_id": "ID tal-Ordni / Numru tal-Fattura",
+        "email": "Indirizz tal-Email",
+        "error_validation_failed": "Ma stajniex nivverifikaw id-dettalji tiegħek. Jekk jogħġbok iċċekkja ismek, l-email u n-numru tal-ordni tiegħek, u erġa' pprova.",
+        "error_generic": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova jew ikkuntattja lill-bejjiegħ jekk il-problema tippersisti."
+    },
+    "withdrawal_confirm": {
+        "title": "Ikkonferma l-Irtirar",
+        "warning_title": "Nota:",
+        "warning_message": "Din l-ordni hi barra mill-perjodu ta' rtirar ta' 14-il jum. Il-bejjiegħ se jirrevedi t-talba tiegħek.",
+        "order_details": "Dettalji tal-Ordni",
+        "order_number": "Numru tal-Ordni:",
+        "order_date": "Data tal-Ordni:",
+        "order_total": "Total tal-Ordni:",
+        "items_title": "Agħżel Oġġetti biex Tirtira",
+        "withdraw_all": "Irtira l-oġġetti kollha (rifużjoni sħiħa)",
+        "refund_amount": "Rifużjoni Stmata:",
+        "back": "Lura",
+        "processing": "Qed jiġi pproċessat…",
+        "confirm": "Ikkonferma l-Irtirar",
+        "legal_notice": "Bil-konferma, qed teżerċita d-dritt tiegħek li tirtira minn dan il-kuntratt taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE. Ir-rifużjonijiet jiġu pproċessati fi żmien 14-il jum.",
+        "error_failed": "Ma stajniex nipproċessaw it-talba tal-irtirar tiegħek. Jekk jogħġbok erġa' pprova jew ikkuntattja lill-bejjiegħ.",
+        "error_generic": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+    },
+    "withdrawal_success": {
+        "title": "Talba ta' Rtirar Sottomessa",
+        "message": "It-talba tal-irtirar tiegħek ġiet sottomessa b'suċċess. Dalwaqt tirċievi email ta' konferma.",
+        "confirmation_number": "Numru ta' Konferma:",
+        "submitted_at": "Sottomessa:",
+        "refund_amount": "Ammont tar-Rifużjoni:",
+        "next_steps_title": "X'Jiġri Wara?",
+        "step_1": "Tirċievi email ta' konferma bid-dettalji tal-irtirar tiegħek.",
+        "step_2": "Il-bejjiegħ se jirrevedi t-talba tiegħek u jista' jikkuntattjak dwar struzzjonijiet ta' ritorn.",
+        "step_3": "Ir-rifużjoni tiegħek tiġi pproċessata fi żmien 14-il jum (jew malli jaslu l-oġġetti rritornati, jekk applikabbli).",
+        "close": "Agħlaq"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

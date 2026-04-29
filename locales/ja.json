@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "送料と税は、配送先ご入力後に確定します。"
     },
+    "withdrawal_form": {
+        "title": "契約からの撤回",
+        "instructions": "EU消費者権利指令に基づく撤回をご希望の場合は、ご注文情報をご入力ください。",
+        "name": "お名前",
+        "order_id": "注文ID／請求書番号",
+        "email": "メールアドレス",
+        "error_validation_failed": "ご入力内容を確認できませんでした。お名前、メールアドレス、注文番号をご確認のうえ、再度お試しください。",
+        "error_generic": "問題が発生しました。再度お試しいただくか、解決しない場合は販売者へお問い合わせください。"
+    },
+    "withdrawal_confirm": {
+        "title": "撤回の確認",
+        "warning_title": "ご注意",
+        "warning_message": "このご注文は14日間の撤回期間を過ぎています。販売者がリクエストを確認いたします。",
+        "order_details": "注文の詳細",
+        "order_number": "注文番号",
+        "order_date": "注文日",
+        "order_total": "注文合計",
+        "items_title": "撤回する商品を選択",
+        "withdraw_all": "すべての商品を撤回する（全額返金）",
+        "refund_amount": "返金見込み額",
+        "back": "戻る",
+        "processing": "処理中…",
+        "confirm": "撤回を確定する",
+        "legal_notice": "確定すると、EU消費者権利指令に基づき本契約からの撤回権を行使したことになります。返金は14日以内に処理されます。",
+        "error_failed": "撤回リクエストを処理できませんでした。再度お試しいただくか、販売者へお問い合わせください。",
+        "error_generic": "問題が発生しました。再度お試しください。"
+    },
+    "withdrawal_success": {
+        "title": "撤回リクエストを受け付けました",
+        "message": "撤回リクエストが正常に送信されました。まもなく確認メールが届きます。",
+        "confirmation_number": "確認番号",
+        "submitted_at": "送信日時",
+        "refund_amount": "返金額",
+        "next_steps_title": "次のステップ",
+        "step_1": "撤回内容を記載した確認メールが届きます。",
+        "step_2": "販売者がリクエストを確認し、必要に応じて返品方法についてご連絡する場合があります。",
+        "step_3": "返金は14日以内（該当する場合は返品商品の受領後）に処理されます。",
+        "close": "閉じる"
+    },
     "countries": {
         "AD": {
             "name": "アンドラ"

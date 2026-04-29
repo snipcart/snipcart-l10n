@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Yetkazib berish harajatlari manzilni kiritganingizdan so'ng hisoblanadi."
     },
+    "withdrawal_form": {
+        "title": "Shartnomadan voz kechish",
+        "instructions": "Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida voz kechishni so'rash uchun buyurtma ma'lumotlarini kiriting.",
+        "name": "Ismingiz",
+        "order_id": "Buyurtma ID / Hisob-faktura raqami",
+        "email": "Elektron pochta manzili",
+        "error_validation_failed": "Ma'lumotlaringizni tasdiqlay olmadik. Ismingiz, elektron pochtangiz va buyurtma raqamingizni tekshirib, qayta urinib ko'ring.",
+        "error_generic": "Xatolik yuz berdi. Qayta urinib ko'ring yoki muammo davom etsa, sotuvchi bilan bog'laning."
+    },
+    "withdrawal_confirm": {
+        "title": "Voz kechishni tasdiqlash",
+        "warning_title": "Diqqat:",
+        "warning_message": "Bu buyurtma 14 kunlik voz kechish muddatidan tashqarida. Sotuvchi so'rovingizni ko'rib chiqadi.",
+        "order_details": "Buyurtma tafsilotlari",
+        "order_number": "Buyurtma raqami:",
+        "order_date": "Buyurtma sanasi:",
+        "order_total": "Buyurtma jami:",
+        "items_title": "Voz kechmoqchi bo'lgan mahsulotlarni tanlang",
+        "withdraw_all": "Barcha mahsulotlardan voz kechish (to'liq qaytarish)",
+        "refund_amount": "Taxminiy qaytarish:",
+        "back": "Orqaga",
+        "processing": "Qayta ishlanmoqda…",
+        "confirm": "Voz kechishni tasdiqlash",
+        "legal_notice": "Tasdiqlash bilan siz Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida ushbu shartnomadan voz kechish huquqingizni amalga oshirmoqdasiz. Pul qaytarishlar 14 kun ichida amalga oshiriladi.",
+        "error_failed": "Voz kechish so'rovingizni qayta ishlay olmadik. Qayta urinib ko'ring yoki sotuvchi bilan bog'laning.",
+        "error_generic": "Xatolik yuz berdi. Qayta urinib ko'ring."
+    },
+    "withdrawal_success": {
+        "title": "Voz kechish so'rovi yuborildi",
+        "message": "Voz kechish so'rovingiz muvaffaqiyatli yuborildi. Tez orada tasdiqlovchi elektron pochta xabarini olasiz.",
+        "confirmation_number": "Tasdiqlash raqami:",
+        "submitted_at": "Yuborilgan vaqt:",
+        "refund_amount": "Qaytarish summasi:",
+        "next_steps_title": "Keyingi qadamlar",
+        "step_1": "Voz kechish tafsilotlari bilan tasdiqlovchi elektron pochta xabarini olasiz.",
+        "step_2": "Sotuvchi so'rovingizni ko'rib chiqadi va qaytarish bo'yicha ko'rsatmalar uchun siz bilan bog'lanishi mumkin.",
+        "step_3": "Pulingiz 14 kun ichida qaytariladi (yoki qo'llanilsa, qaytarilgan mahsulotlar olingandan so'ng).",
+        "close": "Yopish"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

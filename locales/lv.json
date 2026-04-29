@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Piegādes izmaksas un nodokļi tiks aprēķināti pēc tam, kad norādīsiet adresi."
     },
+    "withdrawal_form": {
+        "title": "Atteikšanās no līguma",
+        "instructions": "Ievadiet pasūtījuma datus, lai iesniegtu atteikuma pieprasījumu saskaņā ar ES Patērētāju tiesību direktīvu.",
+        "name": "Jūsu vārds",
+        "order_id": "Pasūtījuma ID / rēķina numurs",
+        "email": "E-pasta adrese",
+        "error_validation_failed": "Mēs nevarējām pārbaudīt jūsu datus. Lūdzu, pārbaudiet savu vārdu, e-pasta adresi un pasūtījuma numuru un mēģiniet vēlreiz.",
+        "error_generic": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz vai sazinieties ar tirgotāju, ja problēma turpinās."
+    },
+    "withdrawal_confirm": {
+        "title": "Apstiprināt atteikšanos",
+        "warning_title": "Piezīme:",
+        "warning_message": "Šis pasūtījums ir ārpus 14 dienu atteikuma termiņa. Tirgotājs izskatīs jūsu pieprasījumu.",
+        "order_details": "Pasūtījuma informācija",
+        "order_number": "Pasūtījuma numurs:",
+        "order_date": "Pasūtījuma datums:",
+        "order_total": "Pasūtījuma kopsumma:",
+        "items_title": "Izvēlieties preces, no kurām atteikties",
+        "withdraw_all": "Atteikties no visām precēm (pilna atmaksa)",
+        "refund_amount": "Aptuvenā atmaksa:",
+        "back": "Atpakaļ",
+        "processing": "Apstrāde…",
+        "confirm": "Apstiprināt atteikšanos",
+        "legal_notice": "Apstiprinot, jūs izmantojat savas tiesības atteikties no šī līguma saskaņā ar ES Patērētāju tiesību direktīvu. Atmaksas tiek apstrādātas 14 dienu laikā.",
+        "error_failed": "Mēs nevarējām apstrādāt jūsu atteikuma pieprasījumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar tirgotāju.",
+        "error_generic": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz."
+    },
+    "withdrawal_success": {
+        "title": "Atteikuma pieprasījums iesniegts",
+        "message": "Jūsu atteikuma pieprasījums ir veiksmīgi iesniegts. Drīz saņemsiet apstiprinājuma e-pastu.",
+        "confirmation_number": "Apstiprinājuma numurs:",
+        "submitted_at": "Iesniegts:",
+        "refund_amount": "Atmaksas summa:",
+        "next_steps_title": "Kas notiks tālāk?",
+        "step_1": "Jūs saņemsiet apstiprinājuma e-pastu ar atteikuma informāciju.",
+        "step_2": "Tirgotājs izskatīs jūsu pieprasījumu un, iespējams, sazināsies ar jums par atgriešanas norādījumiem.",
+        "step_3": "Jūsu atmaksa tiks apstrādāta 14 dienu laikā (vai pēc atgriezto preču saņemšanas, ja attiecas).",
+        "close": "Aizvērt"
+    },
     "countries": {
         "AD": {
             "name": "Andora"

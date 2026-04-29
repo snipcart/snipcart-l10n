@@ -413,5 +413,15 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Versandkosten und Steuern werden nach Eingabe der Lieferadresse berechnet."
+    },
+    "withdrawal_form": {
+        "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäss der EU-Verbraucherrechterichtlinie zu beantragen."
+    },
+    "withdrawal_confirm": {
+        "warning_message": "Diese Bestellung liegt ausserhalb der 14-tägigen Widerrufsfrist. Der Händler wird Ihre Anfrage prüfen.",
+        "legal_notice": "Mit der Bestätigung üben Sie Ihr Recht aus, gemäss der EU-Verbraucherrechterichtlinie von diesem Vertrag zurückzutreten. Erstattungen werden innerhalb von 14 Tagen bearbeitet."
+    },
+    "withdrawal_success": {
+        "close": "Schliessen"
     }
 }

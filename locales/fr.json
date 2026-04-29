@@ -421,6 +421,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés au moment du paiement."
     },
+    "withdrawal_form": {
+        "title": "Rétractation du contrat",
+        "instructions": "Saisissez les informations de votre commande pour exercer votre droit de rétractation au titre de la Directive sur les droits des consommateurs.",
+        "name": "Votre nom",
+        "order_id": "Numéro de commande / facture",
+        "email": "Adresse courriel",
+        "error_validation_failed": "Nous n’avons pas pu vérifier vos informations. Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer.",
+        "error_generic": "Une erreur est survenue. Veuillez réessayer ou contacter le marchand si le problème persiste."
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmer la rétractation",
+        "warning_title": "Remarque :",
+        "warning_message": "Cette commande est en dehors du délai de rétractation de 14 jours. Le marchand examinera votre demande.",
+        "order_details": "Détails de la commande",
+        "order_number": "Numéro de commande :",
+        "order_date": "Date de la commande :",
+        "order_total": "Total de la commande :",
+        "items_title": "Sélectionnez les articles à retourner",
+        "withdraw_all": "Rétracter tous les articles (remboursement intégral)",
+        "refund_amount": "Remboursement estimé :",
+        "back": "Retour",
+        "processing": "Traitement en cours…",
+        "confirm": "Confirmer la rétractation",
+        "legal_notice": "En confirmant, vous exercez votre droit de rétractation du contrat au titre de la Directive sur les droits des consommateurs. Les remboursements sont traités sous 14 jours.",
+        "error_failed": "Nous n’avons pas pu traiter votre demande de rétractation. Veuillez réessayer ou contacter le marchand.",
+        "error_generic": "Une erreur est survenue. Veuillez réessayer."
+    },
+    "withdrawal_success": {
+        "title": "Demande de rétractation soumise",
+        "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un courriel de confirmation.",
+        "confirmation_number": "Numéro de confirmation :",
+        "submitted_at": "Soumise le :",
+        "refund_amount": "Montant du remboursement :",
+        "next_steps_title": "Quelles sont les prochaines étapes ?",
+        "step_1": "Vous recevrez un courriel de confirmation avec les détails de votre rétractation.",
+        "step_2": "Le marchand examinera votre demande et pourra vous contacter au sujet des instructions de retour.",
+        "step_3": "Votre remboursement sera traité sous 14 jours (ou à la réception des marchandises retournées, le cas échéant).",
+        "close": "Fermer"
+    },
     "countries": {
         "AD": {
             "name": "Andorre"

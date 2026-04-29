@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Koszty dostawy i podatki będą obliczone, gdy podasz adres dostawy."
     },
+    "withdrawal_form": {
+        "title": "Odstąpienie od umowy",
+        "instructions": "Wprowadź dane swojego zamówienia, aby złożyć wniosek o odstąpienie zgodnie z Dyrektywą w sprawie praw konsumentów.",
+        "name": "Imię i nazwisko",
+        "order_id": "Numer zamówienia / numer faktury",
+        "email": "Adres e-mail",
+        "error_validation_failed": "Nie udało nam się zweryfikować Twoich danych. Sprawdź swoje imię, adres e-mail oraz numer zamówienia, a następnie spróbuj ponownie.",
+        "error_generic": "Coś poszło nie tak. Spróbuj ponownie lub skontaktuj się ze sprzedawcą, jeśli problem będzie się powtarzał."
+    },
+    "withdrawal_confirm": {
+        "title": "Potwierdź odstąpienie",
+        "warning_title": "Uwaga:",
+        "warning_message": "To zamówienie wykracza poza 14-dniowy termin odstąpienia. Sprzedawca rozpatrzy Twój wniosek.",
+        "order_details": "Szczegóły zamówienia",
+        "order_number": "Numer zamówienia:",
+        "order_date": "Data zamówienia:",
+        "order_total": "Łączna kwota zamówienia:",
+        "items_title": "Wybierz produkty do zwrotu",
+        "withdraw_all": "Odstąp od wszystkich produktów (pełny zwrot)",
+        "refund_amount": "Szacowana kwota zwrotu:",
+        "back": "Wstecz",
+        "processing": "Przetwarzanie…",
+        "confirm": "Potwierdź odstąpienie",
+        "legal_notice": "Potwierdzając, korzystasz ze swojego prawa do odstąpienia od umowy zgodnie z Dyrektywą w sprawie praw konsumentów. Zwroty są realizowane w ciągu 14 dni.",
+        "error_failed": "Nie udało nam się przetworzyć Twojego wniosku o odstąpienie. Spróbuj ponownie lub skontaktuj się ze sprzedawcą.",
+        "error_generic": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "withdrawal_success": {
+        "title": "Wniosek o odstąpienie został złożony",
+        "message": "Twój wniosek o odstąpienie został pomyślnie wysłany. Wkrótce otrzymasz e-mail z potwierdzeniem.",
+        "confirmation_number": "Numer potwierdzenia:",
+        "submitted_at": "Wysłano:",
+        "refund_amount": "Kwota zwrotu:",
+        "next_steps_title": "Co dalej?",
+        "step_1": "Otrzymasz e-mail z potwierdzeniem zawierający szczegóły Twojego odstąpienia.",
+        "step_2": "Sprzedawca rozpatrzy Twój wniosek i może skontaktować się z Tobą w sprawie instrukcji zwrotu.",
+        "step_3": "Twój zwrot zostanie zrealizowany w ciągu 14 dni (lub po otrzymaniu zwracanego towaru, jeśli ma to zastosowanie).",
+        "close": "Zamknij"
+    },
     "countries": {
         "AD": {
             "name": "Andora"

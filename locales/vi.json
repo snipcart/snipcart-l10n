@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Hình thức giao hàng và thuế sẽ được tính sau khi địa chỉ được nhập."
     },
+    "withdrawal_form": {
+        "title": "Rút khỏi hợp đồng",
+        "instructions": "Vui lòng nhập thông tin đơn hàng để yêu cầu rút theo Chỉ thị về Quyền lợi Người tiêu dùng của EU.",
+        "name": "Họ và tên của bạn",
+        "order_id": "Mã đơn hàng / Số hóa đơn",
+        "email": "Địa chỉ email",
+        "error_validation_failed": "Chúng tôi không thể xác minh thông tin của bạn. Vui lòng kiểm tra lại họ tên, email và mã đơn hàng, sau đó thử lại.",
+        "error_generic": "Đã xảy ra sự cố. Vui lòng thử lại hoặc liên hệ với người bán nếu vấn đề vẫn tiếp diễn."
+    },
+    "withdrawal_confirm": {
+        "title": "Xác nhận rút",
+        "warning_title": "Lưu ý:",
+        "warning_message": "Đơn hàng này đã quá thời hạn rút 14 ngày. Người bán sẽ xem xét yêu cầu của bạn.",
+        "order_details": "Chi tiết đơn hàng",
+        "order_number": "Mã đơn hàng:",
+        "order_date": "Ngày đặt hàng:",
+        "order_total": "Tổng đơn hàng:",
+        "items_title": "Chọn sản phẩm muốn rút",
+        "withdraw_all": "Rút toàn bộ sản phẩm (hoàn tiền đầy đủ)",
+        "refund_amount": "Số tiền hoàn lại dự kiến:",
+        "back": "Quay lại",
+        "processing": "Đang xử lý…",
+        "confirm": "Xác nhận rút",
+        "legal_notice": "Khi xác nhận, bạn đang thực hiện quyền rút khỏi hợp đồng này theo Chỉ thị về Quyền lợi Người tiêu dùng của EU. Việc hoàn tiền được xử lý trong vòng 14 ngày.",
+        "error_failed": "Chúng tôi không thể xử lý yêu cầu rút của bạn. Vui lòng thử lại hoặc liên hệ với người bán.",
+        "error_generic": "Đã xảy ra sự cố. Vui lòng thử lại."
+    },
+    "withdrawal_success": {
+        "title": "Yêu cầu rút đã được gửi",
+        "message": "Yêu cầu rút của bạn đã được gửi thành công. Bạn sẽ sớm nhận được email xác nhận.",
+        "confirmation_number": "Mã xác nhận:",
+        "submitted_at": "Đã gửi:",
+        "refund_amount": "Số tiền hoàn lại:",
+        "next_steps_title": "Các bước tiếp theo",
+        "step_1": "Bạn sẽ nhận được email xác nhận kèm theo chi tiết yêu cầu rút.",
+        "step_2": "Người bán sẽ xem xét yêu cầu của bạn và có thể liên hệ về hướng dẫn trả hàng.",
+        "step_3": "Tiền hoàn lại sẽ được xử lý trong vòng 14 ngày (hoặc sau khi nhận được hàng trả lại, nếu có).",
+        "close": "Đóng"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

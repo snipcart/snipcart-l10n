@@ -419,6 +419,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
     },
+    "withdrawal_form": {
+        "title": "撤回合同",
+        "instructions": "请输入您的订单信息，根据《欧盟消费者权利指令》申请撤回。",
+        "name": "您的姓名",
+        "order_id": "订单编号 / 发票编号",
+        "email": "电子邮件地址",
+        "error_validation_failed": "我们无法核实您的信息，请检查姓名、电子邮件和订单编号后重试。",
+        "error_generic": "出现错误。请重试，如果问题仍然存在，请联系商家。"
+    },
+    "withdrawal_confirm": {
+        "title": "确认撤回",
+        "warning_title": "提示",
+        "warning_message": "此订单已超过14天的撤回期。商家将审核您的请求。",
+        "order_details": "订单详情",
+        "order_number": "订单编号",
+        "order_date": "下单日期",
+        "order_total": "订单总额",
+        "items_title": "选择要撤回的商品",
+        "withdraw_all": "撤回所有商品（全额退款）",
+        "refund_amount": "预计退款金额",
+        "back": "返回",
+        "processing": "处理中…",
+        "confirm": "确认撤回",
+        "legal_notice": "点击确认即表示您依据《欧盟消费者权利指令》行使本合同的撤回权。退款将在14天内处理完成。",
+        "error_failed": "我们无法处理您的撤回请求。请重试或联系商家。",
+        "error_generic": "出现错误。请重试。"
+    },
+    "withdrawal_success": {
+        "title": "撤回请求已提交",
+        "message": "您的撤回请求已成功提交。您将很快收到一封确认邮件。",
+        "confirmation_number": "确认编号",
+        "submitted_at": "提交时间",
+        "refund_amount": "退款金额",
+        "next_steps_title": "接下来会怎样",
+        "step_1": "您将收到一封包含撤回详情的确认邮件。",
+        "step_2": "商家将审核您的请求，并可能就退货方式与您联系。",
+        "step_3": "退款将在14天内处理（如适用，将在收到退回商品后处理）。",
+        "close": "关闭"
+    },
     "countries": {
         "AD": {
             "name": "安道爾"

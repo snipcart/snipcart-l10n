@@ -420,6 +420,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Teslimat ve vergiler adresinizi girdikten sonra hesaplanacaktır."
     },
+    "withdrawal_form": {
+        "title": "Sözleşmeden Cayma",
+        "instructions": "AB Tüketici Hakları Direktifi kapsamında cayma talebi göndermek için sipariş bilgilerinizi giriniz.",
+        "name": "Adınız",
+        "order_id": "Sipariş Kimliği / Fatura Numarası",
+        "email": "E-posta Adresi",
+        "error_validation_failed": "Bilgilerinizi doğrulayamadık. Lütfen adınızı, e-posta adresinizi ve sipariş numaranızı kontrol edip tekrar deneyiniz.",
+        "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyiniz veya sorun devam ederse satıcıyla iletişime geçiniz."
+    },
+    "withdrawal_confirm": {
+        "title": "Caymayı Onayla",
+        "warning_title": "Not:",
+        "warning_message": "Bu sipariş 14 günlük cayma süresinin dışındadır. Satıcı talebinizi inceleyecektir.",
+        "order_details": "Sipariş Detayları",
+        "order_number": "Sipariş Numarası:",
+        "order_date": "Sipariş Tarihi:",
+        "order_total": "Sipariş Toplamı:",
+        "items_title": "Cayılacak Ürünleri Seçiniz",
+        "withdraw_all": "Tüm ürünlerden cay (tam iade)",
+        "refund_amount": "Tahmini İade:",
+        "back": "Geri",
+        "processing": "İşleniyor…",
+        "confirm": "Caymayı Onayla",
+        "legal_notice": "Onaylayarak, AB Tüketici Hakları Direktifi kapsamında bu sözleşmeden cayma hakkınızı kullanıyorsunuz. İadeler 14 gün içinde işleme alınır.",
+        "error_failed": "Cayma talebinizi işleyemedik. Lütfen tekrar deneyiniz veya satıcıyla iletişime geçiniz.",
+        "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyiniz."
+    },
+    "withdrawal_success": {
+        "title": "Cayma Talebi Gönderildi",
+        "message": "Cayma talebiniz başarıyla gönderildi. Kısa süre içinde bir onay e-postası alacaksınız.",
+        "confirmation_number": "Onay Numarası:",
+        "submitted_at": "Gönderildi:",
+        "refund_amount": "İade Tutarı:",
+        "next_steps_title": "Sırada Ne Var?",
+        "step_1": "Cayma detaylarınızı içeren bir onay e-postası alacaksınız.",
+        "step_2": "Satıcı talebinizi inceleyecek ve iade talimatları için sizinle iletişime geçebilir.",
+        "step_3": "İadeniz 14 gün içinde (veya iade edilen malların alınmasının ardından, geçerliyse) işleme alınacaktır.",
+        "close": "Kapat"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

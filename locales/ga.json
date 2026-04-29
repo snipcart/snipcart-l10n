@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Ríomhfar postas agus cánacha tar éis seoladh a chur ar fáil."
     },
+    "withdrawal_form": {
+        "title": "Tarraing Siar ón gConradh",
+        "instructions": "Cuir isteach sonraí d'ordaithe chun iarratas tarraingthe siar a dhéanamh faoin Treoir um Chearta Tomhaltóirí an AE.",
+        "name": "D'Ainm",
+        "order_id": "Aitheantas an Ordaithe / Uimhir Sonraisc",
+        "email": "Seoladh Ríomhphoist",
+        "error_validation_failed": "Níorbh fhéidir linn do shonraí a fhíorú. Seiceáil d'ainm, do sheoladh ríomhphoist agus uimhir an ordaithe, agus déan iarracht arís.",
+        "error_generic": "Chuaigh rud éigin mícheart. Déan iarracht arís nó déan teagmháil leis an gceannaí má leanann an fhadhb."
+    },
+    "withdrawal_confirm": {
+        "title": "Deimhnigh an Tarraingt Siar",
+        "warning_title": "Nóta:",
+        "warning_message": "Tá an t-ordú seo lasmuigh den tréimhse tarraingthe siar 14 lá. Déanfaidh an ceannaí athbhreithniú ar d'iarratas.",
+        "order_details": "Sonraí an Ordaithe",
+        "order_number": "Uimhir an Ordaithe:",
+        "order_date": "Dáta an Ordaithe:",
+        "order_total": "Iomlán an Ordaithe:",
+        "items_title": "Roghnaigh Earraí le Tarraingt Siar",
+        "withdraw_all": "Tarraing siar gach earra (aisíocaíocht iomlán)",
+        "refund_amount": "Aisíocaíocht Mheasta:",
+        "back": "Ar Ais",
+        "processing": "Á Phróiseáil…",
+        "confirm": "Deimhnigh an Tarraingt Siar",
+        "legal_notice": "Trí dheimhniú, tá tú ag feidhmiú do cheart tarraingt siar ón gconradh seo faoin Treoir um Chearta Tomhaltóirí an AE. Próiseálfar aisíocaíochtaí laistigh de 14 lá.",
+        "error_failed": "Níorbh fhéidir linn d'iarratas tarraingthe siar a phróiseáil. Déan iarracht arís nó déan teagmháil leis an gceannaí.",
+        "error_generic": "Chuaigh rud éigin mícheart. Déan iarracht arís."
+    },
+    "withdrawal_success": {
+        "title": "Iarratas Tarraingthe Siar Curtha Isteach",
+        "message": "Cuireadh d'iarratas tarraingthe siar isteach go rathúil. Gheobhaidh tú ríomhphost deimhnithe go luath.",
+        "confirmation_number": "Uimhir Dheimhnithe:",
+        "submitted_at": "Curtha Isteach:",
+        "refund_amount": "Méid na hAisíocaíochta:",
+        "next_steps_title": "Cad a Tharlóidh ina Dhiaidh sin?",
+        "step_1": "Gheobhaidh tú ríomhphost deimhnithe le sonraí do tharraingthe siar.",
+        "step_2": "Déanfaidh an ceannaí athbhreithniú ar d'iarratas agus seans go ndéanfaidh sé teagmháil leat maidir le treoracha um earraí a sheoladh ar ais.",
+        "step_3": "Próiseálfar d'aisíocaíocht laistigh de 14 lá (nó nuair a fhaightear na hearraí ar ais, más infheidhme).",
+        "close": "Dún"
+    },
     "countries": {
         "AD": { "name": "Andóra" },
         "AE": { "name": "Aontas na nÉimíríochtaí Arabacha" },

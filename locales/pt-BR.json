@@ -414,6 +414,25 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "O frete e os impostos serão calculados quando um endereço for fornecido."
     },
+    "withdrawal_form": {
+        "instructions": "Informe os dados do seu pedido para solicitar a desistência conforme a Diretiva sobre os direitos dos consumidores da UE.",
+        "name": "Seu nome",
+        "error_validation_failed": "Não foi possível verificar seus dados. Verifique seu nome, e-mail e número do pedido e tente novamente.",
+        "error_generic": "Ocorreu um erro. Tente novamente ou entre em contato com o comerciante se o problema persistir."
+    },
+    "withdrawal_confirm": {
+        "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar sua solicitação.",
+        "items_title": "Selecione os itens para devolução",
+        "withdraw_all": "Desistir de todos os itens (reembolso integral)",
+        "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato conforme a Diretiva sobre os direitos dos consumidores da UE. Os reembolsos são processados em até 14 dias.",
+        "error_failed": "Não foi possível processar sua solicitação de desistência. Tente novamente ou entre em contato com o comerciante."
+    },
+    "withdrawal_success": {
+        "message": "Sua solicitação de desistência foi enviada com sucesso. Você receberá um e-mail de confirmação em breve.",
+        "step_1": "Você receberá um e-mail de confirmação com os detalhes da sua desistência.",
+        "step_2": "O comerciante irá analisar sua solicitação e poderá entrar em contato com instruções de devolução.",
+        "step_3": "Seu reembolso será processado em até 14 dias (ou após o recebimento dos itens devolvidos, se aplicável)."
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

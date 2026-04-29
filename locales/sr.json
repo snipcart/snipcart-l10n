@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
     },
+    "withdrawal_form": {
+        "title": "Odustajanje od ugovora",
+        "instructions": "Unesite podatke o svojoj porudžbini kako biste podneli zahtev za odustajanje u skladu sa Direktivom EU o pravima potrošača.",
+        "name": "Vaše ime",
+        "order_id": "Broj porudžbine / broj računa",
+        "email": "Email adresa",
+        "error_validation_failed": "Nismo uspeli da potvrdimo Vaše podatke. Molimo proverite svoje ime, email adresu i broj porudžbine, pa pokušajte ponovo.",
+        "error_generic": "Došlo je do greške. Molimo pokušajte ponovo ili kontaktirajte prodavca ako se problem nastavi."
+    },
+    "withdrawal_confirm": {
+        "title": "Potvrdi odustajanje",
+        "warning_title": "Napomena:",
+        "warning_message": "Ova porudžbina je van 14-dnevnog roka za odustajanje. Prodavac će razmotriti Vaš zahtev.",
+        "order_details": "Detalji porudžbine",
+        "order_number": "Broj porudžbine:",
+        "order_date": "Datum porudžbine:",
+        "order_total": "Ukupan iznos porudžbine:",
+        "items_title": "Izaberite artikle za povraćaj",
+        "withdraw_all": "Odustani od svih artikala (pun povraćaj)",
+        "refund_amount": "Procenjeni iznos povraćaja:",
+        "back": "Nazad",
+        "processing": "Obrada…",
+        "confirm": "Potvrdi odustajanje",
+        "legal_notice": "Potvrdom ostvarujete svoje pravo na odustajanje od ovog ugovora u skladu sa Direktivom EU o pravima potrošača. Povraćaji se obrađuju u roku od 14 dana.",
+        "error_failed": "Nismo uspeli da obradimo Vaš zahtev za odustajanje. Molimo pokušajte ponovo ili kontaktirajte prodavca.",
+        "error_generic": "Došlo je do greške. Molimo pokušajte ponovo."
+    },
+    "withdrawal_success": {
+        "title": "Zahtev za odustajanje poslat",
+        "message": "Vaš zahtev za odustajanje je uspešno poslat. Uskoro ćete primiti email sa potvrdom.",
+        "confirmation_number": "Broj potvrde:",
+        "submitted_at": "Poslato:",
+        "refund_amount": "Iznos povraćaja:",
+        "next_steps_title": "Šta sledi?",
+        "step_1": "Primićete email sa potvrdom i detaljima o Vašem odustajanju.",
+        "step_2": "Prodavac će razmotriti Vaš zahtev i može Vas kontaktirati u vezi sa uputstvima za povraćaj robe.",
+        "step_3": "Povraćaj će biti izvršen u roku od 14 dana (ili po prijemu vraćene robe, ako je primenljivo).",
+        "close": "Zatvori"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

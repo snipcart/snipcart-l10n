@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "A szállítási díjat és az áfát a cím megadásakor adjuk hozzá."
     },
+    "withdrawal_form": {
+        "title": "Elállás a szerződéstől",
+        "instructions": "Adja meg a rendelés adatait az elállási kérelem benyújtásához az EU fogyasztói jogokról szóló irányelv alapján.",
+        "name": "Az Ön neve",
+        "order_id": "Rendelési azonosító / Számlaszám",
+        "email": "E-mail-cím",
+        "error_validation_failed": "Nem tudtuk ellenőrizni az adatait. Kérjük, ellenőrizze a nevét, e-mail-címét és rendelési számát, majd próbálja újra.",
+        "error_generic": "Hiba történt. Kérjük, próbálja újra, vagy lépjen kapcsolatba a kereskedővel, ha a probléma továbbra is fennáll."
+    },
+    "withdrawal_confirm": {
+        "title": "Elállás megerősítése",
+        "warning_title": "Megjegyzés:",
+        "warning_message": "Ez a rendelés a 14 napos elállási időszakon kívül esik. A kereskedő felül fogja vizsgálni a kérelmét.",
+        "order_details": "Rendelés részletei",
+        "order_number": "Rendelésszám:",
+        "order_date": "Rendelés dátuma:",
+        "order_total": "Rendelés végösszege:",
+        "items_title": "Válassza ki a visszaadni kívánt tételeket",
+        "withdraw_all": "Minden tétel visszaküldése (teljes visszatérítés)",
+        "refund_amount": "Becsült visszatérítés:",
+        "back": "Vissza",
+        "processing": "Feldolgozás…",
+        "confirm": "Elállás megerősítése",
+        "legal_notice": "A megerősítéssel Ön gyakorolja az EU fogyasztói jogokról szóló irányelv szerinti elállási jogát. A visszatérítés 14 napon belül megtörténik.",
+        "error_failed": "Nem tudtuk feldolgozni az elállási kérelmét. Kérjük, próbálja újra, vagy lépjen kapcsolatba a kereskedővel.",
+        "error_generic": "Hiba történt. Kérjük, próbálja újra."
+    },
+    "withdrawal_success": {
+        "title": "Elállási kérelem elküldve",
+        "message": "Elállási kérelmét sikeresen elküldtük. Hamarosan megerősítő e-mailt fog kapni.",
+        "confirmation_number": "Megerősítési szám:",
+        "submitted_at": "Beküldve:",
+        "refund_amount": "Visszatérítés összege:",
+        "next_steps_title": "Mi történik ezután?",
+        "step_1": "Megerősítő e-mailt kap az elállás részleteivel.",
+        "step_2": "A kereskedő felülvizsgálja a kérelmét, és felveheti Önnel a kapcsolatot a visszaküldéssel kapcsolatban.",
+        "step_3": "A visszatérítés 14 napon belül (vagy a visszaküldött áru kézhezvételét követően, ha alkalmazandó) feldolgozásra kerül.",
+        "close": "Bezárás"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

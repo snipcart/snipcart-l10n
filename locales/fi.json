@@ -419,6 +419,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Toimitus- ja verokulut lasketaan syötettyäsi osoitteesi."
     },
+    "withdrawal_form": {
+        "title": "Peru sopimus",
+        "instructions": "Anna tilauksesi tiedot pyytääksesi peruuttamista kuluttajan oikeuksia koskevan direktiivin nojalla.",
+        "name": "Nimesi",
+        "order_id": "Tilaustunnus / Laskun numero",
+        "email": "Sähköpostiosoite",
+        "error_validation_failed": "Emme voineet vahvistaa tietojasi. Tarkista nimesi, sähköpostiosoitteesi ja tilausnumerosi ja yritä uudelleen.",
+        "error_generic": "Jotain meni pieleen. Yritä uudelleen tai ota yhteyttä myyjään, jos ongelma jatkuu."
+    },
+    "withdrawal_confirm": {
+        "title": "Vahvista peruutus",
+        "warning_title": "Huomio:",
+        "warning_message": "Tämä tilaus on 14 päivän peruutusajan ulkopuolella. Myyjä käsittelee pyyntösi.",
+        "order_details": "Tilauksen tiedot",
+        "order_number": "Tilausnumero:",
+        "order_date": "Tilauspäivä:",
+        "order_total": "Tilauksen loppusumma:",
+        "items_title": "Valitse peruutettavat tuotteet",
+        "withdraw_all": "Peru kaikki tuotteet (täysi palautus)",
+        "refund_amount": "Arvioitu palautus:",
+        "back": "Takaisin",
+        "processing": "Käsitellään…",
+        "confirm": "Vahvista peruutus",
+        "legal_notice": "Vahvistamalla käytät oikeuttasi peruuttaa tämä sopimus kuluttajan oikeuksia koskevan direktiivin nojalla. Palautukset käsitellään 14 päivän kuluessa.",
+        "error_failed": "Emme voineet käsitellä peruutuspyyntöäsi. Yritä uudelleen tai ota yhteyttä myyjään.",
+        "error_generic": "Jotain meni pieleen. Yritä uudelleen."
+    },
+    "withdrawal_success": {
+        "title": "Peruutuspyyntö lähetetty",
+        "message": "Peruutuspyyntösi on lähetetty onnistuneesti. Saat pian vahvistussähköpostin.",
+        "confirmation_number": "Vahvistusnumero:",
+        "submitted_at": "Lähetetty:",
+        "refund_amount": "Palautuksen määrä:",
+        "next_steps_title": "Mitä tapahtuu seuraavaksi?",
+        "step_1": "Saat vahvistussähköpostin, jossa on tiedot peruutuksestasi.",
+        "step_2": "Myyjä käsittelee pyyntösi ja voi ottaa sinuun yhteyttä palautusohjeiden osalta.",
+        "step_3": "Palautuksesi käsitellään 14 päivän kuluessa (tai palautettujen tuotteiden vastaanottamisen jälkeen, jos sovellettavissa).",
+        "close": "Sulje"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

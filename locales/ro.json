@@ -418,6 +418,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Costurile de livrare și taxele vor fi calculate în momentul în care introduceți adresa de livrare."
     },
+    "withdrawal_form": {
+        "title": "Retragere din contract",
+        "instructions": "Introduceți detaliile comenzii pentru a solicita retragerea în baza Directivei privind drepturile consumatorilor a UE.",
+        "name": "Numele dumneavoastră",
+        "order_id": "Numărul comenzii / facturii",
+        "email": "Adresă de email",
+        "error_validation_failed": "Nu am putut verifica datele dumneavoastră. Verificați numele, adresa de email și numărul comenzii, apoi încercați din nou.",
+        "error_generic": "A apărut o eroare. Încercați din nou sau contactați comerciantul dacă problema persistă."
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmați retragerea",
+        "warning_title": "Notă:",
+        "warning_message": "Această comandă se află în afara perioadei de retragere de 14 zile. Comerciantul va analiza solicitarea dumneavoastră.",
+        "order_details": "Detaliile comenzii",
+        "order_number": "Numărul comenzii:",
+        "order_date": "Data comenzii:",
+        "order_total": "Total comandă:",
+        "items_title": "Selectați articolele pentru retragere",
+        "withdraw_all": "Retragere pentru toate articolele (rambursare integrală)",
+        "refund_amount": "Rambursare estimată:",
+        "back": "Înapoi",
+        "processing": "Se procesează…",
+        "confirm": "Confirmați retragerea",
+        "legal_notice": "Prin confirmare, vă exercitați dreptul de retragere din acest contract în baza Directivei privind drepturile consumatorilor a UE. Rambursările sunt procesate în termen de 14 zile.",
+        "error_failed": "Nu am putut procesa solicitarea dumneavoastră de retragere. Încercați din nou sau contactați comerciantul.",
+        "error_generic": "A apărut o eroare. Încercați din nou."
+    },
+    "withdrawal_success": {
+        "title": "Solicitare de retragere trimisă",
+        "message": "Solicitarea dumneavoastră de retragere a fost trimisă cu succes. Veți primi în scurt timp un email de confirmare.",
+        "confirmation_number": "Număr de confirmare:",
+        "submitted_at": "Trimisă la:",
+        "refund_amount": "Suma rambursată:",
+        "next_steps_title": "Ce urmează?",
+        "step_1": "Veți primi un email de confirmare cu detaliile retragerii dumneavoastră.",
+        "step_2": "Comerciantul va analiza solicitarea dumneavoastră și vă poate contacta cu instrucțiuni de returnare.",
+        "step_3": "Rambursarea va fi procesată în termen de 14 zile (sau la primirea bunurilor returnate, dacă este cazul).",
+        "close": "Închide"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

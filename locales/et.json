@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Saatmis- ja maksukulud arvutatakse pärast aadressi sisestamist."
     },
+    "withdrawal_form": {
+        "title": "Lepingust taganemine",
+        "instructions": "Sisestage tellimuse andmed, et esitada taganemisavaldus EL-i tarbija õiguste direktiivi alusel.",
+        "name": "Teie nimi",
+        "order_id": "Tellimuse ID / arve number",
+        "email": "E-posti aadress",
+        "error_validation_failed": "Me ei suutnud teie andmeid kinnitada. Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti.",
+        "error_generic": "Midagi läks valesti. Palun proovige uuesti või võtke ühendust kaupmehega, kui probleem püsib."
+    },
+    "withdrawal_confirm": {
+        "title": "Kinnita taganemine",
+        "warning_title": "Märkus:",
+        "warning_message": "See tellimus on väljaspool 14-päevast taganemisperioodi. Kaupmees vaatab teie taotluse läbi.",
+        "order_details": "Tellimuse üksikasjad",
+        "order_number": "Tellimuse number:",
+        "order_date": "Tellimuse kuupäev:",
+        "order_total": "Tellimuse kogusumma:",
+        "items_title": "Valige tagastatavad tooted",
+        "withdraw_all": "Tagasta kõik tooted (täielik raha tagastamine)",
+        "refund_amount": "Hinnanguline tagasimakse:",
+        "back": "Tagasi",
+        "processing": "Töötlemine…",
+        "confirm": "Kinnita taganemine",
+        "legal_notice": "Kinnitades kasutate oma õigust taganeda sellest lepingust EL-i tarbija õiguste direktiivi alusel. Tagasimaksed töödeldakse 14 päeva jooksul.",
+        "error_failed": "Me ei suutnud teie taganemistaotlust töödelda. Palun proovige uuesti või võtke ühendust kaupmehega.",
+        "error_generic": "Midagi läks valesti. Palun proovige uuesti."
+    },
+    "withdrawal_success": {
+        "title": "Taganemistaotlus esitatud",
+        "message": "Teie taganemistaotlus on edukalt esitatud. Saate peagi kinnituse e-posti teel.",
+        "confirmation_number": "Kinnitusnumber:",
+        "submitted_at": "Esitatud:",
+        "refund_amount": "Tagasimakse summa:",
+        "next_steps_title": "Mis juhtub edasi?",
+        "step_1": "Saate kinnituse e-kirja koos taganemise üksikasjadega.",
+        "step_2": "Kaupmees vaatab teie taotluse läbi ja võib teiega ühendust võtta tagastusjuhiste osas.",
+        "step_3": "Teie tagasimakse töödeldakse 14 päeva jooksul (või tagastatud kaupade kättesaamisel, kui see on kohaldatav).",
+        "close": "Sulge"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

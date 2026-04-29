@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
     },
+    "withdrawal_form": {
+        "title": "Atsisakymas nuo sutarties",
+        "instructions": "Įveskite užsakymo duomenis, kad pateiktumėte atsisakymo prašymą pagal ES Vartotojų teisių direktyvą.",
+        "name": "Jūsų vardas",
+        "order_id": "Užsakymo ID / sąskaitos numeris",
+        "email": "El. pašto adresas",
+        "error_validation_failed": "Negalėjome patvirtinti jūsų duomenų. Prašome patikrinti savo vardą, el. paštą ir užsakymo numerį, tada bandykite dar kartą.",
+        "error_generic": "Kažkas nepavyko. Prašome bandyti dar kartą arba susisiekti su pardavėju, jei problema išlieka."
+    },
+    "withdrawal_confirm": {
+        "title": "Patvirtinti atsisakymą",
+        "warning_title": "Pastaba:",
+        "warning_message": "Šis užsakymas yra už 14 dienų atsisakymo laikotarpio ribų. Pardavėjas peržiūrės jūsų prašymą.",
+        "order_details": "Užsakymo informacija",
+        "order_number": "Užsakymo numeris:",
+        "order_date": "Užsakymo data:",
+        "order_total": "Užsakymo suma:",
+        "items_title": "Pasirinkite prekes, nuo kurių norite atsisakyti",
+        "withdraw_all": "Atsisakyti visų prekių (pilnas grąžinimas)",
+        "refund_amount": "Apytikris grąžinimas:",
+        "back": "Atgal",
+        "processing": "Apdorojama…",
+        "confirm": "Patvirtinti atsisakymą",
+        "legal_notice": "Patvirtindami pasinaudojate teise atsisakyti šios sutarties pagal ES Vartotojų teisių direktyvą. Grąžinimai apdorojami per 14 dienų.",
+        "error_failed": "Negalėjome apdoroti jūsų atsisakymo prašymo. Prašome bandyti dar kartą arba susisiekti su pardavėju.",
+        "error_generic": "Kažkas nepavyko. Prašome bandyti dar kartą."
+    },
+    "withdrawal_success": {
+        "title": "Atsisakymo prašymas pateiktas",
+        "message": "Jūsų atsisakymo prašymas sėkmingai pateiktas. Netrukus gausite patvirtinimo el. laišką.",
+        "confirmation_number": "Patvirtinimo numeris:",
+        "submitted_at": "Pateikta:",
+        "refund_amount": "Grąžinimo suma:",
+        "next_steps_title": "Kas bus toliau?",
+        "step_1": "Gausite patvirtinimo el. laišką su atsisakymo informacija.",
+        "step_2": "Pardavėjas peržiūrės jūsų prašymą ir gali su jumis susisiekti dėl grąžinimo nurodymų.",
+        "step_3": "Jūsų grąžinimas bus apdorotas per 14 dienų (arba gavus grąžintas prekes, jei taikoma).",
+        "close": "Uždaryti"
+    },
     "countries": {
         "AD": {
             "name": "Andora"

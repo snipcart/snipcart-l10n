@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Penghantaran dan cukai akan dikira selepas alamat diberikan."
     },
+    "withdrawal_form": {
+        "title": "Tarik Diri daripada Kontrak",
+        "instructions": "Masukkan butiran pesanan anda untuk memohon penarikan diri di bawah Arahan Hak Pengguna EU.",
+        "name": "Nama Anda",
+        "order_id": "ID Pesanan / Nombor Invois",
+        "email": "Alamat E-mel",
+        "error_validation_failed": "Kami tidak dapat mengesahkan butiran anda. Sila semak nama, e-mel dan nombor pesanan anda, kemudian cuba lagi.",
+        "error_generic": "Berlaku ralat. Sila cuba lagi atau hubungi peniaga jika masalah berterusan."
+    },
+    "withdrawal_confirm": {
+        "title": "Sahkan Penarikan Diri",
+        "warning_title": "Perhatian:",
+        "warning_message": "Pesanan ini telah melepasi tempoh penarikan diri 14 hari. Peniaga akan menyemak permintaan anda.",
+        "order_details": "Butiran Pesanan",
+        "order_number": "Nombor Pesanan:",
+        "order_date": "Tarikh Pesanan:",
+        "order_total": "Jumlah Pesanan:",
+        "items_title": "Pilih Item untuk Ditarik",
+        "withdraw_all": "Tarik semua item (bayaran balik penuh)",
+        "refund_amount": "Anggaran Bayaran Balik:",
+        "back": "Kembali",
+        "processing": "Memproses…",
+        "confirm": "Sahkan Penarikan Diri",
+        "legal_notice": "Dengan mengesahkan, anda melaksanakan hak untuk menarik diri daripada kontrak ini di bawah Arahan Hak Pengguna EU. Bayaran balik diproses dalam tempoh 14 hari.",
+        "error_failed": "Kami tidak dapat memproses permintaan penarikan diri anda. Sila cuba lagi atau hubungi peniaga.",
+        "error_generic": "Berlaku ralat. Sila cuba lagi."
+    },
+    "withdrawal_success": {
+        "title": "Permintaan Penarikan Diri Telah Dihantar",
+        "message": "Permintaan penarikan diri anda telah berjaya dihantar. Anda akan menerima e-mel pengesahan tidak lama lagi.",
+        "confirmation_number": "Nombor Pengesahan:",
+        "submitted_at": "Dihantar:",
+        "refund_amount": "Jumlah Bayaran Balik:",
+        "next_steps_title": "Apa yang Akan Berlaku Seterusnya?",
+        "step_1": "Anda akan menerima e-mel pengesahan dengan butiran penarikan diri anda.",
+        "step_2": "Peniaga akan menyemak permintaan anda dan mungkin menghubungi anda mengenai arahan pemulangan.",
+        "step_3": "Bayaran balik anda akan diproses dalam tempoh 14 hari (atau selepas penerimaan barang yang dipulangkan, jika berkenaan).",
+        "close": "Tutup"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

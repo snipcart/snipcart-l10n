@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Cyfrifir costau cludo a threthi ar ôl darparu cyfeiriad."
     },
+    "withdrawal_form": {
+        "title": "Tynnu'n ôl o'r Contract",
+        "instructions": "Rhowch fanylion eich archeb i wneud cais i dynnu'n ôl o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE.",
+        "name": "Eich Enw",
+        "order_id": "ID yr Archeb / Rhif yr Anfoneb",
+        "email": "Cyfeiriad E-bost",
+        "error_validation_failed": "Methwyd dilysu'ch manylion. Gwiriwch eich enw, eich cyfeiriad e-bost a rhif eich archeb, ac yna rhowch gynnig arall arni.",
+        "error_generic": "Aeth rhywbeth o'i le. Rhowch gynnig arall arni neu cysylltwch â'r masnachwr os yw'r broblem yn parhau."
+    },
+    "withdrawal_confirm": {
+        "title": "Cadarnhau Tynnu'n Ôl",
+        "warning_title": "Sylwer:",
+        "warning_message": "Mae'r archeb hon y tu allan i'r cyfnod tynnu'n ôl o 14 diwrnod. Bydd y masnachwr yn adolygu'ch cais.",
+        "order_details": "Manylion yr Archeb",
+        "order_number": "Rhif yr Archeb:",
+        "order_date": "Dyddiad yr Archeb:",
+        "order_total": "Cyfanswm yr Archeb:",
+        "items_title": "Dewiswch Eitemau i Dynnu'n Ôl",
+        "withdraw_all": "Tynnu'n ôl pob eitem (ad-daliad llawn)",
+        "refund_amount": "Ad-daliad Amcangyfrifedig:",
+        "back": "Yn Ôl",
+        "processing": "Yn Prosesu…",
+        "confirm": "Cadarnhau Tynnu'n Ôl",
+        "legal_notice": "Drwy gadarnhau, rydych yn arfer eich hawl i dynnu'n ôl o'r contract hwn o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE. Caiff ad-daliadau eu prosesu o fewn 14 diwrnod.",
+        "error_failed": "Methwyd prosesu'ch cais tynnu'n ôl. Rhowch gynnig arall arni neu cysylltwch â'r masnachwr.",
+        "error_generic": "Aeth rhywbeth o'i le. Rhowch gynnig arall arni."
+    },
+    "withdrawal_success": {
+        "title": "Cais Tynnu'n Ôl wedi'i Gyflwyno",
+        "message": "Mae'ch cais tynnu'n ôl wedi'i gyflwyno'n llwyddiannus. Byddwch yn derbyn e-bost cadarnhau yn fuan.",
+        "confirmation_number": "Rhif Cadarnhau:",
+        "submitted_at": "Cyflwynwyd:",
+        "refund_amount": "Swm yr Ad-daliad:",
+        "next_steps_title": "Beth fydd yn Digwydd Nesaf?",
+        "step_1": "Byddwch yn derbyn e-bost cadarnhau gyda manylion eich tynnu'n ôl.",
+        "step_2": "Bydd y masnachwr yn adolygu'ch cais ac efallai y bydd yn cysylltu â chi ynghylch cyfarwyddiadau dychwelyd.",
+        "step_3": "Caiff eich ad-daliad ei brosesu o fewn 14 diwrnod (neu wrth dderbyn y nwyddau a ddychwelwyd, os yw'n berthnasol).",
+        "close": "Cau"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

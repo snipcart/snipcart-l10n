@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Verzendkosten en BTW worden berekend na het ingeven van het adres."
     },
+    "withdrawal_form": {
+        "title": "Overeenkomst herroepen",
+        "instructions": "Voer uw bestelgegevens in om een herroeping aan te vragen op grond van de Richtlijn consumentenrechten van de EU.",
+        "name": "Uw naam",
+        "order_id": "Bestelnummer / Factuurnummer",
+        "email": "E-mailadres",
+        "error_validation_failed": "We konden uw gegevens niet verifiëren. Controleer uw naam, e-mailadres en bestelnummer en probeer het opnieuw.",
+        "error_generic": "Er is iets misgegaan. Probeer het opnieuw of neem contact op met de verkoper als het probleem aanhoudt."
+    },
+    "withdrawal_confirm": {
+        "title": "Herroeping bevestigen",
+        "warning_title": "Let op:",
+        "warning_message": "Deze bestelling valt buiten de herroepingstermijn van 14 dagen. De verkoper zal uw verzoek beoordelen.",
+        "order_details": "Bestelgegevens",
+        "order_number": "Bestelnummer:",
+        "order_date": "Besteldatum:",
+        "order_total": "Bestelbedrag:",
+        "items_title": "Selecteer artikelen om te herroepen",
+        "withdraw_all": "Alle artikelen herroepen (volledige terugbetaling)",
+        "refund_amount": "Geschatte terugbetaling:",
+        "back": "Terug",
+        "processing": "Verwerken…",
+        "confirm": "Herroeping bevestigen",
+        "legal_notice": "Door te bevestigen oefent u uw recht uit om deze overeenkomst te herroepen op grond van de Richtlijn consumentenrechten van de EU. Terugbetalingen worden binnen 14 dagen verwerkt.",
+        "error_failed": "We konden uw herroepingsverzoek niet verwerken. Probeer het opnieuw of neem contact op met de verkoper.",
+        "error_generic": "Er is iets misgegaan. Probeer het opnieuw."
+    },
+    "withdrawal_success": {
+        "title": "Herroepingsverzoek ingediend",
+        "message": "Uw herroepingsverzoek is succesvol ingediend. U ontvangt binnenkort een bevestigingsmail.",
+        "confirmation_number": "Bevestigingsnummer:",
+        "submitted_at": "Ingediend:",
+        "refund_amount": "Terugbetalingsbedrag:",
+        "next_steps_title": "Wat gebeurt er nu?",
+        "step_1": "U ontvangt een bevestigingsmail met de details van uw herroeping.",
+        "step_2": "De verkoper zal uw verzoek beoordelen en kan contact met u opnemen over retourinstructies.",
+        "step_3": "Uw terugbetaling wordt binnen 14 dagen verwerkt (of na ontvangst van de geretourneerde goederen, indien van toepassing).",
+        "close": "Sluiten"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

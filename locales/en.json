@@ -1104,6 +1104,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
     },
+    "withdrawal_form": {
+        "title": "Withdraw from Contract",
+        "instructions": "Enter your order details to request a withdrawal under the EU Consumer Rights Directive.",
+        "name": "Your Name",
+        "order_id": "Order ID / Invoice Number",
+        "email": "Email Address",
+        "error_validation_failed": "We couldn't verify your details. Please check your name, email, and order number, then try again.",
+        "error_generic": "Something went wrong. Please try again or contact the merchant if the issue persists."
+    },
+    "withdrawal_confirm": {
+        "title": "Confirm Withdrawal",
+        "warning_title": "Note:",
+        "warning_message": "This order is outside the 14-day withdrawal period. The merchant will review your request.",
+        "order_details": "Order Details",
+        "order_number": "Order Number:",
+        "order_date": "Order Date:",
+        "order_total": "Order Total:",
+        "items_title": "Select Items to Withdraw",
+        "withdraw_all": "Withdraw all items (full refund)",
+        "refund_amount": "Estimated Refund:",
+        "back": "Back",
+        "processing": "Processing…",
+        "confirm": "Confirm Withdrawal",
+        "legal_notice": "By confirming, you are exercising your right to withdraw from this contract under the EU Consumer Rights Directive. Refunds are processed within 14 days.",
+        "error_failed": "We couldn't process your withdrawal request. Please try again or contact the merchant.",
+        "error_generic": "Something went wrong. Please try again."
+    },
+    "withdrawal_success": {
+        "title": "Withdrawal Request Submitted",
+        "message": "Your withdrawal request has been submitted successfully. You will receive a confirmation email shortly.",
+        "confirmation_number": "Confirmation Number:",
+        "submitted_at": "Submitted:",
+        "refund_amount": "Refund Amount:",
+        "next_steps_title": "What Happens Next?",
+        "step_1": "You will receive a confirmation email with your withdrawal details.",
+        "step_2": "The merchant will review your request and may contact you regarding return instructions.",
+        "step_3": "Your refund will be processed within 14 days (or upon receipt of returned goods, if applicable).",
+        "close": "Close"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Ang shipping at buwis ay kakalkulahin pagkatapos maibigay ang address."
     },
+    "withdrawal_form": {
+        "title": "Mag-withdraw sa Kontrata",
+        "instructions": "Ilagay ang mga detalye ng iyong order upang humiling ng withdrawal sa ilalim ng EU Consumer Rights Directive.",
+        "name": "Iyong Pangalan",
+        "order_id": "Order ID / Invoice Number",
+        "email": "Email Address",
+        "error_validation_failed": "Hindi namin ma-verify ang iyong mga detalye. Pakisuri ang iyong pangalan, email, at numero ng order, pagkatapos ay subukang muli.",
+        "error_generic": "May naganap na error. Pakisubukan ulit o makipag-ugnayan sa nagbebenta kung magpapatuloy ang isyu."
+    },
+    "withdrawal_confirm": {
+        "title": "Kumpirmahin ang Withdrawal",
+        "warning_title": "Paalala:",
+        "warning_message": "Ang order na ito ay lampas na sa 14-araw na panahon ng pag-withdraw. Susuriin ng nagbebenta ang iyong kahilingan.",
+        "order_details": "Mga Detalye ng Order",
+        "order_number": "Numero ng Order:",
+        "order_date": "Petsa ng Order:",
+        "order_total": "Kabuuan ng Order:",
+        "items_title": "Pumili ng mga Item na I-withdraw",
+        "withdraw_all": "I-withdraw ang lahat ng item (buong refund)",
+        "refund_amount": "Tinatayang Refund:",
+        "back": "Bumalik",
+        "processing": "Pinoproseso…",
+        "confirm": "Kumpirmahin ang Withdrawal",
+        "legal_notice": "Sa pagkumpirma, ginagamit mo ang iyong karapatang mag-withdraw mula sa kontratang ito sa ilalim ng EU Consumer Rights Directive. Ang mga refund ay pinoproseso sa loob ng 14 na araw.",
+        "error_failed": "Hindi namin maproseso ang iyong kahilingan ng withdrawal. Pakisubukan ulit o makipag-ugnayan sa nagbebenta.",
+        "error_generic": "May naganap na error. Pakisubukan ulit."
+    },
+    "withdrawal_success": {
+        "title": "Naipasa na ang Kahilingan ng Withdrawal",
+        "message": "Matagumpay na naipasa ang iyong kahilingan ng withdrawal. Makakatanggap ka ng kumpirmasyong email sa lalong madaling panahon.",
+        "confirmation_number": "Numero ng Kumpirmasyon:",
+        "submitted_at": "Naipasa:",
+        "refund_amount": "Halaga ng Refund:",
+        "next_steps_title": "Ano ang Susunod na Mangyayari?",
+        "step_1": "Makakatanggap ka ng kumpirmasyong email kasama ang mga detalye ng iyong withdrawal.",
+        "step_2": "Susuriin ng nagbebenta ang iyong kahilingan at maaaring makipag-ugnayan sa iyo tungkol sa mga tagubilin para sa pagsasauli.",
+        "step_3": "Ang iyong refund ay ipoproseso sa loob ng 14 na araw (o sa pagtanggap ng mga isinaulit na item, kung naaangkop).",
+        "close": "Isara"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"

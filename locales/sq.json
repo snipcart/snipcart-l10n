@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Transporti dhe taksat do të llogariten pasi të jepet një adresë."
     },
+    "withdrawal_form": {
+        "title": "Tërheqja nga kontrata",
+        "instructions": "Vendosni të dhënat e porosisë suaj për të paraqitur një kërkesë për tërheqje sipas Direktivës për të drejtat e konsumatorëve të BE-së.",
+        "name": "Emri juaj",
+        "order_id": "Numri i porosisë / numri i faturës",
+        "email": "Adresa e emailit",
+        "error_validation_failed": "Nuk arritëm të verifikojmë të dhënat tuaja. Ju lutemi kontrolloni emrin, adresën e emailit dhe numrin e porosisë, pastaj provoni përsëri.",
+        "error_generic": "Diçka shkoi keq. Ju lutemi provoni përsëri ose kontaktoni tregtarin nëse problemi vazhdon."
+    },
+    "withdrawal_confirm": {
+        "title": "Konfirmo tërheqjen",
+        "warning_title": "Vërejtje:",
+        "warning_message": "Kjo porosi është jashtë periudhës 14-ditore të tërheqjes. Tregtari do ta shqyrtojë kërkesën tuaj.",
+        "order_details": "Detajet e porosisë",
+        "order_number": "Numri i porosisë:",
+        "order_date": "Data e porosisë:",
+        "order_total": "Totali i porosisë:",
+        "items_title": "Zgjidhni artikujt për t’u tërhequr",
+        "withdraw_all": "Tërhiqu nga të gjithë artikujt (rimbursim i plotë)",
+        "refund_amount": "Rimbursimi i parashikuar:",
+        "back": "Mbrapa",
+        "processing": "Përpunim…",
+        "confirm": "Konfirmo tërheqjen",
+        "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh.",
+        "error_failed": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje. Ju lutemi provoni përsëri ose kontaktoni tregtarin.",
+        "error_generic": "Diçka shkoi keq. Ju lutemi provoni përsëri."
+    },
+    "withdrawal_success": {
+        "title": "Kërkesa për tërheqje u dorëzua",
+        "message": "Kërkesa juaj për tërheqje u dorëzua me sukses. Së shpejti do të merrni një email konfirmimi.",
+        "confirmation_number": "Numri i konfirmimit:",
+        "submitted_at": "Dorëzuar:",
+        "refund_amount": "Shuma e rimbursimit:",
+        "next_steps_title": "Çfarë ndodh më pas?",
+        "step_1": "Do të merrni një email konfirmimi me detajet e tërheqjes suaj.",
+        "step_2": "Tregtari do ta shqyrtojë kërkesën tuaj dhe mund t’ju kontaktojë në lidhje me udhëzimet për kthimin.",
+        "step_3": "Rimbursimi juaj do të përpunohet brenda 14 ditësh (ose pas marrjes së mallit të kthyer, nëse është e zbatueshme).",
+        "close": "Mbyll"
+    },
     "countries": {
         "AD": "Andorra",
         "AE": "Emiratet e Bashkuara Arabe",

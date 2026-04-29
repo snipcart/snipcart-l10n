@@ -414,6 +414,45 @@
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett en adress."
     },
+    "withdrawal_form": {
+        "title": "Frånträd avtalet",
+        "instructions": "Ange dina orderuppgifter för att begära ångerrätt enligt EU:s konsumenträttighetsdirektiv.",
+        "name": "Ditt namn",
+        "order_id": "Order-ID / Fakturanummer",
+        "email": "E-postadress",
+        "error_validation_failed": "Vi kunde inte verifiera dina uppgifter. Kontrollera ditt namn, din e-postadress och ditt ordernummer och försök igen.",
+        "error_generic": "Något gick fel. Försök igen eller kontakta handlaren om problemet kvarstår."
+    },
+    "withdrawal_confirm": {
+        "title": "Bekräfta ångerrätt",
+        "warning_title": "Observera:",
+        "warning_message": "Denna order ligger utanför ångerfristen på 14 dagar. Handlaren kommer att granska din begäran.",
+        "order_details": "Orderdetaljer",
+        "order_number": "Ordernummer:",
+        "order_date": "Orderdatum:",
+        "order_total": "Ordersumma:",
+        "items_title": "Välj artiklar att ångra",
+        "withdraw_all": "Ångra alla artiklar (full återbetalning)",
+        "refund_amount": "Beräknad återbetalning:",
+        "back": "Tillbaka",
+        "processing": "Behandlar…",
+        "confirm": "Bekräfta ångerrätt",
+        "legal_notice": "Genom att bekräfta utövar du din rätt att frånträda detta avtal enligt EU:s konsumenträttighetsdirektiv. Återbetalningar behandlas inom 14 dagar.",
+        "error_failed": "Vi kunde inte behandla din ångerbegäran. Försök igen eller kontakta handlaren.",
+        "error_generic": "Något gick fel. Försök igen."
+    },
+    "withdrawal_success": {
+        "title": "Ångerbegäran skickad",
+        "message": "Din ångerbegäran har skickats. Du kommer snart att få ett bekräftelsemail.",
+        "confirmation_number": "Bekräftelsenummer:",
+        "submitted_at": "Skickad:",
+        "refund_amount": "Återbetalningsbelopp:",
+        "next_steps_title": "Vad händer nu?",
+        "step_1": "Du kommer att få ett bekräftelsemail med detaljer om din ångerrätt.",
+        "step_2": "Handlaren kommer att granska din begäran och kan kontakta dig angående returinstruktioner.",
+        "step_3": "Din återbetalning behandlas inom 14 dagar (eller vid mottagandet av returnerade varor, om tillämpligt).",
+        "close": "Stäng"
+    },
     "countries": {
         "AD": {
             "name": "Andorra"
