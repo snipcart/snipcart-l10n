@@ -447,10 +447,6 @@
         "confirmation_number": "Kinnitusnumber:",
         "submitted_at": "Esitatud:",
         "refund_amount": "Tagasimakse summa:",
-        "next_steps_title": "Mis juhtub edasi?",
-        "step_1": "Saate kinnituse e-kirja koos taganemise üksikasjadega.",
-        "step_2": "Kaupmees vaatab teie taotluse läbi ja võib teiega ühendust võtta tagastusjuhiste osas.",
-        "step_3": "Teie tagasimakse töödeldakse 14 päeva jooksul (või tagastatud kaupade kättesaamisel, kui see on kohaldatav).",
         "close": "Sulge"
     },
     "countries": {

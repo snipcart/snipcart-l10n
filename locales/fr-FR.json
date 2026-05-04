@@ -329,11 +329,14 @@
     },
     "withdrawal_form": {
         "email": "Adresse e-mail",
-        "error_validation_failed": "Nous n’avons pas pu vérifier vos informations. Veuillez vérifier votre nom, votre e-mail et votre numéro de commande, puis réessayer."
+        "error_validation_failed": "Nous n’avons pas pu vérifier vos informations. Veuillez vérifier votre nom, votre e-mail et votre numéro de commande, puis réessayer.",
+        "error_generic": "Une erreur est survenue. Veuillez réessayer ou contacter le marchand si le problème persiste."
+    },
+    "withdrawal_confirm": {
+        "error_failed": "Nous n’avons pas pu traiter votre demande de rétractation. Veuillez réessayer ou contacter le marchand."
     },
     "withdrawal_success": {
-        "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un e-mail de confirmation.",
-        "step_1": "Vous recevrez un e-mail de confirmation avec les détails de votre rétractation."
+        "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un e-mail de confirmation."
     },
     "alternative": {
         "or": "Ou",

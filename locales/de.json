@@ -447,10 +447,6 @@
         "confirmation_number": "Bestätigungsnummer:",
         "submitted_at": "Übermittelt:",
         "refund_amount": "Erstattungsbetrag:",
-        "next_steps_title": "Was passiert als Nächstes?",
-        "step_1": "Sie erhalten eine Bestätigungs-E-Mail mit den Details Ihres Widerrufs.",
-        "step_2": "Der Händler wird Ihre Anfrage prüfen und sich gegebenenfalls bezüglich der Rücksendeanweisungen mit Ihnen in Verbindung setzen.",
-        "step_3": "Ihre Erstattung wird innerhalb von 14 Tagen bearbeitet (bzw. nach Erhalt der zurückgesendeten Ware, sofern zutreffend).",
         "close": "Schließen"
     },
     "countries": {

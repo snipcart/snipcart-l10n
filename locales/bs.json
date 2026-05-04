@@ -447,10 +447,6 @@
         "confirmation_number": "Broj potvrde:",
         "submitted_at": "Poslano:",
         "refund_amount": "Iznos povrata:",
-        "next_steps_title": "Šta slijedi?",
-        "step_1": "Primit ćete email sa potvrdom i detaljima o Vašem odustajanju.",
-        "step_2": "Trgovac će razmotriti Vaš zahtjev i može Vas kontaktirati u vezi sa uputstvima za povrat robe.",
-        "step_3": "Povrat će biti izvršen u roku od 14 dana (ili po prijemu vraćene robe, ako je primjenjivo).",
         "close": "Zatvori"
     },
     "countries": {

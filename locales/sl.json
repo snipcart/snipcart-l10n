@@ -447,10 +447,6 @@
         "confirmation_number": "Številka potrditve:",
         "submitted_at": "Poslano:",
         "refund_amount": "Znesek vračila:",
-        "next_steps_title": "Kaj sledi?",
-        "step_1": "Prejeli boste e-poštno sporočilo s podrobnostmi o Vašem odstopu.",
-        "step_2": "Trgovec bo pregledal Vašo zahtevo in se lahko obrne na Vas glede navodil za vračilo blaga.",
-        "step_3": "Vračilo bo izvedeno v 14 dneh (oziroma po prejemu vrnjenega blaga, če je to primerno).",
         "close": "Zapri"
     },
     "countries": {

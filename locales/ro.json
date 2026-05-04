@@ -451,10 +451,6 @@
         "confirmation_number": "Număr de confirmare:",
         "submitted_at": "Trimisă la:",
         "refund_amount": "Suma rambursată:",
-        "next_steps_title": "Ce urmează?",
-        "step_1": "Veți primi un email de confirmare cu detaliile retragerii dumneavoastră.",
-        "step_2": "Comerciantul va analiza solicitarea dumneavoastră și vă poate contacta cu instrucțiuni de returnare.",
-        "step_3": "Rambursarea va fi procesată în termen de 14 zile (sau la primirea bunurilor returnate, dacă este cazul).",
         "close": "Închide"
     },
     "countries": {

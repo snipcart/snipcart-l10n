@@ -452,10 +452,6 @@
         "confirmation_number": "确认编号",
         "submitted_at": "提交时间",
         "refund_amount": "退款金额",
-        "next_steps_title": "接下来会怎样",
-        "step_1": "您将收到一封包含撤回详情的确认邮件。",
-        "step_2": "商家将审核您的请求，并可能就退货方式与您联系。",
-        "step_3": "退款将在14天内处理（如适用，将在收到退回商品后处理）。",
         "close": "关闭"
     },
     "countries": {

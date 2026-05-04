@@ -447,10 +447,6 @@
         "confirmation_number": "Bevestigingsnummer:",
         "submitted_at": "Ingediend:",
         "refund_amount": "Terugbetalingsbedrag:",
-        "next_steps_title": "Wat gebeurt er nu?",
-        "step_1": "U ontvangt een bevestigingsmail met de details van uw herroeping.",
-        "step_2": "De verkoper zal uw verzoek beoordelen en kan contact met u opnemen over retourinstructies.",
-        "step_3": "Uw terugbetaling wordt binnen 14 dagen verwerkt (of na ontvangst van de geretourneerde goederen, indien van toepassing).",
         "close": "Sluiten"
     },
     "countries": {

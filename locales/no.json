@@ -453,10 +453,6 @@
         "confirmation_number": "Bekreftelsesnummer:",
         "submitted_at": "Sendt inn:",
         "refund_amount": "Refusjonsbeløp:",
-        "next_steps_title": "Hva skjer videre?",
-        "step_1": "Du vil motta en bekreftelse på e-post med detaljer om angreretten din.",
-        "step_2": "Selgeren vil vurdere forespørselen din og kan kontakte deg angående returinstruksjoner.",
-        "step_3": "Refusjonen din vil bli behandlet innen 14 dager (eller ved mottak av returnerte varer, hvis aktuelt).",
         "close": "Lukk"
     },
     "countries": {

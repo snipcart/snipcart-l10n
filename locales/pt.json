@@ -448,10 +448,6 @@
         "confirmation_number": "Número de confirmação:",
         "submitted_at": "Enviada em:",
         "refund_amount": "Valor do reembolso:",
-        "next_steps_title": "Quais são os próximos passos?",
-        "step_1": "Receberá um e-mail de confirmação com os detalhes da sua desistência.",
-        "step_2": "O comerciante irá analisar a sua solicitação e poderá contactá-lo com instruções de devolução.",
-        "step_3": "O seu reembolso será processado no prazo de 14 dias (ou após a receção dos bens devolvidos, se aplicável).",
         "close": "Fechar"
     },
     "countries": {

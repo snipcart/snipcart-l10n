@@ -447,10 +447,6 @@
         "confirmation_number": "Numer potwierdzenia:",
         "submitted_at": "Wysłano:",
         "refund_amount": "Kwota zwrotu:",
-        "next_steps_title": "Co dalej?",
-        "step_1": "Otrzymasz e-mail z potwierdzeniem zawierający szczegóły Twojego odstąpienia.",
-        "step_2": "Sprzedawca rozpatrzy Twój wniosek i może skontaktować się z Tobą w sprawie instrukcji zwrotu.",
-        "step_3": "Twój zwrot zostanie zrealizowany w ciągu 14 dni (lub po otrzymaniu zwracanego towaru, jeśli ma to zastosowanie).",
         "close": "Zamknij"
     },
     "countries": {

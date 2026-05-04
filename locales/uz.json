@@ -447,10 +447,6 @@
         "confirmation_number": "Tasdiqlash raqami:",
         "submitted_at": "Yuborilgan vaqt:",
         "refund_amount": "Qaytarish summasi:",
-        "next_steps_title": "Keyingi qadamlar",
-        "step_1": "Voz kechish tafsilotlari bilan tasdiqlovchi elektron pochta xabarini olasiz.",
-        "step_2": "Sotuvchi so'rovingizni ko'rib chiqadi va qaytarish bo'yicha ko'rsatmalar uchun siz bilan bog'lanishi mumkin.",
-        "step_3": "Pulingiz 14 kun ichida qaytariladi (yoki qo'llanilsa, qaytarilgan mahsulotlar olingandan so'ng).",
         "close": "Yopish"
     },
     "countries": {

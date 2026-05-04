@@ -447,10 +447,6 @@
         "confirmation_number": "Bekräftelsenummer:",
         "submitted_at": "Skickad:",
         "refund_amount": "Återbetalningsbelopp:",
-        "next_steps_title": "Vad händer nu?",
-        "step_1": "Du kommer att få ett bekräftelsemail med detaljer om din ångerrätt.",
-        "step_2": "Handlaren kommer att granska din begäran och kan kontakta dig angående returinstruktioner.",
-        "step_3": "Din återbetalning behandlas inom 14 dagar (eller vid mottagandet av returnerade varor, om tillämpligt).",
         "close": "Stäng"
     },
     "countries": {

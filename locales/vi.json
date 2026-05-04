@@ -447,10 +447,6 @@
         "confirmation_number": "Mã xác nhận:",
         "submitted_at": "Đã gửi:",
         "refund_amount": "Số tiền hoàn lại:",
-        "next_steps_title": "Các bước tiếp theo",
-        "step_1": "Bạn sẽ nhận được email xác nhận kèm theo chi tiết yêu cầu rút.",
-        "step_2": "Người bán sẽ xem xét yêu cầu của bạn và có thể liên hệ về hướng dẫn trả hàng.",
-        "step_3": "Tiền hoàn lại sẽ được xử lý trong vòng 14 ngày (hoặc sau khi nhận được hàng trả lại, nếu có).",
         "close": "Đóng"
     },
     "countries": {

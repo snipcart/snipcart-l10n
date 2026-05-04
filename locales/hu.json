@@ -447,10 +447,6 @@
         "confirmation_number": "Megerősítési szám:",
         "submitted_at": "Beküldve:",
         "refund_amount": "Visszatérítés összege:",
-        "next_steps_title": "Mi történik ezután?",
-        "step_1": "Megerősítő e-mailt kap az elállás részleteivel.",
-        "step_2": "A kereskedő felülvizsgálja a kérelmét, és felveheti Önnel a kapcsolatot a visszaküldéssel kapcsolatban.",
-        "step_3": "A visszatérítés 14 napon belül (vagy a visszaküldött áru kézhezvételét követően, ha alkalmazandó) feldolgozásra kerül.",
         "close": "Bezárás"
     },
     "countries": {

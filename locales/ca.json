@@ -447,10 +447,6 @@
         "confirmation_number": "Número de confirmació:",
         "submitted_at": "Enviada:",
         "refund_amount": "Import del reemborsament:",
-        "next_steps_title": "Què passa a continuació?",
-        "step_1": "Rebreu un correu electrònic de confirmació amb els detalls del vostre desistiment.",
-        "step_2": "El comerciant revisarà la vostra sol·licitud i pot posar-se en contacte amb vós amb instruccions de devolució.",
-        "step_3": "El reemborsament es processarà en un termini de 14 dies (o un cop rebuts els béns retornats, si escau).",
         "close": "Tancar"
     },
     "countries": {

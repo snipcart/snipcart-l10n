@@ -447,10 +447,6 @@
         "confirmation_number": "Potvrzovací číslo:",
         "submitted_at": "Odesláno:",
         "refund_amount": "Částka refundace:",
-        "next_steps_title": "Co bude následovat?",
-        "step_1": "Obdržíte potvrzovací e-mail s podrobnostmi o Vašem odstoupení.",
-        "step_2": "Prodejce posoudí Vaši žádost a může Vás kontaktovat ohledně pokynů k vrácení zboží.",
-        "step_3": "Vaše refundace bude zpracována do 14 dnů (nebo po obdržení vráceného zboží, pokud to bude relevantní).",
         "close": "Zavřít"
     },
     "countries": {

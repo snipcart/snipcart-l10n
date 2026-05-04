@@ -452,10 +452,6 @@
         "confirmation_number": "Vahvistusnumero:",
         "submitted_at": "Lähetetty:",
         "refund_amount": "Palautuksen määrä:",
-        "next_steps_title": "Mitä tapahtuu seuraavaksi?",
-        "step_1": "Saat vahvistussähköpostin, jossa on tiedot peruutuksestasi.",
-        "step_2": "Myyjä käsittelee pyyntösi ja voi ottaa sinuun yhteyttä palautusohjeiden osalta.",
-        "step_3": "Palautuksesi käsitellään 14 päivän kuluessa (tai palautettujen tuotteiden vastaanottamisen jälkeen, jos sovellettavissa).",
         "close": "Sulje"
     },
     "countries": {

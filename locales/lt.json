@@ -447,10 +447,6 @@
         "confirmation_number": "Patvirtinimo numeris:",
         "submitted_at": "Pateikta:",
         "refund_amount": "Grąžinimo suma:",
-        "next_steps_title": "Kas bus toliau?",
-        "step_1": "Gausite patvirtinimo el. laišką su atsisakymo informacija.",
-        "step_2": "Pardavėjas peržiūrės jūsų prašymą ir gali su jumis susisiekti dėl grąžinimo nurodymų.",
-        "step_3": "Jūsų grąžinimas bus apdorotas per 14 dienų (arba gavus grąžintas prekes, jei taikoma).",
         "close": "Uždaryti"
     },
     "countries": {

@@ -447,10 +447,6 @@
         "confirmation_number": "Numero di conferma:",
         "submitted_at": "Inviata il:",
         "refund_amount": "Importo del rimborso:",
-        "next_steps_title": "Quali sono i prossimi passi?",
-        "step_1": "Riceverai un'email di conferma con i dettagli del tuo recesso.",
-        "step_2": "Il venditore esaminerà la tua richiesta e potrà contattarti riguardo alle istruzioni per la restituzione.",
-        "step_3": "Il rimborso sarà elaborato entro 14 giorni (o al ricevimento dei beni restituiti, se applicabile).",
         "close": "Chiudi"
     },
     "countries": {

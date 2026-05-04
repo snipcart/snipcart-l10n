@@ -447,10 +447,6 @@
         "confirmation_number": "Təsdiq nömrəsi:",
         "submitted_at": "Göndərildi:",
         "refund_amount": "Geri ödəmə məbləği:",
-        "next_steps_title": "Növbəti addımlar",
-        "step_1": "İmtina təfərrüatlarınızla birlikdə təsdiq e-poçtu alacaqsınız.",
-        "step_2": "Satıcı sorğunuzu nəzərdən keçirəcək və geri qaytarma təlimatları ilə bağlı sizinlə əlaqə saxlaya bilər.",
-        "step_3": "Geri ödəməniz 14 gün ərzində emal olunacaq (və ya tətbiq olunarsa, qaytarılan malların alınmasından sonra).",
         "close": "Bağla"
     },
     "countries": {

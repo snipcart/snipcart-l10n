@@ -447,10 +447,6 @@
         "confirmation_number": "Rhif Cadarnhau:",
         "submitted_at": "Cyflwynwyd:",
         "refund_amount": "Swm yr Ad-daliad:",
-        "next_steps_title": "Beth fydd yn Digwydd Nesaf?",
-        "step_1": "Byddwch yn derbyn e-bost cadarnhau gyda manylion eich tynnu'n ôl.",
-        "step_2": "Bydd y masnachwr yn adolygu'ch cais ac efallai y bydd yn cysylltu â chi ynghylch cyfarwyddiadau dychwelyd.",
-        "step_3": "Caiff eich ad-daliad ei brosesu o fewn 14 diwrnod (neu wrth dderbyn y nwyddau a ddychwelwyd, os yw'n berthnasol).",
         "close": "Cau"
     },
     "countries": {

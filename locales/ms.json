@@ -447,10 +447,6 @@
         "confirmation_number": "Nombor Pengesahan:",
         "submitted_at": "Dihantar:",
         "refund_amount": "Jumlah Bayaran Balik:",
-        "next_steps_title": "Apa yang Akan Berlaku Seterusnya?",
-        "step_1": "Anda akan menerima e-mel pengesahan dengan butiran penarikan diri anda.",
-        "step_2": "Peniaga akan menyemak permintaan anda dan mungkin menghubungi anda mengenai arahan pemulangan.",
-        "step_3": "Bayaran balik anda akan diproses dalam tempoh 14 hari (atau selepas penerimaan barang yang dipulangkan, jika berkenaan).",
         "close": "Tutup"
     },
     "countries": {
@@ -497,7 +493,7 @@
             "name": "Aruba"
         },
         "AX": {
-            "name": "\u00c5land"
+            "name": "Åland"
         },
         "AZ": {
             "name": "Azerbaijan"
@@ -530,7 +526,7 @@
             "name": "Benin"
         },
         "BL": {
-            "name": "Saint Barth\u00e9lemy"
+            "name": "Saint Barthélemy"
         },
         "BM": {
             "name": "Bermuda"
@@ -611,7 +607,7 @@
             "name": "Tanjung Verde"
         },
         "CW": {
-            "name": "Cura\u00e7ao"
+            "name": "Curaçao"
         },
         "CX": {
             "name": "Pulau Krismas"
@@ -1019,7 +1015,7 @@
             "name": "Qatar"
         },
         "RE": {
-            "name": "R\u00e9union"
+            "name": "Réunion"
         },
         "RO": {
             "name": "Romania"
@@ -1082,7 +1078,7 @@
             "name": "Sudan Selatan"
         },
         "ST": {
-            "name": "S\u00e3o Tom\u00e9 dan Pr\u00edncipe"
+            "name": "São Tomé dan Príncipe"
         },
         "SV": {
             "name": "El Salvador"

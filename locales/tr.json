@@ -453,10 +453,6 @@
         "confirmation_number": "Onay Numarası:",
         "submitted_at": "Gönderildi:",
         "refund_amount": "İade Tutarı:",
-        "next_steps_title": "Sırada Ne Var?",
-        "step_1": "Cayma detaylarınızı içeren bir onay e-postası alacaksınız.",
-        "step_2": "Satıcı talebinizi inceleyecek ve iade talimatları için sizinle iletişime geçebilir.",
-        "step_3": "İadeniz 14 gün içinde (veya iade edilen malların alınmasının ardından, geçerliyse) işleme alınacaktır.",
         "close": "Kapat"
     },
     "countries": {

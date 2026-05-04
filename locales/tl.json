@@ -447,10 +447,6 @@
         "confirmation_number": "Numero ng Kumpirmasyon:",
         "submitted_at": "Naipasa:",
         "refund_amount": "Halaga ng Refund:",
-        "next_steps_title": "Ano ang Susunod na Mangyayari?",
-        "step_1": "Makakatanggap ka ng kumpirmasyong email kasama ang mga detalye ng iyong withdrawal.",
-        "step_2": "Susuriin ng nagbebenta ang iyong kahilingan at maaaring makipag-ugnayan sa iyo tungkol sa mga tagubilin para sa pagsasauli.",
-        "step_3": "Ang iyong refund ay ipoproseso sa loob ng 14 na araw (o sa pagtanggap ng mga isinaulit na item, kung naaangkop).",
         "close": "Isara"
     },
     "countries": {

@@ -447,10 +447,6 @@
         "confirmation_number": "Bekræftelsesnummer:",
         "submitted_at": "Indsendt:",
         "refund_amount": "Refunderingsbeløb:",
-        "next_steps_title": "Hvad sker der nu?",
-        "step_1": "Du modtager en bekræftelses-e-mail med oplysninger om din fortrydelse.",
-        "step_2": "Forhandleren vil vurdere din anmodning og kan kontakte dig vedrørende returinstruktioner.",
-        "step_3": "Din refundering vil blive behandlet inden for 14 dage (eller efter modtagelse af de returnerede varer, hvis det er relevant).",
         "close": "Luk"
     },
     "countries": {

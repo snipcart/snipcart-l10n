@@ -447,10 +447,6 @@
         "confirmation_number": "Numri i konfirmimit:",
         "submitted_at": "Dorëzuar:",
         "refund_amount": "Shuma e rimbursimit:",
-        "next_steps_title": "Çfarë ndodh më pas?",
-        "step_1": "Do të merrni një email konfirmimi me detajet e tërheqjes suaj.",
-        "step_2": "Tregtari do ta shqyrtojë kërkesën tuaj dhe mund t’ju kontaktojë në lidhje me udhëzimet për kthimin.",
-        "step_3": "Rimbursimi juaj do të përpunohet brenda 14 ditësh (ose pas marrjes së mallit të kthyer, nëse është e zbatueshme).",
         "close": "Mbyll"
     },
     "countries": {

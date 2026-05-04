@@ -447,10 +447,6 @@
         "confirmation_number": "Apstiprinājuma numurs:",
         "submitted_at": "Iesniegts:",
         "refund_amount": "Atmaksas summa:",
-        "next_steps_title": "Kas notiks tālāk?",
-        "step_1": "Jūs saņemsiet apstiprinājuma e-pastu ar atteikuma informāciju.",
-        "step_2": "Tirgotājs izskatīs jūsu pieprasījumu un, iespējams, sazināsies ar jums par atgriešanas norādījumiem.",
-        "step_3": "Jūsu atmaksa tiks apstrādāta 14 dienu laikā (vai pēc atgriezto preču saņemšanas, ja attiecas).",
         "close": "Aizvērt"
     },
     "countries": {

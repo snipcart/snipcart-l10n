@@ -418,8 +418,6 @@
     "withdrawal_success": {
         "title": "Pedido de desistência enviado",
         "message": "O seu pedido de desistência foi enviado com sucesso. Receberá em breve um email de confirmação.",
-        "submitted_at": "Enviado em:",
-        "step_1": "Receberá um email de confirmação com os detalhes da sua desistência.",
-        "step_2": "O comerciante irá analisar o seu pedido e poderá contactá-lo com instruções de devolução."
+        "submitted_at": "Enviado em:"
     }
 }
