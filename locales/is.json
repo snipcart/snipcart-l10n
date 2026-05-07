@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Endurheimt lykilorðs tókn er ógilt.",
         "customer_not_found": "Netfangið er ekki tengt neinum reikningi.",
         "invalid_credentials": "Ógilt netfang eða lykilorð.",
-        "customer_current_password_invalid": "Ógilt lykilorð."
+        "customer_current_password_invalid": "Ógilt lykilorð.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Við gátum ekki staðfest upplýsingarnar þínar.",
+                "description": "Athugaðu nafnið þitt, tölvupóstfangið og pöntunarnúmerið og reyndu aftur."
+            },
+            "confirm_failed": {
+                "title": "Við gátum ekki afgreitt afturköllunarbeiðni þína.",
+                "description": "Reyndu aftur eða hafðu samband við söluaðilann."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Hleð sendingargjöldum"
@@ -419,13 +429,11 @@
         "instructions": "Skráðu pöntunarupplýsingarnar þínar til að óska eftir afturköllun samkvæmt tilskipun ESB um neytendaréttindi.",
         "name": "Nafn þitt",
         "order_id": "Pöntunarnúmer / Reikningsnúmer",
-        "email": "Tölvupóstfang",
-        "error_validation_failed": "Við gátum ekki staðfest upplýsingarnar þínar. Athugaðu nafnið þitt, tölvupóstfangið og pöntunarnúmerið og reyndu aftur.",
-        "error_generic": "Eitthvað fór úrskeiðis. Reyndu aftur eða hafðu samband við söluaðilann ef vandamálið heldur áfram."
+        "email": "Tölvupóstfang"
     },
     "withdrawal_confirm": {
         "title": "Staðfesta afturköllun",
-        "warning_title": "Athugið:",
+        "warning_title": "Athugið",
         "warning_message": "Þessi pöntun er utan 14 daga afturköllunarfrestsins. Söluaðilinn mun yfirfara beiðni þína.",
         "order_details": "Pöntunarupplýsingar",
         "order_number": "Pöntunarnúmer:",
@@ -437,9 +445,7 @@
         "back": "Til baka",
         "processing": "Vinnur…",
         "confirm": "Staðfesta afturköllun",
-        "legal_notice": "Með því að staðfesta nýtir þú rétt þinn til að falla frá þessum samningi samkvæmt tilskipun ESB um neytendaréttindi. Endurgreiðslur eru afgreiddar innan 14 daga.",
-        "error_failed": "Við gátum ekki afgreitt afturköllunarbeiðni þína. Reyndu aftur eða hafðu samband við söluaðilann.",
-        "error_generic": "Eitthvað fór úrskeiðis. Reyndu aftur."
+        "legal_notice": "Með því að staðfesta nýtir þú rétt þinn til að falla frá þessum samningi samkvæmt tilskipun ESB um neytendaréttindi. Endurgreiðslur eru afgreiddar innan 14 daga."
     },
     "withdrawal_success": {
         "title": "Afturköllunarbeiðni send",

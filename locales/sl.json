@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Vaša povezava za ponovno nastavitev gesla je neveljavna.",
         "customer_not_found": "Ta e-naslov ni uporabljen.",
         "invalid_credentials": "Neveljaven e-naslov ali geslo.",
-        "customer_current_password_invalid": "Neveljavno geslo."
+        "customer_current_password_invalid": "Neveljavno geslo.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Vaših podatkov nismo mogli preveriti.",
+                "description": "Preverite svoje ime, e-poštni naslov in številko naročila, nato poskusite znova."
+            },
+            "confirm_failed": {
+                "title": "Vaše zahteve za odstop nismo mogli obdelati.",
+                "description": "Poskusite znova ali se obrnite na trgovca."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Nalagam ceno dostave"
@@ -419,13 +429,11 @@
         "instructions": "Vnesite podatke o svojem naročilu, da boste lahko vložili zahtevo za odstop v skladu z Direktivo o pravicah potrošnikov EU.",
         "name": "Vaše ime",
         "order_id": "Številka naročila / številka računa",
-        "email": "E-poštni naslov",
-        "error_validation_failed": "Vaših podatkov nismo mogli preveriti. Preverite svoje ime, e-poštni naslov in številko naročila, nato poskusite znova.",
-        "error_generic": "Prišlo je do napake. Poskusite znova ali se obrnite na trgovca, če težava ne izgine."
+        "email": "E-poštni naslov"
     },
     "withdrawal_confirm": {
         "title": "Potrdi odstop",
-        "warning_title": "Opomba:",
+        "warning_title": "Opomba",
         "warning_message": "To naročilo je zunaj 14-dnevnega roka za odstop. Trgovec bo pregledal Vašo zahtevo.",
         "order_details": "Podrobnosti naročila",
         "order_number": "Številka naročila:",
@@ -437,9 +445,7 @@
         "back": "Nazaj",
         "processing": "Obdelava…",
         "confirm": "Potrdi odstop",
-        "legal_notice": "S potrditvijo uveljavljate svojo pravico do odstopa od te pogodbe v skladu z Direktivo o pravicah potrošnikov EU. Vračila se obdelajo v 14 dneh.",
-        "error_failed": "Vaše zahteve za odstop nismo mogli obdelati. Poskusite znova ali se obrnite na trgovca.",
-        "error_generic": "Prišlo je do napake. Poskusite znova."
+        "legal_notice": "S potrditvijo uveljavljate svojo pravico do odstopa od te pogodbe v skladu z Direktivo o pravicah potrošnikov EU. Vračila se obdelajo v 14 dneh."
     },
     "withdrawal_success": {
         "title": "Zahteva za odstop poslana",

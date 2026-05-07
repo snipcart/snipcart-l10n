@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Token pemulihan kata sandi Anda tidak valid.",
         "customer_not_found": "Alamat email tidak terkait dengan akun mana pun.",
         "invalid_credentials": "Email atau kata sandi tidak valid.",
-        "customer_current_password_invalid": "Kata sandi tidak valid."
+        "customer_current_password_invalid": "Kata sandi tidak valid.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Kami tidak dapat memverifikasi data Anda.",
+                "description": "Mohon periksa nama, email, dan nomor pesanan Anda, lalu coba lagi."
+            },
+            "confirm_failed": {
+                "title": "Kami tidak dapat memproses permintaan penarikan Anda.",
+                "description": "Silakan coba lagi atau hubungi penjual."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Memuat tarif pengiriman"
@@ -419,13 +429,11 @@
         "instructions": "Masukkan detail pesanan Anda untuk mengajukan penarikan diri berdasarkan Direktif Hak Konsumen UE.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nomor Faktur",
-        "email": "Alamat Email",
-        "error_validation_failed": "Kami tidak dapat memverifikasi data Anda. Mohon periksa nama, email, dan nomor pesanan Anda, lalu coba lagi.",
-        "error_generic": "Terjadi kesalahan. Silakan coba lagi atau hubungi penjual jika masalah berlanjut."
+        "email": "Alamat Email"
     },
     "withdrawal_confirm": {
         "title": "Konfirmasi Penarikan Diri",
-        "warning_title": "Catatan:",
+        "warning_title": "Catatan",
         "warning_message": "Pesanan ini telah melewati periode penarikan 14 hari. Penjual akan meninjau permintaan Anda.",
         "order_details": "Detail Pesanan",
         "order_number": "Nomor Pesanan:",
@@ -437,9 +445,7 @@
         "back": "Kembali",
         "processing": "Memproses…",
         "confirm": "Konfirmasi Penarikan Diri",
-        "legal_notice": "Dengan mengonfirmasi, Anda menggunakan hak Anda untuk menarik diri dari kontrak ini berdasarkan Direktif Hak Konsumen UE. Pengembalian dana diproses dalam waktu 14 hari.",
-        "error_failed": "Kami tidak dapat memproses permintaan penarikan Anda. Silakan coba lagi atau hubungi penjual.",
-        "error_generic": "Terjadi kesalahan. Silakan coba lagi."
+        "legal_notice": "Dengan mengonfirmasi, Anda menggunakan hak Anda untuk menarik diri dari kontrak ini berdasarkan Direktif Hak Konsumen UE. Pengembalian dana diproses dalam waktu 14 hari."
     },
     "withdrawal_success": {
         "title": "Permintaan Penarikan Telah Dikirim",

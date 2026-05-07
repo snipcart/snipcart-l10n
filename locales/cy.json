@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Nid yw'r ddolen ailosod cyfrinair yn ddilys.",
         "customer_not_found": "Nid oes cyfrif yn gysylltiedig â'r cyfeiriad e-bost hwn.",
         "invalid_credentials": "Mae'r e-bost neu'r cyfrinair yn anghywir.",
-        "customer_current_password_invalid": "Mae'r cyfrinair presennol yn anghywir."
+        "customer_current_password_invalid": "Mae'r cyfrinair presennol yn anghywir.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Methwyd dilysu'ch manylion.",
+                "description": "Gwiriwch eich enw, eich cyfeiriad e-bost a rhif eich archeb, ac yna rhowch gynnig arall arni."
+            },
+            "confirm_failed": {
+                "title": "Methwyd prosesu'ch cais tynnu'n ôl.",
+                "description": "Rhowch gynnig arall arni neu cysylltwch â'r masnachwr."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Yn llwytho..."
@@ -419,13 +429,11 @@
         "instructions": "Rhowch fanylion eich archeb i wneud cais i dynnu'n ôl o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE.",
         "name": "Eich Enw",
         "order_id": "ID yr Archeb / Rhif yr Anfoneb",
-        "email": "Cyfeiriad E-bost",
-        "error_validation_failed": "Methwyd dilysu'ch manylion. Gwiriwch eich enw, eich cyfeiriad e-bost a rhif eich archeb, ac yna rhowch gynnig arall arni.",
-        "error_generic": "Aeth rhywbeth o'i le. Rhowch gynnig arall arni neu cysylltwch â'r masnachwr os yw'r broblem yn parhau."
+        "email": "Cyfeiriad E-bost"
     },
     "withdrawal_confirm": {
         "title": "Cadarnhau Tynnu'n Ôl",
-        "warning_title": "Sylwer:",
+        "warning_title": "Sylwer",
         "warning_message": "Mae'r archeb hon y tu allan i'r cyfnod tynnu'n ôl o 14 diwrnod. Bydd y masnachwr yn adolygu'ch cais.",
         "order_details": "Manylion yr Archeb",
         "order_number": "Rhif yr Archeb:",
@@ -437,9 +445,7 @@
         "back": "Yn Ôl",
         "processing": "Yn Prosesu…",
         "confirm": "Cadarnhau Tynnu'n Ôl",
-        "legal_notice": "Drwy gadarnhau, rydych yn arfer eich hawl i dynnu'n ôl o'r contract hwn o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE. Caiff ad-daliadau eu prosesu o fewn 14 diwrnod.",
-        "error_failed": "Methwyd prosesu'ch cais tynnu'n ôl. Rhowch gynnig arall arni neu cysylltwch â'r masnachwr.",
-        "error_generic": "Aeth rhywbeth o'i le. Rhowch gynnig arall arni."
+        "legal_notice": "Drwy gadarnhau, rydych yn arfer eich hawl i dynnu'n ôl o'r contract hwn o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE. Caiff ad-daliadau eu prosesu o fewn 14 diwrnod."
     },
     "withdrawal_success": {
         "title": "Cais Tynnu'n Ôl wedi'i Gyflwyno",

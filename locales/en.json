@@ -1080,6 +1080,16 @@
                 "description": "The cart can only contain either items or a subscription."
             }
         },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "We couldn't verify your details.",
+                "description": "Check your email and order number, then try again."
+            },
+            "confirm_failed": {
+                "title": "We couldn't process your withdrawal request.",
+                "description": "Please try again or contact the merchant if the issue persists."
+            }
+        },
         "customer_exists": "This email is already used.",
         "customer_password_missmatch": "The two passwords must match.",
         "customer_password_token_expired": "Your password recovery token has expired.",
@@ -1110,13 +1120,11 @@
         "name": "Your Name",
         "order_id": "Order ID / Invoice Number",
         "email": "Email Address",
-        "continue": "Continue",
-        "error_validation_failed": "We couldn't verify your details. Check your email and order number.",
-        "error_generic": "Something went wrong. Please try again or contact the merchant if the issue persists."
+        "continue": "Continue"
     },
     "withdrawal_confirm": {
         "title": "Confirm Withdrawal",
-        "warning_title": "Note:",
+        "warning_title": "Note",
         "warning_message": "This order is outside the 14-day withdrawal period. The merchant will review your request.",
         "order_details": "Order Details",
         "order_number": "Order Number:",
@@ -1128,9 +1136,7 @@
         "back": "Back",
         "processing": "Processing…",
         "confirm": "Confirm Withdrawal",
-        "legal_notice": "By confirming, you are exercising your right to withdraw from this contract under the EU Consumer Rights Directive. Refunds are processed within 14 days.",
-        "error_failed": "We couldn't process your withdrawal request. Please try again or contact the merchant.",
-        "error_generic": "Something went wrong. Please try again."
+        "legal_notice": "By confirming, you are exercising your right to withdraw from this contract under the EU Consumer Rights Directive. Refunds are processed within 14 days."
     },
     "withdrawal_success": {
         "title": "Withdrawal Request Submitted",

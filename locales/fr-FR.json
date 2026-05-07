@@ -315,7 +315,17 @@
         "customer_password_token_invalid": "Votre code de récupération de mot de passe n’est pas valide.",
         "customer_not_found": "L’adresse de courriel n’est associée à aucun compte.",
         "invalid_credentials": "Adresse de courriel ou mot de passe non valide.",
-        "customer_current_password_invalid": "Mot de passe non valide."
+        "customer_current_password_invalid": "Mot de passe non valide.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nous n’avons pas pu vérifier vos informations.",
+                "description": "Veuillez vérifier votre nom, votre e-mail et votre numéro de commande, puis réessayer."
+            },
+            "confirm_failed": {
+                "title": "Nous n’avons pas pu traiter votre demande de rétractation.",
+                "description": "Veuillez réessayer ou contacter le marchand."
+            }
+        }
     },
     "customer_orders": {
         "loading": "Chargement…"
@@ -328,12 +338,7 @@
         "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés une fois l’adresse fournie."
     },
     "withdrawal_form": {
-        "email": "Adresse e-mail",
-        "error_validation_failed": "Nous n’avons pas pu vérifier vos informations. Veuillez vérifier votre nom, votre e-mail et votre numéro de commande, puis réessayer.",
-        "error_generic": "Une erreur est survenue. Veuillez réessayer ou contacter le marchand si le problème persiste."
-    },
-    "withdrawal_confirm": {
-        "error_failed": "Nous n’avons pas pu traiter votre demande de rétractation. Veuillez réessayer ou contacter le marchand."
+        "email": "Adresse e-mail"
     },
     "withdrawal_success": {
         "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un e-mail de confirmation."

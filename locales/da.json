@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Linket til nulstilling af adgangskode er ugyldigt.",
         "customer_not_found": "E-mailadressen er ikke knyttet til en konto.",
         "invalid_credentials": "Ugylding email eller kode.",
-        "customer_current_password_invalid": "Ugyldig adgangskode."
+        "customer_current_password_invalid": "Ugyldig adgangskode.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Vi kunne ikke bekræfte dine oplysninger.",
+                "description": "Kontrollér dit navn, din e-mailadresse og dit ordrenummer, og prøv igen."
+            },
+            "confirm_failed": {
+                "title": "Vi kunne ikke behandle din fortrydelsesanmodning.",
+                "description": "Prøv igen, eller kontakt forhandleren."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Indlæser..."
@@ -419,13 +429,11 @@
         "instructions": "Indtast dine ordreoplysninger for at anmode om fortrydelse i henhold til EU's forbrugerrettighedsdirektiv.",
         "name": "Dit navn",
         "order_id": "Ordre-ID / Fakturanummer",
-        "email": "E-mailadresse",
-        "error_validation_failed": "Vi kunne ikke bekræfte dine oplysninger. Kontrollér dit navn, din e-mailadresse og dit ordrenummer, og prøv igen.",
-        "error_generic": "Noget gik galt. Prøv igen, eller kontakt forhandleren, hvis problemet fortsætter."
+        "email": "E-mailadresse"
     },
     "withdrawal_confirm": {
         "title": "Bekræft fortrydelse",
-        "warning_title": "Bemærk:",
+        "warning_title": "Bemærk",
         "warning_message": "Denne ordre er uden for fortrydelsesfristen på 14 dage. Forhandleren vil vurdere din anmodning.",
         "order_details": "Ordreoplysninger",
         "order_number": "Ordrenummer:",
@@ -437,9 +445,7 @@
         "back": "Tilbage",
         "processing": "Behandler…",
         "confirm": "Bekræft fortrydelse",
-        "legal_notice": "Ved at bekræfte udøver du din ret til at træde tilbage fra denne aftale i henhold til EU's forbrugerrettighedsdirektiv. Refunderinger behandles inden for 14 dage.",
-        "error_failed": "Vi kunne ikke behandle din fortrydelsesanmodning. Prøv igen, eller kontakt forhandleren.",
-        "error_generic": "Noget gik galt. Prøv igen."
+        "legal_notice": "Ved at bekræfte udøver du din ret til at træde tilbage fra denne aftale i henhold til EU's forbrugerrettighedsdirektiv. Refunderinger behandles inden for 14 dage."
     },
     "withdrawal_success": {
         "title": "Fortrydelsesanmodning indsendt",

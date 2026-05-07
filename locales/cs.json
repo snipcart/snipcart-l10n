@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Neplatný token pro obnovu hesla.",
         "customer_not_found": "Tento email není přiřazen k žádnému účtu.",
         "invalid_credentials": "Nesprávný email nebo heslo.",
-        "customer_current_password_invalid": "Nesprávné heslo."
+        "customer_current_password_invalid": "Nesprávné heslo.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nepodařilo se nám ověřit Vaše údaje.",
+                "description": "Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu."
+            },
+            "confirm_failed": {
+                "title": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení.",
+                "description": "Zkuste to prosím znovu, nebo se obraťte na prodejce."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Načítání..."
@@ -419,13 +429,11 @@
         "instructions": "Zadejte údaje o své objednávce, abyste mohli požádat o odstoupení od smlouvy podle Směrnice o právech spotřebitelů EU.",
         "name": "Vaše jméno",
         "order_id": "Číslo objednávky / číslo faktury",
-        "email": "E-mailová adresa",
-        "error_validation_failed": "Nepodařilo se nám ověřit Vaše údaje. Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu.",
-        "error_generic": "Něco se pokazilo. Zkuste to prosím znovu, nebo se obraťte na prodejce, pokud problém přetrvává."
+        "email": "E-mailová adresa"
     },
     "withdrawal_confirm": {
         "title": "Potvrdit odstoupení",
-        "warning_title": "Upozornění:",
+        "warning_title": "Upozornění",
         "warning_message": "Tato objednávka je mimo 14denní lhůtu pro odstoupení. Prodejce Vaši žádost posoudí.",
         "order_details": "Podrobnosti objednávky",
         "order_number": "Číslo objednávky:",
@@ -437,9 +445,7 @@
         "back": "Zpět",
         "processing": "Zpracování…",
         "confirm": "Potvrdit odstoupení",
-        "legal_notice": "Potvrzením uplatňujete své právo odstoupit od této smlouvy podle Směrnice o právech spotřebitelů EU. Refundace jsou zpracovávány do 14 dnů.",
-        "error_failed": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení. Zkuste to prosím znovu, nebo se obraťte na prodejce.",
-        "error_generic": "Něco se pokazilo. Zkuste to prosím znovu."
+        "legal_notice": "Potvrzením uplatňujete své právo odstoupit od této smlouvy podle Směrnice o právech spotřebitelů EU. Refundace jsou zpracovávány do 14 dnů."
     },
     "withdrawal_success": {
         "title": "Žádost o odstoupení odeslána",

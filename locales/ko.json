@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "비밀번호 재설정 링크가 유효하지 않습니다.",
         "customer_not_found": "이 이메일 주소와 연결된 계정이 없습니다.",
         "invalid_credentials": "이메일 또는 비밀번호가 잘못되었습니다.",
-        "customer_current_password_invalid": "현재 비밀번호가 잘못되었습니다."
+        "customer_current_password_invalid": "현재 비밀번호가 잘못되었습니다.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "입력하신 정보를 확인할 수 없습니다.",
+                "description": "성함, 이메일, 주문 번호를 확인하신 후 다시 시도해 주십시오."
+            },
+            "confirm_failed": {
+                "title": "철회 요청을 처리할 수 없습니다.",
+                "description": "다시 시도하시거나 판매자에게 문의해 주십시오."
+            }
+        }
     },
     "shippingRates": {
         "loading": "로딩 중..."
@@ -419,9 +429,7 @@
         "instructions": "EU 소비자권리지침에 따라 철회를 요청하시려면 주문 정보를 입력해 주십시오.",
         "name": "성함",
         "order_id": "주문 ID / 청구서 번호",
-        "email": "이메일 주소",
-        "error_validation_failed": "입력하신 정보를 확인할 수 없습니다. 성함, 이메일, 주문 번호를 확인하신 후 다시 시도해 주십시오.",
-        "error_generic": "문제가 발생했습니다. 다시 시도하시거나 문제가 지속되면 판매자에게 문의해 주십시오."
+        "email": "이메일 주소"
     },
     "withdrawal_confirm": {
         "title": "철회 확인",
@@ -437,9 +445,7 @@
         "back": "뒤로",
         "processing": "처리 중…",
         "confirm": "철회 확정",
-        "legal_notice": "확정 시 EU 소비자권리지침에 따른 본 계약의 철회권을 행사하는 것으로 간주됩니다. 환불은 14일 이내에 처리됩니다.",
-        "error_failed": "철회 요청을 처리할 수 없습니다. 다시 시도하시거나 판매자에게 문의해 주십시오.",
-        "error_generic": "문제가 발생했습니다. 다시 시도해 주십시오."
+        "legal_notice": "확정 시 EU 소비자권리지침에 따른 본 계약의 철회권을 행사하는 것으로 간주됩니다. 환불은 14일 이내에 처리됩니다."
     },
     "withdrawal_success": {
         "title": "철회 요청이 접수되었습니다",

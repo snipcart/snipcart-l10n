@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Tokeni juaj i rikuperimit të fjalëkalimit është i pavlefshëm.",
         "customer_not_found": "Adresa e emailit nuk është e lidhur me asnjë llogari.",
         "invalid_credentials": "Email ose fjalëkalim i pavlefshëm.",
-        "customer_current_password_invalid": "Fjalëkalim i pavlefshëm."
+        "customer_current_password_invalid": "Fjalëkalim i pavlefshëm.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nuk arritëm të verifikojmë të dhënat tuaja.",
+                "description": "Ju lutemi kontrolloni emrin, adresën e emailit dhe numrin e porosisë, pastaj provoni përsëri."
+            },
+            "confirm_failed": {
+                "title": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje.",
+                "description": "Ju lutemi provoni përsëri ose kontaktoni tregtarin."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Duke ngarkuar tarifat e transportit"
@@ -419,13 +429,11 @@
         "instructions": "Vendosni të dhënat e porosisë suaj për të paraqitur një kërkesë për tërheqje sipas Direktivës për të drejtat e konsumatorëve të BE-së.",
         "name": "Emri juaj",
         "order_id": "Numri i porosisë / numri i faturës",
-        "email": "Adresa e emailit",
-        "error_validation_failed": "Nuk arritëm të verifikojmë të dhënat tuaja. Ju lutemi kontrolloni emrin, adresën e emailit dhe numrin e porosisë, pastaj provoni përsëri.",
-        "error_generic": "Diçka shkoi keq. Ju lutemi provoni përsëri ose kontaktoni tregtarin nëse problemi vazhdon."
+        "email": "Adresa e emailit"
     },
     "withdrawal_confirm": {
         "title": "Konfirmo tërheqjen",
-        "warning_title": "Vërejtje:",
+        "warning_title": "Vërejtje",
         "warning_message": "Kjo porosi është jashtë periudhës 14-ditore të tërheqjes. Tregtari do ta shqyrtojë kërkesën tuaj.",
         "order_details": "Detajet e porosisë",
         "order_number": "Numri i porosisë:",
@@ -437,9 +445,7 @@
         "back": "Mbrapa",
         "processing": "Përpunim…",
         "confirm": "Konfirmo tërheqjen",
-        "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh.",
-        "error_failed": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje. Ju lutemi provoni përsëri ose kontaktoni tregtarin.",
-        "error_generic": "Diçka shkoi keq. Ju lutemi provoni përsëri."
+        "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh."
     },
     "withdrawal_success": {
         "title": "Kërkesa për tërheqje u dorëzua",

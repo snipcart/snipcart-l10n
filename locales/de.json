@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Der Wiederherstellungs-Token für Ihr Passwort ist ungültig.",
         "customer_not_found": "Die E-Mail-Adresse konnte keinem Konto zugeordnet werden.",
         "invalid_credentials": "Ungültige E-Mail-Adresse oder Passwort.",
-        "customer_current_password_invalid": "Ungültiges Passwort."
+        "customer_current_password_invalid": "Ungültiges Passwort.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Wir konnten Ihre Angaben nicht überprüfen.",
+                "description": "Bitte überprüfen Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Bestellnummer und versuchen Sie es erneut."
+            },
+            "confirm_failed": {
+                "title": "Wir konnten Ihre Widerrufsanfrage nicht bearbeiten.",
+                "description": "Bitte versuchen Sie es erneut oder wenden Sie sich an den Händler."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Versandkosten werden geladen"
@@ -419,13 +429,11 @@
         "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäß der EU-Verbraucherrechterichtlinie zu beantragen.",
         "name": "Ihr Name",
         "order_id": "Bestellnummer / Rechnungsnummer",
-        "email": "E-Mail-Adresse",
-        "error_validation_failed": "Wir konnten Ihre Angaben nicht überprüfen. Bitte überprüfen Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Bestellnummer und versuchen Sie es erneut.",
-        "error_generic": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Händler, falls das Problem weiterhin besteht."
+        "email": "E-Mail-Adresse"
     },
     "withdrawal_confirm": {
         "title": "Widerruf bestätigen",
-        "warning_title": "Hinweis:",
+        "warning_title": "Hinweis",
         "warning_message": "Diese Bestellung liegt außerhalb der 14-tägigen Widerrufsfrist. Der Händler wird Ihre Anfrage prüfen.",
         "order_details": "Bestelldetails",
         "order_number": "Bestellnummer:",
@@ -437,9 +445,7 @@
         "back": "Zurück",
         "processing": "Wird verarbeitet…",
         "confirm": "Widerruf bestätigen",
-        "legal_notice": "Mit der Bestätigung üben Sie Ihr Recht aus, gemäß der EU-Verbraucherrechterichtlinie von diesem Vertrag zurückzutreten. Erstattungen werden innerhalb von 14 Tagen bearbeitet.",
-        "error_failed": "Wir konnten Ihre Widerrufsanfrage nicht bearbeiten. Bitte versuchen Sie es erneut oder wenden Sie sich an den Händler.",
-        "error_generic": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut."
+        "legal_notice": "Mit der Bestätigung üben Sie Ihr Recht aus, gemäß der EU-Verbraucherrechterichtlinie von diesem Vertrag zurückzutreten. Erstattungen werden innerhalb von 14 Tagen bearbeitet."
     },
     "withdrawal_success": {
         "title": "Widerrufsanfrage übermittelt",

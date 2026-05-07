@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Il tuo token di recupero password non è valido.",
         "customer_not_found": "L'indirizzo e-mail non è associato a nessun account.",
         "invalid_credentials": "Email o password non valide.",
-        "customer_current_password_invalid": "Password non valida."
+        "customer_current_password_invalid": "Password non valida.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Non siamo riusciti a verificare i tuoi dati.",
+                "description": "Controlla il tuo nome, l'email e il numero d'ordine, quindi riprova."
+            },
+            "confirm_failed": {
+                "title": "Non siamo riusciti a elaborare la tua richiesta di recesso.",
+                "description": "Riprova o contatta il venditore."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Caricamento delle spese di spedizione"
@@ -419,13 +429,11 @@
         "instructions": "Inserisci i dettagli del tuo ordine per richiedere il recesso ai sensi della Direttiva sui diritti dei consumatori dell'UE.",
         "name": "Il tuo nome",
         "order_id": "Numero d'ordine / fattura",
-        "email": "Indirizzo email",
-        "error_validation_failed": "Non siamo riusciti a verificare i tuoi dati. Controlla il tuo nome, l'email e il numero d'ordine, quindi riprova.",
-        "error_generic": "Si è verificato un errore. Riprova o contatta il venditore se il problema persiste."
+        "email": "Indirizzo email"
     },
     "withdrawal_confirm": {
         "title": "Conferma il recesso",
-        "warning_title": "Nota:",
+        "warning_title": "Nota",
         "warning_message": "Questo ordine è fuori dal termine di recesso di 14 giorni. Il venditore esaminerà la tua richiesta.",
         "order_details": "Dettagli dell'ordine",
         "order_number": "Numero d'ordine:",
@@ -437,9 +445,7 @@
         "back": "Indietro",
         "processing": "Elaborazione in corso…",
         "confirm": "Conferma il recesso",
-        "legal_notice": "Confermando, eserciti il tuo diritto di recesso da questo contratto ai sensi della Direttiva sui diritti dei consumatori dell'UE. I rimborsi vengono elaborati entro 14 giorni.",
-        "error_failed": "Non siamo riusciti a elaborare la tua richiesta di recesso. Riprova o contatta il venditore.",
-        "error_generic": "Si è verificato un errore. Riprova."
+        "legal_notice": "Confermando, eserciti il tuo diritto di recesso da questo contratto ai sensi della Direttiva sui diritti dei consumatori dell'UE. I rimborsi vengono elaborati entro 14 giorni."
     },
     "withdrawal_success": {
         "title": "Richiesta di recesso inviata",

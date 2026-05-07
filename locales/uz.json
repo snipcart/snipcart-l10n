@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Sizdagi parolni yangilash tokeni amal qilmaydi.",
         "customer_not_found": "Bu e-mail hech qanday akkaunt bilan bog'liq emas.",
         "invalid_credentials": "Noto'g'ri elektron pochta yoki parol.",
-        "customer_current_password_invalid": "Noto'g'ri parol."
+        "customer_current_password_invalid": "Noto'g'ri parol.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Ma'lumotlaringizni tasdiqlay olmadik.",
+                "description": "Ismingiz, elektron pochtangiz va buyurtma raqamingizni tekshirib, qayta urinib ko'ring."
+            },
+            "confirm_failed": {
+                "title": "Voz kechish so'rovingizni qayta ishlay olmadik.",
+                "description": "Qayta urinib ko'ring yoki sotuvchi bilan bog'laning."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Yuklanmoqda..."
@@ -419,13 +429,11 @@
         "instructions": "Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida voz kechishni so'rash uchun buyurtma ma'lumotlarini kiriting.",
         "name": "Ismingiz",
         "order_id": "Buyurtma ID / Hisob-faktura raqami",
-        "email": "Elektron pochta manzili",
-        "error_validation_failed": "Ma'lumotlaringizni tasdiqlay olmadik. Ismingiz, elektron pochtangiz va buyurtma raqamingizni tekshirib, qayta urinib ko'ring.",
-        "error_generic": "Xatolik yuz berdi. Qayta urinib ko'ring yoki muammo davom etsa, sotuvchi bilan bog'laning."
+        "email": "Elektron pochta manzili"
     },
     "withdrawal_confirm": {
         "title": "Voz kechishni tasdiqlash",
-        "warning_title": "Diqqat:",
+        "warning_title": "Diqqat",
         "warning_message": "Bu buyurtma 14 kunlik voz kechish muddatidan tashqarida. Sotuvchi so'rovingizni ko'rib chiqadi.",
         "order_details": "Buyurtma tafsilotlari",
         "order_number": "Buyurtma raqami:",
@@ -437,9 +445,7 @@
         "back": "Orqaga",
         "processing": "Qayta ishlanmoqda…",
         "confirm": "Voz kechishni tasdiqlash",
-        "legal_notice": "Tasdiqlash bilan siz Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida ushbu shartnomadan voz kechish huquqingizni amalga oshirmoqdasiz. Pul qaytarishlar 14 kun ichida amalga oshiriladi.",
-        "error_failed": "Voz kechish so'rovingizni qayta ishlay olmadik. Qayta urinib ko'ring yoki sotuvchi bilan bog'laning.",
-        "error_generic": "Xatolik yuz berdi. Qayta urinib ko'ring."
+        "legal_notice": "Tasdiqlash bilan siz Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida ushbu shartnomadan voz kechish huquqingizni amalga oshirmoqdasiz. Pul qaytarishlar 14 kun ichida amalga oshiriladi."
     },
     "withdrawal_success": {
         "title": "Voz kechish so'rovi yuborildi",

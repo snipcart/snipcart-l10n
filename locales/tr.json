@@ -402,6 +402,16 @@
         "no_shipping_rates_found": {
             "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
             "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Bilgilerinizi doğrulayamadık.",
+                "description": "Lütfen adınızı, e-posta adresinizi ve sipariş numaranızı kontrol edip tekrar deneyiniz."
+            },
+            "confirm_failed": {
+                "title": "Cayma talebinizi işleyemedik.",
+                "description": "Lütfen tekrar deneyiniz veya satıcıyla iletişime geçiniz."
+            }
         }
     },
     "shippingRates": {
@@ -425,13 +435,11 @@
         "instructions": "AB Tüketici Hakları Direktifi kapsamında cayma talebi göndermek için sipariş bilgilerinizi giriniz.",
         "name": "Adınız",
         "order_id": "Sipariş Kimliği / Fatura Numarası",
-        "email": "E-posta Adresi",
-        "error_validation_failed": "Bilgilerinizi doğrulayamadık. Lütfen adınızı, e-posta adresinizi ve sipariş numaranızı kontrol edip tekrar deneyiniz.",
-        "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyiniz veya sorun devam ederse satıcıyla iletişime geçiniz."
+        "email": "E-posta Adresi"
     },
     "withdrawal_confirm": {
         "title": "Caymayı Onayla",
-        "warning_title": "Not:",
+        "warning_title": "Not",
         "warning_message": "Bu sipariş 14 günlük cayma süresinin dışındadır. Satıcı talebinizi inceleyecektir.",
         "order_details": "Sipariş Detayları",
         "order_number": "Sipariş Numarası:",
@@ -443,9 +451,7 @@
         "back": "Geri",
         "processing": "İşleniyor…",
         "confirm": "Caymayı Onayla",
-        "legal_notice": "Onaylayarak, AB Tüketici Hakları Direktifi kapsamında bu sözleşmeden cayma hakkınızı kullanıyorsunuz. İadeler 14 gün içinde işleme alınır.",
-        "error_failed": "Cayma talebinizi işleyemedik. Lütfen tekrar deneyiniz veya satıcıyla iletişime geçiniz.",
-        "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyiniz."
+        "legal_notice": "Onaylayarak, AB Tüketici Hakları Direktifi kapsamında bu sözleşmeden cayma hakkınızı kullanıyorsunuz. İadeler 14 gün içinde işleme alınır."
     },
     "withdrawal_success": {
         "title": "Cayma Talebi Gönderildi",

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Jūsų slaptažodžio atstatymo nuoroda negalioja.",
         "customer_not_found": "Šis el. paštas nesusietas su jokia paskyra.",
         "invalid_credentials": "Neteisingas el. paštas arba slaptažodis.",
-        "customer_current_password_invalid": "Neteisingas slaptažodis."
+        "customer_current_password_invalid": "Neteisingas slaptažodis.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Negalėjome patvirtinti jūsų duomenų.",
+                "description": "Prašome patikrinti savo vardą, el. paštą ir užsakymo numerį, tada bandykite dar kartą."
+            },
+            "confirm_failed": {
+                "title": "Negalėjome apdoroti jūsų atsisakymo prašymo.",
+                "description": "Prašome bandyti dar kartą arba susisiekti su pardavėju."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Kraunasi..."
@@ -419,13 +429,11 @@
         "instructions": "Įveskite užsakymo duomenis, kad pateiktumėte atsisakymo prašymą pagal ES Vartotojų teisių direktyvą.",
         "name": "Jūsų vardas",
         "order_id": "Užsakymo ID / sąskaitos numeris",
-        "email": "El. pašto adresas",
-        "error_validation_failed": "Negalėjome patvirtinti jūsų duomenų. Prašome patikrinti savo vardą, el. paštą ir užsakymo numerį, tada bandykite dar kartą.",
-        "error_generic": "Kažkas nepavyko. Prašome bandyti dar kartą arba susisiekti su pardavėju, jei problema išlieka."
+        "email": "El. pašto adresas"
     },
     "withdrawal_confirm": {
         "title": "Patvirtinti atsisakymą",
-        "warning_title": "Pastaba:",
+        "warning_title": "Pastaba",
         "warning_message": "Šis užsakymas yra už 14 dienų atsisakymo laikotarpio ribų. Pardavėjas peržiūrės jūsų prašymą.",
         "order_details": "Užsakymo informacija",
         "order_number": "Užsakymo numeris:",
@@ -437,9 +445,7 @@
         "back": "Atgal",
         "processing": "Apdorojama…",
         "confirm": "Patvirtinti atsisakymą",
-        "legal_notice": "Patvirtindami pasinaudojate teise atsisakyti šios sutarties pagal ES Vartotojų teisių direktyvą. Grąžinimai apdorojami per 14 dienų.",
-        "error_failed": "Negalėjome apdoroti jūsų atsisakymo prašymo. Prašome bandyti dar kartą arba susisiekti su pardavėju.",
-        "error_generic": "Kažkas nepavyko. Prašome bandyti dar kartą."
+        "legal_notice": "Patvirtindami pasinaudojate teise atsisakyti šios sutarties pagal ES Vartotojų teisių direktyvą. Grąžinimai apdorojami per 14 dienų."
     },
     "withdrawal_success": {
         "title": "Atsisakymo prašymas pateiktas",

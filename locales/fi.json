@@ -401,6 +401,16 @@
         "no_shipping_rates_found": {
             "title": "Tilauksellesi ei löytynyt sopivaa toimitustapaa",
             "description": "Tarkista osoitetietosi tai ota yhteyttä."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Emme voineet vahvistaa tietojasi.",
+                "description": "Tarkista nimesi, sähköpostiosoitteesi ja tilausnumerosi ja yritä uudelleen."
+            },
+            "confirm_failed": {
+                "title": "Emme voineet käsitellä peruutuspyyntöäsi.",
+                "description": "Yritä uudelleen tai ota yhteyttä myyjään."
+            }
         }
     },
     "shippingRates": {
@@ -424,13 +434,11 @@
         "instructions": "Anna tilauksesi tiedot pyytääksesi peruuttamista kuluttajan oikeuksia koskevan direktiivin nojalla.",
         "name": "Nimesi",
         "order_id": "Tilaustunnus / Laskun numero",
-        "email": "Sähköpostiosoite",
-        "error_validation_failed": "Emme voineet vahvistaa tietojasi. Tarkista nimesi, sähköpostiosoitteesi ja tilausnumerosi ja yritä uudelleen.",
-        "error_generic": "Jotain meni pieleen. Yritä uudelleen tai ota yhteyttä myyjään, jos ongelma jatkuu."
+        "email": "Sähköpostiosoite"
     },
     "withdrawal_confirm": {
         "title": "Vahvista peruutus",
-        "warning_title": "Huomio:",
+        "warning_title": "Huomio",
         "warning_message": "Tämä tilaus on 14 päivän peruutusajan ulkopuolella. Myyjä käsittelee pyyntösi.",
         "order_details": "Tilauksen tiedot",
         "order_number": "Tilausnumero:",
@@ -442,9 +450,7 @@
         "back": "Takaisin",
         "processing": "Käsitellään…",
         "confirm": "Vahvista peruutus",
-        "legal_notice": "Vahvistamalla käytät oikeuttasi peruuttaa tämä sopimus kuluttajan oikeuksia koskevan direktiivin nojalla. Palautukset käsitellään 14 päivän kuluessa.",
-        "error_failed": "Emme voineet käsitellä peruutuspyyntöäsi. Yritä uudelleen tai ota yhteyttä myyjään.",
-        "error_generic": "Jotain meni pieleen. Yritä uudelleen."
+        "legal_notice": "Vahvistamalla käytät oikeuttasi peruuttaa tämä sopimus kuluttajan oikeuksia koskevan direktiivin nojalla. Palautukset käsitellään 14 päivän kuluessa."
     },
     "withdrawal_success": {
         "title": "Peruutuspyyntö lähetetty",

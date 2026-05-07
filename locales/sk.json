@@ -402,6 +402,16 @@
         "no_shipping_rates_found": {
             "title": "Nie je dostupný spôsob dodania pre Vašu objednávku",
             "description": "Prosíme skontrolujte Vašu dodaciu adresu alebo nás kontaktujte."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nepodarilo sa nám overiť Vaše údaje.",
+                "description": "Skontrolujte prosím svoje meno, e-mailovú adresu a číslo objednávky a skúste to znova."
+            },
+            "confirm_failed": {
+                "title": "Nepodarilo sa nám spracovať Vašu žiadosť o odstúpenie.",
+                "description": "Skúste to prosím znova alebo kontaktujte predajcu."
+            }
         }
     },
     "shippingRates": {
@@ -425,13 +435,11 @@
         "instructions": "Zadajte údaje o svojej objednávke, aby ste mohli požiadať o odstúpenie podľa Smernice o právach spotrebiteľov EÚ.",
         "name": "Vaše meno",
         "order_id": "Číslo objednávky / číslo faktúry",
-        "email": "E-mailová adresa",
-        "error_validation_failed": "Nepodarilo sa nám overiť Vaše údaje. Skontrolujte prosím svoje meno, e-mailovú adresu a číslo objednávky a skúste to znova.",
-        "error_generic": "Niečo sa pokazilo. Skúste to prosím znova alebo kontaktujte predajcu, ak problém pretrváva."
+        "email": "E-mailová adresa"
     },
     "withdrawal_confirm": {
         "title": "Potvrdiť odstúpenie",
-        "warning_title": "Upozornenie:",
+        "warning_title": "Upozornenie",
         "warning_message": "Táto objednávka je mimo 14-dňovej lehoty na odstúpenie. Predajca posúdi Vašu žiadosť.",
         "order_details": "Podrobnosti objednávky",
         "order_number": "Číslo objednávky:",
@@ -443,9 +451,7 @@
         "back": "Späť",
         "processing": "Spracúva sa…",
         "confirm": "Potvrdiť odstúpenie",
-        "legal_notice": "Potvrdením uplatňujete svoje právo odstúpiť od tejto zmluvy podľa Smernice o právach spotrebiteľov EÚ. Refundácie sú spracované do 14 dní.",
-        "error_failed": "Nepodarilo sa nám spracovať Vašu žiadosť o odstúpenie. Skúste to prosím znova alebo kontaktujte predajcu.",
-        "error_generic": "Niečo sa pokazilo. Skúste to prosím znova."
+        "legal_notice": "Potvrdením uplatňujete svoje právo odstúpiť od tejto zmluvy podľa Smernice o právach spotrebiteľov EÚ. Refundácie sú spracované do 14 dní."
     },
     "withdrawal_success": {
         "title": "Žiadosť o odstúpenie odoslaná",

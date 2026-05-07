@@ -397,7 +397,17 @@
         "customer_password_token_invalid": "O link de redefinição de senha é inválido.",
         "customer_not_found": "Este e-mail não está associado a nenhuma conta.",
         "invalid_credentials": "E-mail ou senha inválidos.",
-        "customer_current_password_invalid": "Senha incorreta."
+        "customer_current_password_invalid": "Senha incorreta.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Não foi possível verificar os seus dados.",
+                "description": "Verifique o seu nome, e-mail e número do pedido e tente novamente."
+            },
+            "confirm_failed": {
+                "title": "Não foi possível processar a sua solicitação de desistência.",
+                "description": "Tente novamente ou contacte o comerciante."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Carregando..."
@@ -420,13 +430,11 @@
         "instructions": "Informe os dados do seu pedido para solicitar a desistência ao abrigo da Diretiva relativa aos direitos dos consumidores da UE.",
         "name": "O seu nome",
         "order_id": "Número do pedido / fatura",
-        "email": "Endereço de e-mail",
-        "error_validation_failed": "Não foi possível verificar os seus dados. Verifique o seu nome, e-mail e número do pedido e tente novamente.",
-        "error_generic": "Ocorreu um erro. Tente novamente ou contacte o comerciante se o problema persistir."
+        "email": "Endereço de e-mail"
     },
     "withdrawal_confirm": {
         "title": "Confirmar a desistência",
-        "warning_title": "Aviso:",
+        "warning_title": "Aviso",
         "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar a sua solicitação.",
         "order_details": "Detalhes do pedido",
         "order_number": "Número do pedido:",
@@ -438,9 +446,7 @@
         "back": "Voltar",
         "processing": "A processar…",
         "confirm": "Confirmar a desistência",
-        "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias.",
-        "error_failed": "Não foi possível processar a sua solicitação de desistência. Tente novamente ou contacte o comerciante.",
-        "error_generic": "Ocorreu um erro. Tente novamente."
+        "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias."
     },
     "withdrawal_success": {
         "title": "Solicitação de desistência enviada",

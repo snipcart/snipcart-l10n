@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Seu token de recuperação de senha é inválido.",
         "customer_not_found": "O endereço de email não está associado com nenhuma conta.",
         "invalid_credentials": "E-mail ou senha inválidos.",
-        "customer_current_password_invalid": "Senha inválida."
+        "customer_current_password_invalid": "Senha inválida.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Não foi possível verificar seus dados.",
+                "description": "Verifique seu nome, e-mail e número do pedido e tente novamente."
+            },
+            "confirm_failed": {
+                "title": "Não foi possível processar sua solicitação de desistência.",
+                "description": "Tente novamente ou entre em contato com o comerciante."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Carregando taxas de envio"
@@ -416,16 +426,13 @@
     },
     "withdrawal_form": {
         "instructions": "Informe os dados do seu pedido para solicitar a desistência conforme a Diretiva sobre os direitos dos consumidores da UE.",
-        "name": "Seu nome",
-        "error_validation_failed": "Não foi possível verificar seus dados. Verifique seu nome, e-mail e número do pedido e tente novamente.",
-        "error_generic": "Ocorreu um erro. Tente novamente ou entre em contato com o comerciante se o problema persistir."
+        "name": "Seu nome"
     },
     "withdrawal_confirm": {
         "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar sua solicitação.",
         "items_title": "Selecione os itens para devolução",
         "withdraw_all": "Desistir de todos os itens (reembolso integral)",
-        "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato conforme a Diretiva sobre os direitos dos consumidores da UE. Os reembolsos são processados em até 14 dias.",
-        "error_failed": "Não foi possível processar sua solicitação de desistência. Tente novamente ou entre em contato com o comerciante."
+        "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato conforme a Diretiva sobre os direitos dos consumidores da UE. Os reembolsos são processados em até 14 dias."
     },
     "withdrawal_success": {
         "message": "Sua solicitação de desistência foi enviada com sucesso. Você receberá um e-mail de confirmação em breve."

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Il-link tar-risettjar tal-password mhuwiex validu.",
         "customer_not_found": "Ebda kont assoċjat ma' dan l-indirizz tal-email.",
         "invalid_credentials": "L-email jew il-password huma ħżiena.",
-        "customer_current_password_invalid": "Il-password attwali hija ħażina."
+        "customer_current_password_invalid": "Il-password attwali hija ħażina.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Ma stajniex nivverifikaw id-dettalji tiegħek.",
+                "description": "Jekk jogħġbok iċċekkja ismek, l-email u n-numru tal-ordni tiegħek, u erġa' pprova."
+            },
+            "confirm_failed": {
+                "title": "Ma stajniex nipproċessaw it-talba tal-irtirar tiegħek.",
+                "description": "Jekk jogħġbok erġa' pprova jew ikkuntattja lill-bejjiegħ."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Qed jillowdja..."
@@ -419,13 +429,11 @@
         "instructions": "Daħħal id-dettalji tal-ordni tiegħek biex titlob irtirar taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE.",
         "name": "Ismek",
         "order_id": "ID tal-Ordni / Numru tal-Fattura",
-        "email": "Indirizz tal-Email",
-        "error_validation_failed": "Ma stajniex nivverifikaw id-dettalji tiegħek. Jekk jogħġbok iċċekkja ismek, l-email u n-numru tal-ordni tiegħek, u erġa' pprova.",
-        "error_generic": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova jew ikkuntattja lill-bejjiegħ jekk il-problema tippersisti."
+        "email": "Indirizz tal-Email"
     },
     "withdrawal_confirm": {
         "title": "Ikkonferma l-Irtirar",
-        "warning_title": "Nota:",
+        "warning_title": "Nota",
         "warning_message": "Din l-ordni hi barra mill-perjodu ta' rtirar ta' 14-il jum. Il-bejjiegħ se jirrevedi t-talba tiegħek.",
         "order_details": "Dettalji tal-Ordni",
         "order_number": "Numru tal-Ordni:",
@@ -437,9 +445,7 @@
         "back": "Lura",
         "processing": "Qed jiġi pproċessat…",
         "confirm": "Ikkonferma l-Irtirar",
-        "legal_notice": "Bil-konferma, qed teżerċita d-dritt tiegħek li tirtira minn dan il-kuntratt taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE. Ir-rifużjonijiet jiġu pproċessati fi żmien 14-il jum.",
-        "error_failed": "Ma stajniex nipproċessaw it-talba tal-irtirar tiegħek. Jekk jogħġbok erġa' pprova jew ikkuntattja lill-bejjiegħ.",
-        "error_generic": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+        "legal_notice": "Bil-konferma, qed teżerċita d-dritt tiegħek li tirtira minn dan il-kuntratt taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE. Ir-rifużjonijiet jiġu pproċessati fi żmien 14-il jum."
     },
     "withdrawal_success": {
         "title": "Talba ta' Rtirar Sottomessa",

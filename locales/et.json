@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Parooli lähtestamise link on vigane.",
         "customer_not_found": "See e-posti aadress pole ühegi kontoga seotud.",
         "invalid_credentials": "Vale e-post või parool.",
-        "customer_current_password_invalid": "Vale parool."
+        "customer_current_password_invalid": "Vale parool.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Me ei suutnud teie andmeid kinnitada.",
+                "description": "Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
+            },
+            "confirm_failed": {
+                "title": "Me ei suutnud teie taganemistaotlust töödelda.",
+                "description": "Palun proovige uuesti või võtke ühendust kaupmehega."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Laadimine..."
@@ -419,13 +429,11 @@
         "instructions": "Sisestage tellimuse andmed, et esitada taganemisavaldus EL-i tarbija õiguste direktiivi alusel.",
         "name": "Teie nimi",
         "order_id": "Tellimuse ID / arve number",
-        "email": "E-posti aadress",
-        "error_validation_failed": "Me ei suutnud teie andmeid kinnitada. Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti.",
-        "error_generic": "Midagi läks valesti. Palun proovige uuesti või võtke ühendust kaupmehega, kui probleem püsib."
+        "email": "E-posti aadress"
     },
     "withdrawal_confirm": {
         "title": "Kinnita taganemine",
-        "warning_title": "Märkus:",
+        "warning_title": "Märkus",
         "warning_message": "See tellimus on väljaspool 14-päevast taganemisperioodi. Kaupmees vaatab teie taotluse läbi.",
         "order_details": "Tellimuse üksikasjad",
         "order_number": "Tellimuse number:",
@@ -437,9 +445,7 @@
         "back": "Tagasi",
         "processing": "Töötlemine…",
         "confirm": "Kinnita taganemine",
-        "legal_notice": "Kinnitades kasutate oma õigust taganeda sellest lepingust EL-i tarbija õiguste direktiivi alusel. Tagasimaksed töödeldakse 14 päeva jooksul.",
-        "error_failed": "Me ei suutnud teie taganemistaotlust töödelda. Palun proovige uuesti või võtke ühendust kaupmehega.",
-        "error_generic": "Midagi läks valesti. Palun proovige uuesti."
+        "legal_notice": "Kinnitades kasutate oma õigust taganeda sellest lepingust EL-i tarbija õiguste direktiivi alusel. Tagasimaksed töödeldakse 14 päeva jooksul."
     },
     "withdrawal_success": {
         "title": "Taganemistaotlus esitatud",

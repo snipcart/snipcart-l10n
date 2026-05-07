@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Parolun bərpası tokeni etibarsızdır.",
         "customer_not_found": "Bu email istifadə olunmur.",
         "invalid_credentials": "Etibarsız email və ya şifrə.",
-        "customer_current_password_invalid": "Etibarsız şifrə."
+        "customer_current_password_invalid": "Etibarsız şifrə.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Məlumatlarınızı təsdiqləyə bilmədik.",
+                "description": "Adınızı, e-poçtunuzu və sifariş nömrənizi yoxlayıb yenidən cəhd edin."
+            },
+            "confirm_failed": {
+                "title": "İmtina sorğunuzu emal edə bilmədik.",
+                "description": "Yenidən cəhd edin və ya satıcı ilə əlaqə saxlayın."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Yüklənir..."
@@ -419,13 +429,11 @@
         "instructions": "Aİ İstehlakçı Hüquqları Direktivinə uyğun olaraq imtina tələb etmək üçün sifariş məlumatlarınızı daxil edin.",
         "name": "Adınız",
         "order_id": "Sifariş ID / Faktura nömrəsi",
-        "email": "E-poçt ünvanı",
-        "error_validation_failed": "Məlumatlarınızı təsdiqləyə bilmədik. Adınızı, e-poçtunuzu və sifariş nömrənizi yoxlayıb yenidən cəhd edin.",
-        "error_generic": "Nəsə səhv getdi. Yenidən cəhd edin və ya problem davam edərsə, satıcı ilə əlaqə saxlayın."
+        "email": "E-poçt ünvanı"
     },
     "withdrawal_confirm": {
         "title": "İmtinanı təsdiqləyin",
-        "warning_title": "Qeyd:",
+        "warning_title": "Qeyd",
         "warning_message": "Bu sifariş 14 günlük imtina müddətindən kənardadır. Satıcı sorğunuzu nəzərdən keçirəcək.",
         "order_details": "Sifariş təfərrüatları",
         "order_number": "Sifariş nömrəsi:",
@@ -437,9 +445,7 @@
         "back": "Geri",
         "processing": "Emal olunur…",
         "confirm": "İmtinanı təsdiqləyin",
-        "legal_notice": "Təsdiqləməklə, siz Aİ İstehlakçı Hüquqları Direktivinə əsasən bu müqavilədən imtina hüququnuzu həyata keçirirsiniz. Geri ödəmələr 14 gün ərzində emal olunur.",
-        "error_failed": "İmtina sorğunuzu emal edə bilmədik. Yenidən cəhd edin və ya satıcı ilə əlaqə saxlayın.",
-        "error_generic": "Nəsə səhv getdi. Yenidən cəhd edin."
+        "legal_notice": "Təsdiqləməklə, siz Aİ İstehlakçı Hüquqları Direktivinə əsasən bu müqavilədən imtina hüququnuzu həyata keçirirsiniz. Geri ödəmələr 14 gün ərzində emal olunur."
     },
     "withdrawal_success": {
         "title": "İmtina sorğusu göndərildi",

@@ -403,6 +403,16 @@
         "no_shipping_rates_found": {
             "title": "Pas de méthode de livraison disponible pour votre commande",
             "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nous n’avons pas pu vérifier vos informations.",
+                "description": "Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer."
+            },
+            "confirm_failed": {
+                "title": "Nous n’avons pas pu traiter votre demande de rétractation.",
+                "description": "Veuillez réessayer ou communiquer avec le marchand."
+            }
         }
     },
     "shippingRates": {
@@ -426,13 +436,11 @@
         "instructions": "Saisissez les informations de votre commande pour exercer votre droit de rétractation en vertu de la Directive sur les droits des consommateurs de l’UE.",
         "name": "Votre nom",
         "order_id": "Numéro de commande / facture",
-        "email": "Adresse courriel",
-        "error_validation_failed": "Nous n’avons pas pu vérifier vos informations. Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer.",
-        "error_generic": "Une erreur est survenue. Veuillez réessayer ou communiquer avec le marchand si le problème persiste."
+        "email": "Adresse courriel"
     },
     "withdrawal_confirm": {
         "title": "Confirmer la rétractation",
-        "warning_title": "Remarque :",
+        "warning_title": "Remarque",
         "warning_message": "Cette commande est en dehors du délai de rétractation de 14 jours. Le marchand examinera votre demande.",
         "order_details": "Détails de la commande",
         "order_number": "Numéro de commande :",
@@ -444,9 +452,7 @@
         "back": "Retour",
         "processing": "Traitement en cours…",
         "confirm": "Confirmer la rétractation",
-        "legal_notice": "En confirmant, vous exercez votre droit de rétractation du contrat en vertu de la Directive sur les droits des consommateurs de l’UE. Les remboursements sont traités sous 14 jours.",
-        "error_failed": "Nous n’avons pas pu traiter votre demande de rétractation. Veuillez réessayer ou communiquer avec le marchand.",
-        "error_generic": "Une erreur est survenue. Veuillez réessayer."
+        "legal_notice": "En confirmant, vous exercez votre droit de rétractation du contrat en vertu de la Directive sur les droits des consommateurs de l’UE. Les remboursements sont traités sous 14 jours."
     },
     "withdrawal_success": {
         "title": "Demande de rétractation soumise",

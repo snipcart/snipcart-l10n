@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Tá do tóicín aisghabhála pasfhocail neamhbhailí.",
         "customer_not_found": "Níl an seoladh ríomhphoist bainteach le haon chuntas.",
         "invalid_credentials": "Ríomhphost nó pasfhocal neamhbhailí.",
-        "customer_current_password_invalid": "Pasfhocal neamhbhailí."
+        "customer_current_password_invalid": "Pasfhocal neamhbhailí.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Níorbh fhéidir linn do shonraí a fhíorú.",
+                "description": "Seiceáil d'ainm, do sheoladh ríomhphoist agus uimhir an ordaithe, agus déan iarracht arís."
+            },
+            "confirm_failed": {
+                "title": "Níorbh fhéidir linn d'iarratas tarraingthe siar a phróiseáil.",
+                "description": "Déan iarracht arís nó déan teagmháil leis an gceannaí."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Rátaí seachadta á lódáil"
@@ -419,13 +429,11 @@
         "instructions": "Cuir isteach sonraí d'ordaithe chun iarratas tarraingthe siar a dhéanamh faoin Treoir um Chearta Tomhaltóirí an AE.",
         "name": "D'Ainm",
         "order_id": "Aitheantas an Ordaithe / Uimhir Sonraisc",
-        "email": "Seoladh Ríomhphoist",
-        "error_validation_failed": "Níorbh fhéidir linn do shonraí a fhíorú. Seiceáil d'ainm, do sheoladh ríomhphoist agus uimhir an ordaithe, agus déan iarracht arís.",
-        "error_generic": "Chuaigh rud éigin mícheart. Déan iarracht arís nó déan teagmháil leis an gceannaí má leanann an fhadhb."
+        "email": "Seoladh Ríomhphoist"
     },
     "withdrawal_confirm": {
         "title": "Deimhnigh an Tarraingt Siar",
-        "warning_title": "Nóta:",
+        "warning_title": "Nóta",
         "warning_message": "Tá an t-ordú seo lasmuigh den tréimhse tarraingthe siar 14 lá. Déanfaidh an ceannaí athbhreithniú ar d'iarratas.",
         "order_details": "Sonraí an Ordaithe",
         "order_number": "Uimhir an Ordaithe:",
@@ -437,9 +445,7 @@
         "back": "Ar Ais",
         "processing": "Á Phróiseáil…",
         "confirm": "Deimhnigh an Tarraingt Siar",
-        "legal_notice": "Trí dheimhniú, tá tú ag feidhmiú do cheart tarraingt siar ón gconradh seo faoin Treoir um Chearta Tomhaltóirí an AE. Próiseálfar aisíocaíochtaí laistigh de 14 lá.",
-        "error_failed": "Níorbh fhéidir linn d'iarratas tarraingthe siar a phróiseáil. Déan iarracht arís nó déan teagmháil leis an gceannaí.",
-        "error_generic": "Chuaigh rud éigin mícheart. Déan iarracht arís."
+        "legal_notice": "Trí dheimhniú, tá tú ag feidhmiú do cheart tarraingt siar ón gconradh seo faoin Treoir um Chearta Tomhaltóirí an AE. Próiseálfar aisíocaíochtaí laistigh de 14 lá."
     },
     "withdrawal_success": {
         "title": "Iarratas Tarraingthe Siar Curtha Isteach",

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Your password recovery token is invalid.",
         "customer_not_found": "The email address is not associated with any account.",
         "invalid_credentials": "Invalid email or password.",
-        "customer_current_password_invalid": "Invalid password."
+        "customer_current_password_invalid": "Invalid password.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nismo uspeli da potvrdimo Vaše podatke.",
+                "description": "Molimo proverite svoje ime, email adresu i broj porudžbine, pa pokušajte ponovo."
+            },
+            "confirm_failed": {
+                "title": "Nismo uspeli da obradimo Vaš zahtev za odustajanje.",
+                "description": "Molimo pokušajte ponovo ili kontaktirajte prodavca."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Loading shipping rates"
@@ -419,13 +429,11 @@
         "instructions": "Unesite podatke o svojoj porudžbini kako biste podneli zahtev za odustajanje u skladu sa Direktivom EU o pravima potrošača.",
         "name": "Vaše ime",
         "order_id": "Broj porudžbine / broj računa",
-        "email": "Email adresa",
-        "error_validation_failed": "Nismo uspeli da potvrdimo Vaše podatke. Molimo proverite svoje ime, email adresu i broj porudžbine, pa pokušajte ponovo.",
-        "error_generic": "Došlo je do greške. Molimo pokušajte ponovo ili kontaktirajte prodavca ako se problem nastavi."
+        "email": "Email adresa"
     },
     "withdrawal_confirm": {
         "title": "Potvrdi odustajanje",
-        "warning_title": "Napomena:",
+        "warning_title": "Napomena",
         "warning_message": "Ova porudžbina je van 14-dnevnog roka za odustajanje. Prodavac će razmotriti Vaš zahtev.",
         "order_details": "Detalji porudžbine",
         "order_number": "Broj porudžbine:",
@@ -437,9 +445,7 @@
         "back": "Nazad",
         "processing": "Obrada…",
         "confirm": "Potvrdi odustajanje",
-        "legal_notice": "Potvrdom ostvarujete svoje pravo na odustajanje od ovog ugovora u skladu sa Direktivom EU o pravima potrošača. Povraćaji se obrađuju u roku od 14 dana.",
-        "error_failed": "Nismo uspeli da obradimo Vaš zahtev za odustajanje. Molimo pokušajte ponovo ili kontaktirajte prodavca.",
-        "error_generic": "Došlo je do greške. Molimo pokušajte ponovo."
+        "legal_notice": "Potvrdom ostvarujete svoje pravo na odustajanje od ovog ugovora u skladu sa Direktivom EU o pravima potrošača. Povraćaji se obrađuju u roku od 14 dana."
     },
     "withdrawal_success": {
         "title": "Zahtev za odustajanje poslat",

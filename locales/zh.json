@@ -401,7 +401,17 @@
         "customer_password_token_invalid": "您的重設密碼連結已失效",
         "customer_not_found": "此 Email 尚未建立帳號",
         "invalid_credentials": "Email 或是密碼有誤",
-        "customer_current_password_invalid": "密碼錯誤"
+        "customer_current_password_invalid": "密碼錯誤",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "我们无法核实您的信息，请检查姓名、电子邮件和订单编号后重试。",
+                "description": ""
+            },
+            "confirm_failed": {
+                "title": "我们无法处理您的撤回请求。",
+                "description": "请重试或联系商家。"
+            }
+        }
     },
     "shippingRates": {
         "loading": "載入中..."
@@ -424,9 +434,7 @@
         "instructions": "请输入您的订单信息，根据《欧盟消费者权利指令》申请撤回。",
         "name": "您的姓名",
         "order_id": "订单编号 / 发票编号",
-        "email": "电子邮件地址",
-        "error_validation_failed": "我们无法核实您的信息，请检查姓名、电子邮件和订单编号后重试。",
-        "error_generic": "出现错误。请重试，如果问题仍然存在，请联系商家。"
+        "email": "电子邮件地址"
     },
     "withdrawal_confirm": {
         "title": "确认撤回",
@@ -442,9 +450,7 @@
         "back": "返回",
         "processing": "处理中…",
         "confirm": "确认撤回",
-        "legal_notice": "点击确认即表示您依据《欧盟消费者权利指令》行使本合同的撤回权。退款将在14天内处理完成。",
-        "error_failed": "我们无法处理您的撤回请求。请重试或联系商家。",
-        "error_generic": "出现错误。请重试。"
+        "legal_notice": "点击确认即表示您依据《欧盟消费者权利指令》行使本合同的撤回权。退款将在14天内处理完成。"
     },
     "withdrawal_success": {
         "title": "撤回请求已提交",

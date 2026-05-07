@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Jūsu paroles atiestatīšanas kods ir nederīgs.",
         "customer_not_found": "Šī e-pasta adrese nav saistīta ar nevienu reģistrētu kontu.",
         "invalid_credentials": "Nepareizs e-pasts vai parole.",
-        "customer_current_password_invalid": "Nepareiza parole."
+        "customer_current_password_invalid": "Nepareiza parole.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Mēs nevarējām pārbaudīt jūsu datus.",
+                "description": "Lūdzu, pārbaudiet savu vārdu, e-pasta adresi un pasūtījuma numuru un mēģiniet vēlreiz."
+            },
+            "confirm_failed": {
+                "title": "Mēs nevarējām apstrādāt jūsu atteikuma pieprasījumu.",
+                "description": "Lūdzu, mēģiniet vēlreiz vai sazinieties ar tirgotāju."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Ielādē..."
@@ -419,13 +429,11 @@
         "instructions": "Ievadiet pasūtījuma datus, lai iesniegtu atteikuma pieprasījumu saskaņā ar ES Patērētāju tiesību direktīvu.",
         "name": "Jūsu vārds",
         "order_id": "Pasūtījuma ID / rēķina numurs",
-        "email": "E-pasta adrese",
-        "error_validation_failed": "Mēs nevarējām pārbaudīt jūsu datus. Lūdzu, pārbaudiet savu vārdu, e-pasta adresi un pasūtījuma numuru un mēģiniet vēlreiz.",
-        "error_generic": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz vai sazinieties ar tirgotāju, ja problēma turpinās."
+        "email": "E-pasta adrese"
     },
     "withdrawal_confirm": {
         "title": "Apstiprināt atteikšanos",
-        "warning_title": "Piezīme:",
+        "warning_title": "Piezīme",
         "warning_message": "Šis pasūtījums ir ārpus 14 dienu atteikuma termiņa. Tirgotājs izskatīs jūsu pieprasījumu.",
         "order_details": "Pasūtījuma informācija",
         "order_number": "Pasūtījuma numurs:",
@@ -437,9 +445,7 @@
         "back": "Atpakaļ",
         "processing": "Apstrāde…",
         "confirm": "Apstiprināt atteikšanos",
-        "legal_notice": "Apstiprinot, jūs izmantojat savas tiesības atteikties no šī līguma saskaņā ar ES Patērētāju tiesību direktīvu. Atmaksas tiek apstrādātas 14 dienu laikā.",
-        "error_failed": "Mēs nevarējām apstrādāt jūsu atteikuma pieprasījumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar tirgotāju.",
-        "error_generic": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz."
+        "legal_notice": "Apstiprinot, jūs izmantojat savas tiesības atteikties no šī līguma saskaņā ar ES Patērētāju tiesību direktīvu. Atmaksas tiek apstrādātas 14 dienu laikā."
     },
     "withdrawal_success": {
         "title": "Atteikuma pieprasījums iesniegts",

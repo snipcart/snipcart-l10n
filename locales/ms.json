@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Token pemulihan kata laluan anda tidak sah.",
         "customer_not_found": "Alamat e-mel tidak dikaitkan dengan mana-mana akaun.",
         "invalid_credentials": "E-mel atau kata laluan tidak sah.",
-        "customer_current_password_invalid": "Kata laluan tidak sah."
+        "customer_current_password_invalid": "Kata laluan tidak sah.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Kami tidak dapat mengesahkan butiran anda.",
+                "description": "Sila semak nama, e-mel dan nombor pesanan anda, kemudian cuba lagi."
+            },
+            "confirm_failed": {
+                "title": "Kami tidak dapat memproses permintaan penarikan diri anda.",
+                "description": "Sila cuba lagi atau hubungi peniaga."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Memuatkan kadar penghantaran"
@@ -419,13 +429,11 @@
         "instructions": "Masukkan butiran pesanan anda untuk memohon penarikan diri di bawah Arahan Hak Pengguna EU.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nombor Invois",
-        "email": "Alamat E-mel",
-        "error_validation_failed": "Kami tidak dapat mengesahkan butiran anda. Sila semak nama, e-mel dan nombor pesanan anda, kemudian cuba lagi.",
-        "error_generic": "Berlaku ralat. Sila cuba lagi atau hubungi peniaga jika masalah berterusan."
+        "email": "Alamat E-mel"
     },
     "withdrawal_confirm": {
         "title": "Sahkan Penarikan Diri",
-        "warning_title": "Perhatian:",
+        "warning_title": "Perhatian",
         "warning_message": "Pesanan ini telah melepasi tempoh penarikan diri 14 hari. Peniaga akan menyemak permintaan anda.",
         "order_details": "Butiran Pesanan",
         "order_number": "Nombor Pesanan:",
@@ -437,9 +445,7 @@
         "back": "Kembali",
         "processing": "Memproses…",
         "confirm": "Sahkan Penarikan Diri",
-        "legal_notice": "Dengan mengesahkan, anda melaksanakan hak untuk menarik diri daripada kontrak ini di bawah Arahan Hak Pengguna EU. Bayaran balik diproses dalam tempoh 14 hari.",
-        "error_failed": "Kami tidak dapat memproses permintaan penarikan diri anda. Sila cuba lagi atau hubungi peniaga.",
-        "error_generic": "Berlaku ralat. Sila cuba lagi."
+        "legal_notice": "Dengan mengesahkan, anda melaksanakan hak untuk menarik diri daripada kontrak ini di bawah Arahan Hak Pengguna EU. Bayaran balik diproses dalam tempoh 14 hari."
     },
     "withdrawal_success": {
         "title": "Permintaan Penarikan Diri Telah Dihantar",

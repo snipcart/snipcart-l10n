@@ -403,6 +403,16 @@
         "no_shipping_rates_found": {
             "title": "Doare ebet evit an degas evit hoc'h urzhiad",
             "description": "Adwelit ho chomlec'h post pe kit e darempred ganeomp."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "N'omp ket bet evit gwiriañ ho titouroù.",
+                "description": "Gwiriit hoc'h anv, ho postel hag ho niverenn urzhiad, ha klaskit en-dro."
+            },
+            "confirm_failed": {
+                "title": "N'omp ket bet evit treiñ ho koulenn tennañ kuit.",
+                "description": "Klaskit en-dro pe kit e darempred gant ar marc'hadour."
+            }
         }
     },
     "shippingRates": {
@@ -426,13 +436,11 @@
         "instructions": "Roit titouroù hoc'h urzhiad evit goulenn an tennañ kuit hervez Sturiadenn an UE diwar-benn gwirioù an arvalien.",
         "name": "Hoc'h anv",
         "order_id": "Niverenn an urzhiad / fakturenn",
-        "email": "Chomlec'h postel",
-        "error_validation_failed": "N'omp ket bet evit gwiriañ ho titouroù. Gwiriit hoc'h anv, ho postel hag ho niverenn urzhiad, ha klaskit en-dro.",
-        "error_generic": "Ur fazi a zo c'hoarvezet. Klaskit en-dro pe kit e darempred gant ar marc'hadour ma talc'h ar gudenn."
+        "email": "Chomlec'h postel"
     },
     "withdrawal_confirm": {
         "title": "Kadarnaat an tennañ kuit",
-        "warning_title": "Evezhiadenn :",
+        "warning_title": "Evezhiadenn",
         "warning_message": "Er-maez eus ar prantad tennañ kuit a 14 devezh emañ an urzhiad-mañ. Ar marc'hadour a zezrevello ho koulenn.",
         "order_details": "Munudoù an urzhiad",
         "order_number": "Niverenn an urzhiad :",
@@ -444,9 +452,7 @@
         "back": "War-gil",
         "processing": "O treiñ…",
         "confirm": "Kadarnaat an tennañ kuit",
-        "legal_notice": "En ur kadarnaat e implijit ho kwir da dennañ kuit eus ar c'hevrat-mañ hervez Sturiadenn an UE diwar-benn gwirioù an arvalien. Graet e vez an distaolioù e-pad 14 devezh.",
-        "error_failed": "N'omp ket bet evit treiñ ho koulenn tennañ kuit. Klaskit en-dro pe kit e darempred gant ar marc'hadour.",
-        "error_generic": "Ur fazi a zo c'hoarvezet. Klaskit en-dro."
+        "legal_notice": "En ur kadarnaat e implijit ho kwir da dennañ kuit eus ar c'hevrat-mañ hervez Sturiadenn an UE diwar-benn gwirioù an arvalien. Graet e vez an distaolioù e-pad 14 devezh."
     },
     "withdrawal_success": {
         "title": "Goulenn tennañ kuit kaset",
