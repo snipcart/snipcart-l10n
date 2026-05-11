@@ -442,6 +442,7 @@
         "items_title": "Valige tagastatavad tooted",
         "withdraw_all": "Tagasta kõik tooted (täielik raha tagastamine)",
         "refund_amount": "Hinnanguline tagasimakse:",
+        "refund_amount_notice": "See hinnang on üksnes informatiivne. Tegelik tagasimakstav summa võib pärast maksude, allahindluste ja saatekulude arvesse võtmist erineda.",
         "back": "Tagasi",
         "processing": "Töötlemine…",
         "confirm": "Kinnita taganemine",

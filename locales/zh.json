@@ -447,6 +447,7 @@
         "items_title": "选择要撤回的商品",
         "withdraw_all": "撤回所有商品（全额退款）",
         "refund_amount": "预计退款金额",
+        "refund_amount_notice": "此估算仅供参考。在考虑税费、折扣和运费后，实际退款金额可能会有所不同。",
         "back": "返回",
         "processing": "处理中…",
         "confirm": "确认撤回",

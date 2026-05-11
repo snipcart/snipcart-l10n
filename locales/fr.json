@@ -449,6 +449,7 @@
         "items_title": "Sélectionnez les articles à retourner",
         "withdraw_all": "Rétracter tous les articles (remboursement intégral)",
         "refund_amount": "Remboursement estimé :",
+        "refund_amount_notice": "Cette estimation est fournie à titre informatif. Le montant réellement remboursé peut différer une fois les taxes, les rabais et les frais d’expédition pris en compte.",
         "back": "Retour",
         "processing": "Traitement en cours…",
         "confirm": "Confirmer la rétractation",

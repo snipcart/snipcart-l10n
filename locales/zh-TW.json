@@ -446,6 +446,7 @@
         "items_title": "選擇欲撤回的商品",
         "withdraw_all": "撤回所有商品（全額退款）",
         "refund_amount": "預計退款金額",
+        "refund_amount_notice": "此估算僅供參考。在考量稅金、折扣與運費後，實際退款金額可能會有所不同。",
         "processing": "處理中…",
         "confirm": "確認撤回",
         "legal_notice": "點選確認即表示您依《歐盟消費者權利指令》行使本契約的撤回權。退款將於14天內處理完成。"

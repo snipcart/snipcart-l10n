@@ -448,6 +448,7 @@
         "items_title": "Vyberte položky na vrátenie",
         "withdraw_all": "Odstúpiť od všetkých položiek (plná refundácia)",
         "refund_amount": "Odhadovaná suma refundácie:",
+        "refund_amount_notice": "Tento odhad je len informatívny. Skutočná vrátená suma sa môže líšiť po zohľadnení daní, zliav a poštovného.",
         "back": "Späť",
         "processing": "Spracúva sa…",
         "confirm": "Potvrdiť odstúpenie",

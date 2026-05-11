@@ -442,6 +442,7 @@
         "items_title": "Dewiswch Eitemau i Dynnu'n Ôl",
         "withdraw_all": "Tynnu'n ôl pob eitem (ad-daliad llawn)",
         "refund_amount": "Ad-daliad Amcangyfrifedig:",
+        "refund_amount_notice": "Amcangyfrif er gwybodaeth yn unig yw hwn. Gall y swm ad-dalu gwirioneddol fod yn wahanol unwaith y bydd trethi, gostyngiadau a ffioedd cludo wedi’u hystyried.",
         "back": "Yn Ôl",
         "processing": "Yn Prosesu…",
         "confirm": "Cadarnhau Tynnu'n Ôl",

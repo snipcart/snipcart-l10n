@@ -447,6 +447,7 @@
         "items_title": "Valitse peruutettavat tuotteet",
         "withdraw_all": "Peru kaikki tuotteet (täysi palautus)",
         "refund_amount": "Arvioitu palautus:",
+        "refund_amount_notice": "Tämä arvio on vain ohjeellinen. Todellinen palautettava summa voi poiketa, kun verot, alennukset ja toimituskulut on otettu huomioon.",
         "back": "Takaisin",
         "processing": "Käsitellään…",
         "confirm": "Vahvista peruutus",

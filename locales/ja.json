@@ -442,6 +442,7 @@
         "items_title": "撤回する商品を選択",
         "withdraw_all": "すべての商品を撤回する（全額返金）",
         "refund_amount": "返金見込み額",
+        "refund_amount_notice": "この見積もりは参考情報です。税金、割引、配送料を考慮した後、実際の返金額は異なる場合があります。",
         "back": "戻る",
         "processing": "処理中…",
         "confirm": "撤回を確定する",

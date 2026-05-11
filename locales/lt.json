@@ -442,6 +442,7 @@
         "items_title": "Pasirinkite prekes, nuo kurių norite atsisakyti",
         "withdraw_all": "Atsisakyti visų prekių (pilnas grąžinimas)",
         "refund_amount": "Apytikris grąžinimas:",
+        "refund_amount_notice": "Šis įvertinimas pateikiamas tik informaciniais tikslais. Faktinė grąžinama suma gali skirtis, įvertinus mokesčius, nuolaidas ir pristatymo išlaidas.",
         "back": "Atgal",
         "processing": "Apdorojama…",
         "confirm": "Patvirtinti atsisakymą",

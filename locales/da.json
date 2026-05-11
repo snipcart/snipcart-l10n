@@ -442,6 +442,7 @@
         "items_title": "Vælg varer der skal fortrydes",
         "withdraw_all": "Fortryd alle varer (fuld refundering)",
         "refund_amount": "Anslået refundering:",
+        "refund_amount_notice": "Dette skøn er kun til orientering. Det faktisk refunderede beløb kan afvige, når skatter, rabatter og forsendelsesomkostninger er taget i betragtning.",
         "back": "Tilbage",
         "processing": "Behandler…",
         "confirm": "Bekræft fortrydelse",

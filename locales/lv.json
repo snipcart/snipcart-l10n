@@ -442,6 +442,7 @@
         "items_title": "Izvēlieties preces, no kurām atteikties",
         "withdraw_all": "Atteikties no visām precēm (pilna atmaksa)",
         "refund_amount": "Aptuvenā atmaksa:",
+        "refund_amount_notice": "Šis aprēķins ir tikai informatīvs. Faktiski atmaksātā summa var atšķirties pēc nodokļu, atlaižu un piegādes maksu ņemšanas vērā.",
         "back": "Atpakaļ",
         "processing": "Apstrāde…",
         "confirm": "Apstiprināt atteikšanos",

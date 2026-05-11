@@ -442,6 +442,7 @@
         "items_title": "Seleccione los artículos a devolver",
         "withdraw_all": "Desistir de todos los artículos (reembolso íntegro)",
         "refund_amount": "Reembolso estimado:",
+        "refund_amount_notice": "Esta estimación es solo informativa. El importe realmente reembolsado puede variar una vez tenidos en cuenta los impuestos, los descuentos y los gastos de envío.",
         "back": "Atrás",
         "processing": "Procesando…",
         "confirm": "Confirmar el desistimiento",

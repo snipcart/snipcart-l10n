@@ -442,6 +442,7 @@
         "items_title": "Artikel zum Widerruf auswählen",
         "withdraw_all": "Alle Artikel widerrufen (vollständige Erstattung)",
         "refund_amount": "Voraussichtliche Erstattung:",
+        "refund_amount_notice": "Diese Schätzung dient nur zur Information. Der tatsächlich erstattete Betrag kann abweichen, sobald Steuern, Rabatte und Versandkosten berücksichtigt werden.",
         "back": "Zurück",
         "processing": "Wird verarbeitet…",
         "confirm": "Widerruf bestätigen",

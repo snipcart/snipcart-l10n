@@ -442,6 +442,7 @@
         "items_title": "Seleziona gli articoli da restituire",
         "withdraw_all": "Recesso da tutti gli articoli (rimborso totale)",
         "refund_amount": "Rimborso stimato:",
+        "refund_amount_notice": "Questa stima è fornita a solo scopo informativo. L’importo effettivamente rimborsato potrà variare una volta presi in considerazione le tasse, gli sconti e le spese di spedizione.",
         "back": "Indietro",
         "processing": "Elaborazione in corso…",
         "confirm": "Conferma il recesso",

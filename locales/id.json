@@ -442,6 +442,7 @@
         "items_title": "Pilih Item yang Akan Ditarik",
         "withdraw_all": "Tarik semua item (pengembalian dana penuh)",
         "refund_amount": "Perkiraan Pengembalian Dana:",
+        "refund_amount_notice": "Perkiraan ini hanya bersifat informatif. Jumlah pengembalian dana yang sebenarnya dapat berbeda setelah pajak, diskon, dan biaya pengiriman diperhitungkan.",
         "back": "Kembali",
         "processing": "Memproses…",
         "confirm": "Konfirmasi Penarikan Diri",

@@ -442,6 +442,7 @@
         "items_title": "İmtina ediləcək məhsulları seçin",
         "withdraw_all": "Bütün məhsullardan imtina (tam geri ödəmə)",
         "refund_amount": "Təxmini geri ödəmə:",
+        "refund_amount_notice": "Bu təxmin yalnız məlumat xarakteri daşıyır. Vergilər, endirimlər və çatdırılma haqları nəzərə alındıqdan sonra faktiki geri ödənilən məbləğ fərqli ola bilər.",
         "back": "Geri",
         "processing": "Emal olunur…",
         "confirm": "İmtinanı təsdiqləyin",

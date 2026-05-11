@@ -442,6 +442,7 @@
         "items_title": "Válassza ki a visszaadni kívánt tételeket",
         "withdraw_all": "Minden tétel visszaküldése (teljes visszatérítés)",
         "refund_amount": "Becsült visszatérítés:",
+        "refund_amount_notice": "Ez a becslés csak tájékoztató jellegű. A tényleges visszatérített összeg eltérhet az adók, kedvezmények és szállítási költségek figyelembevételét követően.",
         "back": "Vissza",
         "processing": "Feldolgozás…",
         "confirm": "Elállás megerősítése",

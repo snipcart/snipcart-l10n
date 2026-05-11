@@ -448,6 +448,7 @@
         "items_title": "Velg varer å angre",
         "withdraw_all": "Angre alle varer (full refusjon)",
         "refund_amount": "Estimert refusjon:",
+        "refund_amount_notice": "Dette estimatet er kun til informasjon. Det faktiske refunderte beløpet kan avvike når skatter, rabatter og fraktkostnader er tatt med i beregningen.",
         "back": "Tilbake",
         "processing": "Behandler…",
         "confirm": "Bekreft angrerett",

@@ -1133,6 +1133,7 @@
         "items_title": "Select Items to Withdraw",
         "withdraw_all": "Withdraw all items (full refund)",
         "refund_amount": "Estimated Refund:",
+        "refund_amount_notice": "This estimate is for information only. The actual refunded amount may differ once taxes, discounts, and shipping fees are taken into account.",
         "back": "Back",
         "processing": "Processing…",
         "confirm": "Confirm Withdrawal",

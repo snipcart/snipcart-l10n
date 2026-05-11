@@ -442,6 +442,7 @@
         "items_title": "Pumili ng mga Item na I-withdraw",
         "withdraw_all": "I-withdraw ang lahat ng item (buong refund)",
         "refund_amount": "Tinatayang Refund:",
+        "refund_amount_notice": "Ang pagtatantyang ito ay para sa impormasyon lamang. Ang aktwal na halagang isasauli ay maaaring magkaiba kapag isinaalang-alang na ang mga buwis, diskwento, at bayad sa pagpapadala.",
         "back": "Bumalik",
         "processing": "Pinoproseso…",
         "confirm": "Kumpirmahin ang Withdrawal",

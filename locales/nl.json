@@ -442,6 +442,7 @@
         "items_title": "Selecteer artikelen om te herroepen",
         "withdraw_all": "Alle artikelen herroepen (volledige terugbetaling)",
         "refund_amount": "Geschatte terugbetaling:",
+        "refund_amount_notice": "Deze schatting is uitsluitend ter informatie. Het werkelijk terugbetaalde bedrag kan afwijken zodra belastingen, kortingen en verzendkosten zijn meegerekend.",
         "back": "Terug",
         "processing": "Verwerken…",
         "confirm": "Herroeping bevestigen",

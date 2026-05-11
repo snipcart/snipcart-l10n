@@ -442,6 +442,7 @@
         "items_title": "Chọn sản phẩm muốn rút",
         "withdraw_all": "Rút toàn bộ sản phẩm (hoàn tiền đầy đủ)",
         "refund_amount": "Số tiền hoàn lại dự kiến:",
+        "refund_amount_notice": "Ước tính này chỉ mang tính chất tham khảo. Số tiền hoàn lại thực tế có thể khác sau khi tính đến thuế, chiết khấu và phí vận chuyển.",
         "back": "Quay lại",
         "processing": "Đang xử lý…",
         "confirm": "Xác nhận rút",

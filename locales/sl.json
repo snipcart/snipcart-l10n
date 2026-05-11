@@ -442,6 +442,7 @@
         "items_title": "Izberite izdelke za vračilo",
         "withdraw_all": "Odstopi od vseh izdelkov (polno vračilo)",
         "refund_amount": "Predvideno vračilo:",
+        "refund_amount_notice": "Ta ocena je zgolj informativne narave. Dejansko vrnjeni znesek se lahko razlikuje, ko se upoštevajo davki, popusti in stroški dostave.",
         "back": "Nazaj",
         "processing": "Obdelava…",
         "confirm": "Potrdi odstop",

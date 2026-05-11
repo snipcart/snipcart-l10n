@@ -442,6 +442,7 @@
         "items_title": "Pilih Item untuk Ditarik",
         "withdraw_all": "Tarik semua item (bayaran balik penuh)",
         "refund_amount": "Anggaran Bayaran Balik:",
+        "refund_amount_notice": "Anggaran ini adalah untuk tujuan maklumat sahaja. Jumlah bayaran balik sebenar mungkin berbeza setelah cukai, diskaun dan caj penghantaran diambil kira.",
         "back": "Kembali",
         "processing": "Memproses…",
         "confirm": "Sahkan Penarikan Diri",

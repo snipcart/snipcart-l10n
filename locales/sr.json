@@ -442,6 +442,7 @@
         "items_title": "Izaberite artikle za povraćaj",
         "withdraw_all": "Odustani od svih artikala (pun povraćaj)",
         "refund_amount": "Procenjeni iznos povraćaja:",
+        "refund_amount_notice": "Ova procena je samo informativnog karaktera. Stvarni iznos povraćaja može se razlikovati nakon što se uzmu u obzir porezi, popusti i troškovi isporuke.",
         "back": "Nazad",
         "processing": "Obrada…",
         "confirm": "Potvrdi odustajanje",

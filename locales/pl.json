@@ -442,6 +442,7 @@
         "items_title": "Wybierz produkty do zwrotu",
         "withdraw_all": "Odstąp od wszystkich produktów (pełny zwrot)",
         "refund_amount": "Szacowana kwota zwrotu:",
+        "refund_amount_notice": "Niniejsze oszacowanie ma charakter wyłącznie informacyjny. Rzeczywista kwota zwrotu może się różnić po uwzględnieniu podatków, rabatów i kosztów wysyłki.",
         "back": "Wstecz",
         "processing": "Przetwarzanie…",
         "confirm": "Potwierdź odstąpienie",

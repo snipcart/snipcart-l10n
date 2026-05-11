@@ -442,6 +442,7 @@
         "items_title": "Veldu hluti til að afturkalla",
         "withdraw_all": "Afturkalla alla hluti (full endurgreiðsla)",
         "refund_amount": "Áætluð endurgreiðsla:",
+        "refund_amount_notice": "Þetta mat er eingöngu til upplýsinga. Raunveruleg endurgreidd upphæð getur verið önnur þegar tekið hefur verið tillit til skatta, afslátta og flutningskostnaðar.",
         "back": "Til baka",
         "processing": "Vinnur…",
         "confirm": "Staðfesta afturköllun",

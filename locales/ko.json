@@ -442,6 +442,7 @@
         "items_title": "철회할 상품 선택",
         "withdraw_all": "모든 상품 철회 (전액 환불)",
         "refund_amount": "예상 환불 금액",
+        "refund_amount_notice": "이 추정치는 정보 제공용입니다. 세금, 할인 및 배송비를 반영한 후 실제 환불 금액은 달라질 수 있습니다.",
         "back": "뒤로",
         "processing": "처리 중…",
         "confirm": "철회 확정",

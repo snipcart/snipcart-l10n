@@ -446,6 +446,7 @@
         "items_title": "Selectați articolele pentru retragere",
         "withdraw_all": "Retragere pentru toate articolele (rambursare integrală)",
         "refund_amount": "Rambursare estimată:",
+        "refund_amount_notice": "Această estimare are doar caracter informativ. Suma efectiv rambursată poate diferi după luarea în calcul a taxelor, reducerilor și costurilor de livrare.",
         "back": "Înapoi",
         "processing": "Se procesează…",
         "confirm": "Confirmați retragerea",

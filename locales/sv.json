@@ -442,6 +442,7 @@
         "items_title": "Välj artiklar att ångra",
         "withdraw_all": "Ångra alla artiklar (full återbetalning)",
         "refund_amount": "Beräknad återbetalning:",
+        "refund_amount_notice": "Denna uppskattning är endast informativ. Det faktiska återbetalda beloppet kan avvika när skatter, rabatter och fraktkostnader har beaktats.",
         "back": "Tillbaka",
         "processing": "Behandlar…",
         "confirm": "Bekräfta ångerrätt",

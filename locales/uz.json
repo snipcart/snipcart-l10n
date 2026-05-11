@@ -442,6 +442,7 @@
         "items_title": "Voz kechmoqchi bo'lgan mahsulotlarni tanlang",
         "withdraw_all": "Barcha mahsulotlardan voz kechish (to'liq qaytarish)",
         "refund_amount": "Taxminiy qaytarish:",
+        "refund_amount_notice": "Ushbu taxmin faqat ma’lumot uchun. Soliqlar, chegirmalar va yetkazib berish to‘lovlari hisobga olingandan so‘ng haqiqiy qaytariladigan summa farq qilishi mumkin.",
         "back": "Orqaga",
         "processing": "Qayta ishlanmoqda…",
         "confirm": "Voz kechishni tasdiqlash",

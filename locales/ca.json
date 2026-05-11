@@ -442,6 +442,7 @@
         "items_title": "Seleccioneu els articles a retornar",
         "withdraw_all": "Desistir de tots els articles (reemborsament íntegre)",
         "refund_amount": "Reemborsament estimat:",
+        "refund_amount_notice": "Aquesta estimació és només a títol informatiu. L’import realment reemborsat pot diferir un cop tinguts en compte els impostos, els descomptes i les despeses d’enviament.",
         "back": "Enrere",
         "processing": "Processant…",
         "confirm": "Confirmar el desistiment",

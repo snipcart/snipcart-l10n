@@ -448,6 +448,7 @@
         "items_title": "Cayılacak Ürünleri Seçiniz",
         "withdraw_all": "Tüm ürünlerden cay (tam iade)",
         "refund_amount": "Tahmini İade:",
+        "refund_amount_notice": "Bu tahmin yalnızca bilgilendirme amaçlıdır. Vergiler, indirimler ve kargo ücretleri hesaba katıldığında gerçekte iade edilen tutar farklı olabilir.",
         "back": "Geri",
         "processing": "İşleniyor…",
         "confirm": "Caymayı Onayla",
