@@ -458,7 +458,7 @@
         "message": "Peruutuspyyntösi on lähetetty onnistuneesti. Saat pian vahvistussähköpostin.",
         "confirmation_number": "Vahvistusnumero:",
         "submitted_at": "Lähetetty:",
-        "refund_amount": "Palautuksen määrä:",
+        "refund_amount": "Arvioitu palautus:",
         "close": "Sulje"
     },
     "countries": {

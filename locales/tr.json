@@ -459,7 +459,7 @@
         "message": "Cayma talebiniz başarıyla gönderildi. Kısa süre içinde bir onay e-postası alacaksınız.",
         "confirmation_number": "Onay Numarası:",
         "submitted_at": "Gönderildi:",
-        "refund_amount": "İade Tutarı:",
+        "refund_amount": "Tahmini İade:",
         "close": "Kapat"
     },
     "countries": {

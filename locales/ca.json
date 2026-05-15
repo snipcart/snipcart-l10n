@@ -453,7 +453,7 @@
         "message": "La vostra sol·licitud de desistiment s'ha enviat correctament. Rebreu un correu electrònic de confirmació aviat.",
         "confirmation_number": "Número de confirmació:",
         "submitted_at": "Enviada:",
-        "refund_amount": "Import del reemborsament:",
+        "refund_amount": "Reemborsament estimat:",
         "close": "Tancar"
     },
     "countries": {

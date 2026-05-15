@@ -454,7 +454,7 @@
         "message": "A sua solicitação de desistência foi enviada com sucesso. Em breve receberá um e-mail de confirmação.",
         "confirmation_number": "Número de confirmação:",
         "submitted_at": "Enviada em:",
-        "refund_amount": "Valor do reembolso:",
+        "refund_amount": "Reembolso estimado:",
         "close": "Fechar"
     },
     "countries": {

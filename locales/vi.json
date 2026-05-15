@@ -453,7 +453,7 @@
         "message": "Yêu cầu rút của bạn đã được gửi thành công. Bạn sẽ sớm nhận được email xác nhận.",
         "confirmation_number": "Mã xác nhận:",
         "submitted_at": "Đã gửi:",
-        "refund_amount": "Số tiền hoàn lại:",
+        "refund_amount": "Số tiền hoàn lại dự kiến:",
         "close": "Đóng"
     },
     "countries": {

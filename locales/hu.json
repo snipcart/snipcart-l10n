@@ -453,7 +453,7 @@
         "message": "Elállási kérelmét sikeresen elküldtük. Hamarosan megerősítő e-mailt fog kapni.",
         "confirmation_number": "Megerősítési szám:",
         "submitted_at": "Beküldve:",
-        "refund_amount": "Visszatérítés összege:",
+        "refund_amount": "Becsült visszatérítés:",
         "close": "Bezárás"
     },
     "countries": {

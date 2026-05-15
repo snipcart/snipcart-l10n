@@ -453,7 +453,7 @@
         "message": "Twój wniosek o odstąpienie został pomyślnie wysłany. Wkrótce otrzymasz e-mail z potwierdzeniem.",
         "confirmation_number": "Numer potwierdzenia:",
         "submitted_at": "Wysłano:",
-        "refund_amount": "Kwota zwrotu:",
+        "refund_amount": "Szacowana kwota zwrotu:",
         "close": "Zamknij"
     },
     "countries": {

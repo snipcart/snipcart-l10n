@@ -457,7 +457,7 @@
         "message": "Solicitarea dumneavoastră de retragere a fost trimisă cu succes. Veți primi în scurt timp un email de confirmare.",
         "confirmation_number": "Număr de confirmare:",
         "submitted_at": "Trimisă la:",
-        "refund_amount": "Suma rambursată:",
+        "refund_amount": "Rambursare estimată:",
         "close": "Închide"
     },
     "countries": {

@@ -453,7 +453,7 @@
         "message": "Din fortrydelsesanmodning er indsendt. Du modtager snart en bekræftelses-e-mail.",
         "confirmation_number": "Bekræftelsesnummer:",
         "submitted_at": "Indsendt:",
-        "refund_amount": "Refunderingsbeløb:",
+        "refund_amount": "Anslået refundering:",
         "close": "Luk"
     },
     "countries": {

@@ -1144,7 +1144,7 @@
         "message": "Your withdrawal request has been submitted successfully. You will receive a confirmation email shortly.",
         "confirmation_number": "Confirmation Number:",
         "submitted_at": "Submitted:",
-        "refund_amount": "Refund Amount:",
+        "refund_amount": "Estimated Refund:",
         "close": "Close"
     },
     "countries": {

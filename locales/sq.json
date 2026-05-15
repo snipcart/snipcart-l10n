@@ -453,7 +453,7 @@
         "message": "Kërkesa juaj për tërheqje u dorëzua me sukses. Së shpejti do të merrni një email konfirmimi.",
         "confirmation_number": "Numri i konfirmimit:",
         "submitted_at": "Dorëzuar:",
-        "refund_amount": "Shuma e rimbursimit:",
+        "refund_amount": "Rimbursimi i parashikuar:",
         "close": "Mbyll"
     },
     "countries": {

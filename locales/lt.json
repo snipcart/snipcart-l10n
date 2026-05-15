@@ -453,7 +453,7 @@
         "message": "Jūsų atsisakymo prašymas sėkmingai pateiktas. Netrukus gausite patvirtinimo el. laišką.",
         "confirmation_number": "Patvirtinimo numeris:",
         "submitted_at": "Pateikta:",
-        "refund_amount": "Grąžinimo suma:",
+        "refund_amount": "Apytikris grąžinimas:",
         "close": "Uždaryti"
     },
     "countries": {

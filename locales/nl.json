@@ -453,7 +453,7 @@
         "message": "Uw herroepingsverzoek is succesvol ingediend. U ontvangt binnenkort een bevestigingsmail.",
         "confirmation_number": "Bevestigingsnummer:",
         "submitted_at": "Ingediend:",
-        "refund_amount": "Terugbetalingsbedrag:",
+        "refund_amount": "Geschatte terugbetaling:",
         "close": "Sluiten"
     },
     "countries": {

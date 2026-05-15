@@ -453,7 +453,7 @@
         "message": "철회 요청이 정상적으로 접수되었습니다. 곧 확인 이메일을 받으실 수 있습니다.",
         "confirmation_number": "확인 번호",
         "submitted_at": "접수 시각",
-        "refund_amount": "환불 금액",
+        "refund_amount": "예상 환불 금액",
         "close": "닫기"
     },
     "countries": {

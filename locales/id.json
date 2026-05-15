@@ -453,7 +453,7 @@
         "message": "Permintaan penarikan Anda telah berhasil dikirim. Anda akan segera menerima email konfirmasi.",
         "confirmation_number": "Nomor Konfirmasi:",
         "submitted_at": "Dikirim:",
-        "refund_amount": "Jumlah Pengembalian Dana:",
+        "refund_amount": "Perkiraan Pengembalian Dana:",
         "close": "Tutup"
     },
     "countries": {

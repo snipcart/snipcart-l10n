@@ -453,7 +453,7 @@
         "message": "Teie taganemistaotlus on edukalt esitatud. Saate peagi kinnituse e-posti teel.",
         "confirmation_number": "Kinnitusnumber:",
         "submitted_at": "Esitatud:",
-        "refund_amount": "Tagasimakse summa:",
+        "refund_amount": "Hinnanguline tagasimakse:",
         "close": "Sulge"
     },
     "countries": {

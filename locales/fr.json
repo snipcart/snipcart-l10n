@@ -460,7 +460,7 @@
         "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un courriel de confirmation.",
         "confirmation_number": "Numéro de confirmation :",
         "submitted_at": "Soumise le :",
-        "refund_amount": "Montant du remboursement :",
+        "refund_amount": "Remboursement estimé :",
         "close": "Fermer"
     },
     "countries": {

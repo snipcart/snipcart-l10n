@@ -453,7 +453,7 @@
         "message": "La tua richiesta di recesso è stata inviata correttamente. Riceverai a breve un'email di conferma.",
         "confirmation_number": "Numero di conferma:",
         "submitted_at": "Inviata il:",
-        "refund_amount": "Importo del rimborso:",
+        "refund_amount": "Rimborso stimato:",
         "close": "Chiudi"
     },
     "countries": {

@@ -453,7 +453,7 @@
         "message": "Afturköllunarbeiðni þín hefur verið send með góðum árangri. Þú færð staðfestingartölvupóst innan skamms.",
         "confirmation_number": "Staðfestingarnúmer:",
         "submitted_at": "Sent:",
-        "refund_amount": "Endurgreiðsluupphæð:",
+        "refund_amount": "Áætluð endurgreiðsla:",
         "close": "Loka"
     },
     "countries": {

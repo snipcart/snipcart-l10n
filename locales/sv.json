@@ -453,7 +453,7 @@
         "message": "Din ångerbegäran har skickats. Du kommer snart att få ett bekräftelsemail.",
         "confirmation_number": "Bekräftelsenummer:",
         "submitted_at": "Skickad:",
-        "refund_amount": "Återbetalningsbelopp:",
+        "refund_amount": "Beräknad återbetalning:",
         "close": "Stäng"
     },
     "countries": {

@@ -458,7 +458,7 @@
         "message": "您的撤回请求已成功提交。您将很快收到一封确认邮件。",
         "confirmation_number": "确认编号",
         "submitted_at": "提交时间",
-        "refund_amount": "退款金额",
+        "refund_amount": "预计退款金额",
         "close": "关闭"
     },
     "countries": {

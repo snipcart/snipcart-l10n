@@ -453,7 +453,7 @@
         "message": "Jūsu atteikuma pieprasījums ir veiksmīgi iesniegts. Drīz saņemsiet apstiprinājuma e-pastu.",
         "confirmation_number": "Apstiprinājuma numurs:",
         "submitted_at": "Iesniegts:",
-        "refund_amount": "Atmaksas summa:",
+        "refund_amount": "Aptuvenā atmaksa:",
         "close": "Aizvērt"
     },
     "countries": {

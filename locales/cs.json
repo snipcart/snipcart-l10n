@@ -453,7 +453,7 @@
         "message": "Vaše žádost o odstoupení byla úspěšně odeslána. Brzy obdržíte potvrzovací e-mail.",
         "confirmation_number": "Potvrzovací číslo:",
         "submitted_at": "Odesláno:",
-        "refund_amount": "Částka refundace:",
+        "refund_amount": "Odhadovaná částka refundace:",
         "close": "Zavřít"
     },
     "countries": {

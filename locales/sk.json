@@ -459,7 +459,7 @@
         "message": "Vaša žiadosť o odstúpenie bola úspešne odoslaná. Čoskoro dostanete potvrdzujúci e-mail.",
         "confirmation_number": "Potvrdzovacie číslo:",
         "submitted_at": "Odoslané:",
-        "refund_amount": "Suma refundácie:",
+        "refund_amount": "Odhadovaná suma refundácie:",
         "close": "Zavrieť"
     },
     "countries": {

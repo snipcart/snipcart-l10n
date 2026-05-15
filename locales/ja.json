@@ -453,7 +453,7 @@
         "message": "撤回リクエストが正常に送信されました。まもなく確認メールが届きます。",
         "confirmation_number": "確認番号",
         "submitted_at": "送信日時",
-        "refund_amount": "返金額",
+        "refund_amount": "返金見込み額",
         "close": "閉じる"
     },
     "countries": {

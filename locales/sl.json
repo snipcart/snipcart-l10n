@@ -453,7 +453,7 @@
         "message": "Vaša zahteva za odstop je bila uspešno poslana. V kratkem boste prejeli e-poštno potrditev.",
         "confirmation_number": "Številka potrditve:",
         "submitted_at": "Poslano:",
-        "refund_amount": "Znesek vračila:",
+        "refund_amount": "Predvideno vračilo:",
         "close": "Zapri"
     },
     "countries": {

@@ -453,7 +453,7 @@
         "message": "בקשת הביטול שלכם נשלחה בהצלחה. תקבלו אימייל אישור בקרוב.",
         "confirmation_number": "מספר אישור:",
         "submitted_at": "נשלח:",
-        "refund_amount": "סכום ההחזר:",
+        "refund_amount": "החזר משוער:",
         "close": "סגירה"
     },
     "countries": {

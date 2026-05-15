@@ -453,7 +453,7 @@
         "message": "Ihre Widerrufsanfrage wurde erfolgreich übermittelt. Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
         "confirmation_number": "Bestätigungsnummer:",
         "submitted_at": "Übermittelt:",
-        "refund_amount": "Erstattungsbetrag:",
+        "refund_amount": "Voraussichtliche Erstattung:",
         "close": "Schließen"
     },
     "countries": {

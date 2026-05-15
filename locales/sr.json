@@ -453,7 +453,7 @@
         "message": "Vaš zahtev za odustajanje je uspešno poslat. Uskoro ćete primiti email sa potvrdom.",
         "confirmation_number": "Broj potvrde:",
         "submitted_at": "Poslato:",
-        "refund_amount": "Iznos povraćaja:",
+        "refund_amount": "Procenjeni iznos povraćaja:",
         "close": "Zatvori"
     },
     "countries": {

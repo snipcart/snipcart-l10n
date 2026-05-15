@@ -453,7 +453,7 @@
         "message": "Voz kechish so'rovingiz muvaffaqiyatli yuborildi. Tez orada tasdiqlovchi elektron pochta xabarini olasiz.",
         "confirmation_number": "Tasdiqlash raqami:",
         "submitted_at": "Yuborilgan vaqt:",
-        "refund_amount": "Qaytarish summasi:",
+        "refund_amount": "Taxminiy qaytarish:",
         "close": "Yopish"
     },
     "countries": {

@@ -459,7 +459,7 @@
         "message": "Angreforespørselen din er sendt inn. Du vil snart motta en bekreftelse på e-post.",
         "confirmation_number": "Bekreftelsesnummer:",
         "submitted_at": "Sendt inn:",
-        "refund_amount": "Refusjonsbeløp:",
+        "refund_amount": "Estimert refusjon:",
         "close": "Lukk"
     },
     "countries": {
