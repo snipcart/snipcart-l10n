@@ -1,0 +1,4 @@
+# Normalize all text files to LF, in the repository and on checkout.
+# Without this, contributors on different OSes (with core.autocrlf=true)
+# commit mixed line endings, producing whole-file CRLF/LF diffs.
+* text=auto eol=lf
