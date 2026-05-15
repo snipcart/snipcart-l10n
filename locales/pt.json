@@ -445,7 +445,6 @@
         "refund_amount": "Reembolso estimado:",
         "refund_amount_notice": "Esta estimativa é apenas para fins informativos. O valor efetivamente reembolsado pode diferir depois de considerados os impostos, descontos e custos de envio.",
         "back": "Voltar",
-        "processing": "A processar…",
         "confirm": "Confirmar a desistência",
         "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias."
     },

@@ -444,7 +444,6 @@
         "refund_amount": "Taxminiy qaytarish:",
         "refund_amount_notice": "Ushbu taxmin faqat ma’lumot uchun. Soliqlar, chegirmalar va yetkazib berish to‘lovlari hisobga olingandan so‘ng haqiqiy qaytariladigan summa farq qilishi mumkin.",
         "back": "Orqaga",
-        "processing": "Qayta ishlanmoqda…",
         "confirm": "Voz kechishni tasdiqlash",
         "legal_notice": "Tasdiqlash bilan siz Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida ushbu shartnomadan voz kechish huquqingizni amalga oshirmoqdasiz. Pul qaytarishlar 14 kun ichida amalga oshiriladi."
     },

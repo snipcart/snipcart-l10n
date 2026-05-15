@@ -444,7 +444,6 @@
         "refund_amount": "Procenjeni iznos povraćaja:",
         "refund_amount_notice": "Ova procena je samo informativnog karaktera. Stvarni iznos povraćaja može se razlikovati nakon što se uzmu u obzir porezi, popusti i troškovi isporuke.",
         "back": "Nazad",
-        "processing": "Obrada…",
         "confirm": "Potvrdi odustajanje",
         "legal_notice": "Potvrdom ostvarujete svoje pravo na odustajanje od ovog ugovora u skladu sa Direktivom EU o pravima potrošača. Povraćaji se obrađuju u roku od 14 dana."
     },

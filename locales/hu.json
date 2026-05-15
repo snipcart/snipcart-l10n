@@ -444,7 +444,6 @@
         "refund_amount": "Becsült visszatérítés:",
         "refund_amount_notice": "Ez a becslés csak tájékoztató jellegű. A tényleges visszatérített összeg eltérhet az adók, kedvezmények és szállítási költségek figyelembevételét követően.",
         "back": "Vissza",
-        "processing": "Feldolgozás…",
         "confirm": "Elállás megerősítése",
         "legal_notice": "A megerősítéssel Ön gyakorolja az EU fogyasztói jogokról szóló irányelv szerinti elállási jogát. A visszatérítés 14 napon belül megtörténik."
     },

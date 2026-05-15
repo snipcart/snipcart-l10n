@@ -444,7 +444,6 @@
         "refund_amount": "Rimborso stimato:",
         "refund_amount_notice": "Questa stima è fornita a solo scopo informativo. L’importo effettivamente rimborsato potrà variare una volta presi in considerazione le tasse, gli sconti e le spese di spedizione.",
         "back": "Indietro",
-        "processing": "Elaborazione in corso…",
         "confirm": "Conferma il recesso",
         "legal_notice": "Confermando, eserciti il tuo diritto di recesso da questo contratto ai sensi della Direttiva sui diritti dei consumatori dell'UE. I rimborsi vengono elaborati entro 14 giorni."
     },

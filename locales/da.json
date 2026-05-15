@@ -444,7 +444,6 @@
         "refund_amount": "Anslået refundering:",
         "refund_amount_notice": "Dette skøn er kun til orientering. Det faktisk refunderede beløb kan afvige, når skatter, rabatter og forsendelsesomkostninger er taget i betragtning.",
         "back": "Tilbage",
-        "processing": "Behandler…",
         "confirm": "Bekræft fortrydelse",
         "legal_notice": "Ved at bekræfte udøver du din ret til at træde tilbage fra denne aftale i henhold til EU's forbrugerrettighedsdirektiv. Refunderinger behandles inden for 14 dage."
     },

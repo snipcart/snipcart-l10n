@@ -444,7 +444,6 @@
         "refund_amount": "Szacowana kwota zwrotu:",
         "refund_amount_notice": "Niniejsze oszacowanie ma charakter wyłącznie informacyjny. Rzeczywista kwota zwrotu może się różnić po uwzględnieniu podatków, rabatów i kosztów wysyłki.",
         "back": "Wstecz",
-        "processing": "Przetwarzanie…",
         "confirm": "Potwierdź odstąpienie",
         "legal_notice": "Potwierdzając, korzystasz ze swojego prawa do odstąpienia od umowy zgodnie z Dyrektywą w sprawie praw konsumentów. Zwroty są realizowane w ciągu 14 dni."
     },

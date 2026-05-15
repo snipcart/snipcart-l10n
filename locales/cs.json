@@ -444,7 +444,6 @@
         "refund_amount": "Odhadovaná částka refundace:",
         "refund_amount_notice": "Tento odhad je pouze informativní. Skutečná vrácená částka se může lišit po zohlednění daní, slev a poštovného.",
         "back": "Zpět",
-        "processing": "Zpracování…",
         "confirm": "Potvrdit odstoupení",
         "legal_notice": "Potvrzením uplatňujete své právo odstoupit od této smlouvy podle Směrnice o právech spotřebitelů EU. Refundace jsou zpracovávány do 14 dnů."
     },

@@ -448,7 +448,6 @@
         "refund_amount": "Rambursare estimată:",
         "refund_amount_notice": "Această estimare are doar caracter informativ. Suma efectiv rambursată poate diferi după luarea în calcul a taxelor, reducerilor și costurilor de livrare.",
         "back": "Înapoi",
-        "processing": "Se procesează…",
         "confirm": "Confirmați retragerea",
         "legal_notice": "Prin confirmare, vă exercitați dreptul de retragere din acest contract în baza Directivei privind drepturile consumatorilor a UE. Rambursările sunt procesate în termen de 14 zile."
     },

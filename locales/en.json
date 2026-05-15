@@ -1135,7 +1135,6 @@
         "refund_amount": "Estimated Refund:",
         "refund_amount_notice": "This estimate is for information only. The actual refunded amount may differ once taxes, discounts, and shipping fees are taken into account.",
         "back": "Back",
-        "processing": "Processing…",
         "confirm": "Confirm Withdrawal",
         "legal_notice": "By confirming, you are exercising your right to withdraw from this contract under the EU Consumer Rights Directive. Refunds are processed within 14 days."
     },

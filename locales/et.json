@@ -444,7 +444,6 @@
         "refund_amount": "Hinnanguline tagasimakse:",
         "refund_amount_notice": "See hinnang on üksnes informatiivne. Tegelik tagasimakstav summa võib pärast maksude, allahindluste ja saatekulude arvesse võtmist erineda.",
         "back": "Tagasi",
-        "processing": "Töötlemine…",
         "confirm": "Kinnita taganemine",
         "legal_notice": "Kinnitades kasutate oma õigust taganeda sellest lepingust EL-i tarbija õiguste direktiivi alusel. Tagasimaksed töödeldakse 14 päeva jooksul."
     },

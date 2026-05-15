@@ -444,7 +444,6 @@
         "refund_amount": "Reemborsament estimat:",
         "refund_amount_notice": "Aquesta estimació és només a títol informatiu. L’import realment reemborsat pot diferir un cop tinguts en compte els impostos, els descomptes i les despeses d’enviament.",
         "back": "Enrere",
-        "processing": "Processant…",
         "confirm": "Confirmar el desistiment",
         "legal_notice": "En confirmar, exerciu el vostre dret de desistiment d'aquest contracte d'acord amb la Directiva sobre els drets dels consumidors de la UE. Els reemborsaments es processen en un termini de 14 dies."
     },

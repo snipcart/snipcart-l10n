@@ -444,7 +444,6 @@
         "refund_amount": "Beräknad återbetalning:",
         "refund_amount_notice": "Denna uppskattning är endast informativ. Det faktiska återbetalda beloppet kan avvika när skatter, rabatter och fraktkostnader har beaktats.",
         "back": "Tillbaka",
-        "processing": "Behandlar…",
         "confirm": "Bekräfta ångerrätt",
         "legal_notice": "Genom att bekräfta utövar du din rätt att frånträda detta avtal enligt EU:s konsumenträttighetsdirektiv. Återbetalningar behandlas inom 14 dagar."
     },

@@ -450,7 +450,6 @@
         "refund_amount": "Estimert refusjon:",
         "refund_amount_notice": "Dette estimatet er kun til informasjon. Det faktiske refunderte beløpet kan avvike når skatter, rabatter og fraktkostnader er tatt med i beregningen.",
         "back": "Tilbake",
-        "processing": "Behandler…",
         "confirm": "Bekreft angrerett",
         "legal_notice": "Ved å bekrefte utøver du retten din til å trekke deg fra denne avtalen i henhold til EUs forbrukerrettighetsdirektiv. Refusjoner behandles innen 14 dager."
     },

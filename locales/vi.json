@@ -444,7 +444,6 @@
         "refund_amount": "Số tiền hoàn lại dự kiến:",
         "refund_amount_notice": "Ước tính này chỉ mang tính chất tham khảo. Số tiền hoàn lại thực tế có thể khác sau khi tính đến thuế, chiết khấu và phí vận chuyển.",
         "back": "Quay lại",
-        "processing": "Đang xử lý…",
         "confirm": "Xác nhận rút",
         "legal_notice": "Khi xác nhận, bạn đang thực hiện quyền rút khỏi hợp đồng này theo Chỉ thị về Quyền lợi Người tiêu dùng của EU. Việc hoàn tiền được xử lý trong vòng 14 ngày."
     },

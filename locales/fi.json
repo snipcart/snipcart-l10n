@@ -449,7 +449,6 @@
         "refund_amount": "Arvioitu palautus:",
         "refund_amount_notice": "Tämä arvio on vain ohjeellinen. Todellinen palautettava summa voi poiketa, kun verot, alennukset ja toimituskulut on otettu huomioon.",
         "back": "Takaisin",
-        "processing": "Käsitellään…",
         "confirm": "Vahvista peruutus",
         "legal_notice": "Vahvistamalla käytät oikeuttasi peruuttaa tämä sopimus kuluttajan oikeuksia koskevan direktiivin nojalla. Palautukset käsitellään 14 päivän kuluessa."
     },

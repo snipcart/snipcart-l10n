@@ -444,7 +444,6 @@
         "refund_amount": "Perkiraan Pengembalian Dana:",
         "refund_amount_notice": "Perkiraan ini hanya bersifat informatif. Jumlah pengembalian dana yang sebenarnya dapat berbeda setelah pajak, diskon, dan biaya pengiriman diperhitungkan.",
         "back": "Kembali",
-        "processing": "Memproses…",
         "confirm": "Konfirmasi Penarikan Diri",
         "legal_notice": "Dengan mengonfirmasi, Anda menggunakan hak Anda untuk menarik diri dari kontrak ini berdasarkan Direktif Hak Konsumen UE. Pengembalian dana diproses dalam waktu 14 hari."
     },
