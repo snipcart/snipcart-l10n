@@ -385,7 +385,17 @@
         "customer_password_token_invalid": "A ligação de redefinição de palavra-passe é inválida.",
         "customer_not_found": "Este e-mail não está associado a nenhuma conta.",
         "invalid_credentials": "Email ou password inválidas.",
-        "customer_current_password_invalid": "Palavra-passe incorreta."
+        "customer_current_password_invalid": "Palavra-passe incorreta.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Não foi possível verificar os seus dados.",
+                "description": "Verifique o seu nome, email e número da encomenda e tente novamente."
+            },
+            "confirm_failed": {
+                "title": "Não foi possível processar o seu pedido de desistência.",
+                "description": "Tente novamente ou contacte o comerciante."
+            }
+        }
     },
     "shippingRates": {
         "loading": "A carregar..."
@@ -402,5 +412,20 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Portes de envio serão calculados quando inserir uma morada de envio."
+    },
+    "withdrawal_form": {
+        "order_id": "Número da encomenda / fatura",
+        "email": "Endereço de email"
+    },
+    "withdrawal_confirm": {
+        "warning_message": "Esta encomenda está fora do prazo de desistência de 14 dias. O comerciante irá analisar o seu pedido.",
+        "order_number": "Número da encomenda:",
+        "order_date": "Data da encomenda:",
+        "order_total": "Total da encomenda:"
+    },
+    "withdrawal_success": {
+        "title": "Pedido de desistência enviado",
+        "message": "O seu pedido de desistência foi enviado com sucesso. Receberá em breve um email de confirmação.",
+        "submitted_at": "Enviado em:"
     }
 }

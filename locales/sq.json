@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Tokeni juaj i rikuperimit të fjalëkalimit është i pavlefshëm.",
         "customer_not_found": "Adresa e emailit nuk është e lidhur me asnjë llogari.",
         "invalid_credentials": "Email ose fjalëkalim i pavlefshëm.",
-        "customer_current_password_invalid": "Fjalëkalim i pavlefshëm."
+        "customer_current_password_invalid": "Fjalëkalim i pavlefshëm.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nuk arritëm të verifikojmë të dhënat tuaja.",
+                "description": "Ju lutemi kontrolloni emrin, adresën e emailit dhe numrin e porosisë, pastaj provoni përsëri."
+            },
+            "confirm_failed": {
+                "title": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje.",
+                "description": "Ju lutemi provoni përsëri ose kontaktoni tregtarin."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Duke ngarkuar tarifat e transportit"
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Transporti dhe taksat do të llogariten pasi të jepet një adresë."
+    },
+    "withdrawal_form": {
+        "title": "Tërheqja nga kontrata",
+        "instructions": "Vendosni të dhënat e porosisë suaj për të paraqitur një kërkesë për tërheqje sipas Direktivës për të drejtat e konsumatorëve të BE-së.",
+        "name": "Emri juaj",
+        "order_id": "Numri i porosisë / numri i faturës",
+        "email": "Adresa e emailit"
+    },
+    "withdrawal_confirm": {
+        "title": "Konfirmo tërheqjen",
+        "warning_title": "Vërejtje",
+        "warning_message": "Kjo porosi është jashtë periudhës 14-ditore të tërheqjes. Tregtari do ta shqyrtojë kërkesën tuaj.",
+        "order_details": "Detajet e porosisë",
+        "order_number": "Numri i porosisë:",
+        "order_date": "Data e porosisë:",
+        "order_total": "Totali i porosisë:",
+        "items_title": "Zgjidhni artikujt për t’u tërhequr",
+        "withdraw_all": "Tërhiqu nga të gjithë artikujt (rimbursim i plotë)",
+        "refund_amount": "Rimbursimi i parashikuar:",
+        "refund_amount_notice": "Kjo vlerësim është vetëm për qëllime informuese. Shuma e rimbursuar në fakt mund të ndryshojë pasi të merren parasysh taksat, zbritjet dhe shpenzimet e transportit.",
+        "back": "Mbrapa",
+        "confirm": "Konfirmo tërheqjen",
+        "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh."
+    },
+    "withdrawal_success": {
+        "title": "Kërkesa për tërheqje u dorëzua",
+        "message": "Kërkesa juaj për tërheqje u dorëzua me sukses. Së shpejti do të merrni një email konfirmimi.",
+        "confirmation_number": "Numri i konfirmimit:",
+        "submitted_at": "Dorëzuar:",
+        "refund_amount": "Rimbursimi i parashikuar:",
+        "close": "Mbyll"
     },
     "countries": {
         "AD": "Andorra",

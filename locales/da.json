@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Linket til nulstilling af adgangskode er ugyldigt.",
         "customer_not_found": "E-mailadressen er ikke knyttet til en konto.",
         "invalid_credentials": "Ugylding email eller kode.",
-        "customer_current_password_invalid": "Ugyldig adgangskode."
+        "customer_current_password_invalid": "Ugyldig adgangskode.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Vi kunne ikke bekræfte dine oplysninger.",
+                "description": "Kontrollér dit navn, din e-mailadresse og dit ordrenummer, og prøv igen."
+            },
+            "confirm_failed": {
+                "title": "Vi kunne ikke behandle din fortrydelsesanmodning.",
+                "description": "Prøv igen, eller kontakt forhandleren."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Indlæser..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
+    },
+    "withdrawal_form": {
+        "title": "Træd tilbage fra aftalen",
+        "instructions": "Indtast dine ordreoplysninger for at anmode om fortrydelse i henhold til EU's forbrugerrettighedsdirektiv.",
+        "name": "Dit navn",
+        "order_id": "Ordre-ID / Fakturanummer",
+        "email": "E-mailadresse"
+    },
+    "withdrawal_confirm": {
+        "title": "Bekræft fortrydelse",
+        "warning_title": "Bemærk",
+        "warning_message": "Denne ordre er uden for fortrydelsesfristen på 14 dage. Forhandleren vil vurdere din anmodning.",
+        "order_details": "Ordreoplysninger",
+        "order_number": "Ordrenummer:",
+        "order_date": "Ordredato:",
+        "order_total": "Ordresum:",
+        "items_title": "Vælg varer der skal fortrydes",
+        "withdraw_all": "Fortryd alle varer (fuld refundering)",
+        "refund_amount": "Anslået refundering:",
+        "refund_amount_notice": "Dette skøn er kun til orientering. Det faktisk refunderede beløb kan afvige, når skatter, rabatter og forsendelsesomkostninger er taget i betragtning.",
+        "back": "Tilbage",
+        "confirm": "Bekræft fortrydelse",
+        "legal_notice": "Ved at bekræfte udøver du din ret til at træde tilbage fra denne aftale i henhold til EU's forbrugerrettighedsdirektiv. Refunderinger behandles inden for 14 dage."
+    },
+    "withdrawal_success": {
+        "title": "Fortrydelsesanmodning indsendt",
+        "message": "Din fortrydelsesanmodning er indsendt. Du modtager snart en bekræftelses-e-mail.",
+        "confirmation_number": "Bekræftelsesnummer:",
+        "submitted_at": "Indsendt:",
+        "refund_amount": "Anslået refundering:",
+        "close": "Luk"
     },
     "countries": {
         "AD": {

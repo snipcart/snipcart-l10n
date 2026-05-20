@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "קישור איפוס הסיסמה אינו תקין.",
         "customer_not_found": "כתובת דוא\"ל זו אינה משויכת לחשבון.",
         "invalid_credentials": "דוא\"ל או סיסמה שגויים.",
-        "customer_current_password_invalid": "סיסמה שגויה."
+        "customer_current_password_invalid": "סיסמה שגויה.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "לא הצלחנו לאמת את הפרטים שלכם.",
+                "description": "אנא בדקו את השם, הדוא\"ל ומספר ההזמנה ונסו שוב."
+            },
+            "confirm_failed": {
+                "title": "לא הצלחנו לעבד את בקשת הביטול שלכם.",
+                "description": "אנא נסו שוב או צרו קשר עם המוכר."
+            }
+        }
     },
     "shippingRates": {
         "loading": "טוען..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "משלוח ומסים יחושבו לאחר הזנת הכתובת."
+    },
+    "withdrawal_form": {
+        "title": "ביטול חוזה",
+        "instructions": "הזינו את פרטי ההזמנה שלכם כדי לבקש ביטול לפי הנחיית האיחוד האירופי בנוגע לזכויות הצרכן.",
+        "name": "שמכם",
+        "order_id": "מספר הזמנה / מספר חשבונית",
+        "email": "כתובת דוא\"ל"
+    },
+    "withdrawal_confirm": {
+        "title": "אישור הביטול",
+        "warning_title": "לתשומת לבכם",
+        "warning_message": "הזמנה זו נמצאת מחוץ לתקופת הביטול של 14 הימים. המוכר יבחן את בקשתכם.",
+        "order_details": "פרטי ההזמנה",
+        "order_number": "מספר הזמנה:",
+        "order_date": "תאריך הזמנה:",
+        "order_total": "סך ההזמנה:",
+        "items_title": "בחרו פריטים לביטול",
+        "withdraw_all": "בטל את כל הפריטים (החזר מלא)",
+        "refund_amount": "החזר משוער:",
+        "refund_amount_notice": "הערכה זו היא לידיעה בלבד. סכום ההחזר בפועל עשוי להיות שונה לאחר התחשבות במסים, בהנחות ובדמי המשלוח.",
+        "back": "חזרה",
+        "confirm": "אישור הביטול",
+        "legal_notice": "באישור, אתם מממשים את זכותכם לבטל את החוזה הזה לפי הנחיית האיחוד האירופי בנוגע לזכויות הצרכן. ההחזרים מעובדים תוך 14 ימים."
+    },
+    "withdrawal_success": {
+        "title": "בקשת הביטול נשלחה",
+        "message": "בקשת הביטול שלכם נשלחה בהצלחה. תקבלו אימייל אישור בקרוב.",
+        "confirmation_number": "מספר אישור:",
+        "submitted_at": "נשלח:",
+        "refund_amount": "החזר משוער:",
+        "close": "סגירה"
     },
     "countries": {
         "AD": {

@@ -402,6 +402,16 @@
         "no_shipping_rates_found": {
             "title": "Nie je dostupný spôsob dodania pre Vašu objednávku",
             "description": "Prosíme skontrolujte Vašu dodaciu adresu alebo nás kontaktujte."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nepodarilo sa nám overiť Vaše údaje.",
+                "description": "Skontrolujte prosím svoje meno, e-mailovú adresu a číslo objednávky a skúste to znova."
+            },
+            "confirm_failed": {
+                "title": "Nepodarilo sa nám spracovať Vašu žiadosť o odstúpenie.",
+                "description": "Skúste to prosím znova alebo kontaktujte predajcu."
+            }
         }
     },
     "shippingRates": {
@@ -419,6 +429,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Výška poštovného a dane bude vypočítaná až po vyplnení dodacej adresy."
+    },
+    "withdrawal_form": {
+        "title": "Odstúpenie od zmluvy",
+        "instructions": "Zadajte údaje o svojej objednávke, aby ste mohli požiadať o odstúpenie podľa Smernice o právach spotrebiteľov EÚ.",
+        "name": "Vaše meno",
+        "order_id": "Číslo objednávky / číslo faktúry",
+        "email": "E-mailová adresa"
+    },
+    "withdrawal_confirm": {
+        "title": "Potvrdiť odstúpenie",
+        "warning_title": "Upozornenie",
+        "warning_message": "Táto objednávka je mimo 14-dňovej lehoty na odstúpenie. Predajca posúdi Vašu žiadosť.",
+        "order_details": "Podrobnosti objednávky",
+        "order_number": "Číslo objednávky:",
+        "order_date": "Dátum objednávky:",
+        "order_total": "Celková suma objednávky:",
+        "items_title": "Vyberte položky na vrátenie",
+        "withdraw_all": "Odstúpiť od všetkých položiek (plná refundácia)",
+        "refund_amount": "Odhadovaná suma refundácie:",
+        "refund_amount_notice": "Tento odhad je len informatívny. Skutočná vrátená suma sa môže líšiť po zohľadnení daní, zliav a poštovného.",
+        "back": "Späť",
+        "confirm": "Potvrdiť odstúpenie",
+        "legal_notice": "Potvrdením uplatňujete svoje právo odstúpiť od tejto zmluvy podľa Smernice o právach spotrebiteľov EÚ. Refundácie sú spracované do 14 dní."
+    },
+    "withdrawal_success": {
+        "title": "Žiadosť o odstúpenie odoslaná",
+        "message": "Vaša žiadosť o odstúpenie bola úspešne odoslaná. Čoskoro dostanete potvrdzujúci e-mail.",
+        "confirmation_number": "Potvrdzovacie číslo:",
+        "submitted_at": "Odoslané:",
+        "refund_amount": "Odhadovaná suma refundácie:",
+        "close": "Zavrieť"
     },
     "countries": {
         "AD": {

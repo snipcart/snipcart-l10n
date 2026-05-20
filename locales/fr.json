@@ -403,6 +403,16 @@
         "no_shipping_rates_found": {
             "title": "Pas de méthode de livraison disponible pour votre commande",
             "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nous n’avons pas pu vérifier vos informations.",
+                "description": "Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer."
+            },
+            "confirm_failed": {
+                "title": "Nous n’avons pas pu traiter votre demande de rétractation.",
+                "description": "Veuillez réessayer ou communiquer avec le marchand."
+            }
         }
     },
     "shippingRates": {
@@ -420,6 +430,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Les frais de livraison et les taxes seront calculés au moment du paiement."
+    },
+    "withdrawal_form": {
+        "title": "Rétractation du contrat",
+        "instructions": "Saisissez les informations de votre commande pour exercer votre droit de rétractation en vertu de la Directive sur les droits des consommateurs de l’UE.",
+        "name": "Votre nom",
+        "order_id": "Numéro de commande / facture",
+        "email": "Adresse courriel"
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmer la rétractation",
+        "warning_title": "Remarque",
+        "warning_message": "Cette commande est en dehors du délai de rétractation de 14 jours. Le marchand examinera votre demande.",
+        "order_details": "Détails de la commande",
+        "order_number": "Numéro de commande :",
+        "order_date": "Date de la commande :",
+        "order_total": "Total de la commande :",
+        "items_title": "Sélectionnez les articles à retourner",
+        "withdraw_all": "Rétracter tous les articles (remboursement intégral)",
+        "refund_amount": "Remboursement estimé :",
+        "refund_amount_notice": "Cette estimation est fournie à titre informatif. Le montant réellement remboursé peut différer une fois les taxes, les rabais et les frais d’expédition pris en compte.",
+        "back": "Retour",
+        "confirm": "Confirmer la rétractation",
+        "legal_notice": "En confirmant, vous exercez votre droit de rétractation du contrat en vertu de la Directive sur les droits des consommateurs de l’UE. Les remboursements sont traités sous 14 jours."
+    },
+    "withdrawal_success": {
+        "title": "Demande de rétractation soumise",
+        "message": "Votre demande de rétractation a été soumise avec succès. Vous recevrez sous peu un courriel de confirmation.",
+        "confirmation_number": "Numéro de confirmation :",
+        "submitted_at": "Soumise le :",
+        "refund_amount": "Remboursement estimé :",
+        "close": "Fermer"
     },
     "countries": {
         "AD": {

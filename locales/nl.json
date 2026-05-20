@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Uw token voor wachtwoordherstel is ongeldig.",
         "customer_not_found": "Het e-mailadres is niet aan een account gekoppeld.",
         "invalid_credentials": "Incorrect e-mail of wachtwoord.",
-        "customer_current_password_invalid": "Ongeldig wachtwoord."
+        "customer_current_password_invalid": "Ongeldig wachtwoord.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "We konden uw gegevens niet verifiëren.",
+                "description": "Controleer uw naam, e-mailadres en bestelnummer en probeer het opnieuw."
+            },
+            "confirm_failed": {
+                "title": "We konden uw herroepingsverzoek niet verwerken.",
+                "description": "Probeer het opnieuw of neem contact op met de verkoper."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Laden..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Verzendkosten en BTW worden berekend na het ingeven van het adres."
+    },
+    "withdrawal_form": {
+        "title": "Overeenkomst herroepen",
+        "instructions": "Voer uw bestelgegevens in om een herroeping aan te vragen op grond van de Richtlijn consumentenrechten van de EU.",
+        "name": "Uw naam",
+        "order_id": "Bestelnummer / Factuurnummer",
+        "email": "E-mailadres"
+    },
+    "withdrawal_confirm": {
+        "title": "Herroeping bevestigen",
+        "warning_title": "Let op",
+        "warning_message": "Deze bestelling valt buiten de herroepingstermijn van 14 dagen. De verkoper zal uw verzoek beoordelen.",
+        "order_details": "Bestelgegevens",
+        "order_number": "Bestelnummer:",
+        "order_date": "Besteldatum:",
+        "order_total": "Bestelbedrag:",
+        "items_title": "Selecteer artikelen om te herroepen",
+        "withdraw_all": "Alle artikelen herroepen (volledige terugbetaling)",
+        "refund_amount": "Geschatte terugbetaling:",
+        "refund_amount_notice": "Deze schatting is uitsluitend ter informatie. Het werkelijk terugbetaalde bedrag kan afwijken zodra belastingen, kortingen en verzendkosten zijn meegerekend.",
+        "back": "Terug",
+        "confirm": "Herroeping bevestigen",
+        "legal_notice": "Door te bevestigen oefent u uw recht uit om deze overeenkomst te herroepen op grond van de Richtlijn consumentenrechten van de EU. Terugbetalingen worden binnen 14 dagen verwerkt."
+    },
+    "withdrawal_success": {
+        "title": "Herroepingsverzoek ingediend",
+        "message": "Uw herroepingsverzoek is succesvol ingediend. U ontvangt binnenkort een bevestigingsmail.",
+        "confirmation_number": "Bevestigingsnummer:",
+        "submitted_at": "Ingediend:",
+        "refund_amount": "Geschatte terugbetaling:",
+        "close": "Sluiten"
     },
     "countries": {
         "AD": {

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "パスワードリカバリートークンが無効です。",
         "customer_not_found": "メールアドレスはどのアカウントにも関連付けられていません。",
         "invalid_credentials": "メールアドレスかパスワードが正しくありません",
-        "customer_current_password_invalid": "無効なパスワードです。"
+        "customer_current_password_invalid": "無効なパスワードです。",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "ご入力内容を確認できませんでした。",
+                "description": "お名前、メールアドレス、注文番号をご確認のうえ、再度お試しください。"
+            },
+            "confirm_failed": {
+                "title": "撤回リクエストを処理できませんでした。",
+                "description": "再度お試しいただくか、販売者へお問い合わせください。"
+            }
+        }
     },
     "shippingRates": {
         "loading": "発送料金を読み込み中"
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "送料と税は、配送先ご入力後に確定します。"
+    },
+    "withdrawal_form": {
+        "title": "契約からの撤回",
+        "instructions": "EU消費者権利指令に基づく撤回をご希望の場合は、ご注文情報をご入力ください。",
+        "name": "お名前",
+        "order_id": "注文ID／請求書番号",
+        "email": "メールアドレス"
+    },
+    "withdrawal_confirm": {
+        "title": "撤回の確認",
+        "warning_title": "ご注意",
+        "warning_message": "このご注文は14日間の撤回期間を過ぎています。販売者がリクエストを確認いたします。",
+        "order_details": "注文の詳細",
+        "order_number": "注文番号",
+        "order_date": "注文日",
+        "order_total": "注文合計",
+        "items_title": "撤回する商品を選択",
+        "withdraw_all": "すべての商品を撤回する（全額返金）",
+        "refund_amount": "返金見込み額",
+        "refund_amount_notice": "この見積もりは参考情報です。税金、割引、配送料を考慮した後、実際の返金額は異なる場合があります。",
+        "back": "戻る",
+        "confirm": "撤回を確定する",
+        "legal_notice": "確定すると、EU消費者権利指令に基づき本契約からの撤回権を行使したことになります。返金は14日以内に処理されます。"
+    },
+    "withdrawal_success": {
+        "title": "撤回リクエストを受け付けました",
+        "message": "撤回リクエストが正常に送信されました。まもなく確認メールが届きます。",
+        "confirmation_number": "確認番号",
+        "submitted_at": "送信日時",
+        "refund_amount": "返金見込み額",
+        "close": "閉じる"
     },
     "countries": {
         "AD": {

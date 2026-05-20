@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "A jelszóvisszaállító tokened érvénytelen.",
         "customer_not_found": "Ez az email cím nem tartozik egy fiókhoz sem.",
         "invalid_credentials": "Rossz email cím vagy jelszó.",
-        "customer_current_password_invalid": "Helytelen jelszó."
+        "customer_current_password_invalid": "Helytelen jelszó.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nem tudtuk ellenőrizni az adatait.",
+                "description": "Kérjük, ellenőrizze a nevét, e-mail-címét és rendelési számát, majd próbálja újra."
+            },
+            "confirm_failed": {
+                "title": "Nem tudtuk feldolgozni az elállási kérelmét.",
+                "description": "Kérjük, próbálja újra, vagy lépjen kapcsolatba a kereskedővel."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Szállítási díjak betöltése"
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "A szállítási díjat és az áfát a cím megadásakor adjuk hozzá."
+    },
+    "withdrawal_form": {
+        "title": "Elállás a szerződéstől",
+        "instructions": "Adja meg a rendelés adatait az elállási kérelem benyújtásához az EU fogyasztói jogokról szóló irányelv alapján.",
+        "name": "Az Ön neve",
+        "order_id": "Rendelési azonosító / Számlaszám",
+        "email": "E-mail-cím"
+    },
+    "withdrawal_confirm": {
+        "title": "Elállás megerősítése",
+        "warning_title": "Megjegyzés",
+        "warning_message": "Ez a rendelés a 14 napos elállási időszakon kívül esik. A kereskedő felül fogja vizsgálni a kérelmét.",
+        "order_details": "Rendelés részletei",
+        "order_number": "Rendelésszám:",
+        "order_date": "Rendelés dátuma:",
+        "order_total": "Rendelés végösszege:",
+        "items_title": "Válassza ki a visszaadni kívánt tételeket",
+        "withdraw_all": "Minden tétel visszaküldése (teljes visszatérítés)",
+        "refund_amount": "Becsült visszatérítés:",
+        "refund_amount_notice": "Ez a becslés csak tájékoztató jellegű. A tényleges visszatérített összeg eltérhet az adók, kedvezmények és szállítási költségek figyelembevételét követően.",
+        "back": "Vissza",
+        "confirm": "Elállás megerősítése",
+        "legal_notice": "A megerősítéssel Ön gyakorolja az EU fogyasztói jogokról szóló irányelv szerinti elállási jogát. A visszatérítés 14 napon belül megtörténik."
+    },
+    "withdrawal_success": {
+        "title": "Elállási kérelem elküldve",
+        "message": "Elállási kérelmét sikeresen elküldtük. Hamarosan megerősítő e-mailt fog kapni.",
+        "confirmation_number": "Megerősítési szám:",
+        "submitted_at": "Beküldve:",
+        "refund_amount": "Becsült visszatérítés:",
+        "close": "Bezárás"
     },
     "countries": {
         "AD": {

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Din token för lösenordsåterställning är felaktig.",
         "customer_not_found": "E-postadressen är inte kopplad till något konto.",
         "invalid_credentials": "Felaktig e-postaadress eller lösenord.",
-        "customer_current_password_invalid": "Felaktigt lösenord."
+        "customer_current_password_invalid": "Felaktigt lösenord.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Vi kunde inte verifiera dina uppgifter.",
+                "description": "Kontrollera ditt namn, din e-postadress och ditt ordernummer och försök igen."
+            },
+            "confirm_failed": {
+                "title": "Vi kunde inte behandla din ångerbegäran.",
+                "description": "Försök igen eller kontakta handlaren."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Laddar..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frakt och ev. skatter kommer att beräknas när du angett en adress."
+    },
+    "withdrawal_form": {
+        "title": "Frånträd avtalet",
+        "instructions": "Ange dina orderuppgifter för att begära ångerrätt enligt EU:s konsumenträttighetsdirektiv.",
+        "name": "Ditt namn",
+        "order_id": "Order-ID / Fakturanummer",
+        "email": "E-postadress"
+    },
+    "withdrawal_confirm": {
+        "title": "Bekräfta ångerrätt",
+        "warning_title": "Observera",
+        "warning_message": "Denna order ligger utanför ångerfristen på 14 dagar. Handlaren kommer att granska din begäran.",
+        "order_details": "Orderdetaljer",
+        "order_number": "Ordernummer:",
+        "order_date": "Orderdatum:",
+        "order_total": "Ordersumma:",
+        "items_title": "Välj artiklar att ångra",
+        "withdraw_all": "Ångra alla artiklar (full återbetalning)",
+        "refund_amount": "Beräknad återbetalning:",
+        "refund_amount_notice": "Denna uppskattning är endast informativ. Det faktiska återbetalda beloppet kan avvika när skatter, rabatter och fraktkostnader har beaktats.",
+        "back": "Tillbaka",
+        "confirm": "Bekräfta ångerrätt",
+        "legal_notice": "Genom att bekräfta utövar du din rätt att frånträda detta avtal enligt EU:s konsumenträttighetsdirektiv. Återbetalningar behandlas inom 14 dagar."
+    },
+    "withdrawal_success": {
+        "title": "Ångerbegäran skickad",
+        "message": "Din ångerbegäran har skickats. Du kommer snart att få ett bekräftelsemail.",
+        "confirmation_number": "Bekräftelsenummer:",
+        "submitted_at": "Skickad:",
+        "refund_amount": "Beräknad återbetalning:",
+        "close": "Stäng"
     },
     "countries": {
         "AD": {

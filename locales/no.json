@@ -402,6 +402,16 @@
         "no_shipping_rates_found": {
             "title": "Ingen fraktmetoder funnet for din ordre",
             "description": "Vennligst gå gjennom fraktdetaljene dine, eller kontakt oss."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Vi kunne ikke bekrefte opplysningene dine.",
+                "description": "Kontroller navnet ditt, e-postadressen og bestillingsnummeret, og prøv igjen."
+            },
+            "confirm_failed": {
+                "title": "Vi kunne ikke behandle angreforespørselen din.",
+                "description": "Prøv igjen eller kontakt selgeren."
+            }
         }
     },
     "shippingRates": {
@@ -419,6 +429,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Frakt beregnes når adresse oppgis."
+    },
+    "withdrawal_form": {
+        "title": "Trekk deg fra avtalen",
+        "instructions": "Oppgi bestillingsdetaljene dine for å be om angrerett i henhold til EUs forbrukerrettighetsdirektiv.",
+        "name": "Ditt navn",
+        "order_id": "Bestillings-ID / Fakturanummer",
+        "email": "E-postadresse"
+    },
+    "withdrawal_confirm": {
+        "title": "Bekreft angrerett",
+        "warning_title": "Merk",
+        "warning_message": "Denne bestillingen er utenfor angrefristen på 14 dager. Selgeren vil vurdere forespørselen din.",
+        "order_details": "Bestillingsdetaljer",
+        "order_number": "Bestillingsnummer:",
+        "order_date": "Bestillingsdato:",
+        "order_total": "Totalsum:",
+        "items_title": "Velg varer å angre",
+        "withdraw_all": "Angre alle varer (full refusjon)",
+        "refund_amount": "Estimert refusjon:",
+        "refund_amount_notice": "Dette estimatet er kun til informasjon. Det faktiske refunderte beløpet kan avvike når skatter, rabatter og fraktkostnader er tatt med i beregningen.",
+        "back": "Tilbake",
+        "confirm": "Bekreft angrerett",
+        "legal_notice": "Ved å bekrefte utøver du retten din til å trekke deg fra denne avtalen i henhold til EUs forbrukerrettighetsdirektiv. Refusjoner behandles innen 14 dager."
+    },
+    "withdrawal_success": {
+        "title": "Angreforespørsel sendt inn",
+        "message": "Angreforespørselen din er sendt inn. Du vil snart motta en bekreftelse på e-post.",
+        "confirmation_number": "Bekreftelsesnummer:",
+        "submitted_at": "Sendt inn:",
+        "refund_amount": "Estimert refusjon:",
+        "close": "Lukk"
     },
     "countries": {
         "AD": {

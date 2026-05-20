@@ -1,94 +1,94 @@
 {
     "default": {
-        "loading": "Hle\u00f0...",
+        "loading": "Hleð...",
         "error": "Villa kom upp.",
-        "success": "T\u00f3kst!"
+        "success": "Tókst!"
     },
     "actions": {
         "edit": "Breyta",
-        "cancel": "H\u00e6tta vi\u00f0",
-        "continue_shopping": "Halda \u00e1fram a\u00f0 versla",
-        "back_to_checkout": "Til baka \u00ed grei\u00f0slu",
-        "checkout": "Grei\u00f0a",
+        "cancel": "Hætta við",
+        "continue_shopping": "Halda áfram að versla",
+        "back_to_checkout": "Til baka í greiðslu",
+        "checkout": "Greiða",
         "apply": "Nota",
         "dismiss": "Loka",
-        "type_address": "Sl\u00e1\u00f0u inn heimilisfang",
-        "use_this_address": "Nota \u00feetta heimilisfang",
-        "back_to_store": "Til baka \u00ed verslun",
-        "close_cart": "Loka k\u00f6rfu",
-        "show": "S\u00fdna",
+        "type_address": "Sláðu inn heimilisfang",
+        "use_this_address": "Nota þetta heimilisfang",
+        "back_to_store": "Til baka í verslun",
+        "close_cart": "Loka körfu",
+        "show": "Sýna",
         "hide": "Fela",
         "apply_changes": "Vista breytingar",
-        "yes_use_it": "J\u00e1, nota \u00feetta",
+        "yes_use_it": "Já, nota þetta",
         "save_changes": "Vista breytingar",
-        "back_to_orders": "Til baka \u00ed pantanir",
-        "change_password": "Breyta lykilor\u00f0i",
-        "clear_cart": "T\u00e6ma k\u00f6rfu",
-        "add": "B\u00e6ta vi\u00f0"
+        "back_to_orders": "Til baka í pantanir",
+        "change_password": "Breyta lykilorði",
+        "clear_cart": "Tæma körfu",
+        "add": "Bæta við"
     },
     "header": {
-        "title_cart_summary": "Yfirlit k\u00f6rfu",
-        "loading": "Hle\u00f0..."
+        "title_cart_summary": "Yfirlit körfu",
+        "loading": "Hleð..."
     },
     "item": {
         "quantity": "Magn",
         "quantity_short": "Magn",
         "decrement_quantity": "Minnka magn",
         "increment_quantity": "Auka magn",
-        "remove_item": "Fjarl\u00e6gja v\u00f6ru",
+        "remove_item": "Fjarlægja vöru",
         "recurrence": {
             "daily": "dagur |||| %{smart_count} dagar",
             "weekly": "vika |||| %{smart_count} vikur",
-            "monthly": "m\u00e1nu\u00f0ur |||| %{smart_count} m\u00e1nu\u00f0ir",
-            "yearly": "\u00e1r |||| %{smart_count} \u00e1r"
+            "monthly": "mánuður |||| %{smart_count} mánuðir",
+            "yearly": "ár |||| %{smart_count} ár"
         }
     },
     "subscription": {
-        "title": "\u00c1skrift",
+        "title": "Áskrift",
         "state": {
-            "title": "Sta\u00f0a",
+            "title": "Staða",
             "active": "Virk",
-            "paused": "\u00cd hli\u00f0",
-            "finished": "Loki\u00f0",
-            "stopped": "H\u00e6tt",
-            "cancellationrequested": "\u00c1skrift mun h\u00e6tta \u00ed lok reikningst\u00edmabils."
+            "paused": "Í hlið",
+            "finished": "Lokið",
+            "stopped": "Hætt",
+            "cancellationrequested": "Áskrift mun hætta í lok reikningstímabils."
         },
-        "placed_on": "P\u00f6ntu\u00f0 \u00feann",
+        "placed_on": "Pöntuð þann",
         "final_billing_date": "Loka reikningsdagur",
-        "items": "V\u00f6rur",
-        "plan": "\u00c1\u00e6tlun",
-        "billed_on": "Reikningsf\u00e6r\u00f0 \u00feann",
-        "payment_amount": "Grei\u00f0sluupph\u00e6\u00f0",
-        "processing": "\u00c1skrift er enn \u00ed vinnslu. Komi\u00f0 aftur s\u00ed\u00f0ar til a\u00f0 sj\u00e1 uppl\u00fdsingar.",
-        "loading": "Hle\u00f0 \u00e1skriftum",
-        "cancel": "H\u00e6tta vi\u00f0",
-        "pause": "Gera hl\u00e9",
-        "unpause": "Halda \u00e1fram",
+        "items": "Vörur",
+        "plan": "Áætlun",
+        "billed_on": "Reikningsfærð þann",
+        "payment_amount": "Greiðsluupphæð",
+        "processing": "Áskrift er enn í vinnslu. Komið aftur síðar til að sjá upplýsingar.",
+        "loading": "Hleð áskriftum",
+        "cancel": "Hætta við",
+        "pause": "Gera hlé",
+        "unpause": "Halda áfram",
         "billing_recurrence": {
-            "daily": "Reikningsf\u00e6rt \u00e1 hverjum degi |||| Reikningsf\u00e6rt \u00e1 %{smart_count} daga fresti",
-            "weekly": "Reikningsf\u00e6rt \u00e1 hverri viku |||| Reikningsf\u00e6rt \u00e1 %{smart_count} vikna fresti",
-            "monthly": "Reikningsf\u00e6rt \u00e1 hverjum m\u00e1nu\u00f0i |||| Reikningsf\u00e6rt \u00e1 %{smart_count} m\u00e1na\u00f0a fresti",
-            "yearly": "Reikningsf\u00e6rt \u00e1 hverju \u00e1ri |||| Reikningsf\u00e6rt \u00e1 %{smart_count} \u00e1ra fresti"
+            "daily": "Reikningsfært á hverjum degi |||| Reikningsfært á %{smart_count} daga fresti",
+            "weekly": "Reikningsfært á hverri viku |||| Reikningsfært á %{smart_count} vikna fresti",
+            "monthly": "Reikningsfært á hverjum mánuði |||| Reikningsfært á %{smart_count} mánaða fresti",
+            "yearly": "Reikningsfært á hverju ári |||| Reikningsfært á %{smart_count} ára fresti"
         }
     },
     "cart": {
-        "subtotal": "Millisamt\u00f6lu",
-        "shipping_taxes_calculated_at_checkout": "Sendingarkostna\u00f0ur og skattar ver\u00f0a reikna\u00f0ir vi\u00f0 grei\u00f0slu.",
-        "loading": "Vi\u00f0 erum a\u00f0 undirb\u00faa k\u00f6rfuna \u00fe\u00edna...",
+        "subtotal": "Millisamtölu",
+        "shipping_taxes_calculated_at_checkout": "Sendingarkostnaður og skattar verða reiknaðir við greiðslu.",
+        "loading": "Við erum að undirbúa körfuna þína...",
         "secured_by": "Tryggt af Snipcart",
-        "summary": "P\u00f6ntunaryfirlit",
-        "empty": "Karfan \u00fe\u00edn er t\u00f3m.",
-        "invoice_number": "Reikningsn\u00famer",
-        "view_detailed_cart": "Sko\u00f0a n\u00e1nari k\u00f6rfu"
+        "summary": "Pöntunaryfirlit",
+        "empty": "Karfan þín er tóm.",
+        "invoice_number": "Reikningsnúmer",
+        "view_detailed_cart": "Skoða nánari körfu"
     },
     "order": {
-        "loading": "Vi\u00f0 erum a\u00f0 undirb\u00faa p\u00f6ntunaruppl\u00fdsingar...",
-        "title": "P\u00f6ntun"
+        "loading": "Við erum að undirbúa pöntunarupplýsingar...",
+        "title": "Pöntun"
     },
     "discount_box": {
-        "promo_code": "A\u00f0gangsko\u00f0i?",
-        "promo_code_placeholder": "A\u00f0gangsko\u00f0i",
-        "promocode_applied": "Tilbo\u00f0 virkja\u00f0"
+        "promo_code": "Aðgangskoði?",
+        "promo_code_placeholder": "Aðgangskoði",
+        "promocode_applied": "Tilboð virkjað"
     },
     "address_form": {
         "name": "Fullt nafn",
@@ -96,142 +96,142 @@
         "firstName": "Fornafn",
         "lastName": "Eftirnafn",
         "address1": "Heimilisfang",
-        "address2": "\u00cdb\u00fa\u00f0/H\u00e6\u00f0",
-        "city": "Borg/B\u00e6r",
+        "address2": "Íbúð/Hæð",
+        "city": "Borg/Bær",
         "country": "Land",
-        "phone": "S\u00edmi",
-        "postalCode": "P\u00f3stn\u00famer",
-        "province": "H\u00e9ra\u00f0/R\u00edki",
-        "dont_see_address": "\u00c9g finn ekki heimilisfangi\u00f0 mitt"
+        "phone": "Sími",
+        "postalCode": "Póstnúmer",
+        "province": "Hérað/Ríki",
+        "dont_see_address": "Ég finn ekki heimilisfangið mitt"
     },
     "billing": {
-        "title": "Reikningsuppl\u00fdsingar",
+        "title": "Reikningsupplýsingar",
         "address": "Reikningsheimilisfang",
-        "continue_to_shipping": "Halda \u00e1fram \u00ed sendingu",
-        "use_different_shipping_address": "Nota anna\u00f0 sendingarheimilisfang"
+        "continue_to_shipping": "Halda áfram í sendingu",
+        "use_different_shipping_address": "Nota annað sendingarheimilisfang"
     },
     "customer": {
-        "information": "Vi\u00f0skiptavinauppl\u00fdsingar",
-        "payment_info": "Grei\u00f0sluuppl\u00fdsingar m\u00ednar",
+        "information": "Viðskiptavinaupplýsingar",
+        "payment_info": "Greiðsluupplýsingar mínar",
         "payment_method_update": {
-            "title": "Uppf\u00e6ra grei\u00f0slum\u00e1ta",
+            "title": "Uppfæra greiðslumáta",
             "outstanding_payment_failed": {
-                "title": "Grei\u00f0sla mist\u00f3kst",
-                "description": "Grei\u00f0slum\u00e1ti \u00feinn hefur veri\u00f0 uppf\u00e6r\u00f0ur, en vi\u00f0 g\u00e1tum ekki skuldf\u00e6rt \u00fatstandandi st\u00f6\u00f0u. Vinsamlegast nota\u00f0u annan grei\u00f0slum\u00e1ta."
+                "title": "Greiðsla mistókst",
+                "description": "Greiðslumáti þinn hefur verið uppfærður, en við gátum ekki skuldfært útstandandi stöðu. Vinsamlegast notaðu annan greiðslumáta."
             }
         }
     },
     "customer_details": {
-        "title": "Uppl\u00fdsingar vi\u00f0skiptavinar"
+        "title": "Upplýsingar viðskiptavinar"
     },
     "customer_dashboard": {
         "my_account": "Reikningurinn minn",
-        "ordered_on": "P\u00f6nta\u00f0 \u00feann",
-        "next_billing_date": "N\u00e6sti reikningsdagur",
-        "price": "Ver\u00f0",
+        "ordered_on": "Pöntað þann",
+        "next_billing_date": "Næsti reikningsdagur",
+        "price": "Verð",
         "total": "Samtals",
-        "status": "Sta\u00f0a",
-        "order": "P\u00f6ntun %{invoice_number}",
-        "order_details": "P\u00f6ntunaruppl\u00fdsingar",
-        "loading": "Hle\u00f0...",
+        "status": "Staða",
+        "order": "Pöntun %{invoice_number}",
+        "order_details": "Pöntunarupplýsingar",
+        "loading": "Hleð...",
         "no_orders": "Engar pantanir fundust.",
-        "no_subscriptions": "Engar \u00e1skriftir fundust.",
-        "view_invoice": "Sko\u00f0a reikning",
-        "sign_out": "Skr\u00e1 \u00fat",
-        "show_more_orders": "S\u00fdna %{smart_count} p\u00f6ntun \u00ed vi\u00f0b\u00f3t |||| S\u00fdna %{smart_count} pantanir \u00ed vi\u00f0b\u00f3t",
-        "show_more_subscriptions": "S\u00fdna %{smart_count} \u00e1skrift \u00ed vi\u00f0b\u00f3t |||| S\u00fdna %{smart_count} \u00e1skriftir \u00ed vi\u00f0b\u00f3t",
+        "no_subscriptions": "Engar áskriftir fundust.",
+        "view_invoice": "Skoða reikning",
+        "sign_out": "Skrá út",
+        "show_more_orders": "Sýna %{smart_count} pöntun í viðbót |||| Sýna %{smart_count} pantanir í viðbót",
+        "show_more_subscriptions": "Sýna %{smart_count} áskrift í viðbót |||| Sýna %{smart_count} áskriftir í viðbót",
         "orders": "Pantanir",
-        "subscriptions": "\u00c1skriftir",
-        "subscription": "\u00c1skrift"
+        "subscriptions": "Áskriftir",
+        "subscription": "Áskrift"
     },
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Grei\u00f0sla er \u00e1 gjalddaga vegna \u00e1skriftar",
-                "description": "\u00de\u00fa ert me\u00f0 \u00e1skrift me\u00f0 \u00fatstandandi grei\u00f0slu. Vinsamlegast uppf\u00e6r\u00f0u grei\u00f0slum\u00e1ta \u00feinn me\u00f0 \u00fev\u00ed a\u00f0 smella \u00e1 Breyta vi\u00f0 hli\u00f0 \u00e1 uppl\u00fdsingum \u00fe\u00ednum."
+                "title": "Greiðsla er á gjalddaga vegna áskriftar",
+                "description": "Þú ert með áskrift með útstandandi greiðslu. Vinsamlegast uppfærðu greiðslumáta þinn með því að smella á Breyta við hlið á upplýsingum þínum."
             }
         }
     },
     "signin_form": {
-        "signin": "Skr\u00e1 inn",
-        "dont_have_an_account": "\u00c1tt ekki reikning?",
+        "signin": "Skrá inn",
+        "dont_have_an_account": "Átt ekki reikning?",
         "email": "Netfang",
-        "password": "Lykilor\u00f0",
-        "forgot_your_password": "Gleymdir lykilor\u00f0inu?",
+        "password": "Lykilorð",
+        "forgot_your_password": "Gleymdir lykilorðinu?",
         "close_form": "Til baka"
     },
     "forgot_password_form": {
-        "title": "Endurheimta lykilor\u00f0",
-        "instructions": "Sl\u00e1\u00f0u inn netfang reikningsins \u00fe\u00edns og vi\u00f0 sendum \u00fe\u00e9r hlekk til a\u00f0 endurstilla lykilor\u00f0i\u00f0.",
+        "title": "Endurheimta lykilorð",
+        "instructions": "Sláðu inn netfang reikningsins þíns og við sendum þér hlekk til að endurstilla lykilorðið.",
         "email": "Netfang",
-        "email_instructions": "T\u00f6lvup\u00f3stur me\u00f0 hlekk hefur veri\u00f0 sendur til \u00fe\u00edn. Smelltu \u00e1 hann til a\u00f0 endurstilla lykilor\u00f0i\u00f0.",
-        "action": "Senda endurstillingarp\u00f3st"
+        "email_instructions": "Tölvupóstur með hlekk hefur verið sendur til þín. Smelltu á hann til að endurstilla lykilorðið.",
+        "action": "Senda endurstillingarpóst"
     },
     "reset_password_form": {
-        "title": "Endurstilla lykilor\u00f0",
-        "password": "N\u00fdtt lykilor\u00f0",
-        "confirmation_password": "Sl\u00e1\u00f0u inn n\u00fdja lykilor\u00f0i\u00f0 aftur",
-        "action": "Endurstilla lykilor\u00f0"
+        "title": "Endurstilla lykilorð",
+        "password": "Nýtt lykilorð",
+        "confirmation_password": "Sláðu inn nýja lykilorðið aftur",
+        "action": "Endurstilla lykilorð"
     },
     "change_password_form": {
-        "title": "Breyta lykilor\u00f0i",
-        "current_password": "N\u00faverandi lykilor\u00f0",
-        "password": "N\u00fdtt lykilor\u00f0",
-        "confirmation_password": "Sl\u00e1\u00f0u inn n\u00fdja lykilor\u00f0i\u00f0 aftur",
-        "action": "Breyta lykilor\u00f0i"
+        "title": "Breyta lykilorði",
+        "current_password": "Núverandi lykilorð",
+        "password": "Nýtt lykilorð",
+        "confirmation_password": "Sláðu inn nýja lykilorðið aftur",
+        "action": "Breyta lykilorði"
     },
     "register_form": {
-        "register": "N\u00fdskr\u00e1ning",
-        "already_have_an_account": "Ertu me\u00f0 reikning n\u00fa \u00feegar?",
+        "register": "Nýskráning",
+        "already_have_an_account": "Ertu með reikning nú þegar?",
         "email": "Netfang",
-        "password": "Lykilor\u00f0",
-        "confirm_password": "Sta\u00f0festa lykilor\u00f0",
+        "password": "Lykilorð",
+        "confirm_password": "Staðfesta lykilorð",
         "requires_action": {
-            "title": "Athuga\u00f0u netfangi\u00f0 \u00feitt",
-            "description": "\u00deetta netfang hefur \u00feegar veri\u00f0 nota\u00f0 til a\u00f0 kl\u00e1ra p\u00f6ntun. Vinsamlegast lj\u00faki\u00f0 vi\u00f0 skr\u00e1ningarferlinu me\u00f0 \u00fev\u00ed a\u00f0 nota hlekkinn sem sendur var \u00e1 netfangi\u00f0 ykkar."
+            "title": "Athugaðu netfangið þitt",
+            "description": "Þetta netfang hefur þegar verið notað til að klára pöntun. Vinsamlegast ljúkið við skráningarferlinu með því að nota hlekkinn sem sendur var á netfangið ykkar."
         }
     },
     "guest_checkout": {
-        "or": "E\u00f0a",
-        "continue_as_a_guest": "Halda \u00e1fram sem gestur"
+        "or": "Eða",
+        "continue_as_a_guest": "Halda áfram sem gestur"
     },
     "shipping": {
         "title": "Sending",
         "shipping_to": "Sent til:",
         "address": "Sendingarheimilisfang",
-        "method": "Sendingarm\u00e1ti",
+        "method": "Sendingarmáti",
         "methods": {
-            "example_localization_id": "\u00deetta er d\u00e6mi um sta\u00f0f\u00e6r\u00f0an sendingarm\u00e1ta"
+            "example_localization_id": "Þetta er dæmi um staðfærðan sendingarmáta"
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Trygg\u00f0 afhending \u00e1 %{guaranteedDaysToDelivery} degi/d\u00f6gum."
+        "guaranteed_delivery_days": "Tryggð afhending á %{guaranteedDaysToDelivery} degi/dögum."
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Frestu\u00f0 grei\u00f0sla",
-            "deferred_payment_instructions": "Me\u00f0 \u00fev\u00ed a\u00f0 leggja inn \u00feessa p\u00f6ntun, sam\u00feykkirstu a\u00f0 grei\u00f0a s\u00ed\u00f0ar me\u00f0 grei\u00f0slum\u00e1ta sem s\u00f6lua\u00f0ili tilgreinir.",
+            "deferred_payment_title": "Frestuð greiðsla",
+            "deferred_payment_instructions": "Með því að leggja inn þessa pöntun, samþykkirstu að greiða síðar með greiðslumáta sem söluaðili tilgreinir.",
             "card_label": "Kreditkort",
-            "card_number": "Kortan\u00famer",
-            "card_expiration": "MM/\u00c1\u00c1",
+            "card_number": "Kortanúmer",
+            "card_expiration": "MM/ÁÁ",
             "card_cvv": "CVV",
-            "card_postal_code": "P\u00f3stn\u00famer",
-            "invalid_number": "Kortan\u00famer er \u00f3gilt",
-            "invalid_expiration": "Gildistimi er \u00f3gildur",
-            "invalid_cvv": "CVV er \u00f3gilt",
-            "invalid_postal_code": "P\u00f3stn\u00famer er \u00f3gilt"
+            "card_postal_code": "Póstnúmer",
+            "invalid_number": "Kortanúmer er ógilt",
+            "invalid_expiration": "Gildistimi er ógildur",
+            "invalid_cvv": "CVV er ógilt",
+            "invalid_postal_code": "Póstnúmer er ógilt"
         },
-        "still_pending_notice": "Grei\u00f0sla \u00fe\u00edn er enn \u00ed vinnslu.",
-        "title": "Grei\u00f0sla",
-        "continue_to_payment": "Halda \u00e1fram \u00ed grei\u00f0slu",
+        "still_pending_notice": "Greiðsla þín er enn í vinnslu.",
+        "title": "Greiðsla",
+        "continue_to_payment": "Halda áfram í greiðslu",
         "credit_card": "Kreditkort",
-        "place_order": "Leggja inn p\u00f6ntun",
-        "preparing_payment_session": "Undirb\u00fd grei\u00f0slu...",
-        "processing_payment": "Vinnsla grei\u00f0slu...",
-        "checkout_with": "Grei\u00f0a me\u00f0",
-        "checkout_with_method": "Grei\u00f0a me\u00f0 %{method}",
-        "method_icon": "%{method} t\u00e1kn",
-        "no_payment": "Engrar grei\u00f0slu er krafist fyrir \u00feessa p\u00f6ntun.",
+        "place_order": "Leggja inn pöntun",
+        "preparing_payment_session": "Undirbý greiðslu...",
+        "processing_payment": "Vinnsla greiðslu...",
+        "checkout_with": "Greiða með",
+        "checkout_with_method": "Greiða með %{method}",
+        "method_icon": "%{method} tákn",
+        "no_payment": "Engrar greiðslu er krafist fyrir þessa pöntun.",
         "methods": {
             "card": "Kreditkort",
             "paypal": "PayPal",
@@ -244,227 +244,268 @@
             "ideal": "iDEAL",
             "ing_home_pay": "ING Home'Pay",
             "kbc": "KBC",
-            "klarna_pay_later": "Klarna grei\u00f0a s\u00ed\u00f0ar",
-            "klarna_slice_it": "Klarna m\u00e1na\u00f0arleg grei\u00f0sla",
+            "klarna_pay_later": "Klarna greiða síðar",
+            "klarna_slice_it": "Klarna mánaðarleg greiðsla",
             "p24": "Przelewy24",
             "sepa_debit": "SEPA bankamillifærsla",
             "sofort": "Sofort bankamillifærsla",
-            "deferred_payment": "Grei\u00f0a s\u00ed\u00f0ar"
+            "deferred_payment": "Greiða síðar"
         }
     },
     "discounts": {
-        "title": "Afsl\u00e1ttur"
+        "title": "Afsláttur"
     },
     "cart_summary": {
         "taxes": "Skattar",
-        "taxes_included_in_price": "Sumar v\u00f6rur eru me\u00f0 sk\u00f6ttum innifalinn.",
+        "taxes_included_in_price": "Sumar vörur eru með sköttum innifalinn.",
         "total": "Samtals",
-        "subtotal": "Millisamt\u00f6lu",
+        "subtotal": "Millisamtölu",
         "shipping": "Sending",
-        "discount": "Afsl\u00e1ttur",
+        "discount": "Afsláttur",
         "quantity": "x",
-        "calculated_at_checkout": "Reikna\u00f0 vi\u00f0 grei\u00f0slu"
+        "calculated_at_checkout": "Reiknað við greiðslu"
     },
     "errors": {
-        "default": "Villa kom upp, reyndu aftur s\u00ed\u00f0ar e\u00f0a hafdu samband vi\u00f0 okkur.",
-        "promo_code_is_invalid": "\u00deessi a\u00f0gangsko\u00f0i er \u00f3gildur",
-        "promocode_already_in_cart": "\u00deessi a\u00f0gangsko\u00f0i er \u00feegar \u00ed notkun",
-        "promocode_isnt_applicable": "\u00deessi a\u00f0gangsko\u00f0i er \u00f3gildur",
-        "promo_code_is_expired": "\u00deessi a\u00f0gangsko\u00f0i er \u00fatruninn",
-        "stringEmpty": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
-        "emailEmpty": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
-        "required": "\u00deennan reit \u00fearf a\u00f0 fylla \u00fat",
-        "invalid_expiry_year_past": "Korti\u00f0 er \u00fatrunnin",
-        "email": "Vinsamlegast sl\u00e1\u00f0u inn gilt netfang",
-        "quantity_revised": "Magn hefur veri\u00f0 endursko\u00f0a\u00f0 vegna birgðatakmarkana.",
-        "quantity_out_of_stock": "\u00dessi vara er \u00fatsel\u00f0, fjarl\u00e6g\u00f0u hana \u00far k\u00f6rfunni til a\u00f0 halda \u00e1fram.",
-        "disabled_country": "Vali\u00f0 land er ekki tilt\u00e6kt vi\u00f0 grei\u00f0slu.",
+        "default": "Villa kom upp, reyndu aftur síðar eða hafdu samband við okkur.",
+        "promo_code_is_invalid": "Þessi aðgangskoði er ógildur",
+        "promocode_already_in_cart": "Þessi aðgangskoði er þegar í notkun",
+        "promocode_isnt_applicable": "Þessi aðgangskoði er ógildur",
+        "promo_code_is_expired": "Þessi aðgangskoði er útruninn",
+        "stringEmpty": "Þennan reit þarf að fylla út",
+        "emailEmpty": "Þennan reit þarf að fylla út",
+        "required": "Þennan reit þarf að fylla út",
+        "invalid_expiry_year_past": "Kortið er útrunnin",
+        "email": "Vinsamlegast sláðu inn gilt netfang",
+        "quantity_revised": "Magn hefur verið endurskoðað vegna birgðatakmarkana.",
+        "quantity_out_of_stock": "Þssi vara er útselð, fjarlægðu hana úr körfunni til að halda áfram.",
+        "disabled_country": "Valið land er ekki tiltækt við greiðslu.",
         "error_payment_items_are_invalid": {
-            "title": "Sumar v\u00f6rur \u00ed k\u00f6rfunni eru \u00f3gildar",
-            "description": "Vinsamlegast sko\u00f0a\u00f0u p\u00f6ntunina, e\u00f0a reyndu aftur s\u00ed\u00f0ar."
+            "title": "Sumar vörur í körfunni eru ógildar",
+            "description": "Vinsamlegast skoðaðu pöntunina, eða reyndu aftur síðar."
         },
         "card": {
-            "invalid_number": "Kortan\u00fameri\u00f0 er \u00f3gilt.",
-            "invalid_date": "Gildistimi kortsins er \u00f3gildur.",
-            "invalid_year": "Gildis\u00e1r kortsins er \u00f3gilt.",
-            "invalid_month": "Gildism\u00e1nu\u00f0ur kortsins er \u00f3gildur.",
-            "invalid_cvv": "CVV kortsins er \u00f3gilt.",
-            "invalid_expiration": "Gildistimi kortsins er \u00f3gildur.",
-            "expired": "Kreditkorti\u00f0 er \u00fatrunnin",
-            "declined": "Kortinu var hafna\u00f0. Vinsamlegast haf\u00f0u samband vi\u00f0 kortaútgefanda fyrir frekari uppl\u00fdsingar.",
+            "invalid_number": "Kortanúmerið er ógilt.",
+            "invalid_date": "Gildistimi kortsins er ógildur.",
+            "invalid_year": "Gildisár kortsins er ógilt.",
+            "invalid_month": "Gildismánuður kortsins er ógildur.",
+            "invalid_cvv": "CVV kortsins er ógilt.",
+            "invalid_expiration": "Gildistimi kortsins er ógildur.",
+            "expired": "Kreditkortið er útrunnin",
+            "declined": "Kortinu var hafnað. Vinsamlegast hafðu samband við kortaútgefanda fyrir frekari upplýsingar.",
             "invalid_address": "Heimilisfang kortsins er rangt.",
-            "insufficient_funds": "Reikningurinn haf\u00f0i ekki n\u00e6gilegt f\u00e9 til a\u00f0 st\u00e1nda undir f\u00e6rslunni.",
-            "card_not_supported": "Korti\u00f0 er ekki stu\u00f0t \u00e1 \u00feessu landsvæ\u00f0i.",
-            "currency_not_supported": "Gjaldmi\u00f0illinn er ekki stu\u00f0dur sem stendur."
+            "insufficient_funds": "Reikningurinn hafði ekki nægilegt fé til að stánda undir færslunni.",
+            "card_not_supported": "Kortið er ekki stuðt á þessu landsvæði.",
+            "currency_not_supported": "Gjaldmiðillinn er ekki stuðdur sem stendur."
         },
         "transaction": {
-            "declined": "Villa kom upp vi\u00f0 vinnslu kortsins. Reyndu aftur s\u00ed\u00f0ar e\u00f0a nota\u00f0u annan grei\u00f0slum\u00e1ta."
+            "declined": "Villa kom upp við vinnslu kortsins. Reyndu aftur síðar eða notaðu annan greiðslumáta."
         },
         "discounts": {
-            "conflict": "Suma afsl\u00e1ttarkj\u00f6r er ekki h\u00e6gt a\u00f0 sameina. Nota \u00feennan afsl\u00e1tt \u00ed sta\u00f0inn?"
+            "conflict": "Suma afsláttarkjör er ekki hægt að sameina. Nota þennan afslátt í staðinn?"
         },
         "order_validation": {
             "domain_crawling": {
-                "title": "Ekki var h\u00e6gt a\u00f0 vinna p\u00f6ntunina.",
-                "description": "\u00de\u00fa hefur ekki veri\u00f0 rukkuð. Vinsamlegast haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+                "title": "Ekki var hægt að vinna pöntunina.",
+                "description": "Þú hefur ekki verið rukkuð. Vinsamlegast hafðu samband við eiganda verslunarinnar."
             },
             "product_crawling": {
-                "title": "Ver\u00f0 \u00e1 v\u00f6rum \u00ed k\u00f6rfunni gæti hafa breyst.",
-                "description": "Reyndu a\u00f0 fjarl\u00e6gja og b\u00e6ta \u00feeim aftur \u00ed k\u00f6rfuna. Haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+                "title": "Verð á vörum í körfunni gæti hafa breyst.",
+                "description": "Reyndu að fjarlægja og bæta þeim aftur í körfuna. Hafðu samband við eiganda verslunarinnar."
             },
             "stock_validation": {
-                "title": "V\u00f6rubirgðir eru ekki tilt\u00e6kar.",
-                "description": "Sumar v\u00f6rur kunna a\u00f0 vera uppseldar \u00ed valnu magni. Endursko\u00f0a\u00f0u magnin e\u00f0a haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+                "title": "Vörubirgðir eru ekki tiltækar.",
+                "description": "Sumar vörur kunna að vera uppseldar í valnu magni. Endurskoðaðu magnin eða hafðu samband við eiganda verslunarinnar."
             },
             "custom_fields_validation": {
-                "title": "Nau\u00f0synlegar uppl\u00fdsingar vantar.",
-                "description": "Sumar v\u00f6rur \u00ed k\u00f6rfunni vantar skyldureiti. Vinsamlegast breyttu k\u00f6rfunni til a\u00f0 halda \u00e1fram."
+                "title": "Nauðsynlegar upplýsingar vantar.",
+                "description": "Sumar vörur í körfunni vantar skyldureiti. Vinsamlegast breyttu körfunni til að halda áfram."
             },
             "shipping_validation": {
-                "title": "Sendingarm\u00e1ti gat ekki veri\u00f0 sta\u00f0festur.",
-                "description": "Vali\u00f0 sendingargjald gæti hafa breyst e\u00f0a er ekki tilt\u00e6kt. Haf\u00f0u samband vi\u00f0 eiganda verslunarinnar."
+                "title": "Sendingarmáti gat ekki verið staðfestur.",
+                "description": "Valið sendingargjald gæti hafa breyst eða er ekki tiltækt. Hafðu samband við eiganda verslunarinnar."
             }
         },
-        "invalid_address": "Heimilisfangi\u00f0 er \u00f3gilt.",
+        "invalid_address": "Heimilisfangið er ógilt.",
         "shipping": {
             "account_configuration": {
-                "title": "Enginn sendingarm\u00e1ti er tilt\u00e6kur sem stendur",
-                "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+                "title": "Enginn sendingarmáti er tiltækur sem stendur",
+                "description": "Reyndu aftur síðar, eða hafðu samband við okkur."
             },
             "rates_calculation": {
-                "title": "Ekki t\u00f3kst a\u00f0 reikna sendingarkostna\u00f0 fyrir p\u00f6ntunina",
-                "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+                "title": "Ekki tókst að reikna sendingarkostnað fyrir pöntunina",
+                "description": "Reyndu aftur síðar, eða hafðu samband við okkur."
             },
             "no_rates_found": {
-                "title": "Engir sendingarm\u00e1tar eru tilt\u00e6kir fyrir p\u00f6ntunina",
-                "description": "Vinsamlegast sko\u00f0a\u00f0u sendingarheimilisfangi\u00f0 e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+                "title": "Engir sendingarmátar eru tiltækir fyrir pöntunina",
+                "description": "Vinsamlegast skoðaðu sendingarheimilisfangið eða hafðu samband við okkur."
             },
-            "E.COUNTRY.UNSUPPORTED": "Land er ekki stu\u00f0t. Vinsamlegast reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.ENGINE.UNAVAILABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.QUERY.UNANSWERABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.ADDRESS.NOT_FOUND": "Heimilisfang fannst ekki. Sta\u00f0festu heimilisfangi\u00f0 og reyndu aftur.",
-            "E.SECONDARY_INFORMATION.INVALID": "\u00d3gildar aukauppl\u00fdsingar (\u00cdb\u00fa\u00f0/H\u00e6\u00f0#).",
-            "E.SECONDARY_INFORMATION.MISSING": "Aukauppl\u00fdsingar vantar (\u00cdb\u00fa\u00f0/H\u00e6\u00f0#).",
-            "E.HOUSE_NUMBER.MISSING": "H\u00fasn\u00famer vantar.",
-            "E.HOUSE_NUMBER.INVALID": "H\u00fasn\u00famer er \u00f3gilt.",
-            "E.STREET.MISSING": "G\u00f6tunafn vantar.",
-            "E.STREET.INVALID": "G\u00f6tunafn er \u00f3gilt.",
-            "E.BOX_NUMBER.MISSING": "H\u00f3lfn\u00famer vantar.",
-            "E.BOX_NUMBER.INVALID": "H\u00f3lfn\u00famer er \u00f3gilt.",
-            "E.ADDRESS.INVALID": "\u00d3gilt borg/r\u00edki/p\u00f3stn\u00famer.",
-            "E.ZIP.NOT_FOUND": "P\u00f3stn\u00famer fannst ekki.",
-            "E.ZIP.INVALID": "P\u00f3stn\u00famer er \u00f3gilt.",
-            "E.ZIP.PLUS4.NOT_FOUND": "P\u00f3stn\u00famer + 4 fannst ekki.",
-            "E.ADDRESS.MULTIPLE": "Mörg heimilisf\u00f6ng fundust me\u00f0 sama p\u00f3stn\u00fameri.",
-            "E.ADDRESS.INSUFFICIENT": "Heimilisfang er \u00f3fulln\u00e6gjandi. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.ADDRESS.DUAL": "Tveggja heimilisfanga villa. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.STREET.MAGNET": "Mörg heimilisf\u00f6ng fundust vegna segulg\u00f6tu villunnar. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.CITY_STATE.INVALID": "\u00d3sta\u00f0fest borg/r\u00edki.",
-            "E.STATE.INVALID": "\u00d3gilt r\u00edki.",
-            "E.ADDRESS.DELIVERY.INVALID": "\u00d3gilt afhendingarheimilisfang.",
-            "E.TIMED_OUT": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.TIME_ZONE.UNAVAILABLE": "Villa kom upp vi\u00f0 sta\u00f0festingu heimilisfangs. Reyndu aftur s\u00ed\u00f0ar e\u00f0a haf\u00f0u samband vi\u00f0 okkur.",
-            "E.PO_BOX.INTERNATIONAL": "Ekki er h\u00e6gt a\u00f0 sta\u00f0festa alþj\u00f3\u00f0legt p\u00f3sth\u00f3lf."
+            "E.COUNTRY.UNSUPPORTED": "Land er ekki stuðt. Vinsamlegast reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.ENGINE.UNAVAILABLE": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.QUERY.UNANSWERABLE": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.ADDRESS.NOT_FOUND": "Heimilisfang fannst ekki. Staðfestu heimilisfangið og reyndu aftur.",
+            "E.SECONDARY_INFORMATION.INVALID": "Ógildar aukaupplýsingar (Íbúð/Hæð#).",
+            "E.SECONDARY_INFORMATION.MISSING": "Aukaupplýsingar vantar (Íbúð/Hæð#).",
+            "E.HOUSE_NUMBER.MISSING": "Húsnúmer vantar.",
+            "E.HOUSE_NUMBER.INVALID": "Húsnúmer er ógilt.",
+            "E.STREET.MISSING": "Götunafn vantar.",
+            "E.STREET.INVALID": "Götunafn er ógilt.",
+            "E.BOX_NUMBER.MISSING": "Hólfnúmer vantar.",
+            "E.BOX_NUMBER.INVALID": "Hólfnúmer er ógilt.",
+            "E.ADDRESS.INVALID": "Ógilt borg/ríki/póstnúmer.",
+            "E.ZIP.NOT_FOUND": "Póstnúmer fannst ekki.",
+            "E.ZIP.INVALID": "Póstnúmer er ógilt.",
+            "E.ZIP.PLUS4.NOT_FOUND": "Póstnúmer + 4 fannst ekki.",
+            "E.ADDRESS.MULTIPLE": "Mörg heimilisföng fundust með sama póstnúmeri.",
+            "E.ADDRESS.INSUFFICIENT": "Heimilisfang er ófullnægjandi. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.ADDRESS.DUAL": "Tveggja heimilisfanga villa. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.STREET.MAGNET": "Mörg heimilisföng fundust vegna segulgötu villunnar. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.CITY_STATE.INVALID": "Óstaðfest borg/ríki.",
+            "E.STATE.INVALID": "Ógilt ríki.",
+            "E.ADDRESS.DELIVERY.INVALID": "Ógilt afhendingarheimilisfang.",
+            "E.TIMED_OUT": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.TIME_ZONE.UNAVAILABLE": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.PO_BOX.INTERNATIONAL": "Ekki er hægt að staðfesta alþjóðlegt pósthólf."
         },
         "payment_failed": {
-            "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
-            "description": "Reyndu aftur s\u00ed\u00f0ar, e\u00f0a haf\u00f0u samband vi\u00f0 okkur."
+            "title": "Ekki tókst að vinna greiðslu",
+            "description": "Reyndu aftur síðar, eða hafðu samband við okkur."
         },
         "payment_authorization": {
-            "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
-            "default": "Vinsamlegast sko\u00f0a\u00f0u reiknings- og grei\u00f0sluuppl\u00fdsingar."
+            "title": "Ekki tókst að vinna greiðslu",
+            "default": "Vinsamlegast skoðaðu reiknings- og greiðsluupplýsingar."
         },
         "authentication_challenge": {
             "failed": {
-                "title": "Ekki t\u00f3kst a\u00f0 vinna grei\u00f0slu",
-                "description": "Okkur t\u00f3kst ekki a\u00f0 au\u00f0kenna grei\u00f0sluuppl\u00fdsingar \u00fe\u00ednar. Vinsamlegast reyndu aftur"
+                "title": "Ekki tókst að vinna greiðslu",
+                "description": "Okkur tókst ekki að auðkenna greiðsluupplýsingar þínar. Vinsamlegast reyndu aftur"
             }
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Ekki var h\u00e6gt a\u00f0 b\u00e6ta \u00e1skrift \u00ed k\u00f6rfuna",
-                "description": "Karfa getur a\u00f0eins innihaldi\u00f0 eina \u00e1skrift \u00ed einu."
+                "title": "Ekki var hægt að bæta áskrift í körfuna",
+                "description": "Karfa getur aðeins innihaldið eina áskrift í einu."
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "Ekki var h\u00e6gt a\u00f0 b\u00e6ta v\u00f6ru \u00ed k\u00f6rfuna",
-                "description": "Karfan getur a\u00f0eins innihaldi\u00f0 v\u00f6rur e\u00f0a \u00e1skrift."
+                "title": "Ekki var hægt að bæta vöru í körfuna",
+                "description": "Karfan getur aðeins innihaldið vörur eða áskrift."
             }
         },
-        "customer_exists": "\u00deetta netfang er \u00feegar \u00ed notkun.",
-        "customer_password_missmatch": "Lykilor\u00f0in tvö ver\u00f0a a\u00f0 vera eins.",
-        "customer_password_token_expired": "Endurheimt lykilor\u00f0s t\u00f3kn er \u00fatrunnin.",
-        "customer_password_token_invalid": "Endurheimt lykilor\u00f0s t\u00f3kn er \u00f3gilt.",
-        "customer_not_found": "Netfangi\u00f0 er ekki tengt neinum reikningi.",
-        "invalid_credentials": "\u00d3gilt netfang e\u00f0a lykilor\u00f0.",
-        "customer_current_password_invalid": "\u00d3gilt lykilor\u00f0."
+        "customer_exists": "Þetta netfang er þegar í notkun.",
+        "customer_password_missmatch": "Lykilorðin tvö verða að vera eins.",
+        "customer_password_token_expired": "Endurheimt lykilorðs tókn er útrunnin.",
+        "customer_password_token_invalid": "Endurheimt lykilorðs tókn er ógilt.",
+        "customer_not_found": "Netfangið er ekki tengt neinum reikningi.",
+        "invalid_credentials": "Ógilt netfang eða lykilorð.",
+        "customer_current_password_invalid": "Ógilt lykilorð.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Við gátum ekki staðfest upplýsingarnar þínar.",
+                "description": "Athugaðu nafnið þitt, tölvupóstfangið og pöntunarnúmerið og reyndu aftur."
+            },
+            "confirm_failed": {
+                "title": "Við gátum ekki afgreitt afturköllunarbeiðni þína.",
+                "description": "Reyndu aftur eða hafðu samband við söluaðilann."
+            }
+        }
     },
     "shippingRates": {
-        "loading": "Hle\u00f0 sendingargjöldum"
+        "loading": "Hleð sendingargjöldum"
     },
     "customer_orders": {
-        "loading": "Hle\u00f0..."
+        "loading": "Hleð..."
     },
     "digital_goods": {
-        "download": "S\u00e6kja skr\u00e1"
+        "download": "Sækja skrá"
     },
     "confirmation": {
-        "thank_you_for_your_order": "\u00deakka \u00fe\u00e9r fyrir p\u00f6ntunina",
-        "async_confirmation_notice": "P\u00f6ntunin \u00fe\u00edn hefur veri\u00f0 lög\u00f0 inn og er \u00ed vinnslu. \u00de\u00fa f\u00e6r\u00f0 sta\u00f0festingu \u00e1 skömmum t\u00edma."
+        "thank_you_for_your_order": "Þakka þér fyrir pöntunina",
+        "async_confirmation_notice": "Pöntunin þín hefur verið lögð inn og er í vinnslu. Þú færð staðfestingu á skömmum tíma."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Sendingarkostna\u00f0ur og skattar ver\u00f0a reikna\u00f0ir eftir a\u00f0 heimilisfang er gefi\u00f0 upp."
+        "shipping_taxes_calculated_when_address_provided": "Sendingarkostnaður og skattar verða reiknaðir eftir að heimilisfang er gefið upp."
+    },
+    "withdrawal_form": {
+        "title": "Falla frá samningi",
+        "instructions": "Skráðu pöntunarupplýsingarnar þínar til að óska eftir afturköllun samkvæmt tilskipun ESB um neytendaréttindi.",
+        "name": "Nafn þitt",
+        "order_id": "Pöntunarnúmer / Reikningsnúmer",
+        "email": "Tölvupóstfang"
+    },
+    "withdrawal_confirm": {
+        "title": "Staðfesta afturköllun",
+        "warning_title": "Athugið",
+        "warning_message": "Þessi pöntun er utan 14 daga afturköllunarfrestsins. Söluaðilinn mun yfirfara beiðni þína.",
+        "order_details": "Pöntunarupplýsingar",
+        "order_number": "Pöntunarnúmer:",
+        "order_date": "Pöntunardagsetning:",
+        "order_total": "Heildarupphæð pöntunar:",
+        "items_title": "Veldu hluti til að afturkalla",
+        "withdraw_all": "Afturkalla alla hluti (full endurgreiðsla)",
+        "refund_amount": "Áætluð endurgreiðsla:",
+        "refund_amount_notice": "Þetta mat er eingöngu til upplýsinga. Raunveruleg endurgreidd upphæð getur verið önnur þegar tekið hefur verið tillit til skatta, afslátta og flutningskostnaðar.",
+        "back": "Til baka",
+        "confirm": "Staðfesta afturköllun",
+        "legal_notice": "Með því að staðfesta nýtir þú rétt þinn til að falla frá þessum samningi samkvæmt tilskipun ESB um neytendaréttindi. Endurgreiðslur eru afgreiddar innan 14 daga."
+    },
+    "withdrawal_success": {
+        "title": "Afturköllunarbeiðni send",
+        "message": "Afturköllunarbeiðni þín hefur verið send með góðum árangri. Þú færð staðfestingartölvupóst innan skamms.",
+        "confirmation_number": "Staðfestingarnúmer:",
+        "submitted_at": "Sent:",
+        "refund_amount": "Áætluð endurgreiðsla:",
+        "close": "Loka"
     },
     "countries": {
         "AD": {
             "name": "Andorra"
         },
         "AE": {
-            "name": "Sameinu\u00f0u arabnesku furstadæmin"
+            "name": "Sameinuðu arabnesku furstadæmin"
         },
         "AF": {
             "name": "Afganistan"
         },
         "AG": {
-            "name": "Ant\u00edgva og Barb\u00fada"
+            "name": "Antígva og Barbúda"
         },
         "AI": {
             "name": "Angvilla"
         },
         "AL": {
-            "name": "Alban\u00eda"
+            "name": "Albanía"
         },
         "AM": {
-            "name": "Armen\u00eda"
+            "name": "Armenía"
         },
         "AO": {
-            "name": "Ang\u00f3la"
+            "name": "Angóla"
         },
         "AQ": {
-            "name": "Su\u00f0urskautslandinu"
+            "name": "Suðurskautslandinu"
         },
         "AR": {
-            "name": "Argent\u00edna"
+            "name": "Argentína"
         },
         "AS": {
-            "name": "Bandar\u00edska Sam\u00f3a"
+            "name": "Bandaríska Samóa"
         },
         "AT": {
-            "name": "Austurr\u00edki"
+            "name": "Austurríki"
         },
         "AU": {
-            "name": "\u00c1stral\u00eda"
+            "name": "Ástralía"
         },
         "AW": {
-            "name": "Ar\u00faba"
+            "name": "Arúba"
         },
         "AX": {
-            "name": "\u00c5landseyjar"
+            "name": "Ålandseyjar"
         },
         "AZ": {
-            "name": "Aserba\u00eddsjan"
+            "name": "Aserbaídsjan"
         },
         "BA": {
-            "name": "Bosn\u00eda og Hers\u00e9gov\u00edna"
+            "name": "Bosnía og Herségovína"
         },
         "BB": {
             "name": "Barbados"
@@ -473,46 +514,46 @@
             "name": "Bangladess"
         },
         "BE": {
-            "name": "Belg\u00eda"
+            "name": "Belgía"
         },
         "BF": {
-            "name": "B\u00fark\u00edna Fas\u00f3"
+            "name": "Búrkína Fasó"
         },
         "BG": {
-            "name": "B\u00falgar\u00eda"
+            "name": "Búlgaría"
         },
         "BH": {
-            "name": "Bahre\u00edn"
+            "name": "Bahreín"
         },
         "BI": {
-            "name": "B\u00farund\u00ed"
+            "name": "Búrundí"
         },
         "BJ": {
-            "name": "Ben\u00edn"
+            "name": "Benín"
         },
         "BL": {
-            "name": "Saint Barth\u00e9lemy"
+            "name": "Saint Barthélemy"
         },
         "BM": {
-            "name": "Berm\u00fadaeyjar"
+            "name": "Bermúdaeyjar"
         },
         "BN": {
-            "name": "Br\u00fane\u00ed"
+            "name": "Brúneí"
         },
         "BO": {
-            "name": "B\u00f3liv\u00eda"
+            "name": "Bólivía"
         },
         "BQ": {
             "name": "Bonaire"
         },
         "BR": {
-            "name": "Brasil\u00eda"
+            "name": "Brasilía"
         },
         "BS": {
             "name": "Bahamaeyjar"
         },
         "BT": {
-            "name": "B\u00fatan"
+            "name": "Bútan"
         },
         "BV": {
             "name": "Bouveteyja"
@@ -521,31 +562,31 @@
             "name": "Botsvana"
         },
         "BY": {
-            "name": "Hv\u00edta-R\u00fassland"
+            "name": "Hvíta-Rússland"
         },
         "BZ": {
-            "name": "Bel\u00eds"
+            "name": "Belís"
         },
         "CA": {
             "name": "Kanada"
         },
         "CC": {
-            "name": "K\u00f3koseyjar [Keeling]"
+            "name": "Kókoseyjar [Keeling]"
         },
         "CD": {
-            "name": "Kong\u00f3"
+            "name": "Kongó"
         },
         "CF": {
-            "name": "Mi\u00f0-Afr\u00edkul\u00fd\u00f0veldi\u00f0"
+            "name": "Mið-Afríkulýðveldið"
         },
         "CG": {
-            "name": "L\u00fd\u00f0veldi\u00f0 Kong\u00f3"
+            "name": "Lýðveldið Kongó"
         },
         "CH": {
             "name": "Sviss"
         },
         "CI": {
-            "name": "F\u00edlabeinsstrondin"
+            "name": "Fílabeinsstrondin"
         },
         "CK": {
             "name": "Cookseyjar"
@@ -554,52 +595,52 @@
             "name": "Chile"
         },
         "CM": {
-            "name": "Kamer\u00fan"
+            "name": "Kamerún"
         },
         "CN": {
-            "name": "K\u00edna"
+            "name": "Kína"
         },
         "CO": {
-            "name": "K\u00f3lumb\u00eda"
+            "name": "Kólumbía"
         },
         "CR": {
-            "name": "Kostar\u00edka"
+            "name": "Kostaríka"
         },
         "CU": {
-            "name": "K\u00faba"
+            "name": "Kúba"
         },
         "CV": {
-            "name": "Gr\u00e6nh\u00f6f\u00f0aeyjar"
+            "name": "Grænhöfðaeyjar"
         },
         "CW": {
-            "name": "Cura\u00e7ao"
+            "name": "Curaçao"
         },
         "CX": {
-            "name": "J\u00f3laey"
+            "name": "Jólaey"
         },
         "CY": {
-            "name": "K\u00fdpur"
+            "name": "Kýpur"
         },
         "CZ": {
             "name": "Tékland"
         },
         "DE": {
-            "name": "\u00de\u00fdskaland"
+            "name": "Þýskaland"
         },
         "DJ": {
-            "name": "Djib\u00fat\u00ed"
+            "name": "Djibútí"
         },
         "DK": {
-            "name": "Danm\u00f6rk"
+            "name": "Danmörk"
         },
         "DM": {
-            "name": "D\u00f3min\u00edka"
+            "name": "Dóminíka"
         },
         "DO": {
-            "name": "D\u00f3min\u00edska l\u00fd\u00f0veldi\u00f0"
+            "name": "Dóminíska lýðveldið"
         },
         "DZ": {
-            "name": "Als\u00edr"
+            "name": "Alsír"
         },
         "EC": {
             "name": "Ekvador"
@@ -617,25 +658,25 @@
             "name": "Eritrea"
         },
         "ES": {
-            "name": "Sp\u00e1nn"
+            "name": "Spánn"
         },
         "ES-CN": {
-            "name": "Kanar\u00edeyjar"
+            "name": "Kanaríeyjar"
         },
         "ET": {
-            "name": "E\u00fe\u00ed\u00f3p\u00eda"
+            "name": "Eþíópía"
         },
         "FI": {
             "name": "Finnland"
         },
         "FJ": {
-            "name": "F\u00eddsj\u00edeyjar"
+            "name": "Fídsjíeyjar"
         },
         "FK": {
             "name": "Falklandseyjar"
         },
         "FM": {
-            "name": "M\u00edkr\u00f3nes\u00eda"
+            "name": "Míkrónesía"
         },
         "FO": {
             "name": "Færeyjar"
@@ -653,10 +694,10 @@
             "name": "Grenada"
         },
         "GE": {
-            "name": "Georg\u00eda"
+            "name": "Georgía"
         },
         "GF": {
-            "name": "Franska Gv\u00e6jana"
+            "name": "Franska Gvæjana"
         },
         "GG": {
             "name": "Guernsey"
@@ -665,28 +706,28 @@
             "name": "Gana"
         },
         "GI": {
-            "name": "G\u00edbraltar"
+            "name": "Gíbraltar"
         },
         "GL": {
             "name": "Grænland"
         },
         "GM": {
-            "name": "Gamb\u00eda"
+            "name": "Gambía"
         },
         "GN": {
-            "name": "G\u00ednea"
+            "name": "Gínea"
         },
         "GP": {
-            "name": "Gvadel\u00fap"
+            "name": "Gvadelúp"
         },
         "GQ": {
-            "name": "Mi\u00f0baugs-G\u00ednea"
+            "name": "Miðbaugs-Gínea"
         },
         "GR": {
             "name": "Grikkland"
         },
         "GS": {
-            "name": "Su\u00f0ur-Georg\u00eda og Su\u00f0ur-Sandv\u00edseyjar"
+            "name": "Suður-Georgía og Suður-Sandvíseyjar"
         },
         "GT": {
             "name": "Gvatemala"
@@ -695,10 +736,10 @@
             "name": "Gvam"
         },
         "GW": {
-            "name": "G\u00ednea-Biss\u00e1"
+            "name": "Gínea-Bissá"
         },
         "GY": {
-            "name": "Gv\u00e6jana"
+            "name": "Gvæjana"
         },
         "HK": {
             "name": "Hong Kong"
@@ -707,28 +748,28 @@
             "name": "Heard og McDonaldseyjar"
         },
         "HN": {
-            "name": "Hond\u00faras"
+            "name": "Hondúras"
         },
         "HR": {
-            "name": "Kr\u00f3at\u00eda"
+            "name": "Króatía"
         },
         "HT": {
-            "name": "Ha\u00edt\u00ed"
+            "name": "Haítí"
         },
         "HU": {
             "name": "Ungverjaland"
         },
         "ID": {
-            "name": "Ind\u00f3nes\u00eda"
+            "name": "Indónesía"
         },
         "IE": {
-            "name": "\u00cdrland"
+            "name": "Írland"
         },
         "IL": {
-            "name": "\u00cdsrael"
+            "name": "Ísrael"
         },
         "IM": {
-            "name": "M\u00f6n"
+            "name": "Mön"
         },
         "IN": {
             "name": "Indland"
@@ -737,55 +778,55 @@
             "name": "Bresku Indlandshafseyjar"
         },
         "IQ": {
-            "name": "\u00cdrak"
+            "name": "Írak"
         },
         "IR": {
-            "name": "\u00cdran"
+            "name": "Íran"
         },
         "IS": {
-            "name": "\u00cdsland"
+            "name": "Ísland"
         },
         "IT": {
-            "name": "\u00cdtal\u00eda"
+            "name": "Ítalía"
         },
         "JE": {
             "name": "Jersey"
         },
         "JM": {
-            "name": "Jama\u00edka"
+            "name": "Jamaíka"
         },
         "JO": {
-            "name": "J\u00f3rdan\u00eda"
+            "name": "Jórdanía"
         },
         "JP": {
             "name": "Japan"
         },
         "KE": {
-            "name": "Ken\u00eda"
+            "name": "Kenía"
         },
         "KG": {
             "name": "Kirgistan"
         },
         "KH": {
-            "name": "Kamb\u00f3d\u00eda"
+            "name": "Kambódía"
         },
         "KI": {
-            "name": "K\u00edribat\u00ed"
+            "name": "Kíribatí"
         },
         "KM": {
-            "name": "K\u00f3moreyjar"
+            "name": "Kómoreyjar"
         },
         "KN": {
             "name": "Sankti Kristófer og Nevis"
         },
         "KP": {
-            "name": "Nor\u00f0ur-K\u00f3rea"
+            "name": "Norður-Kórea"
         },
         "KR": {
-            "name": "Su\u00f0ur-K\u00f3rea"
+            "name": "Suður-Kórea"
         },
         "KW": {
-            "name": "K\u00faveit"
+            "name": "Kúveit"
         },
         "KY": {
             "name": "Caymaneyjar"
@@ -797,43 +838,43 @@
             "name": "Laos"
         },
         "LB": {
-            "name": "L\u00edbanon"
+            "name": "Líbanon"
         },
         "LC": {
-            "name": "Sankti L\u00fas\u00eda"
+            "name": "Sankti Lúsía"
         },
         "LI": {
             "name": "Liechtenstein"
         },
         "LK": {
-            "name": "Sr\u00ed Lanka"
+            "name": "Srí Lanka"
         },
         "LR": {
-            "name": "L\u00edber\u00eda"
+            "name": "Líbería"
         },
         "LS": {
-            "name": "Les\u00f3t\u00f3"
+            "name": "Lesótó"
         },
         "LT": {
-            "name": "Lith\u00e1en"
+            "name": "Litháen"
         },
         "LU": {
-            "name": "L\u00faxemborg"
+            "name": "Lúxemborg"
         },
         "LV": {
             "name": "Lettland"
         },
         "LY": {
-            "name": "L\u00edb\u00eda"
+            "name": "Líbía"
         },
         "MA": {
-            "name": "Marokk\u00f3"
+            "name": "Marokkó"
         },
         "MC": {
-            "name": "M\u00f3nak\u00f3"
+            "name": "Mónakó"
         },
         "MD": {
-            "name": "Mold\u00f3va"
+            "name": "Moldóva"
         },
         "ME": {
             "name": "Svartfjallaland"
@@ -848,28 +889,28 @@
             "name": "Marshalleyjar"
         },
         "MK": {
-            "name": "Maked\u00f3n\u00eda"
+            "name": "Makedónía"
         },
         "ML": {
-            "name": "Mal\u00ed"
+            "name": "Malí"
         },
         "MM": {
-            "name": "M\u00fdanmar [B\u00farma]"
+            "name": "Mýanmar [Búrma]"
         },
         "MN": {
-            "name": "Mong\u00f3l\u00eda"
+            "name": "Mongólía"
         },
         "MO": {
-            "name": "Maka\u00f3"
+            "name": "Makaó"
         },
         "MP": {
-            "name": "Nor\u00f0ur-Mar\u00edanaeyjar"
+            "name": "Norður-Maríanaeyjar"
         },
         "MQ": {
-            "name": "Martin\u00edk"
+            "name": "Martiník"
         },
         "MR": {
-            "name": "M\u00e1ritan\u00eda"
+            "name": "Máritanía"
         },
         "MS": {
             "name": "Montserrat"
@@ -878,40 +919,40 @@
             "name": "Malta"
         },
         "MU": {
-            "name": "M\u00e1rit\u00edus"
+            "name": "Máritíus"
         },
         "MV": {
-            "name": "Mald\u00edveyjar"
+            "name": "Maldíveyjar"
         },
         "MW": {
-            "name": "Malav\u00ed"
+            "name": "Malaví"
         },
         "MX": {
-            "name": "Mex\u00edk\u00f3"
+            "name": "Mexíkó"
         },
         "MY": {
-            "name": "Malays\u00eda"
+            "name": "Malaysía"
         },
         "MZ": {
-            "name": "M\u00f3samb\u00edk"
+            "name": "Mósambík"
         },
         "NA": {
-            "name": "Namib\u00eda"
+            "name": "Namibía"
         },
         "NC": {
-            "name": "N\u00fdja-Kaled\u00f3n\u00eda"
+            "name": "Nýja-Kaledónía"
         },
         "NE": {
-            "name": "N\u00edger"
+            "name": "Níger"
         },
         "NF": {
             "name": "Norfolkeyja"
         },
         "NG": {
-            "name": "N\u00edger\u00eda"
+            "name": "Nígería"
         },
         "NI": {
-            "name": "N\u00edkarag\u00faa"
+            "name": "Níkaragúa"
         },
         "NL": {
             "name": "Holland"
@@ -923,28 +964,28 @@
             "name": "Nepal"
         },
         "NR": {
-            "name": "N\u00e1r\u00fa"
+            "name": "Nárú"
         },
         "NU": {
             "name": "Niue"
         },
         "NZ": {
-            "name": "N\u00fdja-Sj\u00e1land"
+            "name": "Nýja-Sjáland"
         },
         "OM": {
-            "name": "\u00d3man"
+            "name": "Óman"
         },
         "PA": {
             "name": "Panama"
         },
         "PE": {
-            "name": "Per\u00fa"
+            "name": "Perú"
         },
         "PF": {
-            "name": "Franska P\u00f3l\u00fdnes\u00eda"
+            "name": "Franska Pólýnesía"
         },
         "PG": {
-            "name": "Pap\u00faa N\u00fdja-G\u00ednea"
+            "name": "Papúa Nýja-Gínea"
         },
         "PH": {
             "name": "Filippseyjar"
@@ -953,7 +994,7 @@
             "name": "Pakistan"
         },
         "PL": {
-            "name": "P\u00f3lland"
+            "name": "Pólland"
         },
         "PM": {
             "name": "Saint Pierre og Miquelon"
@@ -962,100 +1003,100 @@
             "name": "Pitcairneyjar"
         },
         "PR": {
-            "name": "P\u00faert\u00f3 R\u00edk\u00f3"
+            "name": "Púertó Ríkó"
         },
         "PS": {
-            "name": "Palest\u00edna"
+            "name": "Palestína"
         },
         "PT": {
-            "name": "Port\u00fagal"
+            "name": "Portúgal"
         },
         "PW": {
-            "name": "Pala\u00fa"
+            "name": "Palaú"
         },
         "PY": {
-            "name": "Paragv\u00e6"
+            "name": "Paragvæ"
         },
         "QA": {
             "name": "Katar"
         },
         "RE": {
-            "name": "R\u00e9union"
+            "name": "Réunion"
         },
         "RO": {
-            "name": "R\u00famen\u00eda"
+            "name": "Rúmenía"
         },
         "RS": {
-            "name": "Serb\u00eda"
+            "name": "Serbía"
         },
         "RU": {
-            "name": "R\u00fassland"
+            "name": "Rússland"
         },
         "RW": {
-            "name": "R\u00faanda"
+            "name": "Rúanda"
         },
         "SA": {
-            "name": "S\u00e1di-Arab\u00eda"
+            "name": "Sádi-Arabía"
         },
         "SB": {
-            "name": "Sal\u00f3monseyjar"
+            "name": "Salómonseyjar"
         },
         "SC": {
             "name": "Seychelles-eyjar"
         },
         "SD": {
-            "name": "S\u00fadan"
+            "name": "Súdan"
         },
         "SE": {
-            "name": "Sv\u00ed\u00fej\u00f3\u00f0"
+            "name": "Svíþjóð"
         },
         "SG": {
-            "name": "Singap\u00far"
+            "name": "Singapúr"
         },
         "SH": {
             "name": "Sankta Helena"
         },
         "SI": {
-            "name": "Sl\u00f3ven\u00eda"
+            "name": "Slóvenía"
         },
         "SJ": {
-            "name": "Svalbar\u00f0i og Jan Mayen"
+            "name": "Svalbarði og Jan Mayen"
         },
         "SK": {
-            "name": "Sl\u00f3vak\u00eda"
+            "name": "Slóvakía"
         },
         "SL": {
-            "name": "S\u00ederra Le\u00f3ne"
+            "name": "Síerra Leóne"
         },
         "SM": {
-            "name": "San Mar\u00edn\u00f3"
+            "name": "San Marínó"
         },
         "SN": {
             "name": "Senegal"
         },
         "SO": {
-            "name": "S\u00f3mal\u00eda"
+            "name": "Sómalía"
         },
         "SR": {
-            "name": "S\u00farinam"
+            "name": "Súrinam"
         },
         "SS": {
-            "name": "Su\u00f0ur-S\u00fadan"
+            "name": "Suður-Súdan"
         },
         "ST": {
-            "name": "Sa\u00f3 T\u00f3m\u00e9 og Pr\u00ednsipe"
+            "name": "Saó Tómé og Prínsipe"
         },
         "SV": {
-            "name": "El Salvad\u00f3r"
+            "name": "El Salvadór"
         },
         "SX": {
             "name": "Sint Maarten"
         },
         "SY": {
-            "name": "S\u00fdrland"
+            "name": "Sýrland"
         },
         "SZ": {
-            "name": "Svas\u00edland"
+            "name": "Svasíland"
         },
         "TC": {
             "name": "Turks- og Caicoseyjar"
@@ -1064,10 +1105,10 @@
             "name": "Tsjad"
         },
         "TF": {
-            "name": "Fr\u00f6nsku su\u00f0urh\u00e9ru\u00f0in"
+            "name": "Frönsku suðurhéruðin"
         },
         "TG": {
-            "name": "T\u00f3g\u00f3"
+            "name": "Tógó"
         },
         "TH": {
             "name": "Taíland"
@@ -1076,16 +1117,16 @@
             "name": "Tadsjikistan"
         },
         "TK": {
-            "name": "T\u00f3kel\u00e1"
+            "name": "Tókelá"
         },
         "TL": {
-            "name": "Austur-T\u00edmor"
+            "name": "Austur-Tímor"
         },
         "TM": {
-            "name": "T\u00farkmenistan"
+            "name": "Túrkmenistan"
         },
         "TN": {
-            "name": "T\u00fanis"
+            "name": "Túnis"
         },
         "TO": {
             "name": "Tonga"
@@ -1094,64 +1135,64 @@
             "name": "Tyrkland"
         },
         "TT": {
-            "name": "Tr\u00ednidad og T\u00f3bag\u00f3"
+            "name": "Trínidad og Tóbagó"
         },
         "TV": {
-            "name": "T\u00faval\u00fa"
+            "name": "Túvalú"
         },
         "TW": {
-            "name": "Ta\u00edvan"
+            "name": "Taívan"
         },
         "TZ": {
-            "name": "Tansan\u00eda"
+            "name": "Tansanía"
         },
         "UA": {
-            "name": "\u00dakra\u00edna"
+            "name": "Úkraína"
         },
         "UG": {
-            "name": "\u00daganda"
+            "name": "Úganda"
         },
         "UM": {
-            "name": "Sm\u00e1eyjar Bandar\u00edkjanna"
+            "name": "Smáeyjar Bandaríkjanna"
         },
         "US": {
-            "name": "Bandar\u00edkin"
+            "name": "Bandaríkin"
         },
         "UY": {
-            "name": "\u00dar\u00fagv\u00e6"
+            "name": "Úrúgvæ"
         },
         "UZ": {
-            "name": "\u00dasbekistan"
+            "name": "Úsbekistan"
         },
         "VA": {
             "name": "Vatikanbul"
         },
         "VC": {
-            "name": "Sankti Vinsent og Grenad\u00edneyjar"
+            "name": "Sankti Vinsent og Grenadíneyjar"
         },
         "VE": {
-            "name": "Venes\u00faela"
+            "name": "Venesúela"
         },
         "VG": {
             "name": "Bresku Jómfrúaeyjar"
         },
         "VI": {
-            "name": "Bandar\u00edsku Jómfrúaeyjar"
+            "name": "Bandarísku Jómfrúaeyjar"
         },
         "VN": {
-            "name": "V\u00edetnam"
+            "name": "Víetnam"
         },
         "VU": {
-            "name": "Van\u00faat\u00fa"
+            "name": "Vanúatú"
         },
         "WF": {
-            "name": "Wallis og F\u00fat\u00fana"
+            "name": "Wallis og Fútúna"
         },
         "WS": {
-            "name": "Sam\u00f3a"
+            "name": "Samóa"
         },
         "XK": {
-            "name": "K\u00f3s\u00f3v\u00f3"
+            "name": "Kósóvó"
         },
         "YE": {
             "name": "Jemen"
@@ -1160,10 +1201,10 @@
             "name": "Mayotte"
         },
         "ZA": {
-            "name": "Su\u00f0ur-Afr\u00edka"
+            "name": "Suður-Afríka"
         },
         "ZM": {
-            "name": "Samb\u00eda"
+            "name": "Sambía"
         },
         "ZW": {
             "name": "Simbabve"

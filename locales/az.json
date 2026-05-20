@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Parolun bərpası tokeni etibarsızdır.",
         "customer_not_found": "Bu email istifadə olunmur.",
         "invalid_credentials": "Etibarsız email və ya şifrə.",
-        "customer_current_password_invalid": "Etibarsız şifrə."
+        "customer_current_password_invalid": "Etibarsız şifrə.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Məlumatlarınızı təsdiqləyə bilmədik.",
+                "description": "Adınızı, e-poçtunuzu və sifariş nömrənizi yoxlayıb yenidən cəhd edin."
+            },
+            "confirm_failed": {
+                "title": "İmtina sorğunuzu emal edə bilmədik.",
+                "description": "Yenidən cəhd edin və ya satıcı ilə əlaqə saxlayın."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Yüklənir..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Çatdırılma xərci və vergilər, adres daxil edildiktən sonra hesablanacaqdır."
+    },
+    "withdrawal_form": {
+        "title": "Müqavilədən imtina",
+        "instructions": "Aİ İstehlakçı Hüquqları Direktivinə uyğun olaraq imtina tələb etmək üçün sifariş məlumatlarınızı daxil edin.",
+        "name": "Adınız",
+        "order_id": "Sifariş ID / Faktura nömrəsi",
+        "email": "E-poçt ünvanı"
+    },
+    "withdrawal_confirm": {
+        "title": "İmtinanı təsdiqləyin",
+        "warning_title": "Qeyd",
+        "warning_message": "Bu sifariş 14 günlük imtina müddətindən kənardadır. Satıcı sorğunuzu nəzərdən keçirəcək.",
+        "order_details": "Sifariş təfərrüatları",
+        "order_number": "Sifariş nömrəsi:",
+        "order_date": "Sifariş tarixi:",
+        "order_total": "Sifarişin cəmi:",
+        "items_title": "İmtina ediləcək məhsulları seçin",
+        "withdraw_all": "Bütün məhsullardan imtina (tam geri ödəmə)",
+        "refund_amount": "Təxmini geri ödəmə:",
+        "refund_amount_notice": "Bu təxmin yalnız məlumat xarakteri daşıyır. Vergilər, endirimlər və çatdırılma haqları nəzərə alındıqdan sonra faktiki geri ödənilən məbləğ fərqli ola bilər.",
+        "back": "Geri",
+        "confirm": "İmtinanı təsdiqləyin",
+        "legal_notice": "Təsdiqləməklə, siz Aİ İstehlakçı Hüquqları Direktivinə əsasən bu müqavilədən imtina hüququnuzu həyata keçirirsiniz. Geri ödəmələr 14 gün ərzində emal olunur."
+    },
+    "withdrawal_success": {
+        "title": "İmtina sorğusu göndərildi",
+        "message": "İmtina sorğunuz uğurla göndərildi. Tezliklə təsdiq e-poçtu alacaqsınız.",
+        "confirmation_number": "Təsdiq nömrəsi:",
+        "submitted_at": "Göndərildi:",
+        "refund_amount": "Təxmini geri ödəmə:",
+        "close": "Bağla"
     },
     "countries": {
         "AD": {

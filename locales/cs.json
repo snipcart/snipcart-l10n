@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Neplatný token pro obnovu hesla.",
         "customer_not_found": "Tento email není přiřazen k žádnému účtu.",
         "invalid_credentials": "Nesprávný email nebo heslo.",
-        "customer_current_password_invalid": "Nesprávné heslo."
+        "customer_current_password_invalid": "Nesprávné heslo.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nepodařilo se nám ověřit Vaše údaje.",
+                "description": "Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu."
+            },
+            "confirm_failed": {
+                "title": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení.",
+                "description": "Zkuste to prosím znovu, nebo se obraťte na prodejce."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Načítání..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Výše poštovného a daně bude vypočtena až po vyplnění dodací adresy."
+    },
+    "withdrawal_form": {
+        "title": "Odstoupení od smlouvy",
+        "instructions": "Zadejte údaje o své objednávce, abyste mohli požádat o odstoupení od smlouvy podle Směrnice o právech spotřebitelů EU.",
+        "name": "Vaše jméno",
+        "order_id": "Číslo objednávky / číslo faktury",
+        "email": "E-mailová adresa"
+    },
+    "withdrawal_confirm": {
+        "title": "Potvrdit odstoupení",
+        "warning_title": "Upozornění",
+        "warning_message": "Tato objednávka je mimo 14denní lhůtu pro odstoupení. Prodejce Vaši žádost posoudí.",
+        "order_details": "Podrobnosti objednávky",
+        "order_number": "Číslo objednávky:",
+        "order_date": "Datum objednávky:",
+        "order_total": "Celková částka objednávky:",
+        "items_title": "Vyberte položky k vrácení",
+        "withdraw_all": "Odstoupit od všech položek (plná refundace)",
+        "refund_amount": "Odhadovaná částka refundace:",
+        "refund_amount_notice": "Tento odhad je pouze informativní. Skutečná vrácená částka se může lišit po zohlednění daní, slev a poštovného.",
+        "back": "Zpět",
+        "confirm": "Potvrdit odstoupení",
+        "legal_notice": "Potvrzením uplatňujete své právo odstoupit od této smlouvy podle Směrnice o právech spotřebitelů EU. Refundace jsou zpracovávány do 14 dnů."
+    },
+    "withdrawal_success": {
+        "title": "Žádost o odstoupení odeslána",
+        "message": "Vaše žádost o odstoupení byla úspěšně odeslána. Brzy obdržíte potvrzovací e-mail.",
+        "confirmation_number": "Potvrzovací číslo:",
+        "submitted_at": "Odesláno:",
+        "refund_amount": "Odhadovaná částka refundace:",
+        "close": "Zavřít"
     },
     "countries": {
         "AD": {

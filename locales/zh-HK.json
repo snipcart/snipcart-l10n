@@ -404,12 +404,12 @@
         "customer_current_password_invalid": "密碼錯誤",
         "withdrawal": {
             "validation_failed": {
-                "title": "我們無法驗證您的資料，請確認姓名、電子郵件及訂單編號後再試。",
+                "title": "我們無法核實您的資料，請檢查姓名、電郵及訂單編號後再試。",
                 "description": ""
             },
             "confirm_failed": {
                 "title": "我們無法處理您的撤回請求。",
-                "description": "請再試一次或聯絡商家。"
+                "description": "請再試或聯絡商家。"
             }
         }
     },
@@ -430,31 +430,31 @@
         "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
     },
     "withdrawal_form": {
-        "title": "撤回契約",
-        "instructions": "請輸入您的訂單資料，依《歐盟消費者權利指令》提出撤回申請。",
-        "order_id": "訂單編號 / 發票號碼",
-        "email": "電子郵件地址"
+        "title": "撤回合約",
+        "instructions": "請輸入您的訂單資料，根據《歐盟消費者權利指令》申請撤回。",
+        "order_id": "訂單編號 / 發票編號",
+        "email": "電郵地址"
     },
     "withdrawal_confirm": {
         "title": "確認撤回",
         "warning_title": "請注意",
-        "warning_message": "此訂單已超過14天的撤回期間。商家將審核您的請求。",
+        "warning_message": "此訂單已超過14天的撤回期，商家將審核您的請求。",
         "order_details": "訂單詳情",
         "order_number": "訂單編號",
         "order_date": "下單日期",
         "order_total": "訂單總額",
-        "items_title": "選擇欲撤回的商品",
+        "items_title": "選擇要撤回的商品",
         "withdraw_all": "撤回所有商品（全額退款）",
         "refund_amount": "預計退款金額",
-        "refund_amount_notice": "此估算僅供參考。在考量稅金、折扣與運費後，實際退款金額可能會有所不同。",
+        "refund_amount_notice": "此估算僅供參考。在計入稅項、折扣及運費後，實際退款金額或會有所不同。",
         "confirm": "確認撤回",
-        "legal_notice": "點選確認即表示您依《歐盟消費者權利指令》行使本契約的撤回權。退款將於14天內處理完成。"
+        "legal_notice": "按下確認即表示您依據《歐盟消費者權利指令》行使本合約的撤回權。退款將於14天內處理。"
     },
     "withdrawal_success": {
-        "title": "撤回請求已送出",
-        "message": "您的撤回請求已成功送出。您將很快收到確認電子郵件。",
+        "title": "撤回請求已提交",
+        "message": "您的撤回請求已成功提交。您將很快收到確認電郵。",
         "confirmation_number": "確認編號",
-        "submitted_at": "送出時間",
+        "submitted_at": "提交時間",
         "refund_amount": "預計退款金額",
         "close": "關閉"
     },

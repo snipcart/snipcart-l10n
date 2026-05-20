@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Jūsų slaptažodžio atstatymo nuoroda negalioja.",
         "customer_not_found": "Šis el. paštas nesusietas su jokia paskyra.",
         "invalid_credentials": "Neteisingas el. paštas arba slaptažodis.",
-        "customer_current_password_invalid": "Neteisingas slaptažodis."
+        "customer_current_password_invalid": "Neteisingas slaptažodis.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Negalėjome patvirtinti jūsų duomenų.",
+                "description": "Prašome patikrinti savo vardą, el. paštą ir užsakymo numerį, tada bandykite dar kartą."
+            },
+            "confirm_failed": {
+                "title": "Negalėjome apdoroti jūsų atsisakymo prašymo.",
+                "description": "Prašome bandyti dar kartą arba susisiekti su pardavėju."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Kraunasi..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
+    },
+    "withdrawal_form": {
+        "title": "Atsisakymas nuo sutarties",
+        "instructions": "Įveskite užsakymo duomenis, kad pateiktumėte atsisakymo prašymą pagal ES Vartotojų teisių direktyvą.",
+        "name": "Jūsų vardas",
+        "order_id": "Užsakymo ID / sąskaitos numeris",
+        "email": "El. pašto adresas"
+    },
+    "withdrawal_confirm": {
+        "title": "Patvirtinti atsisakymą",
+        "warning_title": "Pastaba",
+        "warning_message": "Šis užsakymas yra už 14 dienų atsisakymo laikotarpio ribų. Pardavėjas peržiūrės jūsų prašymą.",
+        "order_details": "Užsakymo informacija",
+        "order_number": "Užsakymo numeris:",
+        "order_date": "Užsakymo data:",
+        "order_total": "Užsakymo suma:",
+        "items_title": "Pasirinkite prekes, nuo kurių norite atsisakyti",
+        "withdraw_all": "Atsisakyti visų prekių (pilnas grąžinimas)",
+        "refund_amount": "Apytikris grąžinimas:",
+        "refund_amount_notice": "Šis įvertinimas pateikiamas tik informaciniais tikslais. Faktinė grąžinama suma gali skirtis, įvertinus mokesčius, nuolaidas ir pristatymo išlaidas.",
+        "back": "Atgal",
+        "confirm": "Patvirtinti atsisakymą",
+        "legal_notice": "Patvirtindami pasinaudojate teise atsisakyti šios sutarties pagal ES Vartotojų teisių direktyvą. Grąžinimai apdorojami per 14 dienų."
+    },
+    "withdrawal_success": {
+        "title": "Atsisakymo prašymas pateiktas",
+        "message": "Jūsų atsisakymo prašymas sėkmingai pateiktas. Netrukus gausite patvirtinimo el. laišką.",
+        "confirmation_number": "Patvirtinimo numeris:",
+        "submitted_at": "Pateikta:",
+        "refund_amount": "Apytikris grąžinimas:",
+        "close": "Uždaryti"
     },
     "countries": {
         "AD": {

@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Parooli lähtestamise link on vigane.",
         "customer_not_found": "See e-posti aadress pole ühegi kontoga seotud.",
         "invalid_credentials": "Vale e-post või parool.",
-        "customer_current_password_invalid": "Vale parool."
+        "customer_current_password_invalid": "Vale parool.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Me ei suutnud teie andmeid kinnitada.",
+                "description": "Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
+            },
+            "confirm_failed": {
+                "title": "Me ei suutnud teie taganemistaotlust töödelda.",
+                "description": "Palun proovige uuesti või võtke ühendust kaupmehega."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Laadimine..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Saatmis- ja maksukulud arvutatakse pärast aadressi sisestamist."
+    },
+    "withdrawal_form": {
+        "title": "Lepingust taganemine",
+        "instructions": "Sisestage tellimuse andmed, et esitada taganemisavaldus EL-i tarbija õiguste direktiivi alusel.",
+        "name": "Teie nimi",
+        "order_id": "Tellimuse ID / arve number",
+        "email": "E-posti aadress"
+    },
+    "withdrawal_confirm": {
+        "title": "Kinnita taganemine",
+        "warning_title": "Märkus",
+        "warning_message": "See tellimus on väljaspool 14-päevast taganemisperioodi. Kaupmees vaatab teie taotluse läbi.",
+        "order_details": "Tellimuse üksikasjad",
+        "order_number": "Tellimuse number:",
+        "order_date": "Tellimuse kuupäev:",
+        "order_total": "Tellimuse kogusumma:",
+        "items_title": "Valige tagastatavad tooted",
+        "withdraw_all": "Tagasta kõik tooted (täielik raha tagastamine)",
+        "refund_amount": "Hinnanguline tagasimakse:",
+        "refund_amount_notice": "See hinnang on üksnes informatiivne. Tegelik tagasimakstav summa võib pärast maksude, allahindluste ja saatekulude arvesse võtmist erineda.",
+        "back": "Tagasi",
+        "confirm": "Kinnita taganemine",
+        "legal_notice": "Kinnitades kasutate oma õigust taganeda sellest lepingust EL-i tarbija õiguste direktiivi alusel. Tagasimaksed töödeldakse 14 päeva jooksul."
+    },
+    "withdrawal_success": {
+        "title": "Taganemistaotlus esitatud",
+        "message": "Teie taganemistaotlus on edukalt esitatud. Saate peagi kinnituse e-posti teel.",
+        "confirmation_number": "Kinnitusnumber:",
+        "submitted_at": "Esitatud:",
+        "refund_amount": "Hinnanguline tagasimakse:",
+        "close": "Sulge"
     },
     "countries": {
         "AD": {

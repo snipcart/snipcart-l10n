@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "L'enllaç de restabliment de la contrasenya no és vàlid.",
         "customer_not_found": "No hi ha cap compte associat a aquesta adreça de correu electrònic.",
         "invalid_credentials": "El correu electrònic o la contrasenya no són correctes.",
-        "customer_current_password_invalid": "La contrasenya actual no és correcta."
+        "customer_current_password_invalid": "La contrasenya actual no és correcta.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "No hem pogut verificar les vostres dades.",
+                "description": "Comproveu el nom, el correu electrònic i el número de comanda, i torneu-ho a provar."
+            },
+            "confirm_failed": {
+                "title": "No hem pogut processar la vostra sol·licitud de desistiment.",
+                "description": "Torneu-ho a provar o poseu-vos en contacte amb el comerciant."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Carregant..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Els costos d'enviament i els impostos es calcularan un cop introduïda l'adreça."
+    },
+    "withdrawal_form": {
+        "title": "Desistir del contracte",
+        "instructions": "Introduïu les dades de la vostra comanda per sol·licitar el desistiment d'acord amb la Directiva sobre els drets dels consumidors de la UE.",
+        "name": "El vostre nom",
+        "order_id": "Número de comanda / factura",
+        "email": "Adreça de correu electrònic"
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmar el desistiment",
+        "warning_title": "Avís",
+        "warning_message": "Aquesta comanda està fora del termini de desistiment de 14 dies. El comerciant revisarà la vostra sol·licitud.",
+        "order_details": "Detalls de la comanda",
+        "order_number": "Número de comanda:",
+        "order_date": "Data de la comanda:",
+        "order_total": "Total de la comanda:",
+        "items_title": "Seleccioneu els articles a retornar",
+        "withdraw_all": "Desistir de tots els articles (reemborsament íntegre)",
+        "refund_amount": "Reemborsament estimat:",
+        "refund_amount_notice": "Aquesta estimació és només a títol informatiu. L’import realment reemborsat pot diferir un cop tinguts en compte els impostos, els descomptes i les despeses d’enviament.",
+        "back": "Enrere",
+        "confirm": "Confirmar el desistiment",
+        "legal_notice": "En confirmar, exerciu el vostre dret de desistiment d'aquest contracte d'acord amb la Directiva sobre els drets dels consumidors de la UE. Els reemborsaments es processen en un termini de 14 dies."
+    },
+    "withdrawal_success": {
+        "title": "Sol·licitud de desistiment enviada",
+        "message": "La vostra sol·licitud de desistiment s'ha enviat correctament. Rebreu un correu electrònic de confirmació aviat.",
+        "confirmation_number": "Número de confirmació:",
+        "submitted_at": "Enviada:",
+        "refund_amount": "Reemborsament estimat:",
+        "close": "Tancar"
     },
     "countries": {
         "AD": {

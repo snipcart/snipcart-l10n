@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Sizdagi parolni yangilash tokeni amal qilmaydi.",
         "customer_not_found": "Bu e-mail hech qanday akkaunt bilan bog'liq emas.",
         "invalid_credentials": "Noto'g'ri elektron pochta yoki parol.",
-        "customer_current_password_invalid": "Noto'g'ri parol."
+        "customer_current_password_invalid": "Noto'g'ri parol.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Ma'lumotlaringizni tasdiqlay olmadik.",
+                "description": "Ismingiz, elektron pochtangiz va buyurtma raqamingizni tekshirib, qayta urinib ko'ring."
+            },
+            "confirm_failed": {
+                "title": "Voz kechish so'rovingizni qayta ishlay olmadik.",
+                "description": "Qayta urinib ko'ring yoki sotuvchi bilan bog'laning."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Yuklanmoqda..."
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Yetkazib berish harajatlari manzilni kiritganingizdan so'ng hisoblanadi."
+    },
+    "withdrawal_form": {
+        "title": "Shartnomadan voz kechish",
+        "instructions": "Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida voz kechishni so'rash uchun buyurtma ma'lumotlarini kiriting.",
+        "name": "Ismingiz",
+        "order_id": "Buyurtma ID / Hisob-faktura raqami",
+        "email": "Elektron pochta manzili"
+    },
+    "withdrawal_confirm": {
+        "title": "Voz kechishni tasdiqlash",
+        "warning_title": "Diqqat",
+        "warning_message": "Bu buyurtma 14 kunlik voz kechish muddatidan tashqarida. Sotuvchi so'rovingizni ko'rib chiqadi.",
+        "order_details": "Buyurtma tafsilotlari",
+        "order_number": "Buyurtma raqami:",
+        "order_date": "Buyurtma sanasi:",
+        "order_total": "Buyurtma jami:",
+        "items_title": "Voz kechmoqchi bo'lgan mahsulotlarni tanlang",
+        "withdraw_all": "Barcha mahsulotlardan voz kechish (to'liq qaytarish)",
+        "refund_amount": "Taxminiy qaytarish:",
+        "refund_amount_notice": "Ushbu taxmin faqat ma’lumot uchun. Soliqlar, chegirmalar va yetkazib berish to‘lovlari hisobga olingandan so‘ng haqiqiy qaytariladigan summa farq qilishi mumkin.",
+        "back": "Orqaga",
+        "confirm": "Voz kechishni tasdiqlash",
+        "legal_notice": "Tasdiqlash bilan siz Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida ushbu shartnomadan voz kechish huquqingizni amalga oshirmoqdasiz. Pul qaytarishlar 14 kun ichida amalga oshiriladi."
+    },
+    "withdrawal_success": {
+        "title": "Voz kechish so'rovi yuborildi",
+        "message": "Voz kechish so'rovingiz muvaffaqiyatli yuborildi. Tez orada tasdiqlovchi elektron pochta xabarini olasiz.",
+        "confirmation_number": "Tasdiqlash raqami:",
+        "submitted_at": "Yuborilgan vaqt:",
+        "refund_amount": "Taxminiy qaytarish:",
+        "close": "Yopish"
     },
     "countries": {
         "AD": {

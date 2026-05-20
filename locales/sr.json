@@ -396,7 +396,17 @@
         "customer_password_token_invalid": "Your password recovery token is invalid.",
         "customer_not_found": "The email address is not associated with any account.",
         "invalid_credentials": "Invalid email or password.",
-        "customer_current_password_invalid": "Invalid password."
+        "customer_current_password_invalid": "Invalid password.",
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nismo uspeli da potvrdimo Vaše podatke.",
+                "description": "Molimo proverite svoje ime, email adresu i broj porudžbine, pa pokušajte ponovo."
+            },
+            "confirm_failed": {
+                "title": "Nismo uspeli da obradimo Vaš zahtev za odustajanje.",
+                "description": "Molimo pokušajte ponovo ili kontaktirajte prodavca."
+            }
+        }
     },
     "shippingRates": {
         "loading": "Loading shipping rates"
@@ -413,6 +423,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
+    },
+    "withdrawal_form": {
+        "title": "Odustajanje od ugovora",
+        "instructions": "Unesite podatke o svojoj porudžbini kako biste podneli zahtev za odustajanje u skladu sa Direktivom EU o pravima potrošača.",
+        "name": "Vaše ime",
+        "order_id": "Broj porudžbine / broj računa",
+        "email": "Email adresa"
+    },
+    "withdrawal_confirm": {
+        "title": "Potvrdi odustajanje",
+        "warning_title": "Napomena",
+        "warning_message": "Ova porudžbina je van 14-dnevnog roka za odustajanje. Prodavac će razmotriti Vaš zahtev.",
+        "order_details": "Detalji porudžbine",
+        "order_number": "Broj porudžbine:",
+        "order_date": "Datum porudžbine:",
+        "order_total": "Ukupan iznos porudžbine:",
+        "items_title": "Izaberite artikle za povraćaj",
+        "withdraw_all": "Odustani od svih artikala (pun povraćaj)",
+        "refund_amount": "Procenjeni iznos povraćaja:",
+        "refund_amount_notice": "Ova procena je samo informativnog karaktera. Stvarni iznos povraćaja može se razlikovati nakon što se uzmu u obzir porezi, popusti i troškovi isporuke.",
+        "back": "Nazad",
+        "confirm": "Potvrdi odustajanje",
+        "legal_notice": "Potvrdom ostvarujete svoje pravo na odustajanje od ovog ugovora u skladu sa Direktivom EU o pravima potrošača. Povraćaji se obrađuju u roku od 14 dana."
+    },
+    "withdrawal_success": {
+        "title": "Zahtev za odustajanje poslat",
+        "message": "Vaš zahtev za odustajanje je uspešno poslat. Uskoro ćete primiti email sa potvrdom.",
+        "confirmation_number": "Broj potvrde:",
+        "submitted_at": "Poslato:",
+        "refund_amount": "Procenjeni iznos povraćaja:",
+        "close": "Zatvori"
     },
     "countries": {
         "AD": {

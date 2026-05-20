@@ -400,6 +400,16 @@
         "no_shipping_rates_found": {
             "title": "Nici o metodă de livrare nu este disponibilă pentru adresa dvs.",
             "description": "Vă rugăm verificați adresa de livrare sau contactați-ne pentru mai multe detalii."
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "Nu am putut verifica datele dumneavoastră.",
+                "description": "Verificați numele, adresa de email și numărul comenzii, apoi încercați din nou."
+            },
+            "confirm_failed": {
+                "title": "Nu am putut procesa solicitarea dumneavoastră de retragere.",
+                "description": "Încercați din nou sau contactați comerciantul."
+            }
         }
     },
     "shippingRates": {
@@ -417,6 +427,37 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Costurile de livrare și taxele vor fi calculate în momentul în care introduceți adresa de livrare."
+    },
+    "withdrawal_form": {
+        "title": "Retragere din contract",
+        "instructions": "Introduceți detaliile comenzii pentru a solicita retragerea în baza Directivei privind drepturile consumatorilor a UE.",
+        "name": "Numele dumneavoastră",
+        "order_id": "Numărul comenzii / facturii",
+        "email": "Adresă de email"
+    },
+    "withdrawal_confirm": {
+        "title": "Confirmați retragerea",
+        "warning_title": "Notă",
+        "warning_message": "Această comandă se află în afara perioadei de retragere de 14 zile. Comerciantul va analiza solicitarea dumneavoastră.",
+        "order_details": "Detaliile comenzii",
+        "order_number": "Numărul comenzii:",
+        "order_date": "Data comenzii:",
+        "order_total": "Total comandă:",
+        "items_title": "Selectați articolele pentru retragere",
+        "withdraw_all": "Retragere pentru toate articolele (rambursare integrală)",
+        "refund_amount": "Rambursare estimată:",
+        "refund_amount_notice": "Această estimare are doar caracter informativ. Suma efectiv rambursată poate diferi după luarea în calcul a taxelor, reducerilor și costurilor de livrare.",
+        "back": "Înapoi",
+        "confirm": "Confirmați retragerea",
+        "legal_notice": "Prin confirmare, vă exercitați dreptul de retragere din acest contract în baza Directivei privind drepturile consumatorilor a UE. Rambursările sunt procesate în termen de 14 zile."
+    },
+    "withdrawal_success": {
+        "title": "Solicitare de retragere trimisă",
+        "message": "Solicitarea dumneavoastră de retragere a fost trimisă cu succes. Veți primi în scurt timp un email de confirmare.",
+        "confirmation_number": "Număr de confirmare:",
+        "submitted_at": "Trimisă la:",
+        "refund_amount": "Rambursare estimată:",
+        "close": "Închide"
     },
     "countries": {
         "AD": {
