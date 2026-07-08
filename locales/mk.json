@@ -195,6 +195,9 @@
         "or": "Или",
         "continue_as_a_guest": "Продолжи како гостин"
     },
+    "express_checkout": {
+        "processing": "Се обработува вашето плаќање…"
+    },
     "shipping": {
         "title": "Испорака",
         "shipping_to": "Испорака до:",

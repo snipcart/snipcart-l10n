@@ -195,6 +195,9 @@
         "or": "Arba",
         "continue_as_a_guest": "Tęsti kaip svečiui"
     },
+    "express_checkout": {
+        "processing": "Apdorojamas jūsų mokėjimas…"
+    },
     "shipping": {
         "title": "Siuntimas",
         "shipping_to": "Siųsti į:",

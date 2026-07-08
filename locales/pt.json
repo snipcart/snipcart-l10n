@@ -196,6 +196,9 @@
         "continue_as_a_guest": "Continuar como convidado",
         "method": "Método de envio"
     },
+    "express_checkout": {
+        "processing": "Processando seu pagamento…"
+    },
     "shipping": {
         "title": "Envio",
         "shipping_to": "Enviar para:",

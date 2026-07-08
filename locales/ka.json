@@ -195,6 +195,9 @@
         "or": "ან",
         "continue_as_a_guest": "სტუმრად გაგრძელება"
     },
+    "express_checkout": {
+        "processing": "მიმდინარეობს თქვენი გადახდის დამუშავება…"
+    },
     "shipping": {
         "title": "მიტანა",
         "shipping_to": "მიტანის მისამართი:",

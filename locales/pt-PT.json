@@ -184,6 +184,9 @@
         "or": "Ou",
         "continue_as_a_guest": "Continue a comprar como convidado"
     },
+    "express_checkout": {
+        "processing": "A processar o seu pagamento…"
+    },
     "shipping": {
         "title": "Portes de envio",
         "shipping_to": "Enviar para:",

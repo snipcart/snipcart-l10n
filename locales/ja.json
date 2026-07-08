@@ -195,6 +195,9 @@
         "or": "または",
         "continue_as_a_guest": "ゲストとして進む"
     },
+    "express_checkout": {
+        "processing": "お支払いを処理しています…"
+    },
     "shipping": {
         "title": "配送",
         "shipping_to": "配送先:",

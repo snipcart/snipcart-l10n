@@ -195,6 +195,9 @@
         "or": "neu",
         "continue_as_a_guest": "Parhau fel gwestai"
     },
+    "express_checkout": {
+        "processing": "Yn prosesu eich taliad…"
+    },
     "shipping": {
         "title": "Cludo",
         "shipping_to": "Cludo i:",

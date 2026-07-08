@@ -195,6 +195,9 @@
         "or": "או",
         "continue_as_a_guest": "המשך כאורח"
     },
+    "express_checkout": {
+        "processing": "מעבד את התשלום שלך…"
+    },
     "shipping": {
         "title": "משלוח",
         "shipping_to": "משלוח אל:",

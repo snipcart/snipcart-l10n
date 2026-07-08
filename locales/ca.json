@@ -195,6 +195,9 @@
         "or": "o",
         "continue_as_a_guest": "Continua com a convidat"
     },
+    "express_checkout": {
+        "processing": "Processant el vostre pagament…"
+    },
     "shipping": {
         "title": "Enviament",
         "shipping_to": "Enviar a:",

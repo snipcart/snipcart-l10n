@@ -885,6 +885,9 @@
         "or": "Or",
         "continue_as_a_guest": "Continue as a guest"
     },
+    "express_checkout": {
+        "processing": "Processing your payment…"
+    },
     "shipping": {
         "title": "Shipping",
         "shipping_to": "Shipping to:",

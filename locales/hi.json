@@ -195,6 +195,9 @@
         "or": "या",
         "continue_as_a_guest": "अतिथि के रूप में जारी रखें"
     },
+    "express_checkout": {
+        "processing": "आपका भुगतान संसाधित किया जा रहा है…"
+    },
     "shipping": {
         "title": "शिपिंग",
         "shipping_to": "शिपिंग पता:",

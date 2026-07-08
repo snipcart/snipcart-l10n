@@ -195,6 +195,9 @@
         "or": "Або",
         "continue_as_a_guest": "Продовжити як гість"
     },
+    "express_checkout": {
+        "processing": "Обробка вашого платежу…"
+    },
     "shipping": {
         "title": "Доставка",
         "shipping_to": "Адреса доставки:",

@@ -195,6 +195,9 @@
         "or": "หรือ",
         "continue_as_a_guest": "ดำเนินการต่อในฐานะผู้เยี่ยมชม"
     },
+    "express_checkout": {
+        "processing": "กำลังดำเนินการชำระเงินของคุณ…"
+    },
     "shipping": {
         "title": "การจัดส่ง",
         "shipping_to": "จัดส่งไปยัง:",

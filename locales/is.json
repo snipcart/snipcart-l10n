@@ -195,6 +195,9 @@
         "or": "E\u00f0a",
         "continue_as_a_guest": "Halda \u00e1fram sem gestur"
     },
+    "express_checkout": {
+        "processing": "Vinnur úr greiðslunni þinni…"
+    },
     "shipping": {
         "title": "Sending",
         "shipping_to": "Sent til:",

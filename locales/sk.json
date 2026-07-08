@@ -195,6 +195,9 @@
         "or": "Alebo",
         "continue_as_a_guest": "Pokračovať ako hosť"
     },
+    "express_checkout": {
+        "processing": "Spracúva sa vaša platba…"
+    },
     "shipping": {
         "title": "Dodanie",
         "shipping_to": "Adresa dodania:",

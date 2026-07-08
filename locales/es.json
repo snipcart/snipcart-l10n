@@ -195,6 +195,9 @@
         "or": "O",
         "continue_as_a_guest": "Continuar como invitado"
     },
+    "express_checkout": {
+        "processing": "Procesando tu pago…"
+    },
     "shipping": {
         "title": "Envío",
         "shipping_to": "Enviar a:",

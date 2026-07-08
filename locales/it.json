@@ -195,6 +195,9 @@
         "or": "oppure",
         "continue_as_a_guest": "Continua senza registrarti"
     },
+    "express_checkout": {
+        "processing": "Elaborazione del pagamento in corso…"
+    },
     "shipping": {
         "title": "Invio",
         "shipping_to": "Invio a:",

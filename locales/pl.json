@@ -195,6 +195,9 @@
         "or": "lub",
         "continue_as_a_guest": "Kontynuuj jako gość"
     },
+    "express_checkout": {
+        "processing": "Przetwarzanie płatności…"
+    },
     "shipping": {
         "title": "Dostawa",
         "shipping_to": "Dostawa do:",

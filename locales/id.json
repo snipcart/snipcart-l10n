@@ -195,6 +195,9 @@
         "or": "Atau",
         "continue_as_a_guest": "Lanjutkan sebagai tamu"
     },
+    "express_checkout": {
+        "processing": "Memproses pembayaran Anda…"
+    },
     "shipping": {
         "title": "Pengiriman",
         "shipping_to": "Kirim ke:",

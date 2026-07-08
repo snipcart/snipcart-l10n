@@ -195,6 +195,9 @@
         "or": "Of",
         "continue_as_a_guest": "Ga door als gast"
     },
+    "express_checkout": {
+        "processing": "Uw betaling wordt verwerkt…"
+    },
     "shipping": {
         "title": "Verzending",
         "shipping_to": "Verzenden naar:",

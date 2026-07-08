@@ -195,6 +195,9 @@
         "or": "Nebo",
         "continue_as_a_guest": "Pokračovat bez registrace"
     },
+    "express_checkout": {
+        "processing": "Zpracování vaší platby…"
+    },
     "shipping": {
         "title": "Doručení",
         "shipping_to": "Adresa doručení:",

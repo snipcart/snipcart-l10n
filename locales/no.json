@@ -195,6 +195,9 @@
         "or": "Eller",
         "continue_as_a_guest": "Fortsett som gjest"
     },
+    "express_checkout": {
+        "processing": "Behandler betalingen din…"
+    },
     "shipping": {
         "title": "Levering",
         "shipping_to": "Levering til:",

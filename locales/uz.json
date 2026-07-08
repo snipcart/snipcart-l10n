@@ -195,6 +195,9 @@
         "or": "Yoki",
         "continue_as_a_guest": "Ro'yxatdan o'tmasdan davom etish"
     },
+    "express_checkout": {
+        "processing": "To'lovingiz amalga oshirilmoqda…"
+    },
     "shipping": {
         "title": "Yetkazib bersih",
         "shipping_to": "Yetkazib berish manzili",

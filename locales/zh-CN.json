@@ -200,6 +200,9 @@
         "or": "或",
         "continue_as_a_guest": "以访客身份继续"
     },
+    "express_checkout": {
+        "processing": "正在处理您的付款…"
+    },
     "shipping": {
         "title": "寄送方式",
         "shipping_to": "寄送至:",

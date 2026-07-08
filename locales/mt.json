@@ -195,6 +195,9 @@
         "or": "jew",
         "continue_as_a_guest": "Kompli bħala mistieden"
     },
+    "express_checkout": {
+        "processing": "Il-ħlas tiegħek qed jiġi pproċessat…"
+    },
     "shipping": {
         "title": "Konsenja",
         "shipping_to": "Jintbagħat lil:",
