@@ -195,6 +195,9 @@
         "or": "Ili",
         "continue_as_a_guest": "Nastavi kao gost"
     },
+    "express_checkout": {
+        "processing": "Obrada vašeg plaćanja…"
+    },
     "shipping": {
         "title": "Dostava",
         "shipping_to": "Dostava na:",

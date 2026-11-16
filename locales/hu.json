@@ -195,6 +195,9 @@
         "or": "Vagy",
         "continue_as_a_guest": "Folytatás regisztráció nélkül"
     },
+    "express_checkout": {
+        "processing": "A fizetés feldolgozása…"
+    },
     "shipping": {
         "title": "Szállítás",
         "shipping_to": "Szállítás ide:",

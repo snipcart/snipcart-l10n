@@ -196,6 +196,9 @@
         "or": "Pe",
         "continue_as_a_guest": "Kenderc'hel evel gwestel"
     },
+    "express_checkout": {
+        "processing": "O prosesiñ ho paeamant…"
+    },
     "shipping": {
         "title": "Degasadenn",
         "shipping_to": "Degas da :",

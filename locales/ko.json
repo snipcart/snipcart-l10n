@@ -195,6 +195,9 @@
         "or": "또는",
         "continue_as_a_guest": "비회원으로 계속"
     },
+    "express_checkout": {
+        "processing": "결제를 처리하고 있습니다…"
+    },
     "shipping": {
         "title": "배송",
         "shipping_to": "배송지:",

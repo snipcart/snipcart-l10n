@@ -198,6 +198,9 @@
         "or": "Немесе",
         "continue_as_a_guest": "Қонақ ретінде жалғастыру"
     },
+    "express_checkout": {
+        "processing": "Төлеміңіз өңделуде…"
+    },
     "shipping": {
         "title": "Жеткізу",
         "shipping_to": "Жеткізіледі:",

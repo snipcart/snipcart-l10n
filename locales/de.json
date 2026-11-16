@@ -195,6 +195,9 @@
         "or": "oder",
         "continue_as_a_guest": "Als Gast fortfahren"
     },
+    "express_checkout": {
+        "processing": "Ihre Zahlung wird verarbeitet…"
+    },
     "shipping": {
         "title": "Versand",
         "shipping_to": "Versand nach:",

@@ -195,6 +195,9 @@
         "or": "O kaya",
         "continue_as_a_guest": "Magpatuloy bilang bisita"
     },
+    "express_checkout": {
+        "processing": "Pinoproseso ang iyong bayad…"
+    },
     "shipping": {
         "title": "Shipping",
         "shipping_to": "Ipapadala sa:",

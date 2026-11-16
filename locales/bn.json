@@ -195,6 +195,9 @@
         "or": "অথবা",
         "continue_as_a_guest": "অতিথি হিসেবে এগিয়ে যান"
     },
+    "express_checkout": {
+        "processing": "আপনার পেমেন্ট প্রক্রিয়াকরণ করা হচ্ছে…"
+    },
     "shipping": {
         "title": "শিপিং",
         "shipping_to": "শিপিং ঠিকানা:",
