@@ -195,6 +195,9 @@
         "or": "Või",
         "continue_as_a_guest": "Jätka külalisena"
     },
+    "express_checkout": {
+        "processing": "Makse töötlemine…"
+    },
     "shipping": {
         "title": "Saatmine",
         "shipping_to": "Saatmine:",

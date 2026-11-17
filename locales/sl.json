@@ -195,6 +195,9 @@
         "or": "Ali",
         "continue_as_a_guest": "Nadaljujte kot gost"
     },
+    "express_checkout": {
+        "processing": "Obdelava vašega plačila…"
+    },
     "shipping": {
         "title": "Dostava",
         "shipping_to": "Dostavi na:",

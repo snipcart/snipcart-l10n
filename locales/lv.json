@@ -195,6 +195,9 @@
         "or": "Vai",
         "continue_as_a_guest": "Turpināt kā viesim"
     },
+    "express_checkout": {
+        "processing": "Tiek apstrādāts jūsu maksājums…"
+    },
     "shipping": {
         "title": "Piegāde",
         "shipping_to": "Piegādāt uz:",

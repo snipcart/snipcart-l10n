@@ -195,6 +195,9 @@
         "or": "Tai",
         "continue_as_a_guest": "Jatka kirjautumatta"
     },
+    "express_checkout": {
+        "processing": "Käsitellään maksuasi…"
+    },
     "shipping": {
         "title": "Toimitus",
         "shipping_to": "Toimitetaan:",

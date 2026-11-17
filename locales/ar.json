@@ -195,6 +195,9 @@
         "or": "أو",
         "continue_as_a_guest": "المتابعة كضيف"
     },
+    "express_checkout": {
+        "processing": "جارٍ معالجة دفعتك…"
+    },
     "shipping": {
         "title": "الشحن",
         "shipping_to": "الشحن إلى:",

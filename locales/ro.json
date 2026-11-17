@@ -195,6 +195,9 @@
         "or": "Sau",
         "continue_as_a_guest": "Continuă fără cont"
     },
+    "express_checkout": {
+        "processing": "Se procesează plata…"
+    },
     "shipping": {
         "title": "Livrare",
         "shipping_to": "Livrare către:",

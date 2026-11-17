@@ -195,6 +195,9 @@
         "or": "Ή",
         "continue_as_a_guest": "Συνεχίστε ως επισκέπτης"
     },
+    "express_checkout": {
+        "processing": "Γίνεται επεξεργασία της πληρωμής σας…"
+    },
     "shipping": {
         "title": "Αποστολή",
         "shipping_to": "Αποστολή σε:",

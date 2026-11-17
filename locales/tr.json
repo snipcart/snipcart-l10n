@@ -195,6 +195,9 @@
         "or": "veya",
         "continue_as_a_guest": "Misafir olarak devam et"
     },
+    "express_checkout": {
+        "processing": "Ödemeniz işleniyor…"
+    },
     "shipping": {
         "title": "Teslimat",
         "shipping_to": "Şuraya teslimat:",

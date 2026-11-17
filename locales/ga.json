@@ -195,6 +195,9 @@
         "or": "Nó",
         "continue_as_a_guest": "Lean ar aghaidh mar aoi"
     },
+    "express_checkout": {
+        "processing": "Do íocaíocht á próiseáil…"
+    },
     "shipping": {
         "title": "Postas",
         "shipping_to": "Á sheoladh chuig:",

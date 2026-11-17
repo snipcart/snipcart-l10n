@@ -195,6 +195,9 @@
         "or": "və ya",
         "continue_as_a_guest": "Hesabsız davam et"
     },
+    "express_checkout": {
+        "processing": "Ödənişiniz emal edilir…"
+    },
     "shipping": {
         "title": "Çatdırılma",
         "shipping_to": "Çatdırılma ediləcək adres:",

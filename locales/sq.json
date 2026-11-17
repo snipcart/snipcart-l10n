@@ -195,6 +195,9 @@
         "or": "Ose",
         "continue_as_a_guest": "Vazhdo si vizitor"
     },
+    "express_checkout": {
+        "processing": "Po përpunohet pagesa juaj…"
+    },
     "shipping": {
         "title": "Transporti",
         "shipping_to": "Transporti drejt:",

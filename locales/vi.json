@@ -195,6 +195,9 @@
         "or": "Hoặc",
         "continue_as_a_guest": "Tiếp tục dưới dạng khách hàng"
     },
+    "express_checkout": {
+        "processing": "Đang xử lý khoản thanh toán của bạn…"
+    },
     "shipping": {
         "title": "Giao hàng",
         "shipping_to": "Giao hàng tới:",
