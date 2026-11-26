@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantert levering innen %{smart_count} dag |||| Garantert levering innen %{smart_count} dager"
+        "guaranteed_delivery_days": "Garantert levert innen %{guaranteedDaysToDelivery} dag(er)."
     },
     "payment": {
         "form": {
@@ -438,7 +438,8 @@
         "instructions": "Oppgi bestillingsdetaljene dine for å be om angrerett i henhold til EUs forbrukerrettighetsdirektiv.",
         "name": "Ditt navn",
         "order_id": "Bestillings-ID / Fakturanummer",
-        "email": "E-postadresse"
+        "email": "E-postadresse",
+        "continue": "Fortsett"
     },
     "withdrawal_confirm": {
         "title": "Bekreft angrerett",

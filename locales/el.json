@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Εγγυημένη παράδοση σε %{smart_count} ημέρα |||| Εγγυημένη παράδοση σε %{smart_count} ημέρες"
+        "guaranteed_delivery_days": "Εγγυημένη παράδοση σε %{guaranteedDaysToDelivery} ημέρα/ες."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Εισαγάγετε τα στοιχεία της παραγγελίας σας για να υποβάλετε αίτημα υπαναχώρησης βάσει της Οδηγίας για τα δικαιώματα των καταναλωτών της ΕΕ.",
         "name": "Το όνομά σας",
         "order_id": "Αναγνωριστικό παραγγελίας / Αριθμός τιμολογίου",
-        "email": "Διεύθυνση email"
+        "email": "Διεύθυνση email",
+        "continue": "Συνέχεια"
     },
     "withdrawal_confirm": {
         "title": "Επιβεβαίωση υπαναχώρησης",

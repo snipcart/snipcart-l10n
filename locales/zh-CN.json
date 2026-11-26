@@ -213,7 +213,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "保证 %{smart_count} 天内送达 |||| 保证 %{smart_count} 天内送达"
+        "guaranteed_delivery_days": "保证在 %{guaranteedDaysToDelivery} 天内送达。"
     },
     "payment": {
         "form": {
@@ -398,6 +398,16 @@
                 "description": "请先移除现有商品再添加订阅，或反之。"
             }
         },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "我们无法核实您的信息。",
+                "description": "请检查您的电子邮件和订单编号，然后重试。"
+            },
+            "confirm_failed": {
+                "title": "我们无法处理您的撤回请求。",
+                "description": "请重试；如果问题仍然存在，请联系商家。"
+            }
+        },
         "customer_exists": "此 Email 已经被使用过了",
         "customer_password_missmatch": "密码不相符",
         "customer_password_token_expired": "您的重设密码链接已失效",
@@ -421,6 +431,9 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "输入收件地址后会显示运费及税额"
+    },
+    "withdrawal_form": {
+        "continue": "继续"
     },
     "countries": {
         "AD": {

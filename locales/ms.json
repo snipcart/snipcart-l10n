@@ -432,7 +432,8 @@
         "instructions": "Masukkan butiran pesanan anda untuk memohon penarikan diri di bawah Arahan Hak Pengguna EU.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nombor Invois",
-        "email": "Alamat E-mel"
+        "email": "Alamat E-mel",
+        "continue": "Teruskan"
     },
     "withdrawal_confirm": {
         "title": "Sahkan Penarikan Diri",

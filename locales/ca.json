@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Lliurament garantit en %{smart_count} dia |||| Lliurament garantit en %{smart_count} dies"
+        "guaranteed_delivery_days": "Lliurament garantit en %{guaranteedDaysToDelivery} dia/dies."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Introduïu les dades de la vostra comanda per sol·licitar el desistiment d'acord amb la Directiva sobre els drets dels consumidors de la UE.",
         "name": "El vostre nom",
         "order_id": "Número de comanda / factura",
-        "email": "Adreça de correu electrònic"
+        "email": "Adreça de correu electrònic",
+        "continue": "Continua"
     },
     "withdrawal_confirm": {
         "title": "Confirmar el desistiment",

@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantált kézbesítés %{smart_count} napon belül |||| Garantált kézbesítés %{smart_count} napon belül"
+        "guaranteed_delivery_days": "Garantált kézbesítés %{guaranteedDaysToDelivery} napon belül."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Adja meg a rendelés adatait az elállási kérelem benyújtásához az EU fogyasztói jogokról szóló irányelv alapján.",
         "name": "Az Ön neve",
         "order_id": "Rendelési azonosító / Számlaszám",
-        "email": "E-mail-cím"
+        "email": "E-mail-cím",
+        "continue": "Tovább"
     },
     "withdrawal_confirm": {
         "title": "Elállás megerősítése",

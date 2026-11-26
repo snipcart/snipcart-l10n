@@ -213,7 +213,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
+        "guaranteed_delivery_days": "保證於 %{guaranteedDaysToDelivery} 天內送達。"
     },
     "payment": {
         "form": {
@@ -407,12 +407,12 @@
         "customer_current_password_invalid": "密碼錯誤",
         "withdrawal": {
             "validation_failed": {
-                "title": "我们无法核实您的信息，请检查姓名、电子邮件和订单编号后重试。",
-                "description": ""
+                "title": "我們無法驗證您的資料。",
+                "description": "請檢查您的電子郵件和訂單編號，然後再試一次。"
             },
             "confirm_failed": {
-                "title": "我们无法处理您的撤回请求。",
-                "description": "请重试或联系商家。"
+                "title": "我們無法處理您的撤回請求。",
+                "description": "請再試一次；如果問題持續發生，請聯絡商家。"
             }
         }
     },
@@ -437,7 +437,8 @@
         "instructions": "请输入您的订单信息，根据《欧盟消费者权利指令》申请撤回。",
         "name": "您的姓名",
         "order_id": "订单编号 / 发票编号",
-        "email": "电子邮件地址"
+        "email": "电子邮件地址",
+        "continue": "繼續"
     },
     "withdrawal_confirm": {
         "title": "确认撤回",

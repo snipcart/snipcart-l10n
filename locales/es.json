@@ -432,7 +432,8 @@
         "instructions": "Introduzca los datos de su pedido para solicitar el desistimiento conforme a la Directiva sobre los derechos de los consumidores de la UE.",
         "name": "Su nombre",
         "order_id": "Número de pedido / factura",
-        "email": "Dirección de email"
+        "email": "Dirección de email",
+        "continue": "Continuar"
     },
     "withdrawal_confirm": {
         "title": "Confirmar el desistimiento",

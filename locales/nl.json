@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Gegarandeerde levering binnen %{smart_count} dag |||| Gegarandeerde levering binnen %{smart_count} dagen"
+        "guaranteed_delivery_days": "Gegarandeerd geleverd binnen %{guaranteedDaysToDelivery} dag(en)."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Voer uw bestelgegevens in om een herroeping aan te vragen op grond van de Richtlijn consumentenrechten van de EU.",
         "name": "Uw naam",
         "order_id": "Bestelnummer / Factuurnummer",
-        "email": "E-mailadres"
+        "email": "E-mailadres",
+        "continue": "Doorgaan"
     },
     "withdrawal_confirm": {
         "title": "Herroeping bevestigen",

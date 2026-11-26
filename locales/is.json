@@ -432,7 +432,8 @@
         "instructions": "Skráðu pöntunarupplýsingarnar þínar til að óska eftir afturköllun samkvæmt tilskipun ESB um neytendaréttindi.",
         "name": "Nafn þitt",
         "order_id": "Pöntunarnúmer / Reikningsnúmer",
-        "email": "Tölvupóstfang"
+        "email": "Tölvupóstfang",
+        "continue": "Halda áfram"
     },
     "withdrawal_confirm": {
         "title": "Staðfesta afturköllun",

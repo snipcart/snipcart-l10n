@@ -432,7 +432,8 @@
         "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäß der EU-Verbraucherrechterichtlinie zu beantragen.",
         "name": "Ihr Name",
         "order_id": "Bestellnummer / Rechnungsnummer",
-        "email": "E-Mail-Adresse"
+        "email": "E-Mail-Adresse",
+        "continue": "Weiter"
     },
     "withdrawal_confirm": {
         "title": "Widerruf bestätigen",

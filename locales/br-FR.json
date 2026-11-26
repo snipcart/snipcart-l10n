@@ -209,7 +209,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Kas gouarnantet e-barzh %{smart_count} devezh |||| Kas gouarnantet e-barzh %{smart_count} devezh"
+        "guaranteed_delivery_days": "Degasadenn warantet a-benn %{guaranteedDaysToDelivery} deiz."
     },
     "payment": {
         "form": {
@@ -439,7 +439,8 @@
         "instructions": "Roit titouroù hoc'h urzhiad evit goulenn an tennañ kuit hervez Sturiadenn an UE diwar-benn gwirioù an arvalien.",
         "name": "Hoc'h anv",
         "order_id": "Niverenn an urzhiad / fakturenn",
-        "email": "Chomlec'h postel"
+        "email": "Chomlec'h postel",
+        "continue": "Kenderc'hel"
     },
     "withdrawal_confirm": {
         "title": "Kadarnaat an tennañ kuit",

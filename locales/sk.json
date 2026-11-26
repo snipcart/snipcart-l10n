@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantované doručenie do %{smart_count} dňa |||| Garantované doručenie do %{smart_count} dní"
+        "guaranteed_delivery_days": "Garantovaná doba doručenia (dni): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -438,7 +438,8 @@
         "instructions": "Zadajte údaje o svojej objednávke, aby ste mohli požiadať o odstúpenie podľa Smernice o právach spotrebiteľov EÚ.",
         "name": "Vaše meno",
         "order_id": "Číslo objednávky / číslo faktúry",
-        "email": "E-mailová adresa"
+        "email": "E-mailová adresa",
+        "continue": "Pokračovať"
     },
     "withdrawal_confirm": {
         "title": "Potvrdiť odstúpenie",

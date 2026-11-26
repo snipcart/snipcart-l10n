@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "משלוח מובטח תוך %{smart_count} יום |||| משלוח מובטח תוך %{smart_count} ימים"
+        "guaranteed_delivery_days": "זמן אספקה מובטח (בימים): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "הזינו את פרטי ההזמנה שלכם כדי לבקש ביטול לפי הנחיית האיחוד האירופי בנוגע לזכויות הצרכן.",
         "name": "שמכם",
         "order_id": "מספר הזמנה / מספר חשבונית",
-        "email": "כתובת דוא\"ל"
+        "email": "כתובת דוא\"ל",
+        "continue": "המשך"
     },
     "withdrawal_confirm": {
         "title": "אישור הביטול",

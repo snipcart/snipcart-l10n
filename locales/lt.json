@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantuotas pristatymas per %{smart_count} dieną |||| Garantuotas pristatymas per %{smart_count} dienas"
+        "guaranteed_delivery_days": "Garantuotas pristatymas per %{guaranteedDaysToDelivery} d."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Įveskite užsakymo duomenis, kad pateiktumėte atsisakymo prašymą pagal ES Vartotojų teisių direktyvą.",
         "name": "Jūsų vardas",
         "order_id": "Užsakymo ID / sąskaitos numeris",
-        "email": "El. pašto adresas"
+        "email": "El. pašto adresas",
+        "continue": "Tęsti"
     },
     "withdrawal_confirm": {
         "title": "Patvirtinti atsisakymą",

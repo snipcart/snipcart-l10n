@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Livrare garantată în %{smart_count} zi |||| Livrare garantată în %{smart_count} zile"
+        "guaranteed_delivery_days": "Termen de livrare garantat (zile): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -436,7 +436,8 @@
         "instructions": "Introduceți detaliile comenzii pentru a solicita retragerea în baza Directivei privind drepturile consumatorilor a UE.",
         "name": "Numele dumneavoastră",
         "order_id": "Numărul comenzii / facturii",
-        "email": "Adresă de email"
+        "email": "Adresă de email",
+        "continue": "Continuați"
     },
     "withdrawal_confirm": {
         "title": "Confirmați retragerea",

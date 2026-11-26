@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanterad leverans inom %{smart_count} dag |||| Garanterad leverans inom %{smart_count} dagar"
+        "guaranteed_delivery_days": "Garanterad leverans inom %{guaranteedDaysToDelivery} dag(ar)."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Ange dina orderuppgifter för att begära ångerrätt enligt EU:s konsumenträttighetsdirektiv.",
         "name": "Ditt namn",
         "order_id": "Order-ID / Fakturanummer",
-        "email": "E-postadress"
+        "email": "E-postadress",
+        "continue": "Fortsätt"
     },
     "withdrawal_confirm": {
         "title": "Bekräfta ångerrätt",

@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "მიტანის გარანტია %{smart_count} დღეში |||| მიტანის გარანტია %{smart_count} დღეში"
+        "guaranteed_delivery_days": "მიტანა გარანტირებულია %{guaranteedDaysToDelivery} დღეში."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "შეიყვანეთ შეკვეთის დეტალები, რომ მოითხოვოთ გასვლა მომხმარებელთა უფლებების დაცვის ევროპული დირექტივის შესაბამისად.",
         "name": "თქვენი სახელი",
         "order_id": "შეკვეთის ID / ინვოისის ნომერი",
-        "email": "ელფოსტის მისამართი"
+        "email": "ელფოსტის მისამართი",
+        "continue": "გაგრძელება"
     },
     "withdrawal_confirm": {
         "title": "გასვლის დადასტურება",

@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} gün ərzində zəmanətli çatdırılma |||| %{smart_count} gün ərzində zəmanətli çatdırılma"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} gün ərzində çatdırılmasına zəmanət verilir."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Aİ İstehlakçı Hüquqları Direktivinə uyğun olaraq imtina tələb etmək üçün sifariş məlumatlarınızı daxil edin.",
         "name": "Adınız",
         "order_id": "Sifariş ID / Faktura nömrəsi",
-        "email": "E-poçt ünvanı"
+        "email": "E-poçt ünvanı",
+        "continue": "Davam et"
     },
     "withdrawal_confirm": {
         "title": "İmtinanı təsdiqləyin",

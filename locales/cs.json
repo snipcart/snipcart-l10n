@@ -96,7 +96,7 @@
         "firstName": "Jméno",
         "lastName": "Příjmení",
         "address1": "Ulice a číslo popisné/orientační",
-        "address2": "",
+        "address2": "Byt/kancelář",
         "city": "Město",
         "country": "Stát",
         "phone": "Telefon",
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantované doručení do %{smart_count} dne |||| Garantované doručení do %{smart_count} dnů"
+        "guaranteed_delivery_days": "Garantovaná doba doručení (ve dnech): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Zadejte údaje o své objednávce, abyste mohli požádat o odstoupení od smlouvy podle Směrnice o právech spotřebitelů EU.",
         "name": "Vaše jméno",
         "order_id": "Číslo objednávky / číslo faktury",
-        "email": "E-mailová adresa"
+        "email": "E-mailová adresa",
+        "continue": "Pokračovat"
     },
     "withdrawal_confirm": {
         "title": "Potvrdit odstoupení",

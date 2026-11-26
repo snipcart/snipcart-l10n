@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Gwarantowana dostawa w ciągu %{smart_count} dnia |||| Gwarantowana dostawa w ciągu %{smart_count} dni"
+        "guaranteed_delivery_days": "Gwarantowany czas dostawy (dni): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Wprowadź dane swojego zamówienia, aby złożyć wniosek o odstąpienie zgodnie z Dyrektywą w sprawie praw konsumentów.",
         "name": "Imię i nazwisko",
         "order_id": "Numer zamówienia / numer faktury",
-        "email": "Adres e-mail"
+        "email": "Adres e-mail",
+        "continue": "Kontynuuj"
     },
     "withdrawal_confirm": {
         "title": "Potwierdź odstąpienie",

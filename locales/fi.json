@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Toimitus %{smart_count} arkipäivässä |||| Toimitus %{smart_count} arkipäivässä"
+        "guaranteed_delivery_days": "Toimitus taataan %{guaranteedDaysToDelivery} päivän kuluessa."
     },
     "payment": {
         "form": {
@@ -265,7 +265,8 @@
         "subtotal": "Välisumma",
         "shipping": "Toimituskulut",
         "discount": "Alennukset",
-        "quantity": "x"
+        "quantity": "x",
+        "calculated_at_checkout": "Lasketaan kassalla"
     },
     "errors": {
         "default": "Tapahtui käsittelemätön virhe. Yritä uudestaan tai ota yhteyttä.",
@@ -437,7 +438,8 @@
         "instructions": "Anna tilauksesi tiedot pyytääksesi peruuttamista kuluttajan oikeuksia koskevan direktiivin nojalla.",
         "name": "Nimesi",
         "order_id": "Tilaustunnus / Laskun numero",
-        "email": "Sähköpostiosoite"
+        "email": "Sähköpostiosoite",
+        "continue": "Jatka"
     },
     "withdrawal_confirm": {
         "title": "Vahvista peruutus",

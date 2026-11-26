@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Consegna garantita entro %{smart_count} giorno |||| Consegna garantita entro %{smart_count} giorni"
+        "guaranteed_delivery_days": "Consegna garantita entro %{guaranteedDaysToDelivery} giorno/i."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Inserisci i dettagli del tuo ordine per richiedere il recesso ai sensi della Direttiva sui diritti dei consumatori dell'UE.",
         "name": "Il tuo nome",
         "order_id": "Numero d'ordine / fattura",
-        "email": "Indirizzo email"
+        "email": "Indirizzo email",
+        "continue": "Continua"
     },
     "withdrawal_confirm": {
         "title": "Conferma il recesso",

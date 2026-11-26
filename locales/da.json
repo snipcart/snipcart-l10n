@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanteret levering inden for %{smart_count} dag |||| Garanteret levering inden for %{smart_count} dage"
+        "guaranteed_delivery_days": "Garanteret levering inden for %{guaranteedDaysToDelivery} dag(e)."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Indtast dine ordreoplysninger for at anmode om fortrydelse i henhold til EU's forbrugerrettighedsdirektiv.",
         "name": "Dit navn",
         "order_id": "Ordre-ID / Fakturanummer",
-        "email": "E-mailadresse"
+        "email": "E-mailadresse",
+        "continue": "Fortsæt"
     },
     "withdrawal_confirm": {
         "title": "Bekræft fortrydelse",

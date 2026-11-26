@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} gün içinde garantili teslimat |||| %{smart_count} gün içinde garantili teslimat"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} gün içinde teslimat garantilidir."
     },
     "payment": {
         "form": {
@@ -438,7 +438,8 @@
         "instructions": "AB Tüketici Hakları Direktifi kapsamında cayma talebi göndermek için sipariş bilgilerinizi giriniz.",
         "name": "Adınız",
         "order_id": "Sipariş Kimliği / Fatura Numarası",
-        "email": "E-posta Adresi"
+        "email": "E-posta Adresi",
+        "continue": "Devam et"
     },
     "withdrawal_confirm": {
         "title": "Caymayı Onayla",

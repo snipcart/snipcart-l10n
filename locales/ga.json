@@ -432,7 +432,8 @@
         "instructions": "Cuir isteach sonraí d'ordaithe chun iarratas tarraingthe siar a dhéanamh faoin Treoir um Chearta Tomhaltóirí an AE.",
         "name": "D'Ainm",
         "order_id": "Aitheantas an Ordaithe / Uimhir Sonraisc",
-        "email": "Seoladh Ríomhphoist"
+        "email": "Seoladh Ríomhphoist",
+        "continue": "Lean ar aghaidh"
     },
     "withdrawal_confirm": {
         "title": "Deimhnigh an Tarraingt Siar",

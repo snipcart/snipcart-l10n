@@ -432,7 +432,8 @@
         "instructions": "Masukkan detail pesanan Anda untuk mengajukan penarikan diri berdasarkan Direktif Hak Konsumen UE.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nomor Faktur",
-        "email": "Alamat Email"
+        "email": "Alamat Email",
+        "continue": "Lanjutkan"
     },
     "withdrawal_confirm": {
         "title": "Konfirmasi Penarikan Diri",

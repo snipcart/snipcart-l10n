@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantisadong maihahatid sa loob ng %{smart_count} araw |||| Garantisadong maihahatid sa loob ng %{smart_count} araw"
+        "guaranteed_delivery_days": "Garantisadong maihahatid sa loob ng %{guaranteedDaysToDelivery} araw."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Ilagay ang mga detalye ng iyong order upang humiling ng withdrawal sa ilalim ng EU Consumer Rights Directive.",
         "name": "Iyong Pangalan",
         "order_id": "Order ID / Invoice Number",
-        "email": "Email Address"
+        "email": "Email Address",
+        "continue": "Magpatuloy"
     },
     "withdrawal_confirm": {
         "title": "Kumpirmahin ang Withdrawal",

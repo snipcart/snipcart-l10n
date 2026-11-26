@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} kun ichida kafolatlangan yetkazib berish |||| %{smart_count} kun ichida kafolatlangan yetkazib berish"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} kun ichida yetkazib berish kafolatlanadi."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Yevropa Ittifoqi Iste'molchilar Huquqlari Direktivasi asosida voz kechishni so'rash uchun buyurtma ma'lumotlarini kiriting.",
         "name": "Ismingiz",
         "order_id": "Buyurtma ID / Hisob-faktura raqami",
-        "email": "Elektron pochta manzili"
+        "email": "Elektron pochta manzili",
+        "continue": "Davom etish"
     },
     "withdrawal_confirm": {
         "title": "Voz kechishni tasdiqlash",

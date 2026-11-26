@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanteeritud kohaletoimetamine %{smart_count} päevaga |||| Garanteeritud kohaletoimetamine %{smart_count} päevaga"
+        "guaranteed_delivery_days": "Tarne on garanteeritud %{guaranteedDaysToDelivery} päeva jooksul."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Sisestage tellimuse andmed, et esitada taganemisavaldus EL-i tarbija õiguste direktiivi alusel.",
         "name": "Teie nimi",
         "order_id": "Tellimuse ID / arve number",
-        "email": "E-posti aadress"
+        "email": "E-posti aadress",
+        "continue": "Jätka"
     },
     "withdrawal_confirm": {
         "title": "Kinnita taganemine",

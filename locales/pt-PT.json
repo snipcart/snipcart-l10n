@@ -196,9 +196,6 @@
             "example_localization_id": "Exemplo de método de envio"
         }
     },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
-    },
     "payment": {
         "form": {
             "deferred_payment_title": "Pagamento diferido",

@@ -439,7 +439,8 @@
         "instructions": "Saisissez les informations de votre commande pour exercer votre droit de rétractation en vertu de la Directive sur les droits des consommateurs de l’UE.",
         "name": "Votre nom",
         "order_id": "Numéro de commande / facture",
-        "email": "Adresse courriel"
+        "email": "Adresse courriel",
+        "continue": "Continuer"
     },
     "withdrawal_confirm": {
         "title": "Confirmer la rétractation",

@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} দিনের মধ্যে ডেলিভারি নিশ্চিত |||| %{smart_count} দিনের মধ্যে ডেলিভারি নিশ্চিত"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} দিনের মধ্যে ডেলিভারির নিশ্চয়তা রয়েছে।"
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "EU ভোক্তা অধিকার নির্দেশিকা অনুযায়ী প্রত্যাহারের অনুরোধ করতে আপনার অর্ডারের বিবরণ লিখুন।",
         "name": "আপনার নাম",
         "order_id": "অর্ডার আইডি / চালান নম্বর",
-        "email": "ইমেল ঠিকানা"
+        "email": "ইমেল ঠিকানা",
+        "continue": "চালিয়ে যান"
     },
     "withdrawal_confirm": {
         "title": "প্রত্যাহার নিশ্চিত করুন",

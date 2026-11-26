@@ -209,9 +209,6 @@
             "example_localization_id": "配送方式範例"
         }
     },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
-    },
     "payment": {
         "form": {
             "deferred_payment_title": "延遲付款",
@@ -401,17 +398,7 @@
         "customer_password_token_invalid": "您的重設密碼連結已失效",
         "customer_not_found": "此 Email 尚未建立帳號",
         "invalid_credentials": "Email 或是密碼有誤",
-        "customer_current_password_invalid": "密碼錯誤",
-        "withdrawal": {
-            "validation_failed": {
-                "title": "我們無法驗證您的資料，請確認姓名、電子郵件及訂單編號後再試。",
-                "description": ""
-            },
-            "confirm_failed": {
-                "title": "我們無法處理您的撤回請求。",
-                "description": "請再試一次或聯絡商家。"
-            }
-        }
+        "customer_current_password_invalid": "密碼錯誤"
     },
     "shippingRates": {
         "loading": "載入中..."

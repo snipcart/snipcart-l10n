@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "توصيل مضمون خلال %{smart_count} يوم |||| توصيل مضمون خلال %{smart_count} أيام"
+        "guaranteed_delivery_days": "مدة التوصيل المضمونة (بالأيام): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -438,7 +438,8 @@
         "instructions": "يُرجى إدخال تفاصيل طلبك لطلب الانسحاب بموجب توجيه الاتحاد الأوروبي بشأن حقوق المستهلكين.",
         "name": "اسمك",
         "order_id": "رقم الطلب / رقم الفاتورة",
-        "email": "عنوان البريد الإلكتروني"
+        "email": "عنوان البريد الإلكتروني",
+        "continue": "متابعة"
     },
     "withdrawal_confirm": {
         "title": "تأكيد الانسحاب",

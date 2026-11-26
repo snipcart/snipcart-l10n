@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Гарантирана доставка до %{smart_count} ден |||| Гарантирана доставка до %{smart_count} дни"
+        "guaranteed_delivery_days": "Гарантиран срок на доставка (в дни): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Въведете данните за поръчката си, за да подадете заявление за отказ съгласно Директивата за правата на потребителите на ЕС.",
         "name": "Вашето име",
         "order_id": "Номер на поръчка / номер на фактура",
-        "email": "Имейл адрес"
+        "email": "Имейл адрес",
+        "continue": "Продължи"
     },
     "withdrawal_confirm": {
         "title": "Потвърждаване на отказа",

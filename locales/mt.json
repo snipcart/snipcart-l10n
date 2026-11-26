@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Konsenja garantita fi %{smart_count} jum |||| Konsenja garantita fi %{smart_count} jiem"
+        "guaranteed_delivery_days": "Konsenja garantita fi żmien %{guaranteedDaysToDelivery} jum/ijiem."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Daħħal id-dettalji tal-ordni tiegħek biex titlob irtirar taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE.",
         "name": "Ismek",
         "order_id": "ID tal-Ordni / Numru tal-Fattura",
-        "email": "Indirizz tal-Email"
+        "email": "Indirizz tal-Email",
+        "continue": "Kompli"
     },
     "withdrawal_confirm": {
         "title": "Ikkonferma l-Irtirar",

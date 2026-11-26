@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantēta piegāde %{smart_count} dienas laikā |||| Garantēta piegāde %{smart_count} dienu laikā"
+        "guaranteed_delivery_days": "Garantēta piegāde %{guaranteedDaysToDelivery} d. laikā."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Ievadiet pasūtījuma datus, lai iesniegtu atteikuma pieprasījumu saskaņā ar ES Patērētāju tiesību direktīvu.",
         "name": "Jūsu vārds",
         "order_id": "Pasūtījuma ID / rēķina numurs",
-        "email": "E-pasta adrese"
+        "email": "E-pasta adrese",
+        "continue": "Turpināt"
     },
     "withdrawal_confirm": {
         "title": "Apstiprināt atteikšanos",

@@ -209,7 +209,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
+        "guaranteed_delivery_days": "Entrega garantida em %{guaranteedDaysToDelivery} dia(s)."
     },
     "payment": {
         "form": {
@@ -433,7 +433,8 @@
         "instructions": "Informe os dados do seu pedido para solicitar a desistência ao abrigo da Diretiva relativa aos direitos dos consumidores da UE.",
         "name": "O seu nome",
         "order_id": "Número do pedido / fatura",
-        "email": "Endereço de e-mail"
+        "email": "Endereço de e-mail",
+        "continue": "Continuar"
     },
     "withdrawal_confirm": {
         "title": "Confirmar a desistência",

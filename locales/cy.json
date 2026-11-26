@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Danfoniad gwarantedig mewn %{smart_count} diwrnod |||| Danfoniad gwarantedig mewn %{smart_count} diwrnod"
+        "guaranteed_delivery_days": "Gwarantir danfon o fewn %{guaranteedDaysToDelivery} diwrnod."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Rhowch fanylion eich archeb i wneud cais i dynnu'n ôl o dan Gyfarwyddeb Hawliau Defnyddwyr yr UE.",
         "name": "Eich Enw",
         "order_id": "ID yr Archeb / Rhif yr Anfoneb",
-        "email": "Cyfeiriad E-bost"
+        "email": "Cyfeiriad E-bost",
+        "continue": "Parhau"
     },
     "withdrawal_confirm": {
         "title": "Cadarnhau Tynnu'n Ôl",

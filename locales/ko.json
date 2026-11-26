@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count}일 내 배송 보장 |||| %{smart_count}일 내 배송 보장"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery}일 이내 배송이 보장됩니다."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "EU 소비자권리지침에 따라 철회를 요청하시려면 주문 정보를 입력해 주십시오.",
         "name": "성함",
         "order_id": "주문 ID / 청구서 번호",
-        "email": "이메일 주소"
+        "email": "이메일 주소",
+        "continue": "계속"
     },
     "withdrawal_confirm": {
         "title": "철회 확인",

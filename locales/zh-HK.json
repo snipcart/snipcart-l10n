@@ -209,9 +209,6 @@
             "example_localization_id": "配送方式範例"
         }
     },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
-    },
     "payment": {
         "form": {
             "deferred_payment_title": "延遲付款",
@@ -404,8 +401,8 @@
         "customer_current_password_invalid": "密碼錯誤",
         "withdrawal": {
             "validation_failed": {
-                "title": "我們無法核實您的資料，請檢查姓名、電郵及訂單編號後再試。",
-                "description": ""
+                "title": "我們無法核實您的資料。",
+                "description": "請檢查您的電郵地址及訂單編號，然後再試。"
             },
             "confirm_failed": {
                 "title": "我們無法處理您的撤回請求。",

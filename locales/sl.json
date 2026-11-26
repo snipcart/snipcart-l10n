@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Zagotovljena dostava v %{smart_count} dnevu |||| Zagotovljena dostava v %{smart_count} dneh"
+        "guaranteed_delivery_days": "Zajamčen čas dostave (dni): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Vnesite podatke o svojem naročilu, da boste lahko vložili zahtevo za odstop v skladu z Direktivo o pravicah potrošnikov EU.",
         "name": "Vaše ime",
         "order_id": "Številka naročila / številka računa",
-        "email": "E-poštni naslov"
+        "email": "E-poštni naslov",
+        "continue": "Nadaljuj"
     },
     "withdrawal_confirm": {
         "title": "Potrdi odstop",

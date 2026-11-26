@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Giao hàng đảm bảo trong %{smart_count} ngày |||| Giao hàng đảm bảo trong %{smart_count} ngày"
+        "guaranteed_delivery_days": "Đảm bảo giao hàng trong %{guaranteedDaysToDelivery} ngày."
     },
     "payment": {
         "form": {
@@ -432,7 +432,8 @@
         "instructions": "Vui lòng nhập thông tin đơn hàng để yêu cầu rút theo Chỉ thị về Quyền lợi Người tiêu dùng của EU.",
         "name": "Họ và tên của bạn",
         "order_id": "Mã đơn hàng / Số hóa đơn",
-        "email": "Địa chỉ email"
+        "email": "Địa chỉ email",
+        "continue": "Tiếp tục"
     },
     "withdrawal_confirm": {
         "title": "Xác nhận rút",

@@ -432,7 +432,8 @@
         "instructions": "EU消費者権利指令に基づく撤回をご希望の場合は、ご注文情報をご入力ください。",
         "name": "お名前",
         "order_id": "注文ID／請求書番号",
-        "email": "メールアドレス"
+        "email": "メールアドレス",
+        "continue": "続ける"
     },
     "withdrawal_confirm": {
         "title": "撤回の確認",
