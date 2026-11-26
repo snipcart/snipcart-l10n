@@ -37,10 +37,10 @@
         "increment_quantity": "Padidinti kiekį",
         "remove_item": "Išimti prekę",
         "recurrence": {
-            "daily": "dieną |||| %{smart_count} dienas",
-            "weekly": "savaitę |||| %{smart_count} savaites",
-            "monthly": "mėnesį |||| %{smart_count} mėnesius",
-            "yearly": "metais |||| %{smart_count} metais"
+            "daily": "%{smart_count} dieną |||| %{smart_count} dienas |||| %{smart_count} dienų",
+            "weekly": "%{smart_count} savaitę |||| %{smart_count} savaites |||| %{smart_count} savaičių",
+            "monthly": "%{smart_count} mėnesį |||| %{smart_count} mėnesius |||| %{smart_count} mėnesių",
+            "yearly": "%{smart_count} metus |||| %{smart_count} metus |||| %{smart_count} metų"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "Pristabdyti",
         "unpause": "Atnaujinti",
         "billing_recurrence": {
-            "daily": "Apmokestinama kasdien |||| Apmokestinama kas %{smart_count} dienas",
-            "weekly": "Apmokestinama kas savaitę |||| Apmokestinama kas %{smart_count} savaites",
-            "monthly": "Apmokestinama kas mėnesį |||| Apmokestinama kas %{smart_count} mėnesius",
-            "yearly": "Apmokestinama kas metus |||| Apmokestinama kas %{smart_count} metus"
+            "daily": "Apmokestinama kas %{smart_count} dieną |||| Apmokestinama kas %{smart_count} dienas |||| Apmokestinama kas %{smart_count} dienų",
+            "weekly": "Apmokestinama kas %{smart_count} savaitę |||| Apmokestinama kas %{smart_count} savaites |||| Apmokestinama kas %{smart_count} savaičių",
+            "monthly": "Apmokestinama kas %{smart_count} mėnesį |||| Apmokestinama kas %{smart_count} mėnesius |||| Apmokestinama kas %{smart_count} mėnesių",
+            "yearly": "Apmokestinama kas %{smart_count} metus |||| Apmokestinama kas %{smart_count} metus |||| Apmokestinama kas %{smart_count} metų"
         }
     },
     "cart": {
@@ -138,8 +138,8 @@
         "no_subscriptions": "Prenumeratų nerasta.",
         "view_invoice": "Peržiūrėti sąskaitą",
         "sign_out": "Atsijungti",
-        "show_more_orders": "Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų",
-        "show_more_subscriptions": "Rodyti dar %{smart_count} prenumeratą |||| Rodyti dar %{smart_count} prenumeratas",
+        "show_more_orders": "Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų |||| Rodyti %{smart_count} daugiau užsakymų",
+        "show_more_subscriptions": "Rodyti dar %{smart_count} prenumeratą |||| Rodyti dar %{smart_count} prenumeratas |||| Rodyti dar %{smart_count} prenumeratų",
         "orders": "Užsakymai",
         "subscriptions": "Prenumeratos",
         "subscription": "Prenumerata"

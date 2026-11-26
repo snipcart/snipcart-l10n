@@ -65,10 +65,10 @@
         "pause": "Pozastavit",
         "unpause": "Obnovit",
         "billing_recurrence": {
-            "daily": "Fakturováno denně |||| Fakturováno každých %{smart_count} dní",
-            "weekly": "Fakturováno týdně |||| Fakturováno každých %{smart_count} týdnů",
-            "monthly": "Fakturováno měsíčně |||| Fakturováno každých %{smart_count} měsíců",
-            "yearly": "Fakturováno ročně |||| Fakturováno každých %{smart_count} let"
+            "daily": "Fakturováno denně |||| Fakturováno každé %{smart_count} dny |||| Fakturováno každých %{smart_count} dní",
+            "weekly": "Fakturováno týdně |||| Fakturováno každé %{smart_count} týdny |||| Fakturováno každých %{smart_count} týdnů",
+            "monthly": "Fakturováno měsíčně |||| Fakturováno každé %{smart_count} měsíce |||| Fakturováno každých %{smart_count} měsíců",
+            "yearly": "Fakturováno ročně |||| Fakturováno každé %{smart_count} roky |||| Fakturováno každých %{smart_count} let"
         }
     },
     "cart": {
@@ -139,7 +139,7 @@
         "view_invoice": "Zobrazit fakturu",
         "sign_out": "Odhlásit",
         "show_more_orders": "Zobrazit %{smart_count} další objednávku |||| Zobrazit %{smart_count} další objednávky |||| Zobrazit %{smart_count} dalších objednávek",
-        "show_more_subscriptions": "Zobrazit %{smart_count} další předplatné |||| Zobrazit %{smart_count} dalších předplatných",
+        "show_more_subscriptions": "Zobrazit %{smart_count} další předplatné |||| Zobrazit %{smart_count} další předplatná |||| Zobrazit %{smart_count} dalších předplatných",
         "orders": "Objednávky",
         "subscriptions": "Předplatná",
         "subscription": "Předplatné"

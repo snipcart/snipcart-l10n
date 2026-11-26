@@ -37,10 +37,10 @@
         "increment_quantity": "Zvýšiť počet",
         "remove_item": "Odstrániť položku",
         "recurrence": {
-            "daily": "deň |||| %{smart_count} dní",
-            "weekly": "týždeň |||| %{smart_count} týždňov",
-            "monthly": "mesiac |||| %{smart_count} mesiacov",
-            "yearly": "rok |||| %{smart_count} rokov"
+            "daily": "deň |||| %{smart_count} dni |||| %{smart_count} dní",
+            "weekly": "týždeň |||| %{smart_count} týždne |||| %{smart_count} týždňov",
+            "monthly": "mesiac |||| %{smart_count} mesiace |||| %{smart_count} mesiacov",
+            "yearly": "rok |||| %{smart_count} roky |||| %{smart_count} rokov"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "Pozastaviť",
         "unpause": "Obnoviť",
         "billing_recurrence": {
-            "daily": "Fakturované denne |||| Fakturované každých %{smart_count} dní",
-            "weekly": "Fakturované týždenne |||| Fakturované každých %{smart_count} týždňov",
-            "monthly": "Fakturované mesačne |||| Fakturované každých %{smart_count} mesiacov",
-            "yearly": "Fakturované ročne |||| Fakturované každých %{smart_count} rokov"
+            "daily": "Fakturované denne |||| Fakturované každé %{smart_count} dni |||| Fakturované každých %{smart_count} dní",
+            "weekly": "Fakturované týždenne |||| Fakturované každé %{smart_count} týždne |||| Fakturované každých %{smart_count} týždňov",
+            "monthly": "Fakturované mesačne |||| Fakturované každé %{smart_count} mesiace |||| Fakturované každých %{smart_count} mesiacov",
+            "yearly": "Fakturované ročne |||| Fakturované každé %{smart_count} roky |||| Fakturované každých %{smart_count} rokov"
         }
     },
     "cart": {
@@ -138,8 +138,8 @@
         "no_subscriptions": "Nenašli sa žiadne predplatné.",
         "view_invoice": "Zobraziť faktúru",
         "sign_out": "Odhlásiť",
-        "show_more_orders": "Zobraziť %{smart_count} ďalšiu objednávku |||| Zobraziť %{smart_count} ďalších objednávok",
-        "show_more_subscriptions": "Zobraziť %{smart_count} ďalšie predplatné |||| Zobraziť %{smart_count} ďalších predplatných",
+        "show_more_orders": "Zobraziť %{smart_count} ďalšiu objednávku |||| Zobraziť %{smart_count} ďalšie objednávky |||| Zobraziť %{smart_count} ďalších objednávok",
+        "show_more_subscriptions": "Zobraziť %{smart_count} ďalšie predplatné |||| Zobraziť %{smart_count} ďalšie predplatné |||| Zobraziť %{smart_count} ďalších predplatných",
         "orders": "Objednávky",
         "subscriptions": "Predplatné",
         "subscription": "Predplatné"

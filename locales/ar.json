@@ -37,10 +37,10 @@
         "increment_quantity": "زيادة الكمية",
         "remove_item": "إزالة العنصر",
         "recurrence": {
-            "daily": "يوم |||| %{smart_count} أيام",
-            "weekly": "أسبوع |||| %{smart_count} أسابيع",
-            "monthly": "شهر |||| %{smart_count} أشهر",
-            "yearly": "سنة |||| %{smart_count} سنوات"
+            "daily": "%{smart_count} يوم |||| يوم |||| يومان |||| %{smart_count} أيام |||| %{smart_count} يومًا |||| %{smart_count} يوم",
+            "weekly": "%{smart_count} أسبوع |||| أسبوع |||| أسبوعان |||| %{smart_count} أسابيع |||| %{smart_count} أسبوعًا |||| %{smart_count} أسبوع",
+            "monthly": "%{smart_count} شهر |||| شهر |||| شهران |||| %{smart_count} أشهر |||| %{smart_count} شهرًا |||| %{smart_count} شهر",
+            "yearly": "%{smart_count} سنة |||| سنة |||| سنتان |||| %{smart_count} سنوات |||| %{smart_count} سنة |||| %{smart_count} سنة"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "إيقاف مؤقت",
         "unpause": "استئناف",
         "billing_recurrence": {
-            "daily": "فوترة يومية |||| فوترة كل %{smart_count} أيام",
-            "weekly": "فوترة أسبوعية |||| فوترة كل %{smart_count} أسابيع",
-            "monthly": "فوترة شهرية |||| فوترة كل %{smart_count} أشهر",
-            "yearly": "فوترة سنوية |||| فوترة كل %{smart_count} سنوات"
+            "daily": "فوترة كل %{smart_count} يوم |||| فوترة يومية |||| فوترة كل يومين |||| فوترة كل %{smart_count} أيام |||| فوترة كل %{smart_count} يومًا |||| فوترة كل %{smart_count} يوم",
+            "weekly": "فوترة كل %{smart_count} أسبوع |||| فوترة أسبوعية |||| فوترة كل أسبوعين |||| فوترة كل %{smart_count} أسابيع |||| فوترة كل %{smart_count} أسبوعًا |||| فوترة كل %{smart_count} أسبوع",
+            "monthly": "فوترة كل %{smart_count} شهر |||| فوترة شهرية |||| فوترة كل شهرين |||| فوترة كل %{smart_count} أشهر |||| فوترة كل %{smart_count} شهرًا |||| فوترة كل %{smart_count} شهر",
+            "yearly": "فوترة كل %{smart_count} سنة |||| فوترة سنوية |||| فوترة كل سنتين |||| فوترة كل %{smart_count} سنوات |||| فوترة كل %{smart_count} سنة |||| فوترة كل %{smart_count} سنة"
         }
     },
     "cart": {
@@ -138,8 +138,8 @@
         "no_subscriptions": "لا توجد اشتراكات.",
         "view_invoice": "عرض الفاتورة",
         "sign_out": "تسجيل الخروج",
-        "show_more_orders": "Show %{smart_count} more order |||| إظهار %{smart_count} المزيد من الطلبات",
-        "show_more_subscriptions": "عرض %{smart_count} اشتراك إضافي |||| عرض %{smart_count} اشتراكات إضافية",
+        "show_more_orders": "إظهار %{smart_count} طلب إضافي |||| إظهار %{smart_count} طلب إضافي |||| إظهار طلبين إضافيين |||| إظهار %{smart_count} طلبات إضافية |||| إظهار %{smart_count} طلبًا إضافيًا |||| إظهار %{smart_count} طلب إضافي",
+        "show_more_subscriptions": "عرض %{smart_count} اشتراك إضافي |||| عرض %{smart_count} اشتراك إضافي |||| عرض اشتراكين إضافيين |||| عرض %{smart_count} اشتراكات إضافية |||| عرض %{smart_count} اشتراكًا إضافيًا |||| عرض %{smart_count} اشتراك إضافي",
         "orders": "الطلبات",
         "subscriptions": "الاشتراكات",
         "subscription": "اشتراك"

@@ -13,6 +13,10 @@ const OTHER_INTERPOLATION = /\{\{[^}]*\}\}|%[sd]\b|\$\{[^}]*\}|\{[A-Za-z_][A-Za-
 const TAG = /<\/?([A-Za-z][A-Za-z0-9]*)\b[^>]*>/g;
 const MARKER = /\b(TODO|TRANSLATE|FIXME|XXX)\b|\?\?\?/;
 
+// Plural forms node-polyglot 2.4.0 picks from per language (its pluralTypeToLanguages; unlisted
+// languages use the 2-form English rule). Missing forms fall back to form 0, the singular.
+const PLURAL_FORMS = { ar: 6, cs: 3, sk: 3, hr: 3, ru: 3, lt: 3, pl: 3 };
+
 const SCRIPTS = {
     ar: /[؀-ۿ]/, he: /[֐-׿]/, el: /[Ͱ-Ͽ]/, ka: /[Ⴀ-ჿ]/,
     ko: /[가-힯]/, zh: /[一-鿿]/, ja: /[぀-ヿ一-鿿]/,
@@ -68,6 +72,11 @@ function checkValue(enValue, value, locale) {
     }
     if (value.includes('||||') && !enValue.includes('||||')) {
         error('plural', 'has |||| plural forms but en does not (rendered literally)');
+    }
+    const requiredForms = PLURAL_FORMS[locale] || PLURAL_FORMS[locale.split('-')[0]];
+    const forms = value.split('||||').length;
+    if (requiredForms && enValue.includes('||||') && forms < requiredForms) {
+        error('plural_forms', `${forms} forms, Polyglot's rule for this language picks from ${requiredForms}`);
     }
     const otherEn = (enValue.replace(PLACEHOLDER, '').match(OTHER_INTERPOLATION) || []).sort().join(',');
     const otherLoc = (value.replace(PLACEHOLDER, '').match(OTHER_INTERPOLATION) || []).sort().join(',');

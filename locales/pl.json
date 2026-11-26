@@ -37,10 +37,10 @@
         "increment_quantity": "Zwiększ ilość",
         "remove_item": "Usuń przedmiot",
         "recurrence": {
-            "daily": "dzień |||| %{smart_count} days",
-            "weekly": "tydzień |||| %{smart_count} weeks",
-            "monthly": "miesiąc |||| %{smart_count} months",
-            "yearly": "rok |||| %{smart_count} years"
+            "daily": "dzień |||| %{smart_count} dni |||| %{smart_count} dni",
+            "weekly": "tydzień |||| %{smart_count} tygodnie |||| %{smart_count} tygodni",
+            "monthly": "miesiąc |||| %{smart_count} miesiące |||| %{smart_count} miesięcy",
+            "yearly": "rok |||| %{smart_count} lata |||| %{smart_count} lat"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "Wstrzymaj",
         "unpause": "Wznów",
         "billing_recurrence": {
-            "daily": "Rozliczanie codziennie |||| Rozliczanie co %{smart_count} dni",
-            "weekly": "Rozliczanie co tydzień |||| Rozliczanie co %{smart_count} tygodni",
-            "monthly": "Rozliczanie co miesiąc |||| Rozliczanie co %{smart_count} miesięcy",
-            "yearly": "Rozliczanie co rok |||| Rozliczanie co %{smart_count} lat"
+            "daily": "Rozliczanie codziennie |||| Rozliczanie co %{smart_count} dni |||| Rozliczanie co %{smart_count} dni",
+            "weekly": "Rozliczanie co tydzień |||| Rozliczanie co %{smart_count} tygodnie |||| Rozliczanie co %{smart_count} tygodni",
+            "monthly": "Rozliczanie co miesiąc |||| Rozliczanie co %{smart_count} miesiące |||| Rozliczanie co %{smart_count} miesięcy",
+            "yearly": "Rozliczanie co rok |||| Rozliczanie co %{smart_count} lata |||| Rozliczanie co %{smart_count} lat"
         }
     },
     "cart": {
@@ -138,8 +138,8 @@
         "no_subscriptions": "Nie znaleziono subskrypcji.",
         "view_invoice": "Zobacz fakturę",
         "sign_out": "Wyloguj się",
-        "show_more_orders": "Pokaż %{smart_count} więcej zamówień |||| Pokaź %{smart_count} więcej zamówień",
-        "show_more_subscriptions": "Pokaż jeszcze %{smart_count} subskrypcję |||| Pokaż jeszcze %{smart_count} subskrypcji",
+        "show_more_orders": "Pokaż jeszcze %{smart_count} zamówienie |||| Pokaż jeszcze %{smart_count} zamówienia |||| Pokaż jeszcze %{smart_count} zamówień",
+        "show_more_subscriptions": "Pokaż jeszcze %{smart_count} subskrypcję |||| Pokaż jeszcze %{smart_count} subskrypcje |||| Pokaż jeszcze %{smart_count} subskrypcji",
         "orders": "Zamówienia",
         "subscriptions": "Subskrypcje",
         "subscription": "Subskrypcja"

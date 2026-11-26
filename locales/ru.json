@@ -37,10 +37,10 @@
         "increment_quantity": "Добавить",
         "remove_item": "Удалить товар",
         "recurrence": {
-            "daily": "день |||| %{smart_count} дней",
-            "weekly": "неделя |||| %{smart_count} недель",
-            "monthly": "месяц |||| %{smart_count} месяцев",
-            "yearly": "год |||| %{smart_count} лет"
+            "daily": "%{smart_count} день |||| %{smart_count} дня |||| %{smart_count} дней",
+            "weekly": "%{smart_count} неделя |||| %{smart_count} недели |||| %{smart_count} недель",
+            "monthly": "%{smart_count} месяц |||| %{smart_count} месяца |||| %{smart_count} месяцев",
+            "yearly": "%{smart_count} год |||| %{smart_count} года |||| %{smart_count} лет"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "Приостановить",
         "unpause": "Возобновить",
         "billing_recurrence": {
-            "daily": "Списание ежедневно |||| Списание каждые %{smart_count} дней",
-            "weekly": "Списание еженедельно |||| Списание каждые %{smart_count} недель",
-            "monthly": "Списание ежемесячно |||| Списание каждые %{smart_count} месяцев",
-            "yearly": "Списание ежегодно |||| Списание каждые %{smart_count} лет"
+            "daily": "Списание каждый %{smart_count} день |||| Списание каждые %{smart_count} дня |||| Списание каждые %{smart_count} дней",
+            "weekly": "Списание каждую %{smart_count} неделю |||| Списание каждые %{smart_count} недели |||| Списание каждые %{smart_count} недель",
+            "monthly": "Списание каждый %{smart_count} месяц |||| Списание каждые %{smart_count} месяца |||| Списание каждые %{smart_count} месяцев",
+            "yearly": "Списание каждый %{smart_count} год |||| Списание каждые %{smart_count} года |||| Списание каждые %{smart_count} лет"
         }
     },
     "cart": {
@@ -138,8 +138,8 @@
         "no_subscriptions": "Подписки не найдены.",
         "view_invoice": "Просмотреть счёт",
         "sign_out": "Выйти",
-        "show_more_orders": "Показать ещё %{smart_count} заказ |||| Показать ещё %{smart_count} заказов",
-        "show_more_subscriptions": "Показать ещё %{smart_count} подписку |||| Показать ещё %{smart_count} подписок",
+        "show_more_orders": "Показать ещё %{smart_count} заказ |||| Показать ещё %{smart_count} заказа |||| Показать ещё %{smart_count} заказов",
+        "show_more_subscriptions": "Показать ещё %{smart_count} подписку |||| Показать ещё %{smart_count} подписки |||| Показать ещё %{smart_count} подписок",
         "orders": "Заказы",
         "subscriptions": "Подписки",
         "subscription": "Подписка"
