@@ -21,7 +21,7 @@
         "apply_changes": "Primenite promene",
         "yes_use_it": "Da, iskoristi",
         "save_changes": "Sačuvaj promene",
-        "back_to_orders": "Nazad na narudžbine",
+        "back_to_orders": "Nazad na porudžbine",
         "change_password": "Promeni lozinku",
         "clear_cart": "Obriši sve u korpi",
         "add": "Dodaj"
@@ -38,9 +38,9 @@
         "remove_item": "Izbaci proizvod",
         "recurrence": {
             "daily": "dan |||| %{smart_count} dana",
-            "weekly": "nedelja |||| %{smart_count} nedelja",
-            "monthly": "mesec |||| %{smart_count} meseci",
-            "yearly": "godina |||| %{smart_count} godina"
+            "weekly": "nedelja |||| %{smart_count} ned.",
+            "monthly": "mesec |||| %{smart_count} mes.",
+            "yearly": "godina |||| %{smart_count} god."
         }
     },
     "subscription": {
@@ -65,178 +65,178 @@
         "pause": "Pauziraj",
         "unpause": "Nastavi",
         "billing_recurrence": {
-            "daily": "Naplaćeno svakih dan |||| Billed every %{smart_count} dana",
-            "weekly": "Naplaćeno svakih nedelja |||| Billed every %{smart_count} nedelja",
-            "monthly": "Naplaćeno svakih mesec |||| Billed every %{smart_count} meseca",
-            "yearly": "Naplaćeno svakih godina |||| Billed every %{smart_count} godina"
+            "daily": "Naplaćuje se svakog dana |||| Interval naplate: %{smart_count} dana",
+            "weekly": "Naplaćuje se svake nedelje |||| Interval naplate: %{smart_count} ned.",
+            "monthly": "Naplaćuje se svakog meseca |||| Interval naplate: %{smart_count} mes.",
+            "yearly": "Naplaćuje se svake godine |||| Interval naplate: %{smart_count} god."
         }
     },
     "cart": {
-        "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
-        "secured_by": "Secured by Snipcart",
-        "summary": "Order summary",
-        "empty": "Your cart is empty.",
-        "invoice_number": "Invoice number",
-        "view_detailed_cart": "View detailed cart"
+        "subtotal": "Međuzbir",
+        "shipping_taxes_calculated_at_checkout": "Isporuka i porezi biće obračunati na kasi.",
+        "loading": "Pripremamo vašu korpu...",
+        "secured_by": "Zaštitu pruža Snipcart",
+        "summary": "Pregled porudžbine",
+        "empty": "Vaša korpa je prazna.",
+        "invoice_number": "Broj računa",
+        "view_detailed_cart": "Prikaži detaljnu korpu"
     },
     "order": {
-        "loading": "We're getting your order details...",
-        "title": "Order"
+        "loading": "Učitavamo detalje vaše porudžbine...",
+        "title": "Porudžbina"
     },
     "discount_box": {
-        "promo_code": "Promo code?",
-        "promo_code_placeholder": "Promo code",
-        "promocode_applied": "Promotion applied"
+        "promo_code": "Promo kod?",
+        "promo_code_placeholder": "Promo kod",
+        "promocode_applied": "Promocija je primenjena"
     },
     "address_form": {
-        "name": "Full name",
+        "name": "Ime i prezime",
         "email": "Email",
         "firstName": "Ime",
         "lastName": "Prezime",
-        "address1": "Street address",
-        "address2": "Apt/Suite",
-        "city": "City",
-        "country": "Country",
+        "address1": "Ulica i broj",
+        "address2": "Stan/Lokal",
+        "city": "Grad",
+        "country": "Država",
         "phone": "Telefon",
-        "postalCode": "Postal/ZIP code",
-        "province": "Province/State",
-        "dont_see_address": "I can't find my address"
+        "postalCode": "Poštanski broj/ZIP",
+        "province": "Pokrajina/Savezna država",
+        "dont_see_address": "Ne mogu da pronađem svoju adresu"
     },
     "billing": {
-        "title": "Billing",
-        "address": "Billing address",
-        "continue_to_shipping": "Continue to shipping",
-        "use_different_shipping_address": "Use different shipping address"
+        "title": "Naplata",
+        "address": "Adresa za naplatu",
+        "continue_to_shipping": "Nastavi na isporuku",
+        "use_different_shipping_address": "Koristi drugu adresu za isporuku"
     },
     "customer": {
-        "information": "Customer information",
-        "payment_info": "My payment info",
+        "information": "Podaci o kupcu",
+        "payment_info": "Moji podaci za plaćanje",
         "payment_method_update": {
-            "title": "Payment method update",
+            "title": "Izmena načina plaćanja",
             "outstanding_payment_failed": {
-                "title": "Payment failed",
-                "description": "Your payment method was updated, however, we were unable to charge the outstanding balance. Please use another payment method."
+                "title": "Plaćanje nije uspelo",
+                "description": "Vaš način plaćanja je izmenjen, ali nismo uspeli da naplatimo neizmireni iznos. Molimo koristite drugi način plaćanja."
             }
         }
     },
     "customer_details": {
-        "title": "Customer details"
+        "title": "Podaci o kupcu"
     },
     "customer_dashboard": {
-        "my_account": "My account",
-        "ordered_on": "Ordered on",
-        "next_billing_date": "Next billing date",
-        "price": "Price",
-        "total": "Total",
+        "my_account": "Moj nalog",
+        "ordered_on": "Datum porudžbine",
+        "next_billing_date": "Datum sledeće naplate",
+        "price": "Cena",
+        "total": "Ukupno",
         "status": "Status",
-        "order": "Order %{invoice_number}",
-        "order_details": "Order details",
-        "loading": "Loading...",
-        "no_orders": "No orders found.",
-        "no_subscriptions": "No subscriptions found.",
-        "view_invoice": "View invoice",
-        "sign_out": "Sign out",
-        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
-        "show_more_subscriptions": "Show %{smart_count} more subscription |||| Show %{smart_count} more subscriptions",
-        "orders": "Orders",
-        "subscriptions": "Subscriptions",
-        "subscription": "Subscription"
+        "order": "Porudžbina %{invoice_number}",
+        "order_details": "Detalji porudžbine",
+        "loading": "Učitavanje...",
+        "no_orders": "Nema porudžbina.",
+        "no_subscriptions": "Nema pretplata.",
+        "view_invoice": "Pogledaj račun",
+        "sign_out": "Odjavi se",
+        "show_more_orders": "Prikaži još porudžbina: %{smart_count} |||| Prikaži još porudžbina: %{smart_count}",
+        "show_more_subscriptions": "Prikaži još pretplata: %{smart_count} |||| Prikaži još pretplata: %{smart_count}",
+        "orders": "Porudžbine",
+        "subscriptions": "Pretplate",
+        "subscription": "Pretplata"
     },
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "A payment is due for a subscription",
-                "description": "You currently have a subscription with an overdue payment. Please update your payment method by clicking on Edit beside it in your details."
+                "title": "Jedna pretplata čeka na plaćanje",
+                "description": "Trenutno imate pretplatu sa zakasnelim plaćanjem. Molimo izmenite način plaćanja klikom na „Izmeni“ pored njega u vašim podacima."
             }
         }
     },
     "signin_form": {
-        "signin": "Sign In",
-        "dont_have_an_account": "Don't have an account?",
+        "signin": "Prijavi se",
+        "dont_have_an_account": "Nemate nalog?",
         "email": "Email",
-        "password": "Password",
-        "forgot_your_password": "Forgot your password?",
-        "close_form": "Go back"
+        "password": "Lozinka",
+        "forgot_your_password": "Zaboravili ste lozinku?",
+        "close_form": "Nazad"
     },
     "forgot_password_form": {
-        "title": "Recover your password",
-        "instructions": "Enter your account's email address and we will send you a password reset link.",
+        "title": "Povratite vašu lozinku",
+        "instructions": "Unesite email adresu vašeg naloga i poslaćemo vam link za resetovanje lozinke.",
         "email": "Email",
-        "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
-        "action": "Send password reset email"
+        "email_instructions": "Poslali smo vam email sa linkom. Kliknite na njega da biste resetovali lozinku.",
+        "action": "Pošalji email za resetovanje lozinke"
     },
     "reset_password_form": {
-        "title": "Reset your password",
-        "password": "New password",
-        "confirmation_password": "Re-enter your new password",
-        "action": "Reset password"
+        "title": "Resetujte vašu lozinku",
+        "password": "Nova lozinka",
+        "confirmation_password": "Ponovo unesite novu lozinku",
+        "action": "Resetuj lozinku"
     },
     "change_password_form": {
-        "title": "Change your password",
-        "current_password": "Current password",
-        "password": "New password",
-        "confirmation_password": "Re-enter your new password",
-        "action": "Change password"
+        "title": "Promenite vašu lozinku",
+        "current_password": "Trenutna lozinka",
+        "password": "Nova lozinka",
+        "confirmation_password": "Ponovo unesite novu lozinku",
+        "action": "Promeni lozinku"
     },
     "register_form": {
-        "register": "Register",
-        "already_have_an_account": "Already have an account?",
+        "register": "Registruj se",
+        "already_have_an_account": "Već imate nalog?",
         "email": "Email",
-        "password": "Password",
-        "confirm_password": "Confirm Password",
+        "password": "Lozinka",
+        "confirm_password": "Potvrdite lozinku",
         "requires_action": {
-            "title": "Check your emails",
-            "description": "This email address has already been used to complete an order. Please complete the registration process by using the link sent to you by email."
+            "title": "Proverite vaš email",
+            "description": "Ova email adresa je već korišćena za jednu porudžbinu. Molimo završite registraciju pomoću linka koji vam je poslat emailom."
         }
     },
     "guest_checkout": {
-        "or": "Or",
-        "continue_as_a_guest": "Continue as a guest"
+        "or": "Ili",
+        "continue_as_a_guest": "Nastavi kao gost"
     },
     "express_checkout": {
         "processing": "Obrada vašeg plaćanja…"
     },
     "shipping": {
-        "title": "Shipping",
-        "shipping_to": "Shipping to:",
-        "address": "Shipping address",
-        "method": "Shipping method",
+        "title": "Isporuka",
+        "shipping_to": "Isporuka na adresu:",
+        "address": "Adresa za isporuku",
+        "method": "Način isporuke",
         "methods": {
-            "example_localization_id": "This is an example of a localized shipping method"
+            "example_localization_id": "Ovo je primer lokalizovanog načina isporuke"
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Guaranteed to be delivered in %{guaranteedDaysToDelivery} day(s)."
+        "guaranteed_delivery_days": "Garantovana isporuka za %{guaranteedDaysToDelivery} dan(a)."
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Deferred Payment",
-            "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
-            "card_label": "Credit card",
-            "card_number": "Card number",
-            "card_expiration": "MM/YY",
+            "deferred_payment_title": "Odloženo plaćanje",
+            "deferred_payment_instructions": "Slanjem ove porudžbine pristajete da platite kasnije, na način plaćanja koji je odredio prodavac.",
+            "card_label": "Kreditna kartica",
+            "card_number": "Broj kartice",
+            "card_expiration": "MM/GG",
             "card_cvv": "CVV",
-            "card_postal_code": "Postal code",
-            "invalid_number": "Card number is invalid",
-            "invalid_expiration": "Expiration date is invalid",
-            "invalid_cvv": "CVV is invalid",
-            "invalid_postal_code": "Postal code is invalid"
+            "card_postal_code": "Poštanski broj",
+            "invalid_number": "Broj kartice nije ispravan",
+            "invalid_expiration": "Datum isteka nije ispravan",
+            "invalid_cvv": "CVV nije ispravan",
+            "invalid_postal_code": "Poštanski broj nije ispravan"
         },
-        "still_pending_notice": "Your payment is still being processed.",
-        "title": "Payment",
-        "continue_to_payment": "Continue to payment",
-        "credit_card": "Credit card",
+        "still_pending_notice": "Vaše plaćanje se još uvek obrađuje.",
+        "title": "Plaćanje",
+        "continue_to_payment": "Nastavi na plaćanje",
+        "credit_card": "Kreditna kartica",
         "place_order": "Naručite",
-        "preparing_payment_session": "Preparing payment...",
-        "processing_payment": "Processing payment...",
-        "checkout_with": "Checkout with",
-        "checkout_with_method": "Checkout with %{method}",
-        "method_icon": "%{method} icon",
-        "no_payment": "No payment is required for this order.",
+        "preparing_payment_session": "Priprema plaćanja...",
+        "processing_payment": "Obrada plaćanja...",
+        "checkout_with": "Plati putem",
+        "checkout_with_method": "Plati putem: %{method}",
+        "method_icon": "Ikona: %{method}",
+        "no_payment": "Za ovu porudžbinu nije potrebno plaćanje.",
         "methods": {
-            "card": "Credit card",
+            "card": "Kreditna kartica",
             "paypal": "PayPal",
             "paypal_express_checkout": "PayPal",
             "apple_pay": "Apple Pay",
@@ -247,185 +247,185 @@
             "ideal": "iDEAL",
             "ing_home_pay": "ING Home’Pay",
             "kbc": "KBC",
-            "klarna_pay_later": "Klarna pay later",
-            "klarna_slice_it": "Klarna monthly financing",
+            "klarna_pay_later": "Klarna – plaćanje kasnije",
+            "klarna_slice_it": "Klarna – mesečno finansiranje",
             "p24": "Przelewy24",
-            "sepa_debit": "SEPA bank transfer",
-            "sofort": "Sofort bank transfer",
-            "deferred_payment": "Pay later"
+            "sepa_debit": "SEPA bankovni transfer",
+            "sofort": "Sofort bankovni transfer",
+            "deferred_payment": "Plati kasnije"
         }
     },
     "discounts": {
-        "title": "Discounts"
+        "title": "Popusti"
     },
     "cart_summary": {
-        "taxes": "Taxes",
-        "taxes_included_in_price": "Some items have taxes included.",
-        "total": "Total",
-        "subtotal": "Subtotal",
-        "shipping": "Shipping",
-        "discount": "Discounts",
+        "taxes": "Porezi",
+        "taxes_included_in_price": "Kod nekih proizvoda porez je uključen u cenu.",
+        "total": "Ukupno",
+        "subtotal": "Međuzbir",
+        "shipping": "Isporuka",
+        "discount": "Popusti",
         "quantity": "x",
-        "calculated_at_checkout": "Calculated at checkout"
+        "calculated_at_checkout": "Obračunava se na kasi"
     },
     "errors": {
-        "default": "An error occurred, try again later or contact us.",
-        "promo_code_is_invalid": "This promo code isn't valid",
-        "promocode_already_in_cart": "This promo code is already applied",
-        "promocode_isnt_applicable": "This promo code isn't valid",
-        "promo_code_is_expired": "This promo code has expired",
-        "stringEmpty": "This field is required",
-        "emailEmpty": "This field is required",
-        "required": "This field is required",
-        "invalid_expiry_year_past": "Card is expired",
-        "email": "Please provide a valid email address",
-        "quantity_revised": "Quantity has been revised due to stock limitations.",
-        "quantity_out_of_stock": "Unfortunately, this item is out of stock, remove it from the cart to continue.",
-        "disabled_country": "The selected country is not available for checkout.",
+        "default": "Desila se greška, pokušajte ponovo kasnije ili nas kontaktirajte.",
+        "promo_code_is_invalid": "Ovaj promo kod nije važeći",
+        "promocode_already_in_cart": "Ovaj promo kod je već primenjen",
+        "promocode_isnt_applicable": "Ovaj promo kod nije važeći",
+        "promo_code_is_expired": "Ovaj promo kod je istekao",
+        "stringEmpty": "Ovo polje je obavezno",
+        "emailEmpty": "Ovo polje je obavezno",
+        "required": "Ovo polje je obavezno",
+        "invalid_expiry_year_past": "Kartica je istekla",
+        "email": "Unesite ispravnu email adresu",
+        "quantity_revised": "Količina je izmenjena zbog ograničenih zaliha.",
+        "quantity_out_of_stock": "Nažalost, ovog proizvoda nema na zalihama, izbacite ga iz korpe da biste nastavili.",
+        "disabled_country": "Izabrana država nije dostupna za naručivanje.",
         "error_payment_items_are_invalid": {
-            "title": "Some items in your cart are invalid",
-            "description": "Please review your order, or try again later."
+            "title": "Neki proizvodi u vašoj korpi nisu ispravni",
+            "description": "Proverite vašu porudžbinu ili pokušajte ponovo kasnije."
         },
         "card": {
-            "invalid_number": "The card's number is invalid.",
-            "invalid_date": "The card's expiration date is invalid.",
-            "invalid_year": "The card's expiration year is invalid.",
-            "invalid_month": "The card's expiration month is invalid.",
-            "invalid_cvv": "The card's CVV is invalid.",
-            "invalid_expiration": "The card's expiration date is invalid.",
-            "expired": "The credit card is expired",
-            "declined": "The card has been declined. Please call your card issuer for more information.",
-            "invalid_address": "The card’s address is incorrect.",
-            "insufficient_funds": "The account did not have sufficient funds to cover the transaction amount.",
-            "card_not_supported": "The card is not supported in the geographic region.",
-            "currency_not_supported": "The currency is not currently supported."
+            "invalid_number": "Broj kartice nije ispravan.",
+            "invalid_date": "Datum isteka kartice nije ispravan.",
+            "invalid_year": "Godina isteka kartice nije ispravna.",
+            "invalid_month": "Mesec isteka kartice nije ispravan.",
+            "invalid_cvv": "CVV kartice nije ispravan.",
+            "invalid_expiration": "Datum isteka kartice nije ispravan.",
+            "expired": "Kreditna kartica je istekla",
+            "declined": "Kartica je odbijena. Pozovite izdavaoca vaše kartice za više informacija.",
+            "invalid_address": "Adresa kartice nije tačna.",
+            "insufficient_funds": "Na računu nije bilo dovoljno sredstava za iznos transakcije.",
+            "card_not_supported": "Kartica nije podržana u ovom geografskom regionu.",
+            "currency_not_supported": "Ova valuta trenutno nije podržana."
         },
         "transaction": {
-            "declined": "An error occurred while processing the card. Try again later or with a different payment method."
+            "declined": "Desila se greška pri obradi kartice. Pokušajte ponovo kasnije ili sa drugim načinom plaćanja."
         },
         "discounts": {
-            "conflict": "Some discounts cannot be combined. Use this discount instead?"
+            "conflict": "Neki popusti se ne mogu kombinovati. Želite li da iskoristite ovaj popust umesto toga?"
         },
         "order_validation": {
             "domain_crawling": {
-                "title": "Order couldn’t be processed.",
-                "description": "You have not been charged. Please contact the store owner for details."
+                "title": "Porudžbina nije mogla biti obrađena.",
+                "description": "Ništa vam nije naplaćeno. Kontaktirajte vlasnika radnje za detalje."
             },
             "product_crawling": {
-                "title": "Price of products in the cart may have changed.",
-                "description": "Try removing and adding them to your cart. Please contact the store owner for details."
+                "title": "Cena proizvoda u korpi se možda promenila.",
+                "description": "Pokušajte da ih izbacite iz korpe i ponovo dodate. Kontaktirajte vlasnika radnje za detalje."
             },
             "stock_validation": {
-                "title": "Product stock unavailable.",
-                "description": "Some products may be out of stock for selected quantity. Revise the quantity or contact the store owner for details."
+                "title": "Proizvoda nema na zalihama.",
+                "description": "Nekih proizvoda možda nema na zalihama u izabranoj količini. Izmenite količinu ili kontaktirajte vlasnika radnje za detalje."
             },
             "custom_fields_validation": {
-                "title": "Missing required information.",
-                "description": "Some products in the cart are missing mandatory information. Please edit the cart to continue."
+                "title": "Nedostaju obavezni podaci.",
+                "description": "Nekim proizvodima u korpi nedostaju obavezni podaci. Izmenite korpu da biste nastavili."
             },
             "shipping_validation": {
-                "title": "Shipping method couldn't be validated.",
-                "description": "The selected shipping rate might have changed or is unavailable. Please contact the store owner for details."
+                "title": "Način isporuke nije mogao biti potvrđen.",
+                "description": "Izabrana cena isporuke se možda promenila ili nije dostupna. Kontaktirajte vlasnika radnje za detalje."
             }
         },
-        "invalid_address": "The address is invalid.",
+        "invalid_address": "Adresa nije ispravna.",
         "shipping": {
             "account_configuration": {
-                "title": "No shipping method is currently available",
-                "description": "Try again later, or contact us for support."
+                "title": "Trenutno nije dostupan nijedan način isporuke",
+                "description": "Pokušajte ponovo kasnije ili nas kontaktirajte za pomoć."
             },
             "rates_calculation": {
-                "title": "Unable to calculate shipping for your order",
-                "description": "Try again later, or contact us for support."
+                "title": "Nismo uspeli da obračunamo isporuku za vašu porudžbinu",
+                "description": "Pokušajte ponovo kasnije ili nas kontaktirajte za pomoć."
             },
             "no_rates_found": {
-                "title": "No shipping methods are available for your order",
-                "description": "Please review your shipping address or contact us."
+                "title": "Za vašu porudžbinu nije dostupan nijedan način isporuke",
+                "description": "Proverite vašu adresu za isporuku ili nas kontaktirajte."
             },
-            "E.COUNTRY.UNSUPPORTED": "Country is not supported. Please try again later or contact us for more details.",
-            "E.ENGINE.UNAVAILABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
-            "E.QUERY.UNANSWERABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
-            "E.ADDRESS.NOT_FOUND": "Address not found. Please validate your address and try again.",
-            "E.SECONDARY_INFORMATION.INVALID": "Invalid secondary information(Apt/Suite#).",
-            "E.SECONDARY_INFORMATION.MISSING": "Missing secondary information(Apt/Suite#).",
-            "E.HOUSE_NUMBER.MISSING": "House number is missing.",
-            "E.HOUSE_NUMBER.INVALID": "House number is invalid.",
-            "E.STREET.MISSING": "Street is missing.",
-            "E.STREET.INVALID": "Street is invalid.",
-            "E.BOX_NUMBER.MISSING": "Box number is missing.",
-            "E.BOX_NUMBER.INVALID": "Box number is invalid.",
-            "E.ADDRESS.INVALID": "Invalid city/state/ZIP.",
-            "E.ZIP.NOT_FOUND": "Zip not found.",
-            "E.ZIP.INVALID": "Zip invalid.",
-            "E.ZIP.PLUS4.NOT_FOUND": "Zip + 4 not found.",
-            "E.ADDRESS.MULTIPLE": "Multiple addresses were returned with the same zip.",
-            "E.ADDRESS.INSUFFICIENT": "Incorrect address. Please try again later or contact us for more details.",
-            "E.ADDRESS.DUAL": "Dual address. Please try again later or contact us for more details.",
-            "E.STREET.MAGNET": "Multiple addresses found due to magnet street syndrome. Please try again later or contact us for more details.",
-            "E.CITY_STATE.INVALID": "Unverifiable city / state.",
-            "E.STATE.INVALID": "Invalid State.",
-            "E.ADDRESS.DELIVERY.INVALID": "Invalid delivery address.",
-            "E.TIMED_OUT": "An error occurred while validating the address. Please try again later or contact us for more details.",
-            "E.TIME_ZONE.UNAVAILABLE": "An error occurred while validating the address. Please try again later or contact us for more details.",
-            "E.PO_BOX.INTERNATIONAL": "Cannot verify international PO Box."
+            "E.COUNTRY.UNSUPPORTED": "Država nije podržana. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.ENGINE.UNAVAILABLE": "Desila se greška pri proveri adrese. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.QUERY.UNANSWERABLE": "Desila se greška pri proveri adrese. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nije pronađena. Proverite vašu adresu i pokušajte ponovo.",
+            "E.SECONDARY_INFORMATION.INVALID": "Neispravni dodatni podaci (stan/lokal br.).",
+            "E.SECONDARY_INFORMATION.MISSING": "Nedostaju dodatni podaci (stan/lokal br.).",
+            "E.HOUSE_NUMBER.MISSING": "Nedostaje kućni broj.",
+            "E.HOUSE_NUMBER.INVALID": "Kućni broj nije ispravan.",
+            "E.STREET.MISSING": "Nedostaje ulica.",
+            "E.STREET.INVALID": "Ulica nije ispravna.",
+            "E.BOX_NUMBER.MISSING": "Nedostaje broj poštanskog faha.",
+            "E.BOX_NUMBER.INVALID": "Broj poštanskog faha nije ispravan.",
+            "E.ADDRESS.INVALID": "Neispravan grad/savezna država/ZIP.",
+            "E.ZIP.NOT_FOUND": "ZIP nije pronađen.",
+            "E.ZIP.INVALID": "ZIP nije ispravan.",
+            "E.ZIP.PLUS4.NOT_FOUND": "ZIP + 4 nije pronađen.",
+            "E.ADDRESS.MULTIPLE": "Pronađeno je više adresa sa istim ZIP kodom.",
+            "E.ADDRESS.INSUFFICIENT": "Netačna adresa. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.ADDRESS.DUAL": "Dvostruka adresa. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.STREET.MAGNET": "Pronađeno je više adresa zbog sličnih naziva ulica. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.CITY_STATE.INVALID": "Grad / savezna država ne mogu da se provere.",
+            "E.STATE.INVALID": "Neispravna savezna država.",
+            "E.ADDRESS.DELIVERY.INVALID": "Neispravna adresa za isporuku.",
+            "E.TIMED_OUT": "Desila se greška pri proveri adrese. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.TIME_ZONE.UNAVAILABLE": "Desila se greška pri proveri adrese. Pokušajte ponovo kasnije ili nas kontaktirajte za više detalja.",
+            "E.PO_BOX.INTERNATIONAL": "Međunarodni poštanski fah ne može da se proveri."
         },
         "payment_failed": {
-            "title": "Unable to process payment",
-            "description": "Try again later, or contact us for support."
+            "title": "Nismo uspeli da obradimo plaćanje",
+            "description": "Pokušajte ponovo kasnije ili nas kontaktirajte za pomoć."
         },
         "payment_authorization": {
-            "title": "Unable to process payment",
-            "default": "Please review billing and payment information."
+            "title": "Nismo uspeli da obradimo plaćanje",
+            "default": "Proverite podatke za naplatu i plaćanje."
         },
         "authentication_challenge": {
             "failed": {
-                "title": "Unable to process payment",
-                "description": "We have not been able to authenticate your payment information. Please try again"
+                "title": "Nismo uspeli da obradimo plaćanje",
+                "description": "Nismo uspeli da potvrdimo vaše podatke za plaćanje. Pokušajte ponovo"
             }
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Subscription couldn't be added to the cart",
-                "description": "A cart can only contain one subscription at a time."
+                "title": "Pretplata nije mogla biti dodata u korpu",
+                "description": "Korpa može da sadrži samo jednu pretplatu u isto vreme."
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "Product couldn't be added to the cart",
-                "description": "The cart can only contain either items or a subscription."
+                "title": "Proizvod nije mogao biti dodat u korpu",
+                "description": "Korpa može da sadrži ili proizvode ili pretplatu."
             }
         },
-        "customer_exists": "This email is already used.",
-        "customer_password_missmatch": "The two passwords must match.",
-        "customer_password_token_expired": "Your password recovery token has expired.",
-        "customer_password_token_invalid": "Your password recovery token is invalid.",
-        "customer_not_found": "The email address is not associated with any account.",
-        "invalid_credentials": "Invalid email or password.",
-        "customer_current_password_invalid": "Invalid password.",
+        "customer_exists": "Ovaj email se već koristi.",
+        "customer_password_missmatch": "Dve lozinke moraju biti iste.",
+        "customer_password_token_expired": "Vaš token za povraćaj lozinke je istekao.",
+        "customer_password_token_invalid": "Vaš token za povraćaj lozinke nije ispravan.",
+        "customer_not_found": "Ova email adresa nije povezana ni sa jednim nalogom.",
+        "invalid_credentials": "Neispravan email ili lozinka.",
+        "customer_current_password_invalid": "Neispravna lozinka.",
         "withdrawal": {
             "validation_failed": {
-                "title": "Nismo uspeli da potvrdimo Vaše podatke.",
+                "title": "Nismo uspeli da potvrdimo vaše podatke.",
                 "description": "Proverite email i broj porudžbine, pa pokušajte ponovo."
             },
             "confirm_failed": {
-                "title": "Nismo uspeli da obradimo Vaš zahtev za odustajanje.",
+                "title": "Nismo uspeli da obradimo vaš zahtev za odustajanje.",
                 "description": "Molimo pokušajte ponovo ili kontaktirajte prodavca."
             }
         }
     },
     "shippingRates": {
-        "loading": "Loading shipping rates"
+        "loading": "Učitavanje cena isporuke"
     },
     "customer_orders": {
-        "loading": "Loading..."
+        "loading": "Učitavanje..."
     },
     "digital_goods": {
-        "download": "Download file"
+        "download": "Preuzmi fajl"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Thank you for your order",
-        "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
+        "thank_you_for_your_order": "Hvala vam na porudžbini",
+        "async_confirmation_notice": "Vaša porudžbina je poslata i trenutno se obrađuje. Uskoro ćete dobiti potvrdu."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
+        "shipping_taxes_calculated_when_address_provided": "Isporuka i porezi biće obračunati nakon unosa adrese."
     },
     "withdrawal_form": {
         "title": "Odustajanje od ugovora",
@@ -438,7 +438,7 @@
     "withdrawal_confirm": {
         "title": "Potvrdi odustajanje",
         "warning_title": "Napomena",
-        "warning_message": "Ova porudžbina je van 14-dnevnog roka za odustajanje. Prodavac će razmotriti Vaš zahtev.",
+        "warning_message": "Ova porudžbina je van 14-dnevnog roka za odustajanje. Prodavac će razmotriti vaš zahtev.",
         "order_details": "Detalji porudžbine",
         "order_number": "Broj porudžbine:",
         "order_date": "Datum porudžbine:",
@@ -461,73 +461,73 @@
     },
     "countries": {
         "AD": {
-            "name": "Andorra"
+            "name": "Andora"
         },
         "AE": {
-            "name": "United Arab Emirates"
+            "name": "Ujedinjeni Arapski Emirati"
         },
         "AF": {
-            "name": "Afghanistan"
+            "name": "Avganistan"
         },
         "AG": {
-            "name": "Antigua and Barbuda"
+            "name": "Antigva i Barbuda"
         },
         "AI": {
-            "name": "Anguilla"
+            "name": "Angvila"
         },
         "AL": {
-            "name": "Albania"
+            "name": "Albanija"
         },
         "AM": {
-            "name": "Armenia"
+            "name": "Jermenija"
         },
         "AO": {
             "name": "Angola"
         },
         "AQ": {
-            "name": "Antarctica"
+            "name": "Antarktik"
         },
         "AR": {
             "name": "Argentina"
         },
         "AS": {
-            "name": "American Samoa"
+            "name": "Američka Samoa"
         },
         "AT": {
-            "name": "Austria"
+            "name": "Austrija"
         },
         "AU": {
-            "name": "Australia"
+            "name": "Australija"
         },
         "AW": {
             "name": "Aruba"
         },
         "AX": {
-            "name": "Åland"
+            "name": "Olandska Ostrva"
         },
         "AZ": {
-            "name": "Azerbaijan"
+            "name": "Azerbejdžan"
         },
         "BA": {
-            "name": "Bosnia and Herzegovina"
+            "name": "Bosna i Hercegovina"
         },
         "BB": {
             "name": "Barbados"
         },
         "BD": {
-            "name": "Bangladesh"
+            "name": "Bangladeš"
         },
         "BE": {
-            "name": "Belgium"
+            "name": "Belgija"
         },
         "BF": {
             "name": "Burkina Faso"
         },
         "BG": {
-            "name": "Bulgaria"
+            "name": "Bugarska"
         },
         "BH": {
-            "name": "Bahrain"
+            "name": "Bahrein"
         },
         "BI": {
             "name": "Burundi"
@@ -536,43 +536,43 @@
             "name": "Benin"
         },
         "BL": {
-            "name": "Saint Barthélemy"
+            "name": "Sveti Bartolomej"
         },
         "BM": {
             "name": "Bermuda"
         },
         "BN": {
-            "name": "Brunei"
+            "name": "Brunej"
         },
         "BO": {
-            "name": "Bolivia"
+            "name": "Bolivija"
         },
         "BQ": {
-            "name": "Bonaire"
+            "name": "Boner"
         },
         "BR": {
             "name": "Brazil"
         },
         "BS": {
-            "name": "Bahamas"
+            "name": "Bahami"
         },
         "BT": {
-            "name": "Bhutan"
+            "name": "Butan"
         },
         "BV": {
-            "name": "Bouvet Island"
+            "name": "Ostrvo Buve"
         },
         "BW": {
-            "name": "Botswana"
+            "name": "Bocvana"
         },
         "BY": {
-            "name": "Belarus"
+            "name": "Belorusija"
         },
         "BZ": {
             "name": "Belize"
         },
         "CA": {
-            "name": "Canada",
+            "name": "Kanada",
             "states": {
                 "AB": "Alberta",
                 "BC": "British Columbia",
@@ -590,94 +590,94 @@
             }
         },
         "CC": {
-            "name": "Cocos [Keeling] Islands"
+            "name": "Kokosova [Kilingova] Ostrva"
         },
         "CD": {
-            "name": "Congo"
+            "name": "Kongo"
         },
         "CF": {
-            "name": "Central African Republic"
+            "name": "Centralnoafrička Republika"
         },
         "CG": {
-            "name": "Republic of the Congo"
+            "name": "Republika Kongo"
         },
         "CH": {
-            "name": "Switzerland"
+            "name": "Švajcarska"
         },
         "CI": {
-            "name": "Ivory Coast"
+            "name": "Obala Slonovače"
         },
         "CK": {
-            "name": "Cook Islands"
+            "name": "Kukova Ostrva"
         },
         "CL": {
-            "name": "Chile"
+            "name": "Čile"
         },
         "CM": {
-            "name": "Cameroon"
+            "name": "Kamerun"
         },
         "CN": {
-            "name": "China"
+            "name": "Kina"
         },
         "CO": {
-            "name": "Colombia"
+            "name": "Kolumbija"
         },
         "CR": {
-            "name": "Costa Rica"
+            "name": "Kostarika"
         },
         "CU": {
-            "name": "Cuba"
+            "name": "Kuba"
         },
         "CV": {
-            "name": "Cape Verde"
+            "name": "Zelenortska Ostrva"
         },
         "CW": {
-            "name": "Curacao"
+            "name": "Kurasao"
         },
         "CX": {
-            "name": "Christmas Island"
+            "name": "Božićno Ostrvo"
         },
         "CY": {
-            "name": "Cyprus"
+            "name": "Kipar"
         },
         "CZ": {
-            "name": "Czechia"
+            "name": "Češka"
         },
         "DE": {
-            "name": "Germany"
+            "name": "Nemačka"
         },
         "DJ": {
-            "name": "Djibouti"
+            "name": "Džibuti"
         },
         "DK": {
-            "name": "Denmark"
+            "name": "Danska"
         },
         "DM": {
-            "name": "Dominica"
+            "name": "Dominika"
         },
         "DO": {
-            "name": "Dominican Republic"
+            "name": "Dominikanska Republika"
         },
         "DZ": {
-            "name": "Algeria"
+            "name": "Alžir"
         },
         "EC": {
-            "name": "Ecuador"
+            "name": "Ekvador"
         },
         "EE": {
-            "name": "Estonia"
+            "name": "Estonija"
         },
         "EG": {
-            "name": "Egypt"
+            "name": "Egipat"
         },
         "EH": {
-            "name": "Western Sahara"
+            "name": "Zapadna Sahara"
         },
         "ER": {
-            "name": "Eritrea"
+            "name": "Eritreja"
         },
         "ES": {
-            "name": "Spain",
+            "name": "Španija",
             "states": {
                 "A": "Alicante",
                 "AB": "Albacete",
@@ -737,136 +737,136 @@
             "name": "Canary Islands"
         },
         "ET": {
-            "name": "Ethiopia"
+            "name": "Etiopija"
         },
         "FI": {
-            "name": "Finland"
+            "name": "Finska"
         },
         "FJ": {
-            "name": "Fiji"
+            "name": "Fidži"
         },
         "FK": {
-            "name": "Falkland Islands"
+            "name": "Foklandska Ostrva"
         },
         "FM": {
-            "name": "Micronesia"
+            "name": "Mikronezija"
         },
         "FO": {
-            "name": "Faroe Islands"
+            "name": "Farska Ostrva"
         },
         "FR": {
-            "name": "France"
+            "name": "Francuska"
         },
         "GA": {
             "name": "Gabon"
         },
         "GB": {
-            "name": "United Kingdom"
+            "name": "Ujedinjeno Kraljevstvo"
         },
         "GD": {
             "name": "Grenada"
         },
         "GE": {
-            "name": "Georgia"
+            "name": "Gruzija"
         },
         "GF": {
-            "name": "French Guiana"
+            "name": "Francuska Gvajana"
         },
         "GG": {
-            "name": "Guernsey"
+            "name": "Gernzi"
         },
         "GH": {
-            "name": "Ghana"
+            "name": "Gana"
         },
         "GI": {
             "name": "Gibraltar"
         },
         "GL": {
-            "name": "Greenland"
+            "name": "Grenland"
         },
         "GM": {
-            "name": "Gambia"
+            "name": "Gambija"
         },
         "GN": {
-            "name": "Guinea"
+            "name": "Gvineja"
         },
         "GP": {
-            "name": "Guadeloupe"
+            "name": "Gvadelup"
         },
         "GQ": {
-            "name": "Equatorial Guinea"
+            "name": "Ekvatorijalna Gvineja"
         },
         "GR": {
-            "name": "Greece"
+            "name": "Grčka"
         },
         "GS": {
-            "name": "South Georgia and the South Sandwich Islands"
+            "name": "Južna Džordžija i Južna Sendvička Ostrva"
         },
         "GT": {
-            "name": "Guatemala"
+            "name": "Gvatemala"
         },
         "GU": {
-            "name": "Guam"
+            "name": "Gvam"
         },
         "GW": {
-            "name": "Guinea-Bissau"
+            "name": "Gvineja Bisao"
         },
         "GY": {
-            "name": "Guyana"
+            "name": "Gvajana"
         },
         "HK": {
-            "name": "Hong Kong"
+            "name": "Hongkong"
         },
         "HM": {
-            "name": "Heard Island and McDonald Islands"
+            "name": "Ostrvo Herd i Mekdonaldova ostrva"
         },
         "HN": {
             "name": "Honduras"
         },
         "HR": {
-            "name": "Croatia"
+            "name": "Hrvatska"
         },
         "HT": {
             "name": "Haiti"
         },
         "HU": {
-            "name": "Hungary"
+            "name": "Mađarska"
         },
         "ID": {
-            "name": "Indonesia"
+            "name": "Indonezija"
         },
         "IE": {
-            "name": "Ireland"
+            "name": "Irska"
         },
         "IL": {
-            "name": "Israel"
+            "name": "Izrael"
         },
         "IM": {
-            "name": "Isle of Man"
+            "name": "Ostrvo Man"
         },
         "IN": {
-            "name": "India"
+            "name": "Indija"
         },
         "IO": {
-            "name": "British Indian Ocean Territory"
+            "name": "Britanska teritorija Indijskog okeana"
         },
         "IQ": {
-            "name": "Iraq"
+            "name": "Irak"
         },
         "IR": {
             "name": "Iran"
         },
         "IS": {
-            "name": "Iceland"
+            "name": "Island"
         },
         "IT": {
-            "name": "Italy"
+            "name": "Italija"
         },
         "JE": {
-            "name": "Jersey"
+            "name": "Džerzi"
         },
         "JM": {
-            "name": "Jamaica"
+            "name": "Jamajka"
         },
         "JO": {
             "name": "Jordan"
@@ -924,133 +924,133 @@
             }
         },
         "KE": {
-            "name": "Kenya"
+            "name": "Kenija"
         },
         "KG": {
-            "name": "Kyrgyzstan"
+            "name": "Kirgistan"
         },
         "KH": {
-            "name": "Cambodia"
+            "name": "Kambodža"
         },
         "KI": {
             "name": "Kiribati"
         },
         "KM": {
-            "name": "Comoros"
+            "name": "Komori"
         },
         "KN": {
-            "name": "Saint Kitts and Nevis"
+            "name": "Sent Kits i Nevis"
         },
         "KP": {
-            "name": "North Korea"
+            "name": "Severna Koreja"
         },
         "KR": {
-            "name": "South Korea"
+            "name": "Južna Koreja"
         },
         "KW": {
-            "name": "Kuwait"
+            "name": "Kuvajt"
         },
         "KY": {
-            "name": "Cayman Islands"
+            "name": "Kajmanska Ostrva"
         },
         "KZ": {
-            "name": "Kazakhstan"
+            "name": "Kazahstan"
         },
         "LA": {
             "name": "Laos"
         },
         "LB": {
-            "name": "Lebanon"
+            "name": "Liban"
         },
         "LC": {
-            "name": "Saint Lucia"
+            "name": "Sveta Lucija"
         },
         "LI": {
-            "name": "Liechtenstein"
+            "name": "Lihtenštajn"
         },
         "LK": {
-            "name": "Sri Lanka"
+            "name": "Šri Lanka"
         },
         "LR": {
-            "name": "Liberia"
+            "name": "Liberija"
         },
         "LS": {
-            "name": "Lesotho"
+            "name": "Lesoto"
         },
         "LT": {
-            "name": "Lithuania"
+            "name": "Litvanija"
         },
         "LU": {
-            "name": "Luxembourg"
+            "name": "Luksemburg"
         },
         "LV": {
-            "name": "Latvia"
+            "name": "Letonija"
         },
         "LY": {
-            "name": "Libya"
+            "name": "Libija"
         },
         "MA": {
-            "name": "Morocco"
+            "name": "Maroko"
         },
         "MC": {
-            "name": "Monaco"
+            "name": "Monako"
         },
         "MD": {
-            "name": "Moldova"
+            "name": "Moldavija"
         },
         "ME": {
-            "name": "Montenegro"
+            "name": "Crna Gora"
         },
         "MF": {
-            "name": "Saint Martin"
+            "name": "Sveti Martin"
         },
         "MG": {
-            "name": "Madagascar"
+            "name": "Madagaskar"
         },
         "MH": {
-            "name": "Marshall Islands"
+            "name": "Maršalska Ostrva"
         },
         "MK": {
-            "name": "Macedonia"
+            "name": "Makedonija"
         },
         "ML": {
             "name": "Mali"
         },
         "MM": {
-            "name": "Myanmar [Burma]"
+            "name": "Mjanmar [Burma]"
         },
         "MN": {
-            "name": "Mongolia"
+            "name": "Mongolija"
         },
         "MO": {
-            "name": "Macao"
+            "name": "Makao"
         },
         "MP": {
-            "name": "Northern Mariana Islands"
+            "name": "Severna Marijanska Ostrva"
         },
         "MQ": {
-            "name": "Martinique"
+            "name": "Martinik"
         },
         "MR": {
-            "name": "Mauritania"
+            "name": "Mauritanija"
         },
         "MS": {
-            "name": "Montserrat"
+            "name": "Monserat"
         },
         "MT": {
             "name": "Malta"
         },
         "MU": {
-            "name": "Mauritius"
+            "name": "Mauricijus"
         },
         "MV": {
-            "name": "Maldives"
+            "name": "Maldivi"
         },
         "MW": {
-            "name": "Malawi"
+            "name": "Malavi"
         },
         "MX": {
-            "name": "Mexico",
+            "name": "Meksiko",
             "states": {
                 "AGU": "Aguascalientes",
                 "BCN": "Baja California",
@@ -1087,34 +1087,34 @@
             }
         },
         "MY": {
-            "name": "Malaysia"
+            "name": "Malezija"
         },
         "MZ": {
-            "name": "Mozambique"
+            "name": "Mozambik"
         },
         "NA": {
-            "name": "Namibia"
+            "name": "Namibija"
         },
         "NC": {
-            "name": "New Caledonia"
+            "name": "Nova Kaledonija"
         },
         "NE": {
             "name": "Niger"
         },
         "NF": {
-            "name": "Norfolk Island"
+            "name": "Ostrvo Norfok"
         },
         "NG": {
-            "name": "Nigeria"
+            "name": "Nigerija"
         },
         "NI": {
-            "name": "Nicaragua"
+            "name": "Nikaragva"
         },
         "NL": {
-            "name": "Netherlands"
+            "name": "Holandija"
         },
         "NO": {
-            "name": "Norway"
+            "name": "Norveška"
         },
         "NP": {
             "name": "Nepal"
@@ -1126,7 +1126,7 @@
             "name": "Niue"
         },
         "NZ": {
-            "name": "New Zealand"
+            "name": "Novi Zeland"
         },
         "OM": {
             "name": "Oman"
@@ -1138,91 +1138,91 @@
             "name": "Peru"
         },
         "PF": {
-            "name": "French Polynesia"
+            "name": "Francuska Polinezija"
         },
         "PG": {
-            "name": "Papua New Guinea"
+            "name": "Papua Nova Gvineja"
         },
         "PH": {
-            "name": "Philippines"
+            "name": "Filipini"
         },
         "PK": {
             "name": "Pakistan"
         },
         "PL": {
-            "name": "Poland"
+            "name": "Poljska"
         },
         "PM": {
-            "name": "Saint Pierre and Miquelon"
+            "name": "Sen Pjer i Mikelon"
         },
         "PN": {
-            "name": "Pitcairn Islands"
+            "name": "Ostrva Pitkern"
         },
         "PR": {
-            "name": "Puerto Rico"
+            "name": "Portoriko"
         },
         "PS": {
-            "name": "Palestine"
+            "name": "Palestina"
         },
         "PT": {
-            "name": "Portugal"
+            "name": "Portugalija"
         },
         "PW": {
             "name": "Palau"
         },
         "PY": {
-            "name": "Paraguay"
+            "name": "Paragvaj"
         },
         "QA": {
-            "name": "Qatar"
+            "name": "Katar"
         },
         "RE": {
-            "name": "Réunion"
+            "name": "Reinion"
         },
         "RO": {
-            "name": "Romania"
+            "name": "Rumunija"
         },
         "RS": {
-            "name": "Serbia"
+            "name": "Srbija"
         },
         "RU": {
-            "name": "Russia"
+            "name": "Rusija"
         },
         "RW": {
-            "name": "Rwanda"
+            "name": "Ruanda"
         },
         "SA": {
-            "name": "Saudi Arabia"
+            "name": "Saudijska Arabija"
         },
         "SB": {
-            "name": "Solomon Islands"
+            "name": "Solomonska Ostrva"
         },
         "SC": {
-            "name": "Seychelles"
+            "name": "Sejšeli"
         },
         "SD": {
             "name": "Sudan"
         },
         "SE": {
-            "name": "Sweden"
+            "name": "Švedska"
         },
         "SG": {
-            "name": "Singapore"
+            "name": "Singapur"
         },
         "SH": {
-            "name": "Saint Helena"
+            "name": "Sveta Jelena"
         },
         "SI": {
-            "name": "Slovenia"
+            "name": "Slovenija"
         },
         "SJ": {
-            "name": "Svalbard and Jan Mayen"
+            "name": "Svalbard i Jan Majen"
         },
         "SK": {
-            "name": "Slovakia"
+            "name": "Slovačka"
         },
         "SL": {
-            "name": "Sierra Leone"
+            "name": "Sijera Leone"
         },
         "SM": {
             "name": "San Marino"
@@ -1231,88 +1231,88 @@
             "name": "Senegal"
         },
         "SO": {
-            "name": "Somalia"
+            "name": "Somalija"
         },
         "SR": {
-            "name": "Suriname"
+            "name": "Surinam"
         },
         "SS": {
-            "name": "South Sudan"
+            "name": "Južni Sudan"
         },
         "ST": {
-            "name": "São Tomé and Príncipe"
+            "name": "Sao Tome i Prinsipe"
         },
         "SV": {
-            "name": "El Salvador"
+            "name": "Salvador"
         },
         "SX": {
-            "name": "Sint Maarten"
+            "name": "Sint Marten"
         },
         "SY": {
-            "name": "Syria"
+            "name": "Sirija"
         },
         "SZ": {
-            "name": "Swaziland"
+            "name": "Svazilend"
         },
         "TC": {
-            "name": "Turks and Caicos Islands"
+            "name": "Ostrva Turks i Kejkos"
         },
         "TD": {
-            "name": "Chad"
+            "name": "Čad"
         },
         "TF": {
-            "name": "French Southern Territories"
+            "name": "Francuske Južne Teritorije"
         },
         "TG": {
             "name": "Togo"
         },
         "TH": {
-            "name": "Thailand"
+            "name": "Tajland"
         },
         "TJ": {
-            "name": "Tajikistan"
+            "name": "Tadžikistan"
         },
         "TK": {
             "name": "Tokelau"
         },
         "TL": {
-            "name": "East Timor"
+            "name": "Istočni Timor"
         },
         "TM": {
             "name": "Turkmenistan"
         },
         "TN": {
-            "name": "Tunisia"
+            "name": "Tunis"
         },
         "TO": {
             "name": "Tonga"
         },
         "TR": {
-            "name": "Turkey"
+            "name": "Turska"
         },
         "TT": {
-            "name": "Trinidad and Tobago"
+            "name": "Trinidad i Tobago"
         },
         "TV": {
             "name": "Tuvalu"
         },
         "TW": {
-            "name": "Taiwan"
+            "name": "Tajvan"
         },
         "TZ": {
-            "name": "Tanzania"
+            "name": "Tanzanija"
         },
         "UA": {
-            "name": "Ukraine"
+            "name": "Ukrajina"
         },
         "UG": {
             "name": "Uganda"
         },
         "UM": {
-            "name": "U.S. Minor Outlying Islands"
+            "name": "Udaljena ostrva SAD"
         },
         "US": {
-            "name": "United States",
+            "name": "Sjedinjene Američke Države",
             "states": {
                 "AA": "Armed Forces Americas",
                 "AE": "Armed Forces Europe",
@@ -1379,34 +1379,34 @@
             }
         },
         "UY": {
-            "name": "Uruguay"
+            "name": "Urugvaj"
         },
         "UZ": {
             "name": "Uzbekistan"
         },
         "VA": {
-            "name": "Vatican City"
+            "name": "Vatikan"
         },
         "VC": {
-            "name": "Saint Vincent and the Grenadines"
+            "name": "Sent Vinsent i Grenadini"
         },
         "VE": {
-            "name": "Venezuela"
+            "name": "Venecuela"
         },
         "VG": {
-            "name": "British Virgin Islands"
+            "name": "Britanska Devičanska Ostrva"
         },
         "VI": {
-            "name": "U.S. Virgin Islands"
+            "name": "Američka Devičanska Ostrva"
         },
         "VN": {
-            "name": "Vietnam"
+            "name": "Vijetnam"
         },
         "VU": {
             "name": "Vanuatu"
         },
         "WF": {
-            "name": "Wallis and Futuna"
+            "name": "Valis i Futuna"
         },
         "WS": {
             "name": "Samoa"
@@ -1415,19 +1415,19 @@
             "name": "Kosovo"
         },
         "YE": {
-            "name": "Yemen"
+            "name": "Jemen"
         },
         "YT": {
-            "name": "Mayotte"
+            "name": "Majot"
         },
         "ZA": {
-            "name": "South Africa"
+            "name": "Južnoafrička Republika"
         },
         "ZM": {
-            "name": "Zambia"
+            "name": "Zambija"
         },
         "ZW": {
-            "name": "Zimbabwe"
+            "name": "Zimbabve"
         }
     },
     "carrier": {

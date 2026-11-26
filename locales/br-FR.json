@@ -102,8 +102,7 @@
         "phone": "Niverenn-bellgomz",
         "postalCode": "Kod-post",
         "province": "Rannvro",
-        "dont_see_address": "Ne gavan ket ma chomlec'h",
-        "phone_number": "Niverenn bellgomz"
+        "dont_see_address": "Ne gavan ket ma chomlec'h"
     },
     "billing": {
         "title": "Fakturenniñ",
@@ -368,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Ar chomlec'h kas a zo direizh.",
             "E.TIMED_OUT": "Amzer gwiriañ ar chomlec'h zo echu. Klaskit en-dro.",
             "E.TIME_ZONE.UNAVAILABLE": "Titouroù ar gwerzhid-eur n'int ket hegerz.",
-            "E.PO_BOX.INTERNATIONAL": "Ne c'haller ket gwiriañ ar voest-post etrebroadel.",
-            "title": "Ne c'haller ket jediñ ar mizoù-kas.",
-            "description": "Klaskit en-dro diwezhatoc'h, pe deuit e darempred ganeomp."
+            "E.PO_BOX.INTERNATIONAL": "Ne c'haller ket gwiriañ ar voest-post etrebroadel."
         },
         "payment_failed": {
             "title": "Ne c'haller ket klokaat ho paeamant.",
@@ -403,10 +400,6 @@
         "customer_not_found": "Ar postel-mañ n'eo ket liammet ouzh kont ebet.",
         "invalid_credentials": "Postel pe ger kuzh direizh",
         "customer_current_password_invalid": "Ger-tremen direizh.",
-        "no_shipping_rates_found": {
-            "title": "Doare ebet evit an degas evit hoc'h urzhiad",
-            "description": "Adwelit ho chomlec'h post pe kit e darempred ganeomp."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "N'omp ket bet evit gwiriañ ho titouroù.",
@@ -1220,9 +1213,5 @@
         "ZW": {
             "name": "Zimbabwe"
         }
-    },
-    "alternative": {
-        "or": "Ou",
-        "continue_as_a_guest": "Kenderc'hel evel ur c'houviad"
     }
 }

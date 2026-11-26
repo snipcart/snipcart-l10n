@@ -102,8 +102,7 @@
         "phone": "Téléphone",
         "postalCode": "Code postal",
         "province": "Province",
-        "dont_see_address": "Je ne trouve pas mon adresse",
-        "phone_number": "Numéro de téléphone"
+        "dont_see_address": "Je ne trouve pas mon adresse"
     },
     "billing": {
         "title": "Facturation",
@@ -368,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adresse de livraison invalide.",
             "E.TIMED_OUT": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
             "E.TIME_ZONE.UNAVAILABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
-            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale.",
-            "title": "Impossible de calculer les frais de livraison.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance."
+            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale."
         },
         "payment_failed": {
             "title": "Impossible de compléter votre paiement.",
@@ -403,10 +400,6 @@
         "customer_not_found": "L'adresse e-mail n'est associée à aucun compte.",
         "invalid_credentials": "Courriel ou mot de passe invalide",
         "customer_current_password_invalid": "Mot de passe invalide.",
-        "no_shipping_rates_found": {
-            "title": "Pas de méthode de livraison disponible pour votre commande",
-            "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Nous n’avons pas pu vérifier vos informations.",

@@ -39,11 +39,6 @@
             "weekly": "每週 |||| %{smart_count} 週",
             "monthly": "每月 |||| %{smart_count} 月",
             "yearly": "每年 |||| %{smart_count} 年"
-        },
-        "subscription": {
-            "plan": "計畫",
-            "billed_on": "下次出帳日",
-            "payment_amount": "帳單金額"
         }
     },
     "subscription": {

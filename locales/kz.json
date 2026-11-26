@@ -2,10 +2,7 @@
     "default": {
         "loading": "Жүктелуде...",
         "error": "Қате пайда болды.",
-        "success": "Сәтті!",
-        "Loading...": "Жүктелуде...",
-        "An error occured.": "Қате орын алды.",
-        "Success!": "Сәтті өтті!"
+        "success": "Сәтті!"
     },
     "actions": {
         "edit": "Өңдеу",

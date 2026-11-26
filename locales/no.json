@@ -367,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Leveringsadressen er ugyldig.",
             "E.TIMED_OUT": "Tidsavbrudd ved adresseverifisering. Prøv igjen.",
             "E.TIME_ZONE.UNAVAILABLE": "Tidssoneinformasjon er ikke tilgjengelig.",
-            "E.PO_BOX.INTERNATIONAL": "Kan ikke verifisere internasjonal postboks.",
-            "title": "Kunne ikke kalkulere frakt",
-            "description": "Prøv igjen senere, eller kontakt oss for support."
+            "E.PO_BOX.INTERNATIONAL": "Kan ikke verifisere internasjonal postboks."
         },
         "payment_failed": {
             "title": "Kunne ikke behandle betaling",
@@ -402,10 +400,6 @@
         "customer_not_found": "E-postadressen er ikke knyttet til noen konto.",
         "invalid_credentials": "Ugyldig e-post eller passord.",
         "customer_current_password_invalid": "Ugyldig passord.",
-        "no_shipping_rates_found": {
-            "title": "Ingen fraktmetoder funnet for din ordre",
-            "description": "Vennligst gå gjennom fraktdetaljene dine, eller kontakt oss."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Vi kunne ikke bekrefte opplysningene dine.",

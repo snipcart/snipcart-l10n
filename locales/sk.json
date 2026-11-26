@@ -367,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Dodacia adresa je neplatná.",
             "E.TIMED_OUT": "Vypršal čas overenia adresy. Skúste to znova.",
             "E.TIME_ZONE.UNAVAILABLE": "Informácie o časovom pásme nie sú dostupné.",
-            "E.PO_BOX.INTERNATIONAL": "Medzinárodný poštový priečinok nie je možné overiť.",
-            "title": "Vyskytol sa problém pri vypočítaní výšky poštovného",
-            "description": "Skúste to opäť neskôr alebo nás kontaktujte."
+            "E.PO_BOX.INTERNATIONAL": "Medzinárodný poštový priečinok nie je možné overiť."
         },
         "payment_failed": {
             "title": "Vyskytol sa problém pri spracovaní platby",
@@ -402,10 +400,6 @@
         "customer_not_found": "Emailová adresa nie je prepojená so žiadnym účtom.",
         "invalid_credentials": "Nesprávny email alebo heslo.",
         "customer_current_password_invalid": "Nesprávne heslo.",
-        "no_shipping_rates_found": {
-            "title": "Nie je dostupný spôsob dodania pre Vašu objednávku",
-            "description": "Prosíme skontrolujte Vašu dodaciu adresu alebo nás kontaktujte."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Nepodarilo sa nám overiť Vaše údaje.",

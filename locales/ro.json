@@ -400,10 +400,6 @@
         "customer_not_found": "Adresa de email introdusă nu este asociată nici unui cont.",
         "invalid_credentials": "Adresa de email sau Parola nu sunt valide.",
         "customer_current_password_invalid": "Parola nu este validă.",
-        "no_shipping_rates_found": {
-            "title": "Nici o metodă de livrare nu este disponibilă pentru adresa dvs.",
-            "description": "Vă rugăm verificați adresa de livrare sau contactați-ne pentru mai multe detalii."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Nu am putut verifica datele dumneavoastră.",

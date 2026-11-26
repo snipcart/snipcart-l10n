@@ -367,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "عنوان التوصيل غير صالح.",
             "E.TIMED_OUT": "انتهت مهلة التحقق من العنوان. يرجى المحاولة مرة أخرى.",
             "E.TIME_ZONE.UNAVAILABLE": "معلومات المنطقة الزمنية غير متاحة.",
-            "E.PO_BOX.INTERNATIONAL": "تعذّر التحقق من صندوق البريد الدولي.",
-            "title": "غير قادر على حساب الشحن",
-            "description": "حاول مرة أخرى لاحقًا ، أو اتصل بنا للحصول على الدعم."
+            "E.PO_BOX.INTERNATIONAL": "تعذّر التحقق من صندوق البريد الدولي."
         },
         "payment_failed": {
             "title": "غير قادر على معالجة الدفع",
@@ -402,10 +400,6 @@
         "customer_not_found": "البريد الإلكتروني غير مرتبط بأي حساب.",
         "invalid_credentials": "البريد الإلكتروني أو كلمة السر خاطئة.",
         "customer_current_password_invalid": "كلمة المرور غير صحيحة.",
-        "no_shipping_rates_found": {
-            "title": "لا توجد طريقة شحن متاحة لطلبك",
-            "description": "يرجى مراجعة عنوان الشحن أو الاتصال بنا."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "تعذر علينا التحقق من بياناتك.",
