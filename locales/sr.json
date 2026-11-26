@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nismo uspeli da potvrdimo Vaše podatke.",
-                "description": "Molimo proverite svoje ime, email adresu i broj porudžbine, pa pokušajte ponovo."
+                "description": "Proverite email i broj porudžbine, pa pokušajte ponovo."
             },
             "confirm_failed": {
                 "title": "Nismo uspeli da obradimo Vaš zahtev za odustajanje.",

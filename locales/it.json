@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "L'indirizzo di spedizione non è valido.",
             "E.TIMED_OUT": "Timeout nella verifica dell'indirizzo. Riprova.",
             "E.TIME_ZONE.UNAVAILABLE": "Informazioni sul fuso orario non disponibili.",
-            "E.PO_BOX.INTERNATIONAL": "La spedizione internazionale a indirizzi di casella postale non è possibile."
+            "E.PO_BOX.INTERNATIONAL": "Impossibile verificare la casella postale internazionale."
         },
         "payment_failed": {
             "title": "Impossibile completare il pagamento",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Non siamo riusciti a verificare i tuoi dati.",
-                "description": "Controlla il tuo nome, l'email e il numero d'ordine, quindi riprova."
+                "description": "Controlla la tua email e il numero d'ordine, poi riprova."
             },
             "confirm_failed": {
                 "title": "Non siamo riusciti a elaborare la tua richiesta di recesso.",

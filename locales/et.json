@@ -117,7 +117,7 @@
             "title": "Uuenda makseviisi",
             "outstanding_payment_failed": {
                 "title": "Makse ebaõnnestus",
-                "description": "Uuendage oma makseviisi jätkamiseks."
+                "description": "Teie makseviis uuendati, kuid meil ei õnnestunud tasumata summat debiteerida. Palun kasutage mõnda teist makseviisi."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Kinnita parool",
         "requires_action": {
             "title": "Kontrollige oma e-posti",
-            "description": "Saatsime teile e-kirja. Järgige juhiseid registreerimise lõpetamiseks."
+            "description": "Seda e-posti aadressi on juba tellimuse vormistamiseks kasutatud. Palun viige registreerimine lõpule teile e-postiga saadetud lingi kaudu."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Sisestage kehtiv e-posti aadress",
         "quantity_revised": "Kogust on laoseisu tõttu muudetud.",
         "quantity_out_of_stock": "Kahjuks pole see toode laos. Eemaldage see ostukorvist jätkamiseks.",
-        "disabled_country": "Saatmine sellesse riiki pole saadaval.",
+        "disabled_country": "Valitud riik ei ole tellimuse vormistamiseks saadaval.",
         "error_payment_items_are_invalid": {
             "title": "Mõned tooted ostukorvis on vigased.",
             "description": "Palun vaadake oma tellimus üle või proovige hiljem uuesti."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Tarneaadress on vigane.",
             "E.TIMED_OUT": "Aadressi kontrolli aeg lõppes. Proovige uuesti.",
             "E.TIME_ZONE.UNAVAILABLE": "Ajavööndi teave pole saadaval.",
-            "E.PO_BOX.INTERNATIONAL": "Rahvusvaheline saatmine postkasti aadressile pole võimalik."
+            "E.PO_BOX.INTERNATIONAL": "Rahvusvahelist postkasti aadressi ei saa kontrollida."
         },
         "payment_failed": {
             "title": "Makset ei saanud töödelda",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Me ei suutnud teie andmeid kinnitada.",
-                "description": "Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
+                "description": "Kontrollige oma e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
             },
             "confirm_failed": {
                 "title": "Me ei suutnud teie taganemistaotlust töödelda.",

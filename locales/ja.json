@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "配送先住所が無効です。",
             "E.TIMED_OUT": "住所確認がタイムアウトしました。もう一度お試しください。",
             "E.TIME_ZONE.UNAVAILABLE": "タイムゾーン情報が利用できません。",
-            "E.PO_BOX.INTERNATIONAL": "私書箱宛ての国際配送はできません。"
+            "E.PO_BOX.INTERNATIONAL": "海外の私書箱を確認できません。"
         },
         "payment_failed": {
             "title": "お支払いを処理できません",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "ご入力内容を確認できませんでした。",
-                "description": "お名前、メールアドレス、注文番号をご確認のうえ、再度お試しください。"
+                "description": "メールアドレスとご注文番号をご確認のうえ、もう一度お試しください。"
             },
             "confirm_failed": {
                 "title": "撤回リクエストを処理できませんでした。",

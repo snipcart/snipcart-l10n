@@ -118,7 +118,7 @@
             "title": "Hizivaat an doare paeañ",
             "outstanding_payment_failed": {
                 "title": "C'hwitet eo ar paeamant",
-                "description": "Hizivait an doare paeañ evit kenderc'hel."
+                "description": "Hizivaet eo bet ho toare paeañ, met n'omp ket deuet a-benn da dennañ ar sammad dleet. Implijit un doare paeañ all, mar plij."
             }
         }
     },
@@ -148,8 +148,8 @@
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Ur c'houmanantiñ en deus ur paeamant gourdrouz",
-                "description": "Ur c'houmanantiñ gant ur paeamant gourdrouz ho peus. Hizivait an doare paeañ mar plij."
+                "title": "Ur paeamant a zo dleet evit ur c'houmanant",
+                "description": "Ur c'houmanant gant ur paeamant diwezhat hoc'h eus evit poent. Hizivait ho toare paeañ en ur glikañ war Kemmañ en e gichen en ho titouroù, mar plij."
             }
         }
     },
@@ -189,7 +189,7 @@
         "confirm_password": "Kadarnaat ar ger kuzh",
         "requires_action": {
             "title": "Gwiriit ho postel",
-            "description": "Kaset hon eus ur postel deoc'h. Heuilhit an titouroù evit echuiñ an enskrivadur."
+            "description": "Implijet eo bet ar chomlec'h postel-mañ dija evit ober un urzhiad. Echuit an enskrivadur gant al liamm kaset deoc'h dre bostel, mar plij."
         }
     },
     "guest_checkout": {
@@ -213,7 +213,7 @@
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Paeamant gourdrouz",
+            "deferred_payment_title": "Paeamant daleet",
             "deferred_payment_instructions": "En ur sevel an urzhiad-mañ e asantit da baeañ diwezhatoc'h dre an doare spiset gant ar gwerzhour.",
             "card_label": "Kartenn-gred",
             "card_number": "Niverenn ar gartenn",
@@ -282,7 +282,7 @@
         "email": "Bizskrivit ur chomlec’h postel e talvoud",
         "quantity_revised": "Kemmet eo bet an niver abalamour d'ar stok.",
         "quantity_out_of_stock": "Ar produ-mañ n'emañ ket er stok ken. Tennit anezhañ eus ar panerad evit kenderc'hel.",
-        "disabled_country": "N'eo ket posupl kas d'ar vro-mañ.",
+        "disabled_country": "N'eo ket hegerz ar vro diuzet evit paeañ.",
         "error_payment_items_are_invalid": {
             "title": "Produioù zo en ho paner zo direizh",
             "description": "Adwelit hoc'h urzhiad pe klaskit en-dro diwezhatoc'h."
@@ -368,7 +368,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Ar chomlec'h kas a zo direizh.",
             "E.TIMED_OUT": "Amzer gwiriañ ar chomlec'h zo echu. Klaskit en-dro.",
             "E.TIME_ZONE.UNAVAILABLE": "Titouroù ar gwerzhid-eur n'int ket hegerz.",
-            "E.PO_BOX.INTERNATIONAL": "N'eo ket posupl kas etrevroadel da ur voest-lizher.",
+            "E.PO_BOX.INTERNATIONAL": "Ne c'haller ket gwiriañ ar voest-post etrebroadel.",
             "title": "Ne c'haller ket jediñ ar mizoù-kas.",
             "description": "Klaskit en-dro diwezhatoc'h, pe deuit e darempred ganeomp."
         },
@@ -410,7 +410,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "N'omp ket bet evit gwiriañ ho titouroù.",
-                "description": "Gwiriit hoc'h anv, ho postel hag ho niverenn urzhiad, ha klaskit en-dro."
+                "description": "Gwiriit ho postel hag ho niverenn urzhiad, ha klaskit en-dro."
             },
             "confirm_failed": {
                 "title": "N'omp ket bet evit treiñ ho koulenn tennañ kuit.",

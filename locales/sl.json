@@ -281,7 +281,7 @@
         "email": "Vnesite pravilen e-naslov",
         "quantity_revised": "Količina je bila posodobljena glede na zalogo.",
         "quantity_out_of_stock": "Tega izdelka trenutno ni na zalogi, odstranite ga iz košarice.",
-        "disabled_country": "Izbrana država ni na voljo.",
+        "disabled_country": "Izbrana država ni na voljo za zaključek nakupa.",
         "error_payment_items_are_invalid": {
             "title": "Nekateri izdelki v vaši košarici so neveljavni",
             "description": "Preglejte naročilo ali poskusite kasneje."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Naslov za dostavo je neveljaven.",
             "E.TIMED_OUT": "Čas za preverjanje naslova je potekel. Poskusite znova.",
             "E.TIME_ZONE.UNAVAILABLE": "Podatki o časovnem pasu niso na voljo.",
-            "E.PO_BOX.INTERNATIONAL": "Mednarodna dostava na naslov poštnega predala ni mogoča."
+            "E.PO_BOX.INTERNATIONAL": "Mednarodnega poštnega predala ni mogoče preveriti."
         },
         "payment_failed": {
             "title": "Plačilo ni bilo obdelano",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Vaših podatkov nismo mogli preveriti.",
-                "description": "Preverite svoje ime, e-poštni naslov in številko naročila, nato poskusite znova."
+                "description": "Preverite e-naslov in številko naročila ter poskusite znova."
             },
             "confirm_failed": {
                 "title": "Vaše zahteve za odstop nismo mogli obdelati.",

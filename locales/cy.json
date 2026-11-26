@@ -117,7 +117,7 @@
             "title": "Diweddaru'r dull talu",
             "outstanding_payment_failed": {
                 "title": "Methodd y taliad",
-                "description": "Diweddarwch eich dull talu i barhau."
+                "description": "Diweddarwyd eich dull talu, ond nid oedd modd i ni godi'r balans sy'n ddyledus. Defnyddiwch ddull talu arall."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Cadarnhau cyfrinair",
         "requires_action": {
             "title": "Gwiriwch eich e-bost",
-            "description": "Rydym wedi anfon e-bost atoch. Dilynwch y cyfarwyddiadau i gwblhau'r cofrestriad."
+            "description": "Mae'r cyfeiriad e-bost hwn eisoes wedi'i ddefnyddio i gwblhau archeb. Cwblhewch y broses gofrestru drwy ddefnyddio'r ddolen a anfonwyd atoch drwy e-bost."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Rhowch gyfeiriad e-bost dilys",
         "quantity_revised": "Mae'r nifer wedi'i addasu oherwydd cyfyngiadau stoc.",
         "quantity_out_of_stock": "Mae'n ddrwg gennym, mae'r eitem hon allan o stoc. Tynnwch hi o'r fasged i barhau.",
-        "disabled_country": "Nid yw cludo i'r wlad hon ar gael.",
+        "disabled_country": "Nid yw'r wlad a ddewiswyd ar gael ar gyfer talu.",
         "error_payment_items_are_invalid": {
             "title": "Mae eich basged yn cynnwys eitemau annilys.",
             "description": "Adolygwch eich archeb neu rhowch gynnig arall arni'n ddiweddarach."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Nid yw'r cyfeiriad danfon yn ddilys.",
             "E.TIMED_OUT": "Aeth y gwiriad cyfeiriad dros yr amser. Rhowch gynnig arall arni.",
             "E.TIME_ZONE.UNAVAILABLE": "Nid yw gwybodaeth y cylchfa amser ar gael.",
-            "E.PO_BOX.INTERNATIONAL": "Nid yw cludo rhyngwladol i flychau post yn bosibl."
+            "E.PO_BOX.INTERNATIONAL": "Methu gwirio'r Blwch Post rhyngwladol."
         },
         "payment_failed": {
             "title": "Ni fu'n bosibl prosesu'r taliad",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Methwyd dilysu'ch manylion.",
-                "description": "Gwiriwch eich enw, eich cyfeiriad e-bost a rhif eich archeb, ac yna rhowch gynnig arall arni."
+                "description": "Gwiriwch eich e-bost a rhif eich archeb, yna rhowch gynnig arall arni."
             },
             "confirm_failed": {
                 "title": "Methwyd prosesu'ch cais tynnu'n ôl.",

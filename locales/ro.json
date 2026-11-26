@@ -117,7 +117,7 @@
             "title": "Actualizați metoda de plată",
             "outstanding_payment_failed": {
                 "title": "Plata a eșuat",
-                "description": "Actualizați metoda de plată pentru a continua."
+                "description": "Metoda de plată a fost actualizată, însă nu am putut încasa soldul restant. Vă rugăm să folosiți o altă metodă de plată."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Confirmă parola",
         "requires_action": {
             "title": "Verificați emailul",
-            "description": "V-am trimis un email. Urmați instrucțiunile pentru a finaliza înregistrarea."
+            "description": "Această adresă de email a fost deja folosită pentru finalizarea unei comenzi. Vă rugăm să finalizați înregistrarea folosind linkul trimis pe email."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Vă rugăm introduceți o adresă de email validă",
         "quantity_revised": "Cantitatea a fost modificată datorită limitărilor de stoc.",
         "quantity_out_of_stock": "Din păcate acest produs nu mai este disponibil. Vă rugăm să-l eliminați din coș pentru a continua.",
-        "disabled_country": "Livrarea în această țară nu este disponibilă.",
+        "disabled_country": "Țara selectată nu este disponibilă pentru finalizarea comenzii.",
         "error_payment_items_are_invalid": {
             "title": "Anumite produse din coșul Dvs nu sunt valide.",
             "description": "Vă rugăm verificați coșul sau încercați mai târziu."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adresa de livrare este invalidă.",
             "E.TIMED_OUT": "Verificarea adresei a expirat. Încercați din nou.",
             "E.TIME_ZONE.UNAVAILABLE": "Informațiile despre fusul orar nu sunt disponibile.",
-            "E.PO_BOX.INTERNATIONAL": "Livrarea internațională la o căsuță poștală nu este posibilă."
+            "E.PO_BOX.INTERNATIONAL": "Căsuța poștală internațională nu poate fi verificată."
         },
         "payment_failed": {
             "title": "Nu am putut procesa plata",
@@ -407,7 +407,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nu am putut verifica datele dumneavoastră.",
-                "description": "Verificați numele, adresa de email și numărul comenzii, apoi încercați din nou."
+                "description": "Verificați adresa de email și numărul comenzii, apoi încercați din nou."
             },
             "confirm_failed": {
                 "title": "Nu am putut procesa solicitarea dumneavoastră de retragere.",

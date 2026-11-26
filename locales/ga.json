@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Níorbh fhéidir linn do shonraí a fhíorú.",
-                "description": "Seiceáil d'ainm, do sheoladh ríomhphoist agus uimhir an ordaithe, agus déan iarracht arís."
+                "description": "Seiceáil do sheoladh ríomhphoist agus d'uimhir ordaithe, ansin bain triail eile as."
             },
             "confirm_failed": {
                 "title": "Níorbh fhéidir linn d'iarratas tarraingthe siar a phróiseáil.",

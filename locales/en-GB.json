@@ -293,8 +293,7 @@
             "E.STATE.INVALID": "County is invalid.",
             "E.ADDRESS.DELIVERY.INVALID": "Delivery address is invalid.",
             "E.TIMED_OUT": "Address verification timed out. Please try again.",
-            "E.TIME_ZONE.UNAVAILABLE": "Time zone information is unavailable.",
-            "E.PO_BOX.INTERNATIONAL": "International delivery to PO Box addresses is not possible."
+            "E.TIME_ZONE.UNAVAILABLE": "Time zone information is unavailable."
         },
         "payment_failed": {
             "title": "Unable to process payment",

@@ -117,7 +117,7 @@
             "title": "결제 수단 업데이트",
             "outstanding_payment_failed": {
                 "title": "결제 실패",
-                "description": "계속하려면 결제 수단을 업데이트하세요."
+                "description": "결제 수단이 업데이트되었지만 미납 잔액을 청구하지 못했습니다. 다른 결제 수단을 사용해 주세요."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "비밀번호 확인",
         "requires_action": {
             "title": "이메일을 확인하세요",
-            "description": "이메일을 보냈습니다. 안내에 따라 회원가입을 완료하세요."
+            "description": "이 이메일 주소는 이미 주문 완료에 사용되었습니다. 이메일로 보내드린 링크를 사용하여 가입 절차를 완료해 주세요."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "유효한 이메일 주소를 입력하세요",
         "quantity_revised": "재고 제한으로 수량이 조정되었습니다.",
         "quantity_out_of_stock": "죄송합니다. 이 상품은 재고가 없습니다. 계속하려면 장바구니에서 제거하세요.",
-        "disabled_country": "이 국가로의 배송이 불가합니다.",
+        "disabled_country": "선택한 국가에서는 결제를 진행할 수 없습니다.",
         "error_payment_items_are_invalid": {
             "title": "장바구니에 유효하지 않은 항목이 있습니다.",
             "description": "주문을 확인하거나 나중에 다시 시도하세요."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "배송 주소가 유효하지 않습니다.",
             "E.TIMED_OUT": "주소 확인 시간이 초과되었습니다. 다시 시도하세요.",
             "E.TIME_ZONE.UNAVAILABLE": "시간대 정보를 사용할 수 없습니다.",
-            "E.PO_BOX.INTERNATIONAL": "사서함으로의 국제 배송은 불가합니다."
+            "E.PO_BOX.INTERNATIONAL": "국제 사서함을 확인할 수 없습니다."
         },
         "payment_failed": {
             "title": "결제를 처리할 수 없습니다",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "입력하신 정보를 확인할 수 없습니다.",
-                "description": "성함, 이메일, 주문 번호를 확인하신 후 다시 시도해 주십시오."
+                "description": "이메일과 주문 번호를 확인한 후 다시 시도해 주세요."
             },
             "confirm_failed": {
                 "title": "철회 요청을 처리할 수 없습니다.",

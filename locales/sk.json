@@ -117,7 +117,7 @@
             "title": "Aktualizovať platobnú metódu",
             "outstanding_payment_failed": {
                 "title": "Platba zlyhala",
-                "description": "Aktualizujte svoju platobnú metódu pre pokračovanie."
+                "description": "Váš spôsob platby bol aktualizovaný, no nepodarilo sa nám zaúčtovať neuhradenú sumu. Použite, prosím, iný spôsob platby."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Potvrdiť heslo",
         "requires_action": {
             "title": "Skontrolujte svoj email",
-            "description": "Poslali sme vám email. Postupujte podľa pokynov na dokončenie registrácie."
+            "description": "Táto emailová adresa už bola použitá na dokončenie objednávky. Dokončite, prosím, registráciu pomocou odkazu, ktorý sme vám poslali emailom."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Vyplnte platnú emailovú adresu",
         "quantity_revised": "Počet bol pozmenený kvôli aktuálnemu skladu zásob.",
         "quantity_out_of_stock": "Ospravedlňujeme sa ale tento produkt je momentálne vyprvypočítavanídaný, odstránte ho z košíka pre pokračovanie v nákupe.",
-        "disabled_country": "Doručenie do tejto krajiny nie je dostupné.",
+        "disabled_country": "Vybraná krajina nie je pri dokončení objednávky dostupná.",
         "error_payment_items_are_invalid": {
             "title": "Niektoré položky v Košíku su neplatné",
             "description": "Prosíme skontrolujte Vašu objednávku alebo to skúste opäť neskôr."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Dodacia adresa je neplatná.",
             "E.TIMED_OUT": "Vypršal čas overenia adresy. Skúste to znova.",
             "E.TIME_ZONE.UNAVAILABLE": "Informácie o časovom pásme nie sú dostupné.",
-            "E.PO_BOX.INTERNATIONAL": "Medzinárodné doručenie na adresu poštovej schránky nie je možné.",
+            "E.PO_BOX.INTERNATIONAL": "Medzinárodný poštový priečinok nie je možné overiť.",
             "title": "Vyskytol sa problém pri vypočítaní výšky poštovného",
             "description": "Skúste to opäť neskôr alebo nás kontaktujte."
         },
@@ -409,7 +409,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nepodarilo sa nám overiť Vaše údaje.",
-                "description": "Skontrolujte prosím svoje meno, e-mailovú adresu a číslo objednávky a skúste to znova."
+                "description": "Skontrolujte emailovú adresu a číslo objednávky a skúste to znova."
             },
             "confirm_failed": {
                 "title": "Nepodarilo sa nám spracovať Vašu žiadosť o odstúpenie.",

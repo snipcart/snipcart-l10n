@@ -117,7 +117,7 @@
             "title": "To'lov usulini yangilash",
             "outstanding_payment_failed": {
                 "title": "To'lov amalga oshmadi",
-                "description": "Davom etish uchun to'lov usulini yangilang."
+                "description": "To'lov usulingiz yangilandi, biroq qarzdorlikni yechib ololmadik. Iltimos, boshqa to'lov usulidan foydalaning."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Parolni tasdiqlash",
         "requires_action": {
             "title": "Elektron pochtangizni tekshiring",
-            "description": "Sizga xat yubordik. Ro'yxatdan o'tishni yakunlash uchun ko'rsatmalarga amal qiling."
+            "description": "Bu elektron pochta manzili buyurtmani rasmiylashtirish uchun allaqachon ishlatilgan. Iltimos, elektron pochtangizga yuborilgan havola orqali ro'yxatdan o'tishni yakunlang."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Iltimos, to'g'ri e-mail manzilingizni ko'rsating.",
         "quantity_revised": "Ombordagi cheklovlar tufayli mahsulot soni o'zgartirildi.",
         "quantity_out_of_stock": "Afsuski, bu mahsulot omborda yo'q. Davom etish uchun uni xarid savatidan o'chirib tashlang.",
-        "disabled_country": "Bu mamlakatga yetkazib berish mavjud emas.",
+        "disabled_country": "Tanlangan mamlakat buyurtmani rasmiylashtirish uchun mavjud emas.",
         "error_payment_items_are_invalid": {
             "title": "Xarid savatingizdagi ayrim mahsulotlarda xato bor.",
             "description": "Iltimos, buyurtmangizni tekshiring va qaytadan urinib ko'ring."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Yetkazib berish manzili yaroqsiz.",
             "E.TIMED_OUT": "Manzilni tekshirish vaqti tugadi. Qayta urinib ko'ring.",
             "E.TIME_ZONE.UNAVAILABLE": "Vaqt zonasi ma'lumotlari mavjud emas.",
-            "E.PO_BOX.INTERNATIONAL": "Pochta qutisi manziliga xalqaro yetkazib berish mumkin emas."
+            "E.PO_BOX.INTERNATIONAL": "Xalqaro abonent qutisini tekshirib bo'lmadi."
         },
         "payment_failed": {
             "title": "To'lovni amalga oshira olmayapmiz",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Ma'lumotlaringizni tasdiqlay olmadik.",
-                "description": "Ismingiz, elektron pochtangiz va buyurtma raqamingizni tekshirib, qayta urinib ko'ring."
+                "description": "Elektron pochta va buyurtma raqamini tekshirib, qaytadan urinib ko'ring."
             },
             "confirm_failed": {
                 "title": "Voz kechish so'rovingizni qayta ishlay olmadik.",

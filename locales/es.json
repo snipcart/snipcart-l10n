@@ -117,7 +117,7 @@
             "title": "Actualizar método de pago",
             "outstanding_payment_failed": {
                 "title": "Pago fallido",
-                "description": "Actualice su método de pago para continuar."
+                "description": "Tu método de pago se ha actualizado, pero no hemos podido cobrar el saldo pendiente. Por favor, utiliza otro método de pago."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Confirmar contraseña",
         "requires_action": {
             "title": "Revise su correo electrónico",
-            "description": "Le hemos enviado un correo electrónico. Siga las instrucciones para completar el registro."
+            "description": "Esta dirección email ya se ha utilizado para completar un pedido. Por favor, completa el proceso de registro con el link que se te ha enviado por email."
         }
     },
     "guest_checkout": {
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "La dirección de envío no es válida.",
             "E.TIMED_OUT": "Se agotó el tiempo de verificación de la dirección. Inténtelo de nuevo.",
             "E.TIME_ZONE.UNAVAILABLE": "La información de zona horaria no está disponible.",
-            "E.PO_BOX.INTERNATIONAL": "No es posible el envío internacional a direcciones de apartado postal."
+            "E.PO_BOX.INTERNATIONAL": "No se puede verificar el apartado postal internacional."
         },
         "payment_failed": {
             "title": "No se pudo procesar el pago",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "No hemos podido verificar sus datos.",
-                "description": "Compruebe su nombre, email y número de pedido, e inténtelo de nuevo."
+                "description": "Comprueba tu email y tu número de pedido, e inténtalo de nuevo."
             },
             "confirm_failed": {
                 "title": "No hemos podido procesar su solicitud de desistimiento.",

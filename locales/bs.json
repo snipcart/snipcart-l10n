@@ -117,7 +117,7 @@
             "title": "Ažuriraj način plaćanja",
             "outstanding_payment_failed": {
                 "title": "Plaćanje nije uspjelo",
-                "description": "Ažurirajte način plaćanja za nastavak."
+                "description": "Vaš način plaćanja je ažuriran, ali nismo uspjeli naplatiti dospjeli iznos. Molimo koristite drugi način plaćanja."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Potvrdi lozinku",
         "requires_action": {
             "title": "Provjerite svoj email",
-            "description": "Poslali smo vam email. Slijedite upute za završetak registracije."
+            "description": "Ova email adresa je već korištena za dovršavanje narudžbe. Molimo dovršite registraciju putem linka koji vam je poslan emailom."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Unesite valjanu email adresu",
         "quantity_revised": "Količina je prilagođena zbog ograničenja zaliha.",
         "quantity_out_of_stock": "Nažalost, ovaj artikal nije na zalihi. Uklonite ga iz korpe za nastavak.",
-        "disabled_country": "Dostava u ovu državu nije dostupna.",
+        "disabled_country": "Odabrana država nije dostupna za plaćanje.",
         "error_payment_items_are_invalid": {
             "title": "Neki artikli u korpi nisu valjani.",
             "description": "Pregledajte narudžbu ili pokušajte ponovo."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adresa dostave nije valjana.",
             "E.TIMED_OUT": "Isteklo je vrijeme za provjeru adrese. Pokušajte ponovo.",
             "E.TIME_ZONE.UNAVAILABLE": "Podaci o vremenskoj zoni nisu dostupni.",
-            "E.PO_BOX.INTERNATIONAL": "Međunarodna dostava na poštanski pretinac nije moguća."
+            "E.PO_BOX.INTERNATIONAL": "Nije moguće provjeriti međunarodni poštanski pretinac."
         },
         "payment_failed": {
             "title": "Plaćanje nije uspjelo",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nismo uspjeli da potvrdimo Vaše podatke.",
-                "description": "Molimo provjerite svoje ime, email adresu i broj narudžbe, pa pokušajte ponovo."
+                "description": "Provjerite svoj email i broj narudžbe, pa pokušajte ponovo."
             },
             "confirm_failed": {
                 "title": "Nismo uspjeli da obradimo Vaš zahtjev za odustajanje.",

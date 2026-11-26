@@ -363,8 +363,7 @@
             "E.STATE.INVALID": "Kanton ist ungültig.",
             "E.ADDRESS.DELIVERY.INVALID": "Lieferadresse ist ungültig.",
             "E.TIMED_OUT": "Zeitüberschreitung bei der Adressprüfung. Versuchen Sie es erneut.",
-            "E.TIME_ZONE.UNAVAILABLE": "Zeitzoneninformationen nicht verfügbar.",
-            "E.PO_BOX.INTERNATIONAL": "Internationale Lieferung an Postfachadressen ist nicht möglich."
+            "E.TIME_ZONE.UNAVAILABLE": "Zeitzoneninformationen nicht verfügbar."
         },
         "payment_failed": {
             "title": "Zahlung konnte nicht duchgeführt werden",

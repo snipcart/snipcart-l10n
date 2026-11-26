@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nuk arritëm të verifikojmë të dhënat tuaja.",
-                "description": "Ju lutemi kontrolloni emrin, adresën e emailit dhe numrin e porosisë, pastaj provoni përsëri."
+                "description": "Kontrollo emailin dhe numrin e porosisë, pastaj provo përsëri."
             },
             "confirm_failed": {
                 "title": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje.",

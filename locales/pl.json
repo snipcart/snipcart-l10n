@@ -117,7 +117,7 @@
             "title": "Zaktualizuj metodę płatności",
             "outstanding_payment_failed": {
                 "title": "Płatność nie powiodła się",
-                "description": "Zaktualizuj swoją metodę płatności, aby kontynuować."
+                "description": "Twoja metoda płatności została zaktualizowana, ale nie udało się pobrać zaległej kwoty. Użyj innej metody płatności."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Potwierdź hasło",
         "requires_action": {
             "title": "Sprawdź swoją skrzynkę email",
-            "description": "Wysłaliśmy Ci wiadomość email. Postępuj zgodnie z instrukcjami, aby dokończyć rejestrację."
+            "description": "Ten adres email został już użyty do złożenia zamówienia. Dokończ rejestrację, korzystając z linku wysłanego do Ciebie emailem."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Proszę podać poprawny adres email",
         "quantity_revised": "Ilość została poprawiona ze względu na ilości magazynowe.",
         "quantity_out_of_stock": "Niestety, tego przedmiotu nie ma na magazynie, usuń go z koszyka aby kontynuować zakupy.",
-        "disabled_country": "Dostawa do tego kraju nie jest dostępna.",
+        "disabled_country": "Wybrany kraj nie jest dostępny przy składaniu zamówienia.",
         "error_payment_items_are_invalid": {
             "title": "Niektóre przedmioty w Twoim koszyku są nieprawidłowe.",
             "description": "Proszę sprawdź jeszcze raz swoje zamówienie, lub spróbuj ponownie."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adres dostawy jest nieprawidłowy.",
             "E.TIMED_OUT": "Upłynął czas weryfikacji adresu. Spróbuj ponownie.",
             "E.TIME_ZONE.UNAVAILABLE": "Informacje o strefie czasowej są niedostępne.",
-            "E.PO_BOX.INTERNATIONAL": "Międzynarodowa dostawa na adres skrytki pocztowej nie jest możliwa."
+            "E.PO_BOX.INTERNATIONAL": "Nie można zweryfikować międzynarodowej skrytki pocztowej."
         },
         "payment_failed": {
             "title": "Nie udało się przetworzyć płatności",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nie udało nam się zweryfikować Twoich danych.",
-                "description": "Sprawdź swoje imię, adres e-mail oraz numer zamówienia, a następnie spróbuj ponownie."
+                "description": "Sprawdź adres email i numer zamówienia, a następnie spróbuj ponownie."
             },
             "confirm_failed": {
                 "title": "Nie udało nam się przetworzyć Twojego wniosku o odstąpienie.",

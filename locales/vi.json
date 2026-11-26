@@ -117,7 +117,7 @@
             "title": "Cập nhật phương thức thanh toán",
             "outstanding_payment_failed": {
                 "title": "Thanh toán thất bại",
-                "description": "Cập nhật phương thức thanh toán của bạn để tiếp tục."
+                "description": "Phương thức thanh toán của bạn đã được cập nhật, tuy nhiên chúng tôi không thể thu số dư còn nợ. Vui lòng sử dụng phương thức thanh toán khác."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Xác nhận mật khẩu",
         "requires_action": {
             "title": "Kiểm tra email của bạn",
-            "description": "Chúng tôi đã gửi email cho bạn. Làm theo hướng dẫn để hoàn tất đăng ký."
+            "description": "Địa chỉ email này đã được dùng để hoàn tất một đơn hàng. Vui lòng hoàn tất đăng ký bằng đường dẫn đã được gửi cho bạn qua email."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Hãy cung cấp một email phù hợp",
         "quantity_revised": "Số lượng đã được thay đổi vì hàng có giới hạn",
         "quantity_out_of_stock": "Rất tiếc, số lượng của sản phẩm này đã hết hàng, hãy bỏ khỏi giỏ hàng để tiếp tục.",
-        "disabled_country": "Không hỗ trợ giao hàng đến quốc gia này.",
+        "disabled_country": "Quốc gia đã chọn không khả dụng để thanh toán.",
         "error_payment_items_are_invalid": {
             "title": "Một số sản phẩm trong giỏ hàng không hợp lệ",
             "description": "Hãy coi lại giỏ hàng hoặc thử lại trong giây lát."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Địa chỉ giao hàng không hợp lệ.",
             "E.TIMED_OUT": "Hết thời gian xác minh địa chỉ. Vui lòng thử lại.",
             "E.TIME_ZONE.UNAVAILABLE": "Thông tin múi giờ không khả dụng.",
-            "E.PO_BOX.INTERNATIONAL": "Không thể giao hàng quốc tế đến địa chỉ hộp thư."
+            "E.PO_BOX.INTERNATIONAL": "Không thể xác minh hộp thư bưu điện quốc tế."
         },
         "payment_failed": {
             "title": "Không thể thanh toán đơn hàng",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Chúng tôi không thể xác minh thông tin của bạn.",
-                "description": "Vui lòng kiểm tra lại họ tên, email và mã đơn hàng, sau đó thử lại."
+                "description": "Kiểm tra email và số đơn hàng của bạn, sau đó thử lại."
             },
             "confirm_failed": {
                 "title": "Chúng tôi không thể xử lý yêu cầu rút của bạn.",

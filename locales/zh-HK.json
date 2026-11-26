@@ -33,8 +33,6 @@
     "item": {
         "quantity": "數量",
         "quantity_short": "數量",
-        "decrement_quantity": "增加數量",
-        "increment_quantity": "減少數量",
         "remove_item": "移除此項目",
         "recurrence": {
             "daily": "每日 |||| %{smart_count} 日",
@@ -121,8 +119,7 @@
         "payment_method_update": {
             "title": "更新付款方式",
             "outstanding_payment_failed": {
-                "title": "付款失敗",
-                "description": "請更新您的付款方式以繼續。"
+                "title": "付款失敗"
             }
         }
     },
@@ -192,8 +189,7 @@
         "password": "密碼",
         "confirm_password": "確認密碼",
         "requires_action": {
-            "title": "請查看您的電子郵件",
-            "description": "我們已發送電子郵件給您，請按照說明完成註冊。"
+            "title": "請查看您的電子郵件"
         }
     },
     "guest_checkout": {
@@ -226,7 +222,6 @@
         "still_pending_notice": "您的付款正在處理中",
         "title": "付款方式",
         "continue_to_payment": "前往付款方式",
-        "credit_card": "信用卡到期日",
         "place_order": "送出",
         "preparing_payment_session": "與銀行連線中...",
         "processing_payment": "付款中，請稍候...",
@@ -263,7 +258,6 @@
         "total": "總計",
         "subtotal": "小計",
         "shipping": "運費",
-        "discount": "數量",
         "quantity": "x",
         "calculated_at_checkout": "結帳時計算"
     },
@@ -280,7 +274,6 @@
         "email": "請使用正確的 Email",
         "quantity_revised": "由於庫存數目的關係，此筆訂單已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已無庫存，請從購物車移除後再繼續購物",
-        "disabled_country": "不支援配送至此國家。",
         "error_payment_items_are_invalid": {
             "title": "您購物車中的部分商品已無販售",
             "description": "請查看您的訂單後再嘗試一次"
@@ -365,8 +358,7 @@
             "E.STATE.INVALID": "地區無效。",
             "E.ADDRESS.DELIVERY.INVALID": "配送地址無效。",
             "E.TIMED_OUT": "地址驗證逾時，請重試。",
-            "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。",
-            "E.PO_BOX.INTERNATIONAL": "無法進行國際配送至郵箱地址。"
+            "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。"
         },
         "payment_failed": {
             "title": "信用卡交易失敗",

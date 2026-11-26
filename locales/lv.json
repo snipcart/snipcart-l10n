@@ -117,7 +117,7 @@
             "title": "Atjaunināt maksājuma metodi",
             "outstanding_payment_failed": {
                 "title": "Maksājums neizdevās",
-                "description": "Atjauniniet savu maksājuma metodi, lai turpinātu."
+                "description": "Jūsu maksājuma veids ir atjaunināts, taču mums neizdevās iekasēt nesamaksāto summu. Lūdzu, izmantojiet citu maksājuma veidu."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Apstiprināt paroli",
         "requires_action": {
             "title": "Pārbaudiet savu e-pastu",
-            "description": "Mēs jums nosūtījām e-pastu. Sekojiet norādījumiem, lai pabeigtu reģistrāciju."
+            "description": "Šī e-pasta adrese jau ir izmantota pasūtījuma veikšanai. Lūdzu, pabeidziet reģistrāciju, izmantojot saiti, kas jums nosūtīta e-pastā."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Lūdzu norādiet derīgu e-pasta adresi",
         "quantity_revised": "Daudzums ticis mainīts pieejamo preču skaita dēļ.",
         "quantity_out_of_stock": "Diemžēl šis produkts vairs nav pieejams. Lūdzu, izņemiet to no groza, lai turpinātu.",
-        "disabled_country": "Piegāde uz šo valsti nav pieejama.",
+        "disabled_country": "Izvēlētā valsts nav pieejama pasūtījuma noformēšanai.",
         "error_payment_items_are_invalid": {
             "title": "Dažas preces jūsu grozā ir nederīgas",
             "description": "Lūdzu caurskatiet savu pasūtījumu vai mēģiniet vēlāk."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Piegādes adrese ir nederīga.",
             "E.TIMED_OUT": "Adreses pārbaudes laiks beidzās. Mēģiniet vēlreiz.",
             "E.TIME_ZONE.UNAVAILABLE": "Laika joslas informācija nav pieejama.",
-            "E.PO_BOX.INTERNATIONAL": "Starptautiska piegāde uz pastkastītes adresi nav iespējama."
+            "E.PO_BOX.INTERNATIONAL": "Nevar pārbaudīt starptautisko abonenta kastīti."
         },
         "payment_failed": {
             "title": "Nevarēja apstrādāt maksājumu",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Mēs nevarējām pārbaudīt jūsu datus.",
-                "description": "Lūdzu, pārbaudiet savu vārdu, e-pasta adresi un pasūtījuma numuru un mēģiniet vēlreiz."
+                "description": "Pārbaudiet savu e-pastu un pasūtījuma numuru, pēc tam mēģiniet vēlreiz."
             },
             "confirm_failed": {
                 "title": "Mēs nevarējām apstrādāt jūsu atteikuma pieprasījumu.",

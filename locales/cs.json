@@ -117,7 +117,7 @@
             "title": "Aktualizovat platební metodu",
             "outstanding_payment_failed": {
                 "title": "Platba se nezdařila",
-                "description": "Aktualizujte svou platební metodu pro pokračování."
+                "description": "Vaše platební metoda byla aktualizována, ale dlužnou částku se nám nepodařilo strhnout. Použijte prosím jinou platební metodu."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Potvrdit heslo",
         "requires_action": {
             "title": "Zkontrolujte svůj e-mail",
-            "description": "Poslali jsme vám e-mail. Postupujte podle pokynů pro dokončení registrace."
+            "description": "Tato emailová adresa již byla použita k dokončení objednávky. Dokončete prosím registraci pomocí odkazu, který Vám byl zaslán emailem."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Vyplňte platnou emailovou adresu",
         "quantity_revised": "Počet byl pozměněn kvůli aktuálnímu skladu zásob.",
         "quantity_out_of_stock": "Omlouváme se, ale tento produkt je momentálně vyprodaný, odstraňte ho z košíku pro pokračování v nákupu.",
-        "disabled_country": "Doručení do této země není dostupné.",
+        "disabled_country": "Vybraná země není pro dokončení objednávky dostupná.",
         "error_payment_items_are_invalid": {
             "title": "Některé položky v Košíku nejsou platné",
             "description": "Prosíme zkontrolujte Vaši objednávku nebo to zkuste později."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Doručovací adresa je neplatná.",
             "E.TIMED_OUT": "Vypršel čas ověření adresy. Zkuste to znovu.",
             "E.TIME_ZONE.UNAVAILABLE": "Informace o časovém pásmu nejsou dostupné.",
-            "E.PO_BOX.INTERNATIONAL": "Mezinárodní doručení na adresu poštovní schránky není možné."
+            "E.PO_BOX.INTERNATIONAL": "Mezinárodní poštovní přihrádku nelze ověřit."
         },
         "payment_failed": {
             "title": "Došlo k problému při zpracování platby",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nepodařilo se nám ověřit Vaše údaje.",
-                "description": "Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu."
+                "description": "Zkontrolujte svůj email a číslo objednávky a zkuste to znovu."
             },
             "confirm_failed": {
                 "title": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení.",

@@ -410,7 +410,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nous n’avons pas pu vérifier vos informations.",
-                "description": "Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer."
+                "description": "Vérifiez votre courriel et votre numéro de commande, puis réessayez."
             },
             "confirm_failed": {
                 "title": "Nous n’avons pas pu traiter votre demande de rétractation.",

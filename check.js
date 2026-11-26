@@ -87,6 +87,22 @@ function checkValue(enValue, value, locale) {
     return problems;
 }
 
+// en.json has keys containing dots (errors.shipping."E.PO_BOX.INTERNATIONAL"); a locale that nests
+// them instead (E > PO_BOX > INTERNATIONAL) flattens to the same path, so compare the real structure.
+function splitDottedKeys(locNode, enNode, prefix, found) {
+    for (const k of Object.keys(locNode)) {
+        const p = prefix ? `${prefix}.${k}` : k;
+        if (k in enNode) {
+            if (locNode[k] && typeof locNode[k] === 'object' && enNode[k] && typeof enNode[k] === 'object') {
+                splitDottedKeys(locNode[k], enNode[k], p, found);
+            }
+        } else if (Object.keys(enNode).some((e) => e.startsWith(`${k}.`))) {
+            found.push(p);
+        }
+    }
+    return found;
+}
+
 function parseArgs(argv) {
     const args = { keys: null, locales: null, warnings: false };
     for (let i = 0; i < argv.length; i++) {
@@ -99,7 +115,8 @@ function parseArgs(argv) {
 }
 
 function run(args) {
-    const en = flatten(readJson(path.join(LOCALES_DIR, 'en.json')));
+    const enRaw = readJson(path.join(LOCALES_DIR, 'en.json'));
+    const en = flatten(enRaw);
     const inScope = (key) => !args.keys || args.keys.some((k) => key === k || key.startsWith(`${k}.`));
     const files = fs.readdirSync(LOCALES_DIR)
         .filter((f) => f.endsWith('.json') && f !== 'en.json')
@@ -148,6 +165,9 @@ function run(args) {
                 }
                 parent.pop();
             }
+        }
+        for (const p of splitDottedKeys(raw, enRaw, '', [])) {
+            if (inScope(p)) report(locale, p, { level: 'error', kind: 'shape', detail: 'nests a key that en.json writes with dots in its name' });
         }
     }
 

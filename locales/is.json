@@ -48,7 +48,7 @@
         "state": {
             "title": "Staða",
             "active": "Virk",
-            "paused": "Í hlið",
+            "paused": "Í bið",
             "finished": "Lokið",
             "stopped": "Hætt",
             "cancellationrequested": "Áskrift mun hætta í lok reikningstímabils."
@@ -86,8 +86,8 @@
         "title": "Pöntun"
     },
     "discount_box": {
-        "promo_code": "Aðgangskoði?",
-        "promo_code_placeholder": "Aðgangskoði",
+        "promo_code": "Afsláttarkóði?",
+        "promo_code_placeholder": "Afsláttarkóði",
         "promocode_applied": "Tilboð virkjað"
     },
     "address_form": {
@@ -188,7 +188,7 @@
         "confirm_password": "Staðfesta lykilorð",
         "requires_action": {
             "title": "Athugaðu netfangið þitt",
-            "description": "Þetta netfang hefur þegar verið notað til að klára pöntun. Vinsamlegast ljúkið við skráningarferlinu með því að nota hlekkinn sem sendur var á netfangið ykkar."
+            "description": "Þetta netfang hefur þegar verið notað til að ganga frá pöntun. Vinsamlegast ljúktu skráningunni með því að nota hlekkinn sem þú fékkst sendan í tölvupósti."
         }
     },
     "guest_checkout": {
@@ -270,10 +270,10 @@
     },
     "errors": {
         "default": "Villa kom upp, reyndu aftur síðar eða hafdu samband við okkur.",
-        "promo_code_is_invalid": "Þessi aðgangskoði er ógildur",
-        "promocode_already_in_cart": "Þessi aðgangskoði er þegar í notkun",
-        "promocode_isnt_applicable": "Þessi aðgangskoði er ógildur",
-        "promo_code_is_expired": "Þessi aðgangskoði er útruninn",
+        "promo_code_is_invalid": "Þessi afsláttarkóði er ekki gildur",
+        "promocode_already_in_cart": "Þessum afsláttarkóða hefur þegar verið bætt við",
+        "promocode_isnt_applicable": "Þessi afsláttarkóði er ekki gildur",
+        "promo_code_is_expired": "Þessi afsláttarkóði er útrunninn",
         "stringEmpty": "Þennan reit þarf að fylla út",
         "emailEmpty": "Þennan reit þarf að fylla út",
         "required": "Þennan reit þarf að fylla út",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Við gátum ekki staðfest upplýsingarnar þínar.",
-                "description": "Athugaðu nafnið þitt, tölvupóstfangið og pöntunarnúmerið og reyndu aftur."
+                "description": "Athugaðu netfangið og pöntunarnúmerið og reyndu svo aftur."
             },
             "confirm_failed": {
                 "title": "Við gátum ekki afgreitt afturköllunarbeiðni þína.",

@@ -117,7 +117,7 @@
             "title": "Atnaujinti mokėjimo būdą",
             "outstanding_payment_failed": {
                 "title": "Mokėjimas nepavyko",
-                "description": "Atnaujinkite savo mokėjimo būdą, kad galėtumėte tęsti."
+                "description": "Jūsų mokėjimo būdas atnaujintas, tačiau mums nepavyko nuskaityti nesumokėtos sumos. Prašome naudoti kitą mokėjimo būdą."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Patvirtinkite slaptažodį",
         "requires_action": {
             "title": "Patikrinkite savo el. paštą",
-            "description": "Išsiuntėme jums el. laišką. Sekite instrukcijas, kad užbaigtumėte registraciją."
+            "description": "Šis el. pašto adresas jau buvo panaudotas užsakymui pateikti. Prašome užbaigti registraciją pasinaudojus nuoroda, kurią jums išsiuntėme el. paštu."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Prašome įvesti galiojantį el. pašto adresą",
         "quantity_revised": "Kiekis buvo pakoreguotas dėl nepakankamo atsargų likučio.",
         "quantity_out_of_stock": "Deja, šios prekės nebeturime, prašome išimkite ją iš krepšelio norėdami tęsti.",
-        "disabled_country": "Pristatymas į šią šalį negalimas.",
+        "disabled_country": "Pasirinktai šaliai apmokėjimas negalimas.",
         "error_payment_items_are_invalid": {
             "title": "Kai kurios prekės jūsų krepšelyje yra negaliojančios",
             "description": "Prašome peržiūrėkite savo užsakymą arba pabandykite vėliau."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Pristatymo adresas neteisingas.",
             "E.TIMED_OUT": "Adreso patikrinimo laikas baigėsi. Pabandykite dar kartą.",
             "E.TIME_ZONE.UNAVAILABLE": "Laiko juostos informacija nepasiekiama.",
-            "E.PO_BOX.INTERNATIONAL": "Tarptautinis pristatymas į pašto dėžutės adresą negalimas."
+            "E.PO_BOX.INTERNATIONAL": "Nepavyksta patikrinti tarptautinės pašto dėžutės."
         },
         "payment_failed": {
             "title": "Nepavyko apdoroti apmokėjimo",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Negalėjome patvirtinti jūsų duomenų.",
-                "description": "Prašome patikrinti savo vardą, el. paštą ir užsakymo numerį, tada bandykite dar kartą."
+                "description": "Patikrinkite savo el. paštą ir užsakymo numerį, tada bandykite dar kartą."
             },
             "confirm_failed": {
                 "title": "Negalėjome apdoroti jūsų atsisakymo prašymo.",

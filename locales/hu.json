@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "A szállítási cím érvénytelen.",
             "E.TIMED_OUT": "A cím ellenőrzése időtúllépés miatt meghiúsult. Próbáld újra.",
             "E.TIME_ZONE.UNAVAILABLE": "Az időzóna-információ nem elérhető.",
-            "E.PO_BOX.INTERNATIONAL": "Nemzetközi szállítás postafiók címre nem lehetséges."
+            "E.PO_BOX.INTERNATIONAL": "A nemzetközi postafiók nem ellenőrizhető."
         },
         "payment_failed": {
             "title": "Nem sikerült feldolgozni a fizetést",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nem tudtuk ellenőrizni az adatait.",
-                "description": "Kérjük, ellenőrizze a nevét, e-mail-címét és rendelési számát, majd próbálja újra."
+                "description": "Ellenőrizd az email címed és a rendelésszámot, majd próbáld újra."
             },
             "confirm_failed": {
                 "title": "Nem tudtuk feldolgozni az elállási kérelmét.",

@@ -117,7 +117,7 @@
             "title": "Päivitä maksutapa",
             "outstanding_payment_failed": {
                 "title": "Maksu epäonnistui",
-                "description": "Päivitä maksutapasi jatkaaksesi."
+                "description": "Maksutapasi päivitettiin, mutta emme voineet veloittaa maksamatonta saldoa. Käytä toista maksutapaa."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Vahvista salasana",
         "requires_action": {
             "title": "Tarkista sähköpostisi",
-            "description": "Olemme lähettäneet sinulle sähköpostin. Seuraa ohjeita rekisteröinnin viimeistelemiseksi."
+            "description": "Tätä sähköpostiosoitetta on jo käytetty tilauksen tekemiseen. Viimeistele rekisteröityminen sinulle sähköpostitse lähetetyn linkin kautta."
         }
     },
     "guest_checkout": {
@@ -281,7 +281,7 @@
         "email": "Syötä oikea sähköpostiosoite",
         "quantity_revised": "Kappalemäärää on rajoitettu varastosaldon perusteella.",
         "quantity_out_of_stock": "Ikävä kyllä tätä tuotetta ei ole enää varastossa. Poista se ostoskorista jatkaaksesi.",
-        "disabled_country": "Tähän maahan ei toimiteta.",
+        "disabled_country": "Valittu maa ei ole käytettävissä kassalla.",
         "error_payment_items_are_invalid": {
             "title": "Jotkut tuotteet ostoskorissasi eivät ole oikein.",
             "description": "Tarkista ostoskorisi tai yritä myöhemmin uudelleen."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Toimitusosoite on virheellinen.",
             "E.TIMED_OUT": "Osoitteen vahvistus aikakatkaistiin. Yritä uudelleen.",
             "E.TIME_ZONE.UNAVAILABLE": "Aikavyöhyketietoja ei ole saatavilla.",
-            "E.PO_BOX.INTERNATIONAL": "Kansainvälinen toimitus postilokero-osoitteeseen ei ole mahdollista.",
+            "E.PO_BOX.INTERNATIONAL": "Kansainvälistä postilokeroa ei voida vahvistaa.",
             "title": "Toimituskuluja ei voitu laskea",
             "description": "Yritä myöhemmin uudelleen tai ota yhteyttä."
         },
@@ -409,7 +409,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Emme voineet vahvistaa tietojasi.",
-                "description": "Tarkista nimesi, sähköpostiosoitteesi ja tilausnumerosi ja yritä uudelleen."
+                "description": "Tarkista sähköpostiosoitteesi ja tilausnumerosi ja yritä uudelleen."
             },
             "confirm_failed": {
                 "title": "Emme voineet käsitellä peruutuspyyntöäsi.",

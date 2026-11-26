@@ -292,8 +292,7 @@
             "E.STATE.INVALID": "La région est invalide.",
             "E.ADDRESS.DELIVERY.INVALID": "L'adresse de livraison est invalide.",
             "E.TIMED_OUT": "Délai dépassé lors de la vérification de l'adresse. Réessayez.",
-            "E.TIME_ZONE.UNAVAILABLE": "Les informations de fuseau horaire ne sont pas disponibles.",
-            "E.PO_BOX.INTERNATIONAL": "La livraison internationale à une adresse de boîte postale n'est pas possible."
+            "E.TIME_ZONE.UNAVAILABLE": "Les informations de fuseau horaire ne sont pas disponibles."
         },
         "payment_failed": {
             "title": "Impossible de traiter votre paiement.",
@@ -318,8 +317,7 @@
         "customer_current_password_invalid": "Mot de passe non valide.",
         "withdrawal": {
             "validation_failed": {
-                "title": "Nous n’avons pas pu vérifier vos informations.",
-                "description": "Veuillez vérifier votre nom, votre e-mail et votre numéro de commande, puis réessayer."
+                "title": "Nous n’avons pas pu vérifier vos informations."
             },
             "confirm_failed": {
                 "title": "Nous n’avons pas pu traiter votre demande de rétractation.",

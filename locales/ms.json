@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Kami tidak dapat mengesahkan butiran anda.",
-                "description": "Sila semak nama, e-mel dan nombor pesanan anda, kemudian cuba lagi."
+                "description": "Semak e-mel dan nombor pesanan anda, kemudian cuba lagi."
             },
             "confirm_failed": {
                 "title": "Kami tidak dapat memproses permintaan penarikan diri anda.",

@@ -188,7 +188,7 @@
         "confirm_password": "Kumpirmahin ang Password",
         "requires_action": {
             "title": "Suriin ang iyong email",
-            "description": "Nagpadala kami ng email. Sundin ang mga tagubilin para makumpleto ang iyong pagpaparehistro."
+            "description": "Nagamit na ang email address na ito para makumpleto ang isang order. Pakikumpleto ang proseso ng pagpaparehistro gamit ang link na ipinadala sa iyo sa email."
         }
     },
     "guest_checkout": {
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Hindi namin ma-verify ang iyong mga detalye.",
-                "description": "Pakisuri ang iyong pangalan, email, at numero ng order, pagkatapos ay subukang muli."
+                "description": "Suriin ang iyong email address at order number, pagkatapos ay subukang muli."
             },
             "confirm_failed": {
                 "title": "Hindi namin maproseso ang iyong kahilingan ng withdrawal.",
