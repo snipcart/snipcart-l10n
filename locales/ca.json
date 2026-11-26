@@ -117,7 +117,7 @@
             "title": "Actualitza el mètode de pagament",
             "outstanding_payment_failed": {
                 "title": "El pagament ha fallat",
-                "description": "Actualitzeu el vostre mètode de pagament per continuar."
+                "description": "El vostre mètode de pagament s'ha actualitzat, però no hem pogut cobrar el saldo pendent. Utilitzeu un altre mètode de pagament."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Confirma la contrasenya",
         "requires_action": {
             "title": "Consulteu el vostre correu electrònic",
-            "description": "Us hem enviat un correu electrònic. Seguiu les instruccions per completar el registre."
+            "description": "Aquesta adreça de correu electrònic ja s'ha utilitzat per completar una comanda. Completeu el procés de registre mitjançant l'enllaç que us hem enviat per correu electrònic."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Lliurament garantit en %{smart_count} dia |||| Lliurament garantit en %{smart_count} dies"
+        "guaranteed_delivery_days": "Lliurament garantit en %{guaranteedDaysToDelivery} dia/dies."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Introduïu una adreça de correu electrònic vàlida",
         "quantity_revised": "La quantitat ha estat ajustada a causa de les limitacions d'estoc.",
         "quantity_out_of_stock": "Ho sentim, aquest article està esgotat. Elimineu-lo del carretó per continuar.",
-        "disabled_country": "L'enviament a aquest país no està disponible.",
+        "disabled_country": "El país seleccionat no està disponible per al pagament.",
         "error_payment_items_are_invalid": {
             "title": "El vostre carretó conté articles no vàlids.",
             "description": "Reviseu la vostra comanda o torneu-ho a provar més tard."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "L'adreça de lliurament no és vàlida.",
             "E.TIMED_OUT": "La verificació de l'adreça ha superat el temps d'espera. Torneu-ho a provar.",
             "E.TIME_ZONE.UNAVAILABLE": "La informació del fus horari no està disponible.",
-            "E.PO_BOX.INTERNATIONAL": "L'enviament internacional a bústies postals no és possible."
+            "E.PO_BOX.INTERNATIONAL": "No es pot verificar l'apartat de correus internacional."
         },
         "payment_failed": {
             "title": "No s'ha pogut processar el pagament",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "No hem pogut verificar les vostres dades.",
-                "description": "Comproveu el nom, el correu electrònic i el número de comanda, i torneu-ho a provar."
+                "description": "Comproveu el correu electrònic i el número de comanda, i torneu-ho a provar."
             },
             "confirm_failed": {
                 "title": "No hem pogut processar la vostra sol·licitud de desistiment.",
@@ -432,7 +432,8 @@
         "instructions": "Introduïu les dades de la vostra comanda per sol·licitar el desistiment d'acord amb la Directiva sobre els drets dels consumidors de la UE.",
         "name": "El vostre nom",
         "order_id": "Número de comanda / factura",
-        "email": "Adreça de correu electrònic"
+        "email": "Adreça de correu electrònic",
+        "continue": "Continua"
     },
     "withdrawal_confirm": {
         "title": "Confirmar el desistiment",
@@ -442,7 +443,7 @@
         "order_number": "Número de comanda:",
         "order_date": "Data de la comanda:",
         "order_total": "Total de la comanda:",
-        "items_title": "Seleccioneu els articles a retornar",
+        "items_title": "Seleccioneu els articles dels quals voleu desistir",
         "withdraw_all": "Desistir de tots els articles (reemborsament íntegre)",
         "refund_amount": "Reemborsament estimat:",
         "refund_amount_notice": "Aquesta estimació és només a títol informatiu. L’import realment reemborsat pot diferir un cop tinguts en compte els impostos, els descomptes i les despeses d’enviament.",

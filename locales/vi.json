@@ -117,7 +117,7 @@
             "title": "Cập nhật phương thức thanh toán",
             "outstanding_payment_failed": {
                 "title": "Thanh toán thất bại",
-                "description": "Cập nhật phương thức thanh toán của bạn để tiếp tục."
+                "description": "Phương thức thanh toán của bạn đã được cập nhật, tuy nhiên chúng tôi không thể thu số dư còn nợ. Vui lòng sử dụng phương thức thanh toán khác."
             }
         }
     },
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Khôi phục mật khẩu",
-        "instructions": "Nhập email của bạn và chúng tôi sẽ gửi bạn một link đường dẫn làm lại mật khẩu.",
+        "instructions": "Nhập địa chỉ email của tài khoản và chúng tôi sẽ gửi cho bạn liên kết đặt lại mật khẩu.",
         "email": "Email",
         "email_instructions": "Một email chứa đựng link đường dẫn đã được gửi đến bạn. Click vào link đường dẫn để thay đổi mật khẩu.",
         "action": "Gửi email Khôi phục mật khẩu"
@@ -188,7 +188,7 @@
         "confirm_password": "Xác nhận mật khẩu",
         "requires_action": {
             "title": "Kiểm tra email của bạn",
-            "description": "Chúng tôi đã gửi email cho bạn. Làm theo hướng dẫn để hoàn tất đăng ký."
+            "description": "Địa chỉ email này đã được dùng để hoàn tất một đơn hàng. Vui lòng hoàn tất đăng ký bằng đường dẫn đã được gửi cho bạn qua email."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Giao hàng đảm bảo trong %{smart_count} ngày |||| Giao hàng đảm bảo trong %{smart_count} ngày"
+        "guaranteed_delivery_days": "Đảm bảo giao hàng trong %{guaranteedDaysToDelivery} ngày."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Hãy cung cấp một email phù hợp",
         "quantity_revised": "Số lượng đã được thay đổi vì hàng có giới hạn",
         "quantity_out_of_stock": "Rất tiếc, số lượng của sản phẩm này đã hết hàng, hãy bỏ khỏi giỏ hàng để tiếp tục.",
-        "disabled_country": "Không hỗ trợ giao hàng đến quốc gia này.",
+        "disabled_country": "Quốc gia đã chọn không khả dụng để thanh toán.",
         "error_payment_items_are_invalid": {
             "title": "Một số sản phẩm trong giỏ hàng không hợp lệ",
             "description": "Hãy coi lại giỏ hàng hoặc thử lại trong giây lát."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Địa chỉ giao hàng không hợp lệ.",
             "E.TIMED_OUT": "Hết thời gian xác minh địa chỉ. Vui lòng thử lại.",
             "E.TIME_ZONE.UNAVAILABLE": "Thông tin múi giờ không khả dụng.",
-            "E.PO_BOX.INTERNATIONAL": "Không thể giao hàng quốc tế đến địa chỉ hộp thư."
+            "E.PO_BOX.INTERNATIONAL": "Không thể xác minh hộp thư bưu điện quốc tế."
         },
         "payment_failed": {
             "title": "Không thể thanh toán đơn hàng",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Chúng tôi không thể xác minh thông tin của bạn.",
-                "description": "Vui lòng kiểm tra lại họ tên, email và mã đơn hàng, sau đó thử lại."
+                "description": "Kiểm tra email và số đơn hàng của bạn, sau đó thử lại."
             },
             "confirm_failed": {
                 "title": "Chúng tôi không thể xử lý yêu cầu rút của bạn.",
@@ -432,7 +432,8 @@
         "instructions": "Vui lòng nhập thông tin đơn hàng để yêu cầu rút theo Chỉ thị về Quyền lợi Người tiêu dùng của EU.",
         "name": "Họ và tên của bạn",
         "order_id": "Mã đơn hàng / Số hóa đơn",
-        "email": "Địa chỉ email"
+        "email": "Địa chỉ email",
+        "continue": "Tiếp tục"
     },
     "withdrawal_confirm": {
         "title": "Xác nhận rút",
@@ -443,7 +444,7 @@
         "order_date": "Ngày đặt hàng:",
         "order_total": "Tổng đơn hàng:",
         "items_title": "Chọn sản phẩm muốn rút",
-        "withdraw_all": "Rút toàn bộ sản phẩm (hoàn tiền đầy đủ)",
+        "withdraw_all": "Rút khỏi hợp đồng với toàn bộ sản phẩm (hoàn tiền đầy đủ)",
         "refund_amount": "Số tiền hoàn lại dự kiến:",
         "refund_amount_notice": "Ước tính này chỉ mang tính chất tham khảo. Số tiền hoàn lại thực tế có thể khác sau khi tính đến thuế, chiết khấu và phí vận chuyển.",
         "back": "Quay lại",

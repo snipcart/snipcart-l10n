@@ -37,10 +37,10 @@
         "increment_quantity": "زيادة الكمية",
         "remove_item": "إزالة العنصر",
         "recurrence": {
-            "daily": "يوم |||| %{smart_count} أيام",
-            "weekly": "أسبوع |||| %{smart_count} أسابيع",
-            "monthly": "شهر |||| %{smart_count} أشهر",
-            "yearly": "سنة |||| %{smart_count} سنوات"
+            "daily": "%{smart_count} يوم |||| يوم |||| يومان |||| %{smart_count} أيام |||| %{smart_count} يومًا |||| %{smart_count} يوم",
+            "weekly": "%{smart_count} أسبوع |||| أسبوع |||| أسبوعان |||| %{smart_count} أسابيع |||| %{smart_count} أسبوعًا |||| %{smart_count} أسبوع",
+            "monthly": "%{smart_count} شهر |||| شهر |||| شهران |||| %{smart_count} أشهر |||| %{smart_count} شهرًا |||| %{smart_count} شهر",
+            "yearly": "%{smart_count} سنة |||| سنة |||| سنتان |||| %{smart_count} سنوات |||| %{smart_count} سنة |||| %{smart_count} سنة"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "إيقاف مؤقت",
         "unpause": "استئناف",
         "billing_recurrence": {
-            "daily": "فوترة يومية |||| فوترة كل %{smart_count} أيام",
-            "weekly": "فوترة أسبوعية |||| فوترة كل %{smart_count} أسابيع",
-            "monthly": "فوترة شهرية |||| فوترة كل %{smart_count} أشهر",
-            "yearly": "فوترة سنوية |||| فوترة كل %{smart_count} سنوات"
+            "daily": "فوترة كل %{smart_count} يوم |||| فوترة يومية |||| فوترة كل يومين |||| فوترة كل %{smart_count} أيام |||| فوترة كل %{smart_count} يومًا |||| فوترة كل %{smart_count} يوم",
+            "weekly": "فوترة كل %{smart_count} أسبوع |||| فوترة أسبوعية |||| فوترة كل أسبوعين |||| فوترة كل %{smart_count} أسابيع |||| فوترة كل %{smart_count} أسبوعًا |||| فوترة كل %{smart_count} أسبوع",
+            "monthly": "فوترة كل %{smart_count} شهر |||| فوترة شهرية |||| فوترة كل شهرين |||| فوترة كل %{smart_count} أشهر |||| فوترة كل %{smart_count} شهرًا |||| فوترة كل %{smart_count} شهر",
+            "yearly": "فوترة كل %{smart_count} سنة |||| فوترة سنوية |||| فوترة كل سنتين |||| فوترة كل %{smart_count} سنوات |||| فوترة كل %{smart_count} سنة |||| فوترة كل %{smart_count} سنة"
         }
     },
     "cart": {
@@ -117,7 +117,7 @@
             "title": "تحديث طريقة الدفع",
             "outstanding_payment_failed": {
                 "title": "فشل الدفع",
-                "description": "قم بتحديث طريقة الدفع للمتابعة."
+                "description": "تم تحديث طريقة الدفع الخاصة بك، لكن تعذّر علينا تحصيل الرصيد المستحق. يُرجى استخدام طريقة دفع أخرى."
             }
         }
     },
@@ -138,8 +138,8 @@
         "no_subscriptions": "لا توجد اشتراكات.",
         "view_invoice": "عرض الفاتورة",
         "sign_out": "تسجيل الخروج",
-        "show_more_orders": "Show %{smart_count} more order |||| إظهار %{smart_count} المزيد من الطلبات",
-        "show_more_subscriptions": "عرض %{smart_count} اشتراك إضافي |||| عرض %{smart_count} اشتراكات إضافية",
+        "show_more_orders": "إظهار %{smart_count} طلب إضافي |||| إظهار %{smart_count} طلب إضافي |||| إظهار طلبين إضافيين |||| إظهار %{smart_count} طلبات إضافية |||| إظهار %{smart_count} طلبًا إضافيًا |||| إظهار %{smart_count} طلب إضافي",
+        "show_more_subscriptions": "عرض %{smart_count} اشتراك إضافي |||| عرض %{smart_count} اشتراك إضافي |||| عرض اشتراكين إضافيين |||| عرض %{smart_count} اشتراكات إضافية |||| عرض %{smart_count} اشتراكًا إضافيًا |||| عرض %{smart_count} اشتراك إضافي",
         "orders": "الطلبات",
         "subscriptions": "الاشتراكات",
         "subscription": "اشتراك"
@@ -188,7 +188,7 @@
         "confirm_password": "تأكيد كلمة المرور",
         "requires_action": {
             "title": "تحقق من بريدك الإلكتروني",
-            "description": "أرسلنا لك بريداً إلكترونياً. اتبع التعليمات لإكمال التسجيل."
+            "description": "سبق استخدام عنوان البريد الإلكتروني هذا لإتمام طلب. يُرجى إكمال عملية التسجيل باستخدام الرابط المُرسل إليك عبر البريد الإلكتروني."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "توصيل مضمون خلال %{smart_count} يوم |||| توصيل مضمون خلال %{smart_count} أيام"
+        "guaranteed_delivery_days": "مدة التوصيل المضمونة (بالأيام): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "يرجى تقديم عنوان بريد إلكتروني صالح",
         "quantity_revised": "تم تعديل الكمية بسبب قيود المخزون.",
         "quantity_out_of_stock": "للأسف ، هذا المنتج غير متوفر ، قم بإزالته من سلة التسوق للمتابعة.",
-        "disabled_country": "التوصيل إلى هذا البلد غير متاح.",
+        "disabled_country": "البلد المحدد غير متاح للدفع.",
         "error_payment_items_are_invalid": {
             "title": "بعض العناصر الموجودة في سلة التسوق الخاصة بك غير صالحة",
             "description": "يرجى مراجعة طلبك ، أو حاول مرة أخرى في وقت لاحق."
@@ -367,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "عنوان التوصيل غير صالح.",
             "E.TIMED_OUT": "انتهت مهلة التحقق من العنوان. يرجى المحاولة مرة أخرى.",
             "E.TIME_ZONE.UNAVAILABLE": "معلومات المنطقة الزمنية غير متاحة.",
-            "E.PO_BOX.INTERNATIONAL": "التوصيل الدولي إلى عناوين صناديق البريد غير ممكن.",
-            "title": "غير قادر على حساب الشحن",
-            "description": "حاول مرة أخرى لاحقًا ، أو اتصل بنا للحصول على الدعم."
+            "E.PO_BOX.INTERNATIONAL": "تعذّر التحقق من صندوق البريد الدولي."
         },
         "payment_failed": {
             "title": "غير قادر على معالجة الدفع",
@@ -402,14 +400,10 @@
         "customer_not_found": "البريد الإلكتروني غير مرتبط بأي حساب.",
         "invalid_credentials": "البريد الإلكتروني أو كلمة السر خاطئة.",
         "customer_current_password_invalid": "كلمة المرور غير صحيحة.",
-        "no_shipping_rates_found": {
-            "title": "لا توجد طريقة شحن متاحة لطلبك",
-            "description": "يرجى مراجعة عنوان الشحن أو الاتصال بنا."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "تعذر علينا التحقق من بياناتك.",
-                "description": "يُرجى التحقق من الاسم والبريد الإلكتروني ورقم الطلب ثم المحاولة مرة أخرى."
+                "description": "تحقق من بريدك الإلكتروني ورقم الطلب، ثم حاول مرة أخرى."
             },
             "confirm_failed": {
                 "title": "تعذر علينا معالجة طلب الانسحاب.",
@@ -438,7 +432,8 @@
         "instructions": "يُرجى إدخال تفاصيل طلبك لطلب الانسحاب بموجب توجيه الاتحاد الأوروبي بشأن حقوق المستهلكين.",
         "name": "اسمك",
         "order_id": "رقم الطلب / رقم الفاتورة",
-        "email": "عنوان البريد الإلكتروني"
+        "email": "عنوان البريد الإلكتروني",
+        "continue": "متابعة"
     },
     "withdrawal_confirm": {
         "title": "تأكيد الانسحاب",
@@ -448,8 +443,8 @@
         "order_number": "رقم الطلب:",
         "order_date": "تاريخ الطلب:",
         "order_total": "إجمالي الطلب:",
-        "items_title": "حدد العناصر المراد سحبها",
-        "withdraw_all": "سحب جميع العناصر (استرداد كامل)",
+        "items_title": "حدد العناصر المراد الانسحاب من شرائها",
+        "withdraw_all": "الانسحاب من شراء جميع العناصر (استرداد كامل)",
         "refund_amount": "مبلغ الاسترداد المقدر:",
         "refund_amount_notice": "هذا التقدير لأغراض إعلامية فقط. وقد يختلف المبلغ المسترد فعلياً بعد احتساب الضرائب والخصومات ورسوم الشحن.",
         "back": "رجوع",

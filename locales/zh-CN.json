@@ -33,19 +33,14 @@
     "item": {
         "quantity": "数量",
         "quantity_short": "数量",
-        "decrement_quantity": "增加数量",
-        "increment_quantity": "减少数量",
+        "decrement_quantity": "减少数量",
+        "increment_quantity": "增加数量",
         "remove_item": "移除此项目",
         "recurrence": {
             "daily": "每日 |||| %{smart_count} 日",
             "weekly": "每周 |||| %{smart_count} 周",
             "monthly": "每月 |||| %{smart_count} 月",
             "yearly": "每年 |||| %{smart_count} 年s"
-        },
-        "subscription": {
-            "plan": "计划",
-            "billed_on": "下次出帐日",
-            "payment_amount": "帐单金额"
         }
     },
     "subscription": {
@@ -122,7 +117,7 @@
             "title": "更新付款方式",
             "outstanding_payment_failed": {
                 "title": "付款失败",
-                "description": "请更新您的付款方式以继续。"
+                "description": "您的付款方式已更新，但我们无法收取未付余额。请改用其他付款方式。"
             }
         }
     },
@@ -193,7 +188,7 @@
         "confirm_password": "确认密码",
         "requires_action": {
             "title": "请查看您的电子邮件",
-            "description": "我们已发送电子邮件给您，请按照说明完成注册。"
+            "description": "此 Email 已用于完成订单。请使用我们通过 Email 发送给您的链接完成注册流程。"
         }
     },
     "guest_checkout": {
@@ -213,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "保证 %{smart_count} 天内送达 |||| 保证 %{smart_count} 天内送达"
+        "guaranteed_delivery_days": "保证在 %{guaranteedDaysToDelivery} 天内送达。"
     },
     "payment": {
         "form": {
@@ -232,7 +227,7 @@
         "still_pending_notice": "您的付款正在处理中",
         "title": "付款方式",
         "continue_to_payment": "前往付款方式",
-        "credit_card": "信用卡到期日",
+        "credit_card": "信用卡",
         "place_order": "送出",
         "preparing_payment_session": "载入中...",
         "processing_payment": "付款中，请稍候...",
@@ -269,7 +264,7 @@
         "total": "总计",
         "subtotal": "小计",
         "shipping": "运费",
-        "discount": "数量",
+        "discount": "折扣",
         "quantity": "x",
         "calculated_at_checkout": "结帐时计算"
     },
@@ -286,7 +281,7 @@
         "email": "请使用正确的 Email",
         "quantity_revised": "由于库存数目的关系，此笔订单已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已无库存，请从购物车移除后再继续购物",
-        "disabled_country": "不支持配送至此国家。",
+        "disabled_country": "所选国家无法结帐。",
         "error_payment_items_are_invalid": {
             "title": "您购物车中的部分商品已无贩售",
             "description": "请查看您的订单后再尝试一次"
@@ -357,8 +352,8 @@
             "E.HOUSE_NUMBER.INVALID": "门牌号无效。",
             "E.STREET.MISSING": "缺少街道名称。",
             "E.STREET.INVALID": "街道名称无效。",
-            "E.BOX_NUMBER.MISSING": "缺少邮箱号码。",
-            "E.BOX_NUMBER.INVALID": "邮箱号码无效。",
+            "E.BOX_NUMBER.MISSING": "缺少邮政信箱号码。",
+            "E.BOX_NUMBER.INVALID": "邮政信箱号码无效。",
             "E.ADDRESS.INVALID": "地址无效。",
             "E.ZIP.NOT_FOUND": "找不到邮政编码。",
             "E.ZIP.INVALID": "邮政编码无效。",
@@ -372,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "配送地址无效。",
             "E.TIMED_OUT": "地址验证超时，请重试。",
             "E.TIME_ZONE.UNAVAILABLE": "时区信息不可用。",
-            "E.PO_BOX.INTERNATIONAL": "无法进行国际配送至邮箱地址。"
+            "E.PO_BOX.INTERNATIONAL": "无法验证国际邮政信箱。"
         },
         "payment_failed": {
             "title": "信用卡交易失败",
@@ -390,12 +385,22 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "购物车只能包含一个订阅。",
+                "title": "无法将订阅加入购物车",
                 "description": "请先移除现有订阅再添加新的。"
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "购物车只能包含商品或订阅。",
+                "title": "无法将商品加入购物车",
                 "description": "请先移除现有商品再添加订阅，或反之。"
+            }
+        },
+        "withdrawal": {
+            "validation_failed": {
+                "title": "我们无法核实您的信息。",
+                "description": "请检查您的电子邮件和订单编号，然后重试。"
+            },
+            "confirm_failed": {
+                "title": "我们无法处理您的撤回请求。",
+                "description": "请重试；如果问题仍然存在，请联系商家。"
             }
         },
         "customer_exists": "此 Email 已经被使用过了",
@@ -421,6 +426,36 @@
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "输入收件地址后会显示运费及税额"
+    },
+    "withdrawal_form": {
+        "title": "撤回合同",
+        "instructions": "请输入您的订单信息，根据《欧盟消费者权利指令》申请撤回。",
+        "order_id": "订单编号 / 发票编号",
+        "email": "电子邮件地址",
+        "continue": "继续"
+    },
+    "withdrawal_confirm": {
+        "title": "确认撤回",
+        "warning_title": "提示",
+        "warning_message": "此订单已超过14天的撤回期。商家将审核您的请求。",
+        "order_details": "订单详情",
+        "order_number": "订单编号",
+        "order_date": "下单日期",
+        "order_total": "订单总额",
+        "items_title": "选择要撤回的商品",
+        "withdraw_all": "撤回所有商品（全额退款）",
+        "refund_amount": "预计退款金额",
+        "refund_amount_notice": "此估算仅供参考。在考虑税费、折扣和运费后，实际退款金额可能会有所不同。",
+        "confirm": "确认撤回",
+        "legal_notice": "点击确认即表示您依据《欧盟消费者权利指令》行使本合同的撤回权。退款将在14天内处理完成。"
+    },
+    "withdrawal_success": {
+        "title": "撤回请求已提交",
+        "message": "您的撤回请求已成功提交。您将很快收到一封确认邮件。",
+        "confirmation_number": "确认编号",
+        "submitted_at": "提交时间",
+        "refund_amount": "预计退款金额",
+        "close": "关闭"
     },
     "countries": {
         "AD": {

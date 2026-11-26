@@ -75,7 +75,7 @@
         "subtotal": "Subjumlah",
         "shipping_taxes_calculated_at_checkout": "Penghantaran dan cukai akan dikira semasa daftar keluar.",
         "loading": "Kami sedang menyediakan troli anda...",
-        "secured_by": "Dijamin oleh Snipcart",
+        "secured_by": "Dilindungi oleh Snipcart",
         "summary": "Ringkasan pesanan",
         "empty": "Troli anda kosong.",
         "invoice_number": "Nombor invois",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Kami tidak dapat mengesahkan butiran anda.",
-                "description": "Sila semak nama, e-mel dan nombor pesanan anda, kemudian cuba lagi."
+                "description": "Semak e-mel dan nombor pesanan anda, kemudian cuba lagi."
             },
             "confirm_failed": {
                 "title": "Kami tidak dapat memproses permintaan penarikan diri anda.",
@@ -432,7 +432,8 @@
         "instructions": "Masukkan butiran pesanan anda untuk memohon penarikan diri di bawah Arahan Hak Pengguna EU.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nombor Invois",
-        "email": "Alamat E-mel"
+        "email": "Alamat E-mel",
+        "continue": "Teruskan"
     },
     "withdrawal_confirm": {
         "title": "Sahkan Penarikan Diri",

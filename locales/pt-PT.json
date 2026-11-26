@@ -106,7 +106,7 @@
             "title": "Atualizar método de pagamento",
             "outstanding_payment_failed": {
                 "title": "Pagamento falhou",
-                "description": "Atualize o seu método de pagamento para continuar."
+                "description": "O seu método de pagamento foi atualizado, mas não foi possível cobrar o saldo em dívida. Utilize outro método de pagamento."
             }
         }
     },
@@ -177,7 +177,7 @@
         "confirm_password": "Confirmar password",
         "requires_action": {
             "title": "Verifique o seu e-mail",
-            "description": "Enviámos-lhe um e-mail. Siga as instruções para concluir o registo."
+            "description": "Este endereço de e-mail já foi utilizado para concluir uma encomenda. Conclua o registo através da ligação que lhe enviámos por e-mail."
         }
     },
     "guest_checkout": {
@@ -195,9 +195,6 @@
         "methods": {
             "example_localization_id": "Exemplo de método de envio"
         }
-    },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
     },
     "payment": {
         "form": {
@@ -270,7 +267,7 @@
         "email": "Por favor insira um endereço de email válido",
         "quantity_revised": "A quantidade foi ajustada devido a limitações de stock.",
         "quantity_out_of_stock": "Infelizmente, este artigo está esgotado. Remova-o do cesto para continuar.",
-        "disabled_country": "Entrega para este país não está disponível.",
+        "disabled_country": "O país selecionado não está disponível para finalizar a encomenda.",
         "error_payment_items_are_invalid": {
             "title": "Alguns artigos no seu cesto são inválidos.",
             "description": "Reveja a sua encomenda ou tente novamente mais tarde."
@@ -314,7 +311,7 @@
             },
             "shipping_validation": {
                 "title": "Não foi possível validar o método de envio.",
-                "description": "O portes selecionado pode ter mudado ou já não está disponível."
+                "description": "Os portes selecionados podem ter mudado ou já não estar disponíveis. Contacte o proprietário da loja para mais informações."
             }
         },
         "invalid_address": "A morada é inválida.",
@@ -356,7 +353,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Morada de entrega é inválida.",
             "E.TIMED_OUT": "Tempo esgotado na verificação da morada. Tente novamente.",
             "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
-            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para apartado não é possível."
+            "E.PO_BOX.INTERNATIONAL": "Não é possível verificar o apartado internacional."
         },
         "payment_failed": {
             "title": "Não foi possível processar o pagamento.",
@@ -392,7 +389,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Não foi possível verificar os seus dados.",
-                "description": "Verifique o seu nome, email e número da encomenda e tente novamente."
+                "description": "Verifique o seu e-mail e o número da encomenda e tente novamente."
             },
             "confirm_failed": {
                 "title": "Não foi possível processar o seu pedido de desistência.",

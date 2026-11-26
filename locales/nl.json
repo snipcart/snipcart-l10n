@@ -92,7 +92,7 @@
     },
     "address_form": {
         "name": "Volledige naam",
-        "email": "Email",
+        "email": "E-mail",
         "firstName": "Voornaam",
         "lastName": "Achternaam",
         "address1": "Straat en huisnummer",
@@ -117,7 +117,7 @@
             "title": "Betaalmethode bijwerken",
             "outstanding_payment_failed": {
                 "title": "Betaling mislukt",
-                "description": "Werk uw betaalmethode bij om door te gaan."
+                "description": "Uw betaalmethode is bijgewerkt, maar we konden het openstaande bedrag niet afschrijven. Gebruik een andere betaalmethode."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Wachtwoord bevestigen",
         "requires_action": {
             "title": "Controleer uw e-mail",
-            "description": "We hebben u een e-mail gestuurd. Volg de instructies om uw registratie te voltooien."
+            "description": "Dit e-mailadres is al gebruikt om een bestelling te plaatsen. Voltooi de registratie via de link die u per e-mail is toegestuurd."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Gegarandeerde levering binnen %{smart_count} dag |||| Gegarandeerde levering binnen %{smart_count} dagen"
+        "guaranteed_delivery_days": "Gegarandeerd geleverd binnen %{guaranteedDaysToDelivery} dag(en)."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Vul een geldig e-mailadres in",
         "quantity_revised": "Aantal is bijgesteld wegens voorraad beperkingen.",
         "quantity_out_of_stock": "Helaas, dit item is uit voorraad. Verwijder het uit uw winkelwagen om door te gaan.",
-        "disabled_country": "Levering naar dit land is niet beschikbaar.",
+        "disabled_country": "Het geselecteerde land is niet beschikbaar voor afrekenen.",
         "error_payment_items_are_invalid": {
             "title": "Sommige items in uw winkelwagen zijn ongeldig",
             "description": "Controleer uw bestelling of probeer het later opnieuw."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Bezorgadres is ongeldig.",
             "E.TIMED_OUT": "Time-out bij adresverificatie. Probeer het opnieuw.",
             "E.TIME_ZONE.UNAVAILABLE": "Tijdzone-informatie is niet beschikbaar.",
-            "E.PO_BOX.INTERNATIONAL": "Internationale levering naar postbusadressen is niet mogelijk."
+            "E.PO_BOX.INTERNATIONAL": "Kan internationale postbus niet verifiëren."
         },
         "payment_failed": {
             "title": "We kunnen uw betaling niet uitvoeren",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "We konden uw gegevens niet verifiëren.",
-                "description": "Controleer uw naam, e-mailadres en bestelnummer en probeer het opnieuw."
+                "description": "Controleer uw e-mailadres en bestelnummer en probeer het opnieuw."
             },
             "confirm_failed": {
                 "title": "We konden uw herroepingsverzoek niet verwerken.",
@@ -432,7 +432,8 @@
         "instructions": "Voer uw bestelgegevens in om een herroeping aan te vragen op grond van de Richtlijn consumentenrechten van de EU.",
         "name": "Uw naam",
         "order_id": "Bestelnummer / Factuurnummer",
-        "email": "E-mailadres"
+        "email": "E-mailadres",
+        "continue": "Doorgaan"
     },
     "withdrawal_confirm": {
         "title": "Herroeping bevestigen",

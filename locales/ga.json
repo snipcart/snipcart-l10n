@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Níorbh fhéidir linn do shonraí a fhíorú.",
-                "description": "Seiceáil d'ainm, do sheoladh ríomhphoist agus uimhir an ordaithe, agus déan iarracht arís."
+                "description": "Seiceáil do sheoladh ríomhphoist agus d'uimhir ordaithe, ansin bain triail eile as."
             },
             "confirm_failed": {
                 "title": "Níorbh fhéidir linn d'iarratas tarraingthe siar a phróiseáil.",
@@ -432,7 +432,8 @@
         "instructions": "Cuir isteach sonraí d'ordaithe chun iarratas tarraingthe siar a dhéanamh faoin Treoir um Chearta Tomhaltóirí an AE.",
         "name": "D'Ainm",
         "order_id": "Aitheantas an Ordaithe / Uimhir Sonraisc",
-        "email": "Seoladh Ríomhphoist"
+        "email": "Seoladh Ríomhphoist",
+        "continue": "Lean ar aghaidh"
     },
     "withdrawal_confirm": {
         "title": "Deimhnigh an Tarraingt Siar",

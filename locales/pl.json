@@ -37,10 +37,10 @@
         "increment_quantity": "Zwiększ ilość",
         "remove_item": "Usuń przedmiot",
         "recurrence": {
-            "daily": "dzień |||| %{smart_count} days",
-            "weekly": "tydzień |||| %{smart_count} weeks",
-            "monthly": "miesiąc |||| %{smart_count} months",
-            "yearly": "rok |||| %{smart_count} years"
+            "daily": "dzień |||| %{smart_count} dni |||| %{smart_count} dni",
+            "weekly": "tydzień |||| %{smart_count} tygodnie |||| %{smart_count} tygodni",
+            "monthly": "miesiąc |||| %{smart_count} miesiące |||| %{smart_count} miesięcy",
+            "yearly": "rok |||| %{smart_count} lata |||| %{smart_count} lat"
         }
     },
     "subscription": {
@@ -65,10 +65,10 @@
         "pause": "Wstrzymaj",
         "unpause": "Wznów",
         "billing_recurrence": {
-            "daily": "Rozliczanie codziennie |||| Rozliczanie co %{smart_count} dni",
-            "weekly": "Rozliczanie co tydzień |||| Rozliczanie co %{smart_count} tygodni",
-            "monthly": "Rozliczanie co miesiąc |||| Rozliczanie co %{smart_count} miesięcy",
-            "yearly": "Rozliczanie co rok |||| Rozliczanie co %{smart_count} lat"
+            "daily": "Rozliczanie codziennie |||| Rozliczanie co %{smart_count} dni |||| Rozliczanie co %{smart_count} dni",
+            "weekly": "Rozliczanie co tydzień |||| Rozliczanie co %{smart_count} tygodnie |||| Rozliczanie co %{smart_count} tygodni",
+            "monthly": "Rozliczanie co miesiąc |||| Rozliczanie co %{smart_count} miesiące |||| Rozliczanie co %{smart_count} miesięcy",
+            "yearly": "Rozliczanie co rok |||| Rozliczanie co %{smart_count} lata |||| Rozliczanie co %{smart_count} lat"
         }
     },
     "cart": {
@@ -105,7 +105,7 @@
         "dont_see_address": "Nie widzę swojego adresu"
     },
     "billing": {
-        "title": "Dane osobowe",
+        "title": "Dane rozliczeniowe",
         "address": "Adres wysyłki",
         "continue_to_shipping": "Przejdź do dostawy",
         "use_different_shipping_address": "Użyj innego adresu dostawy"
@@ -117,7 +117,7 @@
             "title": "Zaktualizuj metodę płatności",
             "outstanding_payment_failed": {
                 "title": "Płatność nie powiodła się",
-                "description": "Zaktualizuj swoją metodę płatności, aby kontynuować."
+                "description": "Twoja metoda płatności została zaktualizowana, ale nie udało się pobrać zaległej kwoty. Użyj innej metody płatności."
             }
         }
     },
@@ -138,8 +138,8 @@
         "no_subscriptions": "Nie znaleziono subskrypcji.",
         "view_invoice": "Zobacz fakturę",
         "sign_out": "Wyloguj się",
-        "show_more_orders": "Pokaż %{smart_count} więcej zamówień |||| Pokaź %{smart_count} więcej zamówień",
-        "show_more_subscriptions": "Pokaż jeszcze %{smart_count} subskrypcję |||| Pokaż jeszcze %{smart_count} subskrypcji",
+        "show_more_orders": "Pokaż jeszcze %{smart_count} zamówienie |||| Pokaż jeszcze %{smart_count} zamówienia |||| Pokaż jeszcze %{smart_count} zamówień",
+        "show_more_subscriptions": "Pokaż jeszcze %{smart_count} subskrypcję |||| Pokaż jeszcze %{smart_count} subskrypcje |||| Pokaż jeszcze %{smart_count} subskrypcji",
         "orders": "Zamówienia",
         "subscriptions": "Subskrypcje",
         "subscription": "Subskrypcja"
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Odzyskaj hasło",
-        "instructions": "Podaj adres email połączony ze swoim kontem, a my wyślemy Ci link do zresetowania hasłą.",
+        "instructions": "Podaj adres email połączony ze swoim kontem, a my wyślemy Ci link do zresetowania hasła.",
         "email": "Email",
         "email_instructions": "Email zawierający link do zmiany hasła został do Ciebie wysłany. Kliknij na niego, aby zresetować hasło.",
         "action": "Wyślij email resetujący hasło"
@@ -188,7 +188,7 @@
         "confirm_password": "Potwierdź hasło",
         "requires_action": {
             "title": "Sprawdź swoją skrzynkę email",
-            "description": "Wysłaliśmy Ci wiadomość email. Postępuj zgodnie z instrukcjami, aby dokończyć rejestrację."
+            "description": "Ten adres email został już użyty do złożenia zamówienia. Dokończ rejestrację, korzystając z linku wysłanego do Ciebie emailem."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Gwarantowana dostawa w ciągu %{smart_count} dnia |||| Gwarantowana dostawa w ciągu %{smart_count} dni"
+        "guaranteed_delivery_days": "Gwarantowany czas dostawy (dni): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Proszę podać poprawny adres email",
         "quantity_revised": "Ilość została poprawiona ze względu na ilości magazynowe.",
         "quantity_out_of_stock": "Niestety, tego przedmiotu nie ma na magazynie, usuń go z koszyka aby kontynuować zakupy.",
-        "disabled_country": "Dostawa do tego kraju nie jest dostępna.",
+        "disabled_country": "Wybrany kraj nie jest dostępny przy składaniu zamówienia.",
         "error_payment_items_are_invalid": {
             "title": "Niektóre przedmioty w Twoim koszyku są nieprawidłowe.",
             "description": "Proszę sprawdź jeszcze raz swoje zamówienie, lub spróbuj ponownie."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adres dostawy jest nieprawidłowy.",
             "E.TIMED_OUT": "Upłynął czas weryfikacji adresu. Spróbuj ponownie.",
             "E.TIME_ZONE.UNAVAILABLE": "Informacje o strefie czasowej są niedostępne.",
-            "E.PO_BOX.INTERNATIONAL": "Międzynarodowa dostawa na adres skrytki pocztowej nie jest możliwa."
+            "E.PO_BOX.INTERNATIONAL": "Nie można zweryfikować międzynarodowej skrytki pocztowej."
         },
         "payment_failed": {
             "title": "Nie udało się przetworzyć płatności",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nie udało nam się zweryfikować Twoich danych.",
-                "description": "Sprawdź swoje imię, adres e-mail oraz numer zamówienia, a następnie spróbuj ponownie."
+                "description": "Sprawdź adres email i numer zamówienia, a następnie spróbuj ponownie."
             },
             "confirm_failed": {
                 "title": "Nie udało nam się przetworzyć Twojego wniosku o odstąpienie.",
@@ -432,7 +432,8 @@
         "instructions": "Wprowadź dane swojego zamówienia, aby złożyć wniosek o odstąpienie zgodnie z Dyrektywą w sprawie praw konsumentów.",
         "name": "Imię i nazwisko",
         "order_id": "Numer zamówienia / numer faktury",
-        "email": "Adres e-mail"
+        "email": "Adres e-mail",
+        "continue": "Kontynuuj"
     },
     "withdrawal_confirm": {
         "title": "Potwierdź odstąpienie",
@@ -442,7 +443,7 @@
         "order_number": "Numer zamówienia:",
         "order_date": "Data zamówienia:",
         "order_total": "Łączna kwota zamówienia:",
-        "items_title": "Wybierz produkty do zwrotu",
+        "items_title": "Wybierz produkty, od których odstępujesz",
         "withdraw_all": "Odstąp od wszystkich produktów (pełny zwrot)",
         "refund_amount": "Szacowana kwota zwrotu:",
         "refund_amount_notice": "Niniejsze oszacowanie ma charakter wyłącznie informacyjny. Rzeczywista kwota zwrotu może się różnić po uwzględnieniu podatków, rabatów i kosztów wysyłki.",

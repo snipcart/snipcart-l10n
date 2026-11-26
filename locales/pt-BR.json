@@ -116,8 +116,7 @@
         "payment_method_update": {
             "title": "Atualização do método de pagamento",
             "outstanding_payment_failed": {
-                "title": "Pagamento falhou",
-                "description": "Seu método de pagamento foi atualizado, porém, nós não conseguimos cobrar o saldo pendente. Por favor, use outro método de pagamento."
+                "title": "Pagamento falhou"
             }
         }
     },
@@ -188,7 +187,7 @@
         "confirm_password": "Confirme a senha",
         "requires_action": {
             "title": "Cheque seus emails",
-            "description": "Esse endereço de email já foi usado para concluir um pedido. Por favor, complete o processo de registração através do link enviado a você por email."
+            "description": "Este endereço de email já foi usado para concluir um pedido. Por favor, conclua o cadastro usando o link enviado a você por email."
         }
     },
     "guest_checkout": {
@@ -278,7 +277,6 @@
         "email": "Por favor, forneça um endereço de e-mail válido",
         "quantity_revised": "A quantidade foi revisada devido a limitações de estoque.",
         "quantity_out_of_stock": "Infelizmente, este item está fora de estoque. Remova-o do carrinho para continuar.",
-        "disabled_country": "O país selecionado não está disponível para o pagamento.",
         "error_payment_items_are_invalid": {
             "title": "Alguns itens no seu carrinho são inválidos",
             "description": "Revise seu pedido ou tente novamente mais tarde."
@@ -363,8 +361,7 @@
             "E.STATE.INVALID": "Estado é inválido.",
             "E.ADDRESS.DELIVERY.INVALID": "Endereço de entrega é inválido.",
             "E.TIMED_OUT": "Tempo esgotado na verificação do endereço. Tente novamente.",
-            "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
-            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para caixa postal não é possível."
+            "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis."
         },
         "payment_failed": {
             "title": "Não foi possível processar o pagamento",
@@ -400,7 +397,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Não foi possível verificar seus dados.",
-                "description": "Verifique seu nome, e-mail e número do pedido e tente novamente."
+                "description": "Verifique seu email e o número do pedido e tente novamente."
             },
             "confirm_failed": {
                 "title": "Não foi possível processar sua solicitação de desistência.",
@@ -430,7 +427,7 @@
     },
     "withdrawal_confirm": {
         "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar sua solicitação.",
-        "items_title": "Selecione os itens para devolução",
+        "items_title": "Selecione os itens dos quais deseja desistir",
         "withdraw_all": "Desistir de todos os itens (reembolso integral)",
         "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato conforme a Diretiva sobre os direitos dos consumidores da UE. Os reembolsos são processados em até 14 dias."
     },

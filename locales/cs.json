@@ -65,10 +65,10 @@
         "pause": "Pozastavit",
         "unpause": "Obnovit",
         "billing_recurrence": {
-            "daily": "Fakturováno denně |||| Fakturováno každých %{smart_count} dní",
-            "weekly": "Fakturováno týdně |||| Fakturováno každých %{smart_count} týdnů",
-            "monthly": "Fakturováno měsíčně |||| Fakturováno každých %{smart_count} měsíců",
-            "yearly": "Fakturováno ročně |||| Fakturováno každých %{smart_count} let"
+            "daily": "Fakturováno denně |||| Fakturováno každé %{smart_count} dny |||| Fakturováno každých %{smart_count} dní",
+            "weekly": "Fakturováno týdně |||| Fakturováno každé %{smart_count} týdny |||| Fakturováno každých %{smart_count} týdnů",
+            "monthly": "Fakturováno měsíčně |||| Fakturováno každé %{smart_count} měsíce |||| Fakturováno každých %{smart_count} měsíců",
+            "yearly": "Fakturováno ročně |||| Fakturováno každé %{smart_count} roky |||| Fakturováno každých %{smart_count} let"
         }
     },
     "cart": {
@@ -96,7 +96,7 @@
         "firstName": "Jméno",
         "lastName": "Příjmení",
         "address1": "Ulice a číslo popisné/orientační",
-        "address2": "",
+        "address2": "Byt/kancelář",
         "city": "Město",
         "country": "Stát",
         "phone": "Telefon",
@@ -117,7 +117,7 @@
             "title": "Aktualizovat platební metodu",
             "outstanding_payment_failed": {
                 "title": "Platba se nezdařila",
-                "description": "Aktualizujte svou platební metodu pro pokračování."
+                "description": "Vaše platební metoda byla aktualizována, ale dlužnou částku se nám nepodařilo strhnout. Použijte prosím jinou platební metodu."
             }
         }
     },
@@ -139,7 +139,7 @@
         "view_invoice": "Zobrazit fakturu",
         "sign_out": "Odhlásit",
         "show_more_orders": "Zobrazit %{smart_count} další objednávku |||| Zobrazit %{smart_count} další objednávky |||| Zobrazit %{smart_count} dalších objednávek",
-        "show_more_subscriptions": "Zobrazit %{smart_count} další předplatné |||| Zobrazit %{smart_count} dalších předplatných",
+        "show_more_subscriptions": "Zobrazit %{smart_count} další předplatné |||| Zobrazit %{smart_count} další předplatná |||| Zobrazit %{smart_count} dalších předplatných",
         "orders": "Objednávky",
         "subscriptions": "Předplatná",
         "subscription": "Předplatné"
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Obnovit si heslo",
-        "instructions": "Zadejte Vaši emailovou adresu pro získání odkaz na obnovu hesla.",
+        "instructions": "Zadejte emailovou adresu svého účtu a my Vám pošleme odkaz pro obnovu hesla.",
         "email": "Email",
         "email_instructions": "Email s odkazem Vám byl odeslán. Pro změnu hesla klikněte na odkaz v emailu.",
         "action": "Zaslat email pro obnovu hesla"
@@ -188,7 +188,7 @@
         "confirm_password": "Potvrdit heslo",
         "requires_action": {
             "title": "Zkontrolujte svůj e-mail",
-            "description": "Poslali jsme vám e-mail. Postupujte podle pokynů pro dokončení registrace."
+            "description": "Tato emailová adresa již byla použita k dokončení objednávky. Dokončete prosím registraci pomocí odkazu, který Vám byl zaslán emailem."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantované doručení do %{smart_count} dne |||| Garantované doručení do %{smart_count} dnů"
+        "guaranteed_delivery_days": "Garantovaná doba doručení (ve dnech): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -220,7 +220,7 @@
             "card_cvv": "CVV",
             "card_postal_code": "Poštovní číslo",
             "invalid_number": "Číslo karty je neplatné",
-            "invalid_expiration": "Datum expirace je neplatný",
+            "invalid_expiration": "Datum expirace je neplatné",
             "invalid_cvv": "CVV kód je neplatný",
             "invalid_postal_code": "PSČ je neplatné"
         },
@@ -228,7 +228,7 @@
         "title": "Platba",
         "continue_to_payment": "Pokračovat na platbu",
         "credit_card": "Platební karta",
-        "place_order": "Zaplatit",
+        "place_order": "Objednat a zaplatit",
         "preparing_payment_session": "Načítání platby...",
         "processing_payment": "Zpracování platby...",
         "checkout_with": "Zaplatit pomocí",
@@ -281,7 +281,7 @@
         "email": "Vyplňte platnou emailovou adresu",
         "quantity_revised": "Počet byl pozměněn kvůli aktuálnímu skladu zásob.",
         "quantity_out_of_stock": "Omlouváme se, ale tento produkt je momentálně vyprodaný, odstraňte ho z košíku pro pokračování v nákupu.",
-        "disabled_country": "Doručení do této země není dostupné.",
+        "disabled_country": "Vybraná země není pro dokončení objednávky dostupná.",
         "error_payment_items_are_invalid": {
             "title": "Některé položky v Košíku nejsou platné",
             "description": "Prosíme zkontrolujte Vaši objednávku nebo to zkuste později."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Doručovací adresa je neplatná.",
             "E.TIMED_OUT": "Vypršel čas ověření adresy. Zkuste to znovu.",
             "E.TIME_ZONE.UNAVAILABLE": "Informace o časovém pásmu nejsou dostupné.",
-            "E.PO_BOX.INTERNATIONAL": "Mezinárodní doručení na adresu poštovní schránky není možné."
+            "E.PO_BOX.INTERNATIONAL": "Mezinárodní poštovní přihrádku nelze ověřit."
         },
         "payment_failed": {
             "title": "Došlo k problému při zpracování platby",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Nepodařilo se nám ověřit Vaše údaje.",
-                "description": "Zkontrolujte prosím své jméno, e-mailovou adresu a číslo objednávky a zkuste to znovu."
+                "description": "Zkontrolujte svůj email a číslo objednávky a zkuste to znovu."
             },
             "confirm_failed": {
                 "title": "Nepodařilo se nám zpracovat Vaši žádost o odstoupení.",
@@ -432,7 +432,8 @@
         "instructions": "Zadejte údaje o své objednávce, abyste mohli požádat o odstoupení od smlouvy podle Směrnice o právech spotřebitelů EU.",
         "name": "Vaše jméno",
         "order_id": "Číslo objednávky / číslo faktury",
-        "email": "E-mailová adresa"
+        "email": "E-mailová adresa",
+        "continue": "Pokračovat"
     },
     "withdrawal_confirm": {
         "title": "Potvrdit odstoupení",

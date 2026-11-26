@@ -102,8 +102,7 @@
         "phone": "Téléphone",
         "postalCode": "Code postal",
         "province": "Province",
-        "dont_see_address": "Je ne trouve pas mon adresse",
-        "phone_number": "Numéro de téléphone"
+        "dont_see_address": "Je ne trouve pas mon adresse"
     },
     "billing": {
         "title": "Facturation",
@@ -368,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Adresse de livraison invalide.",
             "E.TIMED_OUT": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
             "E.TIME_ZONE.UNAVAILABLE": "Une erreur s'est produite lors de la validation de l'adresse. Veuillez réessayer plus tard ou contactez-nous pour plus de détails.",
-            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale.",
-            "title": "Impossible de calculer les frais de livraison.",
-            "description": "Veuillez réessayer plus tard, ou nous contacter pour assistance."
+            "E.PO_BOX.INTERNATIONAL": "Impossible de vérifier la boîte postale internationale."
         },
         "payment_failed": {
             "title": "Impossible de compléter votre paiement.",
@@ -403,14 +400,10 @@
         "customer_not_found": "L'adresse e-mail n'est associée à aucun compte.",
         "invalid_credentials": "Courriel ou mot de passe invalide",
         "customer_current_password_invalid": "Mot de passe invalide.",
-        "no_shipping_rates_found": {
-            "title": "Pas de méthode de livraison disponible pour votre commande",
-            "description": "Veuillez réviser votre adresse de livraison ou nous contacter."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Nous n’avons pas pu vérifier vos informations.",
-                "description": "Veuillez vérifier votre nom, votre courriel et votre numéro de commande, puis réessayer."
+                "description": "Vérifiez votre courriel et votre numéro de commande, puis réessayez."
             },
             "confirm_failed": {
                 "title": "Nous n’avons pas pu traiter votre demande de rétractation.",
@@ -439,7 +432,8 @@
         "instructions": "Saisissez les informations de votre commande pour exercer votre droit de rétractation en vertu de la Directive sur les droits des consommateurs de l’UE.",
         "name": "Votre nom",
         "order_id": "Numéro de commande / facture",
-        "email": "Adresse courriel"
+        "email": "Adresse courriel",
+        "continue": "Continuer"
     },
     "withdrawal_confirm": {
         "title": "Confirmer la rétractation",
@@ -449,8 +443,8 @@
         "order_number": "Numéro de commande :",
         "order_date": "Date de la commande :",
         "order_total": "Total de la commande :",
-        "items_title": "Sélectionnez les articles à retourner",
-        "withdraw_all": "Rétracter tous les articles (remboursement intégral)",
+        "items_title": "Sélectionnez les articles concernés par la rétractation",
+        "withdraw_all": "Se rétracter pour tous les articles (remboursement intégral)",
         "refund_amount": "Remboursement estimé :",
         "refund_amount_notice": "Cette estimation est fournie à titre informatif. Le montant réellement remboursé peut différer une fois les taxes, les rabais et les frais d’expédition pris en compte.",
         "back": "Retour",

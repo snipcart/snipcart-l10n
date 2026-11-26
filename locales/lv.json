@@ -54,7 +54,7 @@
             "cancellationrequested": "Abonements tiks pārtraukts norēķinu perioda beigās."
         },
         "placed_on": "Pasūtīts",
-        "final_billing_date": "Pēdējā norēķinu datums",
+        "final_billing_date": "Pēdējais norēķinu datums",
         "items": "Preces",
         "plan": "Plāns",
         "billed_on": "Maksājuma datums",
@@ -117,7 +117,7 @@
             "title": "Atjaunināt maksājuma metodi",
             "outstanding_payment_failed": {
                 "title": "Maksājums neizdevās",
-                "description": "Atjauniniet savu maksājuma metodi, lai turpinātu."
+                "description": "Jūsu maksājuma veids ir atjaunināts, taču mums neizdevās iekasēt nesamaksāto summu. Lūdzu, izmantojiet citu maksājuma veidu."
             }
         }
     },
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Paroles atiestatīšana",
-        "instructions": "Ievadi savu e-pastu un mēs nosūtīsim paroles atiestatīšanas saiti.",
+        "instructions": "Ievadiet sava konta e-pasta adresi, un mēs nosūtīsim jums paroles atiestatīšanas saiti.",
         "email": "E-pasts",
         "email_instructions": "Jums tika nosūtīts e-pasts ar saiti tajā. Uzklikšķiniet uz tās, lai atiestatītu paroli.",
         "action": "Nosūtīt paroles atiestatīšanas e-pastu"
@@ -188,7 +188,7 @@
         "confirm_password": "Apstiprināt paroli",
         "requires_action": {
             "title": "Pārbaudiet savu e-pastu",
-            "description": "Mēs jums nosūtījām e-pastu. Sekojiet norādījumiem, lai pabeigtu reģistrāciju."
+            "description": "Šī e-pasta adrese jau ir izmantota pasūtījuma veikšanai. Lūdzu, pabeidziet reģistrāciju, izmantojot saiti, kas jums nosūtīta e-pastā."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garantēta piegāde %{smart_count} dienas laikā |||| Garantēta piegāde %{smart_count} dienu laikā"
+        "guaranteed_delivery_days": "Garantēta piegāde %{guaranteedDaysToDelivery} d. laikā."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Lūdzu norādiet derīgu e-pasta adresi",
         "quantity_revised": "Daudzums ticis mainīts pieejamo preču skaita dēļ.",
         "quantity_out_of_stock": "Diemžēl šis produkts vairs nav pieejams. Lūdzu, izņemiet to no groza, lai turpinātu.",
-        "disabled_country": "Piegāde uz šo valsti nav pieejama.",
+        "disabled_country": "Izvēlētā valsts nav pieejama pasūtījuma noformēšanai.",
         "error_payment_items_are_invalid": {
             "title": "Dažas preces jūsu grozā ir nederīgas",
             "description": "Lūdzu caurskatiet savu pasūtījumu vai mēģiniet vēlāk."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Piegādes adrese ir nederīga.",
             "E.TIMED_OUT": "Adreses pārbaudes laiks beidzās. Mēģiniet vēlreiz.",
             "E.TIME_ZONE.UNAVAILABLE": "Laika joslas informācija nav pieejama.",
-            "E.PO_BOX.INTERNATIONAL": "Starptautiska piegāde uz pastkastītes adresi nav iespējama."
+            "E.PO_BOX.INTERNATIONAL": "Nevar pārbaudīt starptautisko abonenta kastīti."
         },
         "payment_failed": {
             "title": "Nevarēja apstrādāt maksājumu",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Mēs nevarējām pārbaudīt jūsu datus.",
-                "description": "Lūdzu, pārbaudiet savu vārdu, e-pasta adresi un pasūtījuma numuru un mēģiniet vēlreiz."
+                "description": "Pārbaudiet savu e-pastu un pasūtījuma numuru, pēc tam mēģiniet vēlreiz."
             },
             "confirm_failed": {
                 "title": "Mēs nevarējām apstrādāt jūsu atteikuma pieprasījumu.",
@@ -432,7 +432,8 @@
         "instructions": "Ievadiet pasūtījuma datus, lai iesniegtu atteikuma pieprasījumu saskaņā ar ES Patērētāju tiesību direktīvu.",
         "name": "Jūsu vārds",
         "order_id": "Pasūtījuma ID / rēķina numurs",
-        "email": "E-pasta adrese"
+        "email": "E-pasta adrese",
+        "continue": "Turpināt"
     },
     "withdrawal_confirm": {
         "title": "Apstiprināt atteikšanos",

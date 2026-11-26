@@ -8,7 +8,7 @@
         "edit": "Ubah",
         "cancel": "Batal",
         "continue_shopping": "Lanjutkan belanja",
-        "back_to_checkout": "Kembali ke pembayaran",
+        "back_to_checkout": "Kembali ke checkout",
         "checkout": "Checkout",
         "apply": "Terapkan",
         "dismiss": "Tutup",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Kami tidak dapat memverifikasi data Anda.",
-                "description": "Mohon periksa nama, email, dan nomor pesanan Anda, lalu coba lagi."
+                "description": "Periksa email dan nomor pesanan Anda, lalu coba lagi."
             },
             "confirm_failed": {
                 "title": "Kami tidak dapat memproses permintaan penarikan Anda.",
@@ -432,7 +432,8 @@
         "instructions": "Masukkan detail pesanan Anda untuk mengajukan penarikan diri berdasarkan Direktif Hak Konsumen UE.",
         "name": "Nama Anda",
         "order_id": "ID Pesanan / Nomor Faktur",
-        "email": "Alamat Email"
+        "email": "Alamat Email",
+        "continue": "Lanjutkan"
     },
     "withdrawal_confirm": {
         "title": "Konfirmasi Penarikan Diri",
@@ -442,8 +443,8 @@
         "order_number": "Nomor Pesanan:",
         "order_date": "Tanggal Pesanan:",
         "order_total": "Total Pesanan:",
-        "items_title": "Pilih Item yang Akan Ditarik",
-        "withdraw_all": "Tarik semua item (pengembalian dana penuh)",
+        "items_title": "Pilih Item yang Akan Dibatalkan",
+        "withdraw_all": "Batalkan semua item (pengembalian dana penuh)",
         "refund_amount": "Perkiraan Pengembalian Dana:",
         "refund_amount_notice": "Perkiraan ini hanya bersifat informatif. Jumlah pengembalian dana yang sebenarnya dapat berbeda setelah pajak, diskon, dan biaya pengiriman diperhitungkan.",
         "back": "Kembali",

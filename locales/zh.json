@@ -33,19 +33,14 @@
     "item": {
         "quantity": "數量",
         "quantity_short": "數量",
-        "decrement_quantity": "增加數量",
-        "increment_quantity": "減少數量",
+        "decrement_quantity": "減少數量",
+        "increment_quantity": "增加數量",
         "remove_item": "移除此項目",
         "recurrence": {
             "daily": "每日 |||| %{smart_count} 日",
             "weekly": "每週 |||| %{smart_count} 週",
             "monthly": "每月 |||| %{smart_count} 月",
             "yearly": "每年 |||| %{smart_count} 年s"
-        },
-        "subscription": {
-            "plan": "計畫",
-            "billed_on": "下次出帳日",
-            "payment_amount": "帳單金額"
         }
     },
     "subscription": {
@@ -122,7 +117,7 @@
             "title": "更新付款方式",
             "outstanding_payment_failed": {
                 "title": "付款失敗",
-                "description": "請更新您的付款方式以繼續。"
+                "description": "您的付款方式已更新，但我們無法收取未付餘額。請改用其他付款方式。"
             }
         }
     },
@@ -179,7 +174,7 @@
         "action": "設定新密碼"
     },
     "change_password_form": {
-        "title": "修改你的密碼",
+        "title": "修改您的密碼",
         "current_password": "目前密碼",
         "password": "新密碼",
         "confirmation_password": "確認密碼",
@@ -193,7 +188,7 @@
         "confirm_password": "確認密碼",
         "requires_action": {
             "title": "請查看您的電子郵件",
-            "description": "我們已發送電子郵件給您，請按照說明完成註冊。"
+            "description": "此 Email 已用於完成訂單。請使用我們以 Email 寄給您的連結完成註冊程序。"
         }
     },
     "guest_checkout": {
@@ -213,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
+        "guaranteed_delivery_days": "保證於 %{guaranteedDaysToDelivery} 天內送達。"
     },
     "payment": {
         "form": {
@@ -232,7 +227,7 @@
         "still_pending_notice": "您的付款正在處理中",
         "title": "付款方式",
         "continue_to_payment": "前往付款方式",
-        "credit_card": "信用卡到期日",
+        "credit_card": "信用卡",
         "place_order": "送出",
         "preparing_payment_session": "與銀行連線中...",
         "processing_payment": "付款中，請稍候...",
@@ -269,7 +264,7 @@
         "total": "總計",
         "subtotal": "小計",
         "shipping": "運費",
-        "discount": "數量",
+        "discount": "折扣",
         "quantity": "x",
         "calculated_at_checkout": "結帳時計算"
     },
@@ -286,7 +281,7 @@
         "email": "請使用正確的 Email",
         "quantity_revised": "由於庫存數目的關係，此筆訂單已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已無庫存，請從購物車移除後再繼續購物",
-        "disabled_country": "不支援配送至此國家。",
+        "disabled_country": "所選國家無法結帳。",
         "error_payment_items_are_invalid": {
             "title": "您購物車中的部分商品已無販售",
             "description": "請查看您的訂單後再嘗試一次"
@@ -309,7 +304,7 @@
             "declined": "此卡片被發卡銀行拒絕交易，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
         },
         "discounts": {
-            "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
+            "conflict": "部分折扣無法一起使用，您要改使用新的折扣嗎？"
         },
         "order_validation": {
             "domain_crawling": {
@@ -330,7 +325,7 @@
             },
             "shipping_validation": {
                 "title": "寄送方法有誤",
-                "description": "你選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
+                "description": "您選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
             }
         },
         "invalid_address": "地址無效。",
@@ -372,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "配送地址無效。",
             "E.TIMED_OUT": "地址驗證逾時，請重試。",
             "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。",
-            "E.PO_BOX.INTERNATIONAL": "無法進行國際配送至郵箱地址。"
+            "E.PO_BOX.INTERNATIONAL": "無法驗證國際郵政信箱。"
         },
         "payment_failed": {
             "title": "信用卡交易失敗",
@@ -407,12 +402,12 @@
         "customer_current_password_invalid": "密碼錯誤",
         "withdrawal": {
             "validation_failed": {
-                "title": "我们无法核实您的信息，请检查姓名、电子邮件和订单编号后重试。",
-                "description": ""
+                "title": "我們無法驗證您的資料。",
+                "description": "請檢查您的電子郵件和訂單編號，然後再試一次。"
             },
             "confirm_failed": {
-                "title": "我们无法处理您的撤回请求。",
-                "description": "请重试或联系商家。"
+                "title": "我們無法處理您的撤回請求。",
+                "description": "請再試一次；如果問題持續發生，請聯絡商家。"
             }
         }
     },
@@ -433,35 +428,36 @@
         "shipping_taxes_calculated_when_address_provided": "輸入收件地址後會顯示自動算出運費及稅金"
     },
     "withdrawal_form": {
-        "title": "撤回合同",
-        "instructions": "请输入您的订单信息，根据《欧盟消费者权利指令》申请撤回。",
+        "title": "撤回契約",
+        "instructions": "請輸入您的訂單資料，依《歐盟消費者權利指令》提出撤回申請。",
         "name": "您的姓名",
-        "order_id": "订单编号 / 发票编号",
-        "email": "电子邮件地址"
+        "order_id": "訂單編號 / 發票號碼",
+        "email": "電子郵件地址",
+        "continue": "繼續"
     },
     "withdrawal_confirm": {
-        "title": "确认撤回",
-        "warning_title": "提示",
-        "warning_message": "此订单已超过14天的撤回期。商家将审核您的请求。",
-        "order_details": "订单详情",
-        "order_number": "订单编号",
-        "order_date": "下单日期",
-        "order_total": "订单总额",
-        "items_title": "选择要撤回的商品",
-        "withdraw_all": "撤回所有商品（全额退款）",
-        "refund_amount": "预计退款金额",
-        "refund_amount_notice": "此估算仅供参考。在考虑税费、折扣和运费后，实际退款金额可能会有所不同。",
+        "title": "確認撤回",
+        "warning_title": "請注意",
+        "warning_message": "此訂單已超過14天的撤回期間。商家將審核您的請求。",
+        "order_details": "訂單詳情",
+        "order_number": "訂單編號",
+        "order_date": "下單日期",
+        "order_total": "訂單總額",
+        "items_title": "選擇欲撤回的商品",
+        "withdraw_all": "撤回所有商品（全額退款）",
+        "refund_amount": "預計退款金額",
+        "refund_amount_notice": "此估算僅供參考。在考量稅金、折扣與運費後，實際退款金額可能會有所不同。",
         "back": "返回",
-        "confirm": "确认撤回",
-        "legal_notice": "点击确认即表示您依据《欧盟消费者权利指令》行使本合同的撤回权。退款将在14天内处理完成。"
+        "confirm": "確認撤回",
+        "legal_notice": "點選確認即表示您依《歐盟消費者權利指令》行使本契約的撤回權。退款將於14天內處理完成。"
     },
     "withdrawal_success": {
-        "title": "撤回请求已提交",
-        "message": "您的撤回请求已成功提交。您将很快收到一封确认邮件。",
-        "confirmation_number": "确认编号",
-        "submitted_at": "提交时间",
-        "refund_amount": "预计退款金额",
-        "close": "关闭"
+        "title": "撤回請求已送出",
+        "message": "您的撤回請求已成功送出。您將很快收到確認電子郵件。",
+        "confirmation_number": "確認編號",
+        "submitted_at": "送出時間",
+        "refund_amount": "預計退款金額",
+        "close": "關閉"
     },
     "countries": {
         "AD": {

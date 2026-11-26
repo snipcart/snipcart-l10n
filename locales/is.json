@@ -48,7 +48,7 @@
         "state": {
             "title": "Staða",
             "active": "Virk",
-            "paused": "Í hlið",
+            "paused": "Í bið",
             "finished": "Lokið",
             "stopped": "Hætt",
             "cancellationrequested": "Áskrift mun hætta í lok reikningstímabils."
@@ -59,7 +59,7 @@
         "plan": "Áætlun",
         "billed_on": "Reikningsfærð þann",
         "payment_amount": "Greiðsluupphæð",
-        "processing": "Áskrift er enn í vinnslu. Komið aftur síðar til að sjá upplýsingar.",
+        "processing": "Áskrift er enn í vinnslu. Komdu aftur síðar til að sjá upplýsingar.",
         "loading": "Hleð áskriftum",
         "cancel": "Hætta við",
         "pause": "Gera hlé",
@@ -72,7 +72,7 @@
         }
     },
     "cart": {
-        "subtotal": "Millisamtölu",
+        "subtotal": "Millisamtala",
         "shipping_taxes_calculated_at_checkout": "Sendingarkostnaður og skattar verða reiknaðir við greiðslu.",
         "loading": "Við erum að undirbúa körfuna þína...",
         "secured_by": "Tryggt af Snipcart",
@@ -86,8 +86,8 @@
         "title": "Pöntun"
     },
     "discount_box": {
-        "promo_code": "Aðgangskoði?",
-        "promo_code_placeholder": "Aðgangskoði",
+        "promo_code": "Afsláttarkóði?",
+        "promo_code_placeholder": "Afsláttarkóði",
         "promocode_applied": "Tilboð virkjað"
     },
     "address_form": {
@@ -188,7 +188,7 @@
         "confirm_password": "Staðfesta lykilorð",
         "requires_action": {
             "title": "Athugaðu netfangið þitt",
-            "description": "Þetta netfang hefur þegar verið notað til að klára pöntun. Vinsamlegast ljúkið við skráningarferlinu með því að nota hlekkinn sem sendur var á netfangið ykkar."
+            "description": "Þetta netfang hefur þegar verið notað til að ganga frá pöntun. Vinsamlegast ljúktu skráningunni með því að nota hlekkinn sem þú fékkst sendan í tölvupósti."
         }
     },
     "guest_checkout": {
@@ -213,7 +213,7 @@
     "payment": {
         "form": {
             "deferred_payment_title": "Frestuð greiðsla",
-            "deferred_payment_instructions": "Með því að leggja inn þessa pöntun, samþykkirstu að greiða síðar með greiðslumáta sem söluaðili tilgreinir.",
+            "deferred_payment_instructions": "Með því að leggja inn þessa pöntun samþykkir þú að greiða síðar með greiðslumáta sem söluaðili tilgreinir.",
             "card_label": "Kreditkort",
             "card_number": "Kortanúmer",
             "card_expiration": "MM/ÁÁ",
@@ -262,7 +262,7 @@
         "taxes": "Skattar",
         "taxes_included_in_price": "Sumar vörur eru með sköttum innifalinn.",
         "total": "Samtals",
-        "subtotal": "Millisamtölu",
+        "subtotal": "Millisamtala",
         "shipping": "Sending",
         "discount": "Afsláttur",
         "quantity": "x",
@@ -270,17 +270,17 @@
     },
     "errors": {
         "default": "Villa kom upp, reyndu aftur síðar eða hafdu samband við okkur.",
-        "promo_code_is_invalid": "Þessi aðgangskoði er ógildur",
-        "promocode_already_in_cart": "Þessi aðgangskoði er þegar í notkun",
-        "promocode_isnt_applicable": "Þessi aðgangskoði er ógildur",
-        "promo_code_is_expired": "Þessi aðgangskoði er útruninn",
+        "promo_code_is_invalid": "Þessi afsláttarkóði er ekki gildur",
+        "promocode_already_in_cart": "Þessum afsláttarkóða hefur þegar verið bætt við",
+        "promocode_isnt_applicable": "Þessi afsláttarkóði er ekki gildur",
+        "promo_code_is_expired": "Þessi afsláttarkóði er útrunninn",
         "stringEmpty": "Þennan reit þarf að fylla út",
         "emailEmpty": "Þennan reit þarf að fylla út",
         "required": "Þennan reit þarf að fylla út",
-        "invalid_expiry_year_past": "Kortið er útrunnin",
+        "invalid_expiry_year_past": "Kortið er útrunnið",
         "email": "Vinsamlegast sláðu inn gilt netfang",
         "quantity_revised": "Magn hefur verið endurskoðað vegna birgðatakmarkana.",
-        "quantity_out_of_stock": "Þssi vara er útselð, fjarlægðu hana úr körfunni til að halda áfram.",
+        "quantity_out_of_stock": "Því miður er þessi vara uppseld, fjarlægðu hana úr körfunni til að halda áfram.",
         "disabled_country": "Valið land er ekki tiltækt við greiðslu.",
         "error_payment_items_are_invalid": {
             "title": "Sumar vörur í körfunni eru ógildar",
@@ -293,12 +293,12 @@
             "invalid_month": "Gildismánuður kortsins er ógildur.",
             "invalid_cvv": "CVV kortsins er ógilt.",
             "invalid_expiration": "Gildistimi kortsins er ógildur.",
-            "expired": "Kreditkortið er útrunnin",
+            "expired": "Kreditkortið er útrunnið",
             "declined": "Kortinu var hafnað. Vinsamlegast hafðu samband við kortaútgefanda fyrir frekari upplýsingar.",
             "invalid_address": "Heimilisfang kortsins er rangt.",
-            "insufficient_funds": "Reikningurinn hafði ekki nægilegt fé til að stánda undir færslunni.",
-            "card_not_supported": "Kortið er ekki stuðt á þessu landsvæði.",
-            "currency_not_supported": "Gjaldmiðillinn er ekki stuðdur sem stendur."
+            "insufficient_funds": "Reikningurinn hafði ekki nægilegt fé til að standa undir færslunni.",
+            "card_not_supported": "Kortið er ekki stutt á þessu landsvæði.",
+            "currency_not_supported": "Gjaldmiðillinn er ekki studdur sem stendur."
         },
         "transaction": {
             "declined": "Villa kom upp við vinnslu kortsins. Reyndu aftur síðar eða notaðu annan greiðslumáta."
@@ -342,7 +342,7 @@
                 "title": "Engir sendingarmátar eru tiltækir fyrir pöntunina",
                 "description": "Vinsamlegast skoðaðu sendingarheimilisfangið eða hafðu samband við okkur."
             },
-            "E.COUNTRY.UNSUPPORTED": "Land er ekki stuðt. Vinsamlegast reyndu aftur síðar eða hafðu samband við okkur.",
+            "E.COUNTRY.UNSUPPORTED": "Landið er ekki stutt. Vinsamlegast reyndu aftur síðar eða hafðu samband við okkur til að fá frekari upplýsingar.",
             "E.ENGINE.UNAVAILABLE": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
             "E.QUERY.UNANSWERABLE": "Villa kom upp við staðfestingu heimilisfangs. Reyndu aftur síðar eða hafðu samband við okkur.",
             "E.ADDRESS.NOT_FOUND": "Heimilisfang fannst ekki. Staðfestu heimilisfangið og reyndu aftur.",
@@ -395,15 +395,15 @@
         },
         "customer_exists": "Þetta netfang er þegar í notkun.",
         "customer_password_missmatch": "Lykilorðin tvö verða að vera eins.",
-        "customer_password_token_expired": "Endurheimt lykilorðs tókn er útrunnin.",
-        "customer_password_token_invalid": "Endurheimt lykilorðs tókn er ógilt.",
+        "customer_password_token_expired": "Auðkennið fyrir endurheimt lykilorðs er útrunnið.",
+        "customer_password_token_invalid": "Auðkennið fyrir endurheimt lykilorðs er ógilt.",
         "customer_not_found": "Netfangið er ekki tengt neinum reikningi.",
         "invalid_credentials": "Ógilt netfang eða lykilorð.",
         "customer_current_password_invalid": "Ógilt lykilorð.",
         "withdrawal": {
             "validation_failed": {
                 "title": "Við gátum ekki staðfest upplýsingarnar þínar.",
-                "description": "Athugaðu nafnið þitt, tölvupóstfangið og pöntunarnúmerið og reyndu aftur."
+                "description": "Athugaðu netfangið og pöntunarnúmerið og reyndu svo aftur."
             },
             "confirm_failed": {
                 "title": "Við gátum ekki afgreitt afturköllunarbeiðni þína.",
@@ -432,7 +432,8 @@
         "instructions": "Skráðu pöntunarupplýsingarnar þínar til að óska eftir afturköllun samkvæmt tilskipun ESB um neytendaréttindi.",
         "name": "Nafn þitt",
         "order_id": "Pöntunarnúmer / Reikningsnúmer",
-        "email": "Tölvupóstfang"
+        "email": "Tölvupóstfang",
+        "continue": "Halda áfram"
     },
     "withdrawal_confirm": {
         "title": "Staðfesta afturköllun",

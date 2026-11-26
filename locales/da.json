@@ -33,8 +33,8 @@
     "item": {
         "quantity": "Antal",
         "quantity_short": "Ant.",
-        "decrement_quantity": "Ændre antal",
-        "increment_quantity": "Ændre antal",
+        "decrement_quantity": "Reducer antal",
+        "increment_quantity": "Øg antal",
         "remove_item": "Fjern vare",
         "recurrence": {
             "daily": "dag |||| %{smart_count} dage",
@@ -117,7 +117,7 @@
             "title": "Opdater betalingsmetode",
             "outstanding_payment_failed": {
                 "title": "Betaling mislykkedes",
-                "description": "Opdater din betalingsmetode for at fortsætte."
+                "description": "Din betalingsmetode blev opdateret, men vi kunne ikke opkræve det udestående beløb. Brug venligst en anden betalingsmetode."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Gentag kode",
         "requires_action": {
             "title": "Tjek din e-mail",
-            "description": "Vi har sendt dig en e-mail. Følg instruktionerne for at fuldføre registreringen."
+            "description": "Denne e-mailadresse er allerede blevet brugt til at gennemføre en ordre. Fuldfør venligst registreringen via det link, du har fået tilsendt på e-mail."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanteret levering inden for %{smart_count} dag |||| Garanteret levering inden for %{smart_count} dage"
+        "guaranteed_delivery_days": "Garanteret levering inden for %{guaranteedDaysToDelivery} dag(e)."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Brug en gyldig email",
         "quantity_revised": "Antallet er blevet justeret pga. lagerbegrænsninger.",
         "quantity_out_of_stock": "Desværre er denne vare ikke på lager. Fjern den fra kurven for at fortsætte.",
-        "disabled_country": "Levering til dette land er ikke tilgængelig.",
+        "disabled_country": "Det valgte land er ikke tilgængeligt ved kassen.",
         "error_payment_items_are_invalid": {
             "title": "Nogle varer i din kurv er ugyldige.",
             "description": "Gennemgå venligst din ordre eller prøv igen senere."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Leveringsadressen er ugyldig.",
             "E.TIMED_OUT": "Timeout ved adresseverificering. Prøv igen.",
             "E.TIME_ZONE.UNAVAILABLE": "Tidszoneoplysninger er ikke tilgængelige.",
-            "E.PO_BOX.INTERNATIONAL": "International levering til postboksadresser er ikke mulig."
+            "E.PO_BOX.INTERNATIONAL": "Kan ikke bekræfte international postboks."
         },
         "payment_failed": {
             "title": "Kan ikke processere transaktionen",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Vi kunne ikke bekræfte dine oplysninger.",
-                "description": "Kontrollér dit navn, din e-mailadresse og dit ordrenummer, og prøv igen."
+                "description": "Tjek din e-mail og dit ordrenummer, og prøv igen."
             },
             "confirm_failed": {
                 "title": "Vi kunne ikke behandle din fortrydelsesanmodning.",
@@ -428,11 +428,12 @@
         "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
     },
     "withdrawal_form": {
-        "title": "Træd tilbage fra aftalen",
+        "title": "Fortryd aftalen",
         "instructions": "Indtast dine ordreoplysninger for at anmode om fortrydelse i henhold til EU's forbrugerrettighedsdirektiv.",
         "name": "Dit navn",
         "order_id": "Ordre-ID / Fakturanummer",
-        "email": "E-mailadresse"
+        "email": "E-mailadresse",
+        "continue": "Fortsæt"
     },
     "withdrawal_confirm": {
         "title": "Bekræft fortrydelse",

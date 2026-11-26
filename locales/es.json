@@ -44,7 +44,7 @@
         }
     },
     "subscription": {
-        "title": "Suscripciones",
+        "title": "Suscripción",
         "state": {
             "title": "Estado",
             "active": "Activo",
@@ -59,7 +59,7 @@
         "plan": "Plan",
         "billed_on": "Se cobrará en",
         "payment_amount": "Total del pago",
-        "processing": "La suscripción aún se está procesando. Vuelva más tarde para ver los detalles.",
+        "processing": "La suscripción aún se está procesando. Vuelve más tarde para ver los detalles.",
         "loading": "Cargando suscripciones",
         "cancel": "Cancelar",
         "pause": "Pausar",
@@ -77,7 +77,7 @@
         "loading": "Estamos preparando tu carrito...",
         "secured_by": "Asegurado por Snipcart",
         "summary": "Resumen del pedido",
-        "empty": "Tu carrito esta vacío.",
+        "empty": "Tu carrito está vacío.",
         "invoice_number": "Factura número",
         "view_detailed_cart": "Ver detalle del carrito"
     },
@@ -117,7 +117,7 @@
             "title": "Actualizar método de pago",
             "outstanding_payment_failed": {
                 "title": "Pago fallido",
-                "description": "Actualice su método de pago para continuar."
+                "description": "Tu método de pago se ha actualizado, pero no hemos podido cobrar el saldo pendiente. Por favor, utiliza otro método de pago."
             }
         }
     },
@@ -148,7 +148,7 @@
         "subscription": {
             "outstanding_payment": {
                 "title": "Una suscripción tiene un pago pendiente",
-                "description": "Tiene una suscripción con un pago pendiente. Actualice su método de pago."
+                "description": "Tienes una suscripción con un pago pendiente. Actualiza tu método de pago."
             }
         }
     },
@@ -187,8 +187,8 @@
         "password": "Contraseña",
         "confirm_password": "Confirmar contraseña",
         "requires_action": {
-            "title": "Revise su correo electrónico",
-            "description": "Le hemos enviado un correo electrónico. Siga las instrucciones para completar el registro."
+            "title": "Revisa tu correo electrónico",
+            "description": "Esta dirección email ya se ha utilizado para completar un pedido. Por favor, completa el proceso de registro con el link que se te ha enviado por email."
         }
     },
     "guest_checkout": {
@@ -269,7 +269,7 @@
         "calculated_at_checkout": "Calculado antes del pago"
     },
     "errors": {
-        "default": "Ocurrió un error, inténtelo de nuevo más tarde o contacte con nosotros.",
+        "default": "Ocurrió un error, inténtalo de nuevo más tarde o contacta con nosotros.",
         "promo_code_is_invalid": "Este código promocional no es válido",
         "promocode_already_in_cart": "Este código promocional ya se ha aplicado",
         "promocode_isnt_applicable": "Este código promocional no es aplicable",
@@ -278,7 +278,7 @@
         "emailEmpty": "El correo electrónico es obligatorio",
         "required": "Este campo es obligatorio",
         "invalid_expiry_year_past": "Tarjeta expirada",
-        "email": "Por favor indique una dirección de correo válida",
+        "email": "Por favor indica una dirección de correo válida",
         "quantity_revised": "La cantidad ha cambiado debido a limitaciones de stock.",
         "quantity_out_of_stock": "Desafortunadamente este artículo está fuera de stock, elimínalo del carrito para continuar.",
         "disabled_country": "El país seleccionado no está disponible para el pago.",
@@ -294,14 +294,14 @@
             "invalid_cvv": "El CVV de la tarjeta no es válido.",
             "invalid_expiration": "La fecha de caducidad de la tarjeta no es válida.",
             "expired": "La tarjeta está caducada.",
-            "declined": "La tarjeta ha sido rechazada. Por favor llame a la entidad responsable de su tarjeta para más informacíon.",
+            "declined": "La tarjeta ha sido rechazada. Por favor llama a la entidad responsable de tu tarjeta para más información.",
             "invalid_address": "La dirección de la tarjeta no es válida.",
             "insufficient_funds": "La cuenta no tenía suficientes fondos para cubrir el pago de la transacción.",
             "card_not_supported": "La tarjeta no es aceptada en esta zona geográfica.",
             "currency_not_supported": "La divisa no esta soportada actualmente."
         },
         "transaction": {
-            "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtelo de nuevo más tarde o utilice un método de pago distinto."
+            "declined": "Ha ocurrido un error mientras se procesaba la tarjeta. Inténtalo de nuevo más tarde o utiliza un método de pago distinto."
         },
         "discounts": {
             "conflict": "Algunos descuentos no pueden combinarse. ¿Utilizar este descuento en su lugar?"
@@ -309,42 +309,42 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "El pedido no pudo ser procesado.",
-                "description": "No se ha realizado ningún cargo. Por favor contacte con el dueño de la tienda para más información."
+                "description": "No se ha realizado ningún cargo. Por favor contacta con el dueño de la tienda para más información."
             },
             "product_crawling": {
                 "title": "El precio de los artículos del carrito ha podido cambiar.",
-                "description": "Intente quitarlos y añadirlos de nuevo al carrito. Por favor contacte al dueño de la tienda para más detalles."
+                "description": "Intenta quitarlos y añadirlos de nuevo al carrito. Por favor contacta al dueño de la tienda para más detalles."
             },
             "stock_validation": {
                 "title": "Artículo fuera de stock.",
-                "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revise la cantidad o contacte con el dueño de la tienda para más detalles."
+                "description": "Algunos artículos pueden estar fuera de stock para la cantidad seleccionada. Revisa la cantidad o contacta con el dueño de la tienda para más detalles."
             },
             "custom_fields_validation": {
                 "title": "Falta información necesaria.",
-                "description": "Algunos artículos del carrito requieren información de carácter obligatorio. Por favor edite el carrito para continuar."
+                "description": "Algunos artículos del carrito requieren información de carácter obligatorio. Por favor edita el carrito para continuar."
             },
             "shipping_validation": {
                 "title": "El método de envío no pudo ser validado.",
-                "description": "La tarifa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacte al dueño de la tienda para más detalles."
+                "description": "La tarifa de envío seleccionada puede haber cambiado o no está disponible. Por favor contacta al dueño de la tienda para más detalles."
             }
         },
         "invalid_address": "La dirección no es válida.",
         "shipping": {
             "account_configuration": {
                 "title": "No hay ningún método de envío disponible actualmente",
-                "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+                "description": "Inténtalo de nuevo más tarde, o contáctanos para pedir soporte."
             },
             "rates_calculation": {
                 "title": "No se pudo calcular el envío para tu pedido",
-                "description": "Inténtelo de nuevo más tarde, o contáctenos para pedir soporte."
+                "description": "Inténtalo de nuevo más tarde, o contáctanos para pedir soporte."
             },
             "no_rates_found": {
                 "title": "No hay ningún método de envío disponible para tu pedido",
                 "description": "Por favor revisa tu dirección de envío o contáctanos."
             },
             "E.COUNTRY.UNSUPPORTED": "No se admiten envíos a este país.",
-            "E.ENGINE.UNAVAILABLE": "El servicio de envío no está disponible. Inténtelo más tarde.",
-            "E.QUERY.UNANSWERABLE": "No se pudo verificar la dirección. Compruebe sus datos.",
+            "E.ENGINE.UNAVAILABLE": "El servicio de envío no está disponible. Inténtalo más tarde.",
+            "E.QUERY.UNANSWERABLE": "No se pudo verificar la dirección. Comprueba tus datos.",
             "E.ADDRESS.NOT_FOUND": "Dirección no encontrada.",
             "E.SECONDARY_INFORMATION.INVALID": "La información adicional de la dirección no es válida.",
             "E.SECONDARY_INFORMATION.MISSING": "Falta información adicional de la dirección.",
@@ -358,39 +358,39 @@
             "E.ZIP.NOT_FOUND": "Código postal no encontrado.",
             "E.ZIP.INVALID": "El código postal no es válido.",
             "E.ZIP.PLUS4.NOT_FOUND": "La extensión del código postal no se encontró.",
-            "E.ADDRESS.MULTIPLE": "Se encontraron varias direcciones. Proporcione una dirección más precisa.",
+            "E.ADDRESS.MULTIPLE": "Se encontraron varias direcciones. Proporciona una dirección más precisa.",
             "E.ADDRESS.INSUFFICIENT": "La información de la dirección está incompleta.",
             "E.ADDRESS.DUAL": "La dirección contiene información contradictoria.",
             "E.STREET.MAGNET": "No se pudo verificar el nombre de la calle.",
             "E.CITY_STATE.INVALID": "La ciudad o región no es válida.",
             "E.STATE.INVALID": "La región no es válida.",
             "E.ADDRESS.DELIVERY.INVALID": "La dirección de envío no es válida.",
-            "E.TIMED_OUT": "Se agotó el tiempo de verificación de la dirección. Inténtelo de nuevo.",
+            "E.TIMED_OUT": "Se agotó el tiempo de verificación de la dirección. Inténtalo de nuevo.",
             "E.TIME_ZONE.UNAVAILABLE": "La información de zona horaria no está disponible.",
-            "E.PO_BOX.INTERNATIONAL": "No es posible el envío internacional a direcciones de apartado postal."
+            "E.PO_BOX.INTERNATIONAL": "No se puede verificar el apartado postal internacional."
         },
         "payment_failed": {
             "title": "No se pudo procesar el pago",
-            "description": "Por favor, revise los datos de su tarjeta, o intentelo más tarde."
+            "description": "Por favor, revisa los datos de tu tarjeta, o inténtalo más tarde."
         },
         "payment_authorization": {
             "title": "No se pudo procesar el pago",
-            "default": "Por favor revise los datos que indicó, o intentelo de nuevo más tarde."
+            "default": "Por favor revisa los datos que indicaste, o inténtalo de nuevo más tarde."
         },
         "authentication_challenge": {
             "failed": {
                 "title": "No se pudo procesar el pago",
-                "description": "No hemos podido autentificar tu información de pago. Por favor inténtelo de nuevo"
+                "description": "No hemos podido autentificar tu información de pago. Por favor inténtalo de nuevo"
             }
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
                 "title": "El carrito solo puede contener una suscripción.",
-                "description": "Elimine la suscripción existente antes de añadir una nueva."
+                "description": "Elimina la suscripción existente antes de añadir una nueva."
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "El carrito puede contener artículos o suscripciones.",
-                "description": "Elimine los artículos existentes antes de añadir una suscripción, o viceversa."
+                "description": "Elimina los artículos existentes antes de añadir una suscripción, o viceversa."
             }
         },
         "customer_exists": "Este email ya esta en uso.",
@@ -402,12 +402,12 @@
         "customer_current_password_invalid": "Contraseña incorrecta.",
         "withdrawal": {
             "validation_failed": {
-                "title": "No hemos podido verificar sus datos.",
-                "description": "Compruebe su nombre, email y número de pedido, e inténtelo de nuevo."
+                "title": "No hemos podido verificar tus datos.",
+                "description": "Comprueba tu email y tu número de pedido, e inténtalo de nuevo."
             },
             "confirm_failed": {
-                "title": "No hemos podido procesar su solicitud de desistimiento.",
-                "description": "Inténtelo de nuevo o póngase en contacto con el comerciante."
+                "title": "No hemos podido procesar tu solicitud de desistimiento.",
+                "description": "Inténtalo de nuevo o ponte en contacto con el comerciante."
             }
         }
     },
@@ -421,7 +421,7 @@
         "download": "Descargar"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Gracias por su pedido",
+        "thank_you_for_your_order": "Gracias por tu pedido",
         "async_confirmation_notice": "Hemos recibido tu pedido y actualmente se está preparando. Recibirás una confirmación en breve."
     },
     "checkout": {
@@ -429,30 +429,31 @@
     },
     "withdrawal_form": {
         "title": "Desistir del contrato",
-        "instructions": "Introduzca los datos de su pedido para solicitar el desistimiento conforme a la Directiva sobre los derechos de los consumidores de la UE.",
-        "name": "Su nombre",
+        "instructions": "Introduce los datos de tu pedido para solicitar el desistimiento conforme a la Directiva sobre los derechos de los consumidores de la UE.",
+        "name": "Tu nombre",
         "order_id": "Número de pedido / factura",
-        "email": "Dirección de email"
+        "email": "Dirección de email",
+        "continue": "Continuar"
     },
     "withdrawal_confirm": {
         "title": "Confirmar el desistimiento",
         "warning_title": "Aviso",
-        "warning_message": "Este pedido está fuera del plazo de desistimiento de 14 días. El comerciante revisará su solicitud.",
+        "warning_message": "Este pedido está fuera del plazo de desistimiento de 14 días. El comerciante revisará tu solicitud.",
         "order_details": "Detalles del pedido",
         "order_number": "Número de pedido:",
         "order_date": "Fecha del pedido:",
         "order_total": "Total del pedido:",
-        "items_title": "Seleccione los artículos a devolver",
+        "items_title": "Selecciona los artículos a devolver",
         "withdraw_all": "Desistir de todos los artículos (reembolso íntegro)",
         "refund_amount": "Reembolso estimado:",
         "refund_amount_notice": "Esta estimación es solo informativa. El importe realmente reembolsado puede variar una vez tenidos en cuenta los impuestos, los descuentos y los gastos de envío.",
         "back": "Atrás",
         "confirm": "Confirmar el desistimiento",
-        "legal_notice": "Al confirmar, ejerce su derecho de desistimiento de este contrato conforme a la Directiva sobre los derechos de los consumidores de la UE. Los reembolsos se procesan en un plazo de 14 días."
+        "legal_notice": "Al confirmar, ejerces tu derecho de desistimiento de este contrato conforme a la Directiva sobre los derechos de los consumidores de la UE. Los reembolsos se procesan en un plazo de 14 días."
     },
     "withdrawal_success": {
         "title": "Solicitud de desistimiento enviada",
-        "message": "Su solicitud de desistimiento se ha enviado correctamente. Recibirá en breve un email de confirmación.",
+        "message": "Tu solicitud de desistimiento se ha enviado correctamente. Recibirás en breve un email de confirmación.",
         "confirmation_number": "Número de confirmación:",
         "submitted_at": "Enviada:",
         "refund_amount": "Reembolso estimado:",
@@ -1211,9 +1212,6 @@
         },
         "ZW": {
             "name": "Zimbabue"
-        },
-        "AC": {
-            "name": "Isla Ascensión"
         }
     }
 }

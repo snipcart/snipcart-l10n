@@ -12,7 +12,7 @@
         "checkout": "Ödəmə",
         "apply": "Tətbiq et",
         "dismiss": "Rədd et",
-        "type_address": "Adresini daxil et",
+        "type_address": "Adresinizi daxil edin",
         "use_this_address": "Bu adresi istifadə et",
         "back_to_store": "Mağazaya geri dön",
         "close_cart": "Səbəti bağla",
@@ -117,7 +117,7 @@
             "title": "Ödəniş üsulunu yeniləyin",
             "outstanding_payment_failed": {
                 "title": "Ödəniş uğursuz oldu",
-                "description": "Davam etmək üçün ödəniş üsulunuzu yeniləyin."
+                "description": "Ödəmə üsulunuz yeniləndi, lakin ödənilməmiş borcu tuta bilmədik. Zəhmət olmasa, başqa ödəmə üsulundan istifadə edin."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Şifrəni təsdiqlə",
         "requires_action": {
             "title": "E-poçtunuzu yoxlayın",
-            "description": "Sizə e-poçt göndərdik. Qeydiyyatı tamamlamaq üçün təlimatlara əməl edin."
+            "description": "Bu email adresi ilə artıq sifariş verilib. Zəhmət olmasa, sizə email ilə göndərilən linkdən istifadə edərək qeydiyyatı tamamlayın."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} gün ərzində zəmanətli çatdırılma |||| %{smart_count} gün ərzində zəmanətli çatdırılma"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} gün ərzində çatdırılmasına zəmanət verilir."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Zəhmət olmasa etibarlı email adresi daxil edin",
         "quantity_revised": "Stokdaki limitlərə görə səbətdəki miqdarda dəyişiklik edilmişdir.",
         "quantity_out_of_stock": "Təəssüf ki, bu məshulun stoku bitmişdir, davam edəbilmək üçün bu məhsulu səbətdən silməlisiniz.",
-        "disabled_country": "Bu ölkəyə çatdırılma mümkün deyil.",
+        "disabled_country": "Seçilmiş ölkə ödəmə üçün əlçatan deyil.",
         "error_payment_items_are_invalid": {
             "title": "Səbətinizdəki bəzi məhsullar etibarsızdır",
             "description": "Zəhmət olmasa səbətdə düzəliş edin və yenidən cəhd edin."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Çatdırılma ünvanı yanlışdır.",
             "E.TIMED_OUT": "Ünvan yoxlanması vaxt aşımına uğradı. Yenidən cəhd edin.",
             "E.TIME_ZONE.UNAVAILABLE": "Saat qurşağı məlumatı əlçatan deyil.",
-            "E.PO_BOX.INTERNATIONAL": "Poçt qutusu ünvanına beynəlxalq çatdırılma mümkün deyil."
+            "E.PO_BOX.INTERNATIONAL": "Beynəlxalq poçt qutusunu yoxlamaq mümkün deyil."
         },
         "payment_failed": {
             "title": "Ödənişi qəbul edərkən xəta baş verdi",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Məlumatlarınızı təsdiqləyə bilmədik.",
-                "description": "Adınızı, e-poçtunuzu və sifariş nömrənizi yoxlayıb yenidən cəhd edin."
+                "description": "Email adresinizi və sifariş nömrənizi yoxlayın, sonra yenidən cəhd edin."
             },
             "confirm_failed": {
                 "title": "İmtina sorğunuzu emal edə bilmədik.",
@@ -432,7 +432,8 @@
         "instructions": "Aİ İstehlakçı Hüquqları Direktivinə uyğun olaraq imtina tələb etmək üçün sifariş məlumatlarınızı daxil edin.",
         "name": "Adınız",
         "order_id": "Sifariş ID / Faktura nömrəsi",
-        "email": "E-poçt ünvanı"
+        "email": "E-poçt ünvanı",
+        "continue": "Davam et"
     },
     "withdrawal_confirm": {
         "title": "İmtinanı təsdiqləyin",

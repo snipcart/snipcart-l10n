@@ -117,7 +117,7 @@
             "title": "Aġġorna l-metodu tal-ħlas",
             "outstanding_payment_failed": {
                 "title": "Il-ħlas falla",
-                "description": "Jekk jogħġbok aġġorna l-metodu tal-ħlas tiegħek biex tkompli."
+                "description": "Il-metodu tal-ħlas tiegħek ġie aġġornat, iżda ma stajniex niċċarġjaw il-bilanċ pendenti. Jekk jogħġbok uża metodu ieħor tal-ħlas."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Ikkonferma l-password",
         "requires_action": {
             "title": "Iċċekkja l-email tiegħek",
-            "description": "Bgħatna email. Segwi l-istruzzjonijiet biex tlesti r-reġistrazzjoni."
+            "description": "Dan l-indirizz tal-email diġà ntuża biex titlesta ordni. Jekk jogħġbok lesti l-proċess tar-reġistrazzjoni billi tuża l-link li ntbagħatlek bl-email."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Konsenja garantita fi %{smart_count} jum |||| Konsenja garantita fi %{smart_count} jiem"
+        "guaranteed_delivery_days": "Konsenja garantita fi żmien %{guaranteedDaysToDelivery} jum/ijiem."
     },
     "payment": {
         "form": {
@@ -216,7 +216,7 @@
             "deferred_payment_instructions": "Billi tordna, qed taqbel li tħallas aktar tard bil-metodu tal-ħlas stabbilit mill-bejjiegħ.",
             "card_label": "Karta tal-kreditu",
             "card_number": "Numru tal-karta",
-            "card_expiration": "XX/XX",
+            "card_expiration": "XX/SS",
             "card_cvv": "CVV",
             "card_postal_code": "Kodiċi postali",
             "invalid_number": "Numru tal-karta invalidu",
@@ -281,7 +281,7 @@
         "email": "Jekk jogħġbok daħħal indirizz tal-email validu",
         "quantity_revised": "Il-kwantità ġiet riveduta minħabba limitazzjonijiet tal-istokk.",
         "quantity_out_of_stock": "Jiddispjaċina, dan il-prodott mhuwiex disponibbli. Neħħih mill-karru biex tkompli.",
-        "disabled_country": "Il-konsenja għal dan il-pajjiż mhijiex disponibbli.",
+        "disabled_country": "Il-pajjiż magħżul mhuwiex disponibbli għaċ-checkout.",
         "error_payment_items_are_invalid": {
             "title": "Il-karru fih oġġetti invalidi.",
             "description": "Jekk jogħġbok iċċekkja l-ordni tiegħek jew erġa' pprova aktar tard."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "L-indirizz tal-kunsinna huwa invalidu.",
             "E.TIMED_OUT": "Il-verifika tal-indirizz skadiet. Jekk jogħġbok erġa' pprova.",
             "E.TIME_ZONE.UNAVAILABLE": "L-informazzjoni taż-żona tal-ħin mhijiex disponibbli.",
-            "E.PO_BOX.INTERNATIONAL": "Il-konsenja internazzjonali għal kaxxi postali mhijiex appoġġjata."
+            "E.PO_BOX.INTERNATIONAL": "Il-kaxxa postali internazzjonali ma tistax tiġi vverifikata."
         },
         "payment_failed": {
             "title": "Ma nistgħux nipproċessaw il-ħlas",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Ma stajniex nivverifikaw id-dettalji tiegħek.",
-                "description": "Jekk jogħġbok iċċekkja ismek, l-email u n-numru tal-ordni tiegħek, u erġa' pprova."
+                "description": "Iċċekkja l-email u n-numru tal-ordni tiegħek, imbagħad erġa' pprova."
             },
             "confirm_failed": {
                 "title": "Ma stajniex nipproċessaw it-talba tal-irtirar tiegħek.",
@@ -432,7 +432,8 @@
         "instructions": "Daħħal id-dettalji tal-ordni tiegħek biex titlob irtirar taħt id-Direttiva dwar id-Drittijiet tal-Konsumatur tal-UE.",
         "name": "Ismek",
         "order_id": "ID tal-Ordni / Numru tal-Fattura",
-        "email": "Indirizz tal-Email"
+        "email": "Indirizz tal-Email",
+        "continue": "Kompli"
     },
     "withdrawal_confirm": {
         "title": "Ikkonferma l-Irtirar",

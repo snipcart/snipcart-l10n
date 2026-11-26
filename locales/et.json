@@ -44,14 +44,14 @@
         }
     },
     "subscription": {
-        "title": "Tellimus",
+        "title": "Püsitellimus",
         "state": {
             "title": "Olek",
             "active": "Aktiivne",
             "paused": "Peatatud",
             "finished": "Lõppenud",
-            "stopped": "Peatatud",
-            "cancellationrequested": "Tellimus lõpetatakse arveldusperioodi lõpus."
+            "stopped": "Lõpetatud",
+            "cancellationrequested": "Püsitellimus lõpeb arveldusperioodi lõpus."
         },
         "placed_on": "Tellitud",
         "final_billing_date": "Viimane arvelduskuupäev",
@@ -59,8 +59,8 @@
         "plan": "Plaan",
         "billed_on": "Arveldatud",
         "payment_amount": "Makse summa",
-        "processing": "Tellimus on veel töötlemisel. Vaadake hiljem uuesti.",
-        "loading": "Tellimuste laadimine",
+        "processing": "Püsitellimust alles töödeldakse. Üksikasjade nägemiseks tulge hiljem tagasi.",
+        "loading": "Püsitellimuste laadimine",
         "cancel": "Tühista",
         "pause": "Peata",
         "unpause": "Jätka",
@@ -117,7 +117,7 @@
             "title": "Uuenda makseviisi",
             "outstanding_payment_failed": {
                 "title": "Makse ebaõnnestus",
-                "description": "Uuendage oma makseviisi jätkamiseks."
+                "description": "Teie makseviis uuendati, kuid meil ei õnnestunud tasumata summat debiteerida. Palun kasutage mõnda teist makseviisi."
             }
         }
     },
@@ -135,20 +135,20 @@
         "order_details": "Tellimuse üksikasjad",
         "loading": "Laadimine...",
         "no_orders": "Tellimusi ei leitud.",
-        "no_subscriptions": "Tellimusi ei leitud.",
+        "no_subscriptions": "Püsitellimusi ei leitud.",
         "view_invoice": "Vaata arvet",
         "sign_out": "Logi välja",
         "show_more_orders": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
-        "show_more_subscriptions": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
+        "show_more_subscriptions": "Näita veel %{smart_count} püsitellimus |||| Näita veel %{smart_count} püsitellimust",
         "orders": "Tellimused",
-        "subscriptions": "Tellimused",
-        "subscription": "Tellimus"
+        "subscriptions": "Püsitellimused",
+        "subscription": "Püsitellimus"
     },
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Tellimusel on tasumata makse",
-                "description": "Teil on tellimus tasumata maksega. Palun uuendage oma makseviisi."
+                "title": "Püsitellimuse makse tähtaeg on käes",
+                "description": "Teil on praegu püsitellimus, mille makse on tähtaja ületanud. Palun uuendage oma makseviisi, klõpsates oma andmetes selle kõrval nupul Muuda."
             }
         }
     },
@@ -157,7 +157,7 @@
         "dont_have_an_account": "Pole kontot?",
         "email": "E-post",
         "password": "Parool",
-        "forgot_your_password": "Unustasid parooli?",
+        "forgot_your_password": "Unustasite parooli?",
         "close_form": "Tagasi"
     },
     "forgot_password_form": {
@@ -188,7 +188,7 @@
         "confirm_password": "Kinnita parool",
         "requires_action": {
             "title": "Kontrollige oma e-posti",
-            "description": "Saatsime teile e-kirja. Järgige juhiseid registreerimise lõpetamiseks."
+            "description": "Seda e-posti aadressi on juba tellimuse vormistamiseks kasutatud. Palun viige registreerimine lõpule teile e-postiga saadetud lingi kaudu."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanteeritud kohaletoimetamine %{smart_count} päevaga |||| Garanteeritud kohaletoimetamine %{smart_count} päevaga"
+        "guaranteed_delivery_days": "Tarne on garanteeritud %{guaranteedDaysToDelivery} päeva jooksul."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Sisestage kehtiv e-posti aadress",
         "quantity_revised": "Kogust on laoseisu tõttu muudetud.",
         "quantity_out_of_stock": "Kahjuks pole see toode laos. Eemaldage see ostukorvist jätkamiseks.",
-        "disabled_country": "Saatmine sellesse riiki pole saadaval.",
+        "disabled_country": "Valitud riik ei ole tellimuse vormistamiseks saadaval.",
         "error_payment_items_are_invalid": {
             "title": "Mõned tooted ostukorvis on vigased.",
             "description": "Palun vaadake oma tellimus üle või proovige hiljem uuesti."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Tarneaadress on vigane.",
             "E.TIMED_OUT": "Aadressi kontrolli aeg lõppes. Proovige uuesti.",
             "E.TIME_ZONE.UNAVAILABLE": "Ajavööndi teave pole saadaval.",
-            "E.PO_BOX.INTERNATIONAL": "Rahvusvaheline saatmine postkasti aadressile pole võimalik."
+            "E.PO_BOX.INTERNATIONAL": "Rahvusvahelist postkasti aadressi ei saa kontrollida."
         },
         "payment_failed": {
             "title": "Makset ei saanud töödelda",
@@ -385,12 +385,12 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Ostukorv saab sisaldada ainult ühte tellimust.",
-                "description": "Eemaldage olemasolev tellimus enne uue lisamist."
+                "title": "Püsitellimust ei saanud ostukorvi lisada",
+                "description": "Ostukorvis saab korraga olla ainult üks püsitellimus."
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "Ostukorv saab sisaldada tooteid või tellimusi.",
-                "description": "Eemaldage olemasolevad tooted enne tellimuse lisamist või vastupidi."
+                "description": "Ostukorvis saavad olla kas ainult tooted või ainult püsitellimus."
             }
         },
         "customer_exists": "See e-posti aadress on juba kasutusel.",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Me ei suutnud teie andmeid kinnitada.",
-                "description": "Palun kontrollige oma nime, e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
+                "description": "Kontrollige oma e-posti aadressi ja tellimuse numbrit ning proovige uuesti."
             },
             "confirm_failed": {
                 "title": "Me ei suutnud teie taganemistaotlust töödelda.",
@@ -432,7 +432,8 @@
         "instructions": "Sisestage tellimuse andmed, et esitada taganemisavaldus EL-i tarbija õiguste direktiivi alusel.",
         "name": "Teie nimi",
         "order_id": "Tellimuse ID / arve number",
-        "email": "E-posti aadress"
+        "email": "E-posti aadress",
+        "continue": "Jätka"
     },
     "withdrawal_confirm": {
         "title": "Kinnita taganemine",
@@ -443,7 +444,7 @@
         "order_date": "Tellimuse kuupäev:",
         "order_total": "Tellimuse kogusumma:",
         "items_title": "Valige tagastatavad tooted",
-        "withdraw_all": "Tagasta kõik tooted (täielik raha tagastamine)",
+        "withdraw_all": "Tagane kõigist toodetest (täielik raha tagastamine)",
         "refund_amount": "Hinnanguline tagasimakse:",
         "refund_amount_notice": "See hinnang on üksnes informatiivne. Tegelik tagasimakstav summa võib pärast maksude, allahindluste ja saatekulude arvesse võtmist erineda.",
         "back": "Tagasi",

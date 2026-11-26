@@ -33,8 +33,8 @@
     "item": {
         "quantity": "Miktar",
         "quantity_short": "miktar",
-        "decrement_quantity": "Miktarı arttır",
-        "increment_quantity": "Miktarı azalt",
+        "decrement_quantity": "Miktarı azalt",
+        "increment_quantity": "Miktarı artır",
         "remove_item": "Ürünü kaldır",
         "recurrence": {
             "daily": "gün |||| %{smart_count} gün",
@@ -92,7 +92,7 @@
     },
     "address_form": {
         "name": "Tam isim",
-        "email": "Email",
+        "email": "E-posta",
         "firstName": "Ad",
         "lastName": "Soyad",
         "address1": "Adres",
@@ -117,7 +117,7 @@
             "title": "Ödeme yöntemini güncelle",
             "outstanding_payment_failed": {
                 "title": "Ödeme başarısız oldu",
-                "description": "Devam etmek için ödeme yönteminizi güncelleyin."
+                "description": "Ödeme yönteminiz güncellendi, ancak ödenmemiş bakiyeyi tahsil edemedik. Lütfen başka bir ödeme yöntemi kullanın."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Şifreyi doğrulayın",
         "requires_action": {
             "title": "E-postanızı kontrol edin",
-            "description": "Size bir e-posta gönderdik. Kayıt işlemini tamamlamak için talimatları izleyin."
+            "description": "Bu email adresi daha önce bir siparişi tamamlamak için kullanıldı. Lütfen size email ile gönderilen bağlantıyı kullanarak kayıt işlemini tamamlayın."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "%{smart_count} gün içinde garantili teslimat |||| %{smart_count} gün içinde garantili teslimat"
+        "guaranteed_delivery_days": "%{guaranteedDaysToDelivery} gün içinde teslimat garantilidir."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Lütfen geçerli bir mail adresi giriniz",
         "quantity_revised": "Miktar stok sınırlaması nedeniyle güncellendi.",
         "quantity_out_of_stock": "Maalesef bu ürün stokta yok. Devam etmek için sepetinizden çıkarın.",
-        "disabled_country": "Bu ülkeye teslimat yapılamamaktadır.",
+        "disabled_country": "Seçilen ülke ödeme işlemi için kullanılamıyor.",
         "error_payment_items_are_invalid": {
             "title": "Sepetinizdeki bazı ürünler geçersiz",
             "description": "Lütfen siparişinizi kontrol edin ve tekrar edeyin."
@@ -367,9 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Teslimat adresi geçersiz.",
             "E.TIMED_OUT": "Adres doğrulama zaman aşımına uğradı. Tekrar deneyin.",
             "E.TIME_ZONE.UNAVAILABLE": "Saat dilimi bilgisi mevcut değil.",
-            "E.PO_BOX.INTERNATIONAL": "Posta kutusu adresine uluslararası teslimat yapılamaz.",
-            "title": "Teslimat tutarı hesaplanamadı.",
-            "description": "Tekrar deneyin, veya destek için bizimle iletişime geçin."
+            "E.PO_BOX.INTERNATIONAL": "Uluslararası posta kutusu doğrulanamıyor."
         },
         "payment_failed": {
             "title": "Ödeme alınamadı.",
@@ -402,14 +400,10 @@
         "customer_not_found": "Bu e-posta adresi herhangi bir hesapla ilişkili değil.",
         "invalid_credentials": "Geçersiz mail veya şifre.",
         "customer_current_password_invalid": "Geçersiz şifre.",
-        "no_shipping_rates_found": {
-            "title": "Siparişiniz için uygun bir teslimat yöntemi bulunamadı.",
-            "description": "Lütfen adresinizi kontrol edin veya bizimle iletişime geçin."
-        },
         "withdrawal": {
             "validation_failed": {
                 "title": "Bilgilerinizi doğrulayamadık.",
-                "description": "Lütfen adınızı, e-posta adresinizi ve sipariş numaranızı kontrol edip tekrar deneyiniz."
+                "description": "E-posta adresinizi ve sipariş numaranızı kontrol edip tekrar deneyin."
             },
             "confirm_failed": {
                 "title": "Cayma talebinizi işleyemedik.",
@@ -438,7 +432,8 @@
         "instructions": "AB Tüketici Hakları Direktifi kapsamında cayma talebi göndermek için sipariş bilgilerinizi giriniz.",
         "name": "Adınız",
         "order_id": "Sipariş Kimliği / Fatura Numarası",
-        "email": "E-posta Adresi"
+        "email": "E-posta Adresi",
+        "continue": "Devam et"
     },
     "withdrawal_confirm": {
         "title": "Caymayı Onayla",

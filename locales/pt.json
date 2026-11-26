@@ -117,7 +117,7 @@
             "title": "Atualizar método de pagamento",
             "outstanding_payment_failed": {
                 "title": "Pagamento falhou",
-                "description": "Atualize seu método de pagamento para continuar."
+                "description": "Seu método de pagamento foi atualizado, mas não foi possível cobrar o saldo pendente. Por favor, use outro método de pagamento."
             }
         }
     },
@@ -188,13 +188,12 @@
         "confirm_password": "Confirmar senha",
         "requires_action": {
             "title": "Verifique seu e-mail",
-            "description": "Enviamos um e-mail para você. Siga as instruções para concluir o registro."
+            "description": "Este endereço de e-mail já foi usado para concluir um pedido. Por favor, conclua o cadastro usando o link enviado a você por e-mail."
         }
     },
     "guest_checkout": {
         "or": "Ou",
-        "continue_as_a_guest": "Continuar como convidado",
-        "method": "Método de envio"
+        "continue_as_a_guest": "Continuar como convidado"
     },
     "express_checkout": {
         "processing": "Processando seu pagamento…"
@@ -209,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Entrega garantida em %{smart_count} dia |||| Entrega garantida em %{smart_count} dias"
+        "guaranteed_delivery_days": "Entrega garantida em %{guaranteedDaysToDelivery} dia(s)."
     },
     "payment": {
         "form": {
@@ -282,7 +281,7 @@
         "email": "Digite um endereço de e-mail válido",
         "quantity_revised": "A quantidade foi ajustada devido a limitações de estoque.",
         "quantity_out_of_stock": "Infelizmente, este item está fora de estoque. Remova-o do carrinho para continuar.",
-        "disabled_country": "Entrega para este país não está disponível.",
+        "disabled_country": "O país selecionado não está disponível para finalizar a compra.",
         "error_payment_items_are_invalid": {
             "title": "Alguns itens no seu carrinho são inválidos.",
             "description": "Revise seu pedido ou tente novamente mais tarde."
@@ -368,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Endereço de entrega é inválido.",
             "E.TIMED_OUT": "Tempo esgotado na verificação do endereço. Tente novamente.",
             "E.TIME_ZONE.UNAVAILABLE": "Informações de fuso horário não disponíveis.",
-            "E.PO_BOX.INTERNATIONAL": "Entrega internacional para caixa postal não é possível."
+            "E.PO_BOX.INTERNATIONAL": "Não é possível verificar a caixa postal internacional."
         },
         "payment_failed": {
             "title": "Não foi possível processar o pagamento",
@@ -404,11 +403,11 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Não foi possível verificar os seus dados.",
-                "description": "Verifique o seu nome, e-mail e número do pedido e tente novamente."
+                "description": "Verifique seu e-mail e o número do pedido e tente novamente."
             },
             "confirm_failed": {
                 "title": "Não foi possível processar a sua solicitação de desistência.",
-                "description": "Tente novamente ou contacte o comerciante."
+                "description": "Tente novamente ou entre em contato com o comerciante se o problema persistir."
             }
         }
     },
@@ -430,10 +429,11 @@
     },
     "withdrawal_form": {
         "title": "Desistir do contrato",
-        "instructions": "Informe os dados do seu pedido para solicitar a desistência ao abrigo da Diretiva relativa aos direitos dos consumidores da UE.",
-        "name": "O seu nome",
+        "instructions": "Informe os dados do seu pedido para solicitar a desistência nos termos da Diretiva de Direitos dos Consumidores da UE.",
+        "name": "Seu nome",
         "order_id": "Número do pedido / fatura",
-        "email": "Endereço de e-mail"
+        "email": "Endereço de e-mail",
+        "continue": "Continuar"
     },
     "withdrawal_confirm": {
         "title": "Confirmar a desistência",
@@ -449,7 +449,7 @@
         "refund_amount_notice": "Esta estimativa é apenas para fins informativos. O valor efetivamente reembolsado pode diferir depois de considerados os impostos, descontos e custos de envio.",
         "back": "Voltar",
         "confirm": "Confirmar a desistência",
-        "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias."
+        "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato nos termos da Diretiva de Direitos dos Consumidores da UE. Os reembolsos são processados em até 14 dias."
     },
     "withdrawal_success": {
         "title": "Solicitação de desistência enviada",

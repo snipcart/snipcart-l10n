@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Lieferadresse ist ungültig.",
             "E.TIMED_OUT": "Zeitüberschreitung bei der Adressprüfung. Versuchen Sie es erneut.",
             "E.TIME_ZONE.UNAVAILABLE": "Zeitzoneninformationen nicht verfügbar.",
-            "E.PO_BOX.INTERNATIONAL": "Internationale Lieferung an Postfachadressen ist nicht möglich."
+            "E.PO_BOX.INTERNATIONAL": "Das internationale Postfach kann nicht überprüft werden."
         },
         "payment_failed": {
             "title": "Zahlung konnte nicht duchgeführt werden",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Wir konnten Ihre Angaben nicht überprüfen.",
-                "description": "Bitte überprüfen Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Bestellnummer und versuchen Sie es erneut."
+                "description": "Überprüfen Sie Ihre E-Mail-Adresse und Bestellnummer und versuchen Sie es erneut."
             },
             "confirm_failed": {
                 "title": "Wir konnten Ihre Widerrufsanfrage nicht bearbeiten.",
@@ -428,11 +428,12 @@
         "shipping_taxes_calculated_when_address_provided": "Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet."
     },
     "withdrawal_form": {
-        "title": "Vom Vertrag zurücktreten",
+        "title": "Vertrag widerrufen",
         "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäß der EU-Verbraucherrechterichtlinie zu beantragen.",
         "name": "Ihr Name",
         "order_id": "Bestellnummer / Rechnungsnummer",
-        "email": "E-Mail-Adresse"
+        "email": "E-Mail-Adresse",
+        "continue": "Weiter"
     },
     "withdrawal_confirm": {
         "title": "Widerruf bestätigen",

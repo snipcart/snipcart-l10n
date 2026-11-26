@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Zagotovljena dostava v %{smart_count} dnevu |||| Zagotovljena dostava v %{smart_count} dneh"
+        "guaranteed_delivery_days": "Zajamčen čas dostave (dni): %{guaranteedDaysToDelivery}."
     },
     "payment": {
         "form": {
@@ -228,7 +228,7 @@
         "title": "Plačilo",
         "continue_to_payment": "Nadaljuj na plačilo",
         "credit_card": "Kreditna kartica",
-        "place_order": "Zaključi plačilo",
+        "place_order": "Oddajte naročilo",
         "preparing_payment_session": "Priprava plačila...",
         "processing_payment": "Obdelava plačila...",
         "checkout_with": "Način plačila",
@@ -281,7 +281,7 @@
         "email": "Vnesite pravilen e-naslov",
         "quantity_revised": "Količina je bila posodobljena glede na zalogo.",
         "quantity_out_of_stock": "Tega izdelka trenutno ni na zalogi, odstranite ga iz košarice.",
-        "disabled_country": "Izbrana država ni na voljo.",
+        "disabled_country": "Izbrana država ni na voljo za zaključek nakupa.",
         "error_payment_items_are_invalid": {
             "title": "Nekateri izdelki v vaši košarici so neveljavni",
             "description": "Preglejte naročilo ali poskusite kasneje."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Naslov za dostavo je neveljaven.",
             "E.TIMED_OUT": "Čas za preverjanje naslova je potekel. Poskusite znova.",
             "E.TIME_ZONE.UNAVAILABLE": "Podatki o časovnem pasu niso na voljo.",
-            "E.PO_BOX.INTERNATIONAL": "Mednarodna dostava na naslov poštnega predala ni mogoča."
+            "E.PO_BOX.INTERNATIONAL": "Mednarodnega poštnega predala ni mogoče preveriti."
         },
         "payment_failed": {
             "title": "Plačilo ni bilo obdelano",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Vaših podatkov nismo mogli preveriti.",
-                "description": "Preverite svoje ime, e-poštni naslov in številko naročila, nato poskusite znova."
+                "description": "Preverite e-naslov in številko naročila ter poskusite znova."
             },
             "confirm_failed": {
                 "title": "Vaše zahteve za odstop nismo mogli obdelati.",
@@ -432,7 +432,8 @@
         "instructions": "Vnesite podatke o svojem naročilu, da boste lahko vložili zahtevo za odstop v skladu z Direktivo o pravicah potrošnikov EU.",
         "name": "Vaše ime",
         "order_id": "Številka naročila / številka računa",
-        "email": "E-poštni naslov"
+        "email": "E-poštni naslov",
+        "continue": "Nadaljuj"
     },
     "withdrawal_confirm": {
         "title": "Potrdi odstop",
@@ -442,7 +443,7 @@
         "order_number": "Številka naročila:",
         "order_date": "Datum naročila:",
         "order_total": "Skupna vrednost naročila:",
-        "items_title": "Izberite izdelke za vračilo",
+        "items_title": "Izberite izdelke, od katerih odstopate",
         "withdraw_all": "Odstopi od vseh izdelkov (polno vračilo)",
         "refund_amount": "Predvideno vračilo:",
         "refund_amount_notice": "Ta ocena je zgolj informativne narave. Dejansko vrnjeni znesek se lahko razlikuje, ko se upoštevajo davki, popusti in stroški dostave.",

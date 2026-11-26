@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Consegna garantita entro %{smart_count} giorno |||| Consegna garantita entro %{smart_count} giorni"
+        "guaranteed_delivery_days": "Consegna garantita entro %{guaranteedDaysToDelivery} giorno/i."
     },
     "payment": {
         "form": {
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "L'indirizzo di spedizione non è valido.",
             "E.TIMED_OUT": "Timeout nella verifica dell'indirizzo. Riprova.",
             "E.TIME_ZONE.UNAVAILABLE": "Informazioni sul fuso orario non disponibili.",
-            "E.PO_BOX.INTERNATIONAL": "La spedizione internazionale a indirizzi di casella postale non è possibile."
+            "E.PO_BOX.INTERNATIONAL": "Impossibile verificare la casella postale internazionale."
         },
         "payment_failed": {
             "title": "Impossibile completare il pagamento",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Non siamo riusciti a verificare i tuoi dati.",
-                "description": "Controlla il tuo nome, l'email e il numero d'ordine, quindi riprova."
+                "description": "Controlla la tua email e il numero d'ordine, poi riprova."
             },
             "confirm_failed": {
                 "title": "Non siamo riusciti a elaborare la tua richiesta di recesso.",
@@ -432,7 +432,8 @@
         "instructions": "Inserisci i dettagli del tuo ordine per richiedere il recesso ai sensi della Direttiva sui diritti dei consumatori dell'UE.",
         "name": "Il tuo nome",
         "order_id": "Numero d'ordine / fattura",
-        "email": "Indirizzo email"
+        "email": "Indirizzo email",
+        "continue": "Continua"
     },
     "withdrawal_confirm": {
         "title": "Conferma il recesso",

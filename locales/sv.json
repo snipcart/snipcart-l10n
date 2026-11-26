@@ -117,7 +117,7 @@
             "title": "Uppdatera betalningsmetod",
             "outstanding_payment_failed": {
                 "title": "Betalning misslyckades",
-                "description": "Uppdatera din betalningsmetod för att fortsätta."
+                "description": "Din betalningsmetod har uppdaterats, men vi kunde inte debitera det utestående beloppet. Använd en annan betalningsmetod."
             }
         }
     },
@@ -188,7 +188,7 @@
         "confirm_password": "Bekräfta lösenord",
         "requires_action": {
             "title": "Kontrollera din e-post",
-            "description": "Vi har skickat ett e-postmeddelande till dig. Följ instruktionerna för att slutföra registreringen."
+            "description": "Den här e-postadressen har redan använts för att slutföra en beställning. Slutför registreringen via länken som skickades till dig via e-post."
         }
     },
     "guest_checkout": {
@@ -208,7 +208,7 @@
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Garanterad leverans inom %{smart_count} dag |||| Garanterad leverans inom %{smart_count} dagar"
+        "guaranteed_delivery_days": "Garanterad leverans inom %{guaranteedDaysToDelivery} dag(ar)."
     },
     "payment": {
         "form": {
@@ -281,7 +281,7 @@
         "email": "Ange en giltig e-postadress",
         "quantity_revised": "Antalet har uppdaterats på grund av lagerbegränsningar.",
         "quantity_out_of_stock": "Tyvärr finns inte denna artikel i lager, ta bort den från varukorgen för att fortsätta.",
-        "disabled_country": "Leverans till detta land är inte tillgänglig.",
+        "disabled_country": "Det valda landet är inte tillgängligt i kassan.",
         "error_payment_items_are_invalid": {
             "title": "Vissa artiklar i din varukorg är ogiltiga.",
             "description": "Vänligen granska din beställning eller försök igen senare."
@@ -367,7 +367,7 @@
             "E.ADDRESS.DELIVERY.INVALID": "Leveransadressen är ogiltig.",
             "E.TIMED_OUT": "Tidsgränsen för adressverifiering överskreds. Försök igen.",
             "E.TIME_ZONE.UNAVAILABLE": "Tidszonsinformation är inte tillgänglig.",
-            "E.PO_BOX.INTERNATIONAL": "Internationell leverans till postboxadresser är inte möjlig."
+            "E.PO_BOX.INTERNATIONAL": "Det går inte att verifiera internationell postbox."
         },
         "payment_failed": {
             "title": "Kunde inte genomföra betalningen",
@@ -403,7 +403,7 @@
         "withdrawal": {
             "validation_failed": {
                 "title": "Vi kunde inte verifiera dina uppgifter.",
-                "description": "Kontrollera ditt namn, din e-postadress och ditt ordernummer och försök igen."
+                "description": "Kontrollera din e-postadress och ditt beställningsnummer och försök sedan igen."
             },
             "confirm_failed": {
                 "title": "Vi kunde inte behandla din ångerbegäran.",
@@ -432,7 +432,8 @@
         "instructions": "Ange dina orderuppgifter för att begära ångerrätt enligt EU:s konsumenträttighetsdirektiv.",
         "name": "Ditt namn",
         "order_id": "Order-ID / Fakturanummer",
-        "email": "E-postadress"
+        "email": "E-postadress",
+        "continue": "Fortsätt"
     },
     "withdrawal_confirm": {
         "title": "Bekräfta ångerrätt",

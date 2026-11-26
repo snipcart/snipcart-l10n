@@ -8,7 +8,7 @@
         "edit": "編輯",
         "cancel": "取消",
         "continue_shopping": "繼續購物",
-        "back_to_checkout": "結帳去",
+        "back_to_checkout": "返回結帳",
         "checkout": "結帳",
         "apply": "確認",
         "dismiss": "關閉",
@@ -33,19 +33,12 @@
     "item": {
         "quantity": "數量",
         "quantity_short": "數量",
-        "decrement_quantity": "增加數量",
-        "increment_quantity": "減少數量",
         "remove_item": "移除此項目",
         "recurrence": {
             "daily": "每日 |||| %{smart_count} 日",
             "weekly": "每週 |||| %{smart_count} 週",
             "monthly": "每月 |||| %{smart_count} 月",
-            "yearly": "每年 |||| %{smart_count} 年s"
-        },
-        "subscription": {
-            "plan": "計畫",
-            "billed_on": "下次出帳日",
-            "payment_amount": "帳單金額"
+            "yearly": "每年 |||| %{smart_count} 年"
         }
     },
     "subscription": {
@@ -83,7 +76,7 @@
         "secured_by": "Secured by Snipcart",
         "summary": "訂單內容",
         "empty": "您的購物車中沒有商品",
-        "invoice_number": "收據編號",
+        "invoice_number": "發票編號",
         "view_detailed_cart": "購物車詳細內容"
     },
     "order": {
@@ -102,17 +95,17 @@
         "lastName": "姓",
         "address1": "地址",
         "address2": "地址(選填)",
-        "city": "縣市",
+        "city": "城市",
         "country": "國家",
         "phone": "電話",
         "postalCode": "郵遞區號",
-        "province": "鄉鎮市區",
+        "province": "省/州",
         "dont_see_address": "沒有看到我的地址"
     },
     "billing": {
         "title": "帳單地址",
         "address": "帳單地址",
-        "continue_to_shipping": "確認",
+        "continue_to_shipping": "繼續前往送貨",
         "use_different_shipping_address": "如果帳單地址與收件地址不同﹐請勾選此項"
     },
     "customer": {
@@ -121,8 +114,7 @@
         "payment_method_update": {
             "title": "更新付款方式",
             "outstanding_payment_failed": {
-                "title": "付款失敗",
-                "description": "請更新您的付款方式以繼續。"
+                "title": "付款失敗"
             }
         }
     },
@@ -141,7 +133,7 @@
         "loading": "載入中，請稍候...",
         "no_orders": "尚無訂單",
         "no_subscriptions": "無訂閱制商品",
-        "view_invoice": "查看訂單",
+        "view_invoice": "查看發票",
         "sign_out": "登出",
         "show_more_orders": "再顯示 %{smart_count} 筆訂單 |||| 再顯示 %{smart_count} 筆訂單",
         "show_more_subscriptions": "顯示更多 %{smart_count} 個訂閱 |||| 顯示更多 %{smart_count} 個訂閱",
@@ -179,7 +171,7 @@
         "action": "設定新密碼"
     },
     "change_password_form": {
-        "title": "修改你的密碼",
+        "title": "修改您的密碼",
         "current_password": "目前密碼",
         "password": "新密碼",
         "confirmation_password": "確認密碼",
@@ -192,8 +184,7 @@
         "password": "密碼",
         "confirm_password": "確認密碼",
         "requires_action": {
-            "title": "請查看您的電子郵件",
-            "description": "我們已發送電子郵件給您，請按照說明完成註冊。"
+            "title": "請查看您的電子郵件"
         }
     },
     "guest_checkout": {
@@ -208,9 +199,6 @@
         "methods": {
             "example_localization_id": "配送方式範例"
         }
-    },
-    "shipping_rates": {
-        "guaranteed_delivery_days": "保證 %{smart_count} 天內送達 |||| 保證 %{smart_count} 天內送達"
     },
     "payment": {
         "form": {
@@ -229,9 +217,8 @@
         "still_pending_notice": "您的付款正在處理中",
         "title": "付款方式",
         "continue_to_payment": "前往付款方式",
-        "credit_card": "信用卡到期日",
         "place_order": "送出",
-        "preparing_payment_session": "與銀行連線中...",
+        "preparing_payment_session": "正在準備付款...",
         "processing_payment": "付款中，請稍候...",
         "checkout_with": "結帳方式",
         "checkout_with_method": "以%{method}做為結帳方式",
@@ -266,7 +253,6 @@
         "total": "總計",
         "subtotal": "小計",
         "shipping": "運費",
-        "discount": "數量",
         "quantity": "x",
         "calculated_at_checkout": "結帳時計算"
     },
@@ -283,7 +269,6 @@
         "email": "請使用正確的 Email",
         "quantity_revised": "由於庫存數目的關係，此筆訂單已被更新",
         "quantity_out_of_stock": "很抱歉，此商品已無庫存，請從購物車移除後再繼續購物",
-        "disabled_country": "不支援配送至此國家。",
         "error_payment_items_are_invalid": {
             "title": "您購物車中的部分商品已無販售",
             "description": "請查看您的訂單後再嘗試一次"
@@ -298,7 +283,7 @@
             "expired": "信用卡有效日期已過期。",
             "declined": "此張信用卡的交易已被拒絕，請聯絡您的發卡銀行解鎖此信用卡。",
             "invalid_address": "信用卡的帳單地址錯誤。",
-            "insufficient_funds": "次帳戶並無足夠之餘額完成交易。",
+            "insufficient_funds": "此帳戶並無足夠餘額支付交易金額。",
             "card_not_supported": "此卡片不支援此商店服務地區之交易。",
             "currency_not_supported": "此卡片不支援此商店所使用的貨幣。"
         },
@@ -306,12 +291,12 @@
             "declined": "此卡片被發卡銀行拒絕交易，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
         },
         "discounts": {
-            "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
+            "conflict": "部分折扣無法一起使用，您要改用此折扣嗎？"
         },
         "order_validation": {
             "domain_crawling": {
                 "title": "訂單驗證失敗",
-                "description": "訂單內容驗證失敗，請清除購物車後重新選購商品。"
+                "description": "您並未被收費。請聯絡店主查詢詳情。"
             },
             "product_crawling": {
                 "title": "您購物車內部分商品的價格已更新",
@@ -327,7 +312,7 @@
             },
             "shipping_validation": {
                 "title": "寄送方法有誤",
-                "description": "你選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
+                "description": "您選擇的運送方式可能已有變更或無法提供。請聯絡店主查詢詳情。"
             }
         },
         "invalid_address": "地址無效。",
@@ -368,8 +353,7 @@
             "E.STATE.INVALID": "地區無效。",
             "E.ADDRESS.DELIVERY.INVALID": "配送地址無效。",
             "E.TIMED_OUT": "地址驗證逾時，請重試。",
-            "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。",
-            "E.PO_BOX.INTERNATIONAL": "無法進行國際配送至郵箱地址。"
+            "E.TIME_ZONE.UNAVAILABLE": "時區資訊不可用。"
         },
         "payment_failed": {
             "title": "信用卡交易失敗",
@@ -377,7 +361,7 @@
         },
         "payment_authorization": {
             "title": "交易授權失敗",
-            "default": "刷卡授權失敗，請聯絡發卡銀行幫您解鎖。"
+            "default": "請檢查帳單及付款資料。"
         },
         "authentication_challenge": {
             "failed": {
@@ -404,8 +388,8 @@
         "customer_current_password_invalid": "密碼錯誤",
         "withdrawal": {
             "validation_failed": {
-                "title": "我們無法核實您的資料，請檢查姓名、電郵及訂單編號後再試。",
-                "description": ""
+                "title": "我們無法核實您的資料。",
+                "description": "請檢查您的電郵地址及訂單編號，然後再試。"
             },
             "confirm_failed": {
                 "title": "我們無法處理您的撤回請求。",
