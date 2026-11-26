@@ -216,7 +216,7 @@
             "deferred_payment_instructions": "Billi tordna, qed taqbel li tħallas aktar tard bil-metodu tal-ħlas stabbilit mill-bejjiegħ.",
             "card_label": "Karta tal-kreditu",
             "card_number": "Numru tal-karta",
-            "card_expiration": "XX/XX",
+            "card_expiration": "XX/SS",
             "card_cvv": "CVV",
             "card_postal_code": "Kodiċi postali",
             "invalid_number": "Numru tal-karta invalidu",

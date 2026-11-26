@@ -428,7 +428,7 @@
         "shipping_taxes_calculated_when_address_provided": "Forsendelse og moms udregnes når en adresse er angivet"
     },
     "withdrawal_form": {
-        "title": "Træd tilbage fra aftalen",
+        "title": "Fortryd aftalen",
         "instructions": "Indtast dine ordreoplysninger for at anmode om fortrydelse i henhold til EU's forbrugerrettighedsdirektiv.",
         "name": "Dit navn",
         "order_id": "Ordre-ID / Fakturanummer",

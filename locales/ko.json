@@ -78,7 +78,7 @@
         "secured_by": "Snipcart 보안 결제",
         "summary": "주문 요약",
         "empty": "장바구니가 비어 있습니다.",
-        "invoice_number": "송장 번호",
+        "invoice_number": "청구서 번호",
         "view_detailed_cart": "장바구니 상세 보기"
     },
     "order": {
@@ -136,7 +136,7 @@
         "loading": "로딩 중...",
         "no_orders": "주문이 없습니다.",
         "no_subscriptions": "구독이 없습니다.",
-        "view_invoice": "송장 보기",
+        "view_invoice": "청구서 보기",
         "sign_out": "로그아웃",
         "show_more_orders": "%{smart_count}개 주문 더 보기 |||| %{smart_count}개 주문 더 보기",
         "show_more_subscriptions": "%{smart_count}개 구독 더 보기 |||| %{smart_count}개 구독 더 보기",

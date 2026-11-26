@@ -357,8 +357,8 @@
             "E.HOUSE_NUMBER.INVALID": "门牌号无效。",
             "E.STREET.MISSING": "缺少街道名称。",
             "E.STREET.INVALID": "街道名称无效。",
-            "E.BOX_NUMBER.MISSING": "缺少邮箱号码。",
-            "E.BOX_NUMBER.INVALID": "邮箱号码无效。",
+            "E.BOX_NUMBER.MISSING": "缺少邮政信箱号码。",
+            "E.BOX_NUMBER.INVALID": "邮政信箱号码无效。",
             "E.ADDRESS.INVALID": "地址无效。",
             "E.ZIP.NOT_FOUND": "找不到邮政编码。",
             "E.ZIP.INVALID": "邮政编码无效。",
@@ -390,11 +390,11 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "购物车只能包含一个订阅。",
+                "title": "无法将订阅加入购物车",
                 "description": "请先移除现有订阅再添加新的。"
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "购物车只能包含商品或订阅。",
+                "title": "无法将商品加入购物车",
                 "description": "请先移除现有商品再添加订阅，或反之。"
             }
         },

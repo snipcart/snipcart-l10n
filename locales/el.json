@@ -87,7 +87,7 @@
     },
     "discount_box": {
         "promo_code": "Κωδικός έκπτωσης / κάρτας δώρου",
-        "promo_code_placeholder": "Συμπληρώστε τον κωδικό σας",
+        "promo_code_placeholder": "Εκπτωτικός κωδικός",
         "promocode_applied": "Ο κωδικός σας εφαρμόστηκε"
     },
     "address_form": {

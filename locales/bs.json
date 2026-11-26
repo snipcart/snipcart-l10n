@@ -385,11 +385,11 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Korpa može sadržavati samo jednu pretplatu.",
+                "title": "Pretplatu nije moguće dodati u korpu",
                 "description": "Uklonite postojeću pretplatu prije dodavanja nove."
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "Korpa može sadržavati artikle ili pretplate.",
+                "title": "Proizvod nije moguće dodati u korpu",
                 "description": "Uklonite postojeće artikle prije dodavanja pretplate, ili obrnuto."
             }
         },
@@ -443,7 +443,7 @@
         "order_number": "Broj narudžbe:",
         "order_date": "Datum narudžbe:",
         "order_total": "Ukupan iznos narudžbe:",
-        "items_title": "Odaberite artikle za povrat",
+        "items_title": "Odaberite artikle od kojih odustajete",
         "withdraw_all": "Odustani od svih artikala (puni povrat)",
         "refund_amount": "Procijenjeni iznos povrata:",
         "refund_amount_notice": "Ova procjena je samo informativnog karaktera. Stvarni iznos povrata može se razlikovati nakon što se uzmu u obzir porezi, popusti i troškovi dostave.",

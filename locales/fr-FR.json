@@ -109,7 +109,7 @@
     },
     "forgot_password_form": {
         "title": "Récupérer votre mot de passe",
-        "instructions": "Saisissez l’adresse de courriel associée à votre compte afin que nous vous envoyons un lien de réinitialisatioon de votre mot de passe.",
+        "instructions": "Saisissez l'adresse de courriel associée à votre compte et nous vous enverrons un lien de réinitialisation de votre mot de passe.",
         "email": "Courriel",
         "email_instructions": "Un courriel contenant un lien vous a été envoyé. Cliquez dessus afin de réinitialiser votre mot de passe.",
         "action": "Envoyer le courriel de réinitialisation"

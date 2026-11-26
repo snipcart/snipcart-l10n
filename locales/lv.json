@@ -54,7 +54,7 @@
             "cancellationrequested": "Abonements tiks pārtraukts norēķinu perioda beigās."
         },
         "placed_on": "Pasūtīts",
-        "final_billing_date": "Pēdējā norēķinu datums",
+        "final_billing_date": "Pēdējais norēķinu datums",
         "items": "Preces",
         "plan": "Plāns",
         "billed_on": "Maksājuma datums",
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Paroles atiestatīšana",
-        "instructions": "Ievadi savu e-pastu un mēs nosūtīsim paroles atiestatīšanas saiti.",
+        "instructions": "Ievadiet sava konta e-pasta adresi, un mēs nosūtīsim jums paroles atiestatīšanas saiti.",
         "email": "E-pasts",
         "email_instructions": "Jums tika nosūtīts e-pasts ar saiti tajā. Uzklikšķiniet uz tās, lai atiestatītu paroli.",
         "action": "Nosūtīt paroles atiestatīšanas e-pastu"

@@ -428,7 +428,7 @@
         "shipping_taxes_calculated_when_address_provided": "Versandkosten und Steuern werden nach Eingabe der Versandadresse berechnet."
     },
     "withdrawal_form": {
-        "title": "Vom Vertrag zurücktreten",
+        "title": "Vertrag widerrufen",
         "instructions": "Geben Sie Ihre Bestelldetails ein, um einen Widerruf gemäß der EU-Verbraucherrechterichtlinie zu beantragen.",
         "name": "Ihr Name",
         "order_id": "Bestellnummer / Rechnungsnummer",

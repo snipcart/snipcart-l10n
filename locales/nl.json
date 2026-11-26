@@ -92,7 +92,7 @@
     },
     "address_form": {
         "name": "Volledige naam",
-        "email": "Email",
+        "email": "E-mail",
         "firstName": "Voornaam",
         "lastName": "Achternaam",
         "address1": "Straat en huisnummer",

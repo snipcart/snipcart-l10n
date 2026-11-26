@@ -44,7 +44,7 @@
         }
     },
     "subscription": {
-        "title": "Koumanantiñ",
+        "title": "Koumanant",
         "state": {
             "title": "Stad",
             "active": "Oberiant",
@@ -59,7 +59,7 @@
         "plan": "Prantad",
         "billed_on": "Feuraet d'an",
         "payment_amount": "Sammad ar paeamant",
-        "processing": "Ar c'houmanantiñ a zo c'hoazh o vezañ kelennet. Distroit diwezhatoc'h.",
+        "processing": "Ar c'houmanant a zo c'hoazh o vezañ tretet. Distroit diwezhatoc'h evit gwelet ar munudoù.",
         "loading": "O kargañ ar c'houmanantioù",
         "cancel": "Nullañ",
         "pause": "Ehanañ",
@@ -225,7 +225,7 @@
             "invalid_cvv": "CVV direizh",
             "invalid_postal_code": "Kod-post direizh"
         },
-        "still_pending_notice": "Ho paeamant a zo c'hoazh o vezañ kelennet.",
+        "still_pending_notice": "Ho paeamant a zo c'hoazh o vezañ tretet.",
         "title": "Paeamant",
         "continue_to_payment": "Kenderc'hel d'ar paeamant",
         "credit_card": "Kartenn-gred",

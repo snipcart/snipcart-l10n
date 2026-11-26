@@ -427,7 +427,7 @@
     },
     "withdrawal_confirm": {
         "warning_message": "Este pedido está fora do prazo de desistência de 14 dias. O comerciante irá analisar sua solicitação.",
-        "items_title": "Selecione os itens para devolução",
+        "items_title": "Selecione os itens dos quais deseja desistir",
         "withdraw_all": "Desistir de todos os itens (reembolso integral)",
         "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato conforme a Diretiva sobre os direitos dos consumidores da UE. Os reembolsos são processados em até 14 dias."
     },

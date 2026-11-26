@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Khôi phục mật khẩu",
-        "instructions": "Nhập email của bạn và chúng tôi sẽ gửi bạn một link đường dẫn làm lại mật khẩu.",
+        "instructions": "Nhập địa chỉ email của tài khoản và chúng tôi sẽ gửi cho bạn liên kết đặt lại mật khẩu.",
         "email": "Email",
         "email_instructions": "Một email chứa đựng link đường dẫn đã được gửi đến bạn. Click vào link đường dẫn để thay đổi mật khẩu.",
         "action": "Gửi email Khôi phục mật khẩu"
@@ -444,7 +444,7 @@
         "order_date": "Ngày đặt hàng:",
         "order_total": "Tổng đơn hàng:",
         "items_title": "Chọn sản phẩm muốn rút",
-        "withdraw_all": "Rút toàn bộ sản phẩm (hoàn tiền đầy đủ)",
+        "withdraw_all": "Rút khỏi hợp đồng với toàn bộ sản phẩm (hoàn tiền đầy đủ)",
         "refund_amount": "Số tiền hoàn lại dự kiến:",
         "refund_amount_notice": "Ước tính này chỉ mang tính chất tham khảo. Số tiền hoàn lại thực tế có thể khác sau khi tính đến thuế, chiết khấu và phí vận chuyển.",
         "back": "Quay lại",

@@ -44,14 +44,14 @@
         }
     },
     "subscription": {
-        "title": "Tellimus",
+        "title": "Püsitellimus",
         "state": {
             "title": "Olek",
             "active": "Aktiivne",
             "paused": "Peatatud",
             "finished": "Lõppenud",
-            "stopped": "Peatatud",
-            "cancellationrequested": "Tellimus lõpetatakse arveldusperioodi lõpus."
+            "stopped": "Lõpetatud",
+            "cancellationrequested": "Püsitellimus lõpeb arveldusperioodi lõpus."
         },
         "placed_on": "Tellitud",
         "final_billing_date": "Viimane arvelduskuupäev",
@@ -59,8 +59,8 @@
         "plan": "Plaan",
         "billed_on": "Arveldatud",
         "payment_amount": "Makse summa",
-        "processing": "Tellimus on veel töötlemisel. Vaadake hiljem uuesti.",
-        "loading": "Tellimuste laadimine",
+        "processing": "Püsitellimust alles töödeldakse. Üksikasjade nägemiseks tulge hiljem tagasi.",
+        "loading": "Püsitellimuste laadimine",
         "cancel": "Tühista",
         "pause": "Peata",
         "unpause": "Jätka",
@@ -135,20 +135,20 @@
         "order_details": "Tellimuse üksikasjad",
         "loading": "Laadimine...",
         "no_orders": "Tellimusi ei leitud.",
-        "no_subscriptions": "Tellimusi ei leitud.",
+        "no_subscriptions": "Püsitellimusi ei leitud.",
         "view_invoice": "Vaata arvet",
         "sign_out": "Logi välja",
         "show_more_orders": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
-        "show_more_subscriptions": "Näita veel %{smart_count} tellimust |||| Näita veel %{smart_count} tellimust",
+        "show_more_subscriptions": "Näita veel %{smart_count} püsitellimus |||| Näita veel %{smart_count} püsitellimust",
         "orders": "Tellimused",
-        "subscriptions": "Tellimused",
-        "subscription": "Tellimus"
+        "subscriptions": "Püsitellimused",
+        "subscription": "Püsitellimus"
     },
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Tellimusel on tasumata makse",
-                "description": "Teil on tellimus tasumata maksega. Palun uuendage oma makseviisi."
+                "title": "Püsitellimuse makse tähtaeg on käes",
+                "description": "Teil on praegu püsitellimus, mille makse on tähtaja ületanud. Palun uuendage oma makseviisi, klõpsates oma andmetes selle kõrval nupul Muuda."
             }
         }
     },
@@ -157,7 +157,7 @@
         "dont_have_an_account": "Pole kontot?",
         "email": "E-post",
         "password": "Parool",
-        "forgot_your_password": "Unustasid parooli?",
+        "forgot_your_password": "Unustasite parooli?",
         "close_form": "Tagasi"
     },
     "forgot_password_form": {
@@ -385,12 +385,12 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Ostukorv saab sisaldada ainult ühte tellimust.",
-                "description": "Eemaldage olemasolev tellimus enne uue lisamist."
+                "title": "Püsitellimust ei saanud ostukorvi lisada",
+                "description": "Ostukorvis saab korraga olla ainult üks püsitellimus."
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "Ostukorv saab sisaldada tooteid või tellimusi.",
-                "description": "Eemaldage olemasolevad tooted enne tellimuse lisamist või vastupidi."
+                "description": "Ostukorvis saavad olla kas ainult tooted või ainult püsitellimus."
             }
         },
         "customer_exists": "See e-posti aadress on juba kasutusel.",
@@ -444,7 +444,7 @@
         "order_date": "Tellimuse kuupäev:",
         "order_total": "Tellimuse kogusumma:",
         "items_title": "Valige tagastatavad tooted",
-        "withdraw_all": "Tagasta kõik tooted (täielik raha tagastamine)",
+        "withdraw_all": "Tagane kõigist toodetest (täielik raha tagastamine)",
         "refund_amount": "Hinnanguline tagasimakse:",
         "refund_amount_notice": "See hinnang on üksnes informatiivne. Tegelik tagasimakstav summa võib pärast maksude, allahindluste ja saatekulude arvesse võtmist erineda.",
         "back": "Tagasi",

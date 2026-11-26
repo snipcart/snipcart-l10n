@@ -402,7 +402,7 @@
         "customer_current_password_invalid": "סיסמה שגויה.",
         "withdrawal": {
             "validation_failed": {
-                "title": "לא הצלחנו לאמת את הפרטים שלכם.",
+                "title": "לא הצלחנו לאמת את הפרטים שלך.",
                 "description": "בדוק את כתובת הדוא\"ל ואת מספר ההזמנה, ולאחר מכן נסה שוב."
             },
             "confirm_failed": {

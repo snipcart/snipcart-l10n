@@ -44,7 +44,7 @@
         }
     },
     "subscription": {
-        "title": "Suscripciones",
+        "title": "Suscripción",
         "state": {
             "title": "Estado",
             "active": "Activo",
@@ -77,7 +77,7 @@
         "loading": "Estamos preparando tu carrito...",
         "secured_by": "Asegurado por Snipcart",
         "summary": "Resumen del pedido",
-        "empty": "Tu carrito esta vacío.",
+        "empty": "Tu carrito está vacío.",
         "invoice_number": "Factura número",
         "view_detailed_cart": "Ver detalle del carrito"
     },

@@ -12,7 +12,7 @@
         "checkout": "Apmokėjimas",
         "apply": "Pritaikyti",
         "dismiss": "Atmesti",
-        "type_address": "Įvęskite savo adresą",
+        "type_address": "Įveskite savo adresą",
         "use_this_address": "Naudoti šitą adresą",
         "back_to_store": "Atgal į parduotuvę",
         "close_cart": "Uždaryti krepšelį",
@@ -428,7 +428,7 @@
         "shipping_taxes_calculated_when_address_provided": "Siuntimo ir kiti mokečiai bus paskaičiuoti po adreso pateikimo."
     },
     "withdrawal_form": {
-        "title": "Atsisakymas nuo sutarties",
+        "title": "Sutarties atsisakymas",
         "instructions": "Įveskite užsakymo duomenis, kad pateiktumėte atsisakymo prašymą pagal ES Vartotojų teisių direktyvą.",
         "name": "Jūsų vardas",
         "order_id": "Užsakymo ID / sąskaitos numeris",

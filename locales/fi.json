@@ -44,14 +44,14 @@
         }
     },
     "subscription": {
-        "title": "Tilaus",
+        "title": "Jatkuva tilaus",
         "state": {
             "title": "Tila",
             "active": "Aktiivinen",
             "paused": "Keskeytetty",
             "finished": "Päättynyt",
             "stopped": "Pysäytetty",
-            "cancellationrequested": "Tilaus päättyy laskutusjakson lopussa."
+            "cancellationrequested": "Jatkuva tilaus päättyy laskutuskauden lopussa."
         },
         "placed_on": "Tilattu",
         "final_billing_date": "Viimeinen laskutuspäivä",
@@ -59,8 +59,8 @@
         "plan": "Tilausjakso",
         "billed_on": "Laskutettu",
         "payment_amount": "Maksun summa",
-        "processing": "Tilausta käsitellään. Palaa myöhemmin nähdäksesi tiedot.",
-        "loading": "Ladataan tilauksia",
+        "processing": "Jatkuvaa tilausta käsitellään vielä. Palaa myöhemmin nähdäksesi tiedot.",
+        "loading": "Ladataan jatkuvia tilauksia",
         "cancel": "Peruuta",
         "pause": "Keskeytä",
         "unpause": "Jatka",
@@ -135,11 +135,11 @@
         "order_details": "Tilauksen tiedot",
         "loading": "Ladataan...",
         "no_orders": "Ei tilauksia.",
-        "no_subscriptions": "Ei tilauksia.",
+        "no_subscriptions": "Jatkuvia tilauksia ei löytynyt.",
         "view_invoice": "Näytä lasku",
         "sign_out": "Kirjaudu ulos",
         "show_more_orders": "Näytä vielä %{smart_count} tilaus |||| Näytä vielä %{smart_count} tilausta",
-        "show_more_subscriptions": "Näytä vielä %{smart_count} tilaus |||| Näytä vielä %{smart_count} tilausta",
+        "show_more_subscriptions": "Näytä vielä %{smart_count} jatkuva tilaus |||| Näytä vielä %{smart_count} jatkuvaa tilausta",
         "orders": "Tilaukset",
         "subscriptions": "Jatkuvat tilaukset",
         "subscription": "Jatkuva tilaus"
@@ -147,8 +147,8 @@
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Maksu erääntynyt",
-                "description": "Tilauksellasi on erääntynyt maksu. Päivitä maksutapasi."
+                "title": "Jatkuvan tilauksen maksu on erääntynyt",
+                "description": "Sinulla on tällä hetkellä jatkuva tilaus, jonka maksu on myöhässä. Päivitä maksutapasi napsauttamalla tiedoissasi sen vieressä olevaa Muokkaa-painiketta."
             }
         }
     },
@@ -304,7 +304,7 @@
             "declined": "Tapahtuma hylätty"
         },
         "discounts": {
-            "conflict": "Nämä alennuskoodit eivät ole yhteensopivia keskenään."
+            "conflict": "Joitakin alennuksia ei voi yhdistää. Käytetäänkö sen sijaan tätä alennusta?"
         },
         "order_validation": {
             "domain_crawling": {
@@ -324,14 +324,14 @@
                 "description": "Joissain tuotteissa ei ole kaikkia pakollisia tietoja. Tarkista tuotteiden tiedot ostoskorista."
             },
             "shipping_validation": {
-                "title": "Toimitusosoitteen vahvistus epäonnistui.",
-                "description": "Tarkista toimitusosoitteesi ja yritä uudelleen."
+                "title": "Toimitustavan vahvistus epäonnistui.",
+                "description": "Valittu toimitushinta on voinut muuttua tai se ei ole enää saatavilla. Kysy lisätietoja kauppiaalta."
             }
         },
         "invalid_address": "Osoite on virheellinen.",
         "shipping": {
             "account_configuration": {
-                "title": "Toimituspalvelun asetuksissa on virhe",
+                "title": "Toimitustapoja ei ole tällä hetkellä saatavilla",
                 "description": "Ota yhteyttä kauppiaaseen saadaksesi lisätietoja."
             },
             "rates_calculation": {
@@ -387,12 +387,12 @@
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Ostoskorissa voi olla vain yksi jatkuva tilaus.",
-                "description": "Poista nykyinen jatkuva tilaus ennen uuden lisäämistä."
+                "title": "Jatkuvaa tilausta ei voitu lisätä ostoskoriin",
+                "description": "Ostoskorissa voi olla vain yksi jatkuva tilaus kerrallaan."
             },
             "cart_can_only_contain_items_or_subscriptions": {
                 "title": "Ostoskori voi sisältää joko tuotteita tai jatkuvia tilauksia.",
-                "description": "Poista nykyiset tuotteet ennen jatkuvan tilauksen lisäämistä tai päinvastoin."
+                "description": "Ostoskorissa voi olla joko vain tuotteita tai jatkuva tilaus."
             }
         },
         "customer_exists": "Tämä sähköposti on jo käytössä.",

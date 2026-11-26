@@ -92,7 +92,7 @@
     },
     "address_form": {
         "name": "Tam isim",
-        "email": "Email",
+        "email": "E-posta",
         "firstName": "Ad",
         "lastName": "Soyad",
         "address1": "Adres",

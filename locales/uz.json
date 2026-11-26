@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Parolni tiklash",
-        "instructions": "Elektron pochts msnzilingizni kiriting? va biz sizga parolni tiklash uchun yo'riqnomani yuboramiz.",
+        "instructions": "Hisobingizning elektron pochta manzilini kiriting va biz sizga parolni tiklash havolasini yuboramiz.",
         "email": "Elektron pochta",
         "email_instructions": "Sizga xat orqali manzil yuborildi. Parolni tiklash uchun xatdagi havolaga o'ting.",
         "action": "Parolni tiklash uchun xatni jo'natish"
@@ -263,7 +263,7 @@
         "taxes_included_in_price": "Ba'zi mahsulotlar narxiga soliq kiritilgan.",
         "total": "Summa",
         "subtotal": "Jami",
-        "shipping": "Yetklazib berish",
+        "shipping": "Yetkazib berish",
         "discount": "Chegirmalar",
         "quantity": "x",
         "calculated_at_checkout": "Buyurtmani rasmiylashtirish vaqtida hisoblanadi"

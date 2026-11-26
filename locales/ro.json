@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Recuperați parola Dvs",
-        "instructions": "Introduce-ți adresa de email a contului și vă vom trimite un link pentru resetarea parolei.",
+        "instructions": "Introduceți adresa de email a contului și vă vom trimite un link pentru resetarea parolei.",
         "email": "Email",
         "email_instructions": "Un email cu informațiile necesare a fost trimis. Apăsați pe link-ul din email pentru a vă reseta parola.",
         "action": "Trimite email pentru resetarea parolei"
@@ -228,7 +228,7 @@
         "title": "Plată",
         "continue_to_payment": "Continuă către plată",
         "credit_card": "Card bancar",
-        "place_order": "Plasează comanda",
+        "place_order": "Plasați comanda",
         "preparing_payment_session": "Pregătire plată...",
         "processing_payment": "Procesare plată...",
         "checkout_with": "Metoda de plată",

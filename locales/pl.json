@@ -105,7 +105,7 @@
         "dont_see_address": "Nie widzę swojego adresu"
     },
     "billing": {
-        "title": "Dane osobowe",
+        "title": "Dane rozliczeniowe",
         "address": "Adres wysyłki",
         "continue_to_shipping": "Przejdź do dostawy",
         "use_different_shipping_address": "Użyj innego adresu dostawy"
@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Odzyskaj hasło",
-        "instructions": "Podaj adres email połączony ze swoim kontem, a my wyślemy Ci link do zresetowania hasłą.",
+        "instructions": "Podaj adres email połączony ze swoim kontem, a my wyślemy Ci link do zresetowania hasła.",
         "email": "Email",
         "email_instructions": "Email zawierający link do zmiany hasła został do Ciebie wysłany. Kliknij na niego, aby zresetować hasło.",
         "action": "Wyślij email resetujący hasło"
@@ -443,7 +443,7 @@
         "order_number": "Numer zamówienia:",
         "order_date": "Data zamówienia:",
         "order_total": "Łączna kwota zamówienia:",
-        "items_title": "Wybierz produkty do zwrotu",
+        "items_title": "Wybierz produkty, od których odstępujesz",
         "withdraw_all": "Odstąp od wszystkich produktów (pełny zwrot)",
         "refund_amount": "Szacowana kwota zwrotu:",
         "refund_amount_notice": "Niniejsze oszacowanie ma charakter wyłącznie informacyjny. Rzeczywista kwota zwrotu może się różnić po uwzględnieniu podatków, rabatów i kosztów wysyłki.",

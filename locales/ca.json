@@ -443,7 +443,7 @@
         "order_number": "Número de comanda:",
         "order_date": "Data de la comanda:",
         "order_total": "Total de la comanda:",
-        "items_title": "Seleccioneu els articles a retornar",
+        "items_title": "Seleccioneu els articles dels quals voleu desistir",
         "withdraw_all": "Desistir de tots els articles (reemborsament íntegre)",
         "refund_amount": "Reemborsament estimat:",
         "refund_amount_notice": "Aquesta estimació és només a títol informatiu. L’import realment reemborsat pot diferir un cop tinguts en compte els impostos, els descomptes i les despeses d’enviament.",

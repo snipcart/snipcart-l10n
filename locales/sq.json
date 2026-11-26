@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Rikupero fjalëkalimin tënd",
-        "instructions": "Shkruaj emailin e llogarisë tënde dhe do t'ju dërgojmë një lidhje për rivendosjen e fjalëkalimit.",
+        "instructions": "Shkruani emailin e llogarisë suaj dhe do t'ju dërgojmë një lidhje për rivendosjen e fjalëkalimit.",
         "email": "Email",
         "email_instructions": "Një email me një lidhje ju është dërguar. Klikoni mbi të për të rivendosur fjalëkalimin tuaj.",
         "action": "Dërgo emailin e rivendosjes së fjalëkalimit"
@@ -309,7 +309,7 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Porosia nuk mund të përpunohej.",
-                "description": "Nuk jeni ngarkuar. Ju lutem kontaktoni pronarin e dyqanit për detaje."
+                "description": "Nuk ju është marrë asnjë pagesë. Ju lutem kontaktoni pronarin e dyqanit për detaje."
             },
             "product_crawling": {
                 "title": "Çmimi i produkteve në shportë mund të ketë ndryshuar.",
@@ -321,7 +321,7 @@
             },
             "custom_fields_validation": {
                 "title": "Informacion i detyrueshëm mungon.",
-                "description": "Disa produkte në shportë mungojnë informacione të detyrueshme. Ju lutem ndryshoni shportën për të vazhduar."
+                "description": "Disa produkteve në shportë u mungojnë informacione të detyrueshme. Ju lutem ndryshoni shportën për të vazhduar."
             },
             "shipping_validation": {
                 "title": "Metoda e transportit nuk mund të verifikohej.",
@@ -446,7 +446,7 @@
         "items_title": "Zgjidhni artikujt për t’u tërhequr",
         "withdraw_all": "Tërhiqu nga të gjithë artikujt (rimbursim i plotë)",
         "refund_amount": "Rimbursimi i parashikuar:",
-        "refund_amount_notice": "Kjo vlerësim është vetëm për qëllime informuese. Shuma e rimbursuar në fakt mund të ndryshojë pasi të merren parasysh taksat, zbritjet dhe shpenzimet e transportit.",
+        "refund_amount_notice": "Ky vlerësim është vetëm për qëllime informuese. Shuma e rimbursuar në fakt mund të ndryshojë pasi të merren parasysh taksat, zbritjet dhe shpenzimet e transportit.",
         "back": "Mbrapa",
         "confirm": "Konfirmo tërheqjen",
         "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh."

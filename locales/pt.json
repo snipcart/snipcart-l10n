@@ -408,7 +408,7 @@
             },
             "confirm_failed": {
                 "title": "Não foi possível processar a sua solicitação de desistência.",
-                "description": "Tente novamente ou contacte o comerciante."
+                "description": "Tente novamente ou entre em contato com o comerciante se o problema persistir."
             }
         }
     },
@@ -430,8 +430,8 @@
     },
     "withdrawal_form": {
         "title": "Desistir do contrato",
-        "instructions": "Informe os dados do seu pedido para solicitar a desistência ao abrigo da Diretiva relativa aos direitos dos consumidores da UE.",
-        "name": "O seu nome",
+        "instructions": "Informe os dados do seu pedido para solicitar a desistência nos termos da Diretiva de Direitos dos Consumidores da UE.",
+        "name": "Seu nome",
         "order_id": "Número do pedido / fatura",
         "email": "Endereço de e-mail",
         "continue": "Continuar"
@@ -450,7 +450,7 @@
         "refund_amount_notice": "Esta estimativa é apenas para fins informativos. O valor efetivamente reembolsado pode diferir depois de considerados os impostos, descontos e custos de envio.",
         "back": "Voltar",
         "confirm": "Confirmar a desistência",
-        "legal_notice": "Ao confirmar, está a exercer o seu direito de desistência deste contrato ao abrigo da Diretiva relativa aos direitos dos consumidores da UE. Os reembolsos são processados no prazo de 14 dias."
+        "legal_notice": "Ao confirmar, você está exercendo seu direito de desistência deste contrato nos termos da Diretiva de Direitos dos Consumidores da UE. Os reembolsos são processados em até 14 dias."
     },
     "withdrawal_success": {
         "title": "Solicitação de desistência enviada",

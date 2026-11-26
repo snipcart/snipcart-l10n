@@ -162,7 +162,7 @@
     },
     "forgot_password_form": {
         "title": "Obnovit si heslo",
-        "instructions": "Zadejte Vaši emailovou adresu pro získání odkaz na obnovu hesla.",
+        "instructions": "Zadejte emailovou adresu svého účtu a my Vám pošleme odkaz pro obnovu hesla.",
         "email": "Email",
         "email_instructions": "Email s odkazem Vám byl odeslán. Pro změnu hesla klikněte na odkaz v emailu.",
         "action": "Zaslat email pro obnovu hesla"
@@ -220,7 +220,7 @@
             "card_cvv": "CVV",
             "card_postal_code": "Poštovní číslo",
             "invalid_number": "Číslo karty je neplatné",
-            "invalid_expiration": "Datum expirace je neplatný",
+            "invalid_expiration": "Datum expirace je neplatné",
             "invalid_cvv": "CVV kód je neplatný",
             "invalid_postal_code": "PSČ je neplatné"
         },
@@ -228,7 +228,7 @@
         "title": "Platba",
         "continue_to_payment": "Pokračovat na platbu",
         "credit_card": "Platební karta",
-        "place_order": "Zaplatit",
+        "place_order": "Objednat a zaplatit",
         "preparing_payment_session": "Načítání platby...",
         "processing_payment": "Zpracování platby...",
         "checkout_with": "Zaplatit pomocí",

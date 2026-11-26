@@ -8,7 +8,7 @@
         "Success!": "Сәтті өтті!"
     },
     "actions": {
-        "edit": "Өзгеру",
+        "edit": "Өңдеу",
         "cancel": "Бас тарту",
         "continue_shopping": "Сатып алуды жалғастыру",
         "back_to_checkout": "Кассаға оралу",
@@ -40,10 +40,10 @@
         "increment_quantity": "Санын көбейту",
         "remove_item": "Затты алып тастау",
         "recurrence": {
-            "daily": "күн |||| %{smart_count} күндер",
-            "weekly": "апта |||| %{smart_count} апталар",
-            "monthly": "ай |||| %{smart_count} айлар",
-            "yearly": "жыл |||| %{smart_count} жылдар"
+            "daily": "күн |||| %{smart_count} күн",
+            "weekly": "апта |||| %{smart_count} апта",
+            "monthly": "ай |||| %{smart_count} ай",
+            "yearly": "жыл |||| %{smart_count} жыл"
         }
     },
     "subscription": {
@@ -264,7 +264,7 @@
     "cart_summary": {
         "taxes": "Салықтар",
         "taxes_included_in_price": "Кейбір тауарларға салық қосылған.",
-        "total": "Жалпы",
+        "total": "Барлығы",
         "subtotal": "Қосынды",
         "shipping": "Жеткізу",
         "discount": "Жеңілдіктер",
@@ -355,7 +355,7 @@
             "E.HOUSE_NUMBER.INVALID": "Үй нөмірі жарамсыз.",
             "E.STREET.MISSING": "Көше атауы көрсетілмеген.",
             "E.STREET.INVALID": "Көше атауы жарамсыз.",
-            "E.BOX_NUMBER.MISSING": "Қорап нөмірі көрсетілмеген.",
+            "E.BOX_NUMBER.MISSING": "Абоненттік жәшік нөмірі көрсетілмеген.",
             "E.BOX_NUMBER.INVALID": "Қорап нөмірі жарамсыз.",
             "E.ADDRESS.INVALID": "Қала/штат/ZIP коды жарамсыз.",
             "E.ZIP.NOT_FOUND": "ZIP коды табылмады.",

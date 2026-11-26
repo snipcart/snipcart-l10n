@@ -137,7 +137,7 @@
         "no_orders": "ご注文が見つかりませんでした。",
         "no_subscriptions": "サブスクリプションが見つかりませんでした。",
         "view_invoice": "請求書を表示",
-        "sign_out": "サインアウト",
+        "sign_out": "ログアウト",
         "show_more_orders": "%{smart_count} 件以上の注文 |||| %{smart_count} 件以上の注文を表示",
         "show_more_subscriptions": "%{smart_count} 件以上のサブスクリプションを表示 |||| %{smart_count} 件以上のサブスクリプションを表示",
         "orders": "ご注文",
@@ -428,7 +428,7 @@
         "shipping_taxes_calculated_when_address_provided": "送料と税は、配送先ご入力後に確定します。"
     },
     "withdrawal_form": {
-        "title": "契約からの撤回",
+        "title": "契約の撤回",
         "instructions": "EU消費者権利指令に基づく撤回をご希望の場合は、ご注文情報をご入力ください。",
         "name": "お名前",
         "order_id": "注文ID／請求書番号",

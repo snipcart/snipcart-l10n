@@ -311,7 +311,7 @@
             },
             "shipping_validation": {
                 "title": "Não foi possível validar o método de envio.",
-                "description": "O portes selecionado pode ter mudado ou já não está disponível."
+                "description": "Os portes selecionados podem ter mudado ou já não estar disponíveis. Contacte o proprietário da loja para mais informações."
             }
         },
         "invalid_address": "A morada é inválida.",
