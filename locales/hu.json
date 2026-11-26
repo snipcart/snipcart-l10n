@@ -12,7 +12,7 @@
         "checkout": "Fizetés",
         "apply": "Alkalmaz",
         "dismiss": "Elvet",
-        "type_address": "Írd be a címed",
+        "type_address": "Írja be a címét",
         "use_this_address": "Cím használata",
         "back_to_store": "Vissza a boltba",
         "close_cart": "Kosár bezárása",
@@ -56,10 +56,10 @@
         "placed_on": "Kezdete:",
         "final_billing_date": "Utolsó számlázási időpont",
         "items": "Elemek",
-        "plan": "Terv",
+        "plan": "Csomag",
         "billed_on": "Számlázva:",
         "payment_amount": "Összeg",
-        "processing": "Előfizetés feldolgozás alatt. Gyere vissza később a részletekért.",
+        "processing": "Előfizetés feldolgozás alatt. Jöjjön vissza később a részletekért.",
         "loading": "Előfizetések betöltése",
         "cancel": "Megszüntet",
         "pause": "Szüneteltet",
@@ -74,25 +74,25 @@
     "cart": {
         "subtotal": "Részösszeg",
         "shipping_taxes_calculated_at_checkout": "A szállítási díjat és az áfát a pénztárnál adjuk hozzá.",
-        "loading": "Előkészítjük a kosarad...",
+        "loading": "Előkészítjük a kosarát...",
         "secured_by": "Snipcart által biztosítva",
         "summary": "Rendelés áttekintés",
-        "empty": "A kosarad üres.",
+        "empty": "A kosara üres.",
         "invoice_number": "Számlaszám",
         "view_detailed_cart": "Kosár részletes megtekintése"
     },
     "order": {
-        "loading": "Érkeznek rendelésed részletei...",
+        "loading": "Érkeznek rendelése részletei...",
         "title": "Rendelés"
     },
     "discount_box": {
-        "promo_code": "Van kuponod?",
+        "promo_code": "Van kuponja?",
         "promo_code_placeholder": "Kupon kód",
         "promocode_applied": "Kupon érvényesítve"
     },
     "address_form": {
         "name": "Teljes név",
-        "email": "Email cím",
+        "email": "E-mail-cím",
         "firstName": "Keresztnév",
         "lastName": "Vezetéknév",
         "address1": "Utca, házszám",
@@ -117,7 +117,7 @@
             "title": "Fizetési mód frissítése",
             "outstanding_payment_failed": {
                 "title": "Sikertelen fizetés",
-                "description": "A fizetési mód frissítve lett, azonban nem tudtuk levonni a fennmaradó összeget. Kérjük, használj másik fizetési módot."
+                "description": "A fizetési mód frissítve lett, azonban nem tudtuk levonni a fennmaradó összeget. Kérjük, használjon másik fizetési módot."
             }
         }
     },
@@ -134,12 +134,12 @@
         "order": "Rendelés %{invoice_number}",
         "order_details": "Rendelés részletei",
         "loading": "Betöltés...",
-        "no_orders": "Nincsenek rendeléseid.",
-        "no_subscriptions": "Nincsenek előfizetéseid.",
+        "no_orders": "Nincsenek rendelései.",
+        "no_subscriptions": "Nincsenek előfizetései.",
         "view_invoice": "Számla megtekintése",
         "sign_out": "Kijelentkezés",
-        "show_more_orders": "Mutass még %{smart_count} rendelést |||| Mutass még %{smart_count} rendelést",
-        "show_more_subscriptions": "Mutass még %{smart_count} előfizetést |||| Mutass még %{smart_count} előfizetést",
+        "show_more_orders": "Még %{smart_count} rendelés mutatása |||| Még %{smart_count} rendelés mutatása",
+        "show_more_subscriptions": "Még %{smart_count} előfizetés mutatása |||| Még %{smart_count} előfizetés mutatása",
         "orders": "Rendelések",
         "subscriptions": "Előfizetések",
         "subscription": "Előfizetés"
@@ -147,48 +147,48 @@
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "Előfizetésed összege esedékes",
-                "description": "Egy előfizetésednek lejárt a fizetési határideje. Kérjük, frissítsd a fizetési módot az adataidnál a Szerkesztés gombra kattintva."
+                "title": "Előfizetése összege esedékes",
+                "description": "Egy előfizetésének lejárt a fizetési határideje. Kérjük, frissítse a fizetési módot az adatainál a Szerkesztés gombra kattintva."
             }
         }
     },
     "signin_form": {
         "signin": "Bejelentkezés",
-        "dont_have_an_account": "Még nem regisztráltál?",
-        "email": "Email cím",
+        "dont_have_an_account": "Még nem regisztrált?",
+        "email": "E-mail-cím",
         "password": "Jelszó",
-        "forgot_your_password": "Elfelejtetted a jelszavad?",
+        "forgot_your_password": "Elfelejtette a jelszavát?",
         "close_form": "Vissza"
     },
     "forgot_password_form": {
-        "title": "Állítsd vissza a jelszavad",
-        "instructions": "Kérjük, írd be a fiókodhoz tartozó email címet és küldünk egy jelszóvisszaállító linket.",
-        "email": "Email cím",
-        "email_instructions": "Küldtünk egy emailt a jelszóvisszaállító linkkel. A linkre kattintva állítsd vissza jelszavad.",
+        "title": "Állítsa vissza a jelszavát",
+        "instructions": "Kérjük, írja be a fiókjához tartozó e-mail-címet, és küldünk egy jelszó-visszaállító linket.",
+        "email": "E-mail-cím",
+        "email_instructions": "Küldtünk egy emailt a jelszóvisszaállító linkkel. A linkre kattintva állítsa vissza jelszavát.",
         "action": "Jelszóvisszaállító email küldése"
     },
     "reset_password_form": {
-        "title": "Add meg az új jelszavad",
+        "title": "Adja meg az új jelszavát",
         "password": "Új jelszó",
         "confirmation_password": "Új jelszó megerősítése",
-        "action": "Megváltoztatom"
+        "action": "Jelszó visszaállítása"
     },
     "change_password_form": {
-        "title": "Változtasd meg a jelszavad",
+        "title": "Változtassa meg a jelszavát",
         "current_password": "Jelenlegi jelszó",
         "password": "Új jelszó",
         "confirmation_password": "Új jelszó megerősítése",
-        "action": "Megváltoztatom"
+        "action": "Jelszó megváltoztatása"
     },
     "register_form": {
         "register": "Regisztráció",
-        "already_have_an_account": "Már regisztráltál?",
-        "email": "Email cím",
+        "already_have_an_account": "Már regisztrált?",
+        "email": "E-mail-cím",
         "password": "Jelszó",
         "confirm_password": "Jelszó megerősítése",
         "requires_action": {
-            "title": "Nézd meg az email fiókodat",
-            "description": "Ez az email cím már szerepel egy korábbi rendelésnél. Kérjük, fejezd be a regisztrációt a linkre kattintva, melyet emailben küldtünk."
+            "title": "Nézze meg az email fiókját",
+            "description": "Ez az e-mail-cím már szerepel egy korábbi rendelésnél. Kérjük, fejezze be a regisztrációt az e-mailben küldött linkre kattintva."
         }
     },
     "guest_checkout": {
@@ -212,8 +212,8 @@
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Fizetés utánvéttel",
-            "deferred_payment_instructions": "A megrendelés elküldésével vállalom, hogy a rendelés átvitelekor az áru ellenértékét megfizetem.",
+            "deferred_payment_title": "Halasztott fizetés",
+            "deferred_payment_instructions": "A megrendelés elküldésével vállalja, hogy később, a kereskedő által megjelölt fizetési módon fizet.",
             "card_label": "Bankkártya",
             "card_number": "Bankkártya szám",
             "card_expiration": "HH/ÉÉ",
@@ -252,7 +252,7 @@
             "p24": "Przelewy24",
             "sepa_debit": "SEPA utalás",
             "sofort": "Sofort utalás",
-            "deferred_payment": "Fizetés utánvéttel"
+            "deferred_payment": "Fizetés később"
         }
     },
     "discounts": {
@@ -269,7 +269,7 @@
         "calculated_at_checkout": "Pénztárnál hozzáadva"
     },
     "errors": {
-        "default": "Hiba történt, próbáld később vagy vedd fel a kapcsolatot az áruház tulajdonosával.",
+        "default": "Hiba történt, próbálja később vagy vegye fel a kapcsolatot az áruház tulajdonosával.",
         "promo_code_is_invalid": "Ez a kupon nem érvényes",
         "promocode_already_in_cart": "Ezt a kupont már levontuk",
         "promocode_isnt_applicable": "Ez a kupon nem alkalmazható",
@@ -278,13 +278,13 @@
         "emailEmpty": "Mező kitöltése kötelező",
         "required": "Mező kitöltése kötelező",
         "invalid_expiry_year_past": "A kártya lejárt",
-        "email": "Kérjük, valós email címet adj meg",
-        "quantity_revised": "A mennyiség mennyiségi korlátozás miatt felülbírálva.",
-        "quantity_out_of_stock": "Sajnos a termék jelenleg nincs raktáron, kérjük, a folytatáshoz távolítsd el a terméket a kosárból.",
+        "email": "Kérjük, érvényes e-mail-címet adjon meg",
+        "quantity_revised": "A mennyiség a készlet korlátai miatt módosult.",
+        "quantity_out_of_stock": "Sajnos a termék jelenleg nincs raktáron, kérjük, a folytatáshoz távolítsa el a terméket a kosárból.",
         "disabled_country": "A kiválasztott ország nem elérhető a rendeléshez.",
         "error_payment_items_are_invalid": {
             "title": "Néhány termék a kosárban érvénytelen.",
-            "description": "Tekintsd át a rendelést, vagy próbálkozz később."
+            "description": "Tekintse át a rendelést, vagy próbálkozzon később."
         },
         "card": {
             "invalid_number": "A kártya száma érvénytelen.",
@@ -294,58 +294,58 @@
             "invalid_cvv": "A kártya CVV száma érvénytelen.",
             "invalid_expiration": "A kártya lejárati dátuma érvénytelen.",
             "expired": "A kártya lejárt",
-            "declined": "A kártya vissza lett utasítva. Kérjük, keresd fel a kártya kibocsájtóját.",
+            "declined": "A kártya vissza lett utasítva. Kérjük, keresse fel a kártya kibocsátóját.",
             "invalid_address": "A kártyához tartozó cím érvénytelen.",
             "insufficient_funds": "A kártyán lévő összeg nem elegendő a fizetés végrehajtásához.",
             "card_not_supported": "A kártya típusa nem támogatott ebben a régióban.",
             "currency_not_supported": "Ez a pénznem jelenleg nem támogatott."
         },
         "transaction": {
-            "declined": "Hiba történt a fizetés feldolgozása alatt. Kérjük, próbáld meg később vagy egy másik fizetési móddal."
+            "declined": "Hiba történt a fizetés feldolgozása alatt. Kérjük, próbálja meg később vagy egy másik fizetési móddal."
         },
         "discounts": {
-            "conflict": "Egyes kedvezmények nem érvényesíthetőek együtt. Inkább ezt a kedvezményt használod?"
+            "conflict": "Egyes kedvezmények nem érvényesíthetőek együtt. Inkább ezt a kedvezményt használja?"
         },
         "order_validation": {
             "domain_crawling": {
                 "title": "A megrendelést nem sikerült feldolgozni.",
-                "description": "A rendelés végösszegét nem vontuk le. Kérjük, vedd fel a kapcsolatot az áruház tulajdonosával."
+                "description": "A rendelés végösszegét nem vontuk le. Kérjük, vegye fel a kapcsolatot az áruház tulajdonosával."
             },
             "product_crawling": {
-                "title": "A termékek ára a kosaradban változhatott",
-                "description": "Próbáld meg eltávolítani majd újra hozzáadni a megvásárolni kívánt termékeket a kosárhoz."
+                "title": "A kosarában lévő termékek ára megváltozhatott.",
+                "description": "Próbálja meg eltávolítani, majd újra a kosarába tenni őket. A részletekért forduljon az üzlet tulajdonosához."
             },
             "stock_validation": {
                 "title": "Termékkészlet nem érhető el.",
-                "description": "Néhány termék nem elérhető a kiválasztott mennyiségben. Módosítsd a kívánt mennyiségeket."
+                "description": "Előfordulhat, hogy néhány termék nincs készleten a kiválasztott mennyiségben. Módosítsa a mennyiséget, vagy a részletekért forduljon az üzlet tulajdonosához."
             },
             "custom_fields_validation": {
                 "title": "Hiányzó információk.",
-                "description": "Néhány a kosárban található termékről hiányoznak a kötelezően kitöltendő információk. Kérjük, módosítsd a kosarat a folytatáshoz."
+                "description": "Néhány a kosárban található termékről hiányoznak a kötelezően kitöltendő információk. Kérjük, módosítsa a kosarat a folytatáshoz."
             },
             "shipping_validation": {
                 "title": "Szállítási mód nem érhető el.",
-                "description": "A kiválasztott szállítási díj megváltozott vagy nem elérhető. Kérjük, vedd fel a kapcsolatot az áruház tulajdonosával."
+                "description": "A kiválasztott szállítási díj megváltozott vagy nem elérhető. Kérjük, vegye fel a kapcsolatot az áruház tulajdonosával."
             }
         },
         "invalid_address": "A cím érvénytelen.",
         "shipping": {
             "account_configuration": {
                 "title": "Jelenleg egyik szállítási mód sem elérhető",
-                "description": "Próbálkozz később, vagy vedd fel a kapcsolatot az áruházzal."
+                "description": "Próbálkozzon később, vagy vegye fel a kapcsolatot az áruházzal."
             },
             "rates_calculation": {
                 "title": "Szállítási költség számítása nem sikerült",
-                "description": "Próbálkozz később, vagy vedd fel a kapcsolatot az áruházzal."
+                "description": "Próbálkozzon később, vagy vegye fel a kapcsolatot az áruházzal."
             },
             "no_rates_found": {
                 "title": "Nincs elérhető szállítási mód a rendeléshez",
-                "description": "Kérjük, ellenőrizd a szállítási címet, vagy vedd fel a kapcsolatot az áruházzal."
+                "description": "Kérjük, ellenőrizze a szállítási címet, vagy vegye fel a kapcsolatot az áruházzal."
             },
-            "E.COUNTRY.UNSUPPORTED": "Szállítás ebbe az országba nem támogatott.",
-            "E.ENGINE.UNAVAILABLE": "A szállítási szolgáltatás nem elérhető. Próbáld később.",
-            "E.QUERY.UNANSWERABLE": "A címet nem sikerült ellenőrizni. Ellenőrizd az adataidat.",
-            "E.ADDRESS.NOT_FOUND": "A cím nem található.",
+            "E.COUNTRY.UNSUPPORTED": "Az ország nem támogatott. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.ENGINE.UNAVAILABLE": "Hiba történt a cím ellenőrzése közben. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.QUERY.UNANSWERABLE": "Hiba történt a cím ellenőrzése közben. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.ADDRESS.NOT_FOUND": "A cím nem található. Ellenőrizze a címét, és próbálja újra.",
             "E.SECONDARY_INFORMATION.INVALID": "A kiegészítő címadatok érvénytelenek.",
             "E.SECONDARY_INFORMATION.MISSING": "Hiányzó kiegészítő címadatok.",
             "E.HOUSE_NUMBER.MISSING": "Hiányzó házszám.",
@@ -358,29 +358,29 @@
             "E.ZIP.NOT_FOUND": "Az irányítószám nem található.",
             "E.ZIP.INVALID": "Az irányítószám érvénytelen.",
             "E.ZIP.PLUS4.NOT_FOUND": "Az irányítószám kiterjesztése nem található.",
-            "E.ADDRESS.MULTIPLE": "Több cím is található. Adj meg pontosabb címet.",
-            "E.ADDRESS.INSUFFICIENT": "A címadatok hiányosak.",
-            "E.ADDRESS.DUAL": "A cím ellentmondó adatokat tartalmaz.",
-            "E.STREET.MAGNET": "Az utcanevet nem sikerült ellenőrizni.",
+            "E.ADDRESS.MULTIPLE": "Ugyanahhoz az irányítószámhoz több címet is találtunk.",
+            "E.ADDRESS.INSUFFICIENT": "Hibás cím. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.ADDRESS.DUAL": "Kettős cím. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.STREET.MAGNET": "Több címet találtunk az utcanév többértelműsége miatt. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
             "E.CITY_STATE.INVALID": "A város vagy megye érvénytelen.",
             "E.STATE.INVALID": "A megye érvénytelen.",
             "E.ADDRESS.DELIVERY.INVALID": "A szállítási cím érvénytelen.",
-            "E.TIMED_OUT": "A cím ellenőrzése időtúllépés miatt meghiúsult. Próbáld újra.",
-            "E.TIME_ZONE.UNAVAILABLE": "Az időzóna-információ nem elérhető.",
+            "E.TIMED_OUT": "Hiba történt a cím ellenőrzése közben. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
+            "E.TIME_ZONE.UNAVAILABLE": "Hiba történt a cím ellenőrzése közben. Próbálja újra később, vagy a részletekért forduljon hozzánk.",
             "E.PO_BOX.INTERNATIONAL": "A nemzetközi postafiók nem ellenőrizhető."
         },
         "payment_failed": {
             "title": "Nem sikerült feldolgozni a fizetést",
-            "description": "Kérjük, ellenőrizd a kártya adatait, vagy próbálkozz később újra."
+            "description": "Próbálja újra később, vagy forduljon hozzánk segítségért."
         },
         "payment_authorization": {
             "title": "Nem sikerült feldolgozni a fizetést",
-            "default": "Kérjük ellenőrizd a megadott adatokat, vagy próbálkozz később újra."
+            "default": "Kérjük, ellenőrizze a számlázási és fizetési adatokat."
         },
         "authentication_challenge": {
             "failed": {
                 "title": "Nem sikerült feldolgozni a fizetést",
-                "description": "Nem sikerült hitelesíteni fizetési adataid. Próbálkozz újra."
+                "description": "Nem sikerült hitelesíteni fizetési adatait. Próbálkozzon újra."
             }
         },
         "cart_items": {
@@ -393,17 +393,17 @@
                 "description": "A kosár csak termékeket vagy csak előfizetést tartalmazhat."
             }
         },
-        "customer_exists": "Ez az email cím már regisztrálva van.",
+        "customer_exists": "Ez az e-mail-cím már használatban van.",
         "customer_password_missmatch": "A jelszavak nem egyeznek.",
-        "customer_password_token_expired": "A jelszóvisszaállító tokened lejárt.",
-        "customer_password_token_invalid": "A jelszóvisszaállító tokened érvénytelen.",
-        "customer_not_found": "Ez az email cím nem tartozik egy fiókhoz sem.",
-        "invalid_credentials": "Rossz email cím vagy jelszó.",
+        "customer_password_token_expired": "A jelszóvisszaállító tokene lejárt.",
+        "customer_password_token_invalid": "A jelszóvisszaállító tokene érvénytelen.",
+        "customer_not_found": "Ez az e-mail-cím nem tartozik egy fiókhoz sem.",
+        "invalid_credentials": "Hibás e-mail-cím vagy jelszó.",
         "customer_current_password_invalid": "Helytelen jelszó.",
         "withdrawal": {
             "validation_failed": {
                 "title": "Nem tudtuk ellenőrizni az adatait.",
-                "description": "Ellenőrizd az email címed és a rendelésszámot, majd próbáld újra."
+                "description": "Ellenőrizze az e-mail-címét és a rendelésszámot, majd próbálja újra."
             },
             "confirm_failed": {
                 "title": "Nem tudtuk feldolgozni az elállási kérelmét.",
@@ -422,7 +422,7 @@
     },
     "confirmation": {
         "thank_you_for_your_order": "Köszönjük a rendelést",
-        "async_confirmation_notice": "Megrendelésed megérkezett, és jelenleg feldolgozás alatt áll. Hamarosan megkapod a visszaigazolást."
+        "async_confirmation_notice": "Megrendelése megérkezett, és jelenleg feldolgozás alatt áll. Hamarosan megkapja a visszaigazolást."
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "A szállítási díjat és az áfát a cím megadásakor adjuk hozzá."

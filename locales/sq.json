@@ -59,7 +59,7 @@
         "plan": "Plani",
         "billed_on": "Faturuar më",
         "payment_amount": "Shuma e pagesës",
-        "processing": "Abonimi është ende duke u përpunuar. Kthehuni më vonë për të parë detajet.",
+        "processing": "Abonimi është ende duke u përpunuar. Kthehu më vonë për të parë detajet.",
         "loading": "Duke ngarkuar abonimet",
         "cancel": "Anulo",
         "pause": "Pezullo",
@@ -74,15 +74,15 @@
     "cart": {
         "subtotal": "Nëntotali",
         "shipping_taxes_calculated_at_checkout": "Transporti dhe taksat do të llogariten gjatë pagesës.",
-        "loading": "Po përgatisim shportën tuaj...",
+        "loading": "Po përgatisim shportën tënde...",
         "secured_by": "Siguruar nga Snipcart",
         "summary": "Përmbledhja e porosisë",
-        "empty": "Shporta juaj është bosh.",
+        "empty": "Shporta jote është bosh.",
         "invoice_number": "Numri i faturës",
         "view_detailed_cart": "Shiko shportën e detajuar"
     },
     "order": {
-        "loading": "Po ngarkojmë detajet e porosisë suaj...",
+        "loading": "Po ngarkojmë detajet e porosisë sate...",
         "title": "Porosia"
     },
     "discount_box": {
@@ -117,7 +117,7 @@
             "title": "Përditësimi i metodës së pagesës",
             "outstanding_payment_failed": {
                 "title": "Pagesa dështoi",
-                "description": "Metoda juaj e pagesës u përditësua, megjithatë, nuk mundëm të ngarkojmë balancën e papaguar. Ju lutem përdorni një metodë tjetër pagese."
+                "description": "Metoda jote e pagesës u përditësua, megjithatë, nuk mundëm të ngarkojmë balancën e papaguar. Të lutem përdor një metodë tjetër pagese."
             }
         }
     },
@@ -148,23 +148,23 @@
         "subscription": {
             "outstanding_payment": {
                 "title": "Një pagesë është e vonuar për një abonim",
-                "description": "Aktualisht keni një abonim me pagesë të vonuar. Ju lutem përditësoni metodën tuaj të pagesës duke klikuar Ndrysho pranë saj në detajet tuaja."
+                "description": "Aktualisht ke një abonim me pagesë të vonuar. Të lutem përditëso metodën tënde të pagesës duke klikuar Ndrysho pranë saj në detajet e tua."
             }
         }
     },
     "signin_form": {
         "signin": "Identifikohu",
-        "dont_have_an_account": "Nuk keni llogari?",
+        "dont_have_an_account": "Nuk ke llogari?",
         "email": "Email",
         "password": "Fjalëkalimi",
-        "forgot_your_password": "Keni harruar fjalëkalimin?",
+        "forgot_your_password": "Ke harruar fjalëkalimin?",
         "close_form": "Kthehu mbrapa"
     },
     "forgot_password_form": {
         "title": "Rikupero fjalëkalimin tënd",
-        "instructions": "Shkruani emailin e llogarisë suaj dhe do t'ju dërgojmë një lidhje për rivendosjen e fjalëkalimit.",
+        "instructions": "Shkruaj emailin e llogarisë sate dhe do të të dërgojmë një lidhje për rivendosjen e fjalëkalimit.",
         "email": "Email",
-        "email_instructions": "Një email me një lidhje ju është dërguar. Klikoni mbi të për të rivendosur fjalëkalimin tuaj.",
+        "email_instructions": "Një email me një lidhje të është dërguar. Kliko mbi të për të rivendosur fjalëkalimin tënd.",
         "action": "Dërgo emailin e rivendosjes së fjalëkalimit"
     },
     "reset_password_form": {
@@ -182,13 +182,13 @@
     },
     "register_form": {
         "register": "Regjistrohu",
-        "already_have_an_account": "Keni tashmë një llogari?",
+        "already_have_an_account": "Ke tashmë një llogari?",
         "email": "Email",
         "password": "Fjalëkalimi",
         "confirm_password": "Konfirmo Fjalëkalimin",
         "requires_action": {
-            "title": "Kontrolloni emailet tuaja",
-            "description": "Kjo adresë emaili është përdorur tashmë për të përfunduar një porosi. Ju lutem përfundoni procesin e regjistrimit duke përdorur lidhjen e dërguar me email."
+            "title": "Kontrollo emailet e tua",
+            "description": "Kjo adresë emaili është përdorur tashmë për të përfunduar një porosi. Të lutem përfundo procesin e regjistrimit duke përdorur lidhjen e dërguar me email."
         }
     },
     "guest_checkout": {
@@ -196,7 +196,7 @@
         "continue_as_a_guest": "Vazhdo si vizitor"
     },
     "express_checkout": {
-        "processing": "Po përpunohet pagesa juaj…"
+        "processing": "Po përpunohet pagesa jote…"
     },
     "shipping": {
         "title": "Transporti",
@@ -213,7 +213,7 @@
     "payment": {
         "form": {
             "deferred_payment_title": "Pagesë e shtyrë",
-            "deferred_payment_instructions": "Duke vendosur këtë porosi, ju pranoni të paguani më vonë përmes metodës së pagesës së identifikuar nga tregtari.",
+            "deferred_payment_instructions": "Duke vendosur këtë porosi, ti pranon të paguash më vonë përmes metodës së pagesës së identifikuar nga tregtari.",
             "card_label": "Kartë krediti",
             "card_number": "Numri i kartës",
             "card_expiration": "MM/VV",
@@ -224,7 +224,7 @@
             "invalid_cvv": "CVV është i pavlefshëm",
             "invalid_postal_code": "Kodi postar është i pavlefshëm"
         },
-        "still_pending_notice": "Pagesa juaj është ende duke u përpunuar.",
+        "still_pending_notice": "Pagesa jote është ende duke u përpunuar.",
         "title": "Pagesa",
         "continue_to_payment": "Vazhdo te pagesa",
         "credit_card": "Kartë krediti",
@@ -269,7 +269,7 @@
         "calculated_at_checkout": "Llogaritet gjatë pagesës"
     },
     "errors": {
-        "default": "Ndodhi një gabim, provoni përsëri më vonë ose na kontaktoni.",
+        "default": "Ndodhi një gabim, provo përsëri më vonë ose na kontakto.",
         "promo_code_is_invalid": "Ky kod promocional nuk është i vlefshëm",
         "promocode_already_in_cart": "Ky kod promocional është aplikuar tashmë",
         "promocode_isnt_applicable": "Ky kod promocional nuk është i vlefshëm",
@@ -278,13 +278,13 @@
         "emailEmpty": "Kjo fushë është e detyrueshme",
         "required": "Kjo fushë është e detyrueshme",
         "invalid_expiry_year_past": "Karta ka skaduar",
-        "email": "Ju lutem jepni një adresë emaili të vlefshme",
+        "email": "Të lutem jep një adresë emaili të vlefshme",
         "quantity_revised": "Sasia është rishikuar për shkak të kufizimeve të stokut.",
-        "quantity_out_of_stock": "Fatkeqësisht, ky artikull nuk është në stok, hiqeni nga shporta për të vazhduar.",
+        "quantity_out_of_stock": "Fatkeqësisht, ky artikull nuk është në stok, hiqe nga shporta për të vazhduar.",
         "disabled_country": "Shteti i zgjedhur nuk është i disponueshëm për pagesë.",
         "error_payment_items_are_invalid": {
-            "title": "Disa artikuj në shportën tuaj janë të pavlefshëm",
-            "description": "Ju lutem rishikoni porosinë tuaj, ose provoni përsëri më vonë."
+            "title": "Disa artikuj në shportën tënde janë të pavlefshëm",
+            "description": "Të lutem rishiko porosinë tënde, ose provo përsëri më vonë."
         },
         "card": {
             "invalid_number": "Numri i kartës është i pavlefshëm.",
@@ -294,14 +294,14 @@
             "invalid_cvv": "CVV i kartës është i pavlefshëm.",
             "invalid_expiration": "Data e skadimit të kartës është e pavlefshme.",
             "expired": "Karta e kreditit ka skaduar",
-            "declined": "Karta është refuzuar. Ju lutem kontaktoni emetuesin e kartës për më shumë informacion.",
+            "declined": "Karta është refuzuar. Të lutem kontakto emetuesin e kartës për më shumë informacion.",
             "invalid_address": "Adresa e kartës është e pasaktë.",
             "insufficient_funds": "Llogaria nuk kishte fonde të mjaftueshme për të mbuluar shumën e transaksionit.",
             "card_not_supported": "Karta nuk mbështetet në rajonin gjeografik.",
             "currency_not_supported": "Monedha nuk mbështetet aktualisht."
         },
         "transaction": {
-            "declined": "Ndodhi një gabim gjatë përpunimit të kartës. Provoni përsëri më vonë ose me një metodë tjetër pagese."
+            "declined": "Ndodhi një gabim gjatë përpunimit të kartës. Provo përsëri më vonë ose me një metodë tjetër pagese."
         },
         "discounts": {
             "conflict": "Disa zbritje nuk mund të kombinohen. Të përdoret kjo zbritje në vend?"
@@ -309,43 +309,43 @@
         "order_validation": {
             "domain_crawling": {
                 "title": "Porosia nuk mund të përpunohej.",
-                "description": "Nuk ju është marrë asnjë pagesë. Ju lutem kontaktoni pronarin e dyqanit për detaje."
+                "description": "Nuk të është marrë asnjë pagesë. Të lutem kontakto pronarin e dyqanit për detaje."
             },
             "product_crawling": {
                 "title": "Çmimi i produkteve në shportë mund të ketë ndryshuar.",
-                "description": "Provoni t'i hiqni dhe shtoni përsëri në shportë. Ju lutem kontaktoni pronarin e dyqanit për detaje."
+                "description": "Provo t'i heqësh dhe t'i shtosh përsëri në shportë. Të lutem kontakto pronarin e dyqanit për detaje."
             },
             "stock_validation": {
                 "title": "Stoku i produktit nuk është i disponueshëm.",
-                "description": "Disa produkte mund të jenë jashtë stokut për sasinë e zgjedhur. Rishikoni sasinë ose kontaktoni pronarin e dyqanit për detaje."
+                "description": "Disa produkte mund të jenë jashtë stokut për sasinë e zgjedhur. Rishiko sasinë ose kontakto pronarin e dyqanit për detaje."
             },
             "custom_fields_validation": {
                 "title": "Informacion i detyrueshëm mungon.",
-                "description": "Disa produkteve në shportë u mungojnë informacione të detyrueshme. Ju lutem ndryshoni shportën për të vazhduar."
+                "description": "Disa produkteve në shportë u mungojnë informacione të detyrueshme. Të lutem ndrysho shportën për të vazhduar."
             },
             "shipping_validation": {
                 "title": "Metoda e transportit nuk mund të verifikohej.",
-                "description": "Tarifa e transportit e zgjedhur mund të ketë ndryshuar ose nuk është e disponueshme. Ju lutem kontaktoni pronarin e dyqanit për detaje."
+                "description": "Tarifa e transportit e zgjedhur mund të ketë ndryshuar ose nuk është e disponueshme. Të lutem kontakto pronarin e dyqanit për detaje."
             }
         },
         "invalid_address": "Adresa është e pavlefshme.",
         "shipping": {
             "account_configuration": {
                 "title": "Asnjë metodë transporti nuk është aktualisht e disponueshme",
-                "description": "Provoni përsëri më vonë, ose na kontaktoni për mbështetje."
+                "description": "Provo përsëri më vonë, ose na kontakto për mbështetje."
             },
             "rates_calculation": {
-                "title": "Nuk mundëm të llogarisim transportin për porosinë tuaj",
-                "description": "Provoni përsëri më vonë, ose na kontaktoni për mbështetje."
+                "title": "Nuk mundëm të llogarisim transportin për porosinë tënde",
+                "description": "Provo përsëri më vonë, ose na kontakto për mbështetje."
             },
             "no_rates_found": {
-                "title": "Asnjë metodë transporti nuk është e disponueshme për porosinë tuaj",
-                "description": "Ju lutem rishikoni adresën tuaj të transportit ose na kontaktoni."
+                "title": "Asnjë metodë transporti nuk është e disponueshme për porosinë tënde",
+                "description": "Të lutem rishiko adresën tënde të transportit ose na kontakto."
             },
-            "E.COUNTRY.UNSUPPORTED": "Shteti nuk mbështetet. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.ENGINE.UNAVAILABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.QUERY.UNANSWERABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.ADDRESS.NOT_FOUND": "Adresa nuk u gjet. Ju lutem verifikoni adresën tuaj dhe provoni përsëri.",
+            "E.COUNTRY.UNSUPPORTED": "Shteti nuk mbështetet. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.ENGINE.UNAVAILABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.QUERY.UNANSWERABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.ADDRESS.NOT_FOUND": "Adresa nuk u gjet. Të lutem verifiko adresën tënde dhe provo përsëri.",
             "E.SECONDARY_INFORMATION.INVALID": "Informacion dytësor i pavlefshëm (Ap/Njësi#).",
             "E.SECONDARY_INFORMATION.MISSING": "Informacion dytësor mungon (Ap/Njësi#).",
             "E.HOUSE_NUMBER.MISSING": "Numri i shtëpisë mungon.",
@@ -359,28 +359,28 @@
             "E.ZIP.INVALID": "Kodi ZIP i pavlefshëm.",
             "E.ZIP.PLUS4.NOT_FOUND": "Kodi ZIP + 4 nuk u gjet.",
             "E.ADDRESS.MULTIPLE": "U kthyen adresa të shumta me të njëjtin kod ZIP.",
-            "E.ADDRESS.INSUFFICIENT": "Adresë e pasaktë. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.ADDRESS.DUAL": "Adresë e dyfishtë. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.STREET.MAGNET": "U gjetën adresa të shumta për shkak të sindromës së rrugës magnet. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
+            "E.ADDRESS.INSUFFICIENT": "Adresë e pasaktë. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.ADDRESS.DUAL": "Adresë e dyfishtë. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.STREET.MAGNET": "U gjetën adresa të shumta për shkak të sindromës së rrugës magnet. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
             "E.CITY_STATE.INVALID": "Qytet / shtet i paverifikueshëm.",
             "E.STATE.INVALID": "Shtet i pavlefshëm.",
             "E.ADDRESS.DELIVERY.INVALID": "Adresë dorëzimi e pavlefshme.",
-            "E.TIMED_OUT": "Ndodhi një gabim gjatë verifikimit të adresës. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
-            "E.TIME_ZONE.UNAVAILABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Ju lutem provoni përsëri më vonë ose na kontaktoni për më shumë detaje.",
+            "E.TIMED_OUT": "Ndodhi një gabim gjatë verifikimit të adresës. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
+            "E.TIME_ZONE.UNAVAILABLE": "Ndodhi një gabim gjatë verifikimit të adresës. Të lutem provo përsëri më vonë ose na kontakto për më shumë detaje.",
             "E.PO_BOX.INTERNATIONAL": "Nuk mund të verifikohet kutia postare ndërkombëtare."
         },
         "payment_failed": {
             "title": "Nuk mundëm të përpunojmë pagesën",
-            "description": "Provoni përsëri më vonë, ose na kontaktoni për mbështetje."
+            "description": "Provo përsëri më vonë, ose na kontakto për mbështetje."
         },
         "payment_authorization": {
             "title": "Nuk mundëm të përpunojmë pagesën",
-            "default": "Ju lutem rishikoni informacionin e faturimit dhe pagesës."
+            "default": "Të lutem rishiko informacionin e faturimit dhe pagesës."
         },
         "authentication_challenge": {
             "failed": {
                 "title": "Nuk mundëm të përpunojmë pagesën",
-                "description": "Nuk mundëm të autentikojmë informacionin tuaj të pagesës. Ju lutem provoni përsëri"
+                "description": "Nuk mundëm të autentikojmë informacionin tënd të pagesës. Të lutem provo përsëri"
             }
         },
         "cart_items": {
@@ -395,19 +395,19 @@
         },
         "customer_exists": "Ky email është përdorur tashmë.",
         "customer_password_missmatch": "Dy fjalëkalimet duhet të përputhen.",
-        "customer_password_token_expired": "Tokeni juaj i rikuperimit të fjalëkalimit ka skaduar.",
-        "customer_password_token_invalid": "Tokeni juaj i rikuperimit të fjalëkalimit është i pavlefshëm.",
+        "customer_password_token_expired": "Tokeni yt i rikuperimit të fjalëkalimit ka skaduar.",
+        "customer_password_token_invalid": "Tokeni yt i rikuperimit të fjalëkalimit është i pavlefshëm.",
         "customer_not_found": "Adresa e emailit nuk është e lidhur me asnjë llogari.",
         "invalid_credentials": "Email ose fjalëkalim i pavlefshëm.",
         "customer_current_password_invalid": "Fjalëkalim i pavlefshëm.",
         "withdrawal": {
             "validation_failed": {
-                "title": "Nuk arritëm të verifikojmë të dhënat tuaja.",
+                "title": "Nuk arritëm të verifikojmë të dhënat e tua.",
                 "description": "Kontrollo emailin dhe numrin e porosisë, pastaj provo përsëri."
             },
             "confirm_failed": {
-                "title": "Nuk arritëm të përpunojmë kërkesën tuaj për tërheqje.",
-                "description": "Ju lutemi provoni përsëri ose kontaktoni tregtarin."
+                "title": "Nuk arritëm të përpunojmë kërkesën tënde për tërheqje.",
+                "description": "Të lutem provo përsëri ose kontakto tregtarin."
             }
         }
     },
@@ -421,16 +421,16 @@
         "download": "Shkarko skedarin"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Faleminderit për porosinë tuaj",
-        "async_confirmation_notice": "Porosia juaj është vendosur dhe aktualisht po përpunohet. Do të merrni një konfirmim së shpejti."
+        "thank_you_for_your_order": "Faleminderit për porosinë tënde",
+        "async_confirmation_notice": "Porosia jote është vendosur dhe aktualisht po përpunohet. Do të marrësh një konfirmim së shpejti."
     },
     "checkout": {
         "shipping_taxes_calculated_when_address_provided": "Transporti dhe taksat do të llogariten pasi të jepet një adresë."
     },
     "withdrawal_form": {
         "title": "Tërheqja nga kontrata",
-        "instructions": "Vendosni të dhënat e porosisë suaj për të paraqitur një kërkesë për tërheqje sipas Direktivës për të drejtat e konsumatorëve të BE-së.",
-        "name": "Emri juaj",
+        "instructions": "Vendos të dhënat e porosisë sate për të paraqitur një kërkesë për tërheqje sipas Direktivës për të drejtat e konsumatorëve të BE-së.",
+        "name": "Emri yt",
         "order_id": "Numri i porosisë / numri i faturës",
         "email": "Adresa e emailit",
         "continue": "Vazhdo"
@@ -438,22 +438,22 @@
     "withdrawal_confirm": {
         "title": "Konfirmo tërheqjen",
         "warning_title": "Vërejtje",
-        "warning_message": "Kjo porosi është jashtë periudhës 14-ditore të tërheqjes. Tregtari do ta shqyrtojë kërkesën tuaj.",
+        "warning_message": "Kjo porosi është jashtë periudhës 14-ditore të tërheqjes. Tregtari do ta shqyrtojë kërkesën tënde.",
         "order_details": "Detajet e porosisë",
         "order_number": "Numri i porosisë:",
         "order_date": "Data e porosisë:",
         "order_total": "Totali i porosisë:",
-        "items_title": "Zgjidhni artikujt për t’u tërhequr",
+        "items_title": "Zgjidh artikujt për t’u tërhequr",
         "withdraw_all": "Tërhiqu nga të gjithë artikujt (rimbursim i plotë)",
         "refund_amount": "Rimbursimi i parashikuar:",
         "refund_amount_notice": "Ky vlerësim është vetëm për qëllime informuese. Shuma e rimbursuar në fakt mund të ndryshojë pasi të merren parasysh taksat, zbritjet dhe shpenzimet e transportit.",
         "back": "Mbrapa",
         "confirm": "Konfirmo tërheqjen",
-        "legal_notice": "Duke konfirmuar, ju po ushtroni të drejtën tuaj për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh."
+        "legal_notice": "Duke konfirmuar, ti po ushtron të drejtën tënde për t’u tërhequr nga kjo kontratë sipas Direktivës për të drejtat e konsumatorëve të BE-së. Rimbursimet përpunohen brenda 14 ditësh."
     },
     "withdrawal_success": {
         "title": "Kërkesa për tërheqje u dorëzua",
-        "message": "Kërkesa juaj për tërheqje u dorëzua me sukses. Së shpejti do të merrni një email konfirmimi.",
+        "message": "Kërkesa jote për tërheqje u dorëzua me sukses. Së shpejti do të marrësh një email konfirmimi.",
         "confirmation_number": "Numri i konfirmimit:",
         "submitted_at": "Dorëzuar:",
         "refund_amount": "Rimbursimi i parashikuar:",

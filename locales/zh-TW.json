@@ -176,7 +176,6 @@
         "action": "設定新密碼"
     },
     "change_password_form": {
-        "title": "修改你的密碼",
         "current_password": "目前密碼",
         "password": "新密碼",
         "confirmation_password": "確認密碼",
@@ -295,9 +294,6 @@
         "transaction": {
             "declined": "此卡片被發卡銀行拒絕交易，請稍後再試一次或是換張信用卡，如果還是不行，請聯絡您的發卡銀行。"
         },
-        "discounts": {
-            "conflict": "部分折扣無法一起使用，你要改使用新的折扣嗎？"
-        },
         "order_validation": {
             "domain_crawling": {
                 "title": "訂單驗證失敗",
@@ -316,8 +312,7 @@
                 "description": "購物車內的部分商品缺少了必要資訊，請確認填寫完畢後再送出"
             },
             "shipping_validation": {
-                "title": "寄送方法有誤",
-                "description": "你選擇的寄送方法可能已經不再提供，或是運費計算的方式已經失效，麻煩請聯絡客服人員"
+                "title": "寄送方法有誤"
             }
         },
         "invalid_address": "地址無效。",
